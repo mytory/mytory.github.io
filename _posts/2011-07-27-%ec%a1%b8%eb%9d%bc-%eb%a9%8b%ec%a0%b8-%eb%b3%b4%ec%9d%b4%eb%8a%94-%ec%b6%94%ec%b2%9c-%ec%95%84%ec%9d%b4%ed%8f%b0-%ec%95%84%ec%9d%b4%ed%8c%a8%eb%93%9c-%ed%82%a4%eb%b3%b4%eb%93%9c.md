@@ -1,0 +1,33 @@
+---
+title: '[아이폰/아이패드] 유용해 보이지만 비싼 거치대'
+author: 녹풍(綠風, Windgreen)
+layout: post
+permalink: /archives/1520
+aktt_notify_twitter:
+  - yes
+daumview_id:
+  - 36692388
+categories:
+  - 기타
+tags:
+  - iPhone
+---
+<del datetime="2011-07-27T09:03:28+00:00">졸라 멋져 보이는 아이폰 아이패드 키보드가 나왔다. 20불이다. 나도 기회 되면 살까 생각 중이다.</del>
+
+[지난 번에 잘못 알고 쓴 거라 정정해서 다시 내보낸다.]
+
+아이폰 아이패드 키보드와 연결해 사용할 수 있게 해 주는 거치대가 나왔다. 거치대 자체는 쓸만한 것 같은데, 거치대가 20불이라니 좀 그렇다.
+
+처음엔 키보드가 20불인 줄 알았는데, 자세히 보니까 거치대가 20불이었던 것이다. 고로 비추다. 혼란을 드려 죄송. 앞으론 좀 더 자세히 알아 보고 쓰도록 하겠다.
+
+[▶소개한 글 바로 가기][1]
+
+거치대의 활용예는 아래와 같다. **절대 오해 마시라. 키보드가 20불인 게 아니다. 나도 그렇게 오해해 잘못 소개한 것이었다.** 아래 사진의 키보드는 애플 정품 블루투스 키보드이며, 이 거치대는 얘랑만 호환된다.
+
+[<img class="alignnone size-full" src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/2011/07/20110725-044545.jpg" alt="20110725-044545.jpg" />][2]
+
+[<img class="alignnone size-full" src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/2011/07/20110725-044601.jpg" alt="20110725-044601.jpg" />][3]
+
+ [1]: http://iphoneblog.co.kr/995
+ [2]: http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/2011/07/20110725-044545.jpg
+ [3]: http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/2011/07/20110725-044601.jpg

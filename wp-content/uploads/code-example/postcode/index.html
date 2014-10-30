@@ -1,0 +1,24 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>우편번호 예제</title>
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script src="zipsearch.js"></script>
+</head>
+<body>
+<form action="zipsearch-action.php" method="post">
+	<div class="zipcode-finder">
+		<label for="dongName">동/리/건물명:</label><input id="dongName" type="search" />
+		<input type="button" class="zipcode-search button white small" value="검색"/>
+		<div class="zipcode-search-result">
+		</div>
+	</div>
+	
+	<input name="zipcode1" id="zipcode1" type="text" size="3" maxlength="3" /> -
+	<input name="zipcode2" id="zipcode2" type="text" size="3" maxlength="3" />
+	주소: <input type="text" class="input" name="OrdAddr" style="width:500px"/>
+</form>
+<a href="postcode.7z">▶코드 다운로드</a>
+</body>
+</html>

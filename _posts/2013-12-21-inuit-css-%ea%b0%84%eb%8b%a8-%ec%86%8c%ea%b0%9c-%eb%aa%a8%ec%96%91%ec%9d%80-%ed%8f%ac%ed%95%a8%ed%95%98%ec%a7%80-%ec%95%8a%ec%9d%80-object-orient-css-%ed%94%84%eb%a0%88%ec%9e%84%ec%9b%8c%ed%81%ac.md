@@ -1,0 +1,328 @@
+---
+title: 'inuit.css 소개 &#8211; 외양에 관여하지 않는 OOCSS 프레임워크'
+author: 녹풍(綠風, Windgreen)
+layout: post
+permalink: /archives/12036
+mytory_md_path:
+  - http://dl.dropboxusercontent.com/u/15546257/mytory-md-content/12036-inuitcss.md
+daumview_id:
+  - 51860759
+categories:
+  - 웹 퍼블리싱
+tags:
+  - CSS
+  - inuit.css
+  - OOCSS
+  - Sass
+---
+CSS 프레임워크를 사용하면 효율도 향상되고, 구조도 깔끔해진다는 이야기를 여러 군데서 읽었다. 그래서 한 번 사용해 보기로 생각하고 여러 프레임워크를 찾아 봤다.
+
+그 때쯤 [OOCSS][1]에 대해서도 알게 됐었다. CSS를 모듈 방식으로 짜서 중복을 최소화하는 CSS 코딩 기법이었다. 마음에 쏙 들었다. 그래서 OOCSS를 차용한 CSS 프레임워크를 찾았다. 두 개를 발견했는데 inuit.css가 맘에 들었다. cascasde라는 신생 OOCSS 프레임워크는 디자인을 포함하고 있어 매력적이지 않았다. inuit.css는 디자인을 배제한 채로 틀만 제공하는 CSS 프레임워크였다.
+
+*   [inuit.css 웹사이트][2]
+*   [inuit.css Github 페이지][3]
+*   [CSS Wizardry &#8211; inuit.css 개발자 블로그, 읽을 거리가 많다][4]
+
+inuit.css는 IE8까지만 지원한다. IE7까지 지원하고 싶다면 [v4.1.5][5]를 사용해야 한다.
+
+## 디자인을 배제한 채 틀만 제공하기 때문에 생기는 장점
+
+트위터의 부트스트랩을 생각해 보자. 내비게이션 스타일, 버튼 스타일, 폼 스타일 등이 정해져 있다. 미리 정의된 CSS를 붙이기만 하면 디자인은 알아서 따라온다. jQueryUI도 마찬가지다. 이미 디자인이 돼 있다. 테마를 스스로 제작할 수 있도록 테마 롤러가 준비돼 있어 다양한 색을 사용할 수 있지만 전체 스타일을 변경하기란 힘들다.
+
+그런데 흔히 웹사이트를 제작할 때, 디자인은 디자이너가 한다. 부트스트랩이나 jQueryUI를 디자이너의 디자인에 맞춰서 커스터마이징하는 건 어렵고 삽질인데다가 죄악이다. (죄악이라는 건 유지보수 용이성을 엄청나게 희생하게 될 게 뻔하기 때문에.) 미리 디자인돼 있는 프레임워크를 원한다면 부트스트랩이나 jQueryUI를 사용하면 될 테지만, 디자이너의 디자인을 구현하는 경우가 더 많다면 디자인이 포함돼 있지 않은 CSS 프레임워크를 골라야 한다. inuit.css가 바로 그런 프레임워크다.
+
+## 포함하고 있는 모듈들
+
+이 프레임워크를 이용하면 어떤 장점이 있는지 알아야 할 거다.
+
+### grid 모듈
+
+레이아웃 안 잡는 웹사이트는 없다. 레이아웃은 CSS 프레임워크가 기본적으로 제공해야 하는 기능이고, 당연히 inuit.css도 레이아웃 기능을 제공한다. ([inuit.css의 그리드 예제][6])
+
+1:3으로 화면을 분할하는 레이아웃은 아래처럼 잡는다.
+
+    <div class="grid">
+        <div class="grid__item one-quarter">
+            사이드바나 뭐 그런 거
+        </div><!--
+    
+        --><div class="grid__item three-quarters">
+            본문 영역
+        </div>
+    </div>
+    
+
+(주의할 점이 있다. `</div>`와 `<div class="grid__item three-quarters">` 사이에 `<!-- -->` 이렇게 주석 처리가 들어가 있다. inuit.css는 그리드를 나눌 때 `inline-block`을 사용한다. 요소 사이에 공백이 들어가면 그리드가 깨지게 된다. 그래서 주석처리로 공백을 없애는 것이다.)
+
+써 보면 알겠지만, 레이아웃을 잡는 게 진짜 편해 진다. 레이아웃 안의 레이아아웃을 잡는 경우도 많으니까. 그 때마다 CSS를 건드릴 거 없이 그냥 프레임워크에 정의돼 있는 클래스를 가져다 사용하면 된다.
+
+사용해 보면 알겠지만, 여백도 기본으로 들어간다.
+
+여백 너비는 설정에서 정한다. 설정 방법은 아래쪽에서 설명한다. 일단 장점이나 좀 더 보자.
+
+### 이미지 목록 같은 데 사용하는 multi-list 모듈
+
+상품을 진열할 때 이미지 목록을 많이 사용한다. 이건 여러 군데서 반복되는 패턴이다. 큰 이미지 목록도 있을 수 있고 작은 이미지 목록도 있을 수 있다. inuit.css는 `multi-list`라는 클래스로 이걸 단박에 해결한다. 졸라 편하다. ([inuit.css의 `.multi-list`예제 보기][7])
+
+아래 예제를 보자.
+
+    <div class="image-list">
+      <ul class="multi-list five-cols">
+        <li><img src="http://lorempixel.com/100/100/"></li>
+        <li><img src="http://lorempixel.com/100/100/"></li>
+        <li><img src="http://lorempixel.com/100/100/"></li>
+        <li><img src="http://lorempixel.com/100/100/"></li>
+        <li><img src="http://lorempixel.com/100/100/"></li> 
+        <li><img src="http://lorempixel.com/100/100/"></li>
+        <li><img src="http://lorempixel.com/100/100/"></li> 
+        <li><img src="http://lorempixel.com/100/100/"></li>
+        <li><img src="http://lorempixel.com/100/100/"></li>
+        <li><img src="http://lorempixel.com/100/100/"></li>
+        <li><img src="http://lorempixel.com/100/100/"></li>
+        <li><img src="http://lorempixel.com/100/100/"></li> 
+      </ul>
+    </div>
+    
+
+위 코드의 결과는 아래와 같다.
+
+<pre class="codepen"data-height="334"data-type="result"data-href="gJFlj"data-user="mytory"data-safe="true"><code></code><a href="http://codepen.io/mytory/pen/gJFlj">Check out this Pen!</a></pre>
+
+이런 게 OOCSS에서 중복을 줄이는 방법이다. 비슷한 패턴에 죄다 `multi-list` 클래스를 사용하면 된다. 추가로 해 줘야 하는 것에만 자신의 클래스를 붙이면 된다. 위의 예제에서 내가 겉을 감싸는 `div`에 `image-list` 클래스를 붙인 것처럼 말이다.
+
+### 내비게이션(nav) 모듈
+
+다음은 내비게이션 모듈이다. 아래처럼 쓰면 가로 내비게이션이 만들어진다.
+
+    <ul class=nav>
+       <li><a href=#>Home</a></li>
+       <li><a href=#>About</a></li>
+       <li><a href=#>Portfolio</a></li>
+       <li><a href=#>Contact</a></li>
+    </ul>
+    
+
+더 자세한 예제는 [inuit.css의 `.nav` 예제 페이지][8]에서 보면 된다.
+
+### media 모듈
+
+OOCSS를 유명하게 한 그 미디어 모듈도 당연히 포함돼 있다. 미디어 모듈이란 아래와 같은 걸 간편하게 만들어 주는 모듈을 뜻한다.
+
+<pre class="codepen"data-height="250"data-type="result"data-href="sCnAh"data-user="mytory"data-safe="true"><code></code><a href="http://codepen.io/mytory/pen/sCnAh">Check out this Pen!</a></pre>
+
+코드는 이렇게 생겼다.
+
+    <div class="custom-wrapper">
+        <div class="media">
+            <img src="http://placekitten.com/100/100" alt="" class="media__img">
+            <p class="media__body">
+                <h2>This is Title</h2>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+        </div>
+    </div>
+    
+
+### 전체 모듈 목록
+
+이 외에도 inuit.css가 제공하는 모듈은 이렇게 많다. 다음의 한 항목은 한 파일에 들어 있다. 주석으로 설명이 달려 있고 웬만하면 예제도 있으니 궁금할 땐 파일을 열어서 보면 된다.
+
+### Base
+
+*   code : 코드 관련 클래스. `.code-comment`나 `.line-number` 같은 클래스도 포함돼 있다.
+*   [forms][9] : 폼의 기본 스타일. `.additional`이나 `.check-list`, `.spoken-form`, `.extra-help` 같은 클래스가 포함돼 있다. inuit.css에서는 폼을 `li` 안에 넣도록 상정하고 있다.
+*   headings : 제목 요소들의 사이즈를 정의하고 있다. `h1`, `h2`, `h3` 등 대신에 `.alpha`, `.beta`, `.gamma` 등의 클래스 이름을 사용할 수 있게 한 게 특징적이다. 이에 대한 설명은 [Pragmatic practical font sizing in css][10]에서 볼 수 있다.
+*   [images][11] : 이미지 스타일 정의. inuit.css는 기본적으로 `img` 태그에 `max-width:100%;`를 매겨 놨다. 그리고 `img`에 `width`나 `height` 속성이 있으면 `max-width`를 해제한다. 그 외 `.img--round`, `.img--right`, `.img--left`, `.img--center`, `.img--short`, `.img--medium`, `.img--tall` 같은 클래스가 있다.
+*   lists : 목록 스타일이다. `li` 안의 `ul`, `ol`은 `margin-bottom`을 0으로 하고 있다. 이 외 `ul`에 `.numbered-list` 클래스를 붙이면 `ol`과 같아지게 만드는 정의가 있다.
+*   main : `html` 태그에 대한 정의가 들어 있다.
+*   paragraphs : `.lede`, `.lead`라는 클래스가 들어있다. &#8216;발문&#8217;에 해당하는 클래스인데, 글자 크기를 1/8 키우는 게 내용이다.
+*   quotes : `q`, `blockquote` 태그에 관한 정의가 있고, `.source`라는 클래스가 있다. 이건 출처를 밝히는 클래스인 듯. 이 파트에 참고할 글로 [Quoting and citing with \<blockquote>, \<q>, \<cite>, and the cite attribute][12]를 추천해 놓고 있다.
+*   smallprint : 작은 글자 크기에 사용할 클래스를 정의해 놓고 있다. `.smallprint`, `.milli`가 작은 글자, `.micro`가 아주 작은 글자다.
+*   tables : 테이블 모양을 정의하고 있다. `td`에 `.numerical`을 쓰면 정렬을 오른쪽으로 바꾼다. 그 외 `rowspan`과 `colspan`에 따라 가로 정렬과 세로 정렬을 변경하는 로직이 들어 있다. `.t5`, `.t10` ~ `.t95`까지 너비를 정의하는 클래스도 있다. `.table--bordered`는 선이 있는 테이블에 사용한다. 줄무늬를 넣는 `.table--striped`와 글씨 크기를 작게 하는 `.table--data`도 있다.
+
+### Generic
+
+*   brand : 사전 정의한 브랜드 글꼴과 색을 `!important`로 강제 적용하는 `.brand`, 글꼴만 강제적용하는 `.brand-face`, 색만 강제 적용하는 `.brand-color`가 들어 있다.
+*   clearfix : `float`된 요소의 부모 높이가 0이 되지 않도록 처리해 주는 클래스다. HTML에 직접 쓰지 말고 Sass의 `@extend` 기능을 이용하라고 주석에 씌어 있다. 참고할 글로 [The very latest new new way to do &#8220;clearfix&#8221;][13]를 적어 놨다.
+*   debug : `_defaults.scss`에서 `$debug-mode`를 `true`로 설정한 경우 사용할 스타일들이 들어있다. 검사 항목은 다음과 같다. 
+    *   `img`에 `alt` 속성이 없으면 빨간색
+    *   `img`의 `alt` 속성이 빈 문자열이면 노란색
+    *   `a`의 `href`에 `#`만 있거나, `javascript`가 들어가 있으면 노란색
+    *   `a`에 `target` 속성이 있으면 노란색
+    *   `ul`과 `ol`의 바로 아래 `li` 외에 다른 게 들어가 있으면 빨간색
+    *   `th`에 `scope` 속성이 없으면 노란색
+    *   `table` 바로 아래 `tr`이 나오면 노란색 : `thead`나 `tbody`, `tfoot`이 있어야 함
+    *   `tfoot`이 `tbody` 뒤에 나오면 노란색 : 앞에 나와야 함
+    *   `form`에 `action` 속성이 없으면 빨간색
+    *   `input`에 `type` 속성이 없으면 빨간색
+    *   `textarea`에 `rows`, `cols` 속성이 없으면 빨간색
+    *   `input[type=submit]`에 `value` 속성이 없으면 빨간색
+    *   inline style을 사용한 경우 노란색
+    *   id를 사용한 경우 노란색 : OOCSS에서는 스타일을 입히는 데 ID를 사용하지 않도록 한다.
+    *   inuit.css의 grid 클래스들을 잘못 사용한 경우 빨간색.
+*   helper : `!important`가 붙은 간편하게 사용할 수 있는 클래스 모음. 적용하려는 요소에 기존 클래스가 있는 경우에는 이걸 사용하지 말고 기존 클래스에 스타일 속성을 추가하라고 말하고 있다. 다음과 같은 것들이 있다. 
+    *   `.float--left`, `.float--right`, `.float--none`
+    *   `.text--left`, `.text--right`, `.text--center`
+    *   `font-weight` 관련, `.weight--light`, `.weight--normal`, `.weight--semibold`
+    *   마진을 넣거나 제거 : `.push--top`, `.push--right`, `.push--bottom`, `.push--left`, `.push--ends`, `.push--sides`, `.push-half`, `.push-half--top`, `.push-half--right`, `.push-half--bottom`, `.push-half--left`, `.push-half--ends`, `.push-half--sides`, `.flush`, `.flush--top`, `.flush--right`, `.flush--bottom`, `.flush--left`, `.flush--ends`, `.flush--sides`. `flush--*`는 마진을 없애는 놈이다.
+    *   패딩을 넣거나 제거 : `.soft`, `.soft--top`, `.soft--right`, `.soft--bottom`, `.soft--left`, `.soft--ends`, `.soft--sides`, `.soft-half`, `.soft-half--top`, `.soft-half--right`, `.soft-half--bottom`, `.soft-half--left`, `.soft-half--ends`, `.soft-half--sides`, `.hard`, `.hard--top`, `.hard--right`, `.hard--bottom`, `.hard--left`, `.hard--ends`, `.hard--sides`. `soft--*`는 패딩을 넣는 놈, `hard--*`는 패딩을 없애는 놈이다.
+    *   `.full-bleed` : `.island` 모듈이 부모의 여백(패딩)까지 채우면서 꽉 들어차게 만들어 준다는 것 같다.
+    *   `.informative` : 마우스 커서를 도움말 모양으로 만든다.
+    *   `.muted` : 투명도를 50%로 만든다.
+    *   `.proceed` : 글자 우정렬. &#8216;더 보기&#8217;처럼 뭔가 더 나아가는 놈들에게 사용.
+    *   `.go` : &#8216;더 보기&#8217; 같은 것의 오른쪽에다 화살표 같은 걸 달아 준다.
+    *   `.caps` : 알파벳을 모두 대문자로 만든다.
+    *   `.accessibility`, `.visuallyhidden`, `@include accessibility;` : 접근성 용도로 만든 &#8220;본문으로 바로 가기&#8221; 같은 링크에 쓰는 놈. `display:none`을 쓰지 않고 화면에서 사라지게 만든다.
+*   mixins : 말 그대로 Mixin들을 제공한다. Mixin은 Sass에서 함수처럼 사용하는 놈이다. 
+    *   `@mixin font-size($font-size, $line-height:true)` : 글자 크기에 따라 적절한 줄높이를 제공한다. 적절한 줄높이란, 페이지의 다른 요소들과 줄이 어긋나지 않게 맞춰 주는 걸 뜻한다. 사실 이 외에도 줄을 맞추는 장치들이 많이 돼 있어서 만약 inuit.css를 일관되게 적용한다면 본문과 사이드바의 줄이 어긋나지 않게 된다.
+    *   `@mixin headings($from: 1, $to: 6)` : 특정 클래스 안에서 `hx`~`hx`의 스타일을 한꺼번에 정의.
+    *   `@mixin vendor($property, $value...)` : 스타일을 넣으면 vendor prefix를 한 번에 생성한다. `@include vendor(border-radius, 4px);` 식으로 사용.
+    *   `@mixin keyframe ($animation-name)` : keyframe을 모든 vendor prefix와 함께 생성. `@include vendor(animation, shrink 3s);` 식으로 사용.
+    *   `@mixin truncate($truncation-boundary)` : 말줄임표 적용.
+    *   `@mixin arrow($arrow-edge, $arrow-location, $arrow-color, $border-color: $arrow-color)` : CSS 화살표 생성. 설명이 길다. `@include arrow(bottom, center, red, black)` 식으로 사용.
+    *   `@mixin media-query($media-query)` : 미디어 쿼리 믹스인. `@include media-query(palm){ [styles here] }` 식으로 사용. 고정된 브레이크 포인트를 사용하는 건 별로 좋은 방법이 아니라고 부연하고 있다.
+*   normalize : 그 유명한 [normalize.css][14] 맞다. CSS reset에 이걸 쓴다.
+*   pull : grid에 사용하는 놈인 것 같은데 뭔진 모르겠다. 내부적으로 쓰는 건가.
+*   push : 역시 grid에 사용하는 뭔지 알 수 없는 놈.
+*   reset : normalize.css에서 더 필요한 reset이라고 한다. 설명은 [Reset restarted][15].
+*   shared : 모든 `margin`을 `margin-bottom`과 `margin-left`만 남기게 만드는 놈. `margin`을 한 방향으로만 주면 편해 진다. 설명은 [Single direction margin declarations][16].
+*   widths : 모든 `width` 관련 클래스. `.one-whole`, `.one-half`, `.one-third`, `.two-thirds`, `.one-quarter`, `.two-quarters`, `.three-quarters`, `.one-fifth`, `.two-fifths`, `.three-fifths`, `.four-fifths`, `.one-sixth`, `.two-sixths`, `.three-sixths`, `.four-sixths`, `.five-sixths`, `.one-eighth`, `.two-eighths`, `.three-eighths`, `.four-eighths`, `.five-eighths`, `.six-eighths`, `.seven-eighths`, `.one-tenth`, `.two-tenths`, `.three-tenths`, `.four-tenths`, `.five-tenths`, `.six-tenths`, `.seven-tenths`, `.eight-tenths`, `.nine-tenths`, `.one-twelfth`, `.two-twelfths`, `.three-twelfths`, `.four-twelfths`, `.five-twelfths`, `.six-twelfths`, `.seven-twelfths`, `.eight-twelfths`, `.nine-twelfths`, `.ten-twelfths`, `.eleven-twelfths`.
+
+### Objects
+
+*   arrows : 삼각형 그리는 거. mixin이라 예제가 없다.
+*   [beautons][17] : 버튼. 유일하게 디자인이 들어가 있는 모듈이다.
+*   [block-list][18] : 목록인데 세로로 쭉 쌓는 거.
+*   [breadcrumb][19] : 브레드크럼.
+*   [columns][20] : 다단. 물론 브라우저가 지원해야 한다.
+*   [flexbox][21] : 테이블처럼 내용물에 따라 가로 너비가 늘었다 줄었다 하는 레이아웃. CSS3 flextbox를 지원하는 브라우저여야 지원될 거다.
+*   [flyout][22] : 마우스 올리면 나타나는 놈. 드롭다운 메뉴 같은 거 만들 수 있다.
+*   [greybox][23] : 그냥 회색 박스 만드는 놈이다. 프로토타이핑할 때 사용한다고 설명돼 있다.
+*   [grids][24] : 앞서 본 것처럼 그리드 짤 때 쓴다.
+*   <a>icon-text</a> : 아이콘 폰트를 사용할 때 쓰는 것 같다. 모듈에는 좌우 마진 스타일밖에 없다. inuit.css의 예제는 백그라운드 이미지가 들어가 있는데 실수인 듯하다. 백그라운드 이미지 아이콘 모듈은 sprite 모듈이기 때문이다.
+*   [island][25] : 본문 중간에 구분을 해서 넣어야 하는 콘텐츠가 있는 경우가 있다. 기사라면 박스 기사 같은 것. 그런 걸 처리할 때 사용하는 놈이다. [island 모듈 설명글도 있다.][26]
+*   [link-complex][27] : 링크에 마우스를 올렸을 때 특정 부분에만 밑줄을 긋고 싶을 때 쓰는 놈.
+*   [lozenges][28] : 특정 단어에 둥그런 배경 혹은 네모난 배경을 칠하고 싶을 때 쓰는 놈.
+*   [marginalia][29] : 본문 중간에 들어가는 부연설명 텍스트. marginalia라는 용어는 책의 여백에 설명이 들어가곤 하는 것에서 온 출판 용어다.
+*   [matrix][7] : 격자를 짤 때 사용한다. 앞서 설명한 `.multi-list`도 이 모듈에 포함돼 있다.
+*   [media][30] : 앞서 설명한 미디어 모듈. 이미지, 제목, 본문 일부 이렇게 넣을 때 정말 유용한 모듈이다.
+*   [nav][31] : 각종 가로 내비게이션을 일반화해 둔 모듈. 앞에서 설명했다.
+*   [options][32] : `.nav`와 함께 사용한다. 그러면 가로 내비를 외곽선과 구분선이 있는 옵션 모양으로 만들어 준다.
+*   [pagination][33] : 페이지 번호 모듈.
+*   [rules][34] : 가로선인 `<hr>`을 확장하는 모듈. 실선, 점선, 대시선이 포함돼 있다. `.rule--ornament`를 사용하면 선 가운데 장식이 들어간다.
+*   [split][35] : 두 단어를 좌우로 떨어뜨려 놓을 때 사용하는 놈.
+*   [sprite][36] : 스프라이트 이미지 모듈이다. 백그라운드 아이콘에도 사용할 수 있고, 예제는 백그라운드 아이콘 사용으로 돼 있다.
+*   [stats][37] : 키-값 형태로 상태를 보여 줄 때, 숫자를 위에 올리고 레이블을 아래쪽에 표시해 주는 그런 스타일의 모듈.
+*   [this-or-this][38] : 선택지 제공 스타일 모듈이라고. 예제를 보면 대충 뭔지 알 수 있는데, 쓸모가 있을지는 모르겠다.
+
+### 간단 사용법
+
+inuit.css는 Sass 기반으로 제작돼 있다. Sass는 CSS 전처리기(Preprocessor)다.
+
+    .my-class 
+      background: red
+      .my-class-child
+        background: blue
+    
+
+이런 식으로 Sass 파일을 작성한 뒤 컴파일 명령을 내리면
+
+    .my-class {
+      background: red; }
+      .my-class .my-class-child {
+        background: blue; }
+    
+
+이런 식으로 CSS가 나온다. 스타일을 작은 파일로 나눠서 관리하기도 편하고, minify된 CSS를 뽑기도 편하고, 변수 같은 걸 사용할 수 있어 편하다.
+
+여튼, inuit.css는 Sass를 배워야 해서 약간의 진입장벽이 있긴 하지만, 이로 인해 장점이 크다. 설정 파일이 있는 것이다.
+
+Sass 사용법은 따로 설명하지 않겠다. 한글로 된 설명 괜찮은 거 없나 하고 찾아 봤는데 간단히 볼 만한 건 없는 듯하다. [Sass 공식 웹사이트][39]에서 가이드를 보거나 구글에서 Sass Tutorial로 검색해서 아무거나 보면 될 거다.
+
+Github에서 inuit.css를 다운받으면 `_vars.scss` 파일이 있다. 기본적으로 모든 모듈이 사용하지 않음으로 체크돼 있다. 이 중에서 사용할 모듈을 `true`로 바꿔 주면 된다. 모듈이니까.
+
+    /*------------------------------------*\
+        $OBJECTS-AND-ABSTRACTIONS
+    \*------------------------------------*/
+    /**
+     \* All of inuit.css’ objects and abstractions are initially turned off by
+     * default. This means that you start any project with as little as possible,
+     * and introducing objects and abstractions is as simple as switching the
+     * following variables to `true`.
+     */
+    $use-grids:         true;
+    $use-flexbox:       true;
+    $use-columns:       true;
+    $use-nav:           true;
+    $use-options:       true;
+    $use-pagination:    true;
+    $use-breadcrumb:    true;
+    $use-media:         true;
+    $use-marginalia:    true;
+    $use-island:        true;
+    $use-block-list:    true;
+    $use-matrix:        true;
+    $use-split:         true;
+    $use-this-or-this:  true;
+    $use-link-complex:  true;
+    $use-flyout:        true;
+    $use-arrows:        true;
+    $use-sprite:        true;
+    $use-icon-text:     true;
+    $use-beautons:      true;
+    $use-lozenges:      true;
+    $use-rules:         true;
+    $use-stats:         true;
+    $use-greybox:       true;
+    
+
+이렇게 전부 `true`로 변경하든지 하면 된다.
+
+다음으로 `inuit.css` 폴더를 보면 `_defaults.scss`라는 파일이 있다. 이 안엔 글자 크기, 글꼴 같은 설정이 들어있다. 이걸 편집하면 된다.
+
+반응형 설정 같은 것도 있다. 차근차근 보면서 하면 다 알 수 있다.
+
+일단 소개는 이쯤에서 마쳐도 될 것 같다. Sass 튜토리얼과 inuit.css 간단 튜토리얼 같은 걸 써야 이 글이 실제로 의미를 가질 것 같다는 생각이 든다.
+
+이상.
+
+ [1]: http://mytory.local/archives/8949
+ [2]: http://inuitcss.com
+ [3]: https://github.com/csswizardry/inuit.css
+ [4]: http://csswizardry.com/
+ [5]: https://github.com/csswizardry/inuit.css/tree/v4.1.5
+ [6]: http://jsfiddle.net/inuitcss/CLYUC/
+ [7]: http://jsfiddle.net/inuitcss/Y2zrU/
+ [8]: http://jsfiddle.net/inuitcss/Vnph4/
+ [9]: http://jsfiddle.net/inuitcss/MhHHU/
+ [10]: http://csswizardry.com/2012/02/pragmatic-practical-font-sizing-in-css
+ [11]: http://jsfiddle.net/inuitcss/yMtur/
+ [12]: http://html5doctor.com/blockquote-q-cite/
+ [13]: http://www.css-101.org/articles/clearfix/latest-new-clearfix-so-far.php
+ [14]: http://git.io/normalize
+ [15]: http://csswizardry.com/2011/10/reset-restarted
+ [16]: http://csswizardry.com/2012/06/single-direction-margin-declarations
+ [17]: http://csswizardry.com/beautons/
+ [18]: http://jsfiddle.net/inuitcss/hR57q
+ [19]: http://jsfiddle.net/inuitcss/rkAY9/
+ [20]: http://jsfiddle.net/inuitcss/E26Yd
+ [21]: http://codepen.io/mytory/pen/oLyeG
+ [22]: http://jsfiddle.net/inuitcss/B52HG/
+ [23]: http://jsfiddle.net/inuitcss/qCXfh/
+ [24]: http://jsfiddle.net/inuitcss/CLYUC
+ [25]: http://jsfiddle.net/inuitcss/u8pV3/
+ [26]: http://csswizardry.com/2011/10/the-island-object/
+ [27]: http://codepen.io/mytory/pen/Ifgav
+ [28]: http://jsfiddle.net/inuitcss/N3pGm/
+ [29]: http://jsfiddle.net/inuitcss/AemkH/
+ [30]: http://jsfiddle.net/inuitcss/cf4Qs
+ [31]: http://jsfiddle.net/inuitcss/Vnph4
+ [32]: http://jsfiddle.net/inuitcss/vwfaf
+ [33]: http://jsfiddle.net/inuitcss/9Y6PU
+ [34]: http://jsfiddle.net/inuitcss/L6GuZ
+ [35]: http://jsfiddle.net/inuitcss/9gZW7
+ [36]: http://jsfiddle.net/inuitcss/6TKuS
+ [37]: http://jsfiddle.net/inuitcss/Bpwu6
+ [38]: http://jsfiddle.net/inuitcss/R3sks/
+ [39]: http://sass-lang.com/

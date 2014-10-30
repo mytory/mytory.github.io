@@ -1,0 +1,243 @@
+---
+title: 까먹지 않으려고 적어 놓는 유용한 쉘 명령어
+author: 녹풍(綠風, Windgreen)
+layout: post
+permalink: /archives/11926
+mytory_md_path:
+  - https://dl.dropboxusercontent.com/u/15546257/mytory-md-content/shell.md
+daumview_id:
+  - 51578151
+categories:
+  - 기타
+tags:
+  - shell
+---
+## imagemagick으로 스크린 캡쳐
+
+일단 imagemagick(오타 아님. ick 맞음)이 설치돼 있어야 한다.
+
+    import -screen root screen.png
+    
+
+`root`는 스크린 이름을 뜻하는 것 같다. 복잡한 작업을 하는 사람이라면 자기의 스크린 이름을 알 테고, 그런 거 없으면 그냥 `root`인 것 같으니 `root`라고 적자.
+
+이러면 우선 마우스 커서가 십자 모양으로 변한다. 캡쳐 기회가 두 번 주어진다. 윈도우를 클릭하면 해당 윈도우만 캡쳐된다.
+
+두 번 클릭하면 십자모양 커서가 풀리고 홈 폴더에 가 보면 `screen-0.png`, `screen-1.png` 이렇게 파일이 두 개 생겨 있다.
+
+## 시스템 언어 설정 변경
+
+    dpkg-reconfigure locales
+    
+
+## 시작 서비스 프로그램 켜고 끄는 프로그램
+
+    rcconf
+    
+
+## 프롬프트에 배터리 정보와 날짜 표시해 주기
+
+    PS1="${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u\[\033[00m\] - \e[32m\$(acpi)\e[m | \e[32m\$(date +'%m-%d %R')\e[m 
+    \[\033[01;33m\]\w\[\033[00m\]\$ "
+    
+
+## mysql client 프로그램에서 결과값 less로 보기
+
+    pager less -niS
+    
+
+`-n` 줄번호감춤(성능향상), `-i` 대소문자구분x, `-S` 줄바꿈 안함.
+
+## 현재 폴더의 하위 폴더들 용량 보기
+
+    du -hd 1
+    
+
+`-h`는 사람이 읽기 좋게 용량 표시, `-d 1` 하위 1단계 폴더까지만 검사해서 표시.
+
+맨 아래 것(.)이 하위 폴더까지 합한 현재 폴더 용량.
+
+더 자세한 것은 [[링크] Shell에서 용량 관리 위한 명령어][1] 참고.
+
+## IP 스캔하기
+
+    nmap -sP -PI 192.168.0.0/24
+    
+
+`192.168.0` 부분만 변경해 주면 되겠지.
+
+## 오래된 파일 삭제(7일 넘은 파일)
+
+    find . -ctime +7 -exec rm -rf {} ;
+    
+
+현재 폴더에 있는 놈만 7일 넘은 파일 삭제
+
+    find . -maxdepth 1 -ctime +7 | xargs rm
+    
+
+## 파일 문자열 치환
+
+    sed -e s/mytory.local/mytory.local/g db.sql > db.local.sql
+    
+
+보면 알겠지만 `s/타겟/변경결과/g` 형식임. 펄 정규식이 아니라 오래된 정규식을 사용하는 거니까 자세한 사항을 알고 사용하려면 `man sed` 해볼 것.
+
+## 파일 찾기
+
+    locate 파일명 
+    
+
+이러면 DB에 색인해 놓은 걸 바탕으로 파일을 찾는다. 속도가 빠르다.
+
+방금 들어온 파일이라 DB에 색인돼 있을 것 같지 않다면 아래처럼 찾는다.
+
+    find /folder -name "filename" 
+    
+
+더 자세한 내용은 [[번역] 쉘에서 파일 찾기][2]를 참고.
+
+## 모든 하위폴더에 있는 .svn 폴더 삭제하기
+
+    rm -rf `find . -type d -name .svn`
+    
+
+## 현재 폴더에 있는 특정 확장자 파일 문자열 검색
+
+    find -name "*.php" -o -name "*.html" | xargs fgrep -il 'test'
+    
+
+아래처럼 하면 하위 디렉토리의 모든 파일에서 찾는다.
+
+    grep some_text -r .
+    
+
+더 자세한 내용과 질문은 [[Shell] 특정 문자열이 들어있는 파일 찾기][3]를 참고.
+
+## 클립보드에 파일 내용 붙여 넣기(리눅스)
+
+    xclip -sel clip < 파일
+    
+
+## 7z 압축률 0으로 압축하기
+
+OS간 파일명 인코딩이 깨지지 않게 압축을 하는 가장 간편한 방법으로 가장 간편해 보이는 게 7z을 사용하는 것이다.
+
+    7za a -mx=0 압축명.7z 압축대상
+    
+
+`-mx=9`로 하면 압축률을 최대로 설정한다.
+
+## mysql process 보기
+
+쉘의 mysql client에서 다음 명령을 치면 된다.
+
+    SHOW PROCESSLIST;
+    
+
+이렇게 써도 무방하다.
+
+    show processlist;
+    
+
+다음은 더 상세한 내역을 보여 준다.
+
+    SHOW FULL PROCESSLIST\G
+    
+
+이렇게 쳐도 된다.
+
+    show full processlist\G
+    
+
+맨 뒤에 `;`를 붙이지 않아도 된다. `\G`를 반드시 붙여야 하고 `\g`는 안 된다.
+
+## `git log`에서 여향 준 파일 보기
+
+    git log --name-only
+    git log --name-status
+    
+
+위는 이름만 보는 거, 아래는 이름과 A(추가), M(수정) 같은 플래그 같이 나오는 거.
+
+## 큰 파일 쪼개고 합치기
+
+    split -b 1024m "YourFile.iso" "YourFile.iso.”
+    cat YourFile.iso.* > YourFile.iso
+    
+
+## 데비안에서 오라클 자바 설치하기
+
+    sudo add-apt-repository ppa:webupd8team/java
+    sudo apt-get update
+    sudo apt-get install oracle-java7-installer
+    java -version
+    
+
+## 쉘에서 기본 브라우저 변경
+
+    sudo update-alternatives --config x-www-browser
+    
+
+## 파일명 일괄변경
+
+    i=0;for f in *.jpg;do i=$(expr $i + 1); mv "$f" left21_0126_$(printf %04d $i).jpg; done
+    
+
+## git log 뭐 했는지만 볼 수 있게 뽑기
+
+    git log --pretty="format:%ad %s (%an)" --date=short --since=2014-05-01
+    
+
+&#8220;날짜 코멘트 (커밋한 사람)&#8221; 형식으로 나온다.
+
+## 아이폰용으로 동영상 인코딩
+
+    ffmpeg -i input.avi -vcodec libx264 -r 23.976 -ac 2 -ar 22050 -ab 64k -crf 22 -deinterlace -s 960x408  output.mp4
+    
+
+옵션값은 알아서 변경
+
+## mp4에서 오디오 추출
+
+    ffmpeg -i video.mp4 -vn -acodec copy audio.m4a
+    
+
+## 디렉토리에 있는 모든 파일 확장자 한 번에 변경
+
+이건 긁어다 쓰라고 적어 둔 건 아니고, 쉘 스크립트 짤 때 참고하라고.
+
+    for f in $(ls);  do extension="${f##*.}"; filename="${f%.*}"; mv "$f" "$filename.txt"; done
+    
+
+## 대용량 파일 나누기
+
+    split -b 1024m filename
+    
+
+이러면 xaa, xab, xac, xad, xae 하는 식으로 파일명을 붙이면서 파일을 나눈다. 다시 붙일 땐
+
+    cat xaa xab xac xad xae > filename
+    
+
+이렇게 하면 된다.
+
+## MySQL DB와 사용자 생성 쿼리
+
+    CREATE DATABASE 'dbname' CHARACTER SET utf8;
+    CREATE USER 'username'@'hostname' IDENTIFIED BY 'userpass';
+    GRANT ALL PRIVILEGES ON dbname.* to 'username'@'hostname' WITH GRANT OPTION;
+    
+
+## 설치한 RPM 패키지 파일들 보기
+
+    rpm -ql 패키지명
+    
+
+혹은
+
+    rpm --query --list 패키지명
+
+ [1]: http://mytory.local/archives/2195
+ [2]: http://mytory.local/archives/3242
+ [3]: http://mytory.local/archives/2211

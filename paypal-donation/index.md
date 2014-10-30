@@ -1,14 +1,6 @@
 ---
-title: Donate With PayPal
+title: PayPal 후원
 author: 녹풍(綠風, Windgreen)
 layout: page
-aktt_notify_twitter:
-  - yes
 ---
-Click below button to donate. (페이팔로 후원하기입니다. 후원하려면 아래 버튼을 누르세요.)
-
-<p style="text-align: center;">
-  <!-- Begin PayPal Donations by http://johansteen.se/ -->
-  
-  <!-- End PayPal Donations -->
-</p>
+페이팔로 `mytory@gmail.com`에 후원하시면 됩니다.

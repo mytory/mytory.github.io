@@ -1,5 +1,11 @@
-url: http://mytory.local
-name: 웹으로 말하기
+title: "웹으로 말하기"
 description: >
   웹개발, PHP, CSS, jQuery, javascript,
   아이폰 등등
+timezone: "Asia/Seoul"
+paginate: 10
+paginate_path: "page/:num"
+
+email: "mytory@gmail.com"
+twitter_username: "mytory"
+github_username: "mytory"

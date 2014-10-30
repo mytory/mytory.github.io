@@ -9,7 +9,7 @@ mytory_md_path:
 ---
 저도 한 번 제 소개를 블로그에 써 볼까 합니다.
 
-저는 대학에서는 국어교육과를 전공했습니다. 그런데 사회 운동 활동을 하다가 [<레프트21>(지금 이름은 <노동자 연대>)][1]을 만나게 됐습니다. 그래서 개발자 인생을 시작하게 됐죠.
+저는 대학에서는 국어교육과를 전공했습니다. 그런데 사회 운동 활동을 하다가 [&lt;레프트21&gt;(지금 이름은 &lt;노동자 연대&gt;)][1]을 만나게 됐습니다. 그래서 개발자 인생을 시작하게 됐죠.
 
 잉? 너무 빨리 건너 뛰었나요 ㅋ
 
@@ -46,7 +46,7 @@ mytory_md_path:
 
 *   제 이메일 주소는 **mytory쥐메일**입니다.
 
- [1]: http://left21.com
+ [1]: http://wspaper.org
  [2]: http://www.hanb.co.kr/book/look.html?isbn=978-89-7914-478-9
  [3]: http://feeds.feedburner.com/mytory_tc
  [4]: http://feedburner.google.com/fb/a/mailverify?uri=mytory_tc&loc=en_US

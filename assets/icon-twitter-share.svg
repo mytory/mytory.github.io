@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+    
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="24px" height="24px" viewBox="151.084 151.084 24 24" enable-background="new 151.084 151.084 24 24" xml:space="preserve">
+<style>
+svg {
+    cursor: pointer;
+}
+svg circle {
+    transition: fill 0.5s;
+    fill: #2c3e50;
+}
+svg:hover circle {
+    fill: #2ECC71;
+}
+</style>
+<script xmlns="http://www.w3.org/2000/svg" type="text/ecmascript"><![CDATA[
+    var svg = document.getElementsByTagName('svg')[0];
+    svg.addEventListener('click', function(){
+        var event = new MouseEvent('click');
+        window.parent.document.getElementById('twitter-share').dispatchEvent(event);
+    });
+]]></script>
+<circle fill="#35495E" cx="163.084" cy="163.084" r="12"/>
+<path fill="#ECF0F1" d="M170.233,158.734c-0.516,0.229-1.071,0.383-1.653,0.452c0.594-0.355,1.051-0.92,1.266-1.592
+	c-0.557,0.329-1.172,0.569-1.828,0.698c-0.525-0.56-1.272-0.909-2.1-0.909c-1.591,0-2.879,1.288-2.879,2.878
+	c0,0.226,0.025,0.445,0.075,0.655c-2.393-0.119-4.513-1.266-5.933-3.007c-0.248,0.425-0.39,0.919-0.39,1.446
+	c0,0.999,0.509,1.88,1.281,2.396c-0.473-0.016-0.916-0.145-1.305-0.36c0,0.012,0,0.023,0,0.037c0,1.395,0.992,2.557,2.31,2.821
+	c-0.241,0.065-0.496,0.101-0.759,0.101c-0.186,0-0.365-0.018-0.541-0.051c0.366,1.144,1.429,1.976,2.688,1.999
+	c-0.985,0.771-2.227,1.232-3.575,1.232c-0.231,0-0.461-0.014-0.686-0.041c1.273,0.817,2.786,1.293,4.411,1.293
+	c5.294,0,8.189-4.386,8.189-8.188c0-0.125-0.003-0.249-0.009-0.372C169.359,159.818,169.848,159.312,170.233,158.734z"/>
+</svg>

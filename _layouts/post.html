@@ -8,6 +8,10 @@ layout: default
     <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
   </header>
 
+  <div class="google-information">
+    {% include ad_image.html %}
+  </div>
+
   <article class="post-content">
     {{ content }}
     {% include ad_keyword.html %}

@@ -7,8 +7,13 @@ layout: default
     <h1 class="post-title">{{ page.title }}</h1>
   </header>
 
+  <div class="google-information">
+    {% include ad_image.html %}
+  </div>
+
   <article class="post-content">
     {{ content }}
+    {% include ad_keyword.html %}
   </article>
 
 </div>

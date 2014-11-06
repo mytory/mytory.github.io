@@ -6,6 +6,10 @@ layout: default
 
   <h1 class="page-heading">Posts</h1>
 
+  <div class="google-information">
+    {% include ad_image.html %}
+  </div>
+
   <ul class="post-list">
     {% for post in paginator.posts %}
       <li>
@@ -17,6 +21,10 @@ layout: default
       </li>
     {% endfor %}
   </ul>
+
+  <div class="google-information">
+    {% include ad_keyword.html %}
+  </div>
 
   <!-- Pagination links -->
 <div class="pagination">

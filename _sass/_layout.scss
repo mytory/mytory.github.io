@@ -241,3 +241,26 @@
     width: 100%;
     overflow: hidden;
 }
+
+.video-container {
+    max-width: 560px;
+    margin: 0 auto;
+}
+  
+.video-container__inner {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+}
+  
+.video-container {
+    iframe, object, embed {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+}
+  

@@ -40,6 +40,7 @@ IE6에서는 테스트 안 했다고 써 있는데 돌려 보니까 돌아는 �
 <p style="text-align: center;">
   <div class="video-container">
     <div class="video-container__inner">
+      <iframe src="http://www.youtube.com/embed/7lB-Krcibcg" height="315" width="420" frameborder="0"></iframe>
     </div>
   </div>
 </p>
@@ -53,6 +54,7 @@ IE6에서는 테스트 안 했다고 써 있는데 돌려 보니까 돌아는 �
 <p style="text-align: center;">
   <div class="video-container">
     <div class="video-container__inner">
+      <iframe src="http://www.youtube.com/embed/mUtTzvFf7Sg" height="315" width="560" frameborder="0"></iframe>
     </div>
   </div>
 </p>
@@ -68,6 +70,7 @@ IE6에서는 테스트 안 했다고 써 있는데 돌려 보니까 돌아는 �
 <p style="text-align: center;">
   <div class="video-container">
     <div class="video-container__inner">
+      <iframe src="http://www.youtube.com/embed/RdNFxaqMw8M" height="315" width="560" frameborder="0"></iframe>
     </div>
   </div>
 </p>
@@ -83,6 +86,7 @@ IE6에서는 테스트 안 했다고 써 있는데 돌려 보니까 돌아는 �
 <p style="text-align: center;">
   <div class="video-container">
     <div class="video-container__inner">
+      <iframe src="http://www.youtube.com/embed/DgzGR59WkHU" height="315" width="420" frameborder="0"></iframe>
     </div>
   </div>
 </p>
@@ -108,6 +112,7 @@ IE6에서는 테스트 안 했다고 써 있는데 돌려 보니까 돌아는 �
 <p style="text-align: center;">
   <div class="video-container">
     <div class="video-container__inner">
+      <iframe src="http://www.youtube.com/embed/Tkbnc7KUxyc" height="315" width="420" frameborder="0"></iframe>
     </div>
   </div>
 </p>
@@ -119,6 +124,7 @@ IE6에서는 테스트 안 했다고 써 있는데 돌려 보니까 돌아는 �
 <p style="text-align: center;">
   <div class="video-container">
     <div class="video-container__inner">
+      <iframe src="http://www.youtube.com/embed/eZwPJJavfwU" height="315" width="560" frameborder="0"></iframe>
     </div>
   </div>
 </p>
@@ -130,6 +136,7 @@ IE6에서는 테스트 안 했다고 써 있는데 돌려 보니까 돌아는 �
 <p style="text-align: center;">
   <div class="video-container">
     <div class="video-container__inner">
+      <iframe src="http://www.youtube.com/embed/UhkBLhHlJbA" height="315" width="560" frameborder="0"></iframe>
     </div>
   </div>
 </p>
@@ -149,6 +156,7 @@ CSS3를 사용해 미끄러지는 효과를 낸다. 따라서 IE8,9 모두에서
 <p style="text-align: center;">
   <div class="video-container">
     <div class="video-container__inner">
+      <iframe src="http://www.youtube.com/embed/Pu7WRgqRoxQ" height="315" width="420" frameborder="0"></iframe>
     </div>
   </div>
 </p>
@@ -162,6 +170,7 @@ CSS3를 사용해 미끄러지는 효과를 낸다. 따라서 IE8,9 모두에서
 <p style="text-align: center;">
   <div class="video-container">
     <div class="video-container__inner">
+      <iframe src="http://www.youtube.com/embed/ost3K8zVLyc" height="315" width="420" frameborder="0"></iframe>
     </div>
   </div>
 </p>
@@ -175,6 +184,7 @@ CSS3 트렌지션을 사용한다. 파폭과 크롬에선 미려한 효과가 �
 <p style="text-align: center;">
   <div class="video-container">
     <div class="video-container__inner">
+      <iframe src="http://www.youtube.com/embed/RA17_8opaJE" height="315" width="560" frameborder="0"></iframe>
     </div>
   </div>
 </p>
@@ -186,6 +196,7 @@ CSS3 트렌지션을 사용한다. 파폭과 크롬에선 미려한 효과가 �
 <p style="text-align: center;">
   <div class="video-container">
     <div class="video-container__inner">
+      <iframe src="http://www.youtube.com/embed/Zp1kvsDVyls" height="315" width="420" allowfullscreen="" frameborder="0"></iframe>
     </div>
   </div>
 </p>
@@ -226,6 +237,7 @@ CSS3 트렌지션을 사용한다. 파폭과 크롬에선 미려한 효과가 �
 
 <div class="video-container">
   <div class="video-container__inner">
+    <iframe src="http://www.youtube.com/embed/tRG5iNGbI94" height="315" width="420" allowfullscreen="" frameborder="0"></iframe>
   </div>
 </div>
 
@@ -235,6 +247,7 @@ CSS3 트렌지션을 사용한다. 파폭과 크롬에선 미려한 효과가 �
 
 <div class="video-container">
   <div class="video-container__inner">
+    <iframe src="http://www.youtube.com/embed/gQi0jguODkk" height="315" width="420" allowfullscreen="" frameborder="0"></iframe>
   </div>
 </div>
 

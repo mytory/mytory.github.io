@@ -17,7 +17,7 @@ tags:
 
 정확히 아래 코드를 복사해서 사용하면 된다. 이건 뭐, 열라 헤매다가 이 코드를 만나니 허무해 진다.
 
-단, 주의할 점이 있다. 한글은 입력이 된다 ㅡㅡ;; 그래서 내 경우 <a href="http://mytory.local/archives/763" target="_blank">isNaN 함수</a>로 최종 검사를 한 번 더 수행해 줬다.
+단, 주의할 점이 있다. 한글은 입력이 된다 ㅡㅡ;; 그래서 내 경우 <a href="http://mytory.net/archives/763" target="_blank">isNaN 함수</a>로 최종 검사를 한 번 더 수행해 줬다.
 
 <pre class="brush:js">&lt;script src="http://code.jquery.com/jquery-latest.js" type="text/javascript"&gt;&lt;/script&gt;
 &lt;script type="text/javascript"&gt;

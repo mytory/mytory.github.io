@@ -287,7 +287,7 @@ Github에서 inuit.css를 다운받으면 `_vars.scss` 파일이 있다. 기본�
 
 이상.
 
- [1]: http://mytory.local/archives/8949
+ [1]: http://mytory.net/archives/8949
  [2]: http://inuitcss.com
  [3]: https://github.com/csswizardry/inuit.css
  [4]: http://csswizardry.com/

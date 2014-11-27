@@ -28,5 +28,5 @@ tags:
 
 스카이프 &#8211; 전화 프로그램
 
- [1]: http://mytory.local/archives/703 "[링크]윈도우에서 진짜 쉽게 svn 서버 구성하는 방법"
- [2]: http://mytory.local/archives/70 "센스부족(노센스)는 80포트를 사용한다"
+ [1]: http://mytory.net/archives/703 "[링크]윈도우에서 진짜 쉽게 svn 서버 구성하는 방법"
+ [2]: http://mytory.net/archives/70 "센스부족(노센스)는 80포트를 사용한다"

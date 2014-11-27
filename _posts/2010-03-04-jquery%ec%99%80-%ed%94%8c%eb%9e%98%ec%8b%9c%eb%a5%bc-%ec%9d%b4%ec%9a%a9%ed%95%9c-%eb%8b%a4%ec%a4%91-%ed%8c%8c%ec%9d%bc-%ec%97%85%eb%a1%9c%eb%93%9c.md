@@ -19,4 +19,4 @@ jquery와 플래시를 이용한 다중 파일 업로드
 
 난 이걸 사용하지 않고 <a href="http://swfupload.org" target="_blank" title="[http://swfupload.org]로 이동합니다.">swfupload.org</a> 에서 받아서 사용했다.
 
-<a href="/archives/523" target="_blank" title="[http://mytory.local/370]로 이동합니다.">SWFupload 소개글</a>을 참고하면 도움이 될 거다.
+<a href="/archives/523" target="_blank" title="[http://mytory.net/370]로 이동합니다.">SWFupload 소개글</a>을 참고하면 도움이 될 거다.

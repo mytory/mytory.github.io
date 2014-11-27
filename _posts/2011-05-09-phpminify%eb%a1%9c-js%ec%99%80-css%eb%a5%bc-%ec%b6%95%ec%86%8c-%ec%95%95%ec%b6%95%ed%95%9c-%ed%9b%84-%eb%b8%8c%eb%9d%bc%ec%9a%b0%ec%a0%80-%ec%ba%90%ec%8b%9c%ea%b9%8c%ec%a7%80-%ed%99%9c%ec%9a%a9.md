@@ -102,7 +102,7 @@ $min_serveOptions[&#039;maxAge&#039;] = 1800;</pre>
 
 &nbsp;
 
- [1]: http://mytory.local/archives/1048 "[minify] js, css 압축 – 웹사이트 속도 증가, 트래픽 절약"
- [2]: http://mytory.local/archives/1232 "구글 페이지 스피드가 추천하는 브라우저 캐시 활용(Leverage browser caching)"
- [3]: http://mytory.local/archives/1183 "Google에서 제공하는 웹사이트 페이지 속도 측정, 관리 기능"
+ [1]: http://mytory.net/archives/1048 "[minify] js, css 압축 – 웹사이트 속도 증가, 트래픽 절약"
+ [2]: http://mytory.net/archives/1232 "구글 페이지 스피드가 추천하는 브라우저 캐시 활용(Leverage browser caching)"
+ [3]: http://mytory.net/archives/1183 "Google에서 제공하는 웹사이트 페이지 속도 측정, 관리 기능"
  [4]: http://php.net/manual/kr/function.stat.php

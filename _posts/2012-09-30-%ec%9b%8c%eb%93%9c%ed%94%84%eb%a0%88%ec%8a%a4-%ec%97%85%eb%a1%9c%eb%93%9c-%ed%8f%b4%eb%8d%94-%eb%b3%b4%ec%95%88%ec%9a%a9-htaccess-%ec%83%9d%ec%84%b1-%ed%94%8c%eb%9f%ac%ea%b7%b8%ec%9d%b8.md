@@ -39,7 +39,7 @@ tags:
 Plugin Name: 업로드 폴더 보안 .htaccess
 Description: 업로드 폴더 보안을 위해서 .htaccess 텍스트를 구성해 주는 플러그인이다. 활성화하면 노티스로 뿌려 준다. 필요할 때 활성화해서 메시지를 보고, 메시지를 바탕으로 업로드 폴더의 .htaccess 파일을 구성한 뒤, 플러그인을 비활성화하면 된다.  
 Author: 위트인웹 멤버 안형우
-Author URI: http://mytory.local
+Author URI: http://mytory.net
 Version: 1.0
 */
 

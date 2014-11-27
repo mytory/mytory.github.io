@@ -48,5 +48,5 @@ tags:
 
 &lt;/script&gt;</pre>
 
- [1]: http://mytory.local/archives/1183 "Google에서 제공하는 웹사이트 페이지 속도 측정, 관리 기능"
+ [1]: http://mytory.net/archives/1183 "Google에서 제공하는 웹사이트 페이지 속도 측정, 관리 기능"
  [2]: http://code.google.com/intl/ko-KR/speed/page-speed/docs/payload.html#DeferLoadingJS

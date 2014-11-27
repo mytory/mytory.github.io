@@ -34,5 +34,5 @@ tags:
 
 이 실행파일로 아이콘을 만들어 사용하면 된다. 사내에서 배포해야 하면 아이콘까지 만들어서 압축해서 배포해 주면 될 거다.
 
- [1]: http://mytory.local/archives/212 "오픈소스 (사내)메신저 서버 구축, 오픈 파이어(openfire) 설치방법과 세팅(리눅스 기준)"
+ [1]: http://mytory.net/archives/212 "오픈소스 (사내)메신저 서버 구축, 오픈 파이어(openfire) 설치방법과 세팅(리눅스 기준)"
  [2]: http://www.igniterealtime.org/downloads/index.jsp

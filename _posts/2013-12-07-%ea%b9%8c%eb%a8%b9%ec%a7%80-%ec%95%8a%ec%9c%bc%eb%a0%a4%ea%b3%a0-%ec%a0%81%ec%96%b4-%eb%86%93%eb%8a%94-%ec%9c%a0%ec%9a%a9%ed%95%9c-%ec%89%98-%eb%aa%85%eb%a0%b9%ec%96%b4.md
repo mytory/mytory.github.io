@@ -78,7 +78,7 @@ tags:
 
 ## 파일 문자열 치환
 
-    sed -e s/mytory.local/mytory.local/g db.sql > db.local.sql
+    sed -e s/mytory.net/mytory.net/g db.sql > db.local.sql
     
 
 보면 알겠지만 `s/타겟/변경결과/g` 형식임. 펄 정규식이 아니라 오래된 정규식을 사용하는 거니까 자세한 사항을 알고 사용하려면 `man sed` 해볼 것.
@@ -238,6 +238,6 @@ OS간 파일명 인코딩이 깨지지 않게 압축을 하는 가장 간편한 
 
     rpm --query --list 패키지명
 
- [1]: http://mytory.local/archives/2195
- [2]: http://mytory.local/archives/3242
- [3]: http://mytory.local/archives/2211
+ [1]: http://mytory.net/archives/2195
+ [2]: http://mytory.net/archives/3242
+ [3]: http://mytory.net/archives/2211

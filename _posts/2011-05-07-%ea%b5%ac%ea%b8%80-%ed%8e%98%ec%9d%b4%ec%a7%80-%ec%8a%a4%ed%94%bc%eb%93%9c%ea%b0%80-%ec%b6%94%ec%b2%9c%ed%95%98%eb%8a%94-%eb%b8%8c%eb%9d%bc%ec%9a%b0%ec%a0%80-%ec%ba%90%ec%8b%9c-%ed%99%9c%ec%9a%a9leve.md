@@ -84,7 +84,7 @@ HTTP/1.1은 다음과 같은 캐시 응답 헤더를 제공한다.
 *   HTTP 캐시에 대한 좀더 깊이 있는 설명은 [HTTP/1.1 RFC][5]의 섹션 [13.2][6], [14.21][7], 그리고 [14.9.3][8] 를 보면 된다.
 *   아파치에서 캐시를 켜기 위한 자세한 설명은 [Apache Caching Guide][9] 에 있다.
 
- [1]: http://mytory.local/archives/1183 "Google에서 제공하는 웹사이트 페이지 속도 측정, 관리 기능"
+ [1]: http://mytory.net/archives/1183 "Google에서 제공하는 웹사이트 페이지 속도 측정, 관리 기능"
  [2]: http://code.google.com/intl/ko-KR/speed/page-speed/docs/caching.html#LeverageBrowserCaching
  [3]: http://ko.wikipedia.org/wiki/RFC
  [4]: http://icecreamie.tistory.com/entry/HTTP-11-%EC%BA%90%EC%8B%9C-%EA%B4%80%EB%A0%A8-%ED%97%A4%EB%8D%94

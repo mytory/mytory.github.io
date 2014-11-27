@@ -12,7 +12,7 @@ categories:
 tags:
   - PHP
 ---
-아래 함수는 앞서 설명한 <a href="http://mytory.local/archives/105" target="_blank">Ymd 형태 date를 timestamp로 변환하는 php 코드</a> 와 <a href="http://mytory.local/archives/106" target="_blank">타임스탬프(Timestamp) 형태를 rss 날짜 형태로 바꾸는 코드 구현</a> 을 종합해서 만든 겁니다. 간단하죠.
+아래 함수는 앞서 설명한 <a href="http://mytory.net/archives/105" target="_blank">Ymd 형태 date를 timestamp로 변환하는 php 코드</a> 와 <a href="http://mytory.net/archives/106" target="_blank">타임스탬프(Timestamp) 형태를 rss 날짜 형태로 바꾸는 코드 구현</a> 을 종합해서 만든 겁니다. 간단하죠.
 
 그냥 긁어서 사용하십시오.
 

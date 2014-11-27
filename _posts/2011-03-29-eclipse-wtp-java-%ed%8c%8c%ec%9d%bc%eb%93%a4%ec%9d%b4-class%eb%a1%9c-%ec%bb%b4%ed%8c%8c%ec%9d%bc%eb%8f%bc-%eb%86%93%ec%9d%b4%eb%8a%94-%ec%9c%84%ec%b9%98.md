@@ -41,4 +41,4 @@ eclipse 프로젝트의 최상위 폴더(workspace/projectName 폴더를 말한�
   <img class="aligncenter" src="https://dl.dropbox.com/u/15546257/blog/mytory/eclipse-build.png" alt="" width="223" height="154" />
 </p>
 
- [1]: http://mytory.local/archives/770 "[java]이클립스 WTP 사용시 실제 WebContent 경로"
+ [1]: http://mytory.net/archives/770 "[java]이클립스 WTP 사용시 실제 WebContent 경로"

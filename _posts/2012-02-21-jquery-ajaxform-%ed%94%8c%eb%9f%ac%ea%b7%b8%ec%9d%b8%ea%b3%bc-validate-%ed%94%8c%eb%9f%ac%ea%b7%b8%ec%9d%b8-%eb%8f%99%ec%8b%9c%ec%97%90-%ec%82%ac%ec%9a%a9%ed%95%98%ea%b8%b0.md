@@ -32,6 +32,6 @@ tags:
   이렇게 문서를 잘 보면 문제를 잘 해결할 수 있다.
 </p>
 
- [1]: http://mytory.local/archives/223 "jQuery ajaxForm plugin을 사용해 보자"
- [2]: http://mytory.local/archives/195 "jQuery Form Validation Plugin 폼 검증 플러그인 간단 사용법"
+ [1]: http://mytory.net/archives/223 "jQuery ajaxForm plugin을 사용해 보자"
+ [2]: http://mytory.net/archives/195 "jQuery Form Validation Plugin 폼 검증 플러그인 간단 사용법"
  [3]: http://jquery.malsup.com/form/#options-object

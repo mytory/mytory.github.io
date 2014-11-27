@@ -44,4 +44,4 @@ tags:
 
 끝!
 
- [1]: http://mytory.local/archives/2286 "아이폰에서 하트 넣기"
+ [1]: http://mytory.net/archives/2286 "아이폰에서 하트 넣기"

@@ -95,7 +95,7 @@ tags:
 
 케이스는 만 원인데 한 시간 반 여가 시간을 들여서 만 원 절약했다고 생각하니 뭔가 손해본 느낌도 나고&#8230; 뭐 별 상관 없다. 끝!
 
- [1]: http://mytory.local/archives/12529
+ [1]: http://mytory.net/archives/12529
  [2]: http://www.raspberrypi.org/archives/1310
  [3]: https://www.google.co.kr/search?q=raspberrypi+paper+case
  [4]: https://dl.dropboxusercontent.com/u/15546257/blog/mytory/raspberry-pi-case/rasp-6.jpg

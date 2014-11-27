@@ -78,7 +78,7 @@ tags:
 
 물론 나는 품질을 보장할 수 없다. ㅋ
 
- [1]: http://mytory.local/archives/1544 "[링크] 아이폰4를 위한 삼각대 마운트 Glif 소개"
+ [1]: http://mytory.net/archives/1544 "[링크] 아이폰4를 위한 삼각대 마운트 Glif 소개"
  [2]: http://www.left21.com/article/10352#youtube
  [3]: http://itempage3.auction.co.kr/DetailView.aspx?ItemNo=A563500286&frm3=V2
  [4]: http://search.auction.co.kr/search/search.aspx?keyword=%B8%B6%C0%CC%B8%AE%BA%F9%B8%F4+%BB%EF%B0%A2%B4%EB&itemno=&nickname=&arraycategory=&frm=&dom=auction&isSuggestion=No&retry=&x=0&y=0&Fwk=%B8%B6%C0%CC%B8%AE%BA%F9%B8%F4+%BB%EF%B0%A2%B4%EB&acode=SRP_SU_0100&encKeyword=%25EB%25A7%2588%25EC%259D%25B4%25EB%25A6%25AC%25EB%25B9%2599%25EB%25AA%25B0%2520%25EC%2582%25BC%25EA%25B0%2581%25EB%258C%2580

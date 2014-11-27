@@ -31,7 +31,7 @@ phpThumb() 배포판에는 몇몇 데모가 있다. 당신이 이 데모를 실�
 
 주의: 배포판에는 샘플 이미지가 포함돼 있지 않다. 그러나
 
-http://phpthumb.sourceforge.net/demo 에서 다운받을 수 있다.(그냥 <a title="[phpThumb()] 예제 이미지 다운받기" href="http://mytory.local/archives/511" target="_blank">내 블로그에서 다운</a>받아라.)
+http://phpthumb.sourceforge.net/demo 에서 다운받을 수 있다.(그냥 <a title="[phpThumb()] 예제 이미지 다운받기" href="http://mytory.net/archives/511" target="_blank">내 블로그에서 다운</a>받아라.)
 
 (phpThumb가 github로 완전히 옮겼다. 그래서 데모 소개도 완전히 이전했다.)
 

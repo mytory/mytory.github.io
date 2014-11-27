@@ -30,7 +30,7 @@ tags:
 
 그리고 어떤 페이지가 악성 코드에 감염됐는지를 알려면 아래처럼 URL을 써서 들어가 보라고 했다.
 
-<pre>&lt;a href="http://www.google.com/safebrowsing/diagnostic?site=mytory.local"&gt;http://www.google.com/safebrowsing/diagnostic?site=mytory.local&lt;/a&gt;</pre>
+<pre>&lt;a href="http://www.google.com/safebrowsing/diagnostic?site=mytory.net"&gt;http://www.google.com/safebrowsing/diagnostic?site=mytory.net&lt;/a&gt;</pre>
 
 나이스! 저렇게 쳐 봤더니 아무 문제가 없다고 나왔다.
 
@@ -41,12 +41,12 @@ tags:
     </h2>
     
     <h3>
-      mytory.local에 대한 <em>진단 페이지</em>
+      mytory.net에 대한 <em>진단 페이지</em>
     </h3>
   </blockquote>
 </div>
 
-> **mytory.local의 현재 상태는 어떤가요?? 의심스러운 사이트로 등록되어 있나요?**
+> **mytory.net의 현재 상태는 어떤가요?? 의심스러운 사이트로 등록되어 있나요?**
 > 
 > 현재 이 사이트는 의심스러운 사이트로 등록되지 않았습니다.
 > 
@@ -58,7 +58,7 @@ tags:
 > 
 > **이 사이트가 멀웨어를 확산시키는 중개 역할을 한 적이 있나요?**
 > 
-> mytory.local은(는) 최근 90일 동안 웹사이트를 감염시키는 중개 역할을 하지 않은 것으로 보입니다.
+> mytory.net은(는) 최근 90일 동안 웹사이트를 감염시키는 중개 역할을 하지 않은 것으로 보입니다.
 > 
 > **이 사이트가 멀웨어를 호스팅한 적이 있나요?**
 > 
@@ -73,6 +73,6 @@ tags:
 
  [1]: http://www.stopbadware.org/
  [2]: http://www.google.com/safebrowsing/diagnostic?site=AS:4766
- [3]: http://www.google.com/safebrowsing/diagnostic?site=mytory.local#
+ [3]: http://www.google.com/safebrowsing/diagnostic?site=mytory.net#
  [4]: http://www.google.com/webmasters/tools/
  [5]: http://www.google.com/support/webmasters/bin/answer.py?answer=45432

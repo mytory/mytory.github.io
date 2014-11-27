@@ -65,7 +65,7 @@ add_filter(&#039;login_message&#039;, &#039;modify_login_message&#039;);</pre>
  Description: 로그인 메시지를 변경하는 예제 플러그인다.
  Version: 1.0.0
  Author: mytory
- Author URI: http://mytory.local
+ Author URI: http://mytory.net
  License: GPL2
  */</pre>
 

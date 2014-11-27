@@ -53,7 +53,7 @@ RewriteEngine On 은 맨 위에 써 있는 경우도 있다. 그러면 또 써 �
  [2]: http://offree.net/2116
  [3]: http://code.google.com/p/minify/
  [4]: http://pat.im/657
- [5]: http://mytory.local/archives/1161 "거대한 용량의 Cufon 글꼴 js 파일로 걱정인데 php 버전이 낮아 minify를 사용하지 못하는 사람을 위한 편법"
+ [5]: http://mytory.net/archives/1161 "거대한 용량의 Cufon 글꼴 js 파일로 걱정인데 php 버전이 낮아 minify를 사용하지 못하는 사람을 위한 편법"
  [6]: http://www.whatsmyip.org/http_compression/
  [7]: http://wordpress.org/extend/plugins/bwp-minify/
- [8]: http://mytory.local/archives/1050 "PHP문서를 압축해서 내보내기 – ob_start(“ob_gzhandler”)"
+ [8]: http://mytory.net/archives/1050 "PHP문서를 압축해서 내보내기 – ob_start(“ob_gzhandler”)"

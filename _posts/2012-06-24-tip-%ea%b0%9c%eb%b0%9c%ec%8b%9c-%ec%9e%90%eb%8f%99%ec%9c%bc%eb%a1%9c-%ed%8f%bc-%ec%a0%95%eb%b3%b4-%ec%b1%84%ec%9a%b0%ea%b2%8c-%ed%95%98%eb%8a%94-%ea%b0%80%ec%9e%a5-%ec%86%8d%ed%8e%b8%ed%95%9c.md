@@ -26,7 +26,7 @@ tags:
 
 <pre class="brush: js; gutter: true; first-line: 1">// ==UserScript==
 // @name       자동으로 주문정보 넣기
-// @namespace  http://mytory.local/?p=2650
+// @namespace  http://mytory.net/?p=2650
 // @version    0.1
 // @description  @require를 사용해야 jQuery를 사용할 수 있다.
 // @match      http://target-url.com/?item=*

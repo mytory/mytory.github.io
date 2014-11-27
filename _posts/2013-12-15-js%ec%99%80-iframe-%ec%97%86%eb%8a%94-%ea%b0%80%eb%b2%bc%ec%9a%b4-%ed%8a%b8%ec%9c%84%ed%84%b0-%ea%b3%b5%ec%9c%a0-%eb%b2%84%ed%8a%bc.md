@@ -39,7 +39,7 @@ tags:
 
 위 링크는 이렇게 생겼다.
 
-    https://twitter.com/intent/tweet?original_referer=http%3A%2F%2Fmytory.local&text=%EC%9B%B9%EC%9C%BC%EB%A1%9C%20%EB%A7%90%ED%95%98%EA%B8%B0&url=http%3A%2F%2Fmytory.local&via=mytory&related=mytory
+    https://twitter.com/intent/tweet?original_referer=http%3A%2F%2Fmytory.net&text=%EC%9B%B9%EC%9C%BC%EB%A1%9C%20%EB%A7%90%ED%95%98%EA%B8%B0&url=http%3A%2F%2Fmytory.net&via=mytory&related=mytory
     
 
 `%3A` 같은 문자는 URL 인코딩이다. URL에서 특수문자와 한글을 깨지지 않고 이해할 수 있도록 해 주는 거다. PHP에서는 `urlencode()` 함수를 사용해서 만든다. javascript에서는 [`encodeURIComponent()` 함수를 사용한다.][3]
@@ -64,7 +64,7 @@ PHP를 사용한다면 [`http_build_query()` 함수][5]를 이용하자. `urlenc
     $tweet_share_url_query_string = http_build_query(
         array(
             'text' => '웹으로 말하기,
-            'url' => 'http://mytory.local',
+            'url' => 'http://mytory.net',
             'via' => 'mytory',
             'related' => 'mytory',
         );
@@ -78,8 +78,8 @@ PHP를 사용한다면 [`http_build_query()` 함수][5]를 이용하자. `urlenc
 
 일단 이번 글은 트위터 공유로 끝내고 다음 글에선 나머지 SNS 서비스들의 공유 URL을 만드는 방법을 설명한다. 다른 것들은 URL만 넘기면 되니 사실 별로 설명할 것도 없다;;
 
- [1]: http://mytory.local/?tag=%eb%a7%88%eb%b2%95-%eb%82%98%eb%ac%b4-%ed%85%8c%eb%a7%88
- [2]: https://twitter.com/intent/tweet?original_referer=http%3A%2F%2Fmytory.local&text=%EC%9B%B9%EC%9C%BC%EB%A1%9C%20%EB%A7%90%ED%95%98%EA%B8%B0&url=http%3A%2F%2Fmytory.local&via=mytory&related=mytory
+ [1]: http://mytory.net/?tag=%eb%a7%88%eb%b2%95-%eb%82%98%eb%ac%b4-%ed%85%8c%eb%a7%88
+ [2]: https://twitter.com/intent/tweet?original_referer=http%3A%2F%2Fmytory.net&text=%EC%9B%B9%EC%9C%BC%EB%A1%9C%20%EB%A7%90%ED%95%98%EA%B8%B0&url=http%3A%2F%2Fmytory.net&via=mytory&related=mytory
  [3]: http://xkr.us/articles/javascript/encode-compare/
  [4]: https://dev.twitter.com/docs/intents
  [5]: http://www.php.net/http_build_query

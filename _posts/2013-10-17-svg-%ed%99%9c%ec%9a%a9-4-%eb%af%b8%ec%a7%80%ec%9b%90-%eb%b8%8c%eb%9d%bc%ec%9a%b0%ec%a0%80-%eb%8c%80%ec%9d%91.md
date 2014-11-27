@@ -7,7 +7,7 @@ mytory_markdown_html:
   - |
     |
         
-        <p>이 글은 <a href="http://mytory.local/archives/tag/%eb%a7%88%eb%b2%95-%eb%82%98%eb%ac%b4-%ed%85%8c%eb%a7%88">블로그 디자인을 개편하면서 얻은 경험을 공유하는 글</a>이다. 첫 번째로, <a href="http://mytory.local/archives/tag/svg-%ed%99%9c%ec%9a%a9">SVG 활용에 대한 글</a>을 여러 편으로 나눠서 쓰고 있다.</p>
+        <p>이 글은 <a href="http://mytory.net/archives/tag/%eb%a7%88%eb%b2%95-%eb%82%98%eb%ac%b4-%ed%85%8c%eb%a7%88">블로그 디자인을 개편하면서 얻은 경험을 공유하는 글</a>이다. 첫 번째로, <a href="http://mytory.net/archives/tag/svg-%ed%99%9c%ec%9a%a9">SVG 활용에 대한 글</a>을 여러 편으로 나눠서 쓰고 있다.</p>
         
         <h2>SVG를 지원하지 않는 브라우저</h2>
         
@@ -505,8 +505,8 @@ PHP로 대응한 뒤, IE8 이하도 아니고, 오페라 미니도 아니면서 
   </ol>
 </div>
 
- [1]: http://mytory.local/archives/tag/%eb%a7%88%eb%b2%95-%eb%82%98%eb%ac%b4-%ed%85%8c%eb%a7%88
- [2]: http://mytory.local/archives/tag/svg-%ed%99%9c%ec%9a%a9
+ [1]: http://mytory.net/archives/tag/%eb%a7%88%eb%b2%95-%eb%82%98%eb%ac%b4-%ed%85%8c%eb%a7%88
+ [2]: http://mytory.net/archives/tag/svg-%ed%99%9c%ec%9a%a9
  [3]: http://modernizr.com/download/#-svg
  [4]: http://modernizr.com/download/#-inlinesvg-svg
  [5]: http://playgroundinc.com/blog/the-playground-vector-animation-process/

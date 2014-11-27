@@ -161,6 +161,6 @@ tags:
  [7]: http://www.amazon.com/Making-All-Work-Winning-Business/dp/B0043RT9R6/ref=ntt_at_ep_dpt_3/192-7298892-5701961
  [8]: http://www.davidco.com/
  [9]: http://futureshaper.tistory.com/search/GTD%20%EB%94%B0%EB%9D%BC%EC%9E%A1%EA%B8%B0
- [10]: http://mytory.local/archives/1801 "[싸구려 리뷰] 아이폰/아이패드 저가형 싼 블루투스 키보드 – 인파로 IN-BK01, 아이노트 FS-94KBT 리뷰"
+ [10]: http://mytory.net/archives/1801 "[싸구려 리뷰] 아이폰/아이패드 저가형 싼 블루투스 키보드 – 인파로 IN-BK01, 아이노트 FS-94KBT 리뷰"
  [11]: http://itunes.apple.com/kr/app/ireaditnow/id349773058?mt=8
  [12]: https://docs.google.com/document/d/1Jn2pJcqL8lqtf72Sh4ZzbSaVYDHTs4tQ3Glt_FJgVeE/edit

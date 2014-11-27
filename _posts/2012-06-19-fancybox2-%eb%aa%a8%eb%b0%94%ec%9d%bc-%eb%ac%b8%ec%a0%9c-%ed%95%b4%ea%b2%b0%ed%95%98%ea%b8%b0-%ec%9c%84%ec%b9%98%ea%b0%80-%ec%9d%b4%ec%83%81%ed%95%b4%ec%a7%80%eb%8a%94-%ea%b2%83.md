@@ -34,5 +34,5 @@ CSS의 fixed 프로퍼티 때문에 발생하는 문제인데, 확대했을 때�
 
  [1]: http://fancybox.net
  [2]: http://fancyapps.com/fancybox/
- [3]: http://mytory.local/archives/599 "최고의 jQuery 갤러리 플러그인, fancyBox2 – 새로운 기능은?"
+ [3]: http://mytory.net/archives/599 "최고의 jQuery 갤러리 플러그인, fancyBox2 – 새로운 기능은?"
  [4]: http://photo.left21.com:8080/photo_issue.php?title_no=636

@@ -69,10 +69,10 @@ fltr[]의 어쩌고 저쩌고 부분을 설명하겠다. 이건 phpThumb의 [ph
 
 따라서 여러 줄을 사용하려면 그냥 두 번 생성하는 게 낫다. 만약 블로그 제목 같은 걸 자동으로 생성할 생각이라면 일정 글자 수 이상이면 공백을 기준으로 나눠서 이미지를 두 번 생성하도록 스크립트를 짜면 될 것이다.
 
- [1]: http://mytory.local/archives/1048 "[minify] js, css 압축 – 웹사이트 속도 증가, 트래픽 절약"
- [2]: http://mytory.local/archives/1169 "나눔고딕으로 Cufon 적용 후, 나눔고딕이나 맑은 고딕이 있는 사람에게는 적용하지 않기"
- [3]: http://mytory.local/archives/1252 "[PHP]minify로 js와 css를 축소, 압축한 후 브라우저 캐시까지 활용하면 금상첨화다"
+ [1]: http://mytory.net/archives/1048 "[minify] js, css 압축 – 웹사이트 속도 증가, 트래픽 절약"
+ [2]: http://mytory.net/archives/1169 "나눔고딕으로 Cufon 적용 후, 나눔고딕이나 맑은 고딕이 있는 사람에게는 적용하지 않기"
+ [3]: http://mytory.net/archives/1252 "[PHP]minify로 js와 css를 축소, 압축한 후 브라우저 캐시까지 활용하면 금상첨화다"
  [4]: /wp-content/uploads/custom/t.png
- [5]: http://mytory.local/archives/778 "IE6용 투명 png 적용 자바 스크립트 중 가장 나아 보이는 것 – background 이미지까지 처리해 주는 DD_belatedPNG"
+ [5]: http://mytory.net/archives/778 "IE6용 투명 png 적용 자바 스크립트 중 가장 나아 보이는 것 – background 이미지까지 처리해 주는 DD_belatedPNG"
  [6]: http://phpthumb.sourceforge.net/demo/docs/phpthumb.readme.txt
  [7]: http://kr.php.net/manual/kr/function.urlencode.php

@@ -88,7 +88,7 @@ tags:
 
 개인 프로젝트는 시간에 쫓기지 않고 기획을 스스로 하기 때문에 한땀한땀 공들여 만들 수 있다는 장점이 있다. 만족스런 블로그 리뉴얼이었다.
 
- [1]: http://mytory.local/archives/2159
+ [1]: http://mytory.net/archives/2159
  [2]: http://www.istockphoto.com/stock-illustration-3561299-magic-tree-amp-birdie.php
  [3]: http://dl.dropboxusercontent.com/u/15546257/blog/mytory/magic-tree-01.png
  [4]: http://dl.dropboxusercontent.com/u/15546257/blog/mytory/magic-tree-logo.png
@@ -96,14 +96,14 @@ tags:
  [6]: http://sass-lang.com/
  [7]: http://designmodo.com/demo/flat-ui/
  [8]: http://csswizardry.com/2012/06/single-direction-margin-declarations/
- [9]: http://mytory.local/archives/8949
+ [9]: http://mytory.net/archives/8949
  [10]: http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/
  [11]: http://smacss.com/book/state
- [12]: http://mytory.local/archives/4892
+ [12]: http://mytory.net/archives/4892
  [13]: http://tobyyun.tumblr.com/post/58232536556/rwd-3
  [14]: http://www.crystaldesigns.tk/blog/favicon/
- [15]: http://mytory.local/archives/2186
+ [15]: http://mytory.net/archives/2186
  [16]: https://github.com/mytory/mytory-original-img-link
  [17]: https://github.com/mytory/mytory-code-view
- [18]: http://mytory.local/archives/9743 "내가 사용하는 font-family. 그리고 XP에서 맑은 고딕 뿌옇게 나오는 문제 회피하는 팁"
+ [18]: http://mytory.net/archives/9743 "내가 사용하는 font-family. 그리고 XP에서 맑은 고딕 뿌옇게 나오는 문제 회피하는 팁"
  [19]: http://www.useragentman.com/blog/2009/11/29/how-to-detect-font-smoothing-using-javascript/

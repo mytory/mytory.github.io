@@ -350,4 +350,4 @@ OOCSS를 계속 배우려면, 연관 맺을 가장 중요한 사람은 [니콜 �
  [15]: http://developer.yahoo.com/blogs/ydn/posts/2009/03/website_and_webapp_performance/
  [16]: http://www.slideshare.net/stubbornella/our-best-practices-are-killing-us
  [17]: http://www.slideshare.net/stubbornella/css-bloat
- [18]: http://mytory.local/archives/8986 "[번역] OOCSS(객체 지향 CSS)와 Sass를 결합하는 것이 최고의 CSS 코딩 방법이다(OOCSS + Sass = The best way to CSS)"
+ [18]: http://mytory.net/archives/8986 "[번역] OOCSS(객체 지향 CSS)와 Sass를 결합하는 것이 최고의 CSS 코딩 방법이다(OOCSS + Sass = The best way to CSS)"

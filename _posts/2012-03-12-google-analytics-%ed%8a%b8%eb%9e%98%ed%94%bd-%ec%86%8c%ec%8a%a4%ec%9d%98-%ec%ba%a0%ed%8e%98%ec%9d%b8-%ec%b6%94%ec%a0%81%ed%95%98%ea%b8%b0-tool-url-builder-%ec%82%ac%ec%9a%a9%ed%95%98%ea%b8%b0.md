@@ -17,7 +17,7 @@ tags:
 
 피드버너를 사용하는 사람들 중, 추적을 사용하는 사람들은 아마 URL 뒤에 붙은 긴 변수들을 본 적 있을 거다.
 
-<pre>http://mytory.local/archives/2314?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+mytory_tc+%28%EC%9B%B9%EC%9C%BC%EB%A1%9C+%EB%A7%90%ED%95%98%EA%B8%B0%29</pre>
+<pre>http://mytory.net/archives/2314?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+mytory_tc+%28%EC%9B%B9%EC%9C%BC%EB%A1%9C+%EB%A7%90%ED%95%98%EA%B8%B0%29</pre>
 
 위 URL은 내 RSS를 구독하는 사람들이 클릭해서 들어왔을 때의 URL이다. 추가로 붙는 변수는 아래와 같이 구성돼 있다.
 

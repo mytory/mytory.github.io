@@ -25,4 +25,4 @@ tags:
 
 http://phpcamp.net/toolbar/jquery-mega-menu -> 이 링크는 비추다.
 
- [1]: http://mytory.local/archives/1069 "[jQuery:링크] 추천 메가 드롭다운 메뉴 jQuery megamenu"
+ [1]: http://mytory.net/archives/1069 "[jQuery:링크] 추천 메가 드롭다운 메뉴 jQuery megamenu"

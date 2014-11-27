@@ -6,7 +6,7 @@ permalink: /archives/11444
 mytory_markdown_html:
   - |
     |
-        <p>이 글은 <a href="http://mytory.local/archives/tag/%eb%a7%88%eb%b2%95-%eb%82%98%eb%ac%b4-%ed%85%8c%eb%a7%88">블로그 디자인을 개편하면서 얻은 경험을 공유하는 글</a>이다. 첫 번째로, <a href="http://mytory.local/archives/tag/svg-%ed%99%9c%ec%9a%a9">SVG 활용에 대한 글</a>을 여러 편으로 나눠서 쓰고 있다.</p>
+        <p>이 글은 <a href="http://mytory.net/archives/tag/%eb%a7%88%eb%b2%95-%eb%82%98%eb%ac%b4-%ed%85%8c%eb%a7%88">블로그 디자인을 개편하면서 얻은 경험을 공유하는 글</a>이다. 첫 번째로, <a href="http://mytory.net/archives/tag/svg-%ed%99%9c%ec%9a%a9">SVG 활용에 대한 글</a>을 여러 편으로 나눠서 쓰고 있다.</p>
         
         <h2>SVG에 애니메이션 효과를 주는 여러 방법</h2>
         
@@ -168,8 +168,8 @@ SVG의 애니메이션 태그를 이용하면 더 멋지게 효과를 줄 수 �
 
 이것으로 내가 이번에 내 블로그 테마(마법 나무)를 새로 만들면서 익힌 SVG 관련 사항을 모두 공유했다.
 
- [1]: http://mytory.local/archives/tag/%eb%a7%88%eb%b2%95-%eb%82%98%eb%ac%b4-%ed%85%8c%eb%a7%88
- [2]: http://mytory.local/archives/tag/svg-%ed%99%9c%ec%9a%a9
+ [1]: http://mytory.net/archives/tag/%eb%a7%88%eb%b2%95-%eb%82%98%eb%ac%b4-%ed%85%8c%eb%a7%88
+ [2]: http://mytory.net/archives/tag/svg-%ed%99%9c%ec%9a%a9
  [3]: http://www.w3.org/TR/SVG/styling.html#SVGStylingProperties
  [4]: /wp-content/uploads/svg-ex/
  [5]: http://tutorials.jenkov.com/svg/svg-and-css.html

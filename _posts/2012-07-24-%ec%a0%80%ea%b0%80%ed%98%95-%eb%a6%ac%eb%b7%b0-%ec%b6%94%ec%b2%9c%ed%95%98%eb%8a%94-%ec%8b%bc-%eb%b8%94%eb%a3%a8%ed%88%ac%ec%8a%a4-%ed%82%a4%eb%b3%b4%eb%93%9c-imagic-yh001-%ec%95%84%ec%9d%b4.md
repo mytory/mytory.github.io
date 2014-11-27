@@ -23,7 +23,7 @@ tags:
 예전에 사용하던 [아이노트 FS-94KBT 키보드가 7개월만에 고장났다.][1] 뻑뻑한 키가 있었고, 사용하다 보면 키가 두 번씩 눌릴 때가 빈번하며, 타자치는 소리 (특히 스페이스바 소리)가 너무 커서 안 좋은 점이 많았지만 싸기 때문에 사용하던 키보드였다. (나는 2011년 말에 23,000원 가량 주고 샀다. 2012-05-30에 18,690원이었다.) 그런데 배터리가 졸라 빨리 닳는 고장 — 에너자이저가 30분만에 다 닳았다 — 이 생겨서 키보드를 바꿔야 하게 됐다.
 
 <p style="text-align: center;">
-  *추천 글 : <a title="아이폰에서 블루투스 키보드 활용법" href="http://mytory.local/archives/2499">아이폰/아이패드에서 블루투스 키보드 활용법</a>
+  *추천 글 : <a title="아이폰에서 블루투스 키보드 활용법" href="http://mytory.net/archives/2499">아이폰/아이패드에서 블루투스 키보드 활용법</a>
 </p>
 
 물론 내가 매일매일 가방에 넣고 들고 다녔기 때문에 빨리 고장이 난 것이라고 생각한다. 만약 집에 얌전히 두고 사용한다면 그렇게 빨리 고장나진 않을 것이다.
@@ -164,10 +164,10 @@ tags:
 
 마지막으로 옥션으로 가는 링크 하나 준다 : [옥션에서 YH001로 검색][6]
 
- [1]: http://mytory.local/archives/1801 "[싸구려 리뷰] 아이폰/아이패드 저가형 싼 블루투스 키보드 – 인파로 IN-BK01, 아이노트 FS-94KBT 리뷰"
+ [1]: http://mytory.net/archives/1801 "[싸구려 리뷰] 아이폰/아이패드 저가형 싼 블루투스 키보드 – 인파로 IN-BK01, 아이노트 FS-94KBT 리뷰"
  [2]: http://www.imagicinput.co.kr/html/newpage.html?code=2
  [3]: http://www.imagicinput.co.kr/html/newpage.html?code=13
- [4]: http://mytory.local/archives/1801 "[저가형 리뷰] 아이폰/아이패드 저가형 싼 블루투스 키보드 – 인파로 IN-BK01, 아이노트 FS-94KBT 리뷰"
+ [4]: http://mytory.net/archives/1801 "[저가형 리뷰] 아이폰/아이패드 저가형 싼 블루투스 키보드 – 인파로 IN-BK01, 아이노트 FS-94KBT 리뷰"
  [5]: http://www.youtube.com/watch?v=h3xDGm2SDzs
  [6]: http://search.auction.co.kr/Search/Search.aspx?keyword=YH001&isSuggestion=No
- [7]: http://mytory.local/archives/1801
+ [7]: http://mytory.net/archives/1801

@@ -14,9 +14,9 @@ tags:
 
 `sed`는 커맨드라인에서 문자열을 정규식으로 찾아서 치환해 주는 놈이다. 정규식은 펄 스타일을 사용한다. 즉, 대충 다들 쓰는 거 쓰면 된다.
 
-예컨대, `mytory.local`을 `work.local/mytory.local/html`로 변경하고 싶다면 아래처럼 쓴다.
+예컨대, `mytory.net`을 `work.local/mytory.net/html`로 변경하고 싶다면 아래처럼 쓴다.
 
-    sed 's/mytory.local/work.local/mytory.local/html/g' 2014-04-03.sql > 2014-04-03-replaced.sql
+    sed 's/mytory.net/work.local/mytory.net/html/g' 2014-04-03.sql > 2014-04-03-replaced.sql
     
 
 위처럼 명령을 내리면 `2014-04-03.sql`이라는 파일의 문자열이 치환돼 `2014-04-03-replaced.sql`이라는 파일이 생긴다.

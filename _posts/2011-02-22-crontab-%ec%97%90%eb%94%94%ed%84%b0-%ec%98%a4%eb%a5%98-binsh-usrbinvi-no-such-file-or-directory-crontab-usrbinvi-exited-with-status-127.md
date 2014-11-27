@@ -12,7 +12,7 @@ categories:
 tags:
   - shell
 ---
-crontab -e 명령으로 <a href="http://mytory.local/archives/601" target="_blank" title="우분투 예약작업 관리, cron">crontab을 사용</a>하려고 하니까 오류가 났다.
+crontab -e 명령으로 <a href="http://mytory.net/archives/601" target="_blank" title="우분투 예약작업 관리, cron">crontab을 사용</a>하려고 하니까 오류가 났다.
 
 <img alt="" class="aligncenter" filemime="image/jpeg" filename="crontab 오류 해결.png" height="300" src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile24.uf.120CC73A4D632BA10A8D0F.png" width="577" />
 

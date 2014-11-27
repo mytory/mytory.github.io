@@ -16,7 +16,7 @@ tags:
 ---
 [우체국의 API는 구주소만 서비스한다. 도로명 주소를 검색하려면 [공공데이터포털][1]을 이용해야 한다. 우체국 API를 이용해 구주소를 검색하는 이 예제도 2014-01-10 현재 잘 돌아간다. 공공데이터포털을 이용할 사람은 내가 쓴 [공공데이터포털의 우편번호 API 정리 글][2]을 참고하라.]
 
-<span style="line-height: 1.5em;">예전에 </span><a style="line-height: 1.5em;" title="우편번호 오픈API _ IE에서만 돌아간다?" href="http://mytory.local/archives/420">우체국이 제공하는 우편번호 API</a><span style="line-height: 1.5em;">에 대해 쓴 적이 있었다.</span>
+<span style="line-height: 1.5em;">예전에 </span><a style="line-height: 1.5em;" title="우편번호 오픈API _ IE에서만 돌아간다?" href="http://mytory.net/archives/420">우체국이 제공하는 우편번호 API</a><span style="line-height: 1.5em;">에 대해 쓴 적이 있었다.</span>
 
 당시 나는 세 가지 문제에 봉착했다.
 
@@ -218,10 +218,10 @@ if(!empty($_GET['query'])){
 [▶예제 보기][3] | [▶코드 다운로드][4]
 
  [1]: https://www.data.go.kr/
- [2]: http://mytory.local/archives/12185 "공공데이터포털 우편번호 신청 절차와 API 정리"
+ [2]: http://mytory.net/archives/12185 "공공데이터포털 우편번호 신청 절차와 API 정리"
  [3]: /wp-content/uploads/code-example/postcode/
  [4]: /wp-content/uploads/code-example/postcode/postcode.7z
  [5]: http://biz.epost.go.kr/openapi/openapi_request.jsp?subGubun=sub_3&subGubun_1=cum_38&gubun=m07
  [6]: http://blog.1day1.org/465
- [7]: http://mytory.local/archives/1279 "[PHP] 배열을 URL GET 변수로 만들어 주는 함수 http_build_query"
+ [7]: http://mytory.net/archives/1279 "[PHP] 배열을 URL GET 변수로 만들어 주는 함수 http_build_query"
  [8]: http://www.php.net/manual/kr/book.simplexml.php

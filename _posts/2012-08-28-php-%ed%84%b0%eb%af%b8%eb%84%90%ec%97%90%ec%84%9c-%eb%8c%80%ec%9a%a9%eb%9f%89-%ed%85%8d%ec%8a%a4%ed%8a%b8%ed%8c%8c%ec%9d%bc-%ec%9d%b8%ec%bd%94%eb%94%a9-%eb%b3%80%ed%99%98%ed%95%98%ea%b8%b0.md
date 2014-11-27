@@ -86,5 +86,5 @@ This is the Euro symbol '</pre>
 
 이상. `phpMyAdmin`과 `iconv` 함수에 대해 공부 한 번 잘 했다.
 
- [1]: http://mytory.local/archives/3162 "phpMyAdmin 3.5.2에서 import할 때 Character set of the file에 euc-kr이 없다면"
+ [1]: http://mytory.net/archives/3162 "phpMyAdmin 3.5.2에서 import할 때 Character set of the file에 euc-kr이 없다면"
  [2]: http://www.php.net/manual/kr/function.iconv.php

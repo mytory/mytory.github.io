@@ -20,7 +20,7 @@ tags:
 
 아래 스크립트는 PHP로 텍스트파일을 받아서 문자열을 찾기 바꾸기하는 스크립트다. 사용법은 아래와 같다.
 
-    php str_replace.php ~/Download/mytory.sql "mytory.local" "mytory.local"
+    php str_replace.php ~/Download/mytory.sql "mytory.net" "mytory.net"
     
 
 그러면 순식간에 문자열을 바꿔 준다. 만세! 한 줄씩 읽어들여서 변경하기 때문에 아무리 큰 파일이라도 감당해 낸다. 문자열을 변경한 파일은 원래 파일명 뒤에 `-replaced`라고 붙여 준다. 위 예시의 경우 `mytory-replaced.sql`이라는 파일을 생성하게 될 거다.

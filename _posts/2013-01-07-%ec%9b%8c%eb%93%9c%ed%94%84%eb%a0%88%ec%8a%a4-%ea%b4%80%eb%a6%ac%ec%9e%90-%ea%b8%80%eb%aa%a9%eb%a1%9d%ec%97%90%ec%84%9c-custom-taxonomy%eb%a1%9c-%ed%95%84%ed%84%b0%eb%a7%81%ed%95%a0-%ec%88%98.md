@@ -67,5 +67,5 @@ taxonomy 정보를 불러온 건, taxonomy의 label 정보를 불러와서 selec
 이상이다.
 
  [1]: http://make.wordpress.org/core/2012/12/11/wordpress-3-5-admin-columns-for-custom-taxonomies/
- [2]: http://mytory.local/archives/3225 "워드프레스 플러그인 만들기 기본 개념"
+ [2]: http://mytory.net/archives/3225 "워드프레스 플러그인 만들기 기본 개념"
  [3]: http://wordpress.stackexchange.com/questions/578/adding-a-taxonomy-filter-to-admin-list-for-a-custom-post-type

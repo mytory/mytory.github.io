@@ -21,5 +21,5 @@ mysqli는 mysql에만 사용하는 클래스일 텐데, 그러면 mysql만을 DB
 </div>
 
 <div>
-  <a href="http://mytory.local/archives/5" target="_blank">mysqli를 사용할 때 DB 인코딩 설정</a>에 대해 예전에 쓴 것도 있으니 참고하면 좋을 것이다.
+  <a href="http://mytory.net/archives/5" target="_blank">mysqli를 사용할 때 DB 인코딩 설정</a>에 대해 예전에 쓴 것도 있으니 참고하면 좋을 것이다.
 </div>

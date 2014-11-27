@@ -94,6 +94,6 @@ OS를 탐지해서 윈도우XP가 아니라면 스타일을 추가하는 방법�
 위 두 개 중 선호하는 방법을 사용하면 된다고 본다.
 
  [1]: http://font.ubuntu.com/
- [2]: http://mytory.local/archives/118 "폰트가 설치돼 있는지 확인해 주는 javascript"
+ [2]: http://mytory.net/archives/118 "폰트가 설치돼 있는지 확인해 주는 javascript"
  [3]: http://www.useragentman.com/blog/2009/11/29/how-to-detect-font-smoothing-using-javascript/
  [4]: http://wellcaffeinated.net/articles/2012/01/25/font-smoothing-detection-modernizr-style

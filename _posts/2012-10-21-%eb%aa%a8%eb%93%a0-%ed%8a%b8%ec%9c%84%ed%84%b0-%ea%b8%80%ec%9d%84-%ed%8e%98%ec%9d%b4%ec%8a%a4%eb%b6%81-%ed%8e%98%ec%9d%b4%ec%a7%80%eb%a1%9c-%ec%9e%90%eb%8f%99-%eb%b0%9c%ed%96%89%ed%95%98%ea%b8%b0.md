@@ -89,7 +89,7 @@ for($i = 0; $i &lt; $item_count; $i++){
 //SimpleXML 객체를 XML 문자열로 바꿔서 출력한다.
 echo $xmldom-&gt;asXML();</pre>
 
-위 코드를 적당한 파일을 만들어서 넣는다. `twitter-rss.php` 따위로 말이다. 그리고 RSS Graffiti 앱에 가서 위 URL을 넣어 준다. 그래서 내 트위터 RSS의 URL은 `mytory.local/twitter-rss.php` 가 됐다.
+위 코드를 적당한 파일을 만들어서 넣는다. `twitter-rss.php` 따위로 말이다. 그리고 RSS Graffiti 앱에 가서 위 URL을 넣어 준다. 그래서 내 트위터 RSS의 URL은 `mytory.net/twitter-rss.php` 가 됐다.
 
 내 설정 결과는 아래 이미지를 참고한다.
 

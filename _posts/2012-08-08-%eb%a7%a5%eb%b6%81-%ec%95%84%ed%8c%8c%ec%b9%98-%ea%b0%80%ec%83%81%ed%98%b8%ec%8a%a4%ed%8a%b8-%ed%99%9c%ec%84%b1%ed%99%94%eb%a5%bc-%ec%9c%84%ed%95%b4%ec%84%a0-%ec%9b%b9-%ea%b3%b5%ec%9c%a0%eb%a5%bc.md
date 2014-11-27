@@ -57,4 +57,4 @@ default-character-set=utf8</pre>
  [1]: http://madchick.egloos.com/3662494 "맥북에어 아파치, PHP, MySQL 세팅.."
  [2]: https://www.google.co.kr/#q=Download+MySQL+Community+Server
  [3]: http://smartwebdeveloper.com/mac/httpd-conf-location-mac
- [4]: http://mytory.local/archives/3143 "아파치 Forbidden  You don’t have permission to access / on this server. 에러 해결"
+ [4]: http://mytory.net/archives/3143 "아파치 Forbidden  You don’t have permission to access / on this server. 에러 해결"

@@ -175,7 +175,7 @@ $report = $ga-&gt;getReport(
 
 2009-07-15에 덧붙임: 구글은 GA의 새로운 API를 출시했다. 리턴받는 데이터 양에 제한이 생겼고, dimensions 와 metrics 조합에 느슨한 제약이 생겼다.
 
- [1]: http://mytory.local/archives/629 "[PHP] 구글 아날리틱스 통계 그래프를 홈페이지에 달기"
+ [1]: http://mytory.net/archives/629 "[PHP] 구글 아날리틱스 통계 그래프를 홈페이지에 달기"
  [2]: http://www.askaboutphp.com/63/google-analytics-api-class-for-php.html
  [3]: http://analytics.blogspot.com/2009/04/attention-developers-google-analytics.html
  [4]: http://code.google.com/apis/analytics/docs/gdata/gdataReferenceDimensionsMetrics.html

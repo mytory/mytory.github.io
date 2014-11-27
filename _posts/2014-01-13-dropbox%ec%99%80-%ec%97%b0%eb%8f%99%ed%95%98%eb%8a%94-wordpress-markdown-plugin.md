@@ -73,7 +73,7 @@ tags:
 *   [후원도 환영합니다. 근데 PayPal만 됨;;][2]
 
  [1]: http://wordpress.org/support/view/plugin-reviews/mytory-markdown
- [2]: http://mytory.local/paypal-donation
+ [2]: http://mytory.net/paypal-donation
  [3]: http://jekyllrb.com/
  [4]: http://wordpress.org/plugins/mytory-markdown/
  [5]: https://www.dropbox.com/enable_public_folder

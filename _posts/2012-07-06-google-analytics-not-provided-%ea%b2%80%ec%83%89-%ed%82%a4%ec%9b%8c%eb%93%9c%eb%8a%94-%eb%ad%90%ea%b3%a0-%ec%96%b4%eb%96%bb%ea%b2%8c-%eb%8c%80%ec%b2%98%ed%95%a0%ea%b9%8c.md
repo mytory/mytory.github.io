@@ -89,7 +89,7 @@ tags:
 <img class="aligncenter" alt="" src="https://dl.dropbox.com/u/15546257/blog/mytory/google-analytics-not-provied-6.png" width="646" height="488" />
 
  [1]: http://googleblog.blogspot.kr/2011/10/making-search-more-secure.html
- [2]: http://mytory.local/archives/2486 "《실전 웹사이트 분석 A to Z》 읽으며 밑줄 그은 것"
+ [2]: http://mytory.net/archives/2486 "《실전 웹사이트 분석 A to Z》 읽으며 밑줄 그은 것"
  [3]: http://www.kaushik.net/avinash/
  [4]: http://econsultancy.com/us/blog/8342-how-to-steal-some-not-provided-data-back-from-google "How to steal some 'not provided' data back from Google"
  [5]: http://www.kaushik.net/avinash/google-secure-search-keyword-data-analysis/

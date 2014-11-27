@@ -158,9 +158,9 @@ tags:
 
  [1]: http://search.auction.co.kr/search/search.aspx?keyword=%BE%C6%C0%CC%B3%EB%C6%AE+FS-94KBT&itemno=&nickname=&arraycategory=&frm=&dom=auction&isSuggestion=No&retry=&Fwk=%BE%C6%C0%CC%B3%EB%C6%AE+FS-94KBT&acode=SRP_SU_0100&encKeyword=%25EC%2595%2584%25EC%259D%25B4%25EB%2585%25B8%25ED%258A%25B8%2520FS-94KBT
  [2]: http://fusionfnc.co.kr/
- [3]: http://mytory.local/archives/3094 "[저가형 리뷰] 추천하는 싼 아이폰/아이패드 블루투스 키보드 – 아이매직 YH001 (갤럭시 가능)"
- [4]: http://mytory.local/archives/2499 "아이폰에서 블루투스 키보드 활용법"
+ [3]: http://mytory.net/archives/3094 "[저가형 리뷰] 추천하는 싼 아이폰/아이패드 블루투스 키보드 – 아이매직 YH001 (갤럭시 가능)"
+ [4]: http://mytory.net/archives/2499 "아이폰에서 블루투스 키보드 활용법"
  [5]: http://chulin28ho.egloos.com/5464583
  [6]: http://stores.auction.co.kr/Front/Store.aspx?StoreNo=1000059452
  [7]: http://local.daum.net/map/index.jsp?map_type=TYPE_SKYVIEW&map_hybrid=true&q=%EC%84%9C%EC%9A%B8%20%EC%9A%A9%EC%82%B0%EA%B5%AC%20%ED%95%9C%EA%B0%95%EB%A1%9C2%EA%B0%80%20%EC%84%A0%EC%9D%B8%ED%94%84%EB%9D%BC%EC%9E%90%2021%EB%8F%99&urlX=492445&urlY=1120503&urlLevel=3
- [8]: http://mytory.local/archives/62 "TGIC MXBOOK 노트북은 A/S 불능, 용산가서 고쳐야 – TGIC MXBOOK PS1530V/1510V"
+ [8]: http://mytory.net/archives/62 "TGIC MXBOOK 노트북은 A/S 불능, 용산가서 고쳐야 – TGIC MXBOOK PS1530V/1510V"

@@ -40,5 +40,5 @@ tags:
 
 루분투에서 아반트 윈도우 내비게이터를 사용하는 것으로 모든 것이 해결됐다.
 
- [1]: http://mytory.local/archives/731 "Ubuntu에서 Kubuntu 설치하기"
+ [1]: http://mytory.net/archives/731 "Ubuntu에서 Kubuntu 설치하기"
  [2]: http://lubuntu.net/

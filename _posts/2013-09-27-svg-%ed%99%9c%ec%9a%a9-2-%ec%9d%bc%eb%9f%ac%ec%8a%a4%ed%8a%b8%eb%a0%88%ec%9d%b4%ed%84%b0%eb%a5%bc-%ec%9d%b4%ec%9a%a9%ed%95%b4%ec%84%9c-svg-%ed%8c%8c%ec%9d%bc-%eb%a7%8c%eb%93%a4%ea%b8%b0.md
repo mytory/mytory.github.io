@@ -112,8 +112,8 @@ SVG 사이즈 역시 CSS로 조정할 수 있지만 기본 이미지 사이즈�
 
 이정도면 간단한 SVG 이미지 제작은 가능할 거다. 일단 이번 글은 여기서 마치고 다음 글에서는 웹페이지에 SVG 이미지를 넣는 다양한 방법을 알아 볼 것이다.
 
- [1]: http://mytory.local/archives/tag/%eb%a7%88%eb%b2%95-%eb%82%98%eb%ac%b4-%ed%85%8c%eb%a7%88
- [2]: http://mytory.local/archives/tag/svg-%ed%99%9c%ec%9a%a9
+ [1]: http://mytory.net/archives/tag/%eb%a7%88%eb%b2%95-%eb%82%98%eb%ac%b4-%ed%85%8c%eb%a7%88
+ [2]: http://mytory.net/archives/tag/svg-%ed%99%9c%ec%9a%a9
  [3]: http://www.istockphoto.com/stock-illustration-3561299-magic-tree-amp-birdie.php
  [4]: http://dl.dropboxusercontent.com/u/15546257/blog/mytory/svg/save-as-svg.png
  [5]: http://dl.dropboxusercontent.com/u/15546257/blog/mytory/svg/save-as-svg-setting.png

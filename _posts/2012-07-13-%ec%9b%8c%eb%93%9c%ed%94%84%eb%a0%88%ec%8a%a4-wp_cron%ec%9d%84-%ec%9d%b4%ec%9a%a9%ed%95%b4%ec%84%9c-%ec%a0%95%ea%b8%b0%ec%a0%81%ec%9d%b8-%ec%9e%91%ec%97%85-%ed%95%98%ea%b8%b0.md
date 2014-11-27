@@ -71,7 +71,7 @@ function trackback_to_daum_view(){
         &#039;excerpt&#039; =&gt; get_the_excerpt(),
         &#039;id&#039;=&gt; get_the_ID()
       );
-      $tb[&#039;url&#039;] = &#039;http://mytory.local/archives/&#039; . $tb[&#039;id&#039;];
+      $tb[&#039;url&#039;] = &#039;http://mytory.net/archives/&#039; . $tb[&#039;id&#039;];
        //return getPrintr($tb);
        trackback(&#039;http://v.daum.net/tb/ch/it&#039;, $tb[&#039;title&#039;], $tb[&#039;excerpt&#039;], $tb[&#039;id&#039;]);
      }

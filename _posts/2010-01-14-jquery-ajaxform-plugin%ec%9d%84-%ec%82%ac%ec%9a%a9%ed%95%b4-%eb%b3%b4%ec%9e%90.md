@@ -152,4 +152,4 @@ echo json_encode($arr);</pre>
 
 [2012-02-21 추가] [validate 플러그인과 동시에 사용하려면 `beforeSubmit` 옵션을 사용한다.][1]
 
- [1]: http://mytory.local/archives/2292 "[jQuery] ajaxForm 플러그인과 validate 플러그인 동시에 사용하기"
+ [1]: http://mytory.net/archives/2292 "[jQuery] ajaxForm 플러그인과 validate 플러그인 동시에 사용하기"

@@ -28,11 +28,11 @@ tags:
 
 그래서 나 같은 경우는 화이트리스트에 아래 문자열을 추가했다.
 
-<pre>mytory.local/wp-admin/</pre>
+<pre>mytory.net/wp-admin/</pre>
 
 <div style="width: 509px" class="wp-caption aligncenter">
   <img src="https://dl.dropbox.com/u/15546257/blog/mytory/add-whitelist-to-adblock.png" alt="" width="499" height="512" /><p class="wp-caption-text">
-    이 이미지엔 mytory.local 을 넣은 걸로 돼 있는데 나중에 mytory.local/wp-admin/ 으로 수정했다. 내 글엔 애드센스가 달려 있는데 내가 실수로 클릭할 수도 있기 때문에 광고를 제거한다. 그래서 관리자모드에서만 애드블럭이 작동하지 않게 만들려면 관리자모드 URL을 적어 줘야 한다.
+    이 이미지엔 mytory.net 을 넣은 걸로 돼 있는데 나중에 mytory.net/wp-admin/ 으로 수정했다. 내 글엔 애드센스가 달려 있는데 내가 실수로 클릭할 수도 있기 때문에 광고를 제거한다. 그래서 관리자모드에서만 애드블럭이 작동하지 않게 만들려면 관리자모드 URL을 적어 줘야 한다.
   </p>
 </div>
 

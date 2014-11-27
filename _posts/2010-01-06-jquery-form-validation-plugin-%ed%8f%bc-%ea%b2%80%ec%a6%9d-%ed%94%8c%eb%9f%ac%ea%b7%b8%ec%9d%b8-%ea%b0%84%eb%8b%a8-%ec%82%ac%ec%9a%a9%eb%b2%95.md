@@ -250,5 +250,5 @@ label.error{
  [1]: http://parsleyjs.org/
  [2]: https://docs.google.com/leaf?id=0B1y-xjZYE3AqYTQ3YzdiMzYtNzQ2MC00MzE0LTk5MGQtYjI5MzU5MmUxYTYx&sort=name&layout=list&num=50
  [3]: http://jqueryvalidation.org/documentation/
- [4]: http://mytory.local/archives/2292 "[jQuery] ajaxForm 플러그인과 validate 플러그인 동시에 사용하기"
- [5]: http://mytory.local/archives/4904 "jquery.validate.js 폼 검증 플러그인 – 체크박스/라디오 버튼 검증과 에러메시지 위치 지정하기"
+ [4]: http://mytory.net/archives/2292 "[jQuery] ajaxForm 플러그인과 validate 플러그인 동시에 사용하기"
+ [5]: http://mytory.net/archives/4904 "jquery.validate.js 폼 검증 플러그인 – 체크박스/라디오 버튼 검증과 에러메시지 위치 지정하기"

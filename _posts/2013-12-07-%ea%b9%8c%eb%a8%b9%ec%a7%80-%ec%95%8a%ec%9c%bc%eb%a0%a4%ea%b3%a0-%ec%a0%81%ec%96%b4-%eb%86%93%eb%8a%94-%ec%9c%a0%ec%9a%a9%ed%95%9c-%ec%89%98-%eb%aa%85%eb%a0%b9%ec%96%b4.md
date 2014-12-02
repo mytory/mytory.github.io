@@ -5,8 +5,6 @@ layout: post
 permalink: /archives/11926
 mytory_md_path:
   - https://dl.dropboxusercontent.com/u/15546257/mytory-md-content/shell.md
-daumview_id:
-  - 51578151
 categories:
   - 기타
 tags:
@@ -237,6 +235,12 @@ OS간 파일명 인코딩이 깨지지 않게 압축을 하는 가장 간편한 
 혹은
 
     rpm --query --list 패키지명
+
+## pdftk로 모든 페이지 -90도 회전
+
+    pdftk A=asdf.pdf cat A1-endwest output a.pdf
+
+`cat`은 catenates의 약어다. `asdf.pdf`를 `A`라는 변수에 할당하고, `cat`이라는 operation에서 `A`의 `1-end`를 `west`로 돌리라고 명령을 내린 것이다. 그리고 `output` 뒤에 출력 파일명을 적어 준 거고.
 
  [1]: http://mytory.net/archives/2195
  [2]: http://mytory.net/archives/3242

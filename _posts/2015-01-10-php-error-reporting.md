@@ -14,4 +14,4 @@ tags:
 
 이건 php.ini에 박을 때.
 
-    error_reporting = E_ERROR | E_PARSE
+    error_reporting = E_ERROR & E_PARSE

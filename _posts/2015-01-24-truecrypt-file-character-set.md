@@ -13,9 +13,9 @@ tags:
 혹여나 해서 검색해 봤더니 character set을 지정해 주는 옵션이 있다. 윈도우 등에서 GUI로 사용한다면 이 조언을 참고하면 된다. 
 
 > 흔히 트루크립트 볼륨은 FAT32로 만들게 될 거다. FAT를 리눅스에서 마운트하면 character set 기본값은 iso8859-1이다. 윈도우에서 긴 파일명은 유니코드 형식으로 디스크에 저장돼 있지만 말이다.
-
+>
 > 해결책: 트루크립트 Mount options에서 iocharset=utf8이라고 지정해 주면 된다(전역 설정(preferences) 혹은 고급 설정(advanced options)의 특정 볼륨(specific volume)).
-
+>
 > 출처 : [Answer of 'Cross-platform non-ASCII symbols in filenames with TrueCrypt'](http://askubuntu.com/a/79184)
 
 ## 커맨드라인 해결책

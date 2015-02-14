@@ -36,3 +36,7 @@ tags:
         },
         formatSearching: function(){ return '검색중...'; }
     });
+
+html 쪽에선 hidden input을 사용한다.
+
+	<input name="모델명" id="모델명" type="hidden"/>

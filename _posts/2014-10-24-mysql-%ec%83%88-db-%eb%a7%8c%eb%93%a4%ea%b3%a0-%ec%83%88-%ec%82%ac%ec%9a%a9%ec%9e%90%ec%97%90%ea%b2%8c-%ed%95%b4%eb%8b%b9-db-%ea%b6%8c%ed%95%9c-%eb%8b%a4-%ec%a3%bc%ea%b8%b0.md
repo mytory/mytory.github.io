@@ -15,5 +15,5 @@ tags:
 
     create database newdbname character set utf8mb4;
     create user 'new_user_name'@'localhost' identified by 'new_user_password';
-    grant all privileges on new_user_name.* to 'new_user_name'@'localhost';
+    grant all privileges on newdbname.* to 'new_user_name'@'localhost';
     flush privileges;

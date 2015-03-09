@@ -12,4 +12,4 @@ tags:
 
     systemctl start NetworkManager
 
-늘 활성화하려면 **yast > System > Services Manager > NetworkManager**를 찾아서 enable 하면 될 거다. 난 아직 재부팅해 보지 않아서 모름.
+늘 활성화하려면 **yast > System > Services Manager > NetworkManager**를 찾아서 좌측 하단에 있는 enable/disable 버튼을 누른다. 그래서 NetworkManager가 enable로 변하면 완료.

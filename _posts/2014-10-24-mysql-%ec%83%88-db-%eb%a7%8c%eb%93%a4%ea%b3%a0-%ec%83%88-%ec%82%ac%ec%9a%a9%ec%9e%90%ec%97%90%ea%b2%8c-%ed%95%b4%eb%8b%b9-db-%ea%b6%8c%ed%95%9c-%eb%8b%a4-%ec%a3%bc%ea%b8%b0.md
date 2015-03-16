@@ -9,7 +9,7 @@ categories:
   - 서버단
 tags:
   - MySQL
-  - 코드 조각
+  - snippet
 ---
 외울려고 보관.
 

@@ -80,4 +80,5 @@ encoding
 spring
 intellij
 wine
-코드 조각
+코드 조각 => snippet
+snippet

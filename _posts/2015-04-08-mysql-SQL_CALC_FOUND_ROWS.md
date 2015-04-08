@@ -3,7 +3,7 @@ title: "MySQL, 페이징할 때 테이블 긁는 쿼리 하나로 전체 개수�
 layout: "post"
 category: "serverside"
 tags: 
-	- MySQL
+  - MySQL
 ---
 
 아래처럼 하면 된다.

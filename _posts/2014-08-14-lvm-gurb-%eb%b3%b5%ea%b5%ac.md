@@ -50,7 +50,6 @@ ubuntu 라이브CD를 이용해서 오픈수세 grub을 복구한 사례인데, 
 내 경우는 아래처럼 나왔다.
 
     control    crypt    system-mytory    system-swap
-    
 
 그러면 `system-mytory`를 마운트하자.
 
@@ -58,7 +57,11 @@ ubuntu 라이브CD를 이용해서 오픈수세 grub을 복구한 사례인데, 
     mount --bind /dev /mnt/dev
     mount --bind /proc /mnt/proc
     mount --bind /sys /mnt/sys
-    mount /dev/sdb1 /mnt/boot
+    mount /dev/sda1 /mnt/boot
+
+`/dev/sda1`은 부트 파티션이다. 각자 자신의 부트 파티션을 적어 주면 된다. grub을 복구하려면 부트파티션이 마운트돼 있어야 하니. 
+
+dev, proc, sys는 지금 라이브 시디로 부팅해서 얻은 정보를 마운트해서 사용하려는 것이고. 
 
 이제 마운트를 다 했으니 root를 변경한다.
 
@@ -68,6 +71,8 @@ ubuntu 라이브CD를 이용해서 오픈수세 grub을 복구한 사례인데, 
 이후엔 ubuntu, opensuse 각각의 grub 복구 명령을 쳐서 하면 된다. 오픈수세의 경우
 
     grub2-install /dev/sda
+
+`/dev/sda`는 당연한 말이지만 자신의 장치를 가리켜야 하고. 
     
 
 명령어로 했다.

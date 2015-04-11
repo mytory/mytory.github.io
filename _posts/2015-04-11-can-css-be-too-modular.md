@@ -1,5 +1,5 @@
 ---
-title: "CSS가 지나치게 모듈화할 수 있을까?"
+title: "[번역] CSS가 지나치게 모듈화할 수 있을까?"
 layout: "post"
 category: "html-css-js"
 tags: 

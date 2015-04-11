@@ -28,6 +28,7 @@ ubuntu 라이브CD를 이용해서 오픈수세 grub을 복구한 사례인데, 
 
 이제 볼륨그룹 스캔을 한다.
 
+    apt-get install lvm2
     vgscan
     
 
@@ -64,9 +65,9 @@ ubuntu 라이브CD를 이용해서 오픈수세 grub을 복구한 사례인데, 
     chroot /mnt
     
 
-이후엔 ubuntu, opensuse 각각의 grup 복구 명령을 쳐서 하면 된다. 오픈수세의 경우
+이후엔 ubuntu, opensuse 각각의 grub 복구 명령을 쳐서 하면 된다. 오픈수세의 경우
 
-    grup2-install
+    grub2-install /dev/sda
     
 
 명령어로 했다.

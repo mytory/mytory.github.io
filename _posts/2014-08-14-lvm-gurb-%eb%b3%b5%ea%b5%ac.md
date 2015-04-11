@@ -58,7 +58,7 @@ ubuntu 라이브CD를 이용해서 오픈수세 grub을 복구한 사례인데, 
     mount --bind /dev /mnt/dev
     mount --bind /proc /mnt/proc
     mount --bind /sys /mnt/sys
-    
+    mount /dev/sdb1 /mnt/boot
 
 이제 마운트를 다 했으니 root를 변경한다.
 

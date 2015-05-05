@@ -10,7 +10,7 @@
     <nav class="site-nav  site-nav--palm">
         <div class="wrapper"><!--
           {% for page in site.pages %}
-            {% if page.title and page.dir != "/jquery-validate-demo" and page.title != "PayPal 후원" %}
+            {% if page.title and page.dir != "/jquery-validate-demo" %}
             --><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a><!--
             {% endif %}
           {% endfor %}
@@ -25,7 +25,7 @@
   <nav class="site-nav  site-nav--laptop">
     <div class="wrapper"><!--
       {% for page in site.pages %}
-        {% if page.title and page.dir != "/jquery-validate-demo" and page.title != "PayPal 후원" %}
+        {% if page.title and page.dir != "/jquery-validate-demo" %}
         --><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a><!--
         {% endif %}
       {% endfor %}

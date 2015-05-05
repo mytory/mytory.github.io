@@ -18,7 +18,7 @@ body
   line-height: $base-line-height
   font-weight: light
   color: $text-color
-  background-color: $background-color
+  background-color: #fff
   word-break: break-all
   -webkit-text-size-adjust: 100%
 
@@ -64,41 +64,41 @@ h1, h2, h3, h4, h5, h6
 a
   color: $brand-color
   text-decoration: none
+  transition: color 0.3s
   &:visited
     color: darken($brand-color, 15%)
   &:hover
-    color: $text-color
-    text-decoration: underline
+    color: $brand-color2
 
 /**
  * Blockquotes
 blockquote
-  color: $grey-color
-  border-left: 4px solid $grey-color-light
+  font-size: 0.9em
+  font-family: serif
+  color: $grey-color-dark
   padding-left: $spacing-unit / 2
-  letter-spacing: -1px
   > :last-child
-    margin-bottom: 0
 
 /**
  * Code formatting
 code
   font-size: 0.9em
-  border: 1px solid $grey-color-light
+  padding: 0.2em 0px
+  margin: 0px
+  font-size: 85%
+  background-color: $grey-color-light
   border-radius: 3px
-  background-color: #eef
-  padding: 1px 5px
-  font-family: monospace
+  font-family: $monospace-font-family
 
 .post-content pre
   font-size: 0.9em
   padding: 1em
   border-radius: 4px
   color: #FFF
-  background-color: #34495E
+  background-color: $brand-color2
   word-wrap: normal
   overflow: auto
-  font-family: monospace
+  font-family: $monospace-font-family
   > code
     background-color: transparent
     border: 0

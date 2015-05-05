@@ -7,21 +7,23 @@
 
 // Our variables
 $base-font-family: Ubuntu, Arial,'Apple SD Gothic Neo','애플 SD 고딕 Neo','NanumBarunGothic','NanumBarunGothicOTF','나눔바른고딕','나눔바른고딕OTF','Malgun Gothic','맑은 고딕','NanumGothic','NanumGothicOTF', '나눔고딕','나눔고딕OTF',sans-serif;
+$monospace-font-family: Consolas,"Liberation Mono",Menlo,Courier,monospace;
 $base-font-size:   18px;
 $small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.6;
+$base-line-height: 1.8;
 
-$spacing-unit:     30px;
+$spacing-unit:     $base-font-size * 2;
 
-$text-color:       #111;
-$background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+$text-color:       #000;
+$background-color: #ECF0F1;
+$brand-color:      #2ECC71;
+$brand-color2:     #34495E;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
-$on-palm:          600px;
+$on-palm:          500px;
 $on-laptop:        800px;
 
 

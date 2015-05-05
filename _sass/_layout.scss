@@ -82,13 +82,26 @@
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid $grey-color-light;
+    font-size: $small-font-size;
+    text-align: center;
     padding: $spacing-unit 0;
+    background-color: $brand-color2;
+    *, a:link, a:visited, a:hover {
+        color: white;
+        fill: white;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+}
+
+.footer-addr {
+    margin-right: 0.5em;
 }
 
 .footer-heading {
-    font-size: 18px;
-    margin-bottom: $spacing-unit / 2;
+    font-size: $base-font-size;
+    margin-bottom: 0;
 }
 
 .contact-list,

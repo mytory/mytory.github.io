@@ -8,38 +8,28 @@
     </a>
 
     <nav class="site-nav  site-nav--palm">
-        <div class="wrapper">
+        <div class="wrapper"><!--
           {% for page in site.pages %}
             {% if page.title and page.dir != "/jquery-validate-demo" and page.title != "PayPal 후원" %}
-            <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+            --><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a><!--
             {% endif %}
           {% endfor %}
+          -->
         </div>
       </nav>
 
     <div class="search">
-      <script>
-        (function() {
-          var cx = '015481257105160606330:__la9bjmk_w';
-          var gcse = document.createElement('script');
-          gcse.type = 'text/javascript';
-          gcse.async = true;
-          gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
-              '//cse.google.com/cse.js?cx=' + cx;
-          var s = document.getElementsByTagName('script')[0];
-          s.parentNode.insertBefore(gcse, s);
-        })();
-      </script>
       <gcse:searchbox></gcse:searchbox>
     </div>
   </div>
   <nav class="site-nav  site-nav--laptop">
-    <div class="wrapper">
+    <div class="wrapper"><!--
       {% for page in site.pages %}
         {% if page.title and page.dir != "/jquery-validate-demo" and page.title != "PayPal 후원" %}
-        <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+        --><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a><!--
         {% endif %}
       {% endfor %}
+      -->
     </div>
   </nav>
 </header>

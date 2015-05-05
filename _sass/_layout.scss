@@ -36,15 +36,14 @@
     transition: fill 0.2s
 }
 .site-nav {
-    line-height: 56px;
     background-color: #2ECC71;
     .page-link {
         color: white;
         line-height: $base-line-height;
-
-        // Gaps between nav items, but not on the first one
-        &:not(:first-child) {
-            margin-left: 20px;
+        padding: 0.5em 1em;
+        display: inline-block;
+        &:hover {
+            background-color: $brand-color2;
         }
     }
 
@@ -174,9 +173,16 @@
     color: $grey-color;
 }
 
-.post-link {
+a.post-link {
     display: block;
     font-size: 24px;
+    color: $brand-color2;
+    &:visited {
+        color: lighten($brand-color2, 20%);
+    }
+    &:hover {
+        color: $text-color
+    }
 }
 
 

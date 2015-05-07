@@ -11,7 +11,7 @@ tag:
 
 **이 글은 CSS Wizardry를 운영하는 Harry Roberts의 글 ['MindBEMding – getting your head ’round BEM syntax'](http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/)를 번역한 것이다.**
 
-**해리 로버츠는 자신이 만든 inuitcss에서 BEM 원리에 따라 클래스 이름을 지었다. 나도 여기서 처음 BEM을 알게 됐다. 작명법으로서 BEM은 각 요소의 연관성을 분명하게 보여 줄 수 있다. 여튼 소개를 보자.**
+**해리 로버츠는 자신이 만든 inuitcss에서 BEM 원리에 따라 클래스 이름을 지었다. 나도 여기서 처음 BEM을 알게 됐다. 작명법으로서 BEM은 각 요소의 연관성을 분명하게 보여 줄 수 있다. 여튼 글을 읽어 보자.**
 
 ---
 

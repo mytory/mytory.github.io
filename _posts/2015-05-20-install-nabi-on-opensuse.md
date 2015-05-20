@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "오픈수세에서 uim 사용하기"
+title: "오픈수세에서 uim 입력기 사용하기"
 categories:
 - etc
 tag:

@@ -29,13 +29,11 @@ __uim으로 변경하는 것을 설명하고 있지만 모든 입력기를 이�
 #       예를 들면:
 #           INPUT_METHOD="scim"
 #       이것은 모든 사용자의 기본 설정을 바꾼다.
-#    2) set and export the variable "INPUT_METHOD" in ~/.profile in the
 #    2) 사용자 홈 디렉토리에 있는 ~/.profile 파일(csh 사용자인 경우
 #       ~/.login)에 "INPUT_METHOD" 값을 설정하고 export 한다. 예를 들면:
 #           export INPUT_METHOD="scim"
 #       이러면 해당 사용자의 기본값만 변경한다.
 #    
-#    The possible values for the variable INPUT_METHOD are the names
 #    INPUT_METHOD에 들어갈 수 있는 값은 /etc/X11/xim.d/ 디렉토리에 존재하는
 #    스크립트 파일의 이름이다. 예컨대, 만약 /etc/X11/xim.d/scim 파일이 있고,
 #    INPUT_METHOD 값을 "scim"으로 설정했다면, 이 스크립트를 맨처음 실행하게 될

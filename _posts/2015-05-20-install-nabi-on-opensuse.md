@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "오픈수세에서 uim 입력기 사용하기"
+title: "오픈수세에서 입력기(input method) 바꾸기"
 categories:
 - etc
 tag:
@@ -8,6 +8,8 @@ tag:
 - linux
 
 ---
+
+__uim으로 변경하는 것을 설명하고 있지만 모든 입력기를 이렇게 사용할 수 있다. scim은 uim 대신 scim이라고 써 주면 되고, nabi는 마찬가지로 nabi라고 써 주면 된다.__
 
 우선 root 권한으로 들어가자.
 

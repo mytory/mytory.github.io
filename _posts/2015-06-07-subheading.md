@@ -56,9 +56,9 @@ tag:
 이렇게 하면 CSS를 걷어냈을 때도 부제와 제목이 구분된다.
 
 
-## `hgroup` 태그는 사용하지 않게 됐다
+## `hgroup` 태그는 명세에서 없어졌다
 
-[`hgroup` 태그는 더이상 사용하지 않는다(obsolete)](http://www.w3.org/TR/html5/obsolete.html#non-conforming-features)고 분류됐다. 아래는 번역이다. 그 밑에 원문을 붙였다.
+[`hgroup` 태그는 명세에서 더이상 사용하지 않는다(obsolete)](http://www.w3.org/TR/html5/obsolete.html#non-conforming-features)고 분류됐다. 아래는 번역이다. 그 밑에 원문을 붙였다.
 
 ### `hgroup`
 

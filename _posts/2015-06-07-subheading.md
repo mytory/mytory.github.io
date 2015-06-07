@@ -64,7 +64,7 @@ tag:
 
 부제를 마크업하기 위해 제목을 담고 있는 `h1`-`h6` 요소 뒤에 오는 `p` 요소에 부제를 넣는 것을 고려하라. 아니면, 부제를 제목을 담고 있는 `h1`-`h6` 요소 안에 바로 집어 넣어라. 단, 기호 등으로 제목과 구분해라. 예컨대, `span class="subheading"` 요소 같은 것에 스타일을 다르게 줘서 말이다.
 
-제목, 부제, 대안적 제목(alternative titles)이나 태그라인은 `header`나 `div` 요소로 묶을 수 있다.
+제목, 부제, [대등 제목(alternative titles)](http://terms.naver.com/entry.nhn?docId=440923&cid=50296&categoryId=50296)이나 태그라인은 `header`나 `div` 요소로 묶을 수 있다.
 
 <blockquote>
     <dl>

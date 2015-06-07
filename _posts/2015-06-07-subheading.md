@@ -53,7 +53,7 @@ tag:
         <h1>제국주의 간 경쟁이 동아시아를 더욱 불안정에 빠뜨리다</h1>
     </header>
 
-이렇게 하면 CSS를 걷어냈을 때도 부제와 제목이 구분된다.
+이렇게 하면 CSS를 걷어냈을 때도 부제와 제목이 구분된다. 아울러 `hgroup` 태그를 사용하지 않는다고 밝힌 명세에서는 `header`뿐 아니라 `div`로도 부제를 묶을 수 있다고 적었다(아래 `hgroup` 부분 참고). 물론 난 그냥 `header`를 사용할 생각이다.
 
 
 ## `hgroup` 태그는 명세에서 없어졌다
@@ -64,10 +64,7 @@ tag:
 
 부제를 마크업하기 위해 제목을 담고 있는 `h1`-`h6` 요소 뒤에 오는 `p` 요소에 부제를 넣는 것을 고려하라. 아니면, 부제를 제목을 담고 있는 `h1`-`h6` 요소 안에 바로 집어 넣어라. 단, 기호 등으로 제목과 구분해라. 예컨대, `span class="subheading"` 요소 같은 것에 스타일을 다르게 줘서 말이다.
 
-제목, 부제, [대등 제목(alternative titles)](http://terms.naver.com/entry.nhn?docId=440923&cid=50296&categoryId=50296)이나 태그라인[제목 밑에 붙는 슬로건 같은 것 - 안형우]은 `header`나 `div` 요소로 묶을 수 있다.
-
-![태그라인 예제](https://dl.dropboxusercontent.com/u/15546257/blog/mytory/tagline-example.png)  
-[이런 게 태그라인이다. - 안형우]
+제목, 부제, 대등 제목(alternative titles)[^1]이나 태그라인[^2]은 `header`나 `div` 요소로 묶을 수 있다.
 
 <blockquote>
     <dl>
@@ -78,4 +75,6 @@ tag:
 </blockquote>
 
 
-
+[^1]: 본제목과는 다른 제목으로 해당 기록을 표현하는 또 다른 제목을 의미한다. 본제목과 다른 언어로 표현된 제목도 대등 제목에 해당한다. ([출처: \[네이버 지식백과\] 대등 제목 \[alternative title\] (기록학용어사전, 2008.3.10, 역사비평사)](http://terms.naver.com/entry.nhn?docId=440923&cid=50296&categoryId=50296))
+[^2]: 아래와 같이 제목 밑에 붙는 슬로건 같은 것 - 안형우  
+      ![태그라인 예제](https://dl.dropboxusercontent.com/u/15546257/blog/mytory/tagline-example.png)

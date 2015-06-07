@@ -67,7 +67,7 @@ tag:
 제목, 부제, [대등 제목(alternative titles)](http://terms.naver.com/entry.nhn?docId=440923&cid=50296&categoryId=50296)이나 태그라인[제목 밑에 붙는 슬로건 같은 것 - 안형우]은 `header`나 `div` 요소로 묶을 수 있다.
 
 ![태그라인 예제](https://dl.dropboxusercontent.com/u/15546257/blog/mytory/tagline-example.png)  
-이런 게 태그라인이다.
+[이런 게 태그라인이다. - 안형우]
 
 <blockquote>
     <dl>

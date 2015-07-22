@@ -13,13 +13,17 @@ tag:
 
 데이터를 많이 다루는 사이트를 만들 때 행을 고정해 달라는 요청을 받게 된다. 엑셀에는 그런 기능이 있으니, 사용자들이 그런 요구를 하는 것은 당연하다. CSS로 구현할 수 있다면 좋겠지만 그러면 아래와 같이, 스크롤 박스를 만드는 식으로밖에 구현되지 않는다. 별로다.
 
+<div class="video-container"><div class="video-container__inner">
 <iframe width="420" height="315" src="https://www.youtube.com/embed/LEacNnvC5wQ" frameborder="0" allowfullscreen></iframe>
+</div></div>
 
 이번에 입맛에 맞는 플러그인을 찾아 보려고 이거저거 뒤졌다. 일단 엑셀의 '틀고정' 기능을, 영어로는 'Freeze Header'라고 부르더라. 그 키워드로 찾았다. 찾다 보니 'Fixed Header'라는 용어도 사용하던데, 여튼 나는 'Freeze Header'로 찾았다. 
 
 그래서 찾은 게 Brent Muir의 [Freeze Header 플러그인](http://brentmuir.com/projects/freezeheader/)이다. 아래처럼 멋지게 작동한다.
 
+<div class="video-container"><div class="video-container__inner">
 <iframe width="420" height="315" src="https://www.youtube.com/embed/NjtUnrLCu4w" frameborder="0" allowfullscreen></iframe>
+</div></div>
 
 흔히 HTML에서 틀고정을 하면 스크롤 박스가 생기는 단점이 있었는데, 이 놈은 스크롤박스 없이 자연스럽게 틀고정을 해 준다.
 

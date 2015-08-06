@@ -8,6 +8,9 @@ categories:
 tags:
   - My WordPress Plugin
 ---
+
+사용해 보고 좋으셨다면 [리뷰](https://wordpress.org/support/view/plugin-reviews/uploadingdownloading-non-latin-filename)를 남겨 주세요. 한글로 남겨 주셔도 돼요.
+
 [2015-08-06 추가: 1.1.3 버전. IE9 이상 지원.]
 
 [2013-09-01 추가: 1.1.2 버전. 이미지 링크의 경우엔 다운로드를 하지 않도록 했다.]

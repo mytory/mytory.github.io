@@ -1,20 +1,15 @@
 ---
-title: 워드프레스 한글 파일명 업로드 다운로드 플러그인 wordpress uploading downloading non-latin filename
+title: 워드프레스 한글 첨부 파일명 플러그인 wordpress uploading downloading non-latin filename
 author: 녹풍(綠風, Windgreen)
 layout: post
 permalink: /archives/3309
-aktt_notify_twitter:
-  - yes
-aktt_tweeted:
-  - 1
-daumview_id:
-  - 34753721
-  - 36542321
 categories:
   - WordPress
 tags:
   - My WordPress Plugin
 ---
+[2015-08-06 추가: 1.1.3 버전. IE9 이상 지원.]
+
 [2013-09-01 추가: 1.1.2 버전. 이미지 링크의 경우엔 다운로드를 하지 않도록 했다.]
 
 [2013-08-31 추가 : 1.1.1버전이 나왔다. 이 버전은 큰 개선을 두 가지 했다.
@@ -36,6 +31,7 @@ tags:
 
 <div class="video-container">
   <div class="video-container__inner">
+  <iframe width="420" height="315" src="https://www.youtube.com/embed/QMl9bbiZrWQ" frameborder="0" allowfullscreen></iframe>
   </div>
 </div>
 
@@ -43,6 +39,8 @@ tags:
 
 이 플러그인의 장점은 아래와 같다.
 
+* 나중에 플러그인을 삭제해도 아무 문제가 생기지 않는다.
+* 영문 파일명은 굳이 변환하지 않는다.
 *   파일명이 알파벳이 아닐 때도 업로드가 잘 된다.
 *   파일을 다운로드할 때 원래 파일명(정확히는 워드프레스에 업로드한 파일의 제목)으로 다운로드한다. (공백은 -로 바꿔서 다운로드한다. 워드프레스의 `sanitize_file_name` 함수를 약간 바꿔서 사용.)
 *   bbPress용 플러그인인 [GD bbPress Attachments][2]도 지원한다. (js로 파일명 나오게 처리)
@@ -54,11 +52,10 @@ tags:
 
 *   파일명을 숫자로 바꿔서 서버에 저장한다는 거다. 숫자는 날짜와 시간이다. (에를 들면, 20120930_181522.zip, 파일명이 영어인 경우엔 그렇지 않으니 숫자로 저장하고 싶지 않다면 파일명을 영어로 변경해서 올리면 된다.)
 *   포스트에 이미지를 넣을 때 img 태그의 src에 들어가는 파일명은 서버에 있는 파일명이지 원본 파일명이 아니다. (역시 파일명이 영어인 경우엔 해당 없음이다.)
-*   <del>포스트 본문에 파일 다운로드 링크를 삽입하면 플러그인의 download.php를 거치게 만든다. 이거 자체는 큰 문제가 없겠지만, 플러그인을 삭제했을 때는 다운로드가 안 되는 문제가 발생한다. (비활성화했을 때는 문제 없다. 어차피 파일은 남아있으니까.)</del> 버전 1.1부터 이 문제는 없다.
 
 ## 지원, 라이센스
 
-내가 개발자로 사는 이상은 이 플러그인을 계속 업데이트할 거다. 문제가 있는 경우 댓글로 남겨 주시면 되겠다. 라이센스는 워드프레스와 같은 [GPLv2][3]다.
+내가 개발자로 사는 이상은 이 플러그인을 계속 업데이트할 거다. 문제가 있는 경우 이메일 주시거나 [워드프레스 플러그인 지원 게시판](https://wordpress.org/support/plugin/uploadingdownloading-non-latin-filename)에 남겨 주시면 된다. 라이센스는 워드프레스와 같은 [GPLv2][3]다.
 
 ## 기타
 

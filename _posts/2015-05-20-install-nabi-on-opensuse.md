@@ -64,6 +64,9 @@ __uim으로 변경하는 것을 설명하고 있지만 모든 입력기를 이�
 nabi도 사용하려고 했는데 emacs gui 프로그램에서 한글 띄어쓰기가 제대로 안 돼서
 때려 치웠다.
 
+
+## nabi로 바꾸는 경우
+
 nabi는 오픈수세 저장소에 없기 때문에 소스코드를 내려받아 컴파일한 뒤,
 스크립트를 만들어 `/etc/X11/xim.d/` 폴더에 넣고 `/etc/sysconfig/language`
 파일에 `INPUT_METHOD="nabi"` 라고 채워 넣었다. `/etc/X11/xim.d/nabi`

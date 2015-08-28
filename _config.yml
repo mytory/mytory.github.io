@@ -7,6 +7,6 @@ timezone: "Asia/Seoul"
 paginate: 10
 paginate_path: "page/:num"
 
-email: "mytory@gmail.com"
+email: "mail@mytory.net"
 twitter_username: "mytory"
 github_username: "mytory"

@@ -2,10 +2,6 @@
 title: 소개
 author: 녹풍(綠風, Windgreen)
 layout: page
-aktt_notify_twitter:
-  - yes
-mytory_md_path:
-  - 
 ---
 저도 한 번 제 소개를 블로그에 써 볼까 합니다.
 
@@ -44,7 +40,7 @@ mytory_md_path:
 
 댓글로 종종 이메일 주소를 물어 보시던데,
 
-*   제 이메일 주소는 **mytory쥐메일**입니다.
+*   제 이메일 주소는 **mail@mytory.net**입니다.
 
 마지막으로 저에게 후원하시려면 [PayPal 후원](/paypal-donation/)을 이용하시면 됩니다.
 

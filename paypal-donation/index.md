@@ -4,9 +4,11 @@ author: 녹풍(綠風, Windgreen)
 layout: page
 ---
 
+아래 페이팔 버튼을 눌러서 후원하시면 됩니다.
+
 Click below paypal button. 
 
-아래 페이팔 버튼을 눌러서 후원하시면 됩니다.
+下のPayPalボタンを押して後援ください。
 
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 <input type="hidden" name="cmd" value="_s-xclick">

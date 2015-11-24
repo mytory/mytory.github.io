@@ -10,3 +10,6 @@ paginate_path: "page/:num"
 email: "mail@mytory.net"
 twitter_username: "mytory"
 github_username: "mytory"
+
+gems:
+  - jekyll-sitemap

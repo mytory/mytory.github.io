@@ -3,10 +3,6 @@ title: 오픈소스 (사내)메신저 서버 구축, 오픈 파이어(openfire) 
 author: 녹풍(綠風, Windgreen)
 layout: post
 permalink: /archives/212
-aktt_notify_twitter:
-  - yes
-daumview_id:
-  - 37153782
 categories:
   - 기타
 tags:
@@ -32,7 +28,7 @@ tags:
 
 일단 설치를 하고, 리눅스의 경우는 http://서버주소:9090 으로 접속하면 세팅을 할 수 있다.
 
-만약 들어가지지 않는다면, openjdk만 깔려 있어서 그런 거다. sun에서 나온 jdk를 설치해 줘야 한다. 아니면 아래처럼 /etc/init.d/openfire 파일을 수정해 줘도 된다.
+만약 들어가지지 않는다면, openjdk만 깔려 있어서 그런 거다. sun에서 나온 jdk를 설치해 줘야 한다. 아니면 아래처럼 `/etc/init.d/openfire` 파일을 수정해 줘도 된다.
 
 <pre># 앞부분 생략
 
@@ -55,7 +51,7 @@ fi
 
 이렇게 주석처리를 한 다음 아래 명령어를 쳐서 오픈파이어를 시작한다.
 
-<pre>sudo /etc/init.d/openfire start</pre>
+<pre>sudo service openfire start</pre>
 
 세팅 과정에서 유의점 몇 가지만 적겠다.
 
@@ -63,7 +59,7 @@ fi
 
 일단 오픈파이어는 database도 사용한다. mysql 같은 외부 db를 사용할지 내부 db를 사용할지 설정해 줘야 한다. 외부 db를 사용할 경우 select한 다음 java에서 쓰는 양식으로 db접속 때 사용할 접속경로를 적어줘야 한다. 당연히 mysql은
 
-<pre class="brush:plain">jdbc:mysql://localhost:3306/DBname?useUnicode=yes&amp;characterEncoding=UTF8</pre>
+<pre>jdbc:mysql://localhost:3306/DBname?useUnicode=yes&amp;characterEncoding=UTF8</pre>
 
 형식이다. 인코딩을 적어 줘야 한글 이름이 안 깨진다.
 
@@ -71,7 +67,7 @@ fi
 
 admin 이메일과 비번을 입력하라고 하는데, 이메일은 필수는 아닌 듯하고, 비번은 적어 주면 된다. 근데 세팅 끝나고 admin console로 접속을 하게 되는데, 여기 아무리 id 비번을 적어도 안 되는 경우가 있다. 이거 땜에 고생했다. 일단 id는 admin이다. 이메일 주소 적는 삽질을 하지 말자. 비번은 정한 거대로 써 준다. 그런데도 에러 메시지가 나온다? 그러면 openfire를 재시작한다. 재시작 명령어는 아파치와 비슷하다.
 
-<pre class="brush:plain">sudo /etc/init.d/openfire restart</pre>
+<pre>sudo service openfire restart</pre>
 
 참, 이건 우분투 9.10 기준이다. deb 패키지로 설치했다. 그러니까 데비안 계열은 명령어가 같을 것 같다.
 
@@ -87,13 +83,13 @@ admin 이메일과 비번을 입력하라고 하는데, 이메일은 필수는 �
 
 그 다음 Users/Groups 메뉴의 Registration Properties를 누른다. 거기에서 아래 체크박스에 체크해 준다.
 
-Enable users to register via a web page at http://서버이름:9090/plugins/registration/sign-up.jsp
+> Enable users to register via a web page at http://서버이름:9090/plugins/registration/sign-up.jsp
 
 그러면 http://서버이름:9090/plugins/registration/sign-up.jsp 주소에서 누구나 가입할 수 있게 된다.
 
-다음은 **가입하는 사람은 모두 기본 그룹에 포함**되게 하는 방법이다.
+다음은 **가입하는 사람은 모두 기본 그룹에 포함**되게 하는 방법이다. Registration 플러그인이 설치돼 있어야 한다.
 
-Groups 메뉴를 클릭한다. 거기서 새 그룹을 일단 만든다.(Create New Group)
+Groups 메뉴를 클릭한다. 거기서 새 그룹을 일단 만든다.(Create New Group) 
 
 다시 Users 메뉴를 클릭하고, Registration Properties로 들어간다. 거기서 아래쪽으로 내려가 보면 Default Group이 있다. 거기에 아까 만든 그룹을 적어 주고 save group을 눌러 준다. 저장된 것을 확인했으면 위쪽으로 돌아와서 Enable automatically adding of new users to a group. 에 체크해 준다.
 
@@ -107,49 +103,49 @@ groups의 Group Summary로 들어가서 아까 만든 그룹을 클릭한다. �
 
 ## 세팅 다시 하기
 
-세팅을 실수한 것 같아서 다시 하고 싶을 때는 /etc/openfier/openfire.xml을 열고 아래 부분을 수정한다.
+세팅을 실수한 것 같아서 다시 하고 싶을 때는 `/etc/openfier/openfire.xml`을 열고 아래 부분을 수정한다.
 
-<pre class="brush:xml">&lt;setup&gt;true&lt;/setup&gt;</pre>
+<pre>&lt;setup&gt;true&lt;/setup&gt;</pre>
 
 이 부분을
 
-<pre class="brush:xml">&lt;setup&gt;false&lt;/setup&gt;</pre>
+<pre>&lt;setup&gt;false&lt;/setup&gt;</pre>
 
 이렇게 고치면 된다.
 
 그리고 오픈파이어를 리스타트한다.
 
-<pre class="brush:plain">sudo /etc/init.d/openfire restart</pre>
+<pre>sudo service openfire restart</pre>
 
 그리고 http://서버주소:9090/ 으로 들어가면 된다. 오픈파이어가 다시 시작할 때 시간이 좀 걸리니까 급하게 생각하지 말기 바란다.
 
 ## 일부 한글로 만들기
 
-openfire 기본 언어 세팅에 한글은 없다. 영어 중국어 따위만 있다. 그래도 openfire.xml의 아래 부분을 ko로 해 주면 &#8216;한국표준시&#8217; 따위의 한글은 볼 수 있다.
+openfire 기본 언어 세팅에 한글은 없다. 영어 중국어 따위만 있다. 그래도 `openfire.xml`의 아래 부분을 ko로 해 주면 &#8216;한국표준시&#8217; 따위의 한글은 볼 수 있다.
 
-<pre class="brush:xml">&lt;locale&gt;ko&lt;/locale&gt;</pre>
+<pre>&lt;locale&gt;ko&lt;/locale&gt;</pre>
 
 당연히 xml을 수정한 다음에는 openfire를 restart해야 한다.
 
-<pre class="brush:plain">sudo /etc/init.d/openfire restart</pre>
+<pre>sudo service openfire restart</pre>
 
 ## 한글 이름 깨지는 문제
 
 username은 아이디다. 당연히 한글로 하지 않는 게 좋다. 그러나 name 부분은 한글로 하는 게 좋을 것이다. 기본으로 보이는 이름이니까 말이다.
 
-그렇게 하려면 처음 db 설정 때 인코딩 설정을 해 줘야 한다. mysql의 경우 아래와 같이 인코딩 설정을 한다.
+한글 이름이 깨지지 않게 하려면 처음 db 설정 때 인코딩 설정을 해 줘야 한다. mysql의 경우 아래와 같이 인코딩 설정을 한다.
 
-<pre class="brush:plain">jdbc:mysql://localhost:3306/DBname?useUnicode=yes&amp;characterEncoding=UTF8</pre>
+<pre>jdbc:mysql://localhost:3306/DBname?useUnicode=yes&amp;characterEncoding=UTF8</pre>
 
 DBname 뒷부분을 긁어서 자신의 코드에 적용하면 된다.
 
-다 설치한 다음 수정하기 위해서는 openfire.xml을 연다. 아래처럼 고쳐 준다.
+다 설치한 다음 수정하기 위해서는 /etc/openfire/openfire.xml을 연다. 아래처럼 고쳐 준다.
 
-<pre class="brush:xml">&lt;serverURL&gt;jdbc:mysql://localhost:3306/DBname?useUnicode=yes&amp;characterEncoding=UTF8&lt;/serverURL&gt;</pre>
+<pre>&lt;serverURL&gt;jdbc:mysql://localhost:3306/DBname?useUnicode=yes&amp;characterEncoding=UTF8&lt;/serverURL&gt;</pre>
 
 당연히 xml을 수정한 다음에는 openfire를 restart해야 한다.
 
-<pre class="brush:plain">sudo /etc/init.d/openfire restart</pre>
+<pre>sudo service openfire restart</pre>
 
 ## 사용 가능한 메신저
 

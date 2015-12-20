@@ -243,6 +243,15 @@ a.post-link {
             font-size: 18px;
         }
     }
+
+    table {
+        border-collapse: collapse;
+    }
+    
+    td, th {
+        border: 1px solid #ddd
+        padding: .5em
+    }
 }
 
 .google-information {

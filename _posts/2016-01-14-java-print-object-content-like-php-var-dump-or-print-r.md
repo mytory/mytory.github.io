@@ -11,7 +11,7 @@ tags:
 
 JAVA에는 그런 게 없다. 물론 이클립스를 이용해 객체를 디버그할 수 있지만, 불편하다. 
 
-좀 불편하지만, `toString()` 메서드를 오버라이드할 수 있는 방법이 있다. 이렇게 하면 `print_r` 함수를 사용한 것처럼 객체 내용을 출력한다. [Pojomatic 라이브러리](http://www.pojomatic.org/)를 사용한다.
+좀 번거롭지만, `toString()` 메서드를 오버라이드할 수 있는 방법이 있다. 이렇게 하면 `print_r` 함수를 사용한 것처럼 객체 내용을 출력한다. [Pojomatic 라이브러리](http://www.pojomatic.org/)를 사용한다.
 
 만약 메이븐을 사용한다면, `pom.xml`에 아래처럼 의존성을 추가해 준다.
 
@@ -53,3 +53,5 @@ JAVA에는 그런 게 없다. 물론 이클립스를 이용해 객체를 디버�
     System.out.println(new Person("John", "Doe", 32).toString());
     
     // result: Person{firstName: {John}, lastName: {Doe}, age: {32}}
+    
+흔히 사용하는 log4j에서 `logger.debug(vo)` 식으로 사용할 수도 있다.

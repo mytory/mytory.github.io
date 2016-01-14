@@ -54,4 +54,4 @@ JAVA에는 그런 게 없다. 물론 이클립스를 이용해 객체를 디버�
     
     // result: Person{firstName: {John}, lastName: {Doe}, age: {32}}
     
-흔히 사용하는 log4j에서 `logger.debug(vo)` 식으로 사용할 수도 있다.
+흔히 사용하는 log4j에서 `logger.debug("{}", vo)` 식으로 사용할 수도 있다.

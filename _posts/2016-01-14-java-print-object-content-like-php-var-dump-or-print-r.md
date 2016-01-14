@@ -1,5 +1,5 @@
 ---
-title: 자바에서 Pojomatic을 이용해 객체 내용 출력하기 - `var_dump`나 `print_r`처럼
+title: 자바에서 Pojomatic을 이용해 객체 내용 출력하기 - var_dump나 print_r처럼
 layout: post
 categories:
   - serverside

@@ -3,12 +3,6 @@ title: 'jquery.validate.js 폼 검증 플러그인 &#8211; 체크박스/라디�
 author: 녹풍(綠風, Windgreen)
 layout: post
 permalink: /archives/4904
-aktt_notify_twitter:
-  - yes
-aktt_tweeted:
-  - 1
-daumview_id:
-  - 36093424
 categories:
   - 웹 퍼블리싱
 tags:
@@ -62,5 +56,5 @@ tags:
 
  [1]: http://parsleyjs.org/
  [2]: http://mytory.net/archives/195 "jQuery Form Validation Plugin 폼 검증 플러그인 간단 사용법"
- [3]: http://mytory.net/jquery-validate-demo
+ [3]: https://dl.dropboxusercontent.com/u/15546257/code/jquery-validate-demo.html
  [4]: http://dl.dropbox.com/u/15546257/blog/mytory/jquery-validate-js-error-msg-position.png

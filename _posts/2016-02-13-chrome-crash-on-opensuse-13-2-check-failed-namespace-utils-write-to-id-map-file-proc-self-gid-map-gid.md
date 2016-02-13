@@ -1,5 +1,5 @@
 ---
-title: 오픈수세 13.2 크롬 에러 해결(Check failed: NamespaceUtils::WriteToIdMapFile("/proc/self/gid_map", gid_))
+title: '오픈수세 13.2 크롬 에러 해결(Check failed: NamespaceUtils::WriteToIdMapFile("/proc/self/gid_map", gid_))'
 layout: post
 categories:
   - linux

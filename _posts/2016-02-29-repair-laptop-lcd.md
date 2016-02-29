@@ -73,43 +73,43 @@ Aspire One 756도 마찬가지였다. 아래는 그렇게 찾은 영상이다.
 
 아래는 HP envy 4-1118TX LCD 수리 비포 앤 애프터.
 
-![](1-broken-lcd.jpg)
+![](_uploads/1-broken-lcd.jpg)
 
-![](2-unwrap-bezel.jpg)
+![](_uploads/2-unwrap-bezel.jpg)
 
 베젤을 떼는 건 모델마다 다르다. HP envy 4는 나사 두 개를 풀고 손을 뜯어야 했다. Acer Aspire One 756은 나사가 없었다.
 
-![](3-eject.jpg)
+![](_uploads/3-eject.jpg)
 
 이렇게 연결 부위가 있는데, 조심조심 떼자. 다 하고 꽂은 다음엔 꼭 다시 테이프로 붙여 고정하자.
 
-![](4-lcd-panel.jpg)
+![](_uploads/4-lcd-panel.jpg)
 
-![](5-lcd-model-name.jpg)
+![](_uploads/5-lcd-model-name.jpg)
 
 LCD 모델명이다.
 
-![](6-unwrap-protect-film.jpg)
+![](_uploads/6-unwrap-protect-film.jpg)
 
 자, 이거 마무리 하기 전에 꼭 보호 필름을 떼자. 안 그럼 다시 분해해야 한다.
 
-![](7-repaired.jpg)
+![](_uploads/7-repaired.jpg)
 
 이건 수리 완료한 모습이다.
 
 아래는 Aspire One 756-987BCbb 수리 사진.
 
-![](8-broken-lcd.jpg)
+![](_uploads/8-broken-lcd.jpg)
 
-![](9-unwrap-bezel.jpg)
+![](_uploads/9-unwrap-bezel.jpg)
 
-![](a-caution.jpg)
+![](_uploads/a-caution.jpg)
 
 Aspire One 756은 LCD 패널을 뗄 때 붙어있는 쇠막대를 같이 당기지 않게 조심해야 한다.
 
-![](b-lcd-model-name.jpg)
+![](_uploads/b-lcd-model-name.jpg)
 
-![](c-repaired.jpg)
+![](_uploads/c-repaired.jpg)
 
 수리한 모습.
 

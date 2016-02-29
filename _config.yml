@@ -12,4 +12,5 @@ twitter_username: "mytory"
 github_username: "mytory"
 
 gems:
+  - jekyll-paginate
   - jekyll-sitemap

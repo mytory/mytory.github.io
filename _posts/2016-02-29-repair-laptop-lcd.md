@@ -1,5 +1,5 @@
 ---
-title: '[DIY] 노트북 LCD 자가수리하기'
+title: '[DIY] 노트북 LCD 자가수리하기(HP envy 4, Acer Aspire One 756)'
 layout: post
 categories: 
   - etc

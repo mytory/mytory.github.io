@@ -170,7 +170,7 @@ CREATE TABLE `auth_tokens` (
 자동 로그인 알고리즘은 아래와 같다.
 
 1. `selector`와 `validator`를 분리한다.
-2. `selector`로 `auth_tocken`을 검색하고 없으면 취소한다.
+2. `selector`로 `auth_token`을 검색하고 없으면 취소한다.
 3. `validator`는 사용자의 토큰을 sha-256으로 암호화해서 만든다.
 4. 두 해시를 `hash_equals()` 함수로 비교하라.
 5. 4번을 통과했다면 로그인 처리.

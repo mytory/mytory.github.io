@@ -19,7 +19,7 @@ MD5나 SHA1을 암호 해시 툴로 사용하는 것은 좋은 생각이 아니�
 - scrypt
 - PBKDF2 (**P**assword-**B**ased **K**ey **D**erivation **F**unction #2)
 
-`scrypt`는 PECL로 설치해야 한다. 만약 `scrypt`를 사용할 수 있다면 그렇게 하는 걸 추천한다. 그리고 scrypt를 쓸 수 없다면 `bcrypt`를 써야 하는데, `password_hash()`와 `password_verity()` 함수가 그걸로 구현돼 있다. 스스로 구현하지 말고 그걸 써라.
+`scrypt`는 PECL로 설치해야 한다. 만약 `scrypt`를 사용할 수 있다면 그렇게 하는 걸 추천한다. 그리고 `scrypt`를 쓸 수 없다면 `bcrypt`를 써야 하는데, `password_hash()`와 `password_verity()` 함수가 그걸로 구현돼 있다. 스스로 구현하지 말고 그걸 써라.
 
 bcrypt는 72자 이상을 비워 버리고 `NUL` 문자도 없앤다. 그런데 이 문제를 해결하기 위해 암호를 sha-256을 이용해 해시로 만든 다음 `bcrypt`로 다시 암호화하는 경우가 있다. 좋지 않다. 특정 문자엘에 특정 해시를 만들어내는 경우가 있어서 복호화 속도를 엄청나게 빠르게 해 준다.
 

@@ -144,7 +144,7 @@ function generateToken($length = 20)
 
     SELECT * FROM auth_tokens WHERE token = 'W665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27aen';
 
-쉽지는 않지만 이걸 뚫을 방법도 있다. 위 해시에서 맨 앞 `W`를 `X`로 변경하면, 맨 마지막의 `n`을 `o`로 변경한 것보다 검색 속도가 약간 빨라진다. 관련해서는 [그건 시간 문제야(It's All About Time)](http://blog.ircmaxell.com/2014/11/its-all-about-time.html)를 참고하라. 고작 몇 나노초 차이겠지만, 위험을 자처할 필요는 없지 않은가. 시간차 공격을 피하려면 `hash_equals()` 함수를 사용하면 되는데, 아래에서는 다른 방법을 사용한다.
+쉽지는 않지만 이걸 뚫을 방법도 있다. 위 해시에서 맨 앞 `W`를 `X`로 변경하면, 맨 마지막의 `n`을 `o`로 변경한 것보다 검색 속도가 약간 빨라진다. 관련해서는 [시간이 문제다(It's All About Time)](http://blog.ircmaxell.com/2014/11/its-all-about-time.html)를 참고하라. 고작 몇 나노초 차이겠지만, 위험을 자처할 필요는 없지 않은가. 시간차 공격을 피하려면 `hash_equals()` 함수를 사용하면 되는데, 아래에서는 다른 방법을 사용한다.
 
 
 자동 로그인 구현

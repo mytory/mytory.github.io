@@ -140,7 +140,7 @@ function generateToken($length = 20)
 
 ### 시간차 공격 ###
 
-토큰을 `remember=a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3` 식으로 만들게 되면, 마아 데이터베이스에서 이런 식으로 토큰을 검색하게 될 거다.
+토큰을 `remember=W665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27aen` 식으로 만들게 되면, 마아 데이터베이스에서 이런 식으로 토큰을 검색하게 될 거다.
 
     SELECT * FROM auth_tokens WHERE token = 'W665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27aen';
 

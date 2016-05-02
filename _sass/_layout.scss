@@ -283,3 +283,12 @@ a.post-link {
     }
 }
   
+.footnotes {
+    background: #eee;
+    padding: 1em;
+    border-radius: 5px;
+    border-top: 5px dashed #ccc;
+    p:last-child {
+        margin-bottom: 0;
+    }
+}

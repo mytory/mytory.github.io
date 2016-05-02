@@ -140,7 +140,7 @@ php 내장 웹서버를 이용해 laravel을 돌리는 명령어도 제공한다
     
 커맨드라인 명령어를 추가하는 것은 상당히 쉽다. 역시 커맨드라인으로 틀을 생성한 뒤 비즈니스 로직을 작성하면 된다.
 
-   php artisan make:console command_name
+    php artisan make:console command_name
 
 
 ### ORM(Object Relation Model) ###

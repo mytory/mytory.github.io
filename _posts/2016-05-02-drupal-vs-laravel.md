@@ -6,11 +6,9 @@ tags:
   - Framework
 ---
 
-[&lt;노동자 연대&gt;](http://wspaper.org/) 웹사이트를 새로 구축하기로 결정했다. 
+[&lt;노동자 연대&gt;](http://wspaper.org/) 웹사이트를 새로 구축하기로 결정했다. 지금까지는 인트라넷 작업을 하느라 신문 웹사이트는 손을 많이 못 댔다. 그러나 앞으로는 웹사이트에 더 많이 공을 들이려고 계획중이다. 
 
-지금까지는 인트라넷 작업을 하느라 신문 웹사이트는 손을 많이 못 댔다. 그러나 앞으로는 웹사이트에 더 많이 공을 들이려고 계획중이다. 
-
-지금 웹사이트는 2006년에 구현한 것이다. 당시 나는 아직 개발자가 아니었고, 다른 사람이 구축한 것인데, 많이 낡았다.
+지금 웹사이트는 2006년에 구현한 것이다. 당시 나는 아직 개발자가 아니었고 다른 사람이 구축한 것이다. 겉모양엔 많은 변화가 있었지만, 안 쪽 코드는 많이 낡았다.
 
 아래는 구현할 CMS와 프레임웍을 고르면서 나름대로 비교한 것을 간략히 적은 것이다.
 
@@ -18,34 +16,58 @@ tags:
 워드프레스
 ---------
 
-우선 워드프레스를 고려하긴 했다. 그리고 비교적 간단하게 하지 않는 것으로 결론을 내렸다. 
+우선 워드프레스를 고려하긴 했다. 그리고 사용하지 않는 것으로, 비교적 손쉽게 결론지었다. 물론 워드프레스는 훌륭한 CMS다. [블로터](http://bloter.net)나 [레디앙](http://www.redian.org/) 같은 곳은 워드프레스로 구축돼 있고 잘 운영되는 듯하다.
 
-물론 워드프레스는 훌륭한 CMS다. 국내 뉴스 사이트 중 [블로터](http://bloter.net)나 [레디앙](http://www.redian.org/) 같은 곳이 워드프레스로 구축돼 있다.
-
-그런데 지난 몇 년 간 워드프레스로 사이트를 구축해 온 나에겐 두어가지 걸리는 점이 있었다. 
+그런데 지난 몇 년 간 워드프레스로 사이트를 구축해 온 나에겐 걸리는 점이 있었다. 내가 '인지 비용'[^fn3]이라고 부르는 단점이다.
 
 Post Type이나 Taxonomy(분류) 같은 것을 커스터마이징할 때 사고에 비용이 좀 든다는 것이 내 생각이다. 예컨대, 워드프레스는 분류를 추가하려면 테마나 플러그인에서 아래와 같은 코드를 사용한다(워드프레스 커스텀 분류 예제 코드).
 
 <pre>
-function people_init() {
-	// create a new taxonomy
-	register_taxonomy(
-		'people',
-		'post',
-		array(
-			'label' => __( 'People' ),
-			'rewrite' => array( 'slug' => 'person' ),
-			'capabilities' => array(
-				'assign_terms' => 'edit_guides',
-				'edit_terms' => 'publish_guides'
-			)
-		)
-	);
+add_action( 'init', 'codex_book_init' );
+/**
+ * Register a book post type.
+ *
+ * @link http://codex.wordpress.org/Function_Reference/register_post_type
+ */
+function codex_book_init() {
+    $labels = array(
+        'name'               => _x( 'Books', 'post type general name', 'your-plugin-textdomain' ),
+        'singular_name'      => _x( 'Book', 'post type singular name', 'your-plugin-textdomain' ),
+        'menu_name'          => _x( 'Books', 'admin menu', 'your-plugin-textdomain' ),
+        'name_admin_bar'     => _x( 'Book', 'add new on admin bar', 'your-plugin-textdomain' ),
+        'add_new'            => _x( 'Add New', 'book', 'your-plugin-textdomain' ),
+        'add_new_item'       => __( 'Add New Book', 'your-plugin-textdomain' ),
+        'new_item'           => __( 'New Book', 'your-plugin-textdomain' ),
+        'edit_item'          => __( 'Edit Book', 'your-plugin-textdomain' ),
+        'view_item'          => __( 'View Book', 'your-plugin-textdomain' ),
+        'all_items'          => __( 'All Books', 'your-plugin-textdomain' ),
+        'search_items'       => __( 'Search Books', 'your-plugin-textdomain' ),
+        'parent_item_colon'  => __( 'Parent Books:', 'your-plugin-textdomain' ),
+        'not_found'          => __( 'No books found.', 'your-plugin-textdomain' ),
+        'not_found_in_trash' => __( 'No books found in Trash.', 'your-plugin-textdomain' )
+    );
+
+    $args = array(
+        'labels'             => $labels,
+        'description'        => __( 'Description.', 'your-plugin-textdomain' ),
+        'public'             => true,
+        'publicly_queryable' => true,
+        'show_ui'            => true,
+        'show_in_menu'       => true,
+        'query_var'          => true,
+        'rewrite'            => array( 'slug' => 'book' ),
+        'capability_type'    => 'post',
+        'has_archive'        => true,
+        'hierarchical'       => false,
+        'menu_position'      => null,
+        'supports'           => array( 'title', 'editor', 'author', 'thumbnail', 'excerpt', 'comments' )
+    );
+
+    register_post_type( 'book', $args );
 }
-add_action( 'init', 'people_init' );
 </pre>
 
-글 종류를 서너개만 만들어도 이런 코드가 여러 개 생긴다. label을 붙이는 것도 꽤 성가시게 느껴진다. 사실 분류는 디비에 넣거나 하드코딩하는 것이 (코딩 철학으로서가 아니라) 사고 과정에 잘 맞는다. 예컨대, 게시판 카테고리는 그냥 DB의 `category` 컬럼에 들어 있는 것을 사용하면 된다. 인지 비용[^fn3]이 낮다. 이에 비해 워드프레스는 생각을 약간 틀어야 한다. 내가 느끼기엔 약간 왜곡된다. 
+글 종류를 서너개만 만들어도 이런 코드가 여러 개 생긴다. Post Type에 한글 이름을 붙이는 것도 꽤 성가시다. 사실 분류는 디비에 넣거나 하드코딩하는 것이 (코딩 철학으로서가 아니라) 사고 과정에 잘 맞는다. 예컨대, 게시판 카테고리는 그냥 DB의 `category` 컬럼에 들어 있는 것을 사용하면 된다. 인지 비용이 낮다. 이에 비해 워드프레스는 생각을 약간 틀어야 한다. 내가 느끼기엔 약간 왜곡된다. 
 
 사실 CMS로서는 훅이나 필터를 사용하는 것이 자연스러운 일이긴 하다. 그래서 CMS로선 좋다고 말할 수 있을 지 모르지만, 내가 가장 많이 작업하게 될 사이트를 만드는 데는 그리 좋게 느껴지지 않았다.
 
@@ -53,21 +75,21 @@ add_action( 'init', 'people_init' );
 
     add_plugins_page( $page_title, $menu_title, $capability, $menu_slug, $function);
     
-잘 이해가 안 되면 넘어가자. 이해하면 그리 어렵진 않다는 건 일단 말해 둔다. 하지만, 직관적이지 않다는 문제는 남는데, 이게 내가 워드프레스를 고르기 껄끄러웠던 이유다. 함수를 만들고, 훅을 걸고, 훅에서 함수를 호출하고, 해당 함수가 HTML을 렌더링하고... 이게 그리 직관적이진 않다.
+잘 이해가 안 되면 넘어가자. 이해하면 그리 어렵지 않긴 한데, 직관적이지 않다는 문제는 남는다. 이게 내가 워드프레스를 고르기 껄끄러웠던 이유다. 함수를 만들고, 훅을 걸고, 훅에서 함수를 호출해 그 함수가 다른 함수를 호출하고, 마지막에 호출된 함수가 HTML을 렌더링하고... 이게 그리 직관적이진 않다.
 
-워드프레스는 블로그 플랫폼으로 출발했다. 그리고 다양한 훅과 필터를 바탕으로 플러그인 생태계를 이뤘다. 이 점은 크나큰 장점이다. 그러나 역설적으로 이 장점이 나에겐 약간의 단점이 되었다.
+워드프레스는 블로그 플랫폼으로 출발했다. 그리고 다양한 훅과 필터를 바탕으로 플러그인 생태계를 이룬 뒤 CMS로 발전했다. 오랜 궤적을 그리며 이어 온 생태계는 크나큰 장점이다. 그러나 역설적으로 나에겐 세월의 흔적이 묻어 나는 그 확장이 오히려 단점이 되었다.
 
-사실 어떻게 보면 워드프레스는 표준화된 사이트다. 프로그래밍을 레고 블록들의 조립으로 대체하려는 노력은 오래 전부터 있어 왔는데, 어쩌면 워드프레스가 그렇게 보일 지도 모르겠다. 여전히 필요에 맞는 사이트를 구현하려면 많은 코드를 직접 짜야 하지만, 관리자 페이지가 기본으로 구현돼 있고, 괜찮은 플러그인이 꽤 있다는 점은 큰 장점이다. 나도 User Role, Google analyticator, Limit Login Attempts, W3 Total Cache 같은 플러그인을 사용한다. 내가 만든 Uploading downloading non-latin filename 플러그인도 잘 사용하고 있다(이건 비록 워드프레스의 단점을 보완하는 역할을 하는 플러그인이지만 말이다).
+사실 어떻게 보면 워드프레스는 표준화된 사이트다. 프로그래밍을 레고 블록들의 조립으로 대체하려는 노력이, 어쩌면 워드프레스로 결실을 맺었다고 생각할 지도 모르겠다. 여전히 필요에 맞는 사이트를 구현하려면 많은 코드를 직접 짜야 하지만, 관리자 페이지가 기본으로 구현돼 있고, 괜찮은 플러그인이 꽤 있다는 점은 큰 장점이다. 나도 User Role, Google analyticator, Limit Login Attempts, W3 Total Cache 같은 플러그인을 사용한다. 내가 만든 Uploading downloading non-latin filename 플러그인도 잘 사용하고 있다.
 
 앞으로도 많은 사이트를 워드프레스로 구축하려고 한다. 하지만, 이번에 만들 신문 사이트에는 아니라는 결론을 내렸다. 많은 시간을 사이트 개발 자체를 하면서 보내게 될 것이고, 다양하고 유연한 기능들이 많이 들어가야만 하는 사이트다. 인지 비용이 드는 워드프레스는 뭔가 맞지 않는다는 생각을 했다. 
 
 
-Drupal
---------
+드루팔(Drupal)
+--------------
 
 워드프레스를 후보에서 제외한 뒤에는 해외 뉴스 사이트들이 어떤 프레임웍을 사용하는지 살펴 봤는데, [Newscoop](https://www.sourcefabric.org/en/newscoop/) 같은 뉴스CMS보다도 [드루팔](https://www.drupal.org/) 같은 일반화된 CMS를 더 많이 사용했다. 하긴 CMS는 생태계가 훨씬 중요할 테니 그럴 법하다는 생각이 들었다.[^fn4]
 
-뉴스 CMS를 보면서 재밌게 본 것은 [vox.com](http://vox.com/)의 코러스다. 요새 [각광받고 있다](http://www.bloter.net/archives/196694)고 해서 테스트해 보려고 했는데, 웬걸 공개된 것이 아니었다. 다만, 기능을 묘사해 둔 글들을 보니 구현할 기능을 참고하는 데 활용할 수 있겠다는 생각이 들었다.
+뉴스 CMS를 보면서 재밌게 본 것은 [vox.com](http://vox.com/)의 코러스(Chorus)다. 요새 [각광받고 있다](http://www.bloter.net/archives/196694)고 해서 테스트해 보려고 했는데, 웬걸 공개된 것이 아니었다. 다만, 기능을 묘사해 둔 글들을 보니 구현할 기능을 참고하는 데 활용할 수 있겠다는 생각이 들었다.
 
 드루팔은 상당히 유연해 보였다. Content Type과 해당 글을 편집하는 UI를 기본적으로 관리자단에서 관리할 수 있다고 했다. 국내에선 [진보넷](http://act.jinbo.net/drupal/)이 드루팔로 구현돼 있고, 처음 진보넷이 사이트를 드루팔로 리뉴얼했을 때 소개한 글도 본 적이 있었다. [꽤 칭찬을 하는 글이었다.](http://act.jinbo.net/drupal/node/5569) 다만, 2011년인가 테스트해 봤을 때 너무 느리다는 인상이 있었다. 그 땐 초보였으니 느리다고 폐기했었다. 이젠 캐시를 활용하고 웹서버와 PHP 세팅을 잘 하면 된다는 생각을 한다. 
 
@@ -119,7 +141,7 @@ CMS나 프레임웍을 선택하는 이유는, 단순반복을 툴에 맡기고 
 
 ### 모던 PHP ###
 
-라라벨은 꽤 최근에 나온 프레임웍이다. 허용하는 PHP 최하 버전은 5.5.9로, 워드프레스나 코드 이그니터보다 요구사항이 꽤 높다. Composer와 거의 혼연일체를 이루고 있어서, laravel은 Composer 모듈들의 집합이라고 봐도 될 정도다. 실제로 또다른 PHP 프레임웍인 Sympony의 모듈들을 많이 가져와 사용하고 있다.
+라라벨은 꽤 최근에 나온 프레임웍이다. 허용하는 PHP 최하 버전은 5.5.9로, 워드프레스나 코드 이그니터보다 요구사항이 꽤 높다. Composer와 거의 혼연일체를 이루고 있어서, laravel은 Composer 모듈들의 집합이라고 봐도 될 정도다. 실제로 또다른 PHP 프레임웍인 [Sympony](https://symfony.com/)의 모듈들을 많이 가져와 사용하고 있다.
 
 PHP가 구식이고 기능도 볼품없다는 이야기가 종종 있는데, 이미 버전 5부터는 그런 이야기가 크게 의미있지는 않게 된 듯하고, 더군다다 이제 PHP7이 출시돼 격세지감이 느껴진다. 라라벨은 PHP의 최신 기능들을 잘 활용하고 있다. trait이나 namespace 같은 것들 말이다. 즉, 라라벨은 사용하는 것만으로 모던 PHP의 기운을 느낄 수 있다.[^fn5]
 

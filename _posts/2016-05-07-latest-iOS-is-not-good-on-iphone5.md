@@ -1,5 +1,5 @@
 ---
-title: '아이폰 5에서 최신 iOS를 돌리는 건 별로인 듯'
+title: '3년 5개월째 사용하는 아이폰 5에서 iOS 9을 돌리는 건 별로인 듯'
 layout: post
 tags:
   - iPhone

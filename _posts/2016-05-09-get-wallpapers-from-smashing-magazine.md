@@ -110,3 +110,5 @@ foreach($urls as $url){
 }
 cmd_echo('Finish.');
 </pre>
+
+[gist에서 보기](https://gist.github.com/mytory/96ce1431faf54a2f60a1cd71e51a972f)

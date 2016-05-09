@@ -21,94 +21,94 @@ tags:
 - 해상도 설정은 알파벳 x를 사용해서 한다(1920x1200). 
 - 달력 포함이면 `cal`, 포함하지 않으려면 `nocal`을 인자값으로 넘기면 된다.
 
-<pre>
-<?php
-/**
- * Author: An, Hyeong-woo
- * Email: mytory@gmail.com
- * Blog: http://mytory.net
- * Description: See detail on help message. You can see by running this script without args.
- * Dependencies: Tidy extension.
- */
-function cmd_echo($str){
-    echo $str . PHP_EOL;
-}
-if($argc != 5){
-    cmd_echo("SYNOPSIS:");
-    cmd_echo("\tphp $argv[0] [url or filepath] [downlaod_folder] [resolution] [cal or nocal]");
-    cmd_echo("EXAMPLE:");
-    cmd_echo("\tphp $argv[0] https://www.smashingmagazine.com/2016/04/desktop-wallpaper-calendars-may-2016/ ~/Downloads/wallpaer/ 1920x1200 cal");
-    cmd_echo("\t(You must use alphabet 'x' for resolution.)");
-    cmd_echo("\tphp $argv[0] https://www.smashingmagazine.com/2016/04/desktop-wallpaper-calendars-may-2016/ ~/Downloads/wallpaer/ 1920x1200 nocal");
-    cmd_echo("\t(If you specify nocal, download wallpaper without calender.)");
-    exit(1);
-}
-$url = $argv[1];
-$download_folder = $argv[2];
-$resolution = str_replace('x', '×', $argv[3]);
-$cal_or_nocal = $argv[4];
-if(is_file('./smashing_test_html.html')){
-    cmd_echo('Using test file ./smashing_test_html.html.');
-    $html = file_get_contents('./smashing_test_html.html');
-} else {
-    $html = file_get_contents($url);
-}
-if(!$html){
-    cmd_echo("Is URL corrupted? Cannot open URL.");
-    exit(1);
-}
-$tidy_config = array(
-   'wrap' => 0,
-);
-// Tidy
-$tidy = new tidy;
-$tidy->parseString($html, $tidy_config, 'utf8');
-$tidy->cleanRepair();
-$html = (string) $tidy;
-$pattern = "/<a.* href=\"(?P<url>[^\"]+)\".*>(?P<resolution>{$resolution})<\/a>/";
-cmd_echo('regex pattern: ' . $pattern);
-preg_match_all($pattern, $html, $matches);
-$urls = $matches['url'];
-$resolutions = $matches['resolution'];
-// validate resolution
-foreach($resolutions as $i => $export_resolution){
-    if($export_resolution != $resolution){
-        cmd_echo("Item $i is not targeted resolution($export_resolution). So removed.");
-        unset($resolutions[$i]);
-        unset($urls[$i]);
-    }
-}
-// cal or nocal
-foreach($urls as $i => $url){
-    if(!strstr($url, "-{$cal_or_nocal}-")){
-        unset($urls[$i]);
-    }
-}
-// make download folder
-if(!is_dir($download_folder)){
-    if(!mkdir($download_folder, 0777, true)){
-        cmd_echo('Fail to make download folder. Check permission: ' . $download_folder);
-        exit(1);
-    }
-}
-// download wallpaper
-foreach($urls as $url){
-    $filename = pathinfo($url, PATHINFO_BASENAME);
-    $target_dir = realpath($download_folder);
-    $filepath = $target_dir . DIRECTORY_SEPARATOR . $filename;
-    $binary = file_get_contents($url);
-    if($binary === false){
-        cmd_echo($url . ' has not downloaded bacause error. Check url or network status.');
-        continue;
-    }
-    if(false === file_put_contents($filepath, $binary)){
-        cmd_echo($url . ' has not created bacause error. Check directory permission.');
-        continue;
-    }else{
-        cmd_echo("$url downloaded.");
-    }
-}
-cmd_echo('Finish.');
-</pre>
+
+	<?php
+	/**
+	* Author: An, Hyeong-woo
+	* Email: mytory@gmail.com
+	* Blog: http://mytory.net
+	* Description: See detail on help message. You can see by running this script without args.
+	* Dependencies: Tidy extension.
+	*/
+	function cmd_echo($str){
+		echo $str . PHP_EOL;
+	}
+	if($argc != 5){
+		cmd_echo("SYNOPSIS:");
+		cmd_echo("\tphp $argv[0] [url or filepath] [downlaod_folder] [resolution] [cal or nocal]");
+		cmd_echo("EXAMPLE:");
+		cmd_echo("\tphp $argv[0] https://www.smashingmagazine.com/2016/04/desktop-wallpaper-calendars-may-2016/ ~/Downloads/wallpaer/ 1920x1200 cal");
+		cmd_echo("\t(You must use alphabet 'x' for resolution.)");
+		cmd_echo("\tphp $argv[0] https://www.smashingmagazine.com/2016/04/desktop-wallpaper-calendars-may-2016/ ~/Downloads/wallpaer/ 1920x1200 nocal");
+		cmd_echo("\t(If you specify nocal, download wallpaper without calender.)");
+		exit(1);
+	}
+	$url = $argv[1];
+	$download_folder = $argv[2];
+	$resolution = str_replace('x', '×', $argv[3]);
+	$cal_or_nocal = $argv[4];
+	if(is_file('./smashing_test_html.html')){
+		cmd_echo('Using test file ./smashing_test_html.html.');
+		$html = file_get_contents('./smashing_test_html.html');
+	} else {
+		$html = file_get_contents($url);
+	}
+	if(!$html){
+		cmd_echo("Is URL corrupted? Cannot open URL.");
+		exit(1);
+	}
+	$tidy_config = array(
+	'wrap' => 0,
+	);
+	// Tidy
+	$tidy = new tidy;
+	$tidy->parseString($html, $tidy_config, 'utf8');
+	$tidy->cleanRepair();
+	$html = (string) $tidy;
+	$pattern = "/<a.* href=\"(?P<url>[^\"]+)\".*>(?P<resolution>{$resolution})<\/a>/";
+	cmd_echo('regex pattern: ' . $pattern);
+	preg_match_all($pattern, $html, $matches);
+	$urls = $matches['url'];
+	$resolutions = $matches['resolution'];
+	// validate resolution
+	foreach($resolutions as $i => $export_resolution){
+		if($export_resolution != $resolution){
+			cmd_echo("Item $i is not targeted resolution($export_resolution). So removed.");
+			unset($resolutions[$i]);
+			unset($urls[$i]);
+		}
+	}
+	// cal or nocal
+	foreach($urls as $i => $url){
+		if(!strstr($url, "-{$cal_or_nocal}-")){
+			unset($urls[$i]);
+		}
+	}
+	// make download folder
+	if(!is_dir($download_folder)){
+		if(!mkdir($download_folder, 0777, true)){
+			cmd_echo('Fail to make download folder. Check permission: ' . $download_folder);
+			exit(1);
+		}
+	}
+	// download wallpaper
+	foreach($urls as $url){
+		$filename = pathinfo($url, PATHINFO_BASENAME);
+		$target_dir = realpath($download_folder);
+		$filepath = $target_dir . DIRECTORY_SEPARATOR . $filename;
+		$binary = file_get_contents($url);
+		if($binary === false){
+			cmd_echo($url . ' has not downloaded bacause error. Check url or network status.');
+			continue;
+		}
+		if(false === file_put_contents($filepath, $binary)){
+			cmd_echo($url . ' has not created bacause error. Check directory permission.');
+			continue;
+		}else{
+			cmd_echo("$url downloaded.");
+		}
+	}
+	cmd_echo('Finish.');
+
 
 [gist에서 보기](https://gist.github.com/mytory/96ce1431faf54a2f60a1cd71e51a972f)

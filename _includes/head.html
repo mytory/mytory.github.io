@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <link rel="alternate" hreflang="ko" type="application/rss+xml" title="웹으로 말하기" href="http://feeds.feedburner.com/mytory_tc">
+    {% if page.path contains '_posts' %}
+        <link rel="amphtml" href="{{ page.id | prepend: '/amp' | prepend: site.baseurl | prepend: site.url }}">
+    {% endif %}
 
 	<!-- Applie Touch Icon -->
     <link rel="apple-touch-icon-precomposed" href="{{ site.url }}/assets/mytory-favicon-114.png" />

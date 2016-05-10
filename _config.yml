@@ -11,6 +11,8 @@ email: "mail@mytory.net"
 twitter_username: "mytory"
 github_username: "mytory"
 
+ampdir: "/amp"
+
 gems:
   - jekyll-paginate
   - jekyll-sitemap

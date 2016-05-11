@@ -122,6 +122,6 @@ Chrome에서 user agent 문자열을 바꿔치기해서 코드가 제대로 작�
 다시 일주일 뒤에 네이버 봇 처단 결과를 적도록 하겠다.
 
  [1]: http://wordpress.org/plugins/wp-bots-analytics/
- [2]: //dl.dropboxusercontent.com/u/15546257/blog/mytory/bot.png
- [3]: //dl.dropboxusercontent.com/u/15546257/blog/mytory/bot2.png
- [4]: //dl.dropboxusercontent.com/u/15546257/blog/mytory/bot3.png
+ [2]: /uploads/legacy/bot.png
+ [3]: /uploads/legacy/bot2.png
+ [4]: /uploads/legacy/bot3.png

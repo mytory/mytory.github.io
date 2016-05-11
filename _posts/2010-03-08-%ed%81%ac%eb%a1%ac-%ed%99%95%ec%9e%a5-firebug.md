@@ -16,6 +16,6 @@ tags:
 
 이러다 크롬만 쓰게 되는 거 아닐까;;
 
-<img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile7.uf.1252854F4D4BC8A21E753E.png" class="aligncenter" width="580" height="350" alt="" />
+<img src="/uploads/legacy/old-images/1/cfile7.uf.1252854F4D4BC8A21E753E.png" class="aligncenter" width="580" height="350" alt="" />
 
 하지만 파이어폭스에서와 달리 css 수정을 할 수 없다. 그러면 그냥 크롬 기본 디버거를 사용하는 게 낫다. 당분간은 파이어폭스를 사용할 거 같다.

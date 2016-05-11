@@ -13,7 +13,7 @@ tags:
   - PHP
 ---
 <div style="width: 410px" class="wp-caption aligncenter">
-  <img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile2.uf.19425A4E4D4BC96D321E28.png" width="400" height="210" alt="" filename="cfile2.uf.19425A4E4D4BC96D321E28.png" filemime="" /><p class="wp-caption-text">
+  <img src="/uploads/legacy/old-images/1/cfile2.uf.19425A4E4D4BC96D321E28.png" width="400" height="210" alt="" filename="cfile2.uf.19425A4E4D4BC96D321E28.png" filemime="" /><p class="wp-caption-text">
     △ PHP, 느슨해서 배우기 쉽지만 그만큼 제멋대로 작동하는 경우도 종종 있는 것 같다.
   </p>
 </div>

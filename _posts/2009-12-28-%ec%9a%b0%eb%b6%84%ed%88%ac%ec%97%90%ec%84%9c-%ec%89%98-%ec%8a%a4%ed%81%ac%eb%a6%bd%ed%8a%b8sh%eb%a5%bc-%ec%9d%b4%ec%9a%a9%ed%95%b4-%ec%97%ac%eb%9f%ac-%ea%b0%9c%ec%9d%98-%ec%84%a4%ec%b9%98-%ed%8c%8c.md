@@ -28,7 +28,7 @@ tags:
 5.  앞서 <a href="http://mytory.textcube.com/entry/%EC%9A%B0%EB%B6%84%ED%88%AC%EC%97%90%EC%84%9C-%EC%97%AC%EB%9F%AC-%EA%B0%9C%EC%9D%98-deb-%ED%8C%A8%ED%82%A4%EC%A7%80-%EC%84%A4%EC%B9%98-%ED%8C%8C%EC%9D%BC%EC%9D%84-%ED%95%9C%EA%BA%BC%EB%B2%88%EC%97%90-%EC%84%A4%EC%B9%98%ED%95%98%EA%B3%A0-%EC%8B%B6%EB%8B%A4%EB%A9%B4" target="_blank">우분투에서 여러 개의 deb 패키지 설치 파일을 한꺼번에 설치하고 싶다면</a>에서 설명한 것처럼, 두 번째 줄에 이렇게 써 넣는다 : sudo dpkg -i *.deb
 6.  저장하고 닫는다.
 7.  만든 실행.sh 파일에서 마우스 오른쪽 버튼을 눌러 **속성**으로 들어간다. **권한 탭**으로 가서 **&#8216;파일을 프로그램으로 실행 허용&#8217;**에 체크한다. 우분투 9.10이므로 하위 버전에도 이 항목이 있는지 체크해 보진 못했다. 만약 이 항목을 찾을 수 없다면 터미널에 들어가서 명령줄로 파일 권한을 바꿔 주면 된다. 터미널 명령줄로 권한 바꾸는 명령어는 **chmod +x 실행.sh** 다.  
-    <img class="aligncenter" src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile1.uf.195AD14D4D4BC87A2CEF28.png" alt="" width="464" height="434" />
+    <img class="aligncenter" src="/uploads/legacy/old-images/1/cfile1.uf.195AD14D4D4BC87A2CEF28.png" alt="" width="464" height="434" />
 8.  여기까지 했으면 실행파일이 생성된 것이다. 여러 개의 deb 파일도 한꺼번에 설치할 수 있도록 sh 파일이 만들어진 것.
 
 나는 여기까지 한 후 설명서에 이렇게 적었다. &#8220;파일 압축을 풀고 폴더로 들어가서 실행.sh를 더블클릭한 후 &#8216;터미널에서 실행&#8217;을 선택하세요&#8221; 그러면 초보들이 터미널에 명령줄 같은 것 입력하지 않고, 또 여러 개의 파일을 일일이 더블클릭할 일 없이 편리하게 여러 개의 패키지를 설치할 수 있다.

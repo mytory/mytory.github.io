@@ -115,13 +115,13 @@ SVG 사이즈 역시 CSS로 조정할 수 있지만 기본 이미지 사이즈�
  [1]: http://mytory.net/archives/tag/%eb%a7%88%eb%b2%95-%eb%82%98%eb%ac%b4-%ed%85%8c%eb%a7%88
  [2]: http://mytory.net/archives/tag/svg-%ed%99%9c%ec%9a%a9
  [3]: http://www.istockphoto.com/stock-illustration-3561299-magic-tree-amp-birdie.php
- [4]: http://dl.dropboxusercontent.com/u/15546257/blog/mytory/svg/save-as-svg.png
- [5]: http://dl.dropboxusercontent.com/u/15546257/blog/mytory/svg/save-as-svg-setting.png
- [6]: http://dl.dropboxusercontent.com/u/15546257/blog/mytory/svg/image-trace-for-svg.png
- [7]: http://dl.dropboxusercontent.com/u/15546257/blog/mytory/svg/illustrator-create-outline.png
- [8]: http://dl.dropboxusercontent.com/u/15546257/blog/mytory/svg/illustrator-ungroup.png
- [9]: http://dl.dropboxusercontent.com/u/15546257/blog/mytory/svg/illustrator-rgb-mode.png
- [10]: http://dl.dropboxusercontent.com/u/15546257/blog/mytory/svg/illustrator-fill.png
- [11]: http://dl.dropboxusercontent.com/u/15546257/blog/mytory/svg/illustrator-pathfinder-window.png
- [12]: http://dl.dropboxusercontent.com/u/15546257/blog/mytory/svg/illustrator-transform.png
+ [4]: /uploads/legacy/svg/save-as-svg.png
+ [5]: /uploads/legacy/svg/save-as-svg-setting.png
+ [6]: /uploads/legacy/svg/image-trace-for-svg.png
+ [7]: /uploads/legacy/svg/illustrator-create-outline.png
+ [8]: /uploads/legacy/svg/illustrator-ungroup.png
+ [9]: /uploads/legacy/svg/illustrator-rgb-mode.png
+ [10]: /uploads/legacy/svg/illustrator-fill.png
+ [11]: /uploads/legacy/svg/illustrator-pathfinder-window.png
+ [12]: /uploads/legacy/svg/illustrator-transform.png
  [13]: http://petercollingridge.appspot.com/svg-optimiser

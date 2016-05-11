@@ -18,7 +18,7 @@ tags:
 
 <div>
   <div style="width: 710px" class="wp-caption aligncenter">
-    <img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile22.uf.124FFF4B4D4BC96C20BE23.jpg" width="700" height="466" alt="" filename="cfile22.uf.124FFF4B4D4BC96C20BE23.jpg" filemime="" /><p class="wp-caption-text">
+    <img src="/uploads/legacy/old-images/1/cfile22.uf.124FFF4B4D4BC96C20BE23.jpg" width="700" height="466" alt="" filename="cfile22.uf.124FFF4B4D4BC96C20BE23.jpg" filemime="" /><p class="wp-caption-text">
       △완성된 모습. 출처는 당연히 원본 글이죠.
     </p>
   </div>

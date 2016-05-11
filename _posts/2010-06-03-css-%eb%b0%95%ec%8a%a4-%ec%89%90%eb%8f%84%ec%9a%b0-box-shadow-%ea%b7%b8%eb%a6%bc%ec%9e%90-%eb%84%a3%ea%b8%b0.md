@@ -31,7 +31,7 @@ filter:progid:DXImageTransform.Microsoft.Shadow(color=silver,direction=135, stre
 이렇게 쓰면 아래처럼 나온다고 한다.
 
 <div style="width: 590px" class="wp-caption aligncenter">
-  <a href="http://naradesign.net/css3/"><img class="  " src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile29.uf.1448044A4D4BC94B20DFEB.png" alt="css3 box-shadow를 적용한 모습" width="580" height="326" /></a><p class="wp-caption-text">
+  <a href="http://naradesign.net/css3/"><img class="  " src="/uploads/legacy/old-images/1/cfile29.uf.1448044A4D4BC94B20DFEB.png" alt="css3 box-shadow를 적용한 모습" width="580" height="326" /></a><p class="wp-caption-text">
     이거 참 괜찮은 효과다. 정찬명 님의 나라디자인 블로그에 가면 더 많은 것을 볼 수 있다. 그림을 클릭하면 이동한다.
   </p>
 </div>

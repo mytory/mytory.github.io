@@ -21,7 +21,7 @@ tags:
 일단 데뷰 자체가 네이버의 서비스 개방에 대한 이야기를 나누기 위한 것이고, 개방된 여러 서비스에 대해 들었는데, 특히 <a target="_blank" href="http://mytory.textcube.com/entry/%EB%84%A4%EC%9D%B4%EB%B2%84-%EB%8D%B0%EB%B7%B02009-%EC%B0%B8%EA%B0%80%EA%B8%B03-XE-%EB%AF%B8%EB%8B%88%EC%83%B5-SMS-%EB%93%B1">제로보드XE가 아주 강조됐다.</a>(물론 CUBRID나 nFORGE도 많이 강조했다. 게임 쪽은 관심을 갖고 듣지 않아서 잘 모르겠는데, 언뜻 들은 바로는 게임오븐과 게임 오픈마켓이 강조된 듯하다.)
 
 <div style="width: 487px" class="wp-caption aligncenter">
-  <img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile2.uf.194EB24C4D4BC869292D95.png" width="477" height="237" alt="" /><p class="wp-caption-text">
+  <img src="/uploads/legacy/old-images/1/cfile2.uf.194EB24C4D4BC869292D95.png" width="477" height="237" alt="" /><p class="wp-caption-text">
     △제로보드XE를 매우 강조했다.
   </p>
 </div>
@@ -35,7 +35,7 @@ tags:
 DURPAL이나 PHP NUKE 같은 오픈소스 CMS가 한글이 아니라 부담스러웠는데, 한글로 잘 만들어진 CMS라면 분명히 독립 사이트를 훌륭히 만드는 데 큰 도움이 될 거라 생각한다. 이것만으로도 네이버는 큰 기여를 하는 것 아닐까 하는 생각이 들었다.
 
 <div style="width: 590px" class="wp-caption aligncenter">
-  <img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile10.uf.1251E3474D4BC86A2343D5.png" width="580" height="435" alt="네이버 데뷰2009 메인 행사장" /><p class="wp-caption-text">
+  <img src="/uploads/legacy/old-images/1/cfile10.uf.1251E3474D4BC86A2343D5.png" width="580" height="435" alt="네이버 데뷰2009 메인 행사장" /><p class="wp-caption-text">
     △오프닝이 열린 메인 행사장. 꽤 넓은 행사장에 사람들이 가득 들어찼다.
   </p>
 </div>
@@ -70,7 +70,7 @@ DB 구조에 대한 심도있는 설명은 사실 초보인 내가 알아듣기�
 
 <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; ">
   <div style="width: 590px" class="wp-caption aligncenter">
-    <img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile30.uf.1949D84F4D4BC8692C7321.jpg" width="580" height="435" alt="" /><p class="wp-caption-text">
+    <img src="/uploads/legacy/old-images/1/cfile30.uf.1949D84F4D4BC8692C7321.jpg" width="580" height="435" alt="" /><p class="wp-caption-text">
       △네이버 데뷰 행사 스케치 사진에서 가져왔스니다. 네이버가 쏜 캔커피들.
     </p>
   </div>

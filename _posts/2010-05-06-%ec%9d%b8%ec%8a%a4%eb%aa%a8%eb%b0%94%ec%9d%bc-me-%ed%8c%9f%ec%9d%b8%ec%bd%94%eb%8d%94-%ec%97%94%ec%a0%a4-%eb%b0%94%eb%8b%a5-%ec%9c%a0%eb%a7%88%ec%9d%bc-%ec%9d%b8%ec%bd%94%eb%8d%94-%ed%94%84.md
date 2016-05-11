@@ -14,7 +14,7 @@ tags:
 ---
 <http://insmobile.com/insmobile/sub_0402.html> <div>
   <div style="width: 334px" class="wp-caption aligncenter">
-    <img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile22.uf.175638474D4BC8F61E0008.jpg" width="324" height="334" alt="" /><p class="wp-caption-text">
+    <img src="/uploads/legacy/old-images/1/cfile22.uf.175638474D4BC8F61E0008.jpg" width="324" height="334" alt="" /><p class="wp-caption-text">
       △인스모바일 ME 사진
     </p>
   </div>
@@ -37,7 +37,7 @@ tags:
 </div>
 
 <div>
-  <a href="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile27.uf.127159544D4BC8F6288037.zip" class="aligncenter" />cfile27.uf.127159544D4BC8F6288037.zip</a>
+  <a href="/uploads/legacy/old-images/1/cfile27.uf.127159544D4BC8F6288037.zip" class="aligncenter" />cfile27.uf.127159544D4BC8F6288037.zip</a>
 </div>
 
 <div>
@@ -49,5 +49,5 @@ tags:
 </div>
 
 <div>
-  <a href="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile22.uf.1642184E4D4BC8F6321F23.pes" class="aligncenter" />cfile22.uf.1642184E4D4BC8F6321F23.pes</a>
+  <a href="/uploads/legacy/old-images/1/cfile22.uf.1642184E4D4BC8F6321F23.pes" class="aligncenter" />cfile22.uf.1642184E4D4BC8F6321F23.pes</a>
 </div>

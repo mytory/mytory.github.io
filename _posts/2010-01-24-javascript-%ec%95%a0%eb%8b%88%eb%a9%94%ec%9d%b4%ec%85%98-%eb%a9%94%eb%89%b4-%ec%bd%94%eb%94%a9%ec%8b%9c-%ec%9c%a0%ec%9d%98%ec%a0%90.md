@@ -181,4 +181,4 @@ tags:
 
 이 예제를 파일로 첨부한다.
 
-<a href="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile25.uf.177112514D4BC88325016C.zip" class="aligncenter" />cfile25.uf.177112514D4BC88325016C.zip</a>
+<a href="/uploads/legacy/old-images/1/cfile25.uf.177112514D4BC88325016C.zip" class="aligncenter" />cfile25.uf.177112514D4BC88325016C.zip</a>

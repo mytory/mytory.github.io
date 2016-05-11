@@ -62,11 +62,11 @@ mytory_markdown_html:
         
         <h2>프로젝트 만들기</h2>
         
-        <p><img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/icescrum/icescrum-1.png" alt="iceScrum 기본화면" /></p>
+        <p><img src="/uploads/legacy/icescrum/icescrum-1.png" alt="iceScrum 기본화면" /></p>
         
         <p>iceScrum에 일단 로그인하면 위와 같은 화면이 나온다. 좌측 상단의 <strong>Project > Create</strong>를 클릭하면 새 프로젝트를 만들 수 있다.</p>
         
-        <p><img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/icescrum/icescrum-create-project.png" alt="icescrum create project" /></p>
+        <p><img src="/uploads/legacy/icescrum/icescrum-create-project.png" alt="icescrum create project" /></p>
         
         <p>위 이미지는 프로젝트 생성 화면인데, 일일이 설명하지는 않겠다.</p>
         
@@ -80,7 +80,7 @@ mytory_markdown_html:
         
         <p>Define your practices 부분에 좀 복잡한 게 나온다. 이미지를 먼저 보자.</p>
         
-        <p><img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/icescrum/icescrum-define-your-practices.png" alt="Define your practices tab" /></p>
+        <p><img src="/uploads/legacy/icescrum/icescrum-define-your-practices.png" alt="Define your practices tab" /></p>
         
         <ul>
         <li><strong>Suite used for estimation:</strong> 할 일에 드는 노력을 측정할 때 숫자를 선택하게 되는데, 이 때 셀렉트박스에 1,2,3,4,5,6,7,8,9,10 하는 식으로 숫자가 나오게 할지, 아니면 <a href="http://ko.wikipedia.org/wiki/%ED%94%BC%EB%B3%B4%EB%82%98%EC%B9%98_%EC%88%98">피보나치 수열</a>(1, 2, 3, 5, 8, 13, 21, 34)로 숫자가 나오게 할지 정하는 것이다. 사실 5를 넘어가는 할일에 드는 노력을 정확하게 1단위로 측정하는 건 불가능하니 숫자가 커질수록 어림짐작으로 크게 노력을 잡는 건 합리적으로 보인다. 그래서 난 피보나치 수열로 노력을 선택하는 걸 선호한다.<br />
@@ -99,7 +99,7 @@ mytory_markdown_html:
         
         <p>Define your practices를 다 설정하고 Next 버튼을 누르면 Start your project 화면이 나오는데, 이것도 설정 잘 해야 한다. 아래 이미지를 보자.</p>
         
-        <p><img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/icescrum/icescrum-start-your-project.png" alt="iceScrum start your project tab" /></p>
+        <p><img src="/uploads/legacy/icescrum/icescrum-start-your-project.png" alt="iceScrum start your project tab" /></p>
         
         <p>모든 프로젝트에는 여러 개의 Release가 있다. 한 Release는 여러 개의 Sprint로 구성된다. 위 이미지를 보면 Default sprint duration이라는 항목이 있는데, iceScrum에선 이게 기본으로 14로 돼 있다. 내가 본 《스크럼》이라는 책에서는 한 달을 예시로 제시했었다. 여튼 다른 일에 간섭받지 않고 집중해서 프로젝트에 매달린 후 다시 할일들을 선정할 한 기간을 얼마로 정할지 써 주는 건데, 그래서 이걸 14일 단위로 했다면 하나의 Release가 여러 개의 Sprint로 구성되므로 Release는 2주의 정수배로 설정을 하는 게 좋을 거다. 즉, 한 Sprint가 2주라면 한 Release는 2주나 4주, 아니면 6주 식이 되는 게 좋다는 거다. 뭐 그렇다고.</p>
         
@@ -121,19 +121,19 @@ mytory_markdown_html:
         
         <p>아래는 대시보드 화면이다. 별 거 없다. 이거저거 건드려 보면 된다.</p>
         
-        <p><img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/icescrum/icescrum-dashboard.png" alt="iceScrum dashboard" /></p>
+        <p><img src="/uploads/legacy/icescrum/icescrum-dashboard.png" alt="iceScrum dashboard" /></p>
         
         <h2>Sandbox에 Story 제안하기</h2>
         
         <p>할일 관리를 시작하는 곳이 바로 Sandbox다. 여기는 무엇이든 적을 수 있다. 스크럼은 단지 개발자들만의 도구가 아니라, 개발자가 아닌 사람들도 사용하는 도구다. 그리고 그 사람들은 바로 Sandbox에 제안을 한다. 스크럼 마스터는 그 제안을 수용하거나 거부할 수 있다.</p>
         
-        <p><img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/icescrum/icescrum-sandbox.png" alt="iceScrum sandbox" /></p>
+        <p><img src="/uploads/legacy/icescrum/icescrum-sandbox.png" alt="iceScrum sandbox" /></p>
         
         <p>위 이미지는 iceScrum 프로젝트의 샌드박스다. 각 스토리 위에 마우스를 올려 놓으면 Description이 툴팁으로 뜬다.</p>
         
         <p>새로운 스토리를 제안하려면 Sandbox 좌측 상단의 New 버튼을 누른다. 그러면 아래와 같은 화면이 나오면서 Story를 작성하게 된다.</p>
         
-        <p><img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/icescrum/icescrum-add-new-story.png" alt="iceScrum add new story on sandbox" /></p>
+        <p><img src="/uploads/legacy/icescrum/icescrum-add-new-story.png" alt="iceScrum add new story on sandbox" /></p>
         
         <p>Type은 세 종류가 있다. User story, Story defect, Technical story. 굳이 분류없이 사용해도 되지만 알아는 두자.</p>
         
@@ -151,7 +151,7 @@ mytory_markdown_html:
         
         <p>Story notes는 더 길게 적을 수 있는 건데, 이걸 보려면 Story를 클릭해서 들어와야 하므로 번거롭다. 웬만하면 Description에 쓰고 정말 길고 자세한 내용이 있는 경우에만 이걸 사용하자.</p>
         
-        <p><img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/icescrum/icescrum-story-icon.png" alt="story icon" /></p>
+        <p><img src="/uploads/legacy/icescrum/icescrum-story-icon.png" alt="story icon" /></p>
         
         <p>위 이미지를 한 번 보자. 좌측은 technical story이고 우측은 story defect다. technical story에는 스패너 아이콘이 붙고, Story defect에는 느낌표 아이콘이 붙는다. 위 이미지엔 없지만, 첨부파일이 들어 있는 Story에는 포스트잇 이미지의 좌측 하단에 클립 모양이 나타난다.</p>
         
@@ -159,7 +159,7 @@ mytory_markdown_html:
         
         <p>제안된 스토리에서 역삼각형 모양 위에 마우스를 올려 놓으면 아래 그림처럼 컨텍스트 메뉴가 나타난다.</p>
         
-        <p><img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/icescrum/icescrum-story-context-on-sandbox.png" alt="iceScrum Story context menu on sandbox" /></p>
+        <p><img src="/uploads/legacy/icescrum/icescrum-story-context-on-sandbox.png" alt="iceScrum Story context menu on sandbox" /></p>
         
         <p>컨텍스트 메뉴 항목에서 <a href="http://www.agile-tools.net/acceptancetesting.asp">Acceptance tests</a>는 뭔지 모르겠고 사용해 본 적도 없다. 설명을 보면 Story가 완료된 걸 테스트하는 거라고 하는데, 게시판 Story가 완료되면 "목록 보기 > 글쓰기 > 쓴 글 읽기 > 글 수정하기" 따위의 테스트 단계를 적는 건지도 모르겠다.</p>
         
@@ -169,7 +169,7 @@ mytory_markdown_html:
         
         <p>아래 이미지는 각 Feature별로 몇 퍼센트의 Story를 완료했는지 보여 주는 그래프다.  Y축을 보면 Feature로 어떤 것들이 있는지 알 수 있다.</p>
         
-        <p><img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/icescrum/icescrum-feature-example.png" alt="iceScrum Feature 예시" /></p>
+        <p><img src="/uploads/legacy/icescrum/icescrum-feature-example.png" alt="iceScrum Feature 예시" /></p>
         
         <p>iceScrum 팀이 만들어 둔 Feature 중 하나는 Exports/Print다(위 이미지상 밑에서 두 번째). Exports/Print Feature에 속한 Story 중 하나는 <a href="http://tools.icescrum.org/p/ICESCRUM/#story/582">Print post-it in sandbox(샌드박스를 포스트잇 형태로 프린트할 수 있게 하기)</a>다.</p>
         
@@ -181,7 +181,7 @@ mytory_markdown_html:
         
         <p>Sprint plan 화면에서 Story를 승인하는 방법도 있다. 아래 이미지를 보자.</p>
         
-        <p><img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/icescrum/icescrum-drag-and-drop-accept-story.png" alt="drag and drop accept" /></p>
+        <p><img src="/uploads/legacy/icescrum/icescrum-drag-and-drop-accept-story.png" alt="drag and drop accept" /></p>
         
         <p>Product Backlog 페이지의 좌측 사이드바에는 Sandbox에 있는 Story들이 나오는데 그걸 드래그 앤 드롭해서 Product Backlog로 옮겨 놓으면 된다.</p>
         
@@ -189,7 +189,7 @@ mytory_markdown_html:
         
         <p>승인된 할 일들이 모두 모여 있는 곳이 바로 Product Backlog(제품 밀린 일)다. 각 Story의 Effort를 다음과 같이 설정해 주면 된다.</p>
         
-        <p><img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/icescrum/icescrum-story-effort.png" alt="story effort" /></p>
+        <p><img src="/uploads/legacy/icescrum/icescrum-story-effort.png" alt="story effort" /></p>
         
         <p>마우스로 물음표(?)를 클릭하면 이렇게 effort를 설정할 수 있다.</p>
         
@@ -201,13 +201,13 @@ mytory_markdown_html:
         
         <p>Sprint Plan 페이지로 가 보면 아래처럼 애초 프로젝트 세팅대로 첫 번째 Sprint가 만들어져 있는 것을 볼 수 있다. 그러나 아직 activate를 하지 않았기 때문에 활성화된 상태는 아니다. Story도 전혀 들어있지 않다.</p>
         
-        <p><img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/icescrum/icescrum-sprint-plan-date.png" alt="Sprint plan date" /></p>
+        <p><img src="/uploads/legacy/icescrum/icescrum-sprint-plan-date.png" alt="Sprint plan date" /></p>
         
         <p>Story를 추가한 뒤에 activate를 해 보자. 물론 Sprint를 activate한 뒤에도 Story를 추가할 수 있다.</p>
         
         <p>Story를 추가하는 방법은 간단하다. 좌측 사이드바에 보면 Product Backlog가 있다. 거기 있는 Story를 드래그앤 드롭으로 Sprint쪽으로 옮기면 된다. 아래 이미지 참고.</p>
         
-        <p><img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/icescrum/icescrum-allocate-story.png" alt="Story 배치하기" /></p>
+        <p><img src="/uploads/legacy/icescrum/icescrum-allocate-story.png" alt="Story 배치하기" /></p>
         
         <p>순서는 일단 생각하지 말고 옮겨도 된다. 순서는 나중에 Release Plan 쪽에서 조정할 수 있다.</p>
         
@@ -215,7 +215,7 @@ mytory_markdown_html:
         
         <p>이번 Sprint에 하기로 한 Story를 모두 배치한 뒤에는 Activate sprint 버튼을 눌러서 Sprint를 활성화한다.</p>
         
-        <p><img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/icescrum/icescrum-activate-sprint-button.png" alt="activate sprint" /></p>
+        <p><img src="/uploads/legacy/icescrum/icescrum-activate-sprint-button.png" alt="activate sprint" /></p>
         
         <p>Activate sprint 버튼을 누르면 정말 활성화할 거냐고 묻는다. 확인을 누르면 Activate sprint 버튼이 Close sprint 버튼으로 변경된다. Sprint가 종료됐을 때 이 버튼을 누르면 된다.</p>
         
@@ -225,7 +225,7 @@ mytory_markdown_html:
         
         <p>Sprint Plan 페이지에서 각 Story의 역삼각형에 마우스를 올리면 아래 이미지처럼 컨텍스트 메뉴가 나타난다.</p>
         
-        <p><img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/icescrum/icescrum-context-menu-on-sprint-plan.png" alt="context menu on sprint plan" /></p>
+        <p><img src="/uploads/legacy/icescrum/icescrum-context-menu-on-sprint-plan.png" alt="context menu on sprint plan" /></p>
         
         <p>대충 설명해 보자.</p>
         
@@ -260,7 +260,7 @@ mytory_markdown_html:
         
         <p>아래는 task들의 예시다.</p>
         
-        <p><img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/icescrum/icescrum-sprint-plan-example.png" alt="Sprint plan example" /></p>
+        <p><img src="/uploads/legacy/icescrum/icescrum-sprint-plan-example.png" alt="Sprint plan example" /></p>
         
         <p>iceScrum을 만드는 팀의 iceScrum의 Sprint plan을 캡쳐한 것인데 재밌는 것을 볼 수 있다. 일단 task의 remaining time을 제대로 적지 않고 사용하고 있다.</p>
         
@@ -274,13 +274,13 @@ mytory_markdown_html:
         
         <p>여기서는 각 Story의 순서를 조정하거나, Story 배치를 할 수 있다. 이번 Sprint에 있는 Story를 특정 Sprint로 보낼 수도 있다. 사이드바의 Product Backlog에서 원하는 Sprint로 Story를 배치할 수도 있다.</p>
         
-        <p><img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/icescrum/icescrum-release-plan.png" alt="release plan" /></p>
+        <p><img src="/uploads/legacy/icescrum/icescrum-release-plan.png" alt="release plan" /></p>
         
         <p>Sprint Plan 페이지에서 작동한 각 Story의 컨텍스트 메뉴도 똑같이 작동한다.</p>
         
         <p>앞서 설명했듯이 Release Plan에서는 Sprint를 수정할 수 있다. 각 Sprint에 있는 역삼각형에 마우스를 올리면 컨텍스트 메뉴가 등장한다. 아래 이미지를 보자.</p>
         
-        <p><img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/icescrum/icescrum-sprint-context-menu.png" alt="Sprint context menu" /></p>
+        <p><img src="/uploads/legacy/icescrum/icescrum-sprint-context-menu.png" alt="Sprint context menu" /></p>
         
         <ul>
         <li><strong>Open:</strong> 해당 Sprint의 Sprint plan 페이지로 간다.</li>
@@ -293,7 +293,7 @@ mytory_markdown_html:
         
         <p>다음으로 볼 주요 페이지는 timeline이다. 아래처럼 생겼다.</p>
         
-        <p><img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/icescrum/icescrum-timeline.png" alt="timeline" /></p>
+        <p><img src="/uploads/legacy/icescrum/icescrum-timeline.png" alt="timeline" /></p>
         
         <p>R1으로 표시된 게 Release1이라는 뜻이고 #이 붙은 게 Sprint다. R1 옆에 있는 역삼각형을 누르면 역시 release를 수정할 수 있다.</p>
         
@@ -301,7 +301,7 @@ mytory_markdown_html:
         
         <p>iceScrum을 사용하면서 재밌는 건 차트다. Sprint 진행 상황을 차트로 보여 준다. Sprint plan, Release plan, Timeline 모두에서 차트를 볼 수 있다. 내 Sprint plan의 차트 하나만 보자.</p>
         
-        <p><img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/icescrum/icescrum-sprint-burnup-chart-in-points.png" alt="timeline" /></p>
+        <p><img src="/uploads/legacy/icescrum/icescrum-sprint-burnup-chart-in-points.png" alt="timeline" /></p>
         
         <p>이건 burnup chart다. 노란 선은 task의 총 point, 초록 선은 완료된 task의 총 point다. 노란 선이 점점 증가했다는 것은 일을 하면 할수록 task의 point가 많아졌다는 것인데, 내 경우엔 애초에 산정을 잘못해서 발생한 일이다. 처음에 산정을 안 했다가 Sprint를 진행하면서 산정한 경우에도 같은 그래프가 나오기 때문에 그래프만 보고 이게 잘 된 건지 안 된 건지 알 수는 없다.</p>
         
@@ -642,29 +642,29 @@ iceScrum의 모든 메뉴는 위치를 변경할 수 있다. 드래그 앤 드�
  [3]: https://www.kagilum.com/documentation
  [4]: https://www.kagilum.com/icescrum-hosting
  [5]: http://tools.icescrum.org/p/ICESCRUM#project
- [6]: http://dl.dropboxusercontent.com/u/15546257/blog/mytory/icescrum/icescrum-1.png
- [7]: http://dl.dropboxusercontent.com/u/15546257/blog/mytory/icescrum/icescrum-create-project.png
- [8]: http://dl.dropboxusercontent.com/u/15546257/blog/mytory/icescrum/icescrum-define-your-practices.png
+ [6]: /uploads/legacy/icescrum/icescrum-1.png
+ [7]: /uploads/legacy/icescrum/icescrum-create-project.png
+ [8]: /uploads/legacy/icescrum/icescrum-define-your-practices.png
  [9]: http://ko.wikipedia.org/wiki/%ED%94%BC%EB%B3%B4%EB%82%98%EC%B9%98_%EC%88%98
- [10]: http://dl.dropboxusercontent.com/u/15546257/blog/mytory/icescrum/icescrum-start-your-project.png
- [11]: http://dl.dropboxusercontent.com/u/15546257/blog/mytory/icescrum/icescrum-dashboard.png
- [12]: http://dl.dropboxusercontent.com/u/15546257/blog/mytory/icescrum/icescrum-sandbox.png
- [13]: http://dl.dropboxusercontent.com/u/15546257/blog/mytory/icescrum/icescrum-add-new-story.png
- [14]: http://dl.dropboxusercontent.com/u/15546257/blog/mytory/icescrum/icescrum-story-icon.png
- [15]: http://dl.dropboxusercontent.com/u/15546257/blog/mytory/icescrum/icescrum-story-context-on-sandbox.png
+ [10]: /uploads/legacy/icescrum/icescrum-start-your-project.png
+ [11]: /uploads/legacy/icescrum/icescrum-dashboard.png
+ [12]: /uploads/legacy/icescrum/icescrum-sandbox.png
+ [13]: /uploads/legacy/icescrum/icescrum-add-new-story.png
+ [14]: /uploads/legacy/icescrum/icescrum-story-icon.png
+ [15]: /uploads/legacy/icescrum/icescrum-story-context-on-sandbox.png
  [16]: http://www.agile-tools.net/acceptancetesting.asp
  [17]: http://tools.icescrum.org/p/ICESCRUM#feature/productParkingLotChart
- [18]: http://dl.dropboxusercontent.com/u/15546257/blog/mytory/icescrum/icescrum-feature-example.png
+ [18]: /uploads/legacy/icescrum/icescrum-feature-example.png
  [19]: http://tools.icescrum.org/p/ICESCRUM/#story/582
- [20]: http://dl.dropboxusercontent.com/u/15546257/blog/mytory/icescrum/icescrum-drag-and-drop-accept-story.png
- [21]: http://dl.dropboxusercontent.com/u/15546257/blog/mytory/icescrum/icescrum-story-effort.png
- [22]: http://dl.dropboxusercontent.com/u/15546257/blog/mytory/icescrum/icescrum-sprint-plan-date.png
- [23]: http://dl.dropboxusercontent.com/u/15546257/blog/mytory/icescrum/icescrum-allocate-story.png
- [24]: http://dl.dropboxusercontent.com/u/15546257/blog/mytory/icescrum/icescrum-activate-sprint-button.png
- [25]: http://dl.dropboxusercontent.com/u/15546257/blog/mytory/icescrum/icescrum-context-menu-on-sprint-plan.png
- [26]: http://dl.dropboxusercontent.com/u/15546257/blog/mytory/icescrum/icescrum-sprint-plan-example.png
- [27]: http://dl.dropboxusercontent.com/u/15546257/blog/mytory/icescrum/icescrum-release-plan.png
- [28]: http://dl.dropboxusercontent.com/u/15546257/blog/mytory/icescrum/icescrum-sprint-context-menu.png
- [29]: http://dl.dropboxusercontent.com/u/15546257/blog/mytory/icescrum/icescrum-timeline.png
- [30]: http://dl.dropboxusercontent.com/u/15546257/blog/mytory/icescrum/icescrum-sprint-burnup-chart-in-points.png
+ [20]: /uploads/legacy/icescrum/icescrum-drag-and-drop-accept-story.png
+ [21]: /uploads/legacy/icescrum/icescrum-story-effort.png
+ [22]: /uploads/legacy/icescrum/icescrum-sprint-plan-date.png
+ [23]: /uploads/legacy/icescrum/icescrum-allocate-story.png
+ [24]: /uploads/legacy/icescrum/icescrum-activate-sprint-button.png
+ [25]: /uploads/legacy/icescrum/icescrum-context-menu-on-sprint-plan.png
+ [26]: /uploads/legacy/icescrum/icescrum-sprint-plan-example.png
+ [27]: /uploads/legacy/icescrum/icescrum-release-plan.png
+ [28]: /uploads/legacy/icescrum/icescrum-sprint-context-menu.png
+ [29]: /uploads/legacy/icescrum/icescrum-timeline.png
+ [30]: /uploads/legacy/icescrum/icescrum-sprint-burnup-chart-in-points.png
  [31]: https://www.wunderlist.com/‎

@@ -23,7 +23,7 @@ tags:
 그건 그렇고, <a href="http://neoskin.tistory.com/1315" target="_blank">구글 크롬OS 한국유저이기에 화가 난다!</a> 라는 글을 봤는데, 거기서 새로운 것을 봤다. 이름하여 캡션 번역.
 
 <div style="width: 590px" class="wp-caption aligncenter">
-  <img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile7.uf.187EAC584D4BC87018BCC9.png" width="580" height="393" alt="캡션 번역 예시" /><p class="wp-caption-text">
+  <img src="/uploads/legacy/old-images/1/cfile7.uf.187EAC584D4BC87018BCC9.png" width="580" height="393" alt="캡션 번역 예시" /><p class="wp-caption-text">
     실제 동영상은 아래 첨부했다.
   </p>
 </div>

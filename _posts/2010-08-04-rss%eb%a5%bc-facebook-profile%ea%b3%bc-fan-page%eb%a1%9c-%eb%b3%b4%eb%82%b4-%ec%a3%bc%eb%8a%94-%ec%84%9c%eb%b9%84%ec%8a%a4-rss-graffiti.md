@@ -16,7 +16,7 @@ tags:
 
 <div>
   <div style="width: 549px" class="wp-caption aligncenter">
-    <img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile25.uf.180BB9534D4BC95A085F83.png" alt="" width="539" height="167" /><p class="wp-caption-text">
+    <img src="/uploads/legacy/old-images/1/cfile25.uf.180BB9534D4BC95A085F83.png" alt="" width="539" height="167" /><p class="wp-caption-text">
       △RSS Graffiti를 통해 기사가 게시됐다!
     </p>
   </div>
@@ -39,5 +39,5 @@ tags:
 </div>
 
 <div>
-  <img class="aligncenter" src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile10.uf.1665064D4D4BC95A1879F1.png" alt="" width="580" height="352" />
+  <img class="aligncenter" src="/uploads/legacy/old-images/1/cfile10.uf.1665064D4D4BC95A1879F1.png" alt="" width="580" height="352" />
 </div>

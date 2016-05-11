@@ -21,7 +21,7 @@ tags:
 </div>
 
 <div>
-  <img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile8.uf.1742B94E4D4BC8F930E16F.png" class="aligncenter" width="199" height="158" alt="" />
+  <img src="/uploads/legacy/old-images/1/cfile8.uf.1742B94E4D4BC8F930E16F.png" class="aligncenter" width="199" height="158" alt="" />
 </div>
 
 <div>

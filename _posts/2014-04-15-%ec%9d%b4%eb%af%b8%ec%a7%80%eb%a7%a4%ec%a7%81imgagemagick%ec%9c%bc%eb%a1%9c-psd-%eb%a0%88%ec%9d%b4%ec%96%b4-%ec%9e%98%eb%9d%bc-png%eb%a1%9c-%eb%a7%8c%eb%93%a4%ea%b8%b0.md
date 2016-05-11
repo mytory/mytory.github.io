@@ -47,4 +47,4 @@ ImageMagick에서 이미지 변환을 위해 사용하는 커맨드 라인 명�
 이러면 `myimage-1.png`, `myimage-2.png`&#8230; 하는 식으로 모든 레이어가 PNG 파일로 변환된다. 디자이너나 퍼블리셔들에게 좋은 팁이 될 수 있을 것 같다.
 
  [1]: http://www.imagemagick.org/
- [2]: http://dl.dropboxusercontent.com/u/15546257/blog/mytory/imagemagick-psd.png
+ [2]: /uploads/legacy/imagemagick-psd.png

@@ -29,7 +29,7 @@ tags:
 
 일일이 손으로 바꾸기 귀찮은 분들을 위해서 내 소스를 올려 둔다. 이 소스는 10.04 기준이다. 다른 분들은 받으면 곤란할 거다.
 
-<a href="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile10.uf.126C7A504D4BC94812606D.list" class="aligncenter" />cfile10.uf.126C7A504D4BC94812606D.list</a> 한국 기본 서버인 카이스트 서버가 자주 죽는다는 소리가 있어서 다음 서버로 변경하곤 한다. 나도 방금 그런 일을 겪어서 이 글을 쓰게 된 것이다.
+<a href="/uploads/legacy/old-images/1/cfile10.uf.126C7A504D4BC94812606D.list" class="aligncenter" />cfile10.uf.126C7A504D4BC94812606D.list</a> 한국 기본 서버인 카이스트 서버가 자주 죽는다는 소리가 있어서 다음 서버로 변경하곤 한다. 나도 방금 그런 일을 겪어서 이 글을 쓰게 된 것이다.
 
 다음 서버의 주소는 http://ftp.daum.net/ubuntu 다. http://kr.archive.ubuntu.com/ubuntu 가 공식 한국 저장소인데 자주 뻗는다는 말씀. 안정적인 다음이 낫겠지.
 

@@ -20,12 +20,12 @@ tags:
 안타깝게도 설치형 블로그만 할 수 있다. 일단 스크린샷 먼저.
 
 <div>
-  <img class="aligncenter" src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile4.uf.170662584D4BC94915FB2F.jpg" alt="" width="525" height="416" /></p> <div>
+  <img class="aligncenter" src="/uploads/legacy/old-images/1/cfile4.uf.170662584D4BC94915FB2F.jpg" alt="" width="525" height="416" /></p> <div>
     일단 <a href="http://www.myphpetc.com/2009/12/display-google-analytics-with-php.html" target="_blank">google analytics graph API</a>를 보자.(정확한 명칭은 Display Google analytics with php, jQuery and flot 이다. 대충 번역하면, 구글 아날리틱스 통계를 php, jQuery와 flot을 이용해서 보자.) <a href="http://sites.google.com/site/myphpetc/Home/analytics.zip" target="_blank">다운로드할 수 있는 링크</a>를 클릭하면 파일을 통째로 받을 수 있다. 혹시 몰라 여기 첨부한다.
   </div>
   
   <div>
-    <a class="aligncenter" href="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile7.uf.19467B4A4D4BC949333F5D.zip">cfile7.uf.19467B4A4D4BC949333F5D.zip</a>
+    <a class="aligncenter" href="/uploads/legacy/old-images/1/cfile7.uf.19467B4A4D4BC949333F5D.zip">cfile7.uf.19467B4A4D4BC949333F5D.zip</a>
   </div>
   
   <div>

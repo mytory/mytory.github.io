@@ -25,13 +25,13 @@ tags:
 
 메뉴에서&#8230; **Run > External Tools > External Tools Configuration** 을 선택해서 들어간다.
 
-<img class="aligncenter" src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile6.uf.124F76474D4BC9522992C7.png" alt="" width="580" height="442" />
+<img class="aligncenter" src="/uploads/legacy/old-images/1/cfile6.uf.124F76474D4BC9522992C7.png" alt="" width="580" height="442" />
 
 왼쪽 상단의 **New launch configuration** 을 누른다.
 
 그러면 아래 같은 창이 뜨는데, 적절히 내용을 채운다.
 
-<img class="aligncenter" src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile10.uf.140B0D534D4BC9520A3316.png" alt="" width="580" height="442" />
+<img class="aligncenter" src="/uploads/legacy/old-images/1/cfile10.uf.140B0D534D4BC9520A3316.png" alt="" width="580" height="442" />
 
 우분투의 경우 위와 똑같이 써 주면 된다. 참 쉽다.(수정사항 있다. Arguments는 ${workspace\_loc}${resource\_path} 라고 써야 한다.)
 

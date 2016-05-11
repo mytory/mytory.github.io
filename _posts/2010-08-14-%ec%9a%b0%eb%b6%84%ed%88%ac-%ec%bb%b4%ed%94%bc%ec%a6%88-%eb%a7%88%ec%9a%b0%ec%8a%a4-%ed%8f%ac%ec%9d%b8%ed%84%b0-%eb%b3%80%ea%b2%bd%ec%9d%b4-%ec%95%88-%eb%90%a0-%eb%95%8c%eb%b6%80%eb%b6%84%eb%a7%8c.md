@@ -36,7 +36,7 @@ tags:
     </div>
     
     <div>
-      <img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile23.uf.1412E1564D4BC960288927.png" class="aligncenter" width="540" height="373" alt="" />
+      <img src="/uploads/legacy/old-images/1/cfile23.uf.1412E1564D4BC960288927.png" class="aligncenter" width="540" height="373" alt="" />
     </div>
     
     <div>

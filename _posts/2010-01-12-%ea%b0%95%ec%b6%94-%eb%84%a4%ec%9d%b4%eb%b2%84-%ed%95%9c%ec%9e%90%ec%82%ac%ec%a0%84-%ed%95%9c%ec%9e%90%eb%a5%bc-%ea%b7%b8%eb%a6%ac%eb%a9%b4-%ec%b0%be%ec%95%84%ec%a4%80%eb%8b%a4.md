@@ -14,7 +14,7 @@ tags:
 ---
 네이버는 폐쇄적이라고 욕을 먹곤 하지만, 국내 최대 포털답게 괜찮은 서비스를 많이 하고 있다. 지난 번에는 네이버랩의 포토 에디터를 소개한 적이 있는데 이번에는 <a target="_blank" href="http://hanja.naver.com/">네이버 한자 사전(자전)</a>을 소개한다.
 
-<img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile7.uf.1869354D4D4BC8810C6695.png" class="aligncenter" width="357" height="247" alt="" />
+<img src="/uploads/legacy/old-images/1/cfile7.uf.1869354D4D4BC8810C6695.png" class="aligncenter" width="357" height="247" alt="" />
 
 이 그림이 무엇을 말하는지 금세 알 수 있을 것이다.
 

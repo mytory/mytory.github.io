@@ -23,7 +23,7 @@ tags:
 첫 단계는 URL 주소 고르기다. 몇 가지 방법이 있다. root에 모바일용 폴더(mobile로 이름붙였다고 하자)를 하나 만들 수 있다. 그러면 모바일용 페이지는 http://www.yoursite.com/mobile 이 될 것이다.
 
 <div style="width: 328px" class="wp-caption aligncenter">
-  <img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile25.uf.1754F14C4D4BC89A1CDF71.png" alt="" width="318" height="264" /><p class="wp-caption-text">
+  <img src="/uploads/legacy/old-images/1/cfile25.uf.1754F14C4D4BC89A1CDF71.png" alt="" width="318" height="264" /><p class="wp-caption-text">
     △이 폴더를 사이트 루트에다 만들어라.
   </p>
 </div>
@@ -49,7 +49,7 @@ tags:
 모바일용으로 어떤 레이아웃이 더 좋을까? 나는 모바일용으로는 컬럼 1개짜리가 가장 대중적이고, 쓸만하고, 읽기 편하다고 생각한다. 예를 들면, 유튜브, 페이스북, 트위터가 이런 구조다.
 
 <div style="width: 346px" class="wp-caption aligncenter">
-  <img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile22.uf.1611E8564D4BC89A32557E.png" alt="" width="336" height="280" /><p class="wp-caption-text">
+  <img src="/uploads/legacy/old-images/1/cfile22.uf.1611E8564D4BC89A32557E.png" alt="" width="336" height="280" /><p class="wp-caption-text">
     △유튜브 모바일 페이지다.(컬럼 한 개 짜리 레이아웃이다.)
   </p>
 </div>
@@ -66,7 +66,7 @@ tags:
 
 만약에 당신이 모바일용 페이지를 만들려고 하는 게 블로그라면, 모바일 기기에 맞는 사이트 레이아웃은 아래와 비슷할 것이다.
 
-<img class="aligncenter" src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile25.uf.145A7A4D4D4BC89A297D72.png" alt="" width="258" height="276" />
+<img class="aligncenter" src="/uploads/legacy/old-images/1/cfile25.uf.145A7A4D4D4BC89A297D72.png" alt="" width="258" height="276" />
 
 블로그에는 이런 요소들이 있다 : header, body 와 footer. Header에는 사이트 로고가 있다. body에는 글이나 요약이 들어간다. 푸터에는 사이트에 대한 다른 정보가 들어간다.
 
@@ -135,11 +135,11 @@ color:#666666;
 
 결과는 이런 식이 될 것이다.
 
-<img class="aligncenter" src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile8.uf.150941494D4BC89A2A8A6E.png" alt="" width="306" height="280" />
+<img class="aligncenter" src="/uploads/legacy/old-images/1/cfile8.uf.150941494D4BC89A2A8A6E.png" alt="" width="306" height="280" />
 
 당연히, 이건 아주 기본적인 제안일 뿐이다. 직접 이미지나 로고, 색깔, 글꼴을 추가하고, PHP나 Coldfusion, ASP나 다른 코드를 집어 넣어서 동적인 페이지를 만들어야 한다. 예를 들면, CSS코드를 몇 개를 고쳐서 이렇게 만들 수도 있다.
 
-<img class="aligncenter" src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile4.uf.1140694E4D4BC89B338C13.png" alt="" width="481" height="512" />
+<img class="aligncenter" src="/uploads/legacy/old-images/1/cfile4.uf.1140694E4D4BC89B338C13.png" alt="" width="481" height="512" />
 
 또, 독자들이 원하는 것을 빨리 찾을 수 있도록 헤더에 검색창을 넣을 수도 있다. 나는 또한 [사이트 구조를] 심플하게 유지하라고 말하고 싶다. 소셜 네트워크 버튼 같은 쓸모없는 요소를 넣지 마라.(delicious tagometer나 digg같은 것 말이다.(한국으로 치면 다음뷰나 믹시, 블코 버튼 같은 게 되겠다)) 자바스크립트를 사용하는 위젯도 마찬가지다. 이것은 모바일용 페이지고, 모바일용 페이지는 심플하게 유지돼야 한다. 사용성있고 읽기쉽게 말이다. 다른 건 중요하지 않다.
 

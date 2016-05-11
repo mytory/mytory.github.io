@@ -22,6 +22,6 @@ Yes Men Fix the World는 좋은 영화다.
 
 아래 두 파일을 이용하면 훌륭하게 영상을 볼 수 있을 것이다.
 
-<a class="aligncenter" href="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile29.uf.145FC14D4D4BC966231803.smi">cfile29.uf.145FC14D4D4BC966231803.smi</a>
+<a class="aligncenter" href="/uploads/legacy/old-images/1/cfile29.uf.145FC14D4D4BC966231803.smi">cfile29.uf.145FC14D4D4BC966231803.smi</a>
 
-<a class="aligncenter" href="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile6.uf.127537514D4BC967177BAA.torrent">cfile6.uf.127537514D4BC967177BAA.torrent</a>
+<a class="aligncenter" href="/uploads/legacy/old-images/1/cfile6.uf.127537514D4BC967177BAA.torrent">cfile6.uf.127537514D4BC967177BAA.torrent</a>

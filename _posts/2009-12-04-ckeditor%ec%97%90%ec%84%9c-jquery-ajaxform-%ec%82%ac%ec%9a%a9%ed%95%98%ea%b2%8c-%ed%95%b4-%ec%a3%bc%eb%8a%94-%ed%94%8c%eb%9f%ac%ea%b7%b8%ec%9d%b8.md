@@ -16,7 +16,7 @@ tags:
 
 다만, 단점이 있는데 file manager가 없다는 점이다. fckeditor에는 파일 매니저가 기본으로 들어있다. 그래서 그림 첨부 같은 것을 할 때, 아래처럼 탐색을 할 수 있었는데, ckeditor에서는 [ckfinder라는 프로그램][3]을 설치해야 한다. 그런데 이건 라이센스가 있는 프로그램이다. 돈 주고 사야 한다.([ckfinder 가격][4])
 
-<img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile10.uf.205F1D504D4BC87224E8D0.png" class="aligncenter" width="580" height="455" alt="" />
+<img src="/uploads/legacy/old-images/1/cfile10.uf.205F1D504D4BC87224E8D0.png" class="aligncenter" width="580" height="455" alt="" />
 
 어쨌든, 각설하고. 
 

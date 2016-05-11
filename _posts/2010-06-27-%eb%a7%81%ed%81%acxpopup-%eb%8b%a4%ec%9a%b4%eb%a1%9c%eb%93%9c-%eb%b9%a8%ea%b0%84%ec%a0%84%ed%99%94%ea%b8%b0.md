@@ -17,5 +17,5 @@ tags:
 </p>
 
 <p style="text-align: center;">
-  <a href="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile9.uf.1541264E4D4BC953345073.rar">직접 다운로드</a>
+  <a href="/uploads/legacy/old-images/1/cfile9.uf.1541264E4D4BC953345073.rar">직접 다운로드</a>
 </p>

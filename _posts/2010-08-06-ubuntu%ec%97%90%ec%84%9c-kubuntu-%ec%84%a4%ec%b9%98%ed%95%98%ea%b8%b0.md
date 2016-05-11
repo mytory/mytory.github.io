@@ -26,7 +26,7 @@ tags:
 아니면 시냅틱에서 찾아서 설치해 줘도 된다.
 
 <div style="width: 509px" class="wp-caption aligncenter">
-  <img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile25.uf.144EB64C4D4BC95B293C29.png" width="499" height="386" alt="" /><p class="wp-caption-text">
+  <img src="/uploads/legacy/old-images/1/cfile25.uf.144EB64C4D4BC95B293C29.png" width="499" height="386" alt="" /><p class="wp-caption-text">
     △desktop과 netbook 둘 중 하나를 체크해 설치한다.
   </p>
 </div>

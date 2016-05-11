@@ -15,7 +15,7 @@ tags:
 <a href="http://cdmanii.com/1193" target="_blank">SSL이 허용 가능한 최대 길이를 넘은 레코드를 받았습니다. &#8211; 파이어폭스 부가기능 에러</a>
 
 <div style="width: 590px" class="wp-caption aligncenter">
-  <img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile25.uf.124B094C4D4BC8822E28E8.jpg" width="580" height="351" alt="" /><p class="wp-caption-text">
+  <img src="/uploads/legacy/old-images/1/cfile25.uf.124B094C4D4BC8822E28E8.jpg" width="580" height="351" alt="" /><p class="wp-caption-text">
     △링크한 글에 있는 이미지 빌려왔습니다. 고치고 나니 에러 메시지가 안 떠서;;
   </p>
 </div>

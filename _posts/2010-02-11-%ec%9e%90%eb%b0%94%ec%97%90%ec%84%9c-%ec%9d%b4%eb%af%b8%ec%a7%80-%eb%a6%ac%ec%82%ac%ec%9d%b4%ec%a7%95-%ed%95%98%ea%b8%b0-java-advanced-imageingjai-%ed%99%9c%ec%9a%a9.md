@@ -30,7 +30,7 @@ jar를 다운받는 곳은 여기다 : <a href="http://java.sun.com/products/jav
 
 그런데 다운로드 페이지에 가면 링크가 너무 많다;; 아래 같은 링크들이 나열돼 있다.
 
-<img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile23.uf.156EF9534D4BC88F2C2358.png" alt="" width="259" height="290" />
+<img src="/uploads/legacy/old-images/1/cfile23.uf.156EF9534D4BC88F2C2358.png" alt="" width="259" height="290" />
 
 잘 찾아 보니 설명이 돼 있었다.
 

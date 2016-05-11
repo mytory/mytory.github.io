@@ -17,7 +17,7 @@ tags:
 
 그런데 얼마 전 필요해져 <a href="http://jqueryui.com" target="_blank">jquery ui 사이트</a>에 갔다가 신기한 걸 발견했습니다. 바로 아래 그림 같은 장면?
 
-<img class="aligncenter" src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile23.uf.2046E24B4D4BC8A22F014B.png" alt="" width="227" height="271" />
+<img class="aligncenter" src="/uploads/legacy/old-images/1/cfile23.uf.2046E24B4D4BC8A22F014B.png" alt="" width="227" height="271" />
 
 새로 추가된 기능에 <a href="http://jqueryui.com/autocomplete/" target="_blank">Autocomplete</a>가 있었습니다.
 

@@ -49,7 +49,7 @@ tags:
 </div>
 
 <div>
-  <img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile9.uf.11086D494D4BC8D52E13F4.jpg" class="aligncenter" width="580" height="573" alt="" />
+  <img src="/uploads/legacy/old-images/1/cfile9.uf.11086D494D4BC8D52E13F4.jpg" class="aligncenter" width="580" height="573" alt="" />
 </div>
 
 <div>

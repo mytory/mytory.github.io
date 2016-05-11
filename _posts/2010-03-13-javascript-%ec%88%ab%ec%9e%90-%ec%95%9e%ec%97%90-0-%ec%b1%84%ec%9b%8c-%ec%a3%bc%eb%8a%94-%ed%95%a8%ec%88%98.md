@@ -50,4 +50,4 @@ sprintf라는 함수는 사실 여러 언어에 있는 함수다. 따라서 여�
 
 js파일을 혹시 모르니 첨부한다. 그러나 위 링크에 가면 설명이 좀 있다.
 
-<a href="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile27.uf.13414E4A4D4BC8A52F7D69.rar" class="aligncenter" />cfile27.uf.13414E4A4D4BC8A52F7D69.rar</a>
+<a href="/uploads/legacy/old-images/1/cfile27.uf.13414E4A4D4BC8A52F7D69.rar" class="aligncenter" />cfile27.uf.13414E4A4D4BC8A52F7D69.rar</a>

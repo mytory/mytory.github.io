@@ -25,7 +25,7 @@ alsamixer
 
 그러면 아래와 같은 화면이 뜬다.
 
-<img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile29.uf.12778A544D4BC8791F6523.png" class="aligncenter" width="580" height="486" alt="" />
+<img src="/uploads/legacy/old-images/1/cfile29.uf.12778A544D4BC8791F6523.png" class="aligncenter" width="580" height="486" alt="" />
 
 나는 Master F 가 최소로 돼 있었다. 이걸 최대로 조정해버렸다.
 

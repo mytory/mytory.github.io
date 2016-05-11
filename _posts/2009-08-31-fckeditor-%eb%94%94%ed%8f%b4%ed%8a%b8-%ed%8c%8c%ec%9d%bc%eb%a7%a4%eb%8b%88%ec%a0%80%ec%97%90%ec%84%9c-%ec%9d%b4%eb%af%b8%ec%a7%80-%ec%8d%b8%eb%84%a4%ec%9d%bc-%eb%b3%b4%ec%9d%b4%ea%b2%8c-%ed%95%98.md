@@ -22,7 +22,7 @@ fckeditor의 버전은 2.6.4.1이다.
 
 이 방법을 사용하고 나면 다음과 같이 파일매니저 화면이 변한다.
 
-<span class="Apple-style-span" style="background-color: rgb(248, 248, 248);"><img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile22.uf.18571F474D4BC8631C8C30.gif" class="aligncenter" width="540" height="368" alt="" /></span>
+<span class="Apple-style-span" style="background-color: rgb(248, 248, 248);"><img src="/uploads/legacy/old-images/1/cfile22.uf.18571F474D4BC8631C8C30.gif" class="aligncenter" width="540" height="368" alt="" /></span>
 
 들어있는 파일이 이미지일 경우에는 좌측에 썸네일이 뜬다.
 

@@ -1,0 +1,5 @@
+#nav		{ zoom:1; }
+#nav li		{ zoom:1; }
+#nav a		{ zoom:1; }
+
+#centered	{width:expression( (document.body.clientWidth > 1000) ? "800px" : "80%");}

@@ -30,18 +30,18 @@ tags:
 </div>
 
 <div>
-  <img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile29.uf.137E81544D4BC9591894F8.png" class="aligncenter" width="580" height="362" alt="" />
+  <img src="/uploads/legacy/old-images/1/cfile29.uf.137E81544D4BC9591894F8.png" class="aligncenter" width="580" height="362" alt="" />
 </div>
 
 <div>
   <div style="width: 590px" class="wp-caption aligncenter">
-    <img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile28.uf.1961B1504D4BC95820248A.png" width="580" height="401" alt="" /><p class="wp-caption-text">
+    <img src="/uploads/legacy/old-images/1/cfile28.uf.1961B1504D4BC95820248A.png" width="580" height="401" alt="" /><p class="wp-caption-text">
       △Xfce 4 Setting Manager에서 창 관리자로 간다.
     </p>
   </div>
   
   <div style="width: 590px" class="wp-caption aligncenter">
-    <img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile23.uf.1769354D4D4BC9580FFC21.png" width="580" height="401" alt="" /><p class="wp-caption-text">
+    <img src="/uploads/legacy/old-images/1/cfile23.uf.1769354D4D4BC9580FFC21.png" width="580" height="401" alt="" /><p class="wp-caption-text">
       △단축키를 수정할 수 있다.
     </p>
   </div>

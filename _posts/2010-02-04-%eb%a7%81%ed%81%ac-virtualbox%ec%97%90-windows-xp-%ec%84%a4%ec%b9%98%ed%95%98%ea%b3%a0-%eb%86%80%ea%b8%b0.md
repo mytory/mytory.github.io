@@ -23,4 +23,4 @@ tags:
 
 <a href="http://ubuntu.or.kr/viewtopic.php?f=9&t=2911" target="_blank">VirtualBox에 Windows XP 설치하고 놀기 2/2</a>
 
-<a href="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile25.uf.1677AE584D4BC8861D8286.7z" class="aligncenter" />cfile25.uf.1677AE584D4BC8861D8286.7z</a>
+<a href="/uploads/legacy/old-images/1/cfile25.uf.1677AE584D4BC8861D8286.7z" class="aligncenter" />cfile25.uf.1677AE584D4BC8861D8286.7z</a>

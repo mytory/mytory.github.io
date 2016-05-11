@@ -16,7 +16,7 @@ tags:
 레이어 팝업을 불러온 후 자바스크립트로 박스의 css를 아래처럼 해 준다. 물론 박스의 position 값은 absolute일 것이다. 레이어팝업의 width와 height는 미리 css에 정의해 두는 게 좋다. 아래 코드를 그대로 사용하려면 반드시 정의해 둬야 한다.
 
 <div style="width: 560px" class="wp-caption aligncenter">
-  <img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile23.uf.174DD24F4D4BC96E2AA333.png" alt="" width="550" height="363" /><p class="wp-caption-text">
+  <img src="/uploads/legacy/old-images/1/cfile23.uf.174DD24F4D4BC96E2AA333.png" alt="" width="550" height="363" /><p class="wp-caption-text">
     △정보를 띄워 줄 때 위처럼 화면 한 가운데 레이어 팝업을 띄우는 경우가 있다.
   </p>
 </div>

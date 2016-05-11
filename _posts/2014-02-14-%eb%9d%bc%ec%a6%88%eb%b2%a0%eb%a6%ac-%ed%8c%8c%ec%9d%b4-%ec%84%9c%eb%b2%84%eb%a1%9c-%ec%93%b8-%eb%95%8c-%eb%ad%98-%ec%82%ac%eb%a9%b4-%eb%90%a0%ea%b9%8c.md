@@ -53,7 +53,7 @@ SD 카드를 꽂고 라즈베리 파이 전원을 꽂으면 부팅이 시작된�
 
 설치는 금방 끝난다. 포맷은 FAT32로 했지만 설치가 완료되면 EXT4로 포맷된 상태가 된다. 기본 옵션으로 다 설치하고 부팅하면 터미널만 나오는데 그래픽 인터페이스를 보고 싶으면 `startx`라고 쓰고 엔터치면 된다.
 
- [1]: http://dl.dropboxusercontent.com/u/15546257/blog/mytory/raspberry-pi.jpg
+ [1]: /uploads/legacy/raspberry-pi.jpg
  [2]: http://www.raspberrypi.org/archives/1310
  [3]: http://www.raspberrypi.org/quick-start-guide
  [4]: http://www.raspberrypi.org/downloads

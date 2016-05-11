@@ -90,4 +90,4 @@ tags:
     </body>
     </html>
 
- [1]: http://dl.dropboxusercontent.com/u/15546257/blog/mytory/sms-cut-bytes/sms-cut-bytes.html
+ [1]: /uploads/legacy/sms-cut-bytes/sms-cut-bytes.html

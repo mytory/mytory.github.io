@@ -24,7 +24,7 @@ tags:
 
 이런 점을 고려해서 접었다폈다 하는 스크립트를 만들었다.
 
-<a href="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile25.uf.1346774A4D4BC89C24D1A9.rar" class="aligncenter" />cfile25.uf.1346774A4D4BC89C24D1A9.rar</a>
+<a href="/uploads/legacy/old-images/1/cfile25.uf.1346774A4D4BC89C24D1A9.rar" class="aligncenter" />cfile25.uf.1346774A4D4BC89C24D1A9.rar</a>
 
 ## 초보적인 스크립트다.
 
@@ -45,7 +45,7 @@ tags:
 
 그러면 자바스크립트가 알아서 접었다폈다 하는 구조를 아래 그림처럼 만들어 준다.
 
-<img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile22.uf.152CF4484D4BC89C21D6EB.png" class="aligncenter" width="540" height="167" alt="" />
+<img src="/uploads/legacy/old-images/1/cfile22.uf.152CF4484D4BC89C21D6EB.png" class="aligncenter" width="540" height="167" alt="" />
 
 실제 적용된 것은 <a href="http://www.left21.com/article/7726" target="_blank">여기</a>에서 볼 수 있다.
 

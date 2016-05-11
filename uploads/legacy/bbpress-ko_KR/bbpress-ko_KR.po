@@ -1,0 +1,4986 @@
+# Translation of Plugin in Korean
+# This file is distributed under the same license as the Plugin package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2012-09-18 12:51+0900\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 1.5.3\n"
+"Project-Id-Version: Plugin\n"
+"POT-Creation-Date: \n"
+"Last-Translator: Ahn, Hyoung-woo <mytory@gmail.com>\n"
+"Language-Team: \n"
+
+#: bbp-includes/bbp-core-caps.php:224
+msgid "Participate in forums"
+msgstr "게시판에 참가하기"
+
+#: bbpress.php:716
+msgctxt "post"
+msgid "Bozo"
+msgstr "Bozo"
+
+#: bbpress.php:717
+msgctxt "bbpress"
+msgid "Bozo <span class=\"count\">(%s)</span>"
+msgid_plural "Bozo <span class=\"count\">(%s)</span>"
+msgstr[0] "Bozo <span class=\"count\">(%s)</span>"
+
+#: bbp-admin/bbp-users.php:178
+msgid "Forum Capabilities"
+msgstr "게시판 권한"
+
+#: bbp-admin/bbp-users.php:187
+msgid "Additional Capabilities"
+msgstr "추가 권한"
+
+#: bbp-admin/bbp-users.php:183
+msgid "This user can:"
+msgstr "이 사용자가 할 수 있는 것:"
+
+#: bbp-includes/bbp-core-caps.php:180
+msgid "Forum capabilities"
+msgstr "게시판 권한"
+
+#: bbp-admin/bbp-settings.php:1099
+msgid "Some optional parameters to help tune the conversion process."
+msgstr "대화 과정을 조정하는데 도움이 될 몇가지 선택적 매개변수"
+
+#: bbp-includes/bbp-core-caps.php:227
+msgid "Moderate entire forum"
+msgstr "전체 게시판 조정"
+
+#: bbp-includes/bbp-core-caps.php:189
+msgid "Reply capabilities"
+msgstr "댓글 권한"
+
+#: bbp-includes/bbp-core-caps.php:186
+msgid "Topic tag capabilities"
+msgstr "글 태그 권한"
+
+#: bbp-includes/bbp-core-caps.php:183
+msgid "Topic capabilites"
+msgstr "글 권한"
+
+#: bbp-includes/bbp-common-functions.php:1024
+msgid ""
+"%1$s wrote:\n"
+"\n"
+"%2$s\n"
+"\t\t\t\n"
+"Post Link: %3$s\n"
+"\n"
+"-----------\n"
+"\n"
+"You are receiving this email because you subscribed to a forum topic.\n"
+"\n"
+"Login and visit the topic to unsubscribe from these emails."
+msgstr ""
+"%1$s 작성:\n"
+"\n"
+"%2$s\n"
+"→\t→\t→\t\n"
+"글 링크: %3$s\n"
+"\n"
+"-----------\n"
+"\n"
+"글을 구독하셨기 때문에 본 이메일을 받으신 것입니다.\n"
+"\n"
+"구독한 것을 해지하려면 로그인하고 해당 글을 방문하세요."
+
+#: bbp-admin/bbp-settings.php:1173
+msgid ""
+"Use this if an import failed and you want to remove that incomplete data."
+msgstr ""
+"가져오기가 실패하고 해당 불완전한 데이터를 제거하려면 이것을 사용하세요."
+
+#: bbp-admin/bbp-settings.php:1158
+msgid "You should clean old conversion information before starting over."
+msgstr "시작하기 전에 이전의 대화 정보를 지워야 합니다."
+
+#: bbp-admin/bbp-settings.php:1157
+msgid "Start a fresh conversion from the beginning"
+msgstr "처음부터 새로운 변환 시작하기"
+
+#: bbp-admin/bbp-topics.php:169
+msgid ""
+"You can also edit or move multiple topics to the trash at once. Select the "
+"topics you want to act on using the checkboxes, then select the action you "
+"want to take from the Bulk Actions menu and click Apply."
+msgstr ""
+"한번에 편집하거나 여러 개의 글을 휴지통으로 이동할 수 있습니다. 체크박스를 사"
+"용하여 작업하고자 하는 글을 선택한 다음, 일괄 작업 메뉴에서 실행하려는 작업"
+"을 선택하고 적용을 클릭하세요."
+
+#: bbp-admin/bbp-topics.php:146
+msgid ""
+"You can refine the list to show only topics from a specific month by using "
+"the dropdown menus above the topics list. Click the Filter button after "
+"making your selection. You also can refine the list by clicking on the forum "
+"creator in the topics list."
+msgstr ""
+"글 목록 위의 드랍다운 메뉴를 사용하여 특정 월의 글만 보이게 해서 목록을 정렬"
+"할 수 있습니다. 선택한 다음 필터 버튼을 클릭하세요. 글 목록의 게시판 생성기"
+"에 클릭하여 목록을 정렬할 수도 있습니다."
+
+#: bbp-admin/bbp-topics.php:145
+msgid ""
+"You can filter the list of topics by forum status using the text links in "
+"the upper left to show All, Published, or Trashed topics. The default view "
+"is to show all topics."
+msgstr ""
+"좌측 상단의 모두, 발행됨, 또는 휴지통 글자 링크를 사용해서 게시판 상태 별로 "
+"글 목록을 필터링 할 수 있습니다. 기본 보기는 모든 글 보기입니다."
+
+#: bbp-admin/bbp-topics.php:134
+msgid ""
+"This screen displays the individual topics on your site. You can customize "
+"the display of this screen to suit your workflow."
+msgstr ""
+"이 화면은 사이트의 개별 글을 나타냅니다. 이 화면의 표시를 사용자 정의하여 작"
+"업과정에 맞게 설정할 수 있습니다."
+
+#: bbp-admin/bbp-settings.php:1265
+msgid ""
+"Topic-Tags allow users to filter topics between forums. This is enabled by "
+"default."
+msgstr ""
+"글-태그는 사용자가 게시판간의 글을 필터할 수 있도록 합니다. 이것은 기본으로 "
+"활성화돼있습니다."
+
+#: bbp-admin/bbp-tools.php:162
+msgid "Recalculate private and hidden forums"
+msgstr "개인, 숨은 게시판 재 계산하기"
+
+#: bbp-admin/bbp-tools.php:700
+msgid "Recalculating forum visibility &hellip; %s"
+msgstr "게시판 가시성 재 계산 중 &hellip; %s"
+
+#: bbp-admin/bbp-topics.php:170
+msgid ""
+"When using Bulk Edit, you can change the metadata (categories, author, etc.) "
+"for all selected topics at once. To remove a topic from the grouping, just "
+"click the x next to its name in the Bulk Edit area that appears."
+msgstr ""
+"일괄 편집을 사용할 경우, 선택된 모든 글의 메타데이터(카테고리, 글쓴이, 등)를 "
+"한번에 변경할 수 있습니다. 그룹에서 하나의 글을 제거하려면 대량 편집 패널에 "
+"나타나는 이름 옆의 x를 클릭하면 됩니다."
+
+#: bbp-includes/bbp-core-caps.php:230
+msgid "Skip forum throttle check"
+msgstr "게시판 트로틀 체크 생략"
+
+#: bbp-admin/bbp-users.php:209
+msgid "Reset to Default"
+msgstr "기본 설정으로 리셋"
+
+#: bbp-includes/bbp-core-caps.php:177
+msgid "General capabilities"
+msgstr "일반 권한"
+
+#: bbp-includes/bbp-core-caps.php:233
+msgid "View items in forum trash"
+msgstr "게시판 휴지통 아이템 보기"
+
+#: bbp-includes/bbp-core-caps.php:236
+msgid "User is a forum bozo"
+msgstr "사용자는 게시판 멍청이입니다"
+
+#: bbp-includes/bbp-core-caps.php:241
+msgid "View forum"
+msgstr "게시판 보기"
+
+#: bbp-includes/bbp-core-caps.php:244
+msgid "Edit forum"
+msgstr "게시판 편집"
+
+#: bbp-includes/bbp-core-caps.php:247
+msgid "Trash forum"
+msgstr "게시판 휴지통 보내기"
+
+#: bbp-includes/bbp-core-caps.php:250
+msgid "Delete forum"
+msgstr "게시판 삭제"
+
+#: bbp-includes/bbp-core-caps.php:253
+msgid "Moderate forum"
+msgstr "게시판 조정하기"
+
+#: bbp-includes/bbp-core-caps.php:256
+msgid "Create forums"
+msgstr "게시판 생성"
+
+#: bbp-includes/bbp-core-caps.php:259
+msgid "Edit their own forums"
+msgstr "그들의 게시판 편집"
+
+#: bbp-includes/bbp-core-caps.php:262
+msgid "Edit all forums"
+msgstr "모든 게시판 편집"
+
+#: bbp-includes/bbp-core-caps.php:265
+msgid "Delete their own forums"
+msgstr "그들의 게시판 삭제"
+
+#: bbp-includes/bbp-core-caps.php:268
+msgid "Delete all forums"
+msgstr "모든 게시판 삭제"
+
+#: bbp-includes/bbp-core-caps.php:271
+msgid "View private forums"
+msgstr "개인 게시판 보기"
+
+#: bbp-includes/bbp-core-caps.php:274
+msgid "View hidden forums"
+msgstr "숨은 게시판 보기"
+
+#: bbp-includes/bbp-core-caps.php:279
+msgid "View topic"
+msgstr "글 보기"
+
+#: bbp-includes/bbp-core-caps.php:282
+msgid "Edit topic"
+msgstr "글 편집"
+
+#: bbp-includes/bbp-core-caps.php:285
+msgid "Trash topic"
+msgstr "글 휴지통으로 보내기"
+
+#: bbp-includes/bbp-core-caps.php:288
+msgid "Moderate topic"
+msgstr "글 조정하기"
+
+#: bbp-includes/bbp-core-caps.php:291
+msgid "Delete topic"
+msgstr "글 삭제"
+
+#: bbp-includes/bbp-core-caps.php:294
+msgid "Create topics"
+msgstr "글 생성"
+
+#: bbp-includes/bbp-core-caps.php:297
+msgid "Edit their own topics"
+msgstr "그들의 글 편집"
+
+#: bbp-includes/bbp-core-caps.php:300
+msgid "Edit others topics"
+msgstr "다른 글 편집"
+
+#: bbp-includes/bbp-core-caps.php:303
+msgid "Delete own topics"
+msgstr "고유 글 삭제"
+
+#: bbp-includes/bbp-core-caps.php:306
+msgid "Delete others topics"
+msgstr "다른 사람의 글 삭제"
+
+#: bbp-includes/bbp-core-caps.php:309
+msgid "View private topics"
+msgstr "개인 글 보기"
+
+#: bbp-includes/bbp-core-caps.php:314
+msgid "Read reply"
+msgstr "댓글 읽기"
+
+#: bbp-includes/bbp-core-caps.php:317
+msgid "Edit reply"
+msgstr "댓글 편집"
+
+#: bbp-includes/bbp-core-caps.php:320
+msgid "Trash reply"
+msgstr "댓글 휴지통 보내기"
+
+#: bbp-includes/bbp-core-caps.php:323
+msgid "Delete reply"
+msgstr "댓글 삭제"
+
+#: bbp-includes/bbp-core-caps.php:326
+msgid "Create replies"
+msgstr "댓글 생성"
+
+#: bbp-includes/bbp-core-caps.php:329
+msgid "Edit own replies"
+msgstr "고유 댓글 편집"
+
+#: bbp-includes/bbp-core-caps.php:332
+msgid "Edit others replies"
+msgstr "다른 사람의 댓글 편집"
+
+#: bbp-includes/bbp-core-caps.php:335
+msgid "Delete own replies"
+msgstr "고유 댓글 삭제"
+
+#: bbp-includes/bbp-core-caps.php:338
+msgid "Delete others replies"
+msgstr "다른 사람의 댓글 삭제"
+
+#: bbp-includes/bbp-core-caps.php:341
+msgid "View private replies"
+msgstr "개인 댓글 보기"
+
+#: bbp-includes/bbp-core-caps.php:346
+msgid "Remove tags from topics"
+msgstr "글에서 태그 제거"
+
+#: bbp-includes/bbp-core-caps.php:349
+msgid "Edit topic tags"
+msgstr "글 태그 편집"
+
+#: bbp-includes/bbp-core-caps.php:352
+msgid "Delete topic tags"
+msgstr "글 태그 제거"
+
+#: bbp-includes/bbp-core-caps.php:355
+msgid "Assign tags to topics"
+msgstr "태그를 글에 배정"
+
+#: bbp-includes/bbp-core-caps.php:875 bbp-includes/bbp-core-caps.php:885
+#: bbp-includes/bbp-core-caps.php:905 bbp-includes/bbp-core-caps.php:916
+#: bbp-includes/bbp-core-caps.php:927 bbp-includes/bbp-core-caps.php:938
+msgid "Special forum roles no longer exist. Use mapped capabilities instead"
+msgstr ""
+"특별 게시판 역할이 더 이상 존재하지 않습니다. 대신 매핑 권한을 사용하세요"
+
+#: bbp-includes/bbp-core-caps.php:895
+msgid "Use mapped capabilities instead"
+msgstr "매핑 권한 사용하기"
+
+#: bbp-includes/bbp-core-widgets.php:610
+msgctxt "widgets"
+msgid "by %1$s"
+msgstr "%1$s"
+
+#: bbp-includes/bbp-core-widgets.php:672
+msgid "Show topic author:"
+msgstr "글 글쓴이 보이기:"
+
+#: bbp-includes/bbp-core-widgets.php:675
+msgid "Order By:"
+msgstr "순서"
+
+#: bbp-includes/bbp-core-widgets.php:677
+msgid "Newest Topics"
+msgstr "최신 글"
+
+#: bbp-includes/bbp-core-widgets.php:679
+msgid "Topics With Recent Replies"
+msgstr "최근 댓글이 있는 글"
+
+#: bbp-includes/bbp-core-widgets.php:786
+msgctxt "widgets"
+msgid "%1$s on %2$s %3$s"
+msgstr "%1$s on %2$s %3$s"
+
+#: bbp-includes/bbp-core-widgets.php:792
+msgctxt "widgets"
+msgid "%1$s %2$s"
+msgstr "%1$s %2$s"
+
+#: bbp-includes/bbp-core-widgets.php:804
+msgctxt "widgets"
+msgid "%1$s"
+msgstr "%1$s"
+
+#: bbp-includes/bbp-core-widgets.php:860
+msgid "Show reply author:"
+msgstr "댓글 글쓴이 보이기:"
+
+#: bbp-includes/bbp-forum-functions.php:121
+#: bbp-includes/bbp-forum-functions.php:400
+#: bbp-includes/bbp-reply-functions.php:117
+#: bbp-includes/bbp-reply-functions.php:402
+#: bbp-includes/bbp-topic-functions.php:129
+#: bbp-includes/bbp-topic-functions.php:472
+#: bbp-includes/bbp-topic-functions.php:1058
+#: bbp-includes/bbp-topic-functions.php:1360
+#: bbp-includes/bbp-topic-functions.php:1693
+#: bbp-includes/bbp-topic-functions.php:1732
+#: bbp-includes/bbp-topic-functions.php:1789
+#: bbp-includes/bbp-user-functions.php:472
+#: bbp-includes/bbp-user-functions.php:792
+#: bbp-includes/bbp-user-functions.php:919
+#: bbp-includes/bbp-user-functions.php:925
+msgid "<strong>ERROR</strong>: Are you sure you wanted to do that?"
+msgstr "<strong>에러</strong>: 정말로 그것을 실행하시겠습니까?"
+
+#: bbp-includes/bbp-reply-template.php:538
+#: bbp-includes/bbp-topic-template.php:681
+msgctxt "date at time"
+msgid "%1$s at %2$s"
+msgstr "%1$s %2$s"
+
+#: bbp-admin/bbp-admin.php:1111 bbp-admin/bbp-admin.php:1142
+msgid ""
+"Thank you for updating to the latest version! bbPress %s is ready to make "
+"your community a safer, faster, and better looking place to hang out!"
+msgstr ""
+"최신 버전으로 업데이트해 주셔서 감사합니다! bbPress %s는 당신의 커뮤니티를 "
+"더 안전하고 더 빠르고 도 보기 좋은 곳으로 만들 준비가 됐습니다!"
+
+#: bbp-admin/bbp-admin.php:1123 bbp-admin/bbp-admin.php:1154
+msgid "Go to Forum Settings"
+msgstr "게시판 설정으로 가기"
+
+#: bbp-admin/bbp-admin.php:1110 bbp-admin/bbp-admin.php:1141
+msgid "Welcome to bbPress %s"
+msgstr "bbPress %s에 오신 것을 환영합니다"
+
+#: bbp-admin/bbp-admin.php:1118 bbp-admin/bbp-admin.php:1149
+msgid "Credits"
+msgstr "크레딧"
+
+#: bbp-admin/bbp-admin.php:216 bbp-admin/bbp-admin.php:217
+#: bbp-admin/bbp-admin.php:225 bbp-admin/bbp-admin.php:226
+msgid "Welcome to bbPress"
+msgstr "bbPress에 오신 것을 환영합니다"
+
+#: bbp-admin/bbp-forums.php:163 bbp-admin/bbp-forums.php:234
+#: bbp-admin/bbp-replies.php:178 bbp-admin/bbp-replies.php:246
+#: bbp-admin/bbp-settings.php:1296 bbp-admin/bbp-topics.php:176
+#: bbp-admin/bbp-topics.php:244
+msgid ""
+"<a href=\"http://codex.bbpress.org\" target=\"_blank\">bbPress "
+"Documentation</a>"
+msgstr ""
+"<a href=\"http://codex.bbpress.org\" target=\"_blank\">bbPress 문서</a>"
+
+#: bbp-admin/bbp-forums.php:157
+msgid ""
+"When using Bulk Edit, you can change the metadata (categories, author, etc.) "
+"for all selected forums at once. To remove a forum from the grouping, just "
+"click the x next to its name in the Bulk Edit area that appears."
+msgstr ""
+"일괄 편집을 사용할 경우, 선택된 모든 게시판의 메타데이터(카테고리, 개설자, "
+"등)를 한번에 변경할 수 있습니다. 그룹에서 하나의 게시판을 제거하려면 대량 편"
+"집 패널에 나타나는 이름 옆의 x를 클릭하면 됩니다."
+
+#: bbp-admin/bbp-admin.php:1116 bbp-admin/bbp-admin.php:1147
+msgid "What&#8217;s New"
+msgstr "새로운 것"
+
+#: bbp-admin/bbp-admin.php:1112 bbp-admin/bbp-admin.php:1143
+msgid "Version %s"
+msgstr "버전 %s"
+
+#: bbp-admin/bbp-forums.php:147
+msgid ""
+"<strong>View</strong> will show you what your draft forum will look like if "
+"you publish it. View will take you to your live site to view the forum. "
+"Which link is available depends on your forum&#8217;s status."
+msgstr ""
+"<strong>보기</strong> 부분은 글이 실제로 어떻게 보이는지 미리 보여 줍니다."
+
+#: bbp-admin/bbp-forums.php:122
+msgid ""
+"This screen displays the individual forums on your site. You can customize "
+"the display of this screen to suit your workflow."
+msgstr ""
+"이 화면은 사이트의 개별 게시판을 나타냅니다. 이 화면의 표시를 사용자 정의하"
+"여 작업과정에 맞게 설정할 수 있습니다."
+
+#: bbp-admin/bbp-converter.php:130
+msgid "Purge Previous Import"
+msgstr "이전 가져오기 제거"
+
+#: bbp-admin/bbp-converter.php:126
+msgid "Start Over"
+msgstr "다시 시작하기"
+
+#: bbp-admin/bbp-converter.php:80
+msgid "Database Settings"
+msgstr "데이터베이스 설정"
+
+#: bbp-admin/bbp-forums.php:156
+msgid ""
+"You can also edit or move multiple forums to the trash at once. Select the "
+"forums you want to act on using the checkboxes, then select the action you "
+"want to take from the Bulk Actions menu and click Apply."
+msgstr ""
+"여러 댓글을 한번에 편집하거나 휴지통으로 보낼 수 있습니다. 대상 게시판을 체크"
+"해서 선택하세요. 그런 다음 일괄 작업 메뉴에서 원하는 작업을 선택하고 적용을 "
+"클릭하세요."
+
+#: bbp-admin/bbp-settings.php:570
+msgid ""
+"Embed media (YouTube, Twitter, Flickr, etc...) directly into topics and "
+"replies"
+msgstr "미디어(유투브, 트위터, 플리커, 등...)를 글과 댓글에 바로 나오게 한다."
+
+#: bbp-admin/bbp-settings.php:490
+msgid "Allow all registered users to create topics and replies"
+msgstr "모든 등록된 사용자가 글과 댓글을 작성할 수 있게 한다."
+
+#: bbp-admin/bbp-settings.php:442
+msgid "Allow topics to have tags"
+msgstr "글에 태그를 달 수 있습니다."
+
+#: bbp-admin/bbp-forums.php:211
+msgid ""
+"<strong>Status</strong> allows you to close a forum to new topics and forums."
+msgstr "<strong>상태</strong>를 바꾸면 게시판을 닫을 수 있습니다."
+
+#: bbp-admin/bbp-settings.php:137
+msgid "Global Access"
+msgstr "전체 접근"
+
+#: bbp-admin/bbp-settings.php:129
+msgid "Anonymous Posting"
+msgstr "익명 글올리기"
+
+#: bbp-admin/bbp-converter.php:219
+msgid "Starting Conversion"
+msgstr "변환 시작하기"
+
+#: bbp-admin/bbp-admin.php:373
+msgid "About"
+msgstr "소개"
+
+#: bbp-admin/bbp-converter.php:342
+msgid "Deleting previously converted data (%1$s - %2$s)"
+msgstr "이전에 변환된 데이터 제거 (%1$s - %2$s)"
+
+#: bbp-admin/bbp-converter.php:362
+msgid "Converting users (%1$s - %2$s)"
+msgstr "사용자 전환(%1$s - %2$s)"
+
+#: bbp-admin/bbp-converter.php:382
+msgid "Delete users wordpress default passwords (%1$s - %2$s)"
+msgstr "워드프레스 기본 사용자 비밀번호 제거 (%1$s - %2$s)"
+
+#: bbp-admin/bbp-converter.php:401
+msgid "Converting forums (%1$s - %2$s)"
+msgstr "게시판 변환 (%1$s - %2$s)"
+
+#: bbp-admin/bbp-converter.php:416
+msgid "Calculating forum hierarchy (%1$s - %2$s)"
+msgstr "게시판 계층구조 계산 (%1$s - %2$s)"
+
+#: bbp-admin/bbp-converter.php:431
+msgid "Converting topics (%1$s - %2$s)"
+msgstr "글 변환 (%1$s - %2$s)"
+
+#: bbp-admin/bbp-converter.php:446
+msgid "Converting topic tags (%1$s - %2$s)"
+msgstr "글 태그 변환 (%1$s - %2$s)"
+
+#: bbp-admin/bbp-converter.php:461
+msgid "Converting replies (%1$s - %2$s)"
+msgstr "댓글 변환 (%1$s - %2$s)"
+
+#: bbp-admin/bbp-settings.php:282
+msgid "User slug"
+msgstr "사용자 슬러그"
+
+#: bbp-admin/bbp-settings.php:290
+msgid "Topic view slug"
+msgstr "글 보기 슬러그"
+
+#: bbp-theme-compat/bbpress/feedback-no-replies.php:13
+#: bbp-themes/bbp-twentyten/bbpress/feedback-no-replies.php:13
+msgid "Oh bother! No replies were found here!"
+msgstr ""
+"헐~ 댓글이 하나도 없습니다. 가장 먼저 댓글을 달아 보시는 건 어떠세요? ^^"
+
+#: bbp-admin/bbp-tools.php:380
+msgid "Counting the number of topics each user has created&hellip; %s"
+msgstr "각 사용자가 작성한 글이 몇 개인지 세고 있습니다 &hellip; %s"
+
+#: bbp-admin/bbp-tools.php:168
+msgid "Count topics for each user"
+msgstr "각 사용자가 쓴 글의 개수 "
+
+#: bbp-admin/bbp-tools.php:859
+msgid ""
+"This will revert your forums back to a brand new installation. This process "
+"cannot be undone. <strong>Backup your database before proceeding</strong>."
+msgstr ""
+"게시판을 초기화합니다. 한 번 초기화하면 복구할 수 없습니다. <strong>계속 진행"
+"하기 전에 데이터베이스를 백업하세요</strong>."
+
+#: bbp-admin/bbp-tools.php:865
+msgid "The following data will be removed:"
+msgstr "다음 데이터가 삭제됩니다."
+
+#: bbp-admin/bbp-tools.php:870
+msgid "All Topic Tags"
+msgstr "모든 글 태그"
+
+#: bbp-admin/bbp-tools.php:871
+msgid "Related Meta Data"
+msgstr "관련 메타 정보"
+
+#: bbp-admin/bbp-tools.php:872
+msgid "Forum Settings"
+msgstr "게시판 설정"
+
+#: bbp-admin/bbp-tools.php:873
+msgid "Forum Activity"
+msgstr "게시판 활동"
+
+#: bbp-admin/bbp-tools.php:874
+msgid "Forum User Roles"
+msgstr "게시판 사용자 역할"
+
+#: bbp-admin/bbp-tools.php:875
+msgid "Importer Helper Data"
+msgstr "도움말 데이터 입력기"
+
+#: bbp-admin/bbp-tools.php:879
+msgid "Are you sure you want to do this?"
+msgstr "이것을 정말로 실행하시겠습니까?"
+
+#: bbp-admin/bbp-tools.php:882
+msgid "Say it ain't so!"
+msgstr "이건 정말 아니잖아요!"
+
+#: bbp-admin/bbp-tools.php:883
+msgid "This process cannot be undone."
+msgstr "이 과정은 복구될 수 없습니다."
+
+#: bbp-admin/bbp-tools.php:891
+msgid "Reset bbPress"
+msgstr "bbPress 초기화"
+
+#: bbp-admin/bbp-tools.php:916
+msgid "Failed"
+msgstr "실패"
+
+#: bbp-admin/bbp-tools.php:917
+msgid "Success!"
+msgstr "성공!"
+
+#: bbp-admin/bbp-tools.php:924
+msgid "Deleting Posts&hellip; %s"
+msgstr "글 삭제&hellip; %s"
+
+#: bbp-admin/bbp-tools.php:937
+msgid "Deleting Post Meta&hellip; %s"
+msgstr "글 메타 지우기&hellip; %s"
+
+#: bbp-admin/bbp-tools.php:950
+msgid "Deleting User Meta&hellip; %s"
+msgstr "사용자 정보 지우기&hellip; %s"
+
+#: bbp-admin/bbp-tools.php:957
+msgid "Deleting Conversion Table&hellip; %s"
+msgstr "변환테이블 삭제&hellip; %s"
+
+#: bbp-admin/bbp-tools.php:969
+msgid "Deleting Settings&hellip; %s"
+msgstr "설정 삭제&hellip; %s"
+
+#: bbp-admin/bbp-tools.php:975
+msgid "Deleting Roles and Capabilities&hellip; %s"
+msgstr "역할 및 권한 삭제&hellip; %s"
+
+#: bbp-admin/converters/bbPress1.php:540
+msgid "Re: "
+msgstr "답변:"
+
+#: bbp-admin/bbp-admin.php:158
+msgid "Forum Repair"
+msgstr "게시판 복구"
+
+#: bbp-admin/bbp-admin.php:168
+msgid "Forum Import"
+msgstr "게시판 가져오기"
+
+#: bbp-admin/bbp-admin.php:177 bbp-admin/bbp-functions.php:234
+#: bbp-admin/bbp-tools.php:858
+msgid "Reset Forums"
+msgstr "게시판 초기화"
+
+#: bbp-admin/bbp-admin.php:178
+msgid "Forum Reset"
+msgstr "게시판 초기화"
+
+#: bbp-theme-compat/bbpress/form-user-lost-pass.php:27
+msgid "Reset My Password"
+msgstr "비밀번호 초기화"
+
+#: bbp-admin/bbp-tools.php:36
+msgid ""
+"bbPress keeps track of relationships between forums, topics, replies, and "
+"topic tags, and users. Occasionally these relationships become out of sync, "
+"most often after an import or migration. Use the tools below to manually "
+"recalculate these relationships."
+msgstr ""
+"bbPress는 게시판, 글, 댓글, 그리고 주제 태그, 사용자 등 서로의 관계를 추적합"
+"니다. 가끔 이러한 관계가 서로 연결되지 않습니다. 이는 데이터의 가져오기나 이"
+"동 후에 일어납니다. 이들 관계를 수동으로 재정리하려면 다음의 도구를 사용하세"
+"요."
+
+#: bbp-admin/bbp-tools.php:37
+msgid ""
+"Some of these tools create substantial database overhead. Avoid running more "
+"than 1 repair job at a time."
+msgstr ""
+"이들 도구 중 실제 데이터베이스를 초과해서 생성하는 것도 있습니다. 한번에 두"
+"개 이상의 작업을 하는 것을 삼가하세요."
+
+#: bbp-admin/bbp-tools.php:43
+msgid "Relationships to Repair:"
+msgstr "복구할 관계:"
+
+#: bbp-admin/bbp-converter.php:103
+msgid "Database Password"
+msgstr "데이터베이스 비밀번호"
+
+#: bbp-admin/bbp-tools.php:46
+msgid "Repair"
+msgstr "복구"
+
+#: bbp-admin/bbp-admin.php:157 bbp-admin/bbp-functions.php:226
+#: bbp-admin/bbp-tools.php:34
+msgid "Repair Forums"
+msgstr "게시판 복구"
+
+#: bbp-admin/bbp-admin.php:167 bbp-admin/bbp-functions.php:230
+#: bbp-admin/bbp-settings.php:1209
+msgid "Import Forums"
+msgstr "게시판 가져오기"
+
+#: bbp-admin/bbp-settings.php:1030
+msgid "IP or hostname"
+msgstr "IP 또는 호스트 이름"
+
+#: bbp-admin/bbp-settings.php:1044
+msgid "Use default 3306 if unsure"
+msgstr "잘 모르면 기본 3306을 사용하세요."
+
+#: bbp-admin/bbp-settings.php:1058
+msgid "User for your database connection"
+msgstr "당신의 데이터베이스 연결 사용자"
+
+#: bbp-admin/bbp-settings.php:1072
+msgid "Password to access the database"
+msgstr "데이터베이스 접근 비밀번호"
+
+#: bbp-admin/bbp-settings.php:1086
+msgid "Name of the database with your old forum data"
+msgstr "당신의 이전 게시판 데이터베이스 이름"
+
+#: bbp-admin/bbp-settings.php:1127
+msgid "rows to process at a time"
+msgstr "일회당 진행할 행의 수"
+
+#: bbp-admin/bbp-settings.php:1128
+msgid "Keep this low if you experience out-of-memory issues."
+msgstr "메모리 초과 문제를 경험한다면 이것을 낮은 상태로 유지하세요."
+
+#: bbp-admin/bbp-settings.php:1142
+msgid "second(s) delay between each group of rows"
+msgstr "각 행의 그룹간 수초간의 지연"
+
+#: bbp-admin/bbp-settings.php:1143
+msgid "Keep this high to prevent too-many-connection issues."
+msgstr "과다한 연결 문제를 방지하려면 이것을 높은 상태로 유지하세요."
+
+#: bbp-admin/bbp-settings.php:1172
+msgid "Purge all information from a previously attempted import"
+msgstr "이전에 시도한 가져오기에서 모든 정보를 삭제"
+
+#: bbp-admin/bbp-settings.php:1188
+msgid ""
+"Non-bbPress passwords cannot be automatically converted. They will be "
+"converted as each user logs in."
+msgstr ""
+"비 bbPress 비밀번호는 자동으로 변환될 수 없습니다. 이것은 각 사용자가 로그인 "
+"할때 변환됩니다."
+
+#: bbp-admin/bbp-tools.php:61
+msgid "Repair Items"
+msgstr "항목 복구"
+
+#: bbp-admin/bbp-tools.php:160
+msgid "Recalculate the parent topic for each post"
+msgstr "각 글의 부모 글을 재 계산"
+
+#: bbp-admin/bbp-tools.php:161
+msgid "Recalculate the parent forum for each post"
+msgstr "각 글의 부모 게시판을 재계산"
+
+#: bbp-admin/bbp-tools.php:750
+msgid "Recalculating the forum for each post &hellip; %s"
+msgstr "각 글의 게시판을 재계산 &hellip; %s"
+
+#: bbp-admin/bbp-tools.php:805
+msgid "Recalculating the topic for each post &hellip; %s"
+msgstr "각 글의 글을 재계산 &hellip; %s"
+
+#: bbp-admin/bbp-converter.php:111
+msgid "Options"
+msgstr "옵션"
+
+#: bbp-admin/bbp-settings.php:991
+msgid ""
+"Information about your previous forums database so that they can be "
+"converted. <strong>Backup your database before proceeding.</strong>"
+msgstr ""
+"변환될 수 있는지 이전의 게시판 데이터베이스에 관한 정보.  <strong>계속 진행하"
+"기 전에 데이터베이스를 백업하세요.</strong>"
+
+#: bbp-admin/bbp-converter.php:412
+msgid "No forum parents to convert"
+msgstr "변환될 게시판 부모가 없음"
+
+#: bbp-admin/bbp-converter.php:457
+msgid "No replies to convert"
+msgstr "변환될 댓글 없음"
+
+#: bbp-admin/bbp-converter.php:244 bbp-admin/bbp-converter.php:471
+msgid "Conversion Complete"
+msgstr "변환 완료"
+
+#: bbp-includes/bbp-user-template.php:436
+msgid "Key Master"
+msgstr "Key 마스터"
+
+#: bbp-includes/bbp-user-template.php:440
+msgid "Guest"
+msgstr "손님"
+
+#: bbp-includes/bbp-user-template.php:465
+msgid "Member"
+msgstr "회원"
+
+#: bbp-includes/bbp-forum-template.php:1858
+msgid "This category contains %1$s, and was last updated by %2$s %3$s."
+msgstr ""
+"이 카테고리는 %1$s를 포함하며 마지막으로  %2$s에 의해 %3$s 업데이트됐습니다."
+
+#: bbp-includes/bbp-forum-template.php:1860
+msgid "This forum contains %1$s, and was last updated by %2$s %3$s."
+msgstr "게시판에 %1$s이 있으며 마지막으로 %2$s에 의해 %3$s 업데이트 됐습니다."
+
+#: bbp-includes/bbp-forum-template.php:1880
+msgid "This category contains %1$s."
+msgstr "이 카테고리는 %1$s를 포함합니다."
+
+#: bbp-includes/bbp-forum-template.php:1882
+msgid "This forum contains %1$s."
+msgstr "이 게시판은 %1$s 가 있습니다."
+
+#: bbp-includes/bbp-forum-template.php:1886
+msgid "This forum is empty."
+msgstr "이 게시판은 아무것도 없습니다."
+
+#: bbp-includes/bbp-topic-template.php:2920
+msgid "This topic has no replies."
+msgstr "이 글은 댓글이 없습니다."
+
+#: bbp-includes/bbp-forum-template.php:1850
+msgid ""
+"This category contains %1$s and %2$s, and was last updated by %3$s %4$s."
+msgstr ""
+"이 카테고리는 %1$s 와 %2$s가 있으며 마지막으로 %3$s %4$s에 의해 업데이트 됐습"
+"니다."
+
+#: bbp-includes/bbp-forum-template.php:1852
+msgid "This forum contains %1$s and %2$s, and was last updated by %3$s %4$s."
+msgstr ""
+"이 게시판에는 %1$s, %2$s가 있습니다. %4$s에 마지막으로 %3$s 님이 글을 남겼습"
+"니다."
+
+#: bbp-includes/bbp-reply-template.php:629
+msgid "This reply was modified %1$s by %2$s. Reason: %3$s"
+msgstr "이 댓글은 %2$s에 의해 %1$s 수정됐습니다. 이유: %3$s"
+
+#: bbp-includes/bbp-reply-template.php:631
+msgid "This reply was modified %1$s by %2$s."
+msgstr "이 댓글은 %2$s에 의해 %1$s 수정됐습니다."
+
+#: bbp-includes/bbp-topic-template.php:858
+msgid "This topic was modified %1$s by %2$s. Reason: %3$s"
+msgstr "이 글은 %2$s에 의해 %1$s 수정됐습니다. 이유: %3$s"
+
+#: bbp-includes/bbp-topic-template.php:860
+msgid "This topic was modified %1$s by %2$s."
+msgstr "이 글은 %2$s에 의해 %1$s 수정됐습니다."
+
+#: bbp-includes/bbp-topic-template.php:2912
+msgid "This topic contains %1$s, has %2$s, and was last updated by %3$s %4$s."
+msgstr ""
+"이 글은 %1$s과 %2$s가 있으며 마지막으로 %3$s에 의해 %4$s 업데이트 됐습니다."
+
+#: bbp-includes/bbp-common-functions.php:110
+msgid "sometime"
+msgstr "어느정도의 시간"
+
+#: bbp-includes/bbp-common-functions.php:111
+msgid "right now"
+msgstr "즉시"
+
+#: bbp-includes/bbp-common-functions.php:116
+msgid "year"
+msgstr "년"
+
+#: bbp-includes/bbp-common-functions.php:116
+msgid "years"
+msgstr "년"
+
+#: bbp-includes/bbp-common-functions.php:117
+msgid "month"
+msgstr "월"
+
+#: bbp-includes/bbp-common-functions.php:117
+msgid "months"
+msgstr "개월"
+
+#: bbp-includes/bbp-common-functions.php:118
+msgid "week"
+msgstr "주"
+
+#: bbp-includes/bbp-common-functions.php:118
+msgid "weeks"
+msgstr "주"
+
+#: bbp-includes/bbp-common-functions.php:119
+msgid "day"
+msgstr "일"
+
+#: bbp-includes/bbp-common-functions.php:119
+msgid "days"
+msgstr "일"
+
+#: bbp-includes/bbp-common-functions.php:120
+msgid "hour"
+msgstr "시간"
+
+#: bbp-includes/bbp-common-functions.php:120
+msgid "hours"
+msgstr "시간"
+
+#: bbp-includes/bbp-common-functions.php:121
+msgid "minute"
+msgstr "분"
+
+#: bbp-includes/bbp-common-functions.php:122
+msgid "second"
+msgstr "초"
+
+#: bbp-includes/bbp-common-functions.php:177
+msgctxt "Separator in time since"
+msgid ","
+msgstr " "
+
+#: bbp-includes/bbp-extend-buddypress.php:868
+msgid "Search Forums..."
+msgstr "게시판 검색..."
+
+#: bbp-includes/bbp-extend-buddypress.php:912
+#: bbp-includes/bbp-extend-buddypress.php:990
+msgid "Topics Started"
+msgstr "글 시작됨"
+
+#: bbp-includes/bbp-extend-buddypress.php:923
+#: bbp-includes/bbp-extend-buddypress.php:998
+msgid "Topics Replied To"
+msgstr "댓글이 있는 글"
+
+#: bbp-admin/bbp-settings.php:105 bbp-includes/bbp-extend-buddypress.php:934
+msgid "Favorites"
+msgstr "즐겨찾기"
+
+#: bbp-admin/bbp-settings.php:113 bbp-includes/bbp-extend-buddypress.php:946
+msgid "Subscriptions"
+msgstr "구독"
+
+#: bbp-includes/bbp-extend-buddypress.php:1006
+msgid "Favorite Topics"
+msgstr "즐겨찾기로 등록한 글"
+
+#: bbp-includes/bbp-extend-buddypress.php:1014
+msgid "Subscribed Topics"
+msgstr "댓글을 구독한 글"
+
+#: bbp-includes/bbp-extend-buddypress.php:1231
+msgid "Group Forums"
+msgstr "그룹 게시판"
+
+#: bbp-includes/bbp-extend-buddypress.php:1233
+msgid ""
+"Create a discussion forum to allow members of this group to communicate in a "
+"structured, bulletin-board style fashion."
+msgstr ""
+"이 그룹의 구성원이 구조화, 게시판 보드 스타일의 방식으로 통신할 수 있도록 토"
+"론 게시판을 만듭니다."
+
+#: bbp-includes/bbp-extend-buddypress.php:1236
+msgid "Yes. I want this group to have a forum."
+msgstr "예. 이 그룹 게시판을 갖고 싶습니다."
+
+#: bbp-includes/bbp-extend-buddypress.php:1458
+#: bbp-includes/bbp-extend-buddypress.php:1470
+msgid "This group does not currently have any forums."
+msgstr "이 그룹은 현재 어떤 게시판이 없습니다."
+
+#: bbp-includes/bbp-forum-functions.php:134
+msgid ""
+"<strong>ERROR</strong>: You do not have permission to create new forums."
+msgstr ""
+"<strong>ERROR</strong>: 당신은 새로운 게시판을 만들 수있는 권한이 없습니다."
+
+#: bbp-includes/bbp-forum-functions.php:157
+#: bbp-includes/bbp-forum-functions.php:459
+msgid "<strong>ERROR</strong>: Your forum needs a title."
+msgstr "<strong>에러</strong>: 게시판의 제목이 필요합니다."
+
+#: bbp-includes/bbp-forum-functions.php:169
+#: bbp-includes/bbp-forum-functions.php:471
+msgid "<strong>ERROR</strong>: Your forum description cannot be empty."
+msgstr "<strong>에러</strong>: 게시판 설명을 입력하세요."
+
+#: bbp-includes/bbp-forum-functions.php:182
+msgid "<strong>ERROR</strong>: Your forum must have a parent."
+msgstr "<strong>에러</strong>: 게시판에 부모가 있어야 합니다."
+
+#: bbp-includes/bbp-forum-functions.php:189
+msgid ""
+"<strong>ERROR</strong>: This forum is a category. No forums can be created "
+"in this forum."
+msgstr ""
+"<strong>에러</strong>: 이 게시판은 카테고리입니다. 이 게시판에서는 게시판을 "
+"만들 수 없습니다."
+
+#: bbp-includes/bbp-forum-functions.php:194
+#: bbp-includes/bbp-forum-functions.php:435
+msgid "<strong>ERROR</strong>: This forum has been closed to new forums."
+msgstr "<strong>ERROR</strong>: 이 게시판은 새로운 게시판으로 폐쇄되었습니다."
+
+#: bbp-includes/bbp-forum-functions.php:199
+#: bbp-includes/bbp-forum-functions.php:440
+msgid ""
+"<strong>ERROR</strong>: This forum is private and you do not have the "
+"capability to read or create new forums in it."
+msgstr ""
+"<strong>오류</strong>: 이 게시판은 비공개입니다 그리고 당신은 새로운 게시판"
+"을 읽거나 작성할 수있는 능력이 없습니다."
+
+#: bbp-includes/bbp-forum-functions.php:204
+#: bbp-includes/bbp-forum-functions.php:445
+msgid ""
+"<strong>ERROR</strong>: This forum is hidden and you do not have the "
+"capability to read or create new forums in it."
+msgstr ""
+"<strong>오류</strong>: 이 게시판은 숨겨져 있고 그것에 새로운 게시판을 읽거나 "
+"작성할 수있는 능력이 없습니다."
+
+#: bbp-includes/bbp-forum-functions.php:216
+msgid "<strong>ERROR</strong>: This forum already exists."
+msgstr "<strong>오류</strong>: 이 게시판은 이미 존재합니다."
+
+#: bbp-includes/bbp-forum-functions.php:221
+msgid "<strong>ERROR</strong>: Your forum cannot be created at this time."
+msgstr "<strong>오류</strong>: 지금은 게시판을 만들 수 없습니다."
+
+#: bbp-includes/bbp-forum-functions.php:389
+msgid "<strong>ERROR</strong>: Forum ID not found."
+msgstr "<strong>오류</strong>: 게시판 ID를 찾을 수 없습니다."
+
+#: bbp-includes/bbp-forum-functions.php:405
+msgid "<strong>ERROR</strong>: The forum you want to edit was not found."
+msgstr "<strong>오류</strong>: 수정할 게시판을 찾을 수 없습니다."
+
+#: bbp-includes/bbp-forum-functions.php:410
+msgid "<strong>ERROR</strong>: You do not have permission to edit that forum."
+msgstr "<strong>오류</strong>: 그 게시판을 편집할 수있는 권한이 없습니다."
+
+#: bbp-includes/bbp-forum-functions.php:476
+msgid "<strong>ERROR</strong>: Your forum cannot be edited at this time."
+msgstr "<strong>오류</strong>: 지금은 게시판설정을 편집할 수 없습니다."
+
+#: bbp-includes/bbp-forum-template.php:2154
+msgctxt "Forum Status"
+msgid "Open"
+msgstr "열기"
+
+#: bbp-includes/bbp-forum-template.php:2155
+msgctxt "Forum Status"
+msgid "Closed"
+msgstr "닫힘"
+
+#: bbp-includes/bbp-reply-template.php:1874
+msgid "Viewing %2$s replies (of %4$s total)"
+msgid_plural "Viewing %1$s replies - %2$s through %3$s (of %4$s total)"
+msgstr[0] "페이지당 댓글 %1$s개 (%2$s~%3$s번 글, 총 %4$s개)"
+
+#: bbp-includes/bbp-reply-template.php:1886
+msgid "Viewing %2$s post (of %4$s total)"
+msgid_plural "Viewing %1$s posts - %2$s through %3$s (of %4$s total)"
+msgstr[0] "페이지당 글 %1$s개 (%2$s~%3$s번 글, 총 %4$s개)"
+
+#: bbp-includes/bbp-topic-template.php:2433
+msgctxt "Topic Status"
+msgid "Close"
+msgstr "닫기"
+
+#: bbp-includes/bbp-topic-template.php:2434
+msgctxt "Topic Status"
+msgid "Open"
+msgstr "열기"
+
+#: bbp-includes/bbp-topic-template.php:2680
+msgid "Viewing topic %2$s (of %4$s total)"
+msgid_plural "Viewing %1$s topics - %2$s through %3$s (of %4$s total)"
+msgstr[0] "페이지당 글 %1$s개 (%2$s~%3$s번 글, 총 %4$s개)"
+
+#: bbp-includes/bbp-topic-template.php:2916
+msgid "This topic contains %1$s and has %2$s."
+msgstr "이 글은 %1$s를 포함하며 %2$s가 있습니다."
+
+#: bbp-theme-compat/bbpress/form-forum.php:37
+#: bbp-themes/bbp-twentyten/bbpress/form-forum.php:37
+msgid "Create New Forum in &ldquo;%s&rdquo;"
+msgstr " &ldquo;%s&rdquo;에 새 게시판 만들기"
+
+#: bbp-theme-compat/bbpress/form-forum.php:47
+#: bbp-themes/bbp-twentyten/bbpress/form-forum.php:47
+msgid ""
+"This forum is closed to new content, however your account still allows you "
+"to do so."
+msgstr "포럼이 닫혀 있습니다."
+
+#: bbp-theme-compat/bbpress/form-forum.php:67
+#: bbp-themes/bbp-twentyten/bbpress/form-forum.php:67
+msgid "Forum Name (Maximum Length: %d):"
+msgstr "게시판 이름 (최대 길이: %d):"
+
+#: bbp-theme-compat/bbpress/form-forum.php:78
+#: bbp-themes/bbp-twentyten/bbpress/form-forum.php:78
+msgid "Forum Description:"
+msgstr "게시판 설명 :"
+
+#: bbp-theme-compat/bbpress/form-forum.php:102
+#: bbp-themes/bbp-twentyten/bbpress/form-forum.php:102
+msgid "Forum Type:"
+msgstr "게시판 유형 :"
+
+#: bbp-theme-compat/bbpress/form-forum.php:172
+#: bbp-themes/bbp-twentyten/bbpress/form-forum.php:172
+msgid "The forum &#8216;%s&#8217; is closed to new content."
+msgstr "게시판 &#8216;%s&#8217; 새로운 콘텐츠로 닫힙니다."
+
+#: bbp-theme-compat/bbpress/form-forum.php:180
+#: bbp-themes/bbp-twentyten/bbpress/form-forum.php:180
+msgid "You cannot create new forums at this time."
+msgstr "이번에 새로운 게시판을 만들 수 없습니다."
+
+#: bbp-theme-compat/bbpress/form-forum.php:180
+#: bbp-themes/bbp-twentyten/bbpress/form-forum.php:180
+msgid "You must be logged in to create new forums."
+msgstr "새로운 게시판을 만들려면 로그인해야 합니다."
+
+#: bbp-themes/bbp-twentyten/bbpress-functions.php:60 bbpress.php:391
+msgid "Twenty Ten (bbPress)"
+msgstr "Twenty Ten (bbPress)"
+
+#: bbpress.php:130 bbpress.php:137
+msgid "Cheatin&#8217; huh?"
+msgstr "헐, 해킹 시도하셨나요?"
+
+#: bbp-theme-compat/bbpress-functions.php:68 bbpress.php:381
+msgid "bbPress Default"
+msgstr "bbPress 기본"
+
+#: bbp-admin/bbp-settings.php:362
+msgid "Main forum settings for enabling features and setting time limits"
+msgstr "기능을 활성화하고 시간 제한을 설정하기위한 주요 게시판 설정"
+
+#: bbp-admin/bbp-admin.php:243 bbp-admin/bbp-admin.php:244
+#: bbp-admin/bbp-admin.php:1230 bbp-admin/bbp-admin.php:1306
+msgid "Update Forums"
+msgstr "게시판 업데이트"
+
+#: bbp-admin/bbp-settings.php:145
+msgid "Fancy Editor"
+msgstr "팬시 편집기"
+
+#: bbp-admin/bbp-settings.php:153
+msgid "Auto-embed Links"
+msgstr "트위터나 유튜브 링크만 넣으면 자동으로 콘텐츠를 삽입해 주는 기능"
+
+#: bbp-admin/bbp-settings.php:29
+msgid "Theme Packages"
+msgstr "테마 패키지"
+
+#: bbp-admin/bbp-settings.php:166
+msgid "Current Package"
+msgstr "현재 패키지"
+
+#: bbp-admin/bbp-settings.php:54
+msgid "BuddyPress"
+msgstr "버디프레스"
+
+#: bbp-admin/bbp-settings.php:303
+msgid "Enable Group Forums"
+msgstr "그룹 게시판 활성화"
+
+#: bbp-admin/bbp-settings.php:311
+msgid "Group Forums Parent"
+msgstr "그룹 게시판 부모"
+
+#: bbp-admin/bbp-settings.php:59
+msgid "Akismet"
+msgstr "Akismet(스팸 차단기)"
+
+#: bbp-admin/bbp-settings.php:324
+msgid "Use Akismet"
+msgstr "Akismet(스팸 차단기) 사용하기"
+
+#: bbp-admin/bbp-admin.php:1180 bbp-admin/bbp-admin.php:1204
+msgid "Update Forum"
+msgstr "게시판 업데이트 "
+
+#: bbp-admin/bbp-admin.php:1193 bbp-admin/bbp-admin.php:1247
+msgid "All done!"
+msgstr "모두 완료!"
+
+#: bbp-admin/bbp-admin.php:1203
+msgid ""
+"You can update your forum through this page. Hit the link below to update."
+msgstr ""
+"이 페이지를 통해 게시판을 업데이트할 수 있습니다. 업데이 트하려면 아래 링크"
+"를 누르십시오."
+
+#: bbp-admin/bbp-admin.php:1275
+msgid ""
+"Warning! Problem updating %1$s. Your server may not be able to connect to "
+"sites running on it. Error message: <em>%2$s</em>"
+msgstr ""
+"경고!  %1$s 업데이트중 문제 발생. 서버가 실행중인 사이트에 연결하지 못할 수 "
+"있습니다. 오류 메시지 : <em>%2$s</em>"
+
+#: bbp-admin/bbp-admin.php:1286
+msgid ""
+"If your browser doesn&#8217;t start loading the next page automatically, "
+"click this link:"
+msgstr ""
+"브라우저가 자동으로 다음 페이지 로드를 시작하지 않으면, 이 링크를 클릭하십시"
+"오:"
+
+#: bbp-admin/bbp-admin.php:1287
+msgid "Next Forums"
+msgstr "다음 게시판"
+
+#: bbp-admin/bbp-admin.php:1305
+msgid ""
+"You can update all the forums on your network through this page. It works by "
+"calling the update script of each site automatically. Hit the link below to "
+"update."
+msgstr ""
+"이 페이지를 통해 네트워크상의 모든 게시판을 업데이트할 수 있습니다. 그것은 자"
+"동으로 각 사이트의 업데이트 스크립트를 호출하여 작동합니다. 업데이 트하려면 "
+"아래 링크를 누르십시오."
+
+#: bbp-admin/bbp-converter.php:83
+msgid "Select Platform"
+msgstr "플랫폼을 선택"
+
+#: bbp-admin/bbp-converter.php:87
+msgid "Database Server"
+msgstr "DB서버"
+
+#: bbp-admin/bbp-converter.php:91
+msgid "Database Port"
+msgstr "DB Port"
+
+#: bbp-admin/bbp-converter.php:99
+msgid "Database User"
+msgstr "DB 유저"
+
+#: bbp-admin/bbp-converter.php:95
+msgid "Database Name"
+msgstr "DB 이름"
+
+#: bbp-admin/bbp-converter.php:107
+msgid "Table Prefix"
+msgstr "Table Prefix"
+
+#: bbp-admin/bbp-converter.php:114
+msgid "Rows Limit"
+msgstr "줄 제한"
+
+#: bbp-admin/bbp-converter.php:118
+msgid "Delay Time"
+msgstr "지연시간"
+
+#: bbp-admin/bbp-converter.php:122
+msgid "Convert Users"
+msgstr "사용자 전환"
+
+#: bbp-admin/bbp-converter.php:338
+msgid "No data to clean"
+msgstr "지울 데이터 없음"
+
+#: bbp-admin/bbp-converter.php:358
+msgid "No users to convert"
+msgstr "전환할 사용자 없음"
+
+#: bbp-admin/bbp-converter.php:378
+msgid "No passwords to clear"
+msgstr "제거할 비밀번호 없음"
+
+#: bbp-admin/bbp-converter.php:397
+msgid "No forums to convert"
+msgstr "전환할 게시판 없음"
+
+#: bbp-admin/bbp-converter.php:427
+msgid "No topics to convert"
+msgstr "전환할 글 없음"
+
+#: bbp-admin/bbp-converter.php:442
+msgid "No tags to convert"
+msgstr "전환할 태그 없음"
+
+#: bbp-admin/bbp-forums.php:120 bbp-admin/bbp-replies.php:132
+#: bbp-admin/bbp-settings.php:1249 bbp-admin/bbp-topics.php:132
+msgid "Overview"
+msgstr "개괄"
+
+#: bbp-admin/bbp-replies.php:134
+msgid ""
+"This screen provides access to all of your replies. You can customize the "
+"display of this screen to suit your workflow."
+msgstr ""
+"이 화면은 모든 댓글에 접근을 제공합니다. 이 화면의 표시를 사용자 정의하여 작"
+"업과정에 맞게 설정할 수 있습니다."
+
+#: bbp-admin/bbp-forums.php:128 bbp-admin/bbp-replies.php:140
+#: bbp-admin/bbp-topics.php:140
+msgid "Screen Content"
+msgstr "화면 내용"
+
+#: bbp-admin/bbp-forums.php:130 bbp-admin/bbp-replies.php:142
+#: bbp-admin/bbp-topics.php:142
+msgid ""
+"You can customize the display of this screen&#8217;s contents in a number of "
+"ways:"
+msgstr "이 화면의 내용을 여러가지 방법으로 사용자 정의 할 수 있습니다."
+
+#: bbp-admin/bbp-replies.php:144
+msgid ""
+"You can hide/display columns based on your needs and decide how many replies "
+"to list per screen using the Screen Options tab."
+msgstr ""
+"화면 옵션 탭을 이용하여 필요에 의해 컬럼들을 감추거나 보이게 할 수 있고 하나"
+"의 화면에 보여줄 댓글 목록의 수를 결정할 수 있습니다."
+
+#: bbp-admin/bbp-forums.php:141 bbp-admin/bbp-replies.php:154
+#: bbp-admin/bbp-topics.php:153
+msgid "Available Actions"
+msgstr "가능한 작업"
+
+#: bbp-admin/bbp-forums.php:145 bbp-admin/bbp-topics.php:157
+msgid ""
+"<strong>Edit</strong> takes you to the editing screen for that forum. You "
+"can also reach that screen by clicking on the forum title."
+msgstr ""
+"<strong>펀집</strong> 해당 게시판을 편집할 수 있는 화면으로 이동합니다. 게시"
+"판 타이틀을 클릭해서 같은 화면으로 갈 수도 있습니다."
+
+#: bbp-admin/bbp-forums.php:146 bbp-admin/bbp-topics.php:158
+msgid ""
+"<strong>Trash</strong> removes your forum from this list and places it in "
+"the trash, from which you can permanently delete it."
+msgstr ""
+"<strong>휴지통</strong> 목록에서 게시판을 제거하고 휴지통으로 보냅니다. 그곳"
+"에서 영원히 삭제할 수 있습니다."
+
+#: bbp-admin/bbp-forums.php:154 bbp-admin/bbp-replies.php:169
+#: bbp-admin/bbp-topics.php:167
+msgid "Bulk Actions"
+msgstr "일괄 작업"
+
+#: bbp-admin/bbp-replies.php:171
+msgid ""
+"You can also edit or move multiple replies to the trash at once. Select the "
+"replies you want to act on using the checkboxes, then select the action you "
+"want to take from the Bulk Actions menu and click Apply."
+msgstr ""
+"다수의 댓글을 한번에 편집하거나 휴지통으로 보낼 수 있습니다. 작업하려는 댓글"
+"을 체크박스를 사용해서 선택하세요. 그런 다음 일괄 작업 메뉴에서 원하는 작업"
+"을 선택하고 적용을 클릭하세요."
+
+#: bbp-admin/bbp-forums.php:162 bbp-admin/bbp-forums.php:233
+#: bbp-admin/bbp-replies.php:177 bbp-admin/bbp-replies.php:245
+#: bbp-admin/bbp-settings.php:1295 bbp-admin/bbp-topics.php:175
+#: bbp-admin/bbp-topics.php:243
+msgid "For more information:"
+msgstr "더 많은 정보:"
+
+#: bbp-admin/bbp-forums.php:164 bbp-admin/bbp-forums.php:235
+#: bbp-admin/bbp-replies.php:179 bbp-admin/bbp-replies.php:247
+#: bbp-admin/bbp-settings.php:1297 bbp-admin/bbp-topics.php:177
+#: bbp-admin/bbp-topics.php:245
+msgid ""
+"<a href=\"http://bbpress.org/forums/\" target=\"_blank\">bbPress Support "
+"Forums</a>"
+msgstr ""
+"<a href=\"http://bbpress.org/forums/\" target=\"_blank\">bbPress 지원 게시판"
+"</a>"
+
+#: bbp-admin/bbp-forums.php:178
+msgid ""
+"The title field and the big forum editing Area are fixed in place, but you "
+"can reposition all the other boxes using drag and drop, and can minimize or "
+"expand them by clicking the title bar of each box. Use the Screen Options "
+"tab to unhide more boxes (Excerpt, Send Trackbacks, Custom Fields, "
+"Discussion, Slug, Author) or to choose a 1- or 2-column layout for this "
+"screen."
+msgstr ""
+"제목 필드와 큰 게시판 편집 영역은 고정돼 있지만 그외의 다른 상자는 끌어놓기"
+"로 위치를 변경할 수 있습니다. 각 상자의 제목 바를 클릭하여 축소하거나 펼칠 수"
+"도 있습니다. 상자(요약, 트랙백 보내기, 사용자 정의 필드, 토론, 슬러그, 개설"
+"자)를 더 보이게 하려면 화면옵션 탭을 사용하세요. 1열 또는 2열 레이아웃을 선택"
+"할 수도 있습니다."
+
+#: bbp-admin/bbp-forums.php:182 bbp-admin/bbp-replies.php:197
+#: bbp-admin/bbp-topics.php:195
+msgid "Customizing This Display"
+msgstr "이 화면 사용자 정의하기"
+
+#: bbp-admin/bbp-forums.php:188
+msgid "Title and Forum Editor"
+msgstr "제목과 게시판 편집기"
+
+#: bbp-admin/bbp-forums.php:190
+msgid ""
+"<strong>Title</strong> - Enter a title for your forum. After you enter a "
+"title, you&#8217;ll see the permalink below, which you can edit."
+msgstr ""
+"<strong>제목</strong> - 게시판 제목을 입력하세요. 제목을 입력한 후에 그 아래"
+"에 고유주소를 볼 수 있으며 편집할 수 있습니다."
+
+#: bbp-admin/bbp-forums.php:191
+msgid ""
+"<strong>Forum Editor</strong> - Enter the text for your forum. There are two "
+"modes of editing: Visual and HTML. Choose the mode by clicking on the "
+"appropriate tab. Visual mode gives you a WYSIWYG editor. Click the last icon "
+"in the row to get a second row of controls. The HTML mode allows you to "
+"enter raw HTML along with your forum text. You can insert media files by "
+"clicking the icons above the forum editor and following the directions. You "
+"can go to the distraction-free writing screen via the Fullscreen icon in "
+"Visual mode (second to last in the top row) or the Fullscreen button in HTML "
+"mode (last in the row). Once there, you can make buttons visible by hovering "
+"over the top area. Exit Fullscreen back to the regular forum editor."
+msgstr ""
+"<strong>게시판 편집기</strong> - 해당 게시판에 대한 텍스트를 입력합니다. 비주"
+"얼과 HTML : 편집의 두 가지 모드가 있습니다.해당 탭을 클릭하여 모드를 선택합니"
+"다. 비주얼 모드는 당신에게 WYSIWYG 편집기를 제공합니다. 컨트롤의 두 번째 행"
+"을 열려면 마지막 아이콘을 클릭합니다. HTML 모드를 사용하면 게시판 글과 함께 "
+"기초  HTML을 입력할 수 있습니다. 이 게시판 편집기 위의 아이콘을 클릭하고 지시"
+"에 따라 미디어 파일을 삽입할 수 있습니다. 당신은 비주얼 모드 (맨 윗줄의 마지"
+"막 두번째) 또는 HTML 모드에서 전체 화면 버튼 (줄의 마지막)의 전체 화면 아이콘"
+"을 통해 글에 집중하여 작성할 수 있는 화면으로 이동하실 수 있습니다. 그곳에"
+"서, 상단 영역에 마우스를 올리면 버튼을 볼 수 있습니다. 전체화면 나가기를 클릭"
+"하면 일반 게시판 편집기로 갈 수 있습니다."
+
+#: bbp-admin/bbp-forums.php:194
+msgid ""
+"<strong>Publish</strong> - You can set the terms of publishing your forum in "
+"the Publish box. For Status, Visibility, and Publish (immediately), click on "
+"the Edit link to reveal more options. Visibility includes options for "
+"password-protecting a forum or making it stay at the top of your blog "
+"indefinitely (sticky). Publish (immediately) allows you to set a future or "
+"past date and time, so you can schedule a forum to be published in the "
+"future or backdate a forum."
+msgstr ""
+"<strong>발행</strong> - 발행 박스에서 당신의 게시판을 발행할 수 있는 조건을 "
+"설정할 수 있습니다. 상태, 가시성, 그리고 발행(즉시)가 있으며, 옵션을 더 보려"
+"면 편집 링크를 클릭하세요. 가시성은 게시판을 비밀번호로 보호하거나 블로그의 "
+"최상단에 무기한 배치할 수 있는(붙박이) 옵션이 있습니다. 발행(즉시)는 미래나 "
+"과거의 날짜와 시간을 설정할 수 있으므로 게시판을 미래의 날짜로 발행하거나 과"
+"거의 날짜로 돌릴 수 있습니다."
+
+#: bbp-admin/bbp-forums.php:197
+msgid ""
+"<strong>forum Format</strong> - This designates how your theme will display "
+"a specific forum. For example, you could have a <em>standard</em> blog forum "
+"with a title and paragraphs, or a short <em>aside</em> that omits the title "
+"and contains a short text blurb. Please refer to the Codex for <a href="
+"\"http://codex.wordpress.org/Post_Formats#Supported_Formats\">descriptions "
+"of each forum format</a>. Your theme could enable all or some of 10 possible "
+"formats."
+msgstr ""
+"<strong>게시판 형식</strong> - 이것은 당신의 테마가 특정 게시판에서 어떻게 보"
+"여지는지 지정합니다. 예를 들어 제목과 글 단락이 있는 <em>기본</em> 블로그 게"
+"시판, 또는 제목이 없고 짧은 글이 있는 게시판이 있을 수 있습니다. <a href="
+"\"http://codex.wordpress.org/Post_Formats#Supported_Formats\">각 게시판 형식"
+"의 상세 설명</a>은 코텍스를 참고하세요. 당신의 테마는 10개의 형식중 모두 또"
+"는 몇개만 가능할 수도 있습니다."
+
+#: bbp-admin/bbp-forums.php:201
+msgid ""
+"<strong>Featured Image</strong> - This allows you to associate an image with "
+"your forum without inserting it. This is usually useful only if your theme "
+"makes use of the featured image as a forum thumbnail on the home page, a "
+"custom header, etc."
+msgstr ""
+"<strong>특성 이미지</strong> - 이미지를 삽입하지 않고 이미지와 게시판을 연결 "
+"할 수 있도록 합니다. 이것은 보통 홈 페이지에서 사용자 정의 헤더 같은 것에 포"
+"럼 썸네일로 특성 이미지를 사용하도록 설계된 테마를 사용할 경우에만 유용합니"
+"다. "
+
+#: bbp-admin/bbp-forums.php:208
+msgid "Select the attributes that your forum should have:"
+msgstr "게시판에 포함할 속성을 선택하세요:"
+
+#: bbp-admin/bbp-forums.php:210
+msgid ""
+"<strong>Type</strong> indicates if the forum is a category or forum. "
+"Categories generally contain other forums."
+msgstr ""
+"<strong>형태</strong>는 게시판이 카테고리나 게시판일 경우를 가리킵니다. 카테"
+"고리는 일반적으로 다른 게시판을 포함합니다. "
+
+#: bbp-admin/bbp-forums.php:212
+msgid ""
+"<strong>Visibility</strong> lets you pick the scope of each forum and what "
+"users are allowed to access it."
+msgstr ""
+"<strong>가시성</strong>은 각 게시판의 범위를 선택해서 어떤 사용자가 접근할 "
+"수 있는지 선택할 수 있습니다."
+
+#: bbp-admin/bbp-forums.php:213
+msgid ""
+"<strong>Parent</strong> dropdown determines the parent forum. Select the "
+"forum or category from the dropdown, or leave the default (No Parent) to "
+"create the forum at the root of your forums."
+msgstr ""
+"<strong>부모</strong>드랍다운은 부모 게시판을 결정합니다. 드랍다운에서 게시판"
+"이나 카테고리를 선택하거나 게시판 루트에 게시판을 생성하려면 기본(부모 없음)"
+"으로 둡니다."
+
+#: bbp-admin/bbp-forums.php:214
+msgid "<strong>Order</strong> allows you to order your forums numerically."
+msgstr "<strong>순서</strong>는 게시판을 숫자 순서로 정렬합니다."
+
+#: bbp-admin/bbp-forums.php:220 bbp-admin/bbp-replies.php:232
+#: bbp-admin/bbp-topics.php:230
+msgid "Publish Box"
+msgstr "발행 박스"
+
+#: bbp-admin/bbp-forums.php:226 bbp-admin/bbp-replies.php:238
+#: bbp-admin/bbp-topics.php:236
+msgid "Discussion Settings"
+msgstr "토론 설정"
+
+#: bbp-admin/bbp-forums.php:228 bbp-admin/bbp-replies.php:240
+#: bbp-admin/bbp-topics.php:238
+msgid ""
+"<strong>Send Trackbacks</strong> - Trackbacks are a way to notify legacy "
+"blog systems that you&#8217;ve linked to them. Enter the URL(s) you want to "
+"send trackbacks. If you link to other WordPress sites they&#8217;ll be "
+"notified automatically using pingbacks, and this field is unnecessary."
+msgstr ""
+"<strong>트랙백 보내기</strong> - 트랙백은 전통적인 블로그 시스템에서 블로그"
+"에 링크했다는 통지를 하는 방법입니다. 트랙백을 보내고자하는 URL을 입력하세"
+"요. 다른 워드프레스 사이트에 링크하면 핑백을 사용하여 자동으로 통지되며 이 입"
+"력란은 필요하지 않습니다."
+
+#: bbp-admin/bbp-forums.php:229
+msgid ""
+"<strong>Discussion</strong> - You can turn comments and pings on or off, and "
+"if there are comments on the forum, you can see them here and moderate them."
+msgstr ""
+"<strong>토론</strong> - 댓글달기와 핑보내기를 활성화하거나 비활성화할 수 있습"
+"니다. 게시판에 댓글이 있으면 이곳에서 볼 수 있고 승인관리를 할 수 있습니다."
+
+#: bbp-admin/bbp-metaboxes.php:356 bbp-admin/bbp-metaboxes.php:359
+msgid "Topic Type"
+msgstr "글 형식"
+
+#: bbp-admin/bbp-replies.php:145
+msgid ""
+"You can filter the list of replies by reply status using the text links in "
+"the upper left to show All, Published, Draft, or Trashed replies. The "
+"default view is to show all replies."
+msgstr ""
+"좌측 상단에 있는 모두 보기, 공개, 임시글, 또는 폐기된 댓글, 등의 글자 링크를 "
+"사용하여 댓글 목록을 게시판 상태 별로 필터링 할 수 있습니다. 기본 보기는 모"
+"든 댓글이 보여집니다."
+
+#: bbp-admin/bbp-replies.php:147
+msgid ""
+"You can refine the list to show only replies in a specific category or from "
+"a specific month by using the dropdown menus above the replies list. Click "
+"the Filter button after making your selection. You also can refine the list "
+"by clicking on the reply author, category or tag in the replies list."
+msgstr ""
+"댓글 목록 위의 드랍다운 메뉴를 사용하여 목록이 특정 카테고리나 특정 월로 보이"
+"도록 정리할 수 있습니다. 선택 후에 필터 버튼을 클릭하세요. 댓글 목록에서 포"
+"럼 개설자, 카테고리, 태그를 클릭해서 목록을 정리할 수도 있습니다."
+
+#: bbp-admin/bbp-replies.php:158
+msgid ""
+"<strong>Edit</strong> takes you to the editing screen for that reply. You "
+"can also reach that screen by clicking on the reply title."
+msgstr ""
+"<strong>펀집</strong> 해당 게시판을 편집할 수 있는 화면으로 이동합니다. 게시"
+"판 타이틀을 클릭해서 같은 화면으로 갈 수도 있습니다."
+
+#: bbp-admin/bbp-replies.php:160
+msgid ""
+"<strong>Trash</strong> removes your reply from this list and places it in "
+"the trash, from which you can permanently delete it."
+msgstr ""
+"<strong>휴지통</strong> 목록에서 게시판을 제거하고 휴지통으로 보냅니다. 그곳"
+"에서 영원히 삭제할 수 있습니다."
+
+#: bbp-admin/bbp-replies.php:161
+msgid ""
+"<strong>Spam</strong> removes your reply from this list and places it in the "
+"spam queue, from which you can permanently delete it."
+msgstr ""
+"<strong>스팸</strong> 목록에서 댓글을 제거하고 스팸으로 보냅니다. 그곳에서 영"
+"원히 삭제할 수 있습니다."
+
+#: bbp-admin/bbp-replies.php:162
+msgid ""
+"<strong>Preview</strong> will show you what your draft reply will look like "
+"if you publish it. View will take you to your live site to view the reply. "
+"Which link is available depends on your reply&#8217;s status."
+msgstr ""
+"<strong>미리보기</strong> 발행할 경우 임시 게시판이 어떻게 보이는지 미리 볼 "
+"수 있습니다. 보기는 게시판을 보기 위해 실제 사이트로 이동합니다. 어떤 링크가 "
+"가능한지는 게시판 상태에 따라 다릅니다."
+
+#: bbp-admin/bbp-replies.php:172
+msgid ""
+"When using Bulk Edit, you can change the metadata (categories, author, etc.) "
+"for all selected replies at once. To remove a reply from the grouping, just "
+"click the x next to its name in the Bulk Edit area that appears."
+msgstr ""
+"일괄 편집을 사용할 경우, 선택된 모든 댓글의 메타데이터(카테고리, 개설자, 등)"
+"를 한번에 변경할 수 있습니다. 그룹에서 하나의 게시판을 제거하려면 대량 편집 "
+"패널에 나타나는 이름 옆의 x를 클릭하면 됩니다."
+
+#: bbp-admin/bbp-replies.php:193
+msgid ""
+"The title field and the big reply editing Area are fixed in place, but you "
+"can reposition all the other boxes using drag and drop, and can minimize or "
+"expand them by clicking the title bar of each box. Use the Screen Options "
+"tab to unhide more boxes (Excerpt, Send Trackbacks, Custom Fields, "
+"Discussion, Slug, Author) or to choose a 1- or 2-column layout for this "
+"screen."
+msgstr ""
+"제목 필드와 큰 게시판 편집 영역은 고정돼 있지만 그외의 다른 상자는 끌어놓기"
+"로 위치를 변경할 수 있습니다. 각 상자의 제목 바를 클릭하여 축소하거나 펼칠 수"
+"도 있습니다. 상자(요약, 트랙백 보내기, 사용자 정의 필드, 토론, 슬러그, 개설"
+"자)를 더 보이게 하려면 화면옵션 탭을 사용하세요. 1열 또는 2열 레이아웃을 선택"
+"할 수도 있습니다."
+
+#: bbp-admin/bbp-replies.php:203
+msgid "Title and Reply Editor"
+msgstr "제목과 댓글 편집기"
+
+#: bbp-admin/bbp-replies.php:205
+msgid ""
+"<strong>Title</strong> - Enter a title for your reply. After you enter a "
+"title, you&#8217;ll see the permalink below, which you can edit."
+msgstr ""
+"<strong>제목</strong> - 게시판 제목을 입력하세요. 제목을 입력한 후에 그 아래"
+"에 고유주소를 볼 수 있으며 편집할 수 있습니다."
+
+#: bbp-admin/bbp-replies.php:206
+msgid ""
+"<strong>Reply Editor</strong> - Enter the text for your reply. There are two "
+"modes of editing: Visual and HTML. Choose the mode by clicking on the "
+"appropriate tab. Visual mode gives you a WYSIWYG editor. Click the last icon "
+"in the row to get a second row of controls. The HTML mode allows you to "
+"enter raw HTML along with your reply text. You can insert media files by "
+"clicking the icons above the reply editor and following the directions. You "
+"can go to the distraction-free writing screen via the Fullscreen icon in "
+"Visual mode (second to last in the top row) or the Fullscreen button in HTML "
+"mode (last in the row). Once there, you can make buttons visible by hovering "
+"over the top area. Exit Fullscreen back to the regular reply editor."
+msgstr ""
+"<strong>댓글 편집기</strong> - 댓글에 대한 텍스트를 입력합니다. 비주얼과 "
+"HTML : 편집의 두 가지 모드가 있습니다.해당 탭을 클릭하여 모드를 선택합니다. "
+"비주얼 모드는 당신에게 WYSIWYG 편집기를 제공합니다. 도구모음의 두 번째 행을 "
+"열려면 마지막 아이콘을 클릭합니다. HTML 모드를 사용하면 게시판 글과 함께 기"
+"초 HTML을 입력할 수 있습니다. 이 게시판 편집기 위의 아이콘을 클릭하고 지시에 "
+"따라 미디어 파일을 삽입할 수 있습니다. 당신은 비주얼 모드 (맨 윗줄의 마지막 "
+"두번째) 또는 HTML 모드에서 전체 화면 버튼 (줄의 마지막)의 전체 화면 아이콘을 "
+"통해 글에 집중하여 작성할 수 있는 화면으로 이동하실 수 있습니다. 그곳에서, 상"
+"단 영역에 마우스를 올리면 버튼을 볼 수 있습니다. 전체화면 나가기를 클릭하면 "
+"일반 댓글 편집기로 갈 수 있습니다."
+
+#: bbp-admin/bbp-replies.php:209
+msgid ""
+"<strong>Publish</strong> - You can set the terms of publishing your reply in "
+"the Publish box. For Status, Visibility, and Publish (immediately), click on "
+"the Edit link to reveal more options. Visibility includes options for "
+"password-protecting a reply or making it stay at the top of your blog "
+"indefinitely (sticky). Publish (immediately) allows you to set a future or "
+"past date and time, so you can schedule a reply to be published in the "
+"future or backdate a reply."
+msgstr ""
+"<strong>발행</strong> - 발행 박스에서 당신의 댓글을 발행하는 조건을 설정할 "
+"수 있습니다. 상태, 가시성, 발행(즉시)에서 옵션 항목을 더 보려면 편집 링크를 "
+"클릭하세요. 가시성은 댓글을 비밀번호 로 보호하거나 블로그 상단에 지속적으로"
+"(붙박이) 머물게 할 수 있습니다. 발행(즉시)는 미래나 과거의 날짜와 시간을 설정"
+"할 수 있으며 댓글을 미래에 발행하거나 과거의 날짜로 소급해서 스케줄 할 수 있"
+"습니다."
+
+#: bbp-admin/bbp-replies.php:212
+msgid ""
+"<strong>reply Format</strong> - This designates how your theme will display "
+"a specific reply. For example, you could have a <em>standard</em> blog reply "
+"with a title and paragraphs, or a short <em>aside</em> that omits the title "
+"and contains a short text blurb. Please refer to the Codex for <a href="
+"\"http://codex.wordpress.org/Post_Formats#Supported_Formats\">descriptions "
+"of each reply format</a>. Your theme could enable all or some of 10 possible "
+"formats."
+msgstr ""
+"<strong>댓글 형식</strong> - 이는 당신의 테마가 특정 댓글을 표시하는 방법을 "
+"지정합니다. 예를 들면 제목과 단락이 있는 <em>기본</em> 블로그 댓글을 선택하거"
+"나 제목이 생략되고 짧은 글이 있는 <em>aside</em>을 선택할 수도 있습니다. 코덱"
+"스에서 <a href=\"http://codex.wordpress.org/Post_Formats#Supported_Formats\">"
+"각 댓글 형식의 설명</a>을 참고하세요. 당신의 테마는 10개의 가능한 형식중 모"
+"두 혹은 몇개만 가능할 수도 있습니다."
+
+#: bbp-admin/bbp-replies.php:216
+msgid ""
+"<strong>Featured Image</strong> - This allows you to associate an image with "
+"your reply without inserting it. This is usually useful only if your theme "
+"makes use of the featured image as a reply thumbnail on the home page, a "
+"custom header, etc."
+msgstr ""
+"<strong>특성 이미지</strong> - 이것은 이미지를 직접 삽입하지 않고도 댓글과 이"
+"미지를 연관시킬 수 있습니다. 당신의 테마가 홈페이지나 사용자 정의 헤더에서 이"
+"미지를 댓글 썸네일로 사용하도록 했을 경우에만 유용합니다."
+
+#: bbp-admin/bbp-replies.php:223
+msgid "Select the attributes that your reply should have:"
+msgstr "당신의 댓글이 포함할 속성을 선택하세요:"
+
+#: bbp-admin/bbp-replies.php:225
+msgid ""
+"<strong>Forum</strong> dropdown determines the parent forum that the reply "
+"belongs to. Select the forum, or leave the default (Use Forum of Topic) to "
+"post the reply in forum of the topic."
+msgstr ""
+"<strong>게시판</strong> 드랍다운에서 댓글이 속한 부모 게시판을 결정합니다. 글"
+"의 게시판에서 댓글을 게시하기 위해 게시판을 선택하거나 기본(글 게시판 사용)으"
+"로 설정합니다."
+
+#: bbp-admin/bbp-replies.php:226
+msgid ""
+"<strong>Topic</strong> determines the parent topic that the reply belongs to."
+msgstr "<strong>글</strong>은 댓글이 속한 부모 글을 결정합니다."
+
+#: bbp-admin/bbp-replies.php:241
+msgid ""
+"<strong>Discussion</strong> - You can turn comments and pings on or off, and "
+"if there are comments on the reply, you can see them here and moderate them."
+msgstr ""
+"<strong>토론</strong> - 댓글와 핑을 켜거나 끌 수 있습니다. 댓글에 댓글이 있"
+"을 경우 이곳에서 볼 수 있으며 관리할 수 있습니다."
+
+#: bbp-admin/bbp-settings.php:410
+msgid "Allow users to mark topics as favorites"
+msgstr "사용자가 글을 즐겨찾기로 선택할 수 있습니다."
+
+#: bbp-admin/bbp-settings.php:506 bbp-admin/bbp-settings.php:554
+msgid "Use the fancy WordPress editor to create and edit topics and replies"
+msgstr "글과 댓글을 생성하거나 편집하려면 워드프레스 편집기를 사용하세요."
+
+#: bbp-admin/bbp-settings.php:519
+msgid "How your forum content is displayed within your existing theme."
+msgstr "게시판 컨텐트가 당신의 테마에서 표시되는 방법"
+
+#: bbp-admin/bbp-settings.php:543
+msgid "%1$s - %2$s"
+msgstr "%1$s - %2$s"
+
+#: bbp-admin/bbp-settings.php:549
+msgid "will serve all bbPress templates"
+msgstr "모든 bbPress 템플릿을 지원합니다."
+
+#: bbp-admin/bbp-settings.php:585
+msgid "How many topics and replies to show per page"
+msgstr "페이지당 몇개의 글과 댓글을 보여줄지 결정"
+
+#: bbp-admin/bbp-settings.php:632
+msgid "How many topics and replies to show per RSS page"
+msgstr "RSS 페이지에 몇개의 글과 댓글을 보여줄지 결정"
+
+#: bbp-admin/bbp-settings.php:682
+msgid ""
+"Custom root slugs to prefix your forums and topics with. These can be "
+"partnered with WordPress pages to allow more flexibility."
+msgstr ""
+"게시판과 글에 접두어를 붙일 수 있는 사용자 정의 루트 슬러그입니다. 워드프레"
+"스 페이지와 공조하면 더욱 유연하게 할 수 있습니다."
+
+#: bbp-admin/bbp-settings.php:731
+msgid ""
+"Custom slugs for single forums, topics, replies, tags, users, and views "
+"here. If you change these, existing permalinks will also change."
+msgstr ""
+"단일 게시판, 글, 댓글, 태그, 사용자, 보기에 대한 사용자 정의 슬러그입니다. 이"
+"들을 변경하면 기존의 고유주소도 변경됩니다."
+
+#: bbp-admin/bbp-settings.php:867
+msgid "Forum settings for BuddyPress"
+msgstr "버디프레스 게시판 설정"
+
+#: bbp-admin/bbp-settings.php:883
+msgid "Allow BuddyPress Groups to have their own forums"
+msgstr "버디프레스 그룹이 자체 게시판을 갖도록 허용"
+
+#: bbp-admin/bbp-settings.php:901
+msgid "(Forum Root)"
+msgstr "(게시판 루트)"
+
+#: bbp-admin/bbp-settings.php:907
+msgid "is the parent for all group forums"
+msgstr "모든 그룹 게시판의 부모임"
+
+#: bbp-admin/bbp-settings.php:908
+msgid ""
+"Using the Forum Root is not recommended. Changing this does not move "
+"existing forums."
+msgstr ""
+"게시판 루트의 사용은 권장하지 않습니다. 이것을 변경하더라도 기존의 게시판을 "
+"이동하지는 않습니다."
+
+#: bbp-admin/bbp-settings.php:923
+msgid "Forum settings for Akismet"
+msgstr "아키스멧 게시판 설정"
+
+#: bbp-admin/bbp-settings.php:940
+msgid "Allow Akismet to actively prevent forum spam."
+msgstr "아키스멧이 게시판 스팸을 방지하도록 활성화함"
+
+#: bbp-admin/bbp-settings.php:1016
+msgid "is the previous forum software"
+msgstr "이전 게시판 소프트웨어임"
+
+#: bbp-admin/bbp-settings.php:1113
+msgid ""
+"(If converting from BuddyPress Forums, use \"wp_bb_\" or your custom prefix)"
+msgstr ""
+"(버디프레스 게시판에서 변환하는 경우, \"wp_bb_\"나 사용자 정의 접두어를 사용"
+"하세요 )"
+
+#: bbp-admin/bbp-settings.php:1187
+msgid "Attempt to import user accounts from previous forums"
+msgstr "이전 게시판에서 사용자 계정 가져오기를 시도"
+
+#: bbp-admin/bbp-settings.php:1218
+msgid "Start"
+msgstr "시작"
+
+#: bbp-admin/bbp-settings.php:1219
+msgid "Stop"
+msgstr "중지"
+
+#: bbp-admin/bbp-settings.php:1250
+msgid "This screen provides access to all of the bbPress settings."
+msgstr "이 화면은 모든 비비프레스 설정에 접근할 수 있습니다."
+
+#: bbp-admin/bbp-settings.php:1251
+msgid ""
+"Please see the additional help tabs for more information on each indiviual "
+"section."
+msgstr "더 많은 정보를 원하면 각 섹션의 도움말 탭을 보세요."
+
+#: bbp-admin/bbp-settings.php:1263
+msgid ""
+"Favorites are a way for users to save and later return to topics they favor. "
+"This is enabled by default."
+msgstr ""
+"즐겨찾기는 사용자가 좋아하는 글을 저장을 하고 나중에 볼 수 있도록 하는 방법입"
+"니다. 이것은 기본적으로 활성화돼 있습니다."
+
+#: bbp-admin/bbp-settings.php:1264
+msgid ""
+"Subscriptions allow users to subscribe for notifications to topics that "
+"interest them. This is enabled by default."
+msgstr ""
+"구독은 사용자가 관심있는 글에 대해 통지받는 것을 허용합니다. 이것은 기본으로 "
+"활성화돼 있습니다."
+
+#: bbp-admin/bbp-settings.php:1266
+msgid ""
+"\"Anonymous Posting\" allows guest users who do not have accounts on your "
+"site to both create topics as well as replies."
+msgstr ""
+"\"익명 글 올리기\"는 회원이 아닌 사용자가 글이나 댓글을 생성할 수 있도록 합니"
+"다."
+
+#: bbp-admin/bbp-settings.php:1267
+msgid ""
+"The Fancy Editor brings the luxury of the Visual editor and HTML editor from "
+"the traditional WordPress dashboard into your theme."
+msgstr ""
+"팬시 편집기는 기존 워드프레스의 비주얼, HTML 편집기를 사용할 수 있도록 합니"
+"다."
+
+#: bbp-admin/bbp-settings.php:1268
+msgid ""
+"Auto-embed will embed the media content from a URL directly into the "
+"replies. For example: links to Flickr and YouTube."
+msgstr ""
+"자동 임베드는 URL을 통한 미디어 컨텐트를 댓글에 바로 임베드할 수 있도록 합니"
+"다. 예를 들면: 플리커와 유투브에 대한 링크입니다."
+
+#: bbp-admin/bbp-settings.php:1278
+msgid ""
+"Per Page settings allow you to control the number of topics and replies "
+"appear on each page."
+msgstr "페이지당 설정은 각 페이지에 나타나는 글과 댓글의 수를 조절합니다."
+
+#: bbp-admin/bbp-settings.php:1279
+msgid ""
+"This is comparable to the WordPress \"Reading Settings\" page, where you can "
+"set the number of posts that should show on blog pages and in feeds."
+msgstr ""
+"이것은 워드프레스의 읽기 설정 페이지와 비교할 수 있습니다. 거기서 블로그 페이"
+"지와 피드에 보여질 글의 수를 설정할 수 있었습니다."
+
+#: bbp-admin/bbp-settings.php:1280
+msgid ""
+"These are broken up into two separate groups: one for what appears in your "
+"theme, another for RSS feeds."
+msgstr ""
+"이들은 두개의 분리된 그룹으로 나눠집니다. 하나는 테마에 보이는 것이고 다른 하"
+"나는 RSS 피드에 보이는 것입니다."
+
+#: bbp-admin/bbp-settings.php:1286
+msgid "Slugs"
+msgstr "슬러그"
+
+#: bbp-admin/bbp-settings.php:1287
+msgid ""
+"The Slugs section allows you to control the permalink structure for your "
+"forums."
+msgstr "슬러그 섹션은 게시판의 고유주소 구조를 제어할 수 있습니다."
+
+#: bbp-admin/bbp-settings.php:1288
+msgid ""
+"\"Archive Slugs\" are used as the \"root\" for your forums and topics. If "
+"you combine these values with existing page slugs, bbPress will attempt to "
+"output the most correct title and content."
+msgstr ""
+"글 보관함 슬러그는 게시판과 글의 루트로 사용됩니다. 이것을 기존 페이지 슬러그"
+"와 결합하면 bbPress는 가장 올바른 제목과 콘텐트를 출력하려고 할 것입니다."
+
+#: bbp-admin/bbp-settings.php:1289
+msgid ""
+"\"Single Slugs\" are used as a prefix when viewing an individual forum, "
+"topic, reply, user, or view."
+msgstr ""
+"단일 슬러그는 개별 게시판, 글, 댓글, 사용자, 또는 보기를 볼 때 접두어로 사용"
+"됩니다."
+
+#: bbp-admin/bbp-settings.php:1290
+msgid ""
+"In the event of a slug collision with WordPress or BuddyPress, a warning "
+"will appear next to the problem slug(s)."
+msgstr ""
+"워드프레스 또는 버디프레스와 슬러그 충돌이 있을 경우 문제의 슬러그 옆에 경고 "
+"메시지가 나타납니다."
+
+#: bbp-admin/bbp-topics.php:159
+msgid ""
+"<strong>Spam</strong> removes your topic from this list and places it in the "
+"spam queue, from which you can permanently delete it."
+msgstr ""
+"<strong>스팸</strong> 목록에서 글을 제거하고 스팸 대기로 보냅니다. 거기서 영"
+"원히 삭제할 수 있습니다."
+
+#: bbp-admin/bbp-topics.php:160
+msgid ""
+"<strong>Preview</strong> will show you what your draft topic will look like "
+"if you publish it. View will take you to your live site to view the topic. "
+"Which link is available depends on your topic&#8217;s status."
+msgstr ""
+"<strong>미리보기</strong> 발행할 경우 임시 게시판이 어떻게 보이는지 미리 볼 "
+"수 있습니다. 보기는 게시판을 보기 위해 실제 사이트로 이동합니다. 어떤 링크가 "
+"가능한지는 게시판 상태에 따라 다릅니다."
+
+#: bbp-admin/bbp-topics.php:191
+msgid ""
+"The title field and the big topic editing Area are fixed in place, but you "
+"can reposition all the other boxes using drag and drop, and can minimize or "
+"expand them by clicking the title bar of each box. Use the Screen Options "
+"tab to unhide more boxes (Excerpt, Send Trackbacks, Custom Fields, "
+"Discussion, Slug, Author) or to choose a 1- or 2-column layout for this "
+"screen."
+msgstr ""
+"제목란과 큰 글 편집창은 해당 위치에 고정돼 있지만 다른 박스는 끌어놓기로 위치"
+"를 재조정할 수 있습니다. 각 박스의 제목 바를 클릭하면 박스를 축소하거나 확대"
+"할 수 있습니다. 더 많은 박스(요약, 사용자 정의 필드, 토론, 슬러그, 글쓴이)를 "
+"나타나도록 하려면 화면 옵션 탭을 사용하세요. 화면 옵션에서 이 화면을 1열이나 "
+"2열 레이아웃으로 선택할 수 있습니다."
+
+#: bbp-admin/bbp-topics.php:201
+msgid "Title and Topic Editor"
+msgstr "제목과 글 편집기"
+
+#: bbp-admin/bbp-topics.php:203
+msgid ""
+"<strong>Title</strong> - Enter a title for your topic. After you enter a "
+"title, you&#8217;ll see the permalink below, which you can edit."
+msgstr ""
+"<strong>제목</strong> - 게시판 제목을 입력하세요. 제목을 입력한 후에 그 아래"
+"에 고유주소를 볼 수 있으며 편집할 수 있습니다."
+
+#: bbp-admin/bbp-topics.php:204
+msgid ""
+"<strong>Topic Editor</strong> - Enter the text for your topic. There are two "
+"modes of editing: Visual and HTML. Choose the mode by clicking on the "
+"appropriate tab. Visual mode gives you a WYSIWYG editor. Click the last icon "
+"in the row to get a second row of controls. The HTML mode allows you to "
+"enter raw HTML along with your topic text. You can insert media files by "
+"clicking the icons above the topic editor and following the directions. You "
+"can go to the distraction-free writing screen via the Fullscreen icon in "
+"Visual mode (second to last in the top row) or the Fullscreen button in HTML "
+"mode (last in the row). Once there, you can make buttons visible by hovering "
+"over the top area. Exit Fullscreen back to the regular topic editor."
+msgstr ""
+"<strong>글 편집기</strong> - 해당 글에 대한 텍스트를 입력합니다. 비주얼과 "
+"HTML : 편집의 두 가지 모드가 있습니다.해당 탭을 클릭하여 모드를 선택합니다. "
+"비주얼 모드는 당신에게 WYSIWYG 편집기를 제공합니다. 컨트롤의 두 번째 행을 열"
+"려면 마지막 아이콘을 클릭합니다. HTML 모드를 사용하면 게시판 글과 함께 기초 "
+"HTML을 입력할 수 있습니다. 이 글 편집기 위의 아이콘을 클릭하고 지시에 따라 미"
+"디어 파일을 삽입할 수 있습니다. 당신은 비주얼 모드 (맨 윗줄의 마지막 두번째) "
+"또는 HTML 모드에서 전체 화면 버튼 (줄의 마지막)의 전체 화면 아이콘을 통해 글"
+"에 집중하여 작성할 수 있는 화면으로 이동하실 수 있습니다. 그곳에서, 상단 영역"
+"에 마우스를 올리면 버튼을 볼 수 있습니다. 전체화면 나가기를 클릭하면 일반 글 "
+"편집기로 갈 수 있습니다."
+
+#: bbp-admin/bbp-topics.php:207
+msgid ""
+"<strong>Publish</strong> - You can set the terms of publishing your topic in "
+"the Publish box. For Status, Visibility, and Publish (immediately), click on "
+"the Edit link to reveal more options. Visibility includes options for "
+"password-protecting a topic or making it stay at the top of your blog "
+"indefinitely (sticky). Publish (immediately) allows you to set a future or "
+"past date and time, so you can schedule a topic to be published in the "
+"future or backdate a topic."
+msgstr ""
+"<strong>발행</strong> - 발행 박스에서 당신의 글을 발행할 수 있는 조건을 설정"
+"할 수 있습니다. 상태, 가시성, 그리고 발행(즉시)가 있으며, 옵션을 더 보려면 편"
+"집 링크를 클릭하세요. 가시성은 글을 비밀번호로 보호하거나 블로그의 최상단에 "
+"무기한 배치할 수 있는(붙박이) 옵션이 있습니다. 발행(즉시)는 미래나 과거의 날"
+"짜와 시간을 설정할 수 있으므로 글을 미래의 날짜로 발행하거나 과거의 날짜로 돌"
+"릴 수 있습니다."
+
+#: bbp-admin/bbp-topics.php:210
+msgid ""
+"<strong>topic Format</strong> - This designates how your theme will display "
+"a specific topic. For example, you could have a <em>standard</em> blog topic "
+"with a title and paragraphs, or a short <em>aside</em> that omits the title "
+"and contains a short text blurb. Please refer to the Codex for <a href="
+"\"http://codex.wordpress.org/Post_Formats#Supported_Formats\">descriptions "
+"of each topic format</a>. Your theme could enable all or some of 10 possible "
+"formats."
+msgstr ""
+"<strong>글 형식</strong> - 이것은 당신의 테마가 특정 글에서 어떻게 보여지는"
+"지 지정합니다. 예를 들어 제목과 글 단락이 있는 <em>기본</em> 블로그 글, 또는 "
+"제목이 없고 짧은 글이 있는 글이 있을 수 있습니다. <a href=\"http://codex."
+"wordpress.org/Post_Formats#Supported_Formats\">각 글 형식의 상세 설명</a>은 "
+"코텍스를 참고하세요. 당신의 테마는 10개의 형식중 모두 또는 몇개만 가능할 수"
+"도 있습니다."
+
+#: bbp-admin/bbp-topics.php:214
+msgid ""
+"<strong>Featured Image</strong> - This allows you to associate an image with "
+"your topic without inserting it. This is usually useful only if your theme "
+"makes use of the featured image as a topic thumbnail on the home page, a "
+"custom header, etc."
+msgstr ""
+"<strong>특성 이미지</strong> - 이미지를 삽입하지 않고 이미지와 글을 연결 할 "
+"수 있도록 합니다. 이것은 보통 홈 페이지에서 사용자 정의 헤더 같은 것에 글 썸"
+"네일로 특성 이미지를 사용하도록 설계된 테마를 사용할 경우에만 유용합니다."
+
+#: bbp-admin/bbp-topics.php:221
+msgid "Select the attributes that your topic should have:"
+msgstr "글이 가져야할 속성을 선택하세요."
+
+#: bbp-admin/bbp-topics.php:223
+msgid ""
+"<strong>Forum</strong> dropdown determines the parent forum that the topic "
+"belongs to. Select the forum or category from the dropdown, or leave the "
+"default (No Forum) to post the topic without an assigned forum."
+msgstr ""
+"<strong>게시판</strong> 드랍다운에서 글이 속한 부모 게시판을 결정합니다. 드랍"
+"다운에서 게시판이나 카테고리를 선택하거나 기본(게시판 없음)으도 두면 글은 게"
+"시판에 배정되지 않고 게시됩니다."
+
+#: bbp-admin/bbp-topics.php:224
+msgid ""
+"<strong>Topic Type</strong> dropdown indicates the sticky status of the "
+"topic. Selecting the super sticky option would stick the topic to the front "
+"of your forums, i.e. the topic index, sticky option would stick the topic to "
+"its respective forum. Selecting normal would not stick the topic anywhere."
+msgstr ""
+"<strong>글 형식</strong> 드랍다운은 글의 붙박이 상태를 지정합니다. 최상단 붙"
+"박이 옵션을 선택하면 글을 게시판 전면에 붙박이로 만듭니다. 붙박이 옵션은 글"
+"을 각 게시판에 붙박이로 만듭니다. 일반글을 선택하면 글을 붙박이로 만들지 않습"
+"니다."
+
+#: bbp-admin/bbp-topics.php:239
+msgid ""
+"<strong>Discussion</strong> - You can turn comments and pings on or off, and "
+"if there are comments on the topic, you can see them here and moderate them."
+msgstr ""
+"<strong>토론</strong> - 댓글와 핑을 켜거나 끌 수 있습니다. 글에 댓글이 있을 "
+"경우 이곳에서 볼 수 있으며 관리할 수 있습니다."
+
+#: bbp-admin/bbp-topics.php:832
+msgctxt "Close a Topic"
+msgid "Close"
+msgstr "닫기"
+
+#: bbp-admin/bbp-topics.php:834
+msgctxt "Open a Topic"
+msgid "Open"
+msgstr "열기"
+
+#: bbp-includes/bbp-core-update.php:168
+msgid "General"
+msgstr "일반"
+
+#: bbp-includes/bbp-core-update.php:169
+msgid "General chit-chat"
+msgstr "일반 쪽지 대화"
+
+#: bbp-includes/bbp-core-update.php:170
+msgid "Hello World!"
+msgstr "안녕하세요!"
+
+#: bbp-includes/bbp-core-update.php:171
+msgid "I am the first topic in your new forums."
+msgstr "나는 당신의 새로운 게시판의 첫 글입니다."
+
+#: bbp-includes/bbp-core-update.php:172
+msgid "Re: Hello World!"
+msgstr "Re: 안녕하세요!"
+
+#: bbp-includes/bbp-core-update.php:173
+msgid "Oh, and this is what a reply looks like."
+msgstr "오, 이것은 댓글의 모양입니다."
+
+#: bbp-includes/bbp-core-widgets.php:39
+msgid ""
+"A simple login form with optional links to sign-up and lost password pages."
+msgstr ""
+"회원가입과 비밀번호 분실 페이지로 가는 옵션 링크가 있는 간단한 로그인 양식"
+
+#: bbp-includes/bbp-core-widgets.php:42
+msgid "(bbPress) Login Widget"
+msgstr "(bbPress) 로그인 위젯"
+
+#: bbp-includes/bbp-core-widgets.php:224
+msgid "A list of registered optional topic views."
+msgstr "등록된 옵션 글 보기 목록"
+
+#: bbp-includes/bbp-core-widgets.php:227
+msgid "(bbPress) Topic Views List"
+msgstr "(bbPress) 글 보기 목록"
+
+#: bbp-includes/bbp-core-widgets.php:341
+msgid "A list of forums with an option to set the parent."
+msgstr "부모를 설정할 옵션이 있는 게시판 목록"
+
+#: bbp-includes/bbp-core-widgets.php:344
+msgid "(bbPress) Forums List"
+msgstr "(bbPress) 게시판 목록"
+
+#: bbp-includes/bbp-core-widgets.php:496
+msgid "(bbPress) Recent Topics"
+msgstr "(bbPress) 최근 글"
+
+#: bbp-includes/bbp-core-widgets.php:711
+msgid "A list of the most recent replies."
+msgstr "최근 댓글 목록"
+
+#: bbp-includes/bbp-core-widgets.php:714
+msgid "(bbPress) Recent Replies"
+msgstr "(bbPress) 최근 댓글"
+
+#: bbp-includes/bbp-core-widgets.php:798
+msgctxt "widgets"
+msgid "%1$s on %2$s"
+msgstr " %2$s의 %1$s"
+
+#: bbp-admin/bbp-settings.php:458
+msgid "Allow topic and reply revision logging"
+msgstr "글과 댓글의 수정을 허용합니다"
+
+#: bbp-theme-compat/bbpress/form-reply.php:172
+#: bbp-themes/bbp-twentyten/bbpress/form-reply.php:172
+msgid "The topic &#8216;%s&#8217; is closed to new replies."
+msgstr "&#8216;%s&#8217;는 닫혀 있어, 새로운 댓글을 달 수 없습니다."
+
+#: bbp-includes/bbp-core-widgets.php:456
+msgid "Parent Forum ID:"
+msgstr "부모 게시판 ID:"
+
+#: bbp-includes/bbp-core-widgets.php:96
+msgid "Remember Me"
+msgstr "비밀번호 기억하기"
+
+#: bbp-includes/bbp-core-widgets.php:187
+msgid "Register URI:"
+msgstr "URI 등록:"
+
+#: bbp-theme-compat/bbpress/form-forum.php:35
+#: bbp-theme-compat/bbpress/form-topic.php:41
+#: bbp-themes/bbp-twentyten/bbpress/form-forum.php:35
+#: bbp-themes/bbp-twentyten/bbpress/form-topic.php:41
+msgid "Now Editing &ldquo;%s&rdquo;"
+msgstr "&ldquo;%s&rdquo;를(을) 편집합니다."
+
+#: bbp-admin/bbp-settings.php:747
+msgid "Prefix your forum area with the Forum Base slug (Recommended)"
+msgstr "게시판 기반의 슬러그(주소)가 게시판에 사용되도록 합니다 (권장)"
+
+#: bbp-admin/bbp-metaboxes.php:127
+msgid "Users &amp; Moderation"
+msgstr "사용자 &amp; 관리"
+
+#: bbp-includes/bbp-core-widgets.php:192
+msgid "Lost Password URI:"
+msgstr "비밀번호 분실 URI:"
+
+#: bbp-admin/bbp-settings.php:1442
+msgid "Possible %1$s conflict: <strong>%2$s</strong>"
+msgstr "가능한 %1$s 충돌: <strong>%2$s</strong>"
+
+#: bbp-includes/bbp-core-widgets.php:462
+msgid "\"0\" to show only root - \"any\" to show all"
+msgstr "루트만 보이려면 \"0\" - 모두를 보이려면 \"모두\""
+
+#: bbp-admin/bbp-settings.php:1423
+msgid "%s page"
+msgstr "%s 페이지"
+
+#: bbp-includes/bbp-reply-functions.php:280
+#: bbp-includes/bbp-reply-functions.php:546
+msgid ""
+"<strong>ERROR</strong>: There was a problem adding the tags to the topic."
+msgstr "<strong>에러</strong>: 글에 태그를 추가하면서 문제가 발생했습니다."
+
+#: bbp-includes/bbp-topic-functions.php:238
+msgid "<strong>ERROR</strong>: Your topic cannot be created at this time."
+msgstr "<strong>에러</strong>: 글을 열 수 없습니다."
+
+#: bbp-includes/bbp-topic-functions.php:543
+msgid "<strong>ERROR</strong>: Your topic cannot be edited at this time."
+msgstr "<strong>에러</strong>: 글을 수정할 수 없습니다."
+
+#: bbp-theme-compat/bbpress/form-topic.php:43
+#: bbp-themes/bbp-twentyten/bbpress/form-topic.php:43
+msgid "Create New Topic in &ldquo;%s&rdquo;"
+msgstr "&ldquo;%s&rdquo;에 새 글 생성하기"
+
+#: bbp-includes/bbp-extend-buddypress.php:298
+msgid "New topic created"
+msgstr "새로운 글이 시작되었습니다."
+
+#: bbp-includes/bbp-extend-buddypress.php:299
+msgid "New reply created"
+msgstr "새로운 댓글 생성됨"
+
+#: bbp-includes/bbp-reply-functions.php:488
+msgid "<strong>ERROR</strong>: Your reply cannot be edited at this time."
+msgstr "<strong>에러</strong>: 당신의 댓글이 지금은 편집될 수 없습니다."
+
+#: bbp-includes/bbp-reply-functions.php:216
+msgid "<strong>ERROR</strong>: Your reply cannot be created at this time."
+msgstr "<strong>에러</strong>: 당신의 댓글은 지금은 생성될 수 없습니다."
+
+#: bbp-includes/bbp-extend-buddypress.php:570
+msgid "%1$s started the topic %2$s in the forum %3$s"
+msgstr "%1$s가 게시판 %3$s에서 글 %2$s를 시작했습니다."
+
+#: bbp-theme-compat/bbpress/form-reply.php:180
+#: bbp-theme-compat/bbpress/form-topic.php:221
+#: bbp-themes/bbp-twentyten/bbpress/form-reply.php:180
+#: bbp-themes/bbp-twentyten/bbpress/form-topic.php:221
+msgid "The forum &#8216;%s&#8217; is closed to new topics and replies."
+msgstr "게시판 &#8216;%s&#8217;가 새 글과 댓글으로 마감했습니다."
+
+#: bbp-includes/bbp-extend-buddypress.php:660
+msgid "%1$s replied to the topic %2$s in the forum %3$s"
+msgstr "%1$s가 게시판 %3$s에서 글 %2$s에 댓글을 달았습니다."
+
+#: bbp-includes/bbp-forum-template.php:1872
+msgid "This forum contains %1$s and %2$s."
+msgstr "이 게시판은 %1$s와 %2$s를 포함합니다."
+
+#: bbp-theme-compat/bbpress/feedback-logged-in.php:13
+#: bbp-themes/bbp-twentyten/bbpress/feedback-logged-in.php:13
+msgid "You are already logged in."
+msgstr "이미 로그인되어 있습니다."
+
+#: bbp-theme-compat/bbpress/form-topic.php:75
+#: bbp-themes/bbp-twentyten/bbpress/form-topic.php:75
+msgid "Topic Title (Maximum Length: %d):"
+msgstr "제목 (최대 글자수: %d)"
+
+#: bbp-admin/bbp-tools.php:867 bbpress.php:483
+msgid "All Forums"
+msgstr "모든 게시판"
+
+#: bbp-includes/bbp-forum-template.php:1139
+#: bbp-includes/bbp-topic-template.php:1875
+msgid " (+ %d hidden)"
+msgstr " (+ %d개 숨겨진 글)"
+
+#: bbpress.php:771
+msgid "View Topic Tag"
+msgstr "글 태그 보기"
+
+#: bbp-theme-compat/bbpress/form-forum.php:55
+#: bbp-theme-compat/bbpress/form-reply.php:44
+#: bbp-theme-compat/bbpress/form-topic.php:61
+#: bbp-themes/bbp-twentyten/bbpress/form-forum.php:55
+#: bbp-themes/bbp-twentyten/bbpress/form-reply.php:44
+#: bbp-themes/bbp-twentyten/bbpress/form-topic.php:61
+msgid "Your account has the ability to post unrestricted HTML content."
+msgstr "글 작성시 제한 없는 HTML 태그를 사용할 수 있습니다."
+
+#: bbp-includes/bbp-forum-template.php:1870
+msgid "This category contains %1$s and %2$s."
+msgstr "이 카테고리는 %1$s와 %2$s를 포함합니다."
+
+#: bbp-admin/bbp-settings.php:1376
+msgid "Pages"
+msgstr "페이지"
+
+#: bbp-admin/bbp-replies.php:826 bbp-admin/bbp-topics.php:895
+msgid "Empty Spam"
+msgstr "스팸 비우기"
+
+#: bbp-admin/bbp-settings.php:1379
+msgid "Menus"
+msgstr "메뉴"
+
+#: bbp-admin/bbp-settings.php:97 bbp-admin/bbp-settings.php:1377
+msgid "Revisions"
+msgstr "리비젼"
+
+#: bbp-admin/bbp-replies.php:698 bbp-admin/bbp-replies.php:713
+#: bbp-admin/bbp-topics.php:733
+msgid "No Forum"
+msgstr "게시판 없음"
+
+#: bbp-includes/bbp-extend-akismet.php:457
+#: bbp-includes/bbp-extend-akismet.php:472
+msgid "Post status was changed to %s"
+msgstr "글 상태가 %s로 변경됨"
+
+#: bbp-includes/bbp-common-template.php:1769
+msgid "Home"
+msgstr "홈"
+
+#: bbp-admin/bbp-settings.php:221 bbp-admin/bbp-settings.php:1390
+msgid "Forums base"
+msgstr "게시판 베이스"
+
+#: bbp-admin/bbp-settings.php:229 bbp-admin/bbp-settings.php:1393
+msgid "Topics base"
+msgstr "글 베이스"
+
+#: bbp-includes/bbp-extend-akismet.php:453
+msgid "Akismet caught this post as spam"
+msgstr "아키스밋이 이 글을 스팸으로 잡아냈습니다."
+
+#: bbp-includes/bbp-common-template.php:1855
+msgid "&rsaquo;"
+msgstr "&rsaquo;"
+
+#: bbp-includes/bbp-extend-akismet.php:311
+msgid "%1$s reported this %2$s as not spam"
+msgstr "%1$s가 이 %2$s를 스팸 아님으로 보고했습니다."
+
+#: bbp-admin/bbp-replies.php:704
+msgid "(Mismatch)"
+msgstr "(일지하지 않음)"
+
+#: bbp-admin/bbp-replies.php:672 bbp-admin/bbp-replies.php:680
+msgid "No Topic"
+msgstr "글 없음"
+
+#: bbp-includes/bbp-extend-akismet.php:304
+msgid "%1$s reported this %2$s as spam"
+msgstr "%1$s가 이 %2$s를 스팸 아님으로 보고했습니다."
+
+#: bbp-includes/bbp-extend-akismet.php:465
+msgid "Akismet cleared this post"
+msgstr "아키스밋이 이 글을 제거했습니다."
+
+#: bbp-includes/bbp-extend-akismet.php:479
+msgid ""
+"Akismet was unable to check this post (response: %s), will automatically "
+"retry again later."
+msgstr ""
+"아키스밋이 이 글 (반응: %s)을 점검할 수 없었으며 나중에 자동으로 재시도할 것"
+"입니다."
+
+#: bbp-admin/bbp-settings.php:1385
+msgid "Category base"
+msgstr "카테고리 베이스"
+
+#: bbp-admin/bbp-settings.php:1382
+msgid "Tag base"
+msgstr "태그 베이스"
+
+#: bbp-admin/bbp-metaboxes.php:397
+msgid "(Use Forum of Topic)"
+msgstr "(글 게시판 사용)"
+
+#: bbp-includes/bbp-common-functions.php:489
+#: bbp-includes/bbp-common-functions.php:521
+msgid "Spammed: %s"
+msgstr "스팸 처리됨: %s"
+
+#: bbp-includes/bbp-common-functions.php:488
+#: bbp-includes/bbp-common-functions.php:520
+msgid "Private: %s"
+msgstr "개인용: %s"
+
+#: bbp-admin/bbp-settings.php:1378
+msgid "Attachments"
+msgstr "첨부"
+
+#: bbp-admin/bbp-topics.php:155
+msgid ""
+"Hovering over a row in the topics list will display action links that allow "
+"you to manage your topic. You can perform the following actions:"
+msgstr ""
+"글 목록의 줄에 마우스를 올리면 글을 관리할 수 있는 작업 링크가 나타납니다. 다"
+"음의 작업을 할 수 있습니다."
+
+#: bbp-admin/bbp-topics.php:219 bbp-admin/bbp-topics.php:264
+msgid "Topic Attributes"
+msgstr "글 속성"
+
+#: bbp-admin/bbp-topics.php:530
+msgid "The topic was not found!"
+msgstr "글을 찾을 수 없습니다!"
+
+#: bbp-admin/bbp-topics.php:620
+msgid "There was a problem opening the topic \"%1$s\"."
+msgstr "글 \"%1$s\"를 여는데 문제가 발생했습니다."
+
+#: bbp-admin/bbp-topics.php:620
+msgid "Topic \"%1$s\" successfully opened."
+msgstr "글 \"%1$s\"가 성공적으로 열렸습니다."
+
+#: bbp-admin/bbp-topics.php:624
+msgid "There was a problem closing the topic \"%1$s\"."
+msgstr "글 \"%1$s\"를 닫는데 문제가 발생했습니다."
+
+#: bbp-admin/bbp-topics.php:624
+msgid "Topic \"%1$s\" successfully closed."
+msgstr "글 \"%1$s\"가 성공적으로 닫혔습니다."
+
+#: bbp-admin/bbp-topics.php:628
+msgid "There was a problem sticking the topic \"%1$s\" to front."
+msgstr "글 \"%1$s\"를 전면에 붙박이로 만드는데 문제가 발생했습니다."
+
+#: bbp-admin/bbp-topics.php:628
+msgid "Topic \"%1$s\" successfully sticked to front."
+msgstr "글 \\\"%1$s\\\"가 성공적으로 붙박이로 됐습니다."
+
+#: bbp-admin/bbp-topics.php:632
+msgid "There was a problem sticking the topic \"%1$s\"."
+msgstr "글 \"%1$s\"를 붙박이로 만드는데 문제가 발생했습니다."
+
+#: bbp-admin/bbp-topics.php:632
+msgid "Topic \"%1$s\" successfully sticked."
+msgstr "글 \"%1$s\"가 성공적으로 붙박이로 설정됐습니다."
+
+#: bbp-admin/bbp-topics.php:636
+msgid "There was a problem unsticking the topic \"%1$s\"."
+msgstr "글 \"%1$s\"를 붙박이에서 해제하는데 문제가 발생했습니다."
+
+#: bbp-admin/bbp-topics.php:636
+msgid "Topic \"%1$s\" successfully unsticked."
+msgstr "글 \"%1$s\"가 성공적으로 붙박이에서 해제됐습니다."
+
+#: bbp-admin/bbp-topics.php:640
+msgid "There was a problem marking the topic \"%1$s\" as spam."
+msgstr "글 \"%1$s\"를 스팸으로 처리하는데 문제가 발생했습니다."
+
+#: bbp-admin/bbp-topics.php:640
+msgid "Topic \"%1$s\" successfully marked as spam."
+msgstr "글 \"%1$s\"를 스팸으로 성공적으로 처리했습니다."
+
+#: bbp-admin/bbp-topics.php:644
+msgid "There was a problem unmarking the topic \"%1$s\" as spam."
+msgstr "글 \"%1$s\"를 스팸에서 정상으로 처리하는데 문제가 발생했습니다."
+
+#: bbp-admin/bbp-topics.php:644
+msgid "Topic \"%1$s\" successfully unmarked as spam."
+msgstr "글 \"%1$s\"가 스팸에서 정상으로 성공적으로 처리됐습니다."
+
+#: bbp-admin/bbp-topics.php:832
+msgid "Close this topic"
+msgstr "해당 글 마감"
+
+#: bbp-admin/bbp-topics.php:834
+msgid "Open this topic"
+msgstr "해당 글 열기"
+
+#: bbp-admin/bbp-topics.php:843
+msgid "Unstick this topic"
+msgstr "이 글 붙박이에서 해제"
+
+#: bbp-admin/bbp-topics.php:846
+msgid "Stick this topic to its forum"
+msgstr "이 글을 게시판의 붙박이로 만듬"
+
+#: bbp-admin/bbp-topics.php:846
+msgid "Stick this topic to front"
+msgstr "이 글을 전면에 붙박이로 만듬"
+
+#: bbp-admin/bbp-topics.php:853
+msgid "Mark the topic as not spam"
+msgstr "글을 스팸아님으로 처리"
+
+#: bbp-admin/bbp-topics.php:855
+msgid "Mark this topic as spam"
+msgstr "이 글을 스팸으로 처리"
+
+#: bbp-admin/bbp-topics.php:965
+msgid "Topic updated. <a href=\"%s\">View topic</a>"
+msgstr "글 업데이트됨. <a href=\"%s\">글 보기</a>"
+
+#: bbp-admin/bbp-topics.php:974
+msgid "Topic updated."
+msgstr "글 업데이트됨."
+
+#: bbp-admin/bbp-topics.php:979
+msgid "Topic restored to revision from %s"
+msgstr "글이 %s로부터 리비전으로 복구됨"
+
+#: bbp-admin/bbp-topics.php:983
+msgid "Topic created. <a href=\"%s\">View topic</a>"
+msgstr "글 생성됨. <a href=\"%s\">글 보기</a>"
+
+#: bbp-admin/bbp-topics.php:986
+msgid "Topic saved."
+msgstr "글 저장됨"
+
+#: bbp-admin/bbp-topics.php:989
+msgid "Topic submitted. <a target=\"_blank\" href=\"%s\">Preview topic</a>"
+msgstr "글 제출됨. <a target=\"_blank\" href=\"%s\">글 미리보기</a>"
+
+#: bbp-admin/bbp-topics.php:992
+msgid ""
+"Topic scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s"
+"\">Preview topic</a>"
+msgstr ""
+"글 예약: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s\">글 미리보"
+"기</a>"
+
+#: bbp-admin/bbp-topics.php:999
+msgid "Topic draft updated. <a target=\"_blank\" href=\"%s\">Preview topic</a>"
+msgstr "글 임시글 업데이트됨. <a target=\"_blank\" href=\"%s\">글 미리보기</a>"
+
+#: bbp-includes/bbp-core-widgets.php:90
+#: bbp-theme-compat/bbpress/form-user-login.php:22
+#: bbp-themes/bbp-twentyten/bbpress/form-user-login.php:22
+msgid "Password"
+msgstr "패스워드"
+
+#: bbp-theme-compat/bbpress/form-user-login.php:28
+#: bbp-themes/bbp-twentyten/bbpress/form-user-login.php:28
+msgid "Keep me signed in"
+msgstr "회원 등록 유지"
+
+#: bbp-theme-compat/bbpress/form-user-edit.php:132
+#: bbp-themes/bbp-twentyten/bbpress/form-user-edit.php:132
+msgid "Type your new password again."
+msgstr "새 비밀번호를 다시 한 번 입력바랍니다."
+
+#: bbp-theme-compat/bbpress/form-user-edit.php:29
+#: bbp-themes/bbp-twentyten/bbpress/form-user-edit.php:29
+msgid "Last Name"
+msgstr "성"
+
+#: bbp-theme-compat/bbpress/form-user-edit.php:24
+#: bbp-themes/bbp-twentyten/bbpress/form-user-edit.php:24
+msgid "First Name"
+msgstr "이름"
+
+#: bbp-theme-compat/bbpress/form-user-edit.php:135
+#: bbp-themes/bbp-twentyten/bbpress/form-user-edit.php:135
+msgid ""
+"Hint: The password should be at least seven characters long. To make it "
+"stronger, use upper and lower case letters, numbers and symbols like ! \" ? "
+"$ % ^ &amp; )."
+msgstr ""
+"힌트: 비밀번호는 7자 이상을 넣어야 합니다. 비밀번호를 안전하게 보호하려면 대"
+"문자, 소문자, 숫자,  특수기호(예: ! * ? $ % ^ &)를 함께 사용하기 바랍니다."
+
+#: bbp-theme-compat/bbpress/form-reply.php:126
+#: bbp-theme-compat/bbpress/form-topic.php:179
+#: bbp-themes/bbp-twentyten/bbpress/form-reply.php:126
+#: bbp-themes/bbp-twentyten/bbpress/form-topic.php:179
+msgid "Keep a log of this edit:"
+msgstr "이 편집 기록 유지:"
+
+#: bbp-admin/bbp-topics.php:846 bbp-includes/bbp-topic-template.php:2493
+msgid "Stick"
+msgstr "붙박이"
+
+#: bbp-theme-compat/bbpress/form-user-edit.php:142
+#: bbp-themes/bbp-twentyten/bbpress/form-user-edit.php:142
+msgid "Role:"
+msgstr "역할:"
+
+#: bbp-theme-compat/bbpress/form-topic-split.php:37
+#: bbp-themes/bbp-twentyten/bbpress/form-topic-split.php:37
+msgid "Split Method"
+msgstr "분할 방법"
+
+#: bbp-includes/bbp-core-widgets.php:85
+#: bbp-theme-compat/bbpress/form-user-edit.php:99
+#: bbp-theme-compat/bbpress/form-user-login.php:17
+#: bbp-theme-compat/bbpress/form-user-register.php:23
+#: bbp-themes/bbp-twentyten/bbpress/form-user-edit.php:99
+#: bbp-themes/bbp-twentyten/bbpress/form-user-login.php:17
+#: bbp-themes/bbp-twentyten/bbpress/form-user-register.php:23
+msgid "Username"
+msgstr "아이디"
+
+#: bbp-theme-compat/bbpress/form-topic-split.php:33
+#: bbp-themes/bbp-twentyten/bbpress/form-topic-split.php:33
+msgid ""
+"If you use the existing topic option, replies within both topics will be "
+"merged chronologically. The order of the merged replies is based on the time "
+"and date they were posted."
+msgstr ""
+"기존의 글 옵션을 사용하면 두개의 글에 있는 댓글을 시간적 순서에 따라서 병합"
+"할 수 있습니다. 병합된 댓글의 순서는 게시된 시간과 날짜를 기준으로 합니다."
+
+#: bbp-theme-compat/bbpress/form-topic-split.php:41
+#: bbp-themes/bbp-twentyten/bbpress/form-topic-split.php:41
+msgid "New topic in <strong>%s</strong> titled:"
+msgstr "<strong>%s</strong>으로 제목이 붙여진 새 글"
+
+#: bbp-theme-compat/bbpress/form-topic-tag.php:95
+#: bbp-themes/bbp-twentyten/bbpress/form-topic-tag.php:96
+msgid "Any links to this tag will no longer function."
+msgstr "이 태그의 어떤 링크든 더이상 기능이 없습니다."
+
+#: bbp-theme-compat/bbpress/user-favorites.php:30
+#: bbp-themes/bbp-twentyten/bbpress/user-favorites.php:28
+msgid "This user has no favorite topics."
+msgstr "이 사용자는 즐겨찾기 글이 없습니다."
+
+#: bbp-theme-compat/bbpress/user-favorites.php:17
+#: bbp-themes/bbp-twentyten/bbpress/user-favorites.php:17
+msgid "Favorite Forum Topics"
+msgstr "즐겨찾기 게시판 글"
+
+#: bbp-theme-compat/bbpress/user-favorites.php:30
+#: bbp-themes/bbp-twentyten/bbpress/user-favorites.php:28
+msgid "You currently have no favorite topics."
+msgstr "현재 즐겨찾는 글이 없습니다."
+
+#: bbp-includes/bbp-reply-template.php:1882
+msgid "Viewing %1$s post"
+msgid_plural "Viewing %1$s posts"
+msgstr[0] "%1$s개의 포스트뷰"
+
+#: bbp-theme-compat/bbpress/user-subscriptions.php:34
+#: bbp-themes/bbp-twentyten/bbpress/user-subscriptions.php:32
+msgid "This user is not currently subscribed to any topics."
+msgstr "이 사용자는 현재 구독중인 글이 없습니다."
+
+#: bbp-theme-compat/bbpress/user-subscriptions.php:34
+#: bbp-themes/bbp-twentyten/bbpress/user-subscriptions.php:32
+msgid "You are not currently subscribed to any topics."
+msgstr "당신은 현재 어떤 글에도 구독할 수 없는 상태입니다. "
+
+#: bbp-theme-compat/bbpress/form-reply.php:130
+#: bbp-theme-compat/bbpress/form-topic.php:183
+#: bbp-themes/bbp-twentyten/bbpress/form-reply.php:130
+#: bbp-themes/bbp-twentyten/bbpress/form-topic.php:183
+msgid "Optional reason for editing:"
+msgstr "편집 이유 옵션:"
+
+#: bbp-includes/bbp-core-widgets.php:82 bbp-includes/bbp-core-widgets.php:103
+#: bbp-theme-compat/bbpress/form-user-login.php:14
+#: bbp-theme-compat/bbpress/form-user-login.php:35
+#: bbp-themes/bbp-twentyten/bbpress/form-user-login.php:14
+#: bbp-themes/bbp-twentyten/bbpress/form-user-login.php:35
+msgid "Log In"
+msgstr "로그인"
+
+#: bbp-includes/bbp-core-widgets.php:182 bbp-includes/bbp-core-widgets.php:308
+#: bbp-includes/bbp-core-widgets.php:450 bbp-includes/bbp-core-widgets.php:669
+#: bbp-includes/bbp-core-widgets.php:857
+msgid "Title:"
+msgstr "제목:"
+
+#: bbp-theme-compat/bbpress/form-forum.php:149
+#: bbp-theme-compat/bbpress/form-reply.php:149
+#: bbp-theme-compat/bbpress/form-topic-merge.php:94
+#: bbp-theme-compat/bbpress/form-topic-split.php:98
+#: bbp-theme-compat/bbpress/form-topic.php:198
+#: bbp-themes/bbp-twentyten/bbpress/form-forum.php:149
+#: bbp-themes/bbp-twentyten/bbpress/form-reply.php:149
+#: bbp-themes/bbp-twentyten/bbpress/form-topic-merge.php:94
+#: bbp-themes/bbp-twentyten/bbpress/form-topic-split.php:98
+#: bbp-themes/bbp-twentyten/bbpress/form-topic.php:198
+msgid "Submit"
+msgstr "글 올리기"
+
+#: bbp-theme-compat/bbpress/form-user-edit.php:101
+#: bbp-themes/bbp-twentyten/bbpress/form-user-edit.php:101
+msgid "Usernames cannot be changed."
+msgstr "아이디(username)는 바꿀 수 없습니다."
+
+#: bbp-theme-compat/bbpress/form-user-lost-pass.php:18
+#: bbp-themes/bbp-twentyten/bbpress/form-user-lost-pass.php:18
+msgid "Username or Email"
+msgstr "아이디 또는 이메일"
+
+#: bbp-includes/bbp-core-widgets.php:121
+#: bbp-theme-compat/bbpress/form-user-lost-pass.php:14
+#: bbp-themes/bbp-twentyten/bbpress/form-user-lost-pass.php:14
+msgid "Lost Password"
+msgstr "비밀번호 분실"
+
+#: bbp-theme-compat/bbpress/form-reply.php:188
+#: bbp-themes/bbp-twentyten/bbpress/form-reply.php:188
+msgid "You must be logged in to reply to this topic."
+msgstr "댓글은 로그인 후 가능합니다."
+
+#: bbp-admin/bbp-metaboxes.php:459 bbp-admin/bbp-metaboxes.php:462
+#: bbp-theme-compat/bbpress/form-user-edit.php:14
+#: bbp-theme-compat/bbpress/form-user-edit.php:19
+#: bbp-themes/bbp-twentyten/bbpress/form-user-edit.php:14
+#: bbp-themes/bbp-twentyten/bbpress/form-user-edit.php:19
+msgid "Name"
+msgstr "이름"
+
+#: bbp-theme-compat/bbpress/form-topic-tag.php:101
+#: bbp-themes/bbp-twentyten/bbpress/form-topic-tag.php:103
+msgid ""
+"Are you sure you want to delete the \"%s\" tag? This is permanent and cannot "
+"be undone."
+msgstr ""
+"\"%s\" 태그를 정말로 삭제하시겠습니까? 이것은 영원하며 되돌릴 수 없습니다."
+
+#: bbp-theme-compat/bbpress/form-topic-merge.php:65
+#: bbp-theme-compat/bbpress/form-topic-split.php:69
+#: bbp-themes/bbp-twentyten/bbpress/form-topic-merge.php:65
+#: bbp-themes/bbp-twentyten/bbpress/form-topic-split.php:69
+msgid "Topic Extras"
+msgstr "선택"
+
+#: bbp-theme-compat/bbpress/form-topic-split.php:58
+#: bbp-themes/bbp-twentyten/bbpress/form-topic-split.php:58
+msgid "No other topics found!"
+msgstr "다른 글을 찾을 수 없습니다!"
+
+#: bbp-theme-compat/bbpress/form-topic-split.php:42
+#: bbp-themes/bbp-twentyten/bbpress/form-topic-split.php:42
+msgid "Split: %s"
+msgstr "분할: %s"
+
+#: bbp-theme-compat/bbpress/form-topic-split.php:49
+#: bbp-themes/bbp-twentyten/bbpress/form-topic-split.php:49
+msgid "Use an existing topic in this forum:"
+msgstr "이 게시판에서 기존의 글을 사용하기"
+
+#: bbp-theme-compat/bbpress/loop-single-topic.php:30
+#: bbp-themes/bbp-twentyten/bbpress/loop-single-topic.php:30
+msgid "Started by: %1$s"
+msgstr "%1$s"
+
+#: bbp-themes/bbp-twentyten/bbpress/loop-topics.php:21
+msgid "Remove"
+msgstr "삭제"
+
+#: bbp-admin/bbp-topics.php:680 bbp-theme-compat/bbpress/loop-topics.php:20
+#: bbp-themes/bbp-twentyten/bbpress/loop-topics.php:18
+msgid "Voices"
+msgstr "참여"
+
+#: bbp-theme-compat/bbpress/user-topics-created.php:30
+#: bbp-themes/bbp-twentyten/bbpress/user-topics-created.php:28
+msgid "This user has not created any topics."
+msgstr "이 사용자는 어떤 글도 생성하지 않았습니다."
+
+#: bbp-theme-compat/bbpress/user-topics-created.php:30
+#: bbp-themes/bbp-twentyten/bbpress/user-topics-created.php:28
+msgid "You have not created any topics."
+msgstr "당신은 어떤 글도 생성하지 않았습니다."
+
+#: bbp-theme-compat/bbpress/user-topics-created.php:17
+#: bbp-themes/bbp-twentyten/bbpress/user-topics-created.php:17
+msgid "Forum Topics Created"
+msgstr "시작한 글"
+
+#: bbp-theme-compat/bbpress/form-anonymous.php:32
+#: bbp-themes/bbp-twentyten/bbpress/form-anonymous.php:32
+msgid "Website:"
+msgstr "홈페이지 (있으면 적어주세요)"
+
+#: bbp-theme-compat/bbpress/form-user-edit.php:117
+#: bbp-themes/bbp-twentyten/bbpress/form-user-edit.php:117
+msgid ""
+"There is a pending email address change to <code>%1$s</code>. <a href=\"%2$s"
+"\">Cancel</a>"
+msgstr ""
+"<code>%1$s</code>로 변경될 이메일 주소가 대기중입니다. <a href=\"%2$s\">취소"
+"하기</a>"
+
+#: bbp-theme-compat/bbpress/form-user-edit.php:129
+#: bbp-themes/bbp-twentyten/bbpress/form-user-edit.php:129
+msgid ""
+"If you would like to change the password type a new one. Otherwise leave "
+"this blank."
+msgstr ""
+"비밀번호를 바꾸려면 새 비밀번호를 넣어주십시오. 비밀번호를 바꾸지 않으려면 비"
+"워두면 됩니다."
+
+#: bbp-theme-compat/bbpress/form-user-edit.php:126
+#: bbp-themes/bbp-twentyten/bbpress/form-user-edit.php:126
+msgid "New Password"
+msgstr "새 비밀번호"
+
+#: bbp-theme-compat/bbpress/form-user-edit.php:91
+#: bbp-theme-compat/bbpress/form-user-edit.php:94
+#: bbp-themes/bbp-twentyten/bbpress/form-user-edit.php:91
+#: bbp-themes/bbp-twentyten/bbpress/form-user-edit.php:94
+msgid "Account"
+msgstr "계정"
+
+#: bbp-theme-compat/bbpress/form-user-edit.php:34
+#: bbp-themes/bbp-twentyten/bbpress/form-user-edit.php:34
+msgid "Nickname"
+msgstr "닉네임"
+
+#: bbp-theme-compat/bbpress/form-user-edit.php:39
+#: bbp-themes/bbp-twentyten/bbpress/form-user-edit.php:39
+msgid "Display name publicly as"
+msgstr "공개될 이름"
+
+#: bbp-theme-compat/bbpress/form-user-edit.php:49
+#: bbp-theme-compat/bbpress/form-user-edit.php:52
+#: bbp-themes/bbp-twentyten/bbpress/form-user-edit.php:49
+#: bbp-themes/bbp-twentyten/bbpress/form-user-edit.php:52
+msgid "Contact Info"
+msgstr "연락 정보"
+
+#: bbp-admin/bbp-metaboxes.php:473 bbp-admin/bbp-metaboxes.php:476
+#: bbp-theme-compat/bbpress/form-user-edit.php:57
+#: bbp-themes/bbp-twentyten/bbpress/form-user-edit.php:57
+msgid "Website"
+msgstr "홈페이지"
+
+#: bbp-theme-compat/bbpress/form-user-edit.php:74
+#: bbp-theme-compat/bbpress/form-user-edit.php:77
+#: bbp-themes/bbp-twentyten/bbpress/form-user-edit.php:74
+#: bbp-themes/bbp-twentyten/bbpress/form-user-edit.php:77
+msgid "About Yourself"
+msgstr "나에 대해서"
+
+#: bbp-theme-compat/bbpress/form-user-edit.php:74
+#: bbp-theme-compat/bbpress/form-user-edit.php:77
+#: bbp-themes/bbp-twentyten/bbpress/form-user-edit.php:74
+#: bbp-themes/bbp-twentyten/bbpress/form-user-edit.php:77
+msgid "About the user"
+msgstr "사용자에 관해서"
+
+#: bbp-theme-compat/bbpress/form-user-edit.php:82
+#: bbp-themes/bbp-twentyten/bbpress/form-user-edit.php:82
+msgid "Biographical Info"
+msgstr "프로필"
+
+#: bbp-theme-compat/bbpress/form-user-edit.php:84
+#: bbp-themes/bbp-twentyten/bbpress/form-user-edit.php:84
+msgid ""
+"Share a little biographical information to fill out your profile. This may "
+"be shown publicly."
+msgstr ""
+"회원님에 대해 간단하게 프로필을 적어주세요. 이 프로필은 공개되는 회원님의 프"
+"로필입니다."
+
+#: bbp-admin/bbp-replies.php:796 bbp-admin/bbp-topics.php:865
+#: bbp-includes/bbp-reply-template.php:1644
+#: bbp-includes/bbp-topic-template.php:2380
+msgid "Move this item to the Trash"
+msgstr "이 항목을 휴지통으로 이동하기"
+
+#: bbp-theme-compat/bbpress/user-details.php:16
+#: bbp-themes/bbp-twentyten/bbpress/user-details.php:16
+msgid "Profile: %s"
+msgstr "프로필: %s"
+
+#: bbp-theme-compat/bbpress/user-details.php:20
+#: bbp-themes/bbp-twentyten/bbpress/user-details.php:20
+msgid "Edit Profile of User %s"
+msgstr "사용자 %s의 프로필 편집하기"
+
+#: bbp-includes/bbp-common-template.php:1832
+#: bbp-theme-compat/bbpress/user-details.php:20
+#: bbp-themes/bbp-twentyten/bbpress/user-details.php:20
+msgid "(Edit)"
+msgstr "(수정)"
+
+#: bbp-theme-compat/bbpress/user-details.php:33
+#: bbp-themes/bbp-twentyten/bbpress/user-details.php:33
+msgid "About %s"
+msgstr "%s에 관해서"
+
+#: bbp-theme-compat/bbpress/user-subscriptions.php:21
+#: bbp-themes/bbp-twentyten/bbpress/user-subscriptions.php:21
+msgid "Subscribed Forum Topics"
+msgstr "구독중인 게시판 글"
+
+#: bbp-includes/bbp-common-functions.php:490
+#: bbp-includes/bbp-common-functions.php:522
+msgid "Trashed: %s"
+msgstr "휴지통: %s"
+
+#: bbp-includes/bbp-common-functions.php:597
+msgid "<strong>ERROR</strong>: Invalid author name submitted!"
+msgstr "<strong>에러</strong>: 유효하지 않은 글쓴이 이름 제출됨!"
+
+#: bbp-includes/bbp-common-functions.php:601
+msgid "<strong>ERROR</strong>: Invalid email address submitted!"
+msgstr "<strong>에러</strong>: 유효하지 않은 이메일 주소가 제출됨!"
+
+#: bbp-includes/bbp-reply-template.php:1013
+#: bbp-includes/bbp-topic-template.php:1330
+#: bbp-includes/bbp-user-template.php:1177
+msgid "View %s's profile"
+msgstr "%s의 프로필 보기"
+
+#: bbp-theme-compat/bbpress/form-reply.php:108
+#: bbp-theme-compat/bbpress/form-topic.php:162
+#: bbp-themes/bbp-twentyten/bbpress/form-reply.php:108
+#: bbp-themes/bbp-twentyten/bbpress/form-topic.php:162
+msgid "Notify me of follow-up replies via email"
+msgstr "댓글 알림메일 받기"
+
+#: bbp-theme-compat/bbpress/form-reply.php:104
+#: bbp-theme-compat/bbpress/form-topic.php:158
+#: bbp-themes/bbp-twentyten/bbpress/form-reply.php:104
+#: bbp-themes/bbp-twentyten/bbpress/form-topic.php:158
+msgid "Notify the author of follow-up replies via email"
+msgstr "댓글 알림메일 보내기"
+
+#: bbp-theme-compat/bbpress/form-topic.php:139
+#: bbp-themes/bbp-twentyten/bbpress/form-topic.php:139
+msgid "Topic Type:"
+msgstr "글 분류:"
+
+#: bbp-theme-compat/bbpress/form-topic.php:112
+#: bbp-themes/bbp-twentyten/bbpress/form-topic.php:112
+msgid "Topic Tags:"
+msgstr "태그:"
+
+#: bbp-theme-compat/bbpress/form-forum.php:93
+#: bbp-theme-compat/bbpress/form-reply.php:75
+#: bbp-theme-compat/bbpress/form-topic.php:101
+#: bbp-themes/bbp-twentyten/bbpress/form-forum.php:93
+#: bbp-themes/bbp-twentyten/bbpress/form-reply.php:75
+#: bbp-themes/bbp-twentyten/bbpress/form-topic.php:101
+msgid ""
+"You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags "
+"and attributes:"
+msgstr ""
+"아래의 <abbr title=\"HyperText Markup Language\">HTML</abbr> 태그와 속성 사"
+"용 가능"
+
+#: bbp-theme-compat/bbpress/form-topic.php:53
+#: bbp-themes/bbp-twentyten/bbpress/form-topic.php:53
+msgid ""
+"This forum is marked as closed to new topics, however your posting "
+"capabilities still allow you to do so."
+msgstr ""
+"이 게시판은 새글으로 인해 닫혔습니다. 하지만 당신의 게시 권한은 아직 유효합니"
+"다."
+
+#: bbp-theme-compat/bbpress/feedback-no-forums.php:13
+#: bbp-themes/bbp-twentyten/bbpress/feedback-no-forums.php:13
+msgid "Oh bother! No forums were found here!"
+msgstr "오 이런! 여기는 게시판이 전혀 없네!"
+
+#: bbp-theme-compat/bbpress/feedback-no-topics.php:13
+#: bbp-themes/bbp-twentyten/bbpress/feedback-no-topics.php:13
+msgid "Oh bother! No topics were found here!"
+msgstr "오 이런! 여기는 글이 전혀 없네!"
+
+#: bbp-themes/bbp-twentyten/single-reply.php:50
+msgid "Posted on %1$s at %2$s"
+msgstr "%1$s %2$s에 작성됨"
+
+#: bbp-admin/bbp-settings.php:1375 bbp-theme-compat/bbpress/loop-forums.php:21
+#: bbp-theme-compat/bbpress/loop-replies.php:24
+#: bbp-theme-compat/bbpress/loop-replies.php:58
+#: bbp-theme-compat/bbpress/loop-topics.php:21
+#: bbp-themes/bbp-twentyten/bbpress/loop-forums.php:20
+#: bbp-themes/bbp-twentyten/bbpress/loop-replies.php:22
+#: bbp-themes/bbp-twentyten/bbpress/loop-replies.php:45
+#: bbp-themes/bbp-twentyten/bbpress/loop-topics.php:19
+msgid "Posts"
+msgstr "글"
+
+#: bbp-admin/bbp-forums.php:425 bbp-admin/bbp-topics.php:683
+#: bbp-theme-compat/bbpress/loop-forums.php:22
+#: bbp-theme-compat/bbpress/loop-topics.php:22
+#: bbp-themes/bbp-twentyten/bbpress/loop-forums.php:21
+#: bbp-themes/bbp-twentyten/bbpress/loop-topics.php:20
+msgid "Freshness"
+msgstr "마지막 글쓴이"
+
+#: bbp-admin/bbp-replies.php:618 bbp-admin/bbp-topics.php:681
+#: bbp-theme-compat/bbpress/loop-replies.php:18
+#: bbp-theme-compat/bbpress/loop-replies.php:52
+#: bbp-themes/bbp-twentyten/bbpress/loop-replies.php:17
+#: bbp-themes/bbp-twentyten/bbpress/loop-replies.php:40
+#: bbp-themes/bbp-twentyten/single-reply.php:29
+msgid "Author"
+msgstr "글쓴이"
+
+#: bbp-includes/bbp-core-widgets.php:678
+#: bbp-theme-compat/extras/page-forum-statistics.php:100
+#: bbp-themes/bbp-twentyten/page-forum-statistics.php:99
+msgid "Popular Topics"
+msgstr "인기 글"
+
+#: bbp-theme-compat/extras/page-forum-statistics.php:81
+#: bbp-themes/bbp-twentyten/page-forum-statistics.php:80
+msgid "Hidden Replies"
+msgstr "숨겨진 댓글"
+
+#: bbp-theme-compat/extras/page-forum-statistics.php:70
+#: bbp-themes/bbp-twentyten/page-forum-statistics.php:69
+msgid "Hidden Topics"
+msgstr "숨겨진 글"
+
+#: bbp-theme-compat/extras/page-forum-statistics.php:61
+#: bbp-themes/bbp-twentyten/page-forum-statistics.php:60
+msgid "Empty Topic Tags"
+msgstr "태그 없애기"
+
+#: bbp-theme-compat/extras/page-forum-statistics.php:34
+#: bbp-themes/bbp-twentyten/page-forum-statistics.php:33
+msgid "Registered Users"
+msgstr "등록된 사용자"
+
+#: bbp-theme-compat/extras/page-forum-statistics.php:26
+#: bbp-themes/bbp-twentyten/page-forum-statistics.php:27
+msgid "<p>Here are the statistics and popular topics of our forums.</p>"
+msgstr "<p>여기 우리 게시판의 통계와 인기있는 글이 있습니다.</p>"
+
+#: bbpress.php:809
+msgid "Topics with no replies"
+msgstr "댓글이 없는 글"
+
+#: bbpress.php:770
+msgid "New Tag Name"
+msgstr "새 태그 이름"
+
+#: bbpress.php:769
+msgid "Add New Tag"
+msgstr "새 태그 추가"
+
+#: bbpress.php:766
+msgid "All Tags"
+msgstr "모든 태그"
+
+#: bbpress.php:767
+msgid "Edit Tag"
+msgstr "태그 편집"
+
+#: bbpress.php:764
+msgid "Search Tags"
+msgstr "태그 검색"
+
+#: bbpress.php:768
+msgid "Update Tag"
+msgstr "태그 업데이트"
+
+#: bbpress.php:765
+msgid "Popular Tags"
+msgstr "인기 태그"
+
+#: bbp-admin/bbp-metaboxes.php:103 bbpress.php:763
+msgid "Topic Tag"
+msgid_plural "Topic Tags"
+msgstr[0] "글 태그"
+
+#: bbp-admin/bbp-settings.php:121
+#: bbp-theme-compat/extras/page-forum-statistics.php:54
+#: bbp-themes/bbp-twentyten/page-forum-statistics.php:53 bbpress.php:762
+msgid "Topic Tags"
+msgstr "글 태그"
+
+#: bbpress.php:704
+msgctxt "bbpress"
+msgid "Hidden <span class=\"count\">(%s)</span>"
+msgid_plural "Hidden <span class=\"count\">(%s)</span>"
+msgstr[0] "숨겨진 <span class=\"count\">(%s)</span>"
+
+#: bbpress.php:703
+msgctxt "post"
+msgid "Hidden"
+msgstr "숨겨짐"
+
+#: bbpress.php:691
+msgctxt "bbpress"
+msgid "Orphan <span class=\"count\">(%s)</span>"
+msgid_plural "Orphans <span class=\"count\">(%s)</span>"
+msgstr[0] "단독 <span class=\"count\">(%s)</span>"
+
+#: bbpress.php:690
+msgctxt "post"
+msgid "Orphan"
+msgstr "단독"
+
+#: bbpress.php:678
+msgctxt "bbpress"
+msgid "Spam <span class=\"count\">(%s)</span>"
+msgid_plural "Spam <span class=\"count\">(%s)</span>"
+msgstr[0] "스팸 <span class=\"count\">(%s)</span>"
+
+#: bbpress.php:677
+msgctxt "post"
+msgid "Spam"
+msgstr "스팸"
+
+#: bbpress.php:667
+msgctxt "bbpress"
+msgid "Closed <span class=\"count\">(%s)</span>"
+msgid_plural "Closed <span class=\"count\">(%s)</span>"
+msgstr[0] "마감 <span class=\"count\">(%s)</span>"
+
+#: bbpress.php:666
+msgctxt "post"
+msgid "Closed"
+msgstr "닫힌 글입니다"
+
+#: bbpress.php:631
+msgid "bbPress Replies"
+msgstr "bbPress 댓글"
+
+#: bbpress.php:607
+msgid "No replies found in Trash"
+msgstr "휴지통에 댓글을 찾을 수 없습니다."
+
+#: bbpress.php:608
+msgid "Topic:"
+msgstr "글 :"
+
+#: bbpress.php:606
+msgid "No replies found"
+msgstr "댓글을 찾을 수 없습니다."
+
+#: bbpress.php:605
+msgid "Search Replies"
+msgstr "댓글 검색"
+
+#: bbpress.php:603 bbpress.php:604
+msgid "View Reply"
+msgstr "댓글 보기"
+
+#: bbpress.php:601
+msgid "Edit Reply"
+msgstr "댓글 편집"
+
+#: bbp-admin/bbp-metaboxes.php:84 bbpress.php:596
+msgid "Reply"
+msgid_plural "Replies"
+msgstr[0] "댓글"
+
+#: bbpress.php:598 bbpress.php:602
+msgid "New Reply"
+msgstr "새 댓글"
+
+#: bbpress.php:599
+msgid "Create New Reply"
+msgstr "새 댓글 생성"
+
+#: bbp-admin/bbp-admin.php:192 bbp-admin/bbp-admin.php:193
+#: bbp-admin/bbp-admin.php:203 bbp-admin/bbp-admin.php:204
+#: bbp-includes/bbp-extend-buddypress.php:834
+#: bbp-includes/bbp-extend-buddypress.php:891
+#: bbp-includes/bbp-extend-buddypress.php:982
+#: bbp-includes/bbp-extend-buddypress.php:1035
+#: bbp-includes/bbp-extend-buddypress.php:1430
+#: bbp-theme-compat/extras/page-forum-statistics.php:39
+#: bbp-themes/bbp-twentyten/page-forum-statistics.php:38 bbpress.php:480
+#: bbpress.php:481
+msgid "Forums"
+msgstr "게시판"
+
+#: bbp-admin/bbp-forums.php:420 bbp-admin/bbp-metaboxes.php:50
+#: bbp-admin/bbp-metaboxes.php:349 bbp-admin/bbp-metaboxes.php:352
+#: bbp-admin/bbp-metaboxes.php:400 bbp-admin/bbp-metaboxes.php:403
+#: bbp-admin/bbp-replies.php:616 bbp-admin/bbp-topics.php:678
+#: bbp-includes/bbp-extend-buddypress.php:1405
+#: bbp-includes/bbp-forum-template.php:2116
+#: bbp-theme-compat/bbpress/loop-forums.php:19
+#: bbp-themes/bbp-twentyten/bbpress/loop-forums.php:18 bbpress.php:482
+msgid "Forum"
+msgstr "게시판"
+
+#: bbpress.php:484 bbpress.php:488
+msgid "New Forum"
+msgstr "새 게시판"
+
+#: bbp-theme-compat/bbpress/form-forum.php:37
+#: bbp-themes/bbp-twentyten/bbpress/form-forum.php:37 bbpress.php:485
+msgid "Create New Forum"
+msgstr "새 게시판 생성"
+
+#: bbp-includes/bbp-common-template.php:1840
+#: bbp-includes/bbp-reply-template.php:1507
+#: bbp-includes/bbp-topic-template.php:2242 bbpress.php:486 bbpress.php:543
+#: bbpress.php:600
+msgid "Edit"
+msgstr "수정"
+
+#: bbpress.php:487
+msgid "Edit Forum"
+msgstr "게시판 편집"
+
+#: bbpress.php:489 bbpress.php:490
+msgid "View Forum"
+msgstr "게시판 보기"
+
+#: bbpress.php:491
+msgid "Search Forums"
+msgstr "게시판 검색"
+
+#: bbpress.php:492
+msgid "No forums found"
+msgstr "게시판 찾을 수 없음"
+
+#: bbpress.php:493
+msgid "No forums found in Trash"
+msgstr "휴지통에 게시판 없음"
+
+#: bbp-theme-compat/bbpress/form-forum.php:129
+#: bbp-themes/bbp-twentyten/bbpress/form-forum.php:129 bbpress.php:494
+msgid "Parent Forum:"
+msgstr "부모 게시판:"
+
+#: bbpress.php:517
+msgid "bbPress Forums"
+msgstr "bbPress 게시판"
+
+#: bbp-admin/bbp-forums.php:421 bbp-admin/bbp-settings.php:179
+#: bbp-admin/bbp-settings.php:200 bbp-admin/bbp-topics.php:677
+#: bbp-includes/bbp-extend-buddypress.php:432
+#: bbp-includes/bbp-extend-buddypress.php:1434
+#: bbp-includes/bbp-forum-template.php:2264
+#: bbp-theme-compat/bbpress/loop-forums.php:20
+#: bbp-theme-compat/extras/page-forum-statistics.php:44
+#: bbp-themes/bbp-twentyten/bbpress/loop-forums.php:19
+#: bbp-themes/bbp-twentyten/page-forum-statistics.php:43 bbpress.php:537
+#: bbpress.php:538
+msgid "Topics"
+msgstr "글"
+
+#: bbp-admin/bbp-metaboxes.php:67 bbp-admin/bbp-metaboxes.php:425
+#: bbp-admin/bbp-metaboxes.php:428 bbp-admin/bbp-replies.php:617
+#: bbp-theme-compat/bbpress/content-single-topic-lead.php:22
+#: bbp-theme-compat/bbpress/content-single-topic-lead.php:94
+#: bbp-theme-compat/bbpress/loop-topics.php:19
+#: bbp-themes/bbp-twentyten/bbpress/content-single-topic-lead.php:20
+#: bbp-themes/bbp-twentyten/bbpress/loop-topics.php:17 bbpress.php:539
+msgid "Topic"
+msgid_plural "Topics"
+msgstr[0] "글"
+
+#: bbpress.php:541 bbpress.php:545
+msgid "New Topic"
+msgstr "새 글"
+
+#: bbp-theme-compat/bbpress/form-topic.php:43
+#: bbp-themes/bbp-twentyten/bbpress/form-topic.php:43 bbpress.php:542
+msgid "Create New Topic"
+msgstr "글 생성"
+
+#: bbpress.php:544
+msgid "Edit Topic"
+msgstr "항목을 편집합니다"
+
+#: bbpress.php:546 bbpress.php:547
+msgid "View Topic"
+msgstr "글 보기"
+
+#: bbpress.php:548
+msgid "Search Topics"
+msgstr "글 검색"
+
+#: bbpress.php:549
+msgid "No topics found"
+msgstr "글 찾을 수 없음"
+
+#: bbpress.php:550
+msgid "No topics found in Trash"
+msgstr "휴지통에 글 없음"
+
+#: bbp-includes/bbp-extend-buddypress.php:1669
+#: bbp-theme-compat/bbpress/form-topic.php:125
+#: bbp-themes/bbp-twentyten/bbpress/form-topic.php:125 bbpress.php:551
+msgid "Forum:"
+msgstr "게시판:"
+
+#: bbpress.php:574
+msgid "bbPress Topics"
+msgstr "bbPress 글"
+
+#: bbp-admin/bbp-forums.php:422 bbp-admin/bbp-settings.php:187
+#: bbp-admin/bbp-settings.php:208 bbp-admin/bbp-topics.php:679
+#: bbp-includes/bbp-extend-buddypress.php:433
+#: bbp-includes/bbp-forum-template.php:2328
+#: bbp-includes/bbp-theme-compatibility.php:547
+#: bbp-theme-compat/bbpress/loop-forums.php:21
+#: bbp-theme-compat/bbpress/loop-replies.php:32
+#: bbp-theme-compat/bbpress/loop-replies.php:62
+#: bbp-theme-compat/bbpress/loop-topics.php:21
+#: bbp-theme-compat/extras/page-forum-statistics.php:49
+#: bbp-themes/bbp-twentyten/bbpress/loop-forums.php:20
+#: bbp-themes/bbp-twentyten/bbpress/loop-replies.php:30
+#: bbp-themes/bbp-twentyten/bbpress/loop-replies.php:49
+#: bbp-themes/bbp-twentyten/bbpress/loop-topics.php:19
+#: bbp-themes/bbp-twentyten/page-forum-statistics.php:48
+#: bbp-themes/bbp-twentyten/single-reply.php:30 bbpress.php:594
+#: bbpress.php:595
+msgid "Replies"
+msgstr "댓글"
+
+#: bbp-theme-compat/bbpress/form-topic-split.php:29
+#: bbp-themes/bbp-twentyten/bbpress/form-topic-split.php:29
+msgid ""
+"When you split a topic, you are slicing it in half starting with the reply "
+"you just selected. Choose to use that reply as a new topic with a new title, "
+"or merge those replies into an existing topic."
+msgstr ""
+"글을 분리할 경우 선택한 댓글을 선두로 반으로 나누게 됩니다.해당 댓글을 새 제"
+"목의 새 글으로 사용하도록 선택하거나 댓글을 기존의 글에 병합할 수 있습니다."
+
+#: bbp-theme-compat/bbpress/form-topic-split.php:24
+#: bbp-themes/bbp-twentyten/bbpress/form-topic-split.php:24
+msgid "Split topic \"%s\""
+msgstr "글 %s 분할"
+
+#: bbp-theme-compat/bbpress/form-user-edit.php:174
+#: bbp-themes/bbp-twentyten/bbpress/form-user-edit.php:174
+msgid "Update User"
+msgstr "사용자 업데이트"
+
+#: bbp-theme-compat/bbpress/form-user-edit.php:153
+#: bbp-themes/bbp-twentyten/bbpress/form-user-edit.php:153
+msgid "Super Admin"
+msgstr "최고 관리자"
+
+#: bbp-theme-compat/bbpress/form-user-edit.php:156
+#: bbp-themes/bbp-twentyten/bbpress/form-user-edit.php:156
+msgid "Grant this user super admin privileges for the Network."
+msgstr "해당 사용자를 네트워크의 최고 관리자 지위를 부여"
+
+#: bbp-admin/bbp-settings.php:972
+#: bbp-theme-compat/bbpress/form-user-edit.php:169
+#: bbp-themes/bbp-twentyten/bbpress/form-user-edit.php:169
+msgid "Save Changes"
+msgstr "변경 사항 저장"
+
+#: bbp-theme-compat/bbpress/form-user-edit.php:174
+#: bbp-themes/bbp-twentyten/bbpress/form-user-edit.php:174
+msgid "Update Profile"
+msgstr "프로필 업데이트"
+
+#: bbp-admin/bbp-replies.php:785 bbp-admin/bbp-topics.php:855
+#: bbp-includes/bbp-reply-template.php:1698
+#: bbp-includes/bbp-topic-template.php:2620
+msgid "Spam"
+msgstr "스팸"
+
+#: bbp-includes/bbp-reply-template.php:1648
+#: bbp-includes/bbp-topic-template.php:2384
+msgid "Are you sure you want to delete that permanently?"
+msgstr "정말로 영원히 삭제하시겠습니까?"
+
+#: bbp-admin/bbp-replies.php:800 bbp-admin/bbp-topics.php:869
+#: bbp-includes/bbp-reply-template.php:1648
+#: bbp-includes/bbp-topic-template.php:2384
+msgid "Delete this item permanently"
+msgstr "이 항목 영원히 제거하기"
+
+#: bbp-theme-compat/bbpress/form-user-register.php:14
+#: bbp-themes/bbp-twentyten/bbpress/form-user-register.php:14
+msgid "Create an Account"
+msgstr "계정 생성"
+
+#: bbp-theme-compat/bbpress/form-user-register.php:17
+#: bbp-themes/bbp-twentyten/bbpress/form-user-register.php:17
+msgid "Your username must be unique, and cannot be changed later."
+msgstr "당신의 아이디는 독특해야하며 나중에 변경할 수 없습니다."
+
+#: bbp-theme-compat/bbpress/form-user-register.php:18
+#: bbp-themes/bbp-twentyten/bbpress/form-user-register.php:18
+msgid ""
+"We use your email address to email you a secure password and verify your "
+"account."
+msgstr ""
+"당신의 이메일 주소를 안전한 비밀번호를 보내거나 계정을 검증하기 위해서 사용합"
+"니다."
+
+#: bbp-includes/bbp-core-widgets.php:115
+#: bbp-theme-compat/bbpress/form-user-register.php:36
+#: bbp-themes/bbp-twentyten/bbpress/form-user-register.php:36
+msgid "Register"
+msgstr "가입하기"
+
+#: bbp-theme-compat/extras/page-topic-tags.php:22
+#: bbp-themes/bbp-twentyten/page-topic-tags.php:23
+msgid ""
+"<p>This is a collection of tags that are currently popular on our forums.</p>"
+msgstr "<p>이것은 우리 게시판에서 현재 인기있는 태그 모음입니다.</p>"
+
+#: bbp-includes/bbp-common-template.php:1836
+#: bbp-includes/bbp-common-template.php:1936
+#: bbp-includes/bbp-common-template.php:2153
+#: bbp-includes/bbp-theme-compatibility.php:602
+#: bbp-includes/bbp-theme-compatibility.php:620
+#: bbp-theme-compat/extras/taxonomy-topic-tag-edit.php:17
+#: bbp-theme-compat/extras/taxonomy-topic-tag.php:17
+#: bbp-themes/bbp-twentyten/taxonomy-topic-tag-edit.php:18
+#: bbp-themes/bbp-twentyten/taxonomy-topic-tag.php:18
+msgid "Topic Tag: %s"
+msgstr "글 태그: %s"
+
+#: bbp-theme-compat/bbpress-functions.php:251
+#: bbp-themes/bbp-twentyten/bbpress-functions.php:202
+msgid "favorites"
+msgstr "즐겨찾기"
+
+#: bbp-theme-compat/bbpress-functions.php:252
+#: bbp-themes/bbp-twentyten/bbpress-functions.php:203
+msgid "?"
+msgstr "?"
+
+#: bbp-theme-compat/bbpress-functions.php:253
+#: bbp-themes/bbp-twentyten/bbpress-functions.php:204
+msgid "This topic is one of your %favLinkYes% [%favDel%]"
+msgstr "이 글은 당신의 %favLinkYes% [%favDel%]중에 하나입니다."
+
+#: bbp-theme-compat/bbpress-functions.php:254
+#: bbp-themes/bbp-twentyten/bbpress-functions.php:205
+msgid "%favAdd% (%favLinkNo%)"
+msgstr "%favAdd% (%favLinkNo%)"
+
+#: bbp-includes/bbp-reply-template.php:1870
+msgid "Viewing %1$s reply"
+msgid_plural "Viewing %1$s replies"
+msgstr[0] "%1$s 댓글 보임"
+
+#: bbp-includes/bbp-reply-template.php:1763
+msgid "Split the topic from this reply"
+msgstr "이 댓글에서 글 분할"
+
+#: bbp-includes/bbp-reply-template.php:1762
+msgid "Split"
+msgstr "분리"
+
+#: bbp-includes/bbp-reply-template.php:1699
+#: bbp-includes/bbp-topic-template.php:2621
+msgid "Unspam"
+msgstr "스팸해제"
+
+#: bbp-includes/bbp-common-functions.php:1658
+msgid ""
+"Conditional query tags do not work before the query is run. Before then, "
+"they always return false."
+msgstr ""
+"조건 퀘리 태그는 퀘리가 실행 되기 전에는 작동하지 않습니다. 그 전까지는 항상 "
+"return false입니다."
+
+#: bbp-includes/bbp-user-template.php:659
+#: bbp-theme-compat/bbpress-functions.php:255
+#: bbp-themes/bbp-twentyten/bbpress-functions.php:206
+msgid "&times;"
+msgstr "&times;"
+
+#: bbp-includes/bbp-user-template.php:651
+#: bbp-theme-compat/bbpress-functions.php:256
+#: bbp-themes/bbp-twentyten/bbpress-functions.php:207
+msgid "Add this topic to your favorites"
+msgstr "이 글을 즐겨찾기에 추가하기"
+
+#: bbp-includes/bbp-user-template.php:769
+#: bbp-theme-compat/bbpress-functions.php:265
+#: bbp-themes/bbp-twentyten/bbpress-functions.php:216
+msgid "Subscribe"
+msgstr "구독하기"
+
+#: bbp-includes/bbp-user-template.php:770
+#: bbp-theme-compat/bbpress-functions.php:266
+#: bbp-themes/bbp-twentyten/bbpress-functions.php:217
+msgid "Unsubscribe"
+msgstr "구독 해제"
+
+#: bbp-includes/bbp-forum-template.php:2193
+#: bbp-theme-compat/bbpress/feedback-no-access.php:13
+#: bbp-themes/bbp-twentyten/bbpress/feedback-no-access.php:13
+msgid "Private"
+msgstr "개인용"
+
+#: bbp-theme-compat/bbpress/feedback-no-access.php:16
+#: bbp-themes/bbp-twentyten/bbpress/feedback-no-access.php:16
+msgid "You do not have permission to view this forum."
+msgstr "당신은 이 게시판을 볼 권한이 없습니다."
+
+#: bbp-theme-compat/bbpress/form-topic-split.php:76
+#: bbp-themes/bbp-twentyten/bbpress/form-topic-split.php:76
+msgid "Copy subscribers to the new topic"
+msgstr "새 글에 구독자를 복사하기"
+
+#: bbp-theme-compat/bbpress/form-topic-split.php:81
+#: bbp-themes/bbp-twentyten/bbpress/form-topic-split.php:81
+msgid "Copy favoriters to the new topic"
+msgstr "새 글에 즐겨찾기를 복사하기"
+
+#: bbp-theme-compat/bbpress/form-topic-split.php:86
+#: bbp-themes/bbp-twentyten/bbpress/form-topic-split.php:86
+msgid "Copy topic tags to the new topic"
+msgstr "새 글에 글 태그 복사하기"
+
+#: bbp-theme-compat/bbpress/form-topic-merge.php:90
+#: bbp-theme-compat/bbpress/form-topic-split.php:94
+#: bbp-themes/bbp-twentyten/bbpress/form-topic-merge.php:90
+#: bbp-themes/bbp-twentyten/bbpress/form-topic-split.php:94
+msgid "<strong>WARNING:</strong> This process cannot be undone."
+msgstr "<strong>경고:</strong> 실행 후에는 되돌리기가 불가능합니다."
+
+#: bbp-theme-compat/bbpress/form-topic-merge.php:107
+#: bbp-theme-compat/bbpress/form-topic-split.php:111
+#: bbp-themes/bbp-twentyten/bbpress/form-topic-merge.php:107
+#: bbp-themes/bbp-twentyten/bbpress/form-topic-split.php:111
+msgid "You do not have the permissions to edit this topic!"
+msgstr "이 글에 대한 수정 권한이 없습니다."
+
+#: bbp-theme-compat/bbpress/form-topic-merge.php:107
+#: bbp-theme-compat/bbpress/form-topic-split.php:111
+#: bbp-themes/bbp-twentyten/bbpress/form-topic-merge.php:107
+#: bbp-themes/bbp-twentyten/bbpress/form-topic-split.php:111
+msgid "You cannot edit this topic."
+msgstr "이 글을 편집할 수 없습니다."
+
+#: bbp-theme-compat/bbpress/form-topic-merge.php:24
+#: bbp-themes/bbp-twentyten/bbpress/form-topic-merge.php:24
+msgid "Merge topic \"%s\""
+msgstr "글 \"%s\" 병합"
+
+#: bbp-theme-compat/bbpress/form-topic-merge.php:29
+#: bbp-themes/bbp-twentyten/bbpress/form-topic-merge.php:29
+msgid ""
+"Select the topic to merge this one into. The destination topic will remain "
+"the lead topic, and this one will change into a reply."
+msgstr ""
+"이 글과 병합하려는 대상 글을 선택하세요. 대상 글은 주 글이 되고 이 글은 댓글"
+"으로 변경됩니다."
+
+#: bbp-theme-compat/bbpress/form-topic-merge.php:30
+#: bbp-themes/bbp-twentyten/bbpress/form-topic-merge.php:30
+msgid ""
+"To keep this topic as the lead, go to the other topic and use the merge tool "
+"from there instead."
+msgstr ""
+"이 글을 주 글으로 하려면 다른 글으로 가서 그곳에서 병합툴을 사용하세요."
+
+#: bbp-theme-compat/bbpress/form-topic-merge.php:34
+#: bbp-themes/bbp-twentyten/bbpress/form-topic-merge.php:34
+msgid ""
+"All replies within both topics will be merged chronologically. The order of "
+"the merged replies is based on the time and date they were posted. If the "
+"destination topic was created after this one, it's post date will be updated "
+"to second earlier than this one."
+msgstr ""
+"두개의 글에 있는 모든 댓글은 시간순으로 병합됩니다. 병합된 댓글의 순서는 게시"
+"된 시간과 날짜를 기준으로 합니다. 대상 글이 이 글 이후에 생성됐다면 이것보다 "
+"두번째로 빠른 시간으로 업데이트됩니다."
+
+#: bbp-theme-compat/bbpress/form-topic-merge.php:38
+#: bbp-themes/bbp-twentyten/bbpress/form-topic-merge.php:38
+msgid "Destination"
+msgstr "대상"
+
+#: bbp-theme-compat/bbpress/form-topic-merge.php:42
+#: bbp-themes/bbp-twentyten/bbpress/form-topic-merge.php:42
+msgid "Merge with this topic:"
+msgstr "다음 글과 합칩니다:"
+
+#: bbp-theme-compat/bbpress/form-topic-merge.php:51
+#: bbp-themes/bbp-twentyten/bbpress/form-topic-merge.php:51
+msgid "No topics were found to which the topic could be merged to!"
+msgstr "합쳐야 할 글을 찾을 수 없습니다."
+
+#: bbp-theme-compat/bbpress/form-topic-merge.php:57
+#: bbp-themes/bbp-twentyten/bbpress/form-topic-merge.php:57
+msgid "There are no other topics in this forum to merge with."
+msgstr "이 게시판 내에는 합칠 글이 없습니다."
+
+#: bbp-theme-compat/bbpress/form-topic-merge.php:72
+#: bbp-themes/bbp-twentyten/bbpress/form-topic-merge.php:72
+msgid "Merge topic subscribers"
+msgstr "글 구독자 병합"
+
+#: bbp-theme-compat/bbpress/form-topic-merge.php:77
+#: bbp-themes/bbp-twentyten/bbpress/form-topic-merge.php:77
+msgid "Merge topic favoriters"
+msgstr "글 즐겨찾기 병합"
+
+#: bbp-theme-compat/bbpress/form-topic-merge.php:82
+#: bbp-themes/bbp-twentyten/bbpress/form-topic-merge.php:82
+msgid "Merge topic tags"
+msgstr "글 태그 병합"
+
+#: bbp-admin/bbp-forums.php:423
+#: bbp-theme-compat/bbpress/content-single-topic-lead.php:18
+#: bbp-theme-compat/bbpress/content-single-topic-lead.php:90
+#: bbp-themes/bbp-twentyten/bbpress/content-single-topic-lead.php:17
+msgid "Creator"
+msgstr "만든이"
+
+#: bbp-includes/bbp-topic-template.php:2041
+msgid "Tagged:"
+msgstr "태그:"
+
+#: bbp-includes/bbp-forum-template.php:1830
+#: bbp-includes/bbp-topic-template.php:1859
+msgid "%s reply"
+msgid_plural "%s replies"
+msgstr[0] "댓글 %s개"
+
+#: bbp-admin/bbp-topics.php:775 bbp-includes/bbp-topic-template.php:1818
+msgid "No Replies"
+msgstr "댓글 없음"
+
+#: bbp-includes/bbp-core-widgets.php:858
+msgid "Maximum replies to show:"
+msgstr "보여줄 최대 댓글 수:"
+
+#: bbp-includes/bbp-core-widgets.php:671 bbp-includes/bbp-core-widgets.php:859
+msgid "Show post date:"
+msgstr "작성일자 보이기:"
+
+#: bbp-includes/bbp-core-widgets.php:670
+msgid "Maximum topics to show:"
+msgstr "보여줄 최대 글 수:"
+
+#: bbp-includes/bbp-core-widgets.php:493
+msgid "A list of recent topics, sorted by popularity or freshness."
+msgstr "최근 글 목록. 인기와 최근으로 분류됨"
+
+#: bbp-includes/bbp-reply-template.php:1013
+#: bbp-includes/bbp-topic-template.php:1330
+#: bbp-includes/bbp-user-template.php:1177
+msgid "Visit %s's website"
+msgstr "%s의 웹사이트 방문하기"
+
+#: bbp-admin/bbp-replies.php:796 bbp-admin/bbp-topics.php:865
+#: bbp-includes/bbp-reply-template.php:1627
+#: bbp-includes/bbp-topic-template.php:2363
+msgid "Trash"
+msgstr "휴지통"
+
+#: bbp-admin/bbp-replies.php:794 bbp-admin/bbp-topics.php:863
+#: bbp-includes/bbp-reply-template.php:1628
+#: bbp-includes/bbp-topic-template.php:2364
+msgid "Restore"
+msgstr "복구"
+
+#: bbp-admin/bbp-replies.php:794 bbp-admin/bbp-topics.php:863
+#: bbp-includes/bbp-reply-template.php:1642
+#: bbp-includes/bbp-topic-template.php:2378
+msgid "Restore this item from the Trash"
+msgstr "이 항목을 휴지통에서 복구하기"
+
+#: bbp-theme-compat/bbpress/form-reply.php:123
+#: bbp-theme-compat/bbpress/form-topic.php:176
+#: bbp-themes/bbp-twentyten/bbpress/form-reply.php:123
+#: bbp-themes/bbp-twentyten/bbpress/form-topic.php:176
+msgid "Revision"
+msgstr "리비전"
+
+#: bbp-theme-compat/bbpress/form-reply.php:188
+#: bbp-themes/bbp-twentyten/bbpress/form-reply.php:188
+msgid "You cannot reply to this topic."
+msgstr "이 글에 댓글을 달 수 없습니다."
+
+#: bbp-theme-compat/bbpress/form-reply.php:86
+#: bbp-themes/bbp-twentyten/bbpress/form-reply.php:86
+msgid "Tags:"
+msgstr "태그"
+
+#: bbp-theme-compat/bbpress/form-reply.php:36
+#: bbp-themes/bbp-twentyten/bbpress/form-reply.php:36
+msgid ""
+"This topic is marked as closed to new replies, however your posting "
+"capabilities still allow you to do so."
+msgstr "이 글은 닫혀있지만, 회원님은 이 글에 글을 올릴 수 있습니다."
+
+#: bbp-theme-compat/bbpress/form-reply.php:60
+#: bbp-theme-compat/bbpress/form-topic.php:86
+#: bbp-themes/bbp-twentyten/bbpress/form-reply.php:60
+#: bbp-themes/bbp-twentyten/bbpress/form-topic.php:86
+msgid "Reply:"
+msgstr "댓글:"
+
+#: bbp-theme-compat/bbpress/form-topic.php:229
+#: bbp-themes/bbp-twentyten/bbpress/form-topic.php:229
+msgid "You cannot create new topics at this time."
+msgstr "지금은 새 글을 생성할 수 없습니다."
+
+#: bbp-theme-compat/bbpress/form-topic.php:229
+#: bbp-themes/bbp-twentyten/bbpress/form-topic.php:229
+msgid "You must be logged in to create new topics."
+msgstr "글쓰기는 로그인 후 가능합니다."
+
+#: bbp-theme-compat/bbpress/form-anonymous.php:27
+#: bbp-themes/bbp-twentyten/bbpress/form-anonymous.php:27
+msgid "Mail (will not be published) (required):"
+msgstr "메일 (필수)"
+
+#: bbp-theme-compat/bbpress/form-anonymous.php:22
+#: bbp-themes/bbp-twentyten/bbpress/form-anonymous.php:22
+msgid "Name (required):"
+msgstr "이름 (필수)"
+
+#: bbp-theme-compat/bbpress/form-anonymous.php:17
+#: bbp-themes/bbp-twentyten/bbpress/form-anonymous.php:17
+msgid "Your information:"
+msgstr "글쓴이 정보:"
+
+#: bbp-themes/bbp-twentyten/bbpress/form-user-lost-pass.php:27
+msgid "Reset my password"
+msgstr "비밀번호 재설정"
+
+#: bbp-theme-compat/bbpress/form-topic-tag.php:18
+#: bbp-themes/bbp-twentyten/bbpress/form-topic-tag.php:18
+msgid "Manage Tag: \"%s\""
+msgstr "태그 관리: \"%s\""
+
+#: bbp-theme-compat/bbpress/form-protected.php:14
+#: bbp-themes/bbp-twentyten/bbpress/form-protected.php:14
+msgid "Protected"
+msgstr "보호됨"
+
+#: bbp-theme-compat/bbpress/loop-single-topic.php:38
+#: bbp-themes/bbp-twentyten/bbpress/loop-single-topic.php:38
+msgid "in: <a href=\"%1$s\">%2$s</a>"
+msgstr "게시판: <a href=\"%1$s\">%2$s</a>"
+
+#: bbp-theme-compat/bbpress/form-topic-tag.php:35
+#: bbp-themes/bbp-twentyten/bbpress/form-topic-tag.php:35
+msgid "Name:"
+msgstr "이름:"
+
+#: bbp-theme-compat/bbpress/form-topic-tag.php:22
+#: bbp-themes/bbp-twentyten/bbpress/form-topic-tag.php:22
+msgid "Rename"
+msgstr "이름 재설정"
+
+#: bbp-theme-compat/bbpress/form-topic-tag.php:25
+#: bbp-themes/bbp-twentyten/bbpress/form-topic-tag.php:25
+msgid "Leave the slug empty to have one automatically generated."
+msgstr "슬러그를 자동으로 생성하려면 비워두세요."
+
+#: bbp-theme-compat/bbpress/form-topic-tag.php:29
+#: bbp-themes/bbp-twentyten/bbpress/form-topic-tag.php:29
+msgid ""
+"Changing the slug affects its permalink. Any links to the old slug will stop "
+"working."
+msgstr ""
+"슬러그를 변경하면 고유쥬소에 영향을 미칩니다. 이전의 슬러그에 대한 링크는 작"
+"동을 중단합니다."
+
+#: bbp-theme-compat/bbpress/form-topic-tag.php:94
+#: bbp-themes/bbp-twentyten/bbpress/form-topic-tag.php:95
+msgid "Deleting a tag cannot be undone."
+msgstr "태그 삭제는 되돌릴 수 없습니다."
+
+#: bbp-theme-compat/bbpress/form-topic-tag.php:91
+#: bbp-themes/bbp-twentyten/bbpress/form-topic-tag.php:92
+msgid "This does not delete your topics. Only the tag itself is deleted."
+msgstr "이것은 당신의 글을 삭제하지 않습니다. 태그를 삭제할 뿐입니다."
+
+#: bbp-includes/bbp-reply-template.php:1629
+#: bbp-includes/bbp-topic-template.php:2365
+#: bbp-theme-compat/bbpress/form-topic-tag.php:88
+#: bbp-theme-compat/bbpress/form-topic-tag.php:101
+#: bbp-themes/bbp-twentyten/bbpress/form-topic-tag.php:89
+#: bbp-themes/bbp-twentyten/bbpress/form-topic-tag.php:102
+msgid "Delete"
+msgstr "삭제"
+
+#: bbp-theme-compat/bbpress/form-topic-tag.php:73
+#: bbp-themes/bbp-twentyten/bbpress/form-topic-tag.php:74
+msgid ""
+"Are you sure you want to merge the \"%s\" tag into the tag you specified?"
+msgstr "정말로 \"%s\" 태그를 당신이 지정한 태그로 병합하시겠습니까?"
+
+#: bbp-theme-compat/bbpress/form-topic-tag.php:68
+#: bbp-themes/bbp-twentyten/bbpress/form-topic-tag.php:68
+msgid "Existing tag:"
+msgstr "기존 태그:"
+
+#: bbp-theme-compat/bbpress/form-topic-tag.php:62
+#: bbp-themes/bbp-twentyten/bbpress/form-topic-tag.php:62
+msgid "Merging tags together cannot be undone."
+msgstr "태그 병합은 되돌릴 수 없습니다."
+
+#: bbp-includes/bbp-topic-template.php:2564
+#: bbp-theme-compat/bbpress/form-topic-tag.php:59
+#: bbp-theme-compat/bbpress/form-topic-tag.php:73
+#: bbp-themes/bbp-twentyten/bbpress/form-topic-tag.php:59
+#: bbp-themes/bbp-twentyten/bbpress/form-topic-tag.php:73
+msgid "Merge"
+msgstr "병합"
+
+#: bbp-theme-compat/bbpress/form-topic-tag.php:45
+#: bbp-themes/bbp-twentyten/bbpress/form-topic-tag.php:45
+msgid "Update"
+msgstr "업데이트"
+
+#: bbp-theme-compat/bbpress/form-topic-tag.php:40
+#: bbp-themes/bbp-twentyten/bbpress/form-topic-tag.php:40
+msgid "Slug:"
+msgstr "슬러그:"
+
+#: bbp-admin/bbp-topics.php:843 bbp-includes/bbp-topic-template.php:2494
+msgid "Unstick"
+msgstr "붙박이 해제"
+
+#: bbp-admin/bbp-topics.php:846 bbp-includes/bbp-topic-template.php:2495
+msgid "to front"
+msgstr "전면"
+
+#: bbp-includes/bbp-topic-template.php:2676
+msgid "Viewing %1$s topic"
+msgid_plural "Viewing %1$s topics"
+msgstr[0] "%1$s개의 글뷰"
+
+#: bbp-includes/bbp-topic-template.php:2740
+msgid "This topic is marked as spam."
+msgstr "이 글은 스팸으로 처리됐습니다."
+
+#: bbp-includes/bbp-topic-template.php:2745
+msgid "This topic is in the trash."
+msgstr "이 글은 휴지통에 있습니다."
+
+#: bbp-includes/bbp-topic-template.php:2783
+msgid "Normal"
+msgstr "일반글"
+
+#: bbp-includes/bbp-topic-template.php:2784
+msgid "Sticky"
+msgstr "붙박이"
+
+#: bbp-includes/bbp-topic-template.php:2785
+msgid "Super Sticky"
+msgstr "최상단 붙박이"
+
+#: bbp-includes/bbp-topic-template.php:2906
+msgid "%s voice"
+msgid_plural "%s voices"
+msgstr[0] "%s명 참여"
+
+#: bbp-includes/bbp-common-template.php:1225
+msgid "No topics available"
+msgstr "글이 가능하지 않습니다."
+
+#: bbp-includes/bbp-common-template.php:1230
+msgid "No forums available"
+msgstr "게시판이 가능하지 않습니다."
+
+#: bbp-includes/bbp-common-template.php:1235
+msgid "None available"
+msgstr "가능한 것이 없음"
+
+#: bbp-includes/bbp-common-template.php:1352
+#: bbp-includes/bbp-common-template.php:1363
+#: bbp-includes/bbp-topic-functions.php:1199
+#: bbp-includes/bbp-topic-functions.php:1539
+#: bbp-theme-compat/bbpress/form-reply.php:29
+#: bbp-themes/bbp-twentyten/bbpress/form-reply.php:29
+msgid "Reply To: %s"
+msgstr "'%s'에 댓글달기"
+
+#: bbp-includes/bbp-common-template.php:2087
+msgid "Log Out"
+msgstr "로그 아웃"
+
+#: bbp-includes/bbp-common-template.php:2162
+msgid "Your Profile"
+msgstr "당신의 프로필"
+
+#: bbp-includes/bbp-common-template.php:2167
+msgid "%s's Profile"
+msgstr "%s의 프로필"
+
+#: bbp-includes/bbp-common-template.php:2175
+msgid "Edit Your Profile"
+msgstr "프로필 편집"
+
+#: bbp-includes/bbp-common-template.php:2180
+msgid "Edit %s's Profile"
+msgstr "%s의 프로필 편집"
+
+#: bbp-includes/bbp-common-template.php:2140
+msgid "Forum: %s"
+msgstr "게시판: %s"
+
+#: bbp-includes/bbp-common-template.php:2144
+msgid "Topic: %s"
+msgstr "글: %s"
+
+#: bbp-includes/bbp-common-template.php:2187
+msgid "View: %s"
+msgstr "보기: %s"
+
+#: bbp-includes/bbp-reply-functions.php:143
+msgid "<strong>ERROR</strong>: You do not have permission to reply."
+msgstr "<strong>에러</strong>: 당신은 댓글할 권한이 없습니다."
+
+#: bbp-includes/bbp-reply-functions.php:157
+msgid "<strong>ERROR</strong>: Topic ID is missing."
+msgstr "<strong>에러</strong>: 글 ID가 없습니다."
+
+#: bbp-includes/bbp-reply-functions.php:168
+#: bbp-includes/bbp-topic-functions.php:199
+#: bbp-includes/bbp-topic-functions.php:486
+msgid "<strong>ERROR</strong>: Forum ID is missing."
+msgstr "<strong>에러</strong>: 게시판 ID가 없습니다."
+
+#: bbp-includes/bbp-reply-functions.php:189
+msgid "<strong>ERROR</strong>: Your reply needs a title."
+msgstr "<strong>에러</strong>: 댓글은 제목이 필요합니다."
+
+#: bbp-includes/bbp-reply-functions.php:201
+#: bbp-includes/bbp-reply-functions.php:483
+msgid "<strong>ERROR</strong>: Your reply cannot be empty."
+msgstr "<strong>에러</strong>: 댓글에 내용을 입력하세요."
+
+#: bbp-includes/bbp-forum-functions.php:211
+#: bbp-includes/bbp-reply-functions.php:206
+#: bbp-includes/bbp-topic-functions.php:228
+msgid "<strong>ERROR</strong>: Slow down; you move too fast."
+msgstr "<strong>에러</strong>: 천천히 하세요. 너무 빨리 하고 있습니다."
+
+#: bbp-includes/bbp-reply-functions.php:211
+msgid ""
+"<strong>ERROR</strong>: Duplicate reply detected; it looks as though "
+"you&#8217;ve already said that!"
+msgstr ""
+"<strong>에러</strong>: 이중 댓글이 감지됨; 당신은 이미 같은 내용을 말한 것 같"
+"습니다."
+
+#: bbp-includes/bbp-reply-functions.php:391
+msgid "<strong>ERROR</strong>: Reply ID not found."
+msgstr "<strong>에러</strong>: 댓글 ID를 찾을 수 없음"
+
+#: bbp-includes/bbp-reply-functions.php:408
+msgid "<strong>ERROR</strong>: The reply you want to edit was not found."
+msgstr "<strong>에러</strong>: 편집하려는 댓글을 찾을 수 없음"
+
+#: bbp-includes/bbp-reply-functions.php:419
+msgid "<strong>ERROR</strong>: You do not have permission to edit that reply."
+msgstr "<strong>에러</strong>: 해당 댓글을 편집할 권한이 없습니다."
+
+#: bbp-includes/bbp-reply-functions.php:450
+msgid ""
+"<strong>ERROR</strong>: This forum is a category. No topics or replies can "
+"be created in it."
+msgstr ""
+"<strong>에러</strong>: 이 게시판은 카테고리입니다. 이곳에서 글이나 댓글이 생"
+"성될 수 없습니다."
+
+#: bbp-includes/bbp-reply-functions.php:454
+msgid ""
+"<strong>ERROR</strong>: This forum has been closed to new topics and replies."
+msgstr "<strong>에러</strong>: 이 게시판은 새글과 댓글으로 닫혔습니다."
+
+#: bbp-includes/bbp-reply-functions.php:458
+msgid ""
+"<strong>ERROR</strong>: This forum is private and you do not have the "
+"capability to read or create new replies in it."
+msgstr ""
+"<strong>에러</strong>: 이 게시판은 개인용입니다. 따라서 이 안에서 새 댓글을 "
+"만들거나 읽을 권한이 없습니다."
+
+#: bbp-includes/bbp-reply-functions.php:462
+msgid ""
+"<strong>ERROR</strong>: This forum is hidden and you do not have the "
+"capability to read or create new replies in it."
+msgstr ""
+"<strong>에러</strong>: 이 게시판은 숨겨진 게시판입니다. 따라서 이 안에서 새 "
+"댓글을 만들거나 읽을 권한이 없습니다."
+
+#: bbp-includes/bbp-reply-functions.php:1039
+msgid "<strong>ERROR:</strong> You do not have the permission to do that!"
+msgstr "<strong>에러:</strong> 당신은 그럴 권한이 없습니다!"
+
+#: bbp-includes/bbp-reply-functions.php:1052
+msgid ""
+"<strong>ERROR</strong>: There was a problem unmarking the reply as spam!"
+msgstr ""
+"<strong>에러</strong>: 댓글을 스팸에서 정상으로 처리하는데 문제가 발생했습니"
+"다!"
+
+#: bbp-includes/bbp-reply-functions.php:1052
+msgid "<strong>ERROR</strong>: There was a problem marking the reply as spam!"
+msgstr "<strong>에러</strong>: 댓글을 스팸으로 처리하는데 문제가 발생했습니다!"
+
+#: bbp-includes/bbp-reply-functions.php:1071
+msgid "<strong>ERROR</strong>: There was a problem trashing the reply!"
+msgstr "<strong>에러</strong>: 댓글을 휴지통에 보내는데 문제가 발생했습니다!"
+
+#: bbp-includes/bbp-reply-functions.php:1079
+msgid "<strong>ERROR</strong>: There was a problem untrashing the reply!"
+msgstr ""
+"<strong>에러</strong>: 댓글을 휴지통에서 복구하는데 문제가 발생했습니다!"
+
+#: bbp-includes/bbp-reply-functions.php:1087
+msgid "<strong>ERROR</strong>: There was a problem deleting the reply!"
+msgstr "<strong>에러</strong>: 댓글을 삭제하는데 문제가 발생했습니다!"
+
+#: bbp-includes/bbp-reply-functions.php:1480
+msgid "All Posts"
+msgstr "모든 글"
+
+#: bbp-admin/bbp-tools.php:869 bbp-includes/bbp-reply-functions.php:1482
+#: bbpress.php:597
+msgid "All Replies"
+msgstr "모든 댓글"
+
+#: bbp-includes/bbp-reply-functions.php:1522
+#: bbp-includes/bbp-topic-functions.php:3195
+msgid "Replies: %s"
+msgstr "댓글: %s"
+
+#: bbp-includes/bbp-reply-template.php:912
+#: bbp-includes/bbp-topic-template.php:1225
+#: bbp-includes/bbp-user-template.php:164
+msgid "Anonymous"
+msgstr "익명"
+
+#: bbp-includes/bbp-user-template.php:507
+msgid "Admin"
+msgstr "관리자"
+
+#: bbp-includes/bbp-user-template.php:652
+msgid " (%?%)"
+msgstr " (%?%)"
+
+#: bbp-includes/bbp-user-template.php:658
+msgid "This topic is one of your %favorites% ["
+msgstr "이 글은 나의 즐겨찾기에 들어 있습니다. %즐겨찾기% ["
+
+#: bbp-includes/bbp-user-template.php:660
+msgid "]"
+msgstr "]"
+
+#: bbp-includes/bbp-user-template.php:836
+msgid "User updated."
+msgstr "사용자 업데이트됨."
+
+#: bbp-includes/bbp-user-template.php:861
+msgid "You have super admin privileges."
+msgstr "당신은 최고 관리자 지위를 갖고 있습니다."
+
+#: bbp-includes/bbp-user-template.php:861
+msgid "This user has super admin privileges."
+msgstr "이 사용자는 최고 관리자 지위를 갖고 있습니다."
+
+#: bbp-includes/bbp-user-template.php:927
+msgid "&mdash; No role for this site &mdash;"
+msgstr "&mdash; 이 사이트에서 역할이 없습니다 &mdash;"
+
+#: bbp-includes/bbp-user-template.php:975
+msgid "You are now logged out."
+msgstr "당신은 이제 로그아웃 됐습니다."
+
+#: bbp-includes/bbp-user-template.php:979
+msgid "New user registration is currently not allowed."
+msgstr "새 사용자 등록이 현재 허용되지 않습니다."
+
+#: bbp-includes/bbp-user-template.php:988
+msgid "Check your e-mail for the confirmation link."
+msgstr "확인 링크가 있는 이메일을 체크하세요."
+
+#: bbp-includes/bbp-user-template.php:993
+msgid "Check your e-mail for your new password."
+msgstr "새 비밀번호는 이메일을 체크하세요."
+
+#: bbp-includes/bbp-user-template.php:998
+msgid "Registration complete. Please check your e-mail."
+msgstr "등록 완료. 이메일을 체크하세요."
+
+#: bbp-includes/bbp-user-functions.php:476
+#: bbp-includes/bbp-user-functions.php:796
+msgid ""
+"<strong>ERROR</strong>: You don't have the permission to edit favorites of "
+"that user!"
+msgstr ""
+"<strong>에러</strong>: 해당 사용자의 즐겨찾기를 편집할 권한이 없습니다."
+
+#: bbp-includes/bbp-user-functions.php:468
+msgid ""
+"<strong>ERROR</strong>: No topic was found! Which topic are you marking/"
+"unmarking as favorite?"
+msgstr ""
+"<strong>에러</strong>: 글을 찾을 수 없음! 어떤 글을 즐겨찾기/즐겨찾기 제거 하"
+"려고 하시는지요?"
+
+#: bbp-includes/bbp-user-functions.php:517
+msgid ""
+"<strong>ERROR</strong>: There was a problem removing that topic from "
+"favorites!"
+msgstr ""
+"<strong>에러</strong>: 즐겨찾기에서 글을 제거하는데 문제가 발생했습니다."
+
+#: bbp-includes/bbp-user-functions.php:519
+msgid "<strong>ERROR</strong>: There was a problem favoriting that topic!"
+msgstr "<strong>에러</strong>: 해당 글을 즐겨찾기하는데 문제가 발생했습니다."
+
+#: bbp-includes/bbp-user-functions.php:788
+msgid ""
+"<strong>ERROR</strong>: No topic was found! Which topic are you subscribing/"
+"unsubscribing to?"
+msgstr ""
+"<strong>에러</strong>: 글을 찾을 수 없음! 어떤 글을 구독/구톡 해지 하시려는지"
+"요?"
+
+#: bbp-includes/bbp-user-functions.php:837
+msgid ""
+"<strong>ERROR</strong>: There was a problem unsubscribing from that topic!"
+msgstr "<strong>에러</strong>: 해당 글을 구독해지하는데 문제가 발생했습니다."
+
+#: bbp-includes/bbp-user-functions.php:839
+msgid "<strong>ERROR</strong>: There was a problem subscribing to that topic!"
+msgstr "<strong>에러</strong>: 해당 글을 구독하는데 문제가 발생했습니다."
+
+#: bbp-includes/bbp-topic-functions.php:157
+msgid ""
+"<strong>ERROR</strong>: You do not have permission to create new topics."
+msgstr "<strong>에러</strong>: 새 글을 생성할 권한이 없습니다."
+
+#: bbp-includes/bbp-topic-functions.php:181
+#: bbp-includes/bbp-topic-functions.php:526
+msgid "<strong>ERROR</strong>: Your topic needs a title."
+msgstr "<strong>에러</strong>: 제목이 빠졌습니다."
+
+#: bbp-includes/bbp-topic-functions.php:193
+#: bbp-includes/bbp-topic-functions.php:538
+msgid "<strong>ERROR</strong>: Your topic cannot be empty."
+msgstr "<strong>에러</strong>: 내용이 빠졌습니다."
+
+#: bbp-includes/bbp-topic-functions.php:210
+msgid ""
+"<strong>ERROR</strong>: This forum is a category. No topics can be created "
+"in this forum."
+msgstr ""
+"<strong>에러</strong>: 이 게시판은 카테고리입니다. 이 게시판에서 글을 생성할 "
+"수 없습니다."
+
+#: bbp-includes/bbp-topic-functions.php:214
+#: bbp-includes/bbp-topic-functions.php:505
+msgid "<strong>ERROR</strong>: This forum has been closed to new topics."
+msgstr "<strong>에러</strong>: 이 게시판은 새 글으로 마감됐습니다."
+
+#: bbp-includes/bbp-topic-functions.php:218
+#: bbp-includes/bbp-topic-functions.php:509
+msgid ""
+"<strong>ERROR</strong>: This forum is private and you do not have the "
+"capability to read or create new topics in it."
+msgstr ""
+"<strong>에러</strong>: 이 게시판은 개인용이며 이 안에서 글을 읽거나 새 글을 "
+"생성할 권한이 없습니다."
+
+#: bbp-includes/bbp-topic-functions.php:222
+#: bbp-includes/bbp-topic-functions.php:513
+msgid ""
+"<strong>ERROR</strong>: This forum is hidden and you do not have the "
+"capability to read or create new topics in it."
+msgstr ""
+"<strong>에러</strong>: 이 게시판은 숨겨져 있으며 이 안에서 글을 읽거나 새 글"
+"을 생성할 권한이 없습니다."
+
+#: bbp-includes/bbp-topic-functions.php:233
+msgid ""
+"<strong>ERROR</strong>: Duplicate topic detected; it looks as though "
+"you&#8217;ve already said that!"
+msgstr ""
+"<strong>에러</strong>: 이중 글이 감지됐습니다; 당신은 이미 같은 내용을 말한 "
+"것으로 보입니다."
+
+#: bbp-includes/bbp-topic-functions.php:437
+#: bbp-includes/bbp-topic-functions.php:1052
+msgid "<strong>ERROR</strong>: Topic ID not found."
+msgstr "<strong>에러</strong>: 글 ID를 찾을 수 없습니다."
+
+#: bbp-includes/bbp-topic-functions.php:448
+msgid "<strong>ERROR</strong>: The topic you want to edit was not found."
+msgstr "<strong>에러</strong>: 편집하고자 하는 글을 찾을 수 없습니다."
+
+#: bbp-includes/bbp-topic-functions.php:459
+msgid "<strong>ERROR</strong>: You do not have permission to edit that topic."
+msgstr "<strong>에러</strong>: 해당 글을 편집할 권한이 없습니다."
+
+#: bbp-includes/bbp-topic-functions.php:501
+msgid ""
+"<strong>ERROR</strong>: This forum is a category. No topics can be created "
+"in it."
+msgstr ""
+"<strong>에러</strong>: 이 게시판은 카테고리입니다. 글을 생성할 수 없습니다."
+
+#: bbp-includes/bbp-topic-functions.php:1063
+msgid "<strong>ERROR</strong>: The topic you want to merge was not found."
+msgstr "<strong>에러</strong>: 병합하려는 글을 찾을 수 없습니다."
+
+#: bbp-includes/bbp-topic-functions.php:1069
+#: bbp-includes/bbp-topic-functions.php:1366
+msgid ""
+"<strong>ERROR</strong>: You do not have the permissions to edit the source "
+"topic."
+msgstr "<strong>에러</strong>: 소스 글을 편집할 권한이 없습니다."
+
+#: bbp-includes/bbp-topic-functions.php:1077
+msgid "<strong>ERROR</strong>: Destination topic ID not found."
+msgstr "<strong>에러</strong>: 대상 글 ID를 찾을 수 없습니다."
+
+#: bbp-includes/bbp-topic-functions.php:1083
+msgid "<strong>ERROR</strong>: The topic you want to merge to was not found."
+msgstr "<strong>에러</strong>: 병합하려는 글을 찾을 수 없습니다."
+
+#: bbp-includes/bbp-topic-functions.php:1087
+msgid ""
+"<strong>ERROR</strong>: You do not have the permissions to edit the "
+"destination topic."
+msgstr "<strong>에러</strong>: 대상 글을 편집할 권한이 없습니다."
+
+#: bbp-includes/bbp-topic-functions.php:1339
+msgid "<strong>ERROR</strong>: Reply ID to split the topic from not found!"
+msgstr "<strong>에러</strong>: 글을 분할할 댓글 ID를 찾을 수 없습니다!"
+
+#: bbp-includes/bbp-topic-functions.php:1347
+msgid "<strong>ERROR</strong>: The reply you want to split from was not found."
+msgstr "<strong>에러</strong>: 분할하려는 댓글을 찾을 수 없습니다."
+
+#: bbp-includes/bbp-topic-functions.php:1356
+msgid "<strong>ERROR</strong>: The topic you want to split was not found."
+msgstr "<strong>에러</strong>: 분할하려는 글을 찾을 수 없습니다."
+
+#: bbp-includes/bbp-topic-functions.php:1374
+msgid "<strong>ERROR</strong>: You need to choose a valid split option."
+msgstr "<strong>에러</strong>: 유효한 분할 옵션을 선택해야합니다."
+
+#: bbp-includes/bbp-topic-functions.php:1387
+msgid "<strong>ERROR</strong>: Destination topic ID not found!"
+msgstr "<strong>에러</strong>: 대상 글 ID를 찾을 수 없습니다."
+
+#: bbp-includes/bbp-topic-functions.php:1396
+msgid "<strong>ERROR</strong>: The topic you want to split to was not found!"
+msgstr "<strong>에러</strong>: 분할 대상 글을 찾을 수 없습니다."
+
+#: bbp-includes/bbp-topic-functions.php:1400
+msgid ""
+"<strong>ERROR</strong>: You do not have the permissions to edit the "
+"destination topic!"
+msgstr "<strong>에러</strong>: 대상 글을 편집할 권한이 없습니다!"
+
+#: bbp-includes/bbp-topic-functions.php:1439
+msgid ""
+"<strong>ERROR</strong>: There was a problem converting the reply into the "
+"topic. Please try again."
+msgstr ""
+"<strong>에러</strong>: 댓글을 글으로 변환하는데 문제가 발생했습니다. 다시 시"
+"도하세요."
+
+#: bbp-includes/bbp-topic-functions.php:1444
+msgid ""
+"<strong>ERROR</strong>: You do not have the permissions to create new "
+"topics. The reply could not be converted into a topic."
+msgstr ""
+"<strong>에러</strong>: 새 글을 생성할 권한이 없습니다. 댓글은 글으로 변환될 "
+"수 없었습니다."
+
+#: bbp-includes/bbp-topic-functions.php:1681
+msgid ""
+"<strong>ERROR</strong>: The following problem(s) have been found while "
+"getting the tag: %s"
+msgstr "<strong>에러</strong>: 태그를 가져오면서 다음 문제가 발생했습니다: %s"
+
+#: bbp-includes/bbp-topic-functions.php:1699
+#: bbp-includes/bbp-topic-functions.php:1738
+msgid ""
+"<strong>ERROR</strong>: You do not have the permissions to edit the topic "
+"tags."
+msgstr "<strong>에러</strong>: 해당 글 태그를 편집할 권한이 없습니다."
+
+#: bbp-includes/bbp-topic-functions.php:1705
+#: bbp-includes/bbp-topic-functions.php:1744
+msgid "<strong>ERROR</strong>: You need to enter a tag name."
+msgstr "<strong>에러</strong>: 태그 이름을 입력해야합니다."
+
+#: bbp-includes/bbp-topic-functions.php:1715
+msgid ""
+"<strong>ERROR</strong>: The following problem(s) have been found while "
+"updating the tag: %s"
+msgstr ""
+"<strong>에러</strong>: 태그를 업데이트하면서 다음 문제가 발생했습니다: %s"
+
+#: bbp-includes/bbp-topic-functions.php:1754
+#: bbp-includes/bbp-topic-functions.php:1772
+msgid ""
+"<strong>ERROR</strong>: The following problem(s) have been found while "
+"merging the tags: %s"
+msgstr "<strong>에러</strong>: 태그를 병합하면서 다음 문제가 발생했습니다: %s"
+
+#: bbp-includes/bbp-topic-functions.php:1763
+msgid ""
+"<strong>ERROR</strong>: The tags which are being merged can not be the same."
+msgstr "<strong>에러</strong>: 병합되는 태그는 같을 수 없습니다."
+
+#: bbp-includes/bbp-topic-functions.php:1795
+msgid ""
+"<strong>ERROR</strong>: You do not have the permissions to delete the topic "
+"tags."
+msgstr "<strong>에러</strong>: 글 태그를 삭제할 권한이 없습니다."
+
+#: bbp-includes/bbp-topic-functions.php:1804
+msgid ""
+"<strong>ERROR</strong>: The following problem(s) have been found while "
+"deleting the tag: %s"
+msgstr ""
+"<strong>에러</strong>: 태그를 삭제하는데 다음의 문제가 발생했습니다: %s"
+
+#: bbp-includes/bbp-topic-functions.php:1933
+msgid "<strong>ERROR:</strong> You do not have the permission to do that."
+msgstr "<strong>에러</strong>: 그럴 권한이 없습니다."
+
+#: bbp-includes/bbp-topic-functions.php:1946
+msgid "<strong>ERROR</strong>: There was a problem closing the topic."
+msgstr "<strong>에러</strong>: 글을 마감하는데 문제가 발생했습니다."
+
+#: bbp-includes/bbp-topic-functions.php:1946
+msgid "<strong>ERROR</strong>: There was a problem opening the topic."
+msgstr "<strong>에러</strong>: 글을 여는데 문제가 발생했습니다."
+
+#: bbp-includes/bbp-topic-functions.php:1957
+msgid "<strong>ERROR</strong>: There was a problem unsticking the topic."
+msgstr "<strong>에러</strong>: 글을 붙박이에서 해제하는데 문제가 발생했습니다."
+
+#: bbp-includes/bbp-topic-functions.php:1957
+msgid "<strong>ERROR</strong>: There was a problem sticking the topic."
+msgstr "<strong>에러</strong>: 글을 붙박이로 만드는데 문제가 발생했습니다."
+
+#: bbp-includes/bbp-topic-functions.php:1967
+msgid ""
+"<strong>ERROR</strong>: There was a problem unmarking the topic as spam."
+msgstr ""
+"<strong>에러</strong>: 글을 스팸에서 정상으로 처리하는데 문제가 발생했습니다."
+
+#: bbp-includes/bbp-topic-functions.php:1967
+msgid "<strong>ERROR</strong>: There was a problem marking the topic as spam."
+msgstr "<strong>에러</strong>: 글을 스팸으로 처리하는데 문제가 발생했습니다."
+
+#: bbp-includes/bbp-topic-functions.php:1986
+msgid "<strong>ERROR</strong>: There was a problem trashing the topic."
+msgstr "<strong>에러</strong>: 글을 휴지통으로 보내는데 문제가 발생했습니다."
+
+#: bbp-includes/bbp-topic-functions.php:1994
+msgid "<strong>ERROR</strong>: There was a problem untrashing the topic."
+msgstr "<strong>에러</strong>: 글을 휴지통에서 복구하는데 문제가 발생했습니다."
+
+#: bbp-includes/bbp-topic-functions.php:2002
+msgid "<strong>ERROR</strong>: There was a problem deleting the topic."
+msgstr "<strong>에러</strong>: 글을 제거하는데 문제가 발생했습니다."
+
+#: bbp-admin/bbp-tools.php:868 bbp-includes/bbp-topic-functions.php:3170
+#: bbpress.php:540
+msgid "All Topics"
+msgstr "모든 글"
+
+#: bbp-admin/bbp-forums.php:474 bbp-includes/bbp-forum-template.php:533
+msgid "No Topics"
+msgstr "글 없음"
+
+#: bbp-includes/bbp-forum-template.php:1123
+#: bbp-includes/bbp-forum-template.php:1841
+msgid "%s topic"
+msgid_plural "%s topics"
+msgstr[0] "글 %s개"
+
+#: bbp-admin/bbp-metaboxes.php:42
+msgid "Discussion"
+msgstr "토론"
+
+#: bbp-admin/bbp-metaboxes.php:135
+msgid "User"
+msgid_plural "Users"
+msgstr[0] "사용자"
+
+#: bbp-admin/bbp-metaboxes.php:154
+msgid "Hidden Topic"
+msgid_plural "Hidden Topics"
+msgstr[0] "숨겨진 글"
+
+#: bbp-admin/bbp-metaboxes.php:176
+msgid "Hidden Reply"
+msgid_plural "Hidden Replies"
+msgstr[0] "숨겨진 댓글"
+
+#: bbp-admin/bbp-metaboxes.php:198
+msgid "Empty Topic Tag"
+msgid_plural "Empty Topic Tags"
+msgstr[0] "글 태그 비우기"
+
+#: bbp-admin/bbp-metaboxes.php:222
+msgid "You are using <span class=\"b\">bbPress %s</span>."
+msgstr "당신은 <span class=\"b\">bbPress %s</span>를 사용하고 있습니다."
+
+#: bbp-includes/bbp-forum-template.php:2117
+msgid "Category"
+msgstr "카테고리"
+
+#: bbp-includes/bbp-forum-template.php:2192
+msgid "Public"
+msgstr "공개"
+
+#: bbp-includes/bbp-forum-template.php:2194
+msgid "Hidden"
+msgstr "숨겨짐"
+
+#: bbp-admin/bbp-metaboxes.php:261 bbp-admin/bbp-metaboxes.php:262
+msgid "Type:"
+msgstr "형식:"
+
+#: bbp-admin/bbp-metaboxes.php:273 bbp-admin/bbp-metaboxes.php:274
+#: bbp-theme-compat/bbpress/form-forum.php:111
+#: bbp-themes/bbp-twentyten/bbpress/form-forum.php:111
+msgid "Status:"
+msgstr "상태:"
+
+#: bbp-admin/bbp-metaboxes.php:285 bbp-admin/bbp-metaboxes.php:286
+#: bbp-theme-compat/bbpress/form-forum.php:120
+#: bbp-themes/bbp-twentyten/bbpress/form-forum.php:120
+msgid "Visibility:"
+msgstr "가시성:"
+
+#: bbp-admin/bbp-metaboxes.php:299
+msgid "Parent:"
+msgstr "부모:"
+
+#: bbp-admin/bbp-metaboxes.php:300
+msgid "Forum Parent"
+msgstr "게시판 부모"
+
+#: bbp-admin/bbp-metaboxes.php:306 bbp-theme-compat/bbpress/form-forum.php:134
+#: bbp-themes/bbp-twentyten/bbpress/form-forum.php:134
+msgid "(No Parent)"
+msgstr "(부모 없음)"
+
+#: bbp-admin/bbp-metaboxes.php:315
+msgid "Order:"
+msgstr "순서:"
+
+#: bbp-admin/bbp-metaboxes.php:316
+msgid "Forum Order"
+msgstr "게시판 순서"
+
+#: bbp-admin/bbp-metaboxes.php:346 bbp-admin/bbp-topics.php:740
+msgid "(No Forum)"
+msgstr "(게시판 없음)"
+
+#: bbp-admin/bbp-metaboxes.php:466 bbp-admin/bbp-metaboxes.php:469
+#: bbp-theme-compat/bbpress/form-user-edit.php:105
+#: bbp-theme-compat/bbpress/form-user-register.php:28
+#: bbp-themes/bbp-twentyten/bbpress/form-user-edit.php:105
+#: bbp-themes/bbp-twentyten/bbpress/form-user-register.php:28
+msgid "Email"
+msgstr "메일"
+
+#: bbp-admin/bbp-metaboxes.php:482 bbp-admin/bbp-metaboxes.php:485
+msgid "IP Address"
+msgstr "IP 주소"
+
+#: bbp-admin/bbp-settings.php:24 bbp-admin/bbp-settings.php:1257
+msgid "Main Settings"
+msgstr "메인 설정"
+
+#: bbp-admin/bbp-settings.php:81
+msgid "Lock post editing after"
+msgstr "글 수정 잠그기"
+
+#: bbp-admin/bbp-settings.php:89
+msgid "Throttle time"
+msgstr "트로틀(throttle) 타임"
+
+#: bbp-admin/bbp-settings.php:34 bbp-admin/bbp-settings.php:1277
+msgid "Per Page"
+msgstr "페이지당"
+
+#: bbp-admin/bbp-settings.php:39
+msgid "Per RSS Page"
+msgstr "RSS 페이지당"
+
+#: bbp-admin/bbp-settings.php:44
+msgid "Archive Slugs"
+msgstr "글보관함 슬러그"
+
+#: bbp-admin/bbp-settings.php:49
+msgid "Single Slugs"
+msgstr "단일 슬러그"
+
+#: bbp-admin/bbp-settings.php:242
+msgid "Forum Prefix"
+msgstr "게시판 접두어"
+
+#: bbp-admin/bbp-settings.php:250 bbp-admin/bbp-settings.php:1396
+msgid "Forum slug"
+msgstr "게시판 슬러그"
+
+#: bbp-admin/bbp-settings.php:258 bbp-admin/bbp-settings.php:1399
+msgid "Topic slug"
+msgstr "글 슬러그"
+
+#: bbp-admin/bbp-settings.php:266 bbp-admin/bbp-settings.php:1411
+msgid "Topic tag slug"
+msgstr "글 태그 슬러그"
+
+#: bbp-admin/bbp-settings.php:274 bbp-admin/bbp-settings.php:1402
+msgid "Reply slug"
+msgstr "댓글 슬러그"
+
+#: bbp-admin/bbp-settings.php:1405
+msgid "User base"
+msgstr "사용자 베이스"
+
+#: bbp-admin/bbp-settings.php:1408
+msgid "View base"
+msgstr "보기 베이스"
+
+#: bbp-admin/bbp-admin.php:372
+msgid "Settings"
+msgstr "설정"
+
+#: bbp-admin/bbp-admin.php:385
+msgid "Right Now in Forums"
+msgstr "지금 게시판에서"
+
+#: bbp-admin/bbp-admin.php:1095
+msgid "Green"
+msgstr "녹색"
+
+#: bbp-admin/bbp-admin.php:1194 bbp-admin/bbp-admin.php:1248
+msgid "Go Back"
+msgstr "돌아가기"
+
+#: bbp-admin/bbp-settings.php:378 bbp-includes/bbp-common-functions.php:121
+msgid "minutes"
+msgstr "분"
+
+#: bbp-admin/bbp-settings.php:394 bbp-includes/bbp-common-functions.php:122
+msgid "seconds"
+msgstr "초"
+
+#: bbp-admin/bbp-settings.php:426
+msgid "Allow users to subscribe to topics"
+msgstr "글 구독을 허용합니다"
+
+#: bbp-admin/bbp-settings.php:474
+msgid "Allow guest users without accounts to create topics and replies"
+msgstr "비회원에게 글과 댓글을 올릴 수 있도록 허용합니다"
+
+#: bbp-admin/bbp-settings.php:601 bbp-admin/bbp-settings.php:617
+#: bbp-admin/bbp-settings.php:648 bbp-admin/bbp-settings.php:664
+msgid "per page"
+msgstr "개가 한 페이지에 보이도록"
+
+#: bbp-admin/bbp-settings.php:963
+msgid "bbPress Settings"
+msgstr "bbPress 설정"
+
+#: bbp-admin/bbp-settings.php:1258
+msgid "In the Main Settings you have a number of options:"
+msgstr "메인 설정에 많은 옵션이 있습니다:"
+
+#: bbp-admin/bbp-settings.php:1261
+msgid ""
+"You can choose to lock a post after a certain number of minutes. \"Locking "
+"post editing\" will prevent the author from editing some amount of time "
+"after saving a post."
+msgstr ""
+"정해진 시간(분) 이후에 게시글을 잠글 수 있습니다. \"글 편집 잠그기\"는 글을 "
+"저장하고 일정한 시간이 지나면 글쓴이는 해당 글을 편집할 수 없습니다."
+
+#: bbp-admin/bbp-settings.php:1262
+msgid ""
+"\"Throttle time\" is the amount of time required between posts from a single "
+"author. The higher the throttle time, the longer a user will need to wait "
+"between posting to the forum."
+msgstr ""
+"\"쓰로틀 시간\"은 단일 글쓴이가 다음 글을 올리는데 필요한 시간입니다. 쓰로틀 "
+"시간이 높으면 사용자는 게시판에 글을 올리는데 더 오래 기다려야합니다."
+
+#: bbp-admin/bbp-settings.php:1271
+msgid ""
+"You must click the Save Changes button at the bottom of the screen for new "
+"settings to take effect."
+msgstr ""
+"새 설정이 유효하려면 화면의 하단에 있는 변경 사항 저장 버튼을 클릭하세요."
+
+#: bbp-admin/bbp-forums.php:132
+msgid ""
+"You can hide/display columns based on your needs and decide how many forums "
+"to list per screen using the Screen Options tab."
+msgstr ""
+"화면 옵션 탭을 이용하여 필요에 의해 컬럼들을 감추거나 보이게 할 수 있고 하나"
+"의 화면에 보여줄 게시판 목록의 수를 결정할 수 있습니다."
+
+#: bbp-admin/bbp-forums.php:133
+msgid ""
+"You can filter the list of forums by forum status using the text links in "
+"the upper left to show All, Published, or Trashed forums. The default view "
+"is to show all forums."
+msgstr ""
+"좌측 상단에 있는 모두 보기, 공개, 임시글, 또는 폐기된 댓글, 등의 글자 링크를 "
+"사용하여 게시판 목록을 게시판 상태 별로 필터링 할 수 있습니다. 기본 보기는 모"
+"든 게시판이 보여집니다."
+
+#: bbp-admin/bbp-forums.php:134
+msgid ""
+"You can refine the list to show only forums from a specific month by using "
+"the dropdown menus above the forums list. Click the Filter button after "
+"making your selection. You also can refine the list by clicking on the forum "
+"creator in the forums list."
+msgstr ""
+"게시판 목록 위의 드랍다운 메뉴를 사용하여 특정 월에서 게시판만 보이도록 정리"
+"할 수 있습니다. 선택 후에 필터 버튼을 클릭하세요. 게시판 목록에서 게시판 개설"
+"자를 클릭해서 목록을 정리할 수도 있습니다."
+
+#: bbp-admin/bbp-forums.php:143
+msgid ""
+"Hovering over a row in the forums list will display action links that allow "
+"you to manage your forum. You can perform the following actions:"
+msgstr ""
+"게시판 목록의 줄에 마우스를 올리면 게시판을 관리할 수 있는 작업 링크가 나타납"
+"니다. 다음의 작업을 할 수 있습니다."
+
+#: bbp-admin/bbp-forums.php:206 bbp-admin/bbp-forums.php:254
+msgid "Forum Attributes"
+msgstr "게시판 속성"
+
+#: bbp-admin/bbp-forums.php:424 bbp-admin/bbp-replies.php:619
+#: bbp-admin/bbp-topics.php:682
+msgid "Created"
+msgstr "생성됨"
+
+#: bbp-admin/bbp-forums.php:462 bbp-admin/bbp-replies.php:727
+#: bbp-admin/bbp-topics.php:762
+msgid "%1$s <br /> %2$s"
+msgstr "%1$s <br /> %2$s"
+
+#: bbp-includes/bbp-common-functions.php:112
+msgid "%s ago"
+msgstr "%s 전"
+
+#: bbp-admin/bbp-forums.php:540
+msgid "Forum updated. <a href=\"%s\">View forum</a>"
+msgstr "게시판 업데이트됨. <a href=\"%s\">게시판 보기</a> "
+
+#: bbp-admin/bbp-forums.php:543 bbp-admin/bbp-replies.php:899
+#: bbp-admin/bbp-topics.php:968
+msgid "Custom field updated."
+msgstr "사용자 정의 필드 업데이트됨."
+
+#: bbp-admin/bbp-forums.php:546 bbp-admin/bbp-replies.php:902
+#: bbp-admin/bbp-topics.php:971
+msgid "Custom field deleted."
+msgstr "사용자 정의 필드 삭제됨."
+
+#: bbp-admin/bbp-forums.php:549
+msgid "Forum updated."
+msgstr "게시판 업데이트됨."
+
+#: bbp-admin/bbp-forums.php:554
+msgid "Forum restored to revision from %s"
+msgstr "게시판이 %s로부터 리비전으로 복구됨"
+
+#: bbp-admin/bbp-forums.php:558
+msgid "Forum created. <a href=\"%s\">View forum</a>"
+msgstr "게시판 생성됨. <a href=\"%s\">게시판 보기</a>"
+
+#: bbp-admin/bbp-forums.php:561
+msgid "Forum saved."
+msgstr "게시판 저장됨"
+
+#: bbp-admin/bbp-forums.php:564
+msgid "Forum submitted. <a target=\"_blank\" href=\"%s\">Preview forum</a>"
+msgstr "게시판 제출됨. <a target=\"_blank\" href=\"%s\">게시판 미리보기</a>"
+
+#: bbp-admin/bbp-forums.php:567
+msgid ""
+"Forum scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s"
+"\">Preview forum</a>"
+msgstr ""
+"게시판 예약됨: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s\">게시"
+"판 미리보기</a>"
+
+#: bbp-admin/bbp-forums.php:569 bbp-admin/bbp-replies.php:925
+#: bbp-admin/bbp-topics.php:994
+msgid "M j, Y @ G:i"
+msgstr "M j, Y @ G:i"
+
+#: bbp-admin/bbp-forums.php:574
+msgid "Forum draft updated. <a target=\"_blank\" href=\"%s\">Preview forum</a>"
+msgstr ""
+"게시판 임시글 업데이트됨. <a target=\"_blank\" href=\"%s\">게시판 미리보기</"
+"a>"
+
+#: bbp-admin/bbp-replies.php:146
+msgid ""
+"You can view replies in a simple title list or with an excerpt. Choose the "
+"view you prefer by clicking on the icons at the top of the list on the right."
+msgstr ""
+"간단한 제목만 있거나 요약이 있는 댓글을 볼 수도 있습니다. 목록의 우측 상단에 "
+"있은 아이콘을 클릭해서 보기를 원하는대로 선택하세요."
+
+#: bbp-admin/bbp-replies.php:156
+msgid ""
+"Hovering over a row in the replies list will display action links that allow "
+"you to manage your reply. You can perform the following actions:"
+msgstr ""
+"댓글 목록의 줄에 마우스를 올리면 댓글을 관리할 수 있는 작업 링크가 나타납니"
+"다. 다음의 작업을 할 수 있습니다."
+
+#: bbp-admin/bbp-replies.php:221 bbp-admin/bbp-replies.php:266
+msgid "Reply Attributes"
+msgstr "댓글 속성"
+
+#: bbp-admin/bbp-replies.php:351 bbp-admin/bbp-topics.php:366
+#: bbp-theme-compat/bbpress/form-anonymous.php:17
+#: bbp-themes/bbp-twentyten/bbpress/form-anonymous.php:17
+msgid "Author Information"
+msgstr "글쓴이 정보"
+
+#: bbp-admin/bbp-replies.php:507
+msgid "The reply was not found!"
+msgstr "댓글을 찾을 수 없습니다!"
+
+#: bbp-admin/bbp-replies.php:510 bbp-admin/bbp-topics.php:533
+msgid "You do not have the permission to do that!"
+msgstr "그럴 권한이 없습니다!"
+
+#: bbp-admin/bbp-replies.php:578
+msgid "There was a problem marking the reply \"%1$s\" as spam."
+msgstr "댓글 \"%1$s\"를 스팸으로 처리하는데 문제가 발생했습니다."
+
+#: bbp-admin/bbp-replies.php:578
+msgid "Reply \"%1$s\" successfully marked as spam."
+msgstr "댓글 \"%1$s\"를 성공적으로 스팸으로 처리했습니다."
+
+#: bbp-admin/bbp-replies.php:582
+msgid "There was a problem unmarking the reply \"%1$s\" as spam."
+msgstr "댓글 \"%1$s\"을 스팸으로 처리하는데 문제가 발생했습니다."
+
+#: bbp-admin/bbp-replies.php:582
+msgid "Reply \"%1$s\" successfully unmarked as spam."
+msgstr "댓글 \"%1$s\"이 성공적으로 스팸에서 정상으로 처리됐습니다."
+
+#: bbp-admin/bbp-replies.php:615
+msgid "Title"
+msgstr "제목"
+
+#: bbp-admin/bbp-replies.php:772 bbp-admin/bbp-topics.php:822
+msgid "View"
+msgstr "보기"
+
+#: bbp-admin/bbp-metaboxes.php:418
+msgid "(No Topic)"
+msgstr "(글 없음)"
+
+#: bbp-admin/bbp-replies.php:772 bbp-admin/bbp-topics.php:822
+msgid "View &#8220;%s&#8221;"
+msgstr "&#8220;%s&#8221; 보기"
+
+#: bbp-admin/bbp-replies.php:783
+msgid "Mark the reply as not spam"
+msgstr "댓글을 스팸으로 처리하지 않기"
+
+#: bbp-admin/bbp-replies.php:783 bbp-admin/bbp-topics.php:853
+msgid "Not spam"
+msgstr "스팸 아님"
+
+#: bbp-admin/bbp-replies.php:785
+msgid "Mark this reply as spam"
+msgstr "이 댓글을 스팸으로 처리"
+
+#: bbp-admin/bbp-replies.php:800 bbp-admin/bbp-topics.php:869
+msgid "Delete Permanently"
+msgstr "영원히 제거함"
+
+#: bbp-admin/bbp-replies.php:836 bbp-admin/bbp-topics.php:905
+msgid "In all forums"
+msgstr "모든 게시판에서"
+
+#: bbp-admin/bbp-replies.php:896
+msgid "Reply updated. <a href=\"%s\">View topic</a>"
+msgstr "댓글 업데이트됨. <a href=\"%s\">글 보기</a>"
+
+#: bbp-admin/bbp-replies.php:905
+msgid "Reply updated."
+msgstr "댓글 업데이트됨."
+
+#: bbp-admin/bbp-replies.php:910
+msgid "Reply restored to revision from %s"
+msgstr "댓글이 %s로부터 리비전으로 복구됐습니다."
+
+#: bbp-admin/bbp-replies.php:914
+msgid "Reply created. <a href=\"%s\">View topic</a>"
+msgstr "댓글 생성됨. <a href=\"%s\">글 보기</a>"
+
+#: bbp-admin/bbp-replies.php:917
+msgid "Reply saved."
+msgstr "댓글 저장됨"
+
+#: bbp-admin/bbp-replies.php:920
+msgid "Reply submitted. <a target=\"_blank\" href=\"%s\">Preview topic</a>"
+msgstr "댓글 제출됨. <a target=\"_blank\" href=\"%s\">글 미리보기</a>"
+
+#: bbp-admin/bbp-replies.php:923
+msgid ""
+"Reply scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s"
+"\">Preview topic</a>"
+msgstr ""
+"댓글 예약: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s\">글 미리"
+"보기</a>"
+
+#: bbp-admin/bbp-replies.php:930
+msgid "Reply draft updated. <a target=\"_blank\" href=\"%s\">Preview topic</a>"
+msgstr ""
+"댓글 임시글 업데이트됨. <a target=\"_blank\" href=\"%s\">글 미리보기</a>"
+
+#: bbp-admin/bbp-tools.php:163
+msgid "Count topics in each forum"
+msgstr "각 게시판에서 글 계산하기"
+
+#: bbp-admin/bbp-tools.php:164
+msgid "Count replies in each forum"
+msgstr "각 게시판에서 댓글 계산하기"
+
+#: bbp-admin/bbp-tools.php:165
+msgid "Count replies in each topic"
+msgstr "각 글에서 댓글 계산"
+
+#: bbp-admin/bbp-tools.php:166
+msgid "Count voices in each topic"
+msgstr "각 글에서 목소리 계산"
+
+#: bbp-admin/bbp-tools.php:167
+msgid "Count spammed & trashed replies in each topic"
+msgstr "각 글에서 스팸 & 휴지통 처리된 댓글 계산하기"
+
+#: bbp-admin/bbp-tools.php:169
+msgid "Count replies for each user"
+msgstr "각 사용자의 댓글 계산하기"
+
+#: bbp-admin/bbp-tools.php:170
+msgid "Remove trashed topics from user favorites"
+msgstr "사용자 즐겨찾기에서 휴지통처리된 글 제거하기"
+
+#: bbp-admin/bbp-tools.php:171
+msgid "Remove trashed topics from user subscriptions"
+msgstr "사용자 구독에서 휴지통처리된 글 제거하기"
+
+#: bbp-admin/bbp-tools.php:172
+msgid "Recalculate last activity in each topic and forum"
+msgstr "각 글과 게시판에서 최근 활동 재계산하기"
+
+#: bbp-admin/bbp-tools.php:195
+msgid "Counting the number of replies in each topic&hellip; %s"
+msgstr "각 글에서 댓글수 재계산&hellip; %s"
+
+#: bbp-admin/bbp-tools.php:196 bbp-admin/bbp-tools.php:240
+#: bbp-admin/bbp-tools.php:283 bbp-admin/bbp-tools.php:313
+#: bbp-admin/bbp-tools.php:348 bbp-admin/bbp-tools.php:381
+#: bbp-admin/bbp-tools.php:428 bbp-admin/bbp-tools.php:475
+#: bbp-admin/bbp-tools.php:535 bbp-admin/bbp-tools.php:593
+#: bbp-admin/bbp-tools.php:701 bbp-admin/bbp-tools.php:751
+#: bbp-admin/bbp-tools.php:806
+msgid "Failed!"
+msgstr "실패!"
+
+#: bbp-admin/bbp-tools.php:222 bbp-admin/bbp-tools.php:266
+#: bbp-admin/bbp-tools.php:293 bbp-admin/bbp-tools.php:328
+#: bbp-admin/bbp-tools.php:363 bbp-admin/bbp-tools.php:410
+#: bbp-admin/bbp-tools.php:457 bbp-admin/bbp-tools.php:517
+#: bbp-admin/bbp-tools.php:576 bbp-admin/bbp-tools.php:683
+#: bbp-admin/bbp-tools.php:734 bbp-admin/bbp-tools.php:789
+#: bbp-admin/bbp-tools.php:835
+msgid "Complete!"
+msgstr "완료!"
+
+#: bbp-admin/bbp-tools.php:239
+msgid "Counting the number of voices in each topic&hellip; %s"
+msgstr "각 글에서 목소리 수 계산&hellip; %s"
+
+#: bbp-admin/bbp-tools.php:282
+msgid ""
+"Counting the number of spammed and trashed replies in each topic&hellip; %s"
+msgstr "각 글에서 스팸, 휴지통 처리된 댓글 수 계산&hellip; %s"
+
+#: bbp-admin/bbp-tools.php:312
+msgid "Counting the number of topics in each forum&hellip; %s"
+msgstr "각 게시판의 글 수를 계산함&hellip; %s"
+
+#: bbp-admin/bbp-tools.php:347
+msgid "Counting the number of replies in each forum&hellip; %s"
+msgstr "각 게시판의 댓글 수를 계산함&hellip; %s"
+
+#: bbp-admin/bbp-tools.php:427
+msgid "Counting the number of topics to which each user has replied&hellip; %s"
+msgstr "각 사용자가 댓글한 글 수를 계산함&hellip; %s"
+
+#: bbp-admin/bbp-tools.php:474
+msgid "Removing trashed topics from user favorites&hellip; %s"
+msgstr "사용자 즐겨찾기에서 휴지통으로 간 글을 제거함 &hellip; %s"
+
+#: bbp-admin/bbp-tools.php:501 bbp-admin/bbp-tools.php:560
+msgid "Nothing to remove!"
+msgstr "제거할 것이 없음!"
+
+#: bbp-admin/bbp-tools.php:534
+msgid "Removing trashed topics from user subscriptions&hellip; %s"
+msgstr "사용자 구독에서 휴지통으로 간 글을 제거함&hellip; %s"
+
+#: bbp-admin/bbp-tools.php:592
+msgid "Recomputing latest post in every topic and forum&hellip; %s"
+msgstr "각 글과 게시판에 있는 최근 글을 재 계산함&hellip; %s"
+
+#: bbp-admin/bbp-topics.php:144
+msgid ""
+"You can hide/display columns based on your needs and decide how many topics "
+"to list per screen using the Screen Options tab."
+msgstr ""
+"화면 옵션 탭을 이용하여 필요에 의해 컬럼들을 감추거나 보이게 할 수 있고 하나"
+"의 화면에 보여줄 글 목록의 수를 결정할 수 있습니다."

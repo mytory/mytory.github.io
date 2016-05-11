@@ -50,7 +50,7 @@ NameVirtualHost *:80
 
 virtualHost 정의 파일이 여러 개 있었던 게 원인이다. 나 같은 경우는 우분투를 사용한다. 우분투는 `/etc/apache2/sites-enabled` 폴더에 있는 심볼릭 링크<sub>(링크를 지우면 원본까지 지워지는 무서운 링크!)</sub>가 바로 가상 호스트를 정의하는 파일인데, 아래 그림을 보라.
 
-<img alt="" class="aligncenter" filemime="" filename="cfile8.uf.175D704D4D4BC970289B63.png" height="393" src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile8.uf.175D704D4D4BC970289B63.png" width="550" />
+<img alt="" class="aligncenter" filemime="" filename="cfile8.uf.175D704D4D4BC970289B63.png" height="393" src="/uploads/legacy/old-images/1/cfile8.uf.175D704D4D4BC970289B63.png" width="550" />
 
 default 외에도 <a href="http://www.mindtouch.com/" target="_blank" title="[http://www.mindtouch.com/]로 이동합니다.">dekiwiki</a> 라는 놈이 보인다. 이놈도 바로 가상호스트를 정의하고 있었던 것이다! 이놈은 <a href="http://www.mindtouch.com/" target="_blank" title="[http://www.mindtouch.com/]로 이동합니다.">dekiwiki</a>를 설치하면 자동으로 생성되는 놈이기 때문에 눈치채지 못했던 것이다. OTL;;
 

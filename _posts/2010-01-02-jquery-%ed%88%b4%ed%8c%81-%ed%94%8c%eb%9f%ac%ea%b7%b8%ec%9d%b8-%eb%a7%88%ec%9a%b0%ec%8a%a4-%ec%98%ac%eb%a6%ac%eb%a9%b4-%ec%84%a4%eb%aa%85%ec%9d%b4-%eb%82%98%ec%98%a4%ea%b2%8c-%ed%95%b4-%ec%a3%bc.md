@@ -19,7 +19,7 @@ tags:
 
 아래는 다음에서 볼 수 있는 툴팁입니다.
 
-<img class="aligncenter" src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile6.uf.160D07494D4BC87C259EA6.png" alt="" width="341" height="324" />
+<img class="aligncenter" src="/uploads/legacy/old-images/1/cfile6.uf.160D07494D4BC87C259EA6.png" alt="" width="341" height="324" />
 
 사실 가장 간단한 툴팁은 title 어트리뷰트를 사용하는 것입니다. 아래처럼요.
 
@@ -34,7 +34,7 @@ tags:
 (나중에 알았는데 사실 브라우저들이 툴팁 반응 속도를 늦게 하는 건 이유가 있었습니다. 다음 글을 참고하세요: [툴팁 반응속도개선 ― 반응속도를 예전으로 되돌린 이유][2])
 
 <div style="width: 435px" class="wp-caption aligncenter">
-  <img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile25.uf.150F71494D4BC87C307AEC.png" alt="" width="425" height="262" /><p class="wp-caption-text">
+  <img src="/uploads/legacy/old-images/1/cfile25.uf.150F71494D4BC87C307AEC.png" alt="" width="425" height="262" /><p class="wp-caption-text">
     △레프트21에 툴팁 플러그인을 적용한 모습. 짧은 제목은 독자들에게 핵심을 파악하게 해 주고, 마우스를 올리면 풀 제목을 보여 줘 내용을 더 구체적으로 파악할 수 있게 해 준다. 딜레이 시간이 없게 하고 싶었다.
   </p>
 </div>
@@ -65,7 +65,7 @@ tags:
 
 이렇게 쓰면 title이 있는 모든 a 위에 마우스를 갖다 댔을 때 툴팁이 뜬다. 이 경우 아래처럼 툴팁이 뜬다.
 
-<img class="aligncenter" src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile29.uf.197D94544D4BC87C1B2E87.png" alt="" width="541" height="74" />
+<img class="aligncenter" src="/uploads/legacy/old-images/1/cfile29.uf.197D94544D4BC87C1B2E87.png" alt="" width="541" height="74" />
 
 툴팁 상자의 아래쪽에 google.de 라는 url이 보일 것이다. 기본은 이렇게 title을 위에 굵게 표시해 주고, 아래쪽에 url을 표시해 주는 형식이다.
 
@@ -95,13 +95,13 @@ input과 label 등 모든 곳에 적용 가능하다. input에 적용했을 경�
 
 ## 속지 말자
 
-<img class="aligncenter" src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile28.uf.171014494D4BC87C20985F.png" alt="" width="418" height="302" />
+<img class="aligncenter" src="/uploads/legacy/old-images/1/cfile28.uf.171014494D4BC87C20985F.png" alt="" width="418" height="302" />
 
 데모 페이지를 보면 위와 같은 화면을 만날 수 있다. 나는 깜짝 놀랐다. 이런 화려한 효과를 그냥 기본으로 제공한다는 말인가!!! 하고 말이다.
 
 그러나&#8230; 위의 말풍선은 그냥 그림이다. 그냥 그림이라는 말은 유연성이 없다는 뜻이다. 그래서 툴팁이 길어진다면?
 
-<img class="aligncenter" src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile9.uf.120622584D4BC87C0D08A2.png" alt="" width="523" height="301" />
+<img class="aligncenter" src="/uploads/legacy/old-images/1/cfile9.uf.120622584D4BC87C0D08A2.png" alt="" width="523" height="301" />
 
 위처럼 디자인 박살난다.
 

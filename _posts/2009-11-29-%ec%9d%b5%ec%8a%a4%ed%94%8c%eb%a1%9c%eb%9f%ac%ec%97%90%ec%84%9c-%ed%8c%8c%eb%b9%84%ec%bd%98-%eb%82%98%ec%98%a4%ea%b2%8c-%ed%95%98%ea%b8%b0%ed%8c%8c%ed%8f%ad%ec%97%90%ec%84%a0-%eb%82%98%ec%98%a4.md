@@ -60,6 +60,6 @@ png나 svg 포맷은 아래처럼 넣는다.
  [2]: http://bluebreeze.co.kr/313
  [3]: http://www.telegraphics.com.au/sw/#icoformat
  [4]: http://www.telegraphics.com.au/sw/dl.php?file=ICOFormat-1.6f9-win.zip
- [5]: http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile22.uf.1249634F4D4BC8712D1719.jpg
- [6]: http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile26.uf.155BBC4D4D4BC871259596.jpg
- [7]: http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile30.uf.154B164C4D4BC8712CC89A.png
+ [5]: /uploads/legacy/old-images/1/cfile22.uf.1249634F4D4BC8712D1719.jpg
+ [6]: /uploads/legacy/old-images/1/cfile26.uf.155BBC4D4D4BC871259596.jpg
+ [7]: /uploads/legacy/old-images/1/cfile30.uf.154B164C4D4BC8712CC89A.png

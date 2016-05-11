@@ -34,4 +34,4 @@ tags:
 
 혹시 모를 사이트 다운에 대비해서 글 전체를 다운받아 압축했다.
 
-<a href="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile9.uf.1143A74E4D4BC8972E880A.rar" class="aligncenter" />cfile9.uf.1143A74E4D4BC8972E880A.rar</a>
+<a href="/uploads/legacy/old-images/1/cfile9.uf.1143A74E4D4BC8972E880A.rar" class="aligncenter" />cfile9.uf.1143A74E4D4BC8972E880A.rar</a>

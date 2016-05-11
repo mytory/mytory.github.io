@@ -14,13 +14,13 @@ tags:
 ---
 <http://www.ibm.com/developerworks/kr/library/tutorial/os-eclipse-europa2/section4.html> 에 나온 것 중, 실행 파일 환경 설정에 관한 부분이다.
 
-<img class="aligncenter" src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile24.uf.123E4C4E4D4BC8F434FB5E.png" alt="" width="496" height="384" />
+<img class="aligncenter" src="/uploads/legacy/old-images/1/cfile24.uf.123E4C4E4D4BC8F434FB5E.png" alt="" width="496" height="384" />
 
 wndow > preferences 에서 PHP > PHP Executables 로 간다. 거기서 위 그림처럼 Add를 누르면 PHP 실행파일을 설정하는 부분이 나온다.
 
 아래처럼 설정하면 된다. 아래는 우분투의 PHP 실행파일 경로다. 찾느라 헤맸다.
 
-<img class="aligncenter" src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile21.uf.150EEB564D4BC8F42B094A.png" alt="" width="580" height="446" />
+<img class="aligncenter" src="/uploads/legacy/old-images/1/cfile21.uf.150EEB564D4BC8F42B094A.png" alt="" width="580" height="446" />
 
 Name은 아무거나 자신이 알아볼 수 있는 것으로 하면 되고&#8230;
 

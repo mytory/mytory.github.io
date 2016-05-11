@@ -20,11 +20,11 @@ tags:
 
 여튼, 필요가 당장 급한 사람은 아래 파일을 사용하면 된다. 아, 내 phpMyAdmin 버전은 3.3.2다.
 
-<a href="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile23.uf.147962544D4BC8F21FA64E" class="aligncenter" />cfile23.uf.147962544D4BC8F21FA64E</a>
+<a href="/uploads/legacy/old-images/1/cfile23.uf.147962544D4BC8F21FA64E" class="aligncenter" />cfile23.uf.147962544D4BC8F21FA64E</a>
 
 내가 여기 인용한 부분은 <a href="http://www.phpmyadmin.net/documentation/#quick_install" target="_blank">Quick Install 부분</a>이다. 이 방법을 사용해서 config.inc.php 파일을 만들면 우리가 흔히 마주하는 phpMyAdmin 화면을 볼 수 있다. 웹 로그인 창이다.
 
-<img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile29.uf.142A68484D4BC8F2299277.jpg" class="aligncenter" width="409" height="393" alt="" />
+<img src="/uploads/legacy/old-images/1/cfile29.uf.142A68484D4BC8F2299277.jpg" class="aligncenter" width="409" height="393" alt="" />
 
 수동으로 config.inc.php 파일을 만들고 아래 내용을 채워 넣으면 된다고 돼 있다. config.sample.inc.php 파일을 사용할 수도 있다고 써 있다. 여튼 아래 코드가 핵심이다.
 

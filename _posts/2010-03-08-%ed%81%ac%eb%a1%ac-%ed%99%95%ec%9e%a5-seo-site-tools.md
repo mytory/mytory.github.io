@@ -16,4 +16,4 @@ tags:
 
 갈무리. 괜찮은 거 같다.
 
-<img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile23.uf.146DFA514D4BC8A11F48ED.png" class="aligncenter" width="580" height="350" alt="" />
+<img src="/uploads/legacy/old-images/1/cfile23.uf.146DFA514D4BC8A11F48ED.png" class="aligncenter" width="580" height="350" alt="" />

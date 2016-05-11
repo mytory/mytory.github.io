@@ -12,4 +12,4 @@ categories:
 tags:
   - TIP
 ---
-<img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile7.uf.18476D4A4D4BC8A423E4C3.jpg" class="aligncenter" width="580" height="220" alt="" />
+<img src="/uploads/legacy/old-images/1/cfile7.uf.18476D4A4D4BC8A423E4C3.jpg" class="aligncenter" width="580" height="220" alt="" />

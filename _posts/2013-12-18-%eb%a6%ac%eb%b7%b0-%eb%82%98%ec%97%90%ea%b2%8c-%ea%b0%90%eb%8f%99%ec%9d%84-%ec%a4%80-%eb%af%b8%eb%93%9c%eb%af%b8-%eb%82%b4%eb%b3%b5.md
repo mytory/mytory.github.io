@@ -41,6 +41,6 @@ IT 관련 리뷰만 했었지만, 오늘은 특별히 생활용품 리뷰다.
 처음엔 발열 내복을 사려고 했는데 조금 검색해 보니까 [발열 내복은 다 뻥][3]이라고 하는 글이 신뢰가 가서 사지 않았다. ([발열내복은 뻥이라는 MBC 불만제로][4])
 
  [1]: http://www.11st.co.kr/product/SellerProductDetail.tmall?method=getSellerProductDetail&prdNo=870544187&xfrom=&xzone=
- [2]: http://dl.dropboxusercontent.com/u/15546257/blog/mytory/naebok.png
+ [2]: /uploads/legacy/naebok.png
  [3]: http://jinmedi.tistory.com/247
  [4]: http://m.imbc.com/m/Vod/VodDetailInfo.aspx?progCode=1000838100281100000&itemid=810770

@@ -12,7 +12,7 @@ categories:
 tags:
   - SVN
 ---
-<img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile10.uf.18329D554D4BC97130E518.png" class="aligncenter" width="384" height="332" alt="" filename="subversion_logo-384x332.png" filemime="image/jpeg" />
+<img src="/uploads/legacy/old-images/1/cfile10.uf.18329D554D4BC97130E518.png" class="aligncenter" width="384" height="332" alt="" filename="subversion_logo-384x332.png" filemime="image/jpeg" />
 
 svn이 어느날 업데이트 명령을 거부했다.
 

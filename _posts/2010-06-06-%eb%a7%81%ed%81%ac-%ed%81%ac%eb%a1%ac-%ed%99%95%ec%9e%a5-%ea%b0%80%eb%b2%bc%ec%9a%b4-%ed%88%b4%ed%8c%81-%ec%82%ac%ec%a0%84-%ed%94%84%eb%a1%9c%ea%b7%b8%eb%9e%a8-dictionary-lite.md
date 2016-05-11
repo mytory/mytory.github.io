@@ -45,5 +45,5 @@ tags:
 </div>
 
 <div>
-  <img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile7.uf.170FA9494D4BC94E2330E4.jpg" class="aligncenter" width="205" height="93" alt="" />
+  <img src="/uploads/legacy/old-images/1/cfile7.uf.170FA9494D4BC94E2330E4.jpg" class="aligncenter" width="205" height="93" alt="" />
 </div>

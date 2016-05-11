@@ -1,0 +1,485 @@
+<h1>CSS Vertical Centering (without tables!)</h1>
+
+<p>There are a few different ways to vertically centre objects with CSS, but it can be difficult to choose the right one. I'll show you all the best ways I&rsquo;ve seen and also how to create a nice little centred website.</p>
+
+<!--more-->
+
+<p>Vertical centering with CSS isn&rsquo;t an easy thing to do. There are many different ways that may not work in some browsers. When you work with CSS, it is important to know how it works, so let&rsquo;s see 5 different ways of vertically centring objects, and what&rsquo;s good and bad about them. (You can see my <a href="http://douglasheriot.com/tutorials/css_vertical_centre/demo4.html">test page</a> briefly explaining all of them.)</p>
+<div class="tutorial_image"><a href="http://douglasheriot.com/tutorials/css_vertical_centre/demo4.html"><img src="demo-thumb.jpg" width="550" height="330" border="0" /></a></div>
+
+<p>Note: I'm Australian, that&rsquo;s why centre is spelt with &lsquo;re&rsquo;, not &lsquo;er&rsquo;. Don&rsquo;t get confused when css'ing: centre must be spelt &lsquo;cent<strong>er</strong>&rsquo;</p>
+
+<h3>Method 1</h3>
+<div class="tutorial_image"><a href="http://douglasheriot.com/tutorials/css_vertical_centre/demo4.html"><img src="images/method1.gif" width="255" height="500" border="0" /></a></div>
+<p>This method sets some <code>&lt;div&gt;</code>s to display like a table, so we can use the table&rsquo;s <code>vertical-align</code> property (which works <a href="http://phrogz.net/CSS/vertical-align/index.html">very differently</a> to other elements).</p>
+<p>Note: You may be thinking &ldquo;We weren't going to use tables&rdquo;. The main problem with tables is that you should keep your markup semantic. If you code a table but aren't really using it as a table, it should be avoided (there's nothing wrong with using tables as real tables). The only thing wrong with telling a <code>&lt;div&gt;</code> to think it&rsquo;s a table is it might create browser inconsistencies. This isn't a crazy idea &mdash; it&rsquo;s juts like telling an <code>&lt;a&gt;</code> to <code>display:block;</code> or an <code>&lt;h2&gt;</code> to <code>display:inline;</code>.</p>
+<pre name="code" class="html">
+&lt;div id=&quot;wrapper&quot;&gt;
+	&lt;div id=&quot;cell&quot;&gt;
+		&lt;div class=&quot;content&quot;&gt;
+			Content goes here
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+</pre>
+
+<pre name="code" class="css">
+#wrapper {display:table;}
+#cell {display:table-cell; vertical-align:middle;}
+</pre>
+
+<h4>The Goods</h4>
+<ul>
+	<li>The content can dynamically change height (doesn't have to be defined in CSS)</li>
+	<li>Content doesn't get cut off when there isn't enough room in the wrapper</li>
+</ul>
+<h4>The Bads</h4>
+<ul>
+	<li>Doesn't work in Internet Explorer (not even the IE 8 beta)</li>
+	<li>Lots of nested tags (not really that bad, this is a subjective topic)</li>
+</ul>
+<h3>Method 2</h3>
+<div class="tutorial_image"><a href="http://douglasheriot.com/tutorials/css_vertical_centre/demo4.html"><img src="images/method2.gif" width="255" height="500" border="0" /></a></div>
+<p>This method will use an absolutely positioned div, which has the top set to 50% and the top margin set to negative half the height of the content. This means the object must have a fixed height, that is defined by CSS.</p>
+<p>Because it has a fixed height, you may want to set <code>overflow:auto;</code> to the content div, so if there is too much content to fit in, a scrollbar will appear, instead of the content continuing on outside the div!</p>
+<pre name="code" class="html">
+&lt;div id="content"&gt;
+	Content Here		
+&lt;/div&gt;
+</pre>
+
+<pre name="code" class="css">
+#content {position:absolute; top:50%; height:240px; margin-top:-120px; /* negative half of the height */}
+</pre>
+
+
+<h4>The Goods</h4>
+<ul>
+	<li>Works in all browsers</li>
+	<li>Doesn't require nested tags</li>
+</ul>
+<h4>The Bads</h4>
+<ul>
+	<li>When there isn't enough space, the content disappears (such as when the <code>div</code> is inside the <code>body</code> and the user shrinks the browser window, a scrollbar will not appear)</li>
+</ul>
+<h3>Method 3</h3>
+<div class="tutorial_image"><a href="http://douglasheriot.com/tutorials/css_vertical_centre/demo4.html"><img src="images/method3.gif" width="255" height="500" border="0" /></a></div>
+<p>In this method, we will insert a div above the content element. This will be set to <code>height:50%;</code> and <code>margin-bottom:-contentheight;</code>. The content will then clear the float and end up in the middle.</p>
+
+<pre name="code" class="html">
+&lt;div id="floater"&gt;&lt;/div&gt;
+&lt;div id="content"&gt;
+	Content Here		
+&lt;/div&gt;
+</pre>
+
+<pre name="code" class="css">
+#floater	{float:left; height:50%; margin-bottom:-120px;}
+#content	{clear:both; height:240px; position:relative;}
+</pre>
+
+
+
+<h4>The Goods</h4>
+<ul>
+	<li>Works in all browsers</li>
+	<li>When there isn't enough space (ie. the window shrinks) our content will not be cut off, and a scrollbar will appear.</li>
+</ul>
+<h4>The Bads</h4>
+<ul>
+	<li>Only one I can think of is that it requires an extra empty element (which isn't that bad, another subjective topic)</li>
+</ul>
+
+<h3>Method 4</h3>
+<div class="tutorial_image"><a href="http://douglasheriot.com/tutorials/css_vertical_centre/demo4.html"><img src="images/method4.gif" width="255" height="500" border="0" /></a></div>
+<p>This method uses a <code>position:absolute;</code> div with a fixed width and height. The div is then told to stretch to <code>top:0; bottom:0;</code>. It can't because of the fixed height, so <code>margin:auto;</code> will make it sit in the middle. This is similar to using the very common <code>margin:0 auto;</code> to horizontally centre block elements.</p>
+
+<pre name="code" class="html">
+&lt;div id="content"&gt;
+	Content Here		
+&lt;/div&gt;
+</pre>
+
+<pre name="code" class="css">
+#content {position:absolute; top:0; bottom:0; left:0; right:0;
+			margin:auto; height:240px; width:70%;}
+</pre>
+
+<h4>The Goods</h4>
+
+<ul>
+	<li>Easy</li>
+</ul>
+<h4>The Bads</h4>
+<ul>
+	<li>Doesn't work in Internet Explorer (does work in IE8 Beta)</li>
+	<li>Content is cut off without scrollbar if there isn&rsquo;t enough room in the container</li>
+</ul>
+<h3>Method 5</h3>
+<div class="tutorial_image"><a href="http://douglasheriot.com/tutorials/css_vertical_centre/demo4.html"><img src="images/method5.gif" width="255" height="500" border="0" /></a></div>
+<p>This method will only centre a single line of text. Simply set the <code>line-height</code> to the height of the object, and the text sits in the middle</p>
+
+<pre name="code" class="html">
+&lt;div id="content"&gt;
+	Content
+&lt;/div&gt;
+</pre>
+
+<pre name="code" class="css">
+#content {height:100px; line-height:100px;}
+</pre>
+
+<h4>The Goods</h4>
+<ul>
+	<li>Works in all browsers</li>
+	<li>Doesn't get cut off when the isn't enough space</li>
+</ul>
+<h4>The Bads</h4>
+<ul>
+	<li>Only works on text (no block elements)</li>
+	<li>When there is more than a single line (like when it wraps), it breaks badly</li>
+</ul>
+<p>This method is very useful on small elements, such as to centre the text inside a button or single-line text field.</p>
+<h3>Which Method?</h3>
+<p>My favourite method is number 3 &mdash; using a floater and clearing the content. It doesn't have any major downsides. Because the content will <code>clear:both;</code>, you can also put other elements above it, and when the windows collapses, the centred content will not cover them up. See <a href="http://douglasheriot.com/tutorials/css_vertical_centre/demo5.html">the demo</a>.</p>
+
+<pre name="code" class="html">
+&lt;div id="top"&gt;
+	&lt;h1&gt;Title&lt;/h1&gt;
+&lt;/div&gt;
+&lt;div id="floater"&gt;&lt;/div&gt;
+&lt;div id="content"&gt;
+	Content Here		
+&lt;/div&gt;
+</pre>
+
+<pre name="code" class="css">
+#floater	{float:left; height:50%; margin-bottom:-120px;}
+#top		{float:right; width:100%; text-align:center;}
+#content	{clear:both; height:240px; position:relative;}
+</pre>
+
+
+<p>Now you know how it works, let&rsquo;s start creating a simple but interesting website! The final product will look something like this:</p>
+
+
+<div class="tutorial_image"><a href="http://douglasheriot.com/tutorials/css_vertical_centre/demo.html"><img src="step4-thumb.jpg" width="550" height="330" border="0" /></a></div>
+
+<h3>Step 1</h3>
+
+<p>It's always  good to start with semantic markup. This is how our page will be structured:</p>
+<ul>
+	<li>#floater (to push the content into the middle)</li>
+	<li>#centered (the centre box)
+		<ul>
+			<li>#side
+				<ul>
+					<li>#logo</li>
+					<li>#nav (unordered list <code>&lt;ul&gt;</code>)</li>
+				</ul>
+			</li>
+			<li>#content</li>
+		</ul>
+	</li>
+	<li>#bottom (for copyright, etc.)</li>
+</ul>
+<p>Here is the xhtml code I will be using:</p>
+<pre name="code" class="html">
+&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt;
+&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;
+&lt;head&gt;
+	&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;
+	&lt;title&gt;A Centred Company&lt;/title&gt;
+	&lt;link rel=&quot;stylesheet&quot; href=&quot;styles.css&quot; type=&quot;text/css&quot; media=&quot;all&quot; /&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+	&lt;div id=&quot;floater&quot;&gt;&lt;/div&gt;
+	&lt;div id=&quot;centered&quot;&gt;
+		
+		&lt;div id=&quot;side&quot;&gt;
+			&lt;div id=&quot;logo&quot;&gt;&lt;strong&gt;&lt;span&gt;A&lt;/span&gt; Company&lt;/strong&gt;&lt;/div&gt;
+			&lt;ul id=&quot;nav&quot;&gt;
+				&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Products&lt;/a&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Blog&lt;/a&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;a href=&quot;#&quot;&gt;About&lt;/a&gt;&lt;/li&gt;
+			&lt;/ul&gt;
+		&lt;/div&gt;
+		
+		&lt;div id=&quot;content&quot;&gt;
+		
+			&lt;h1&gt;Page Title&lt;/h1&gt;
+			
+			&lt;p&gt;
+			Holisticly re-engineer value-added outsourcing after process-centric collaboration and idea-sharing. 
+			Energistically simplify impactful niche markets via enabled imperatives. 
+			Holisticly predominate premium innovation after compelling scenarios. 
+			Seamlessly recaptiualize high standards in human capital with leading-edge manufactured products. 
+			Distinctively syndicate standards compliant schemas before robust vortals. 
+			Uniquely recaptiualize leveraged web-readiness vis-a-vis out-of-the-box information. 
+			&lt;/p&gt;
+			
+			&lt;h2&gt;Heading 2&lt;/h2&gt;
+			
+			&lt;p&gt;
+			Efficiently embrace customized web-readiness rather than customer directed processes. 
+			Assertively grow cross-platform imperatives vis-a-vis proactive technologies. 
+			Conveniently empower multidisciplinary meta-services without enterprise-wide interfaces. 
+			Conveniently streamline competitive strategic theme areas with focused e-markets. 
+			Phosfluorescently syndicate world-class communities vis-a-vis value-added markets. 
+			Appropriately reinvent holistic services before robust e-services. 
+			&lt;/p&gt;
+		
+		&lt;/div&gt;
+		
+	&lt;/div&gt;
+	
+	&lt;div id=&quot;bottom&quot;&gt;
+		&lt;p&gt;
+			Copyright notice goes here
+		&lt;/p&gt;
+	&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</pre>
+
+
+<h3>Step 2</h3>
+<p>Now we will start with some basic CSS to lay out the page. You should put this in <code>styles.css</code>, which is linked to at the top of our html.</p>
+
+
+<pre name="code" class="css">
+html, body {
+	margin:0; padding:0;
+	height:100%;
+}
+
+body {
+	background:url('page_bg.jpg') 50% 50% no-repeat #FC3;
+	font-family:Georgia, Times, serifs;
+}
+
+#floater {
+	position:relative; float:left;
+	height:50%;	margin-bottom:-200px;
+	width:1px;
+}
+
+#centered {
+	position:relative; clear:left;
+	height:400px; width:80%; max-width:800px; min-width:400px;
+	margin:0 auto;
+	background:#fff;
+	border:4px solid #666;
+}
+
+#bottom {
+	position:absolute;
+	bottom:0; right:0;
+}
+
+#nav {
+	position:absolute; left:0; top:0; bottom:0; right:70%;
+	padding:20px; margin:10px;
+}
+
+#content {
+	position:absolute; left:30%; right:0; top:0; bottom:0;
+	overflow:auto; height:340px;
+	padding:20px; margin:10px;
+}
+</pre>
+
+
+<p>Before we can make our content vertically centred, the <code>body</code> and <code>html</code> must be stretched to 100% height. Because the height is inside the padding and margin, we have to make them 0 so a scrollbar doesn't appear just to show you a little margin.</p>
+<p>The floater&rsquo;s <code>margin-bottom</code> is half of the content&rsquo;s height (400px), which is -200px.</p>
+<p>You should now have something that looks like this:</p>
+
+<div class="tutorial_image"><img src="step2-thumb.jpg" width="550" height="330" border="0" /></div>
+
+
+<p>The width of <code>#centered</code> is 80%. This is to make your site small on small screens and wide on bigger screens (on my medium-large screen, many old websites are small in the top left corner, and it is a little annoying). This is known as having a liquid layout. <code>min-width</code> and <code>max-width</code> are also set to stop it getting too big or too small. Internet Explorer doesn't support min &amp; max width though &mdash;&nbsp;we will fix that later using the proprietary <code>expression</code> value. Obviously, you may choose to have a fixed width instead.</p>
+<p>Because <code>#centered</code> is <code>position:relative</code>, we can use use absolute positioning inside it to position the elements. <code>overflow:auto;</code> was used on <code>#content</code>, so a scrollbar will appear when the content doesn&rsquo;t fit inside it. Internet Explorer doesn't like overflow:auto; unless we tell it the height (not just <code>top</code> and <code>bottom</code> position, and not in %) so we did that as well.</p>
+<h3>Step 3</h3>
+<p>The last thing to do is add some more styles to make it look a bit nicer. Lets start with the menu.</p>
+<pre name="code" class="css">
+#nav ul {
+	list-style:none;
+	padding:0; margin:20px 0 0 0; text-indent:0;
+}
+
+#nav li {
+	padding:0; margin:3px;
+}
+
+#nav li a {
+	display:block; background-color:#e8e8e8;
+	padding:7px; margin:0;
+	text-decoration:none; color:#000;
+	border-bottom:1px solid #bbb;
+	text-align:right;
+}
+
+#nav li a::after {
+	content:'\00BB'; color:#aaa; font-weight:bold;
+	display:inline; float:right;
+	margin:0 2px 0 5px;
+}
+
+#nav li a:hover, #nav li a:focus {
+	background:#f8f8f8;
+	border-bottom-color:#777;
+}
+
+#nav li a:hover::after {
+	margin:0 0 0 7px; color:#f93;
+}
+
+#nav li a:active {
+	padding:8px 7px 6px 7px;
+}
+
+
+</pre>
+
+<p>The first thing to do when turning a list into a menu kind of thing is to remove the dot points with <code>list-style:none</code> and all the margin and padding. If you want it to have a margin or padding, make sure you specify exactly what, don't leave it to the web browsers defaults because they can vary.</p>
+<p>The next thing to notice is that the links are set to display as a block element. This makes them fill the entire line and gives you more control over them. If you want to make your menu go horizontally (doesn't work in this design), then you can make them float as well.</p>
+<p>The other interesting thing to notice about the menu is the <code>:before</code> and <code>:after</code> CSS pseudo-element let you insert content before and after elements. This is a good way to include little icons or characters such as the arrow at the end of each link. This doesn&rsquo;t work in Internet Explorer before version 8 though.</p>
+<div class="tutorial_image"><img src="step3-thumb.jpg" width="550" height="330" border="0" /></div>
+
+<p>&nbsp;</p>
+<h3>Step 4</h3>
+<p>The last thing to do is add some more CSS to make the page look a bit nicer.</p>
+<pre name="code" class="css">
+#centered {
+	-webkit-border-radius:8px; -moz-border-radius:8px; border-radius:8px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family:Helvetica, Arial, sans-serif;
+	font-weight:normal; color:#666;
+}
+
+h1 {
+	color:#f93; border-bottom:1px solid #ddd;
+	letter-spacing:-0.05em; font-weight:bold;
+	margin-top:0; padding-top:0;
+}
+
+
+#bottom {
+	padding:10px;
+	font-size:0.7em;
+	color:#f03;
+}
+
+
+#logo {
+	font-size:2em; text-align:center;
+	color:#999;
+}
+
+#logo strong {
+	font-weight:normal;
+}
+
+#logo span {
+	display:block;
+	font-size:4em; line-height:0.7em;
+	color:#666;
+}
+
+p, h2, h3 {
+	line-height:1.6em;
+}
+
+a {
+	color:#f03;
+}
+</pre>
+
+<p>A thing to notice is the rounded corners on <code>#centered</code>. In CSS3, there should be a <code>border-radius</code> property to set the radius of rounded corners. This is not implemented by any major browsers yet, unless you use the <code>-moz</code> or <code>-webkit</code> prefixes (for Mozilla Firefox and Safari/Webkit)</p>
+
+<div class="tutorial_image"><img src="step4-thumb.jpg" width="550" height="330" border="0" /></div>
+
+<h3>Step 5 &mdash; Fixing IE</h3>
+
+<p>As you might have guessed, Internet Explorer is the only main browser which gives us	 trouble:</p>
+
+<ul>
+	<li>The <code>#floater</code> must have a width defined, or it doesn't do anything in any version of IE (already fixed)</li>
+	<li>IE 5 can't centre horizontally! (doesn&rsquo;t like <code>margin:0 auto;</code>)</li>
+	<li>IE &le; 6 has too much space around our menu, which breaks it</li>
+	<li>IE &le; 6 doesn&rsquo;t support <code>min-width</code> or <code>max-width</code></li>
+</ul>
+
+<p>To fix these problems, we are going to serve each version of IE its own extra stylesheet, using IE's proprietary conditional comments. They look like regular HTML comments (so other browsers ignore them completely) but IE will read the contents to decided if it should ignore them or not.</p>
+<pre name="code" class="html">
+&lt;!--[if lte IE 6 ]&gt;
+	&lt;link rel=&quot;stylesheet&quot; href=&quot;styles_ie6.css&quot; type=&quot;text/css&quot; media=&quot;all&quot; /&gt;
+&lt;![endif]--&gt;
+</pre>
+<p>We set the condition inside the <code>[ ]</code> at the start. The <code>lte</code> means &ldquo;less than or equal to&rdquo; (&le;). You can also use <code>gte</code> (&ge;), <code>lt</code> (&lt;),  <code>gt</code> (&gt;), or omit it to just specify one version (eg, <code>[if&nbsp;IE&nbsp;6]</code>). For a reference on more syntax, see <a href="http://reference.sitepoint.com/css/conditionalcomments">Sitepoint's Reference</a>.</p>
+<p>So, to fix our problems, create 2 new stylesheets called &ldquo;<code>styles_ie5.css</code>&rdquo; and &ldquo;<code>styles_ie6.css</code>&rdquo;. Now, add to our html file the following code just after the original stylesheet, which links to the 2 new stylesheets:</p>
+<pre name="code" class="html">&lt;!--[if IE 5 ]&gt;
+	&lt;link rel=&quot;stylesheet&quot; href=&quot;styles_ie5.css&quot; type=&quot;text/css&quot; media=&quot;all&quot; /&gt;
+&lt;![endif]--&gt;
+
+&lt;!--[if lte IE 6 ]&gt;
+	&lt;link rel=&quot;stylesheet&quot; href=&quot;styles_ie6.css&quot; type=&quot;text/css&quot; media=&quot;all&quot; /&gt;
+&lt;![endif]--&gt;</pre>
+<h4>Internet Explorer 5</h4>
+<p>The first stylesheet is for only IE 5, to fix the horizontal positioning. It uses a well-documented bug that means block elements follow the <code>text-align</code> property. We set the body to align center, and then our main <code>#centered</code> div back to align left, so we don&rsquo;t have center-aligned text.</p>
+<pre name="code" class="css">
+/* styles_ie5.css */
+
+body		{text-align:center;}
+#centered	{text-align:left;}</pre>
+<h4>Internet Explorer 6, <code>hasLayout</code> &amp; <code>expression()</code></h4>
+<p>The IE6 stylesheet fixes a problem present in IE 5 as well, so its conditional comment condition is set to <code>lte</code>, so previous version of IE will see the link code as well.</p>
+<p>To fix the problem of extra space around the menu is a bit more complicated. It has to do with IE&rsquo;s internal  <code>hasLayout</code> property. In Internet Explorer only some items &ldquo;have layout&rdquo; (such as <code>html</code>, <code>body</code>, <code>table</code>, <code>fieldset</code>), and these are the ones that control the layout of their children. All the elements that don&rsquo;t have layout have less control over the display of the page, although they aren't totally ignored. Many of IE&rsquo;s rendering problems can be fixed by giving elements &ldquo;layout&rdquo;. The simplest way to do this is to add the proprietary CSS property <code>zoom</code>  to elements in an IE specific stylesheet.</p>
+<p>The whole &ldquo;hasLayout&rdquo; thing can be very difficult to explain and understand. For a more detailed explanation, see <a href="http://reference.sitepoint.com/css/haslayout">Sitepoint&rsquo;s Reference</a> again.</p>
+<pre name="code" class="css">/* styles_ie6.css */
+
+#nav	{ zoom:1; }
+#nav li	{ zoom:1; }
+#nav a	{ zoom:1; }
+
+#centered {width:expression( (document.body.clientWidth > 1000) ? "800px" : "80%");}</pre>
+<p>The <code>expression()</code> function lets you use javascript statements within the CSS file to set dynamic values of objects (Internet Explorer only). The statement is re-evaluated often, so there is a  performance decrease if you use them too much. This statment says “If the width of the window is greater than 1000px, set the width of #centered to 800px, otherwise, use 80%”</p>
+<p>Our statement uses a <a href="http://en.wikipedia.org/wiki/Conditional_operator">ternary operator</a> (like an &ldquo;if&rdquo; statement). They are structured like: <strong>condition ? value if true : value if false</strong></p>
+<p>This is the equivalent of:</p>
+<pre name="code" class="js">if (document.body.clientWidth &gt; 1000) {
+	"800px";
+} else {
+	"80%";
+}</pre>
+<h3>More Ideas</h3>
+<p>There are many interesting things you can do with centered websites. I used this idea in my redesign of the <a href="http://douglasheriot.com/swfobjectgenerator/">SWFObject Generator 2.0</a> (to generate code to use <a href="http://code.google.com/p/swfobject/">SWFObject 2.0</a>). Here is also <a href="http://douglasheriot.com/tutorials/css_vertical_centre/demo1.html">another idea</a>.</p>
+<h3>Summary</h3>
+<p>So, in the end we have learnt:</p>
+<ul>
+	<li>CSS techniques:
+		<ul>
+			<li>Several methods of vertically centering content, including the advantages and disadvantages of each</li>
+			<li>Easy rounded corners in Firefox/Webkit</li>
+			<li>Vertical navigation menus based on lists, with <code>:after</code> (or <code>:before</code>) characters</li>
+		</ul>
+	</li>
+	<li>Fixing IE
+		<ul>
+			<li>IE conditional comments to load extra stylesheets</li>
+			<li>the IE <code>hasLayout</code> property</li>
+			<li>the IE <code>expression()</code> value, and using it to set min and max width in IE 6</li>
+		</ul>
+	</li>
+</ul>
+<h3>Sources</h3>
+<p>I did not discover all this myself. Here are some of the articles I have read which describe some of these techniques: (If you are interested, I recommend you read them)</p>
+<ul>
+	<li><a href="http://phrogz.net/CSS/vertical-align/index.html">Understanding vertical-align, or &quot;How (Not) To Vertically Center Content&quot;</a><br />
+	</li>
+	<li><a href="http://www.student.oulu.fi/~laurirai/www/css/middle/">Vertical centering using CSS</a></li>
+	<li><a href="http://www.jakpsatweb.cz/css/css-vertical-center-solution.html">Vertical Centering in CSS</a></li>
+</ul>

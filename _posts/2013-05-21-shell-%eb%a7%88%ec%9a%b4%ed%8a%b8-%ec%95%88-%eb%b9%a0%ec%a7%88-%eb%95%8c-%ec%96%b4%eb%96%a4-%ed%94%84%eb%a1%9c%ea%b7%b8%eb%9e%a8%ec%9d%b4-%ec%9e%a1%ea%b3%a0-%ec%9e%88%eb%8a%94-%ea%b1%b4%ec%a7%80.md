@@ -42,4 +42,4 @@ USB 같은 걸 마운트했다가 안 빠지는 경우가 있다. 다른 프로�
 
 이렇게 하고 나면 마운트를 해제할 수 있다.
 
- [1]: http://dl.dropboxusercontent.com/u/15546257/blog/mytory/cant-umount.png
+ [1]: /uploads/legacy/cant-umount.png

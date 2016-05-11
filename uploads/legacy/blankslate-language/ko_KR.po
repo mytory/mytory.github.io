@@ -1,0 +1,362 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: 안형우 <mytory@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"X-Generator: Poedit 1.5.3\n"
+
+#. Text in echo
+#: all.php:627
+msgid " Both comments and trackbacks are closed."
+msgstr "댓글과 트랙백을 막아 뒀습니다."
+
+#. Text in function
+#: all.php:614
+msgid " and tagged "
+msgstr "태그돼 있습니다."
+
+#. Text in function
+#: all.php:670
+msgid "% Comments"
+msgstr "댓글 %개"
+
+#. Text in function
+#: all.php:670
+msgid "1 Comment"
+msgstr "댓글 1개"
+
+#. Text in function
+#: all.php:621
+msgid ""
+"<a class=\"comment-link\" href=\"#respond\" title=\"Post a Comment\">Post a "
+"Comment</a> or leave a trackback: <a class=\"trackback-link\" href=\"%s\" "
+"title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr ""
+"<a class=\"comment-link\" href=\"#respond\" title=\"댓글을 답니다\">댓글 달기"
+"</a> 또는 <a class=\"trackback-link\" href=\"%s\" title=\"이 글의 트랙백 주소"
+"\" rel=\"trackback\">트랙백 걸기</a>."
+
+#. Text in function
+#: all.php:268
+msgid ""
+"<span class=\"loggedin\">Logged in as <a href=\"%1$s\" title=\"Logged in as "
+"%2$s\">%2$s</a>.</span> <span class=\"logout\"><a href=\"%3$s\" title=\"Log "
+"out of this account\">Log out?</a></span>"
+msgstr ""
+"<span class=\"loggedin\">다음 사용자로 로그인해 있습니다 : <a href=\"%1$s\" "
+"title=\"로그인한 사용자 : %2$s\">%2$s</a></span> <span class=\"logout\"><a "
+"href=\"%3$s\" title=\"로그아웃합니다\">로그아웃 할까요?</a></span>"
+
+#. Text in function
+#: all.php:677
+msgid "<span class=\"meta-nav\">&laquo;</span> older articles"
+msgstr "<span class=\"meta-nav\">&laquo;</span> 예전 글"
+
+#. Text in echo
+#: all.php:275 all.php:279
+msgid "<span class=\"required\">*</span>"
+msgstr "<span class=\"required\">*</span>"
+
+#. Text in function
+#: all.php:231
+msgid "<span>%d</span> Comments"
+msgstr "댓글 <span>%d개</span>"
+
+#. Text in function
+#: all.php:249
+msgid "<span>%d</span> Trackbacks"
+msgstr "트랙백이 <span>%d개</span> 있습니다."
+
+#. Text in function
+#: all.php:231
+msgid "<span>One</span> Comment"
+msgstr "댓글이 <span>하나</span> 있습니다."
+
+#. Text in function
+#: all.php:249
+msgid "<span>One</span> Trackback"
+msgstr "트랙백이 <span>하나</span> 있습니다."
+
+#. Text in function
+#: all.php:193
+msgid "Also posted in %s"
+msgstr "카테고리 : %s"
+
+#. Text in function
+#: all.php:668
+msgid "Also tagged %s"
+msgstr "태그 : %s"
+
+#. Text in function
+#: all.php:125
+msgid "Author Archives: <span class=\"vcard\">%s</span>"
+msgstr "이 사람의 글 목록 : <span class=\"vcard\">%s</span>"
+
+#. Text in echo
+#: all.php:114
+msgid "Both comments and trackbacks are closed."
+msgstr "댓글과 트랙백을 막아 뒀습니다."
+
+#. Text in echo
+#: all.php:654
+msgid "By "
+msgstr "글쓴이 : "
+
+#. Text in function
+#: all.php:432
+msgid "By %1$s on %2$s at %3$s"
+msgstr "%1$s님이 %2$s %3$s 에 작성"
+
+#. Text in echo
+#: all.php:168
+msgid "Category Archives for"
+msgstr "카테고리 : "
+
+#. Text in echo
+#: all.php:288
+msgid "Comment"
+msgstr "댓글"
+
+#. Text in function
+#: all.php:623
+msgid ""
+"Comments are closed, but you can leave a trackback: <a class=\"trackback-link"
+"\" href=\"%s\" title=\"Trackback URL for post\" rel=\"trackback\">Trackback "
+"URL</a>."
+msgstr ""
+"댓글은 막아 뒀습니다. 대신 트랙백을 걸 수 있습니다 : <a class=\"trackback-"
+"link\" href=\"%s\" title=\"트랙백 주소\" rel=\"trackback\">트랙백 주소</a>."
+
+#. Text in function
+#: all.php:110
+msgid ""
+"Comments are closed, but you can leave a trackback: <a class=\"trackback-link"
+"\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback"
+"\">Trackback URL</a>."
+msgstr ""
+"댓글은 막아 뒀습니다. 대신 트랙백을 걸 수 있습니다 : <a class=\"trackback-"
+"link\" href=\"%s\" title=\"트랙백 주소\" rel=\"trackback\">트랙백 주소</a>."
+
+#. Text in function
+#: all.php:27
+msgid "Daily Archives: <span>%s</span>"
+msgstr "날짜별 글 목록 : <span>%s</span>"
+
+#. Text in function
+#: all.php:659 all.php:671 all.php:629 all.php:407 all.php:432 all.php:513
+msgid "Edit"
+msgstr "수정"
+
+#. Text in echo
+#: all.php:279
+msgid "Email"
+msgstr "이메일"
+
+#. Text in function
+#: all.php:670
+msgid "Leave a comment"
+msgstr "댓글 남기기"
+
+#. Text in function
+#: all.php:416
+msgid "Log in to reply."
+msgstr "댓글을 남기려면 로그인하세요"
+
+#. Text in function
+#: all.php:312
+msgid "Main Menu"
+msgstr "메인 메뉴"
+
+#. Text in function
+#: all.php:29
+msgid "Monthly Archives: <span>%s</span>"
+msgstr "월별 글 목록 : <span>%s</span>"
+
+#. Text in echo
+#: all.php:275
+msgid "Name"
+msgstr "이름"
+
+#. Text in echo
+#: all.php:565
+msgid "Nothing Found"
+msgstr "찾을 수 없습니다."
+
+#. Text in function
+#: all.php:312
+msgid "Page "
+msgstr "페이지"
+
+#. Text in function
+#: all.php:611
+msgid "Pages:"
+msgstr "페이지 : "
+
+#. Text in echo
+#: all.php:295
+msgid "Post Comment"
+msgstr "댓글 쓰기"
+
+#. Text in function
+#: all.php:258
+msgid "Post a Comment"
+msgstr "댓글 쓰기"
+
+#. Text in function
+#: all.php:258
+msgid "Post a Reply to %s"
+msgstr "‘%s’에 댓글 남기기"
+
+#. Text in function
+#: all.php:407
+msgid ""
+"Posted %1$s at %2$s <span class=\"meta-sep\"> | </span> <a href=\"%3$s\" "
+"title=\"Permalink to this comment\">Permalink</a>"
+msgstr ""
+"작성일시 %1$s %2$s <span class=\"meta-sep\"> | </span> <a href=\"%3$s\" "
+"title=\"이 댓글의 주소\">댓글 주소</a>"
+
+#. Text in echo
+#: all.php:665
+msgid "Posted in "
+msgstr "카테고리 "
+
+#. Text in echo
+#: all.php:657
+msgid "Published "
+msgstr "작성일시"
+
+#. Text in function
+#: all.php:652
+msgid "Read"
+msgstr "읽기"
+
+#. Text in function
+#: all.php:416
+msgid "Reply"
+msgstr "댓글"
+
+#. Text in echo
+#: all.php:273
+msgid "Required fields are marked <span class=\"required\">*</span>"
+msgstr "<span class=\"required\">*</span> 표시는 반드시 입력해야 합니다."
+
+#. Text in function
+#: all.php:76
+msgid "Return to %s"
+msgstr "‘%s’로 돌아가기"
+
+#. Text in echo
+#: all.php:522
+msgid "Search Results for "
+msgstr "검색 결과 : "
+
+#. Text in echo
+#: all.php:567
+msgid "Sorry, nothing matched your search. Please try again."
+msgstr "검색 결과가 없습니다. 다른 검색어로 다시 검색해 보세요 ^^;;"
+
+#. Text in echo
+#: all.php:642
+msgid "Tag Archives for"
+msgstr "태그별 글 목록 : "
+
+#. Text in function
+#: all.php:550
+msgid "Tagged "
+msgstr "태그 : "
+
+#. Text in function
+#: all.php:614
+msgid ""
+"This article was posted in %1$s%2$s. Bookmark the <a href=\"%3$s\" title="
+"\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>. Follow comments with "
+"the <a href=\"%5$s\" title=\"Comments RSS to %4$s\" rel=\"alternate\" type="
+"\"application/rss+xml\">RSS feed for this post</a>."
+msgstr ""
+"이 글의 카테고리는 %1$s%2$s 입니다. 글을 퍼가실 때는 <a href=\"%3$s\" title="
+"\"‘%4$s’의 고유주소\" rel=\"bookmark\">고유주소</a>를 사용하세요. 댓글을 구독"
+"하시려면 <a href=\"%5$s\" title=\"%4$s에 달린 댓글 RSS 주소\" rel=\"alternate"
+"\"  type=\"application/rss+xml\">이 글의 댓글 RSS를 이용하세요.</a>"
+
+#. Text in echo
+#: all.php:217
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "이 글을 비밀번호가 있습니다. 읽으려면 비밀번호를 입력하세요."
+
+#. Text in echo
+#: all.php:625
+msgid ""
+"Trackbacks are closed, but you can <a class=\"comment-link\" href=\"#respond"
+"\" title=\"Post a Comment\">Post a Comment</a>."
+msgstr ""
+"트랙백은 막아 뒀습니다. 하지만 <a class=\"comment-link\" href=\"#respond\" "
+"title=\"댓글 달기\">댓글은 달 수 있습니다.</a>"
+
+#. Text in function
+#: all.php:655
+msgid "View all articles by %s"
+msgstr "%s 님이 쓴 글 모두 보기"
+
+#. Text in echo
+#: all.php:283
+msgid "Website"
+msgstr "웹사이트"
+
+#. Text in function
+#: all.php:31
+msgid "Yearly Archives: <span>%s</span>"
+msgstr "연도별 글 목록: <span>%s</span>"
+
+#. Text in echo
+#: all.php:292
+msgid ""
+"You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags "
+"and attributes:"
+msgstr ""
+"다음 <abbr title=\"HyperText Markup Language\">HTML</abbr> 태그와 요소를 사용"
+"할 수 있습니다 : "
+
+#. Text in function
+#: all.php:261
+msgid ""
+"You must be <a href=\"%s\" title=\"Log in\">logged in</a> to Post a Comment."
+msgstr "댓글을 달려면 <a href=\"%s\" title=\"로그인하기\">로그인</a>하세요."
+
+#. Text in echo
+#: all.php:273
+msgid "Your email is kept private."
+msgstr "이메일은 공개되지 않습니다."
+
+#. Text in echo
+#: all.php:437
+msgid ""
+"\\t\\t\\t\\t\\t<span class=\"unapproved\">Your trackback is awaiting "
+"moderation.</span>\\n"
+msgstr ""
+"\\t\\t\\t\\t\\t<span class=\"unapproved\">관리자가 승인하면 보내신 트랙백이 "
+"보입니다.</span>\\n"
+
+#. Text in echo
+#: all.php:412
+msgid ""
+"\\t\\t\\t\\t\\t<span class='unapproved'>Your comment is awaiting moderation."
+"</span>\\n"
+msgstr ""
+"\\t\\t\\t\\t\\t<span class='unapproved'>관리자가 승인하면 남기신 댓글이 보입"
+"니다.</span>\\n"
+
+#. Text in function
+#: all.php:662 all.php:484
+msgid "continue reading <span class=\"meta-nav\">&raquo;</span>"
+msgstr "계속 읽기 <span class=\"meta-nav\">&raquo;</span>"
+
+#. Text in function
+#: all.php:678
+msgid "newer articles <span class=\"meta-nav\">&raquo;</span>"
+msgstr "더 최근 글 <span class=\"meta-nav\">&raquo;</span>"

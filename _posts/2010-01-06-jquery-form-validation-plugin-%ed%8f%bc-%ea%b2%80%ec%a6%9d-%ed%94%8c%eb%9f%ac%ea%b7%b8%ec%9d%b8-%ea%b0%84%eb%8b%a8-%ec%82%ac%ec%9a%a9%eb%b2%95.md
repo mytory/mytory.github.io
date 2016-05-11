@@ -48,7 +48,7 @@ tags:
 이 방법은 위 데모 페이지에서 위쪽에 있는 예시에 사용된 방법이다.
 
 <div style="width: 554px" class="wp-caption aligncenter">
-  <img alt="" src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile25.uf.134E474C4D4BC87D299B56.png" width="544" height="330" /><p class="wp-caption-text">
+  <img alt="" src="/uploads/legacy/old-images/1/cfile25.uf.134E474C4D4BC87D299B56.png" width="544" height="330" /><p class="wp-caption-text">
     △이 첫 번째 방법은 javascript 코드가 간단하다는 장점이 있는 반면, 메시지가 영어로 나오고, html 코드에 들어갈 게 많아진다는 단점이 있다. 비표준 어트리뷰트가 사용된다는 점도 단점이다.
   </p>
 </div>
@@ -123,7 +123,7 @@ jQuery.extend(jQuery.validator.messages, {
 
 ## 두 번째 방법
 
-<img class="aligncenter" alt="" src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile26.uf.1712D8594D4BC87E19C9D2.png" width="540" height="460" />
+<img class="aligncenter" alt="" src="/uploads/legacy/old-images/1/cfile26.uf.1712D8594D4BC87E19C9D2.png" width="540" height="460" />
 
 이 방법은 모든 요소를 javascript 단에서 처리하기 때문에 가장 깔끔한 코드를 생산할 수 있다.
 

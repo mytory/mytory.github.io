@@ -18,7 +18,7 @@ tags:
 
 <p style="font-family: 굴림; font-size: 9pt; line-height: 1.5; color: rgb(51, 51, 51); ">
   <font class="Apple-style-span" face="AppleGothic, 애플고딕, 'Malgun Gothic', '맑은 고딕', 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, Arial, Gulim, 굴림, sans-serif" size="2"><span class="Apple-style-span" style="line-height: 20px;"><div style="width: 263px" class="wp-caption aligncenter">
-    <img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile25.uf.143F2D4A4D4BC96B3248BE.png" width="253" height="29" alt="" filename="cfile25.uf.143F2D4A4D4BC96B3248BE.png" filemime="" /><p class="wp-caption-text">
+    <img src="/uploads/legacy/old-images/1/cfile25.uf.143F2D4A4D4BC96B3248BE.png" width="253" height="29" alt="" filename="cfile25.uf.143F2D4A4D4BC96B3248BE.png" filemime="" /><p class="wp-caption-text">
       △텍스트와 img를 그냥 한 줄에 넣으면 이렇게 높이가 어긋난다.
     </p>
   </div></span></font>
@@ -43,19 +43,19 @@ tags:
 <font class="Apple-style-span" face="AppleGothic, 애플고딕, 'Malgun Gothic', '맑은 고딕', 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, Arial, Gulim, 굴림, sans-serif" size="2"><span class="Apple-style-span" style="line-height: 20px;">top을 썼더니 텍스트와 높이가 일치하는 것을 확인했다. 아래는 각각을 적용했을 때 결과다.</span></font>
 
 <font class="Apple-style-span" face="AppleGothic, 애플고딕, 'Malgun Gothic', '맑은 고딕', 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, Arial, Gulim, 굴림, sans-serif" size="2"><span class="Apple-style-span" style="line-height: 20px;"><div style="width: 263px" class="wp-caption aligncenter">
-  <img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile29.uf.19502B4F4D4BC96B278622.png" width="253" height="25" alt="" filename="cfile29.uf.19502B4F4D4BC96B278622.png" filemime="" /><p class="wp-caption-text">
+  <img src="/uploads/legacy/old-images/1/cfile29.uf.19502B4F4D4BC96B278622.png" width="253" height="25" alt="" filename="cfile29.uf.19502B4F4D4BC96B278622.png" filemime="" /><p class="wp-caption-text">
     △ vertical-align: top
   </p>
 </div></span></font>
 
 <font class="Apple-style-span" face="AppleGothic, 애플고딕, 'Malgun Gothic', '맑은 고딕', 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, Arial, Gulim, 굴림, sans-serif" size="2"><span class="Apple-style-span" style="line-height: 20px;"><div style="width: 264px" class="wp-caption aligncenter">
-  <img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile23.uf.150FAE564D4BC96B2C99EF.png" width="254" height="32" alt="" filename="cfile23.uf.150FAE564D4BC96B2C99EF.png" filemime="" /><p class="wp-caption-text">
+  <img src="/uploads/legacy/old-images/1/cfile23.uf.150FAE564D4BC96B2C99EF.png" width="254" height="32" alt="" filename="cfile23.uf.150FAE564D4BC96B2C99EF.png" filemime="" /><p class="wp-caption-text">
     △ vertical-align: middle
   </p>
 </div></span></font>
 
 <font class="Apple-style-span" face="AppleGothic, 애플고딕, 'Malgun Gothic', '맑은 고딕', 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, Arial, Gulim, 굴림, sans-serif" size="2"><span class="Apple-style-span" style="line-height: 20px;"><div style="width: 259px" class="wp-caption aligncenter">
-  <img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile22.uf.1570C4514D4BC96B1E8768.png" width="249" height="29" alt="" filename="cfile22.uf.1570C4514D4BC96B1E8768.png" filemime="" /><p class="wp-caption-text">
+  <img src="/uploads/legacy/old-images/1/cfile22.uf.1570C4514D4BC96B1E8768.png" width="249" height="29" alt="" filename="cfile22.uf.1570C4514D4BC96B1E8768.png" filemime="" /><p class="wp-caption-text">
     △ vertical-align: bottom
   </p>
 </div></span></font>

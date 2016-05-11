@@ -22,4 +22,4 @@ tags:
 
 근데 이거 설치하고 확인해 보니까 admin이라는 아이디로 무차별 암호 대입하는 놈들이 심심찮게 있더라. 설치하길 잘 한 것 같다.
 
- [1]: http://dl.dropboxusercontent.com/u/15546257/blog/mytory/limit-login-attemps-ko_KR/limit-login-attemps-ko_KR.7z
+ [1]: /uploads/legacy/limit-login-attemps-ko_KR/limit-login-attemps-ko_KR.7z

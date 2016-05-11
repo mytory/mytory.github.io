@@ -32,7 +32,7 @@ tags:
 
 그 결과는? 아래 같은 계층 구조가 만들어지게 되죠.
 
-<img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile2.uf.184DBC4C4D4BC862282530.jpg" class="alignleft" width="185" height="129" alt="" />
+<img src="/uploads/legacy/old-images/1/cfile2.uf.184DBC4C4D4BC862282530.jpg" class="alignleft" width="185" height="129" alt="" />
 
 <ttml tt\_class="fileone" tt\_w="185px" tt\_h="129px" tt\_alt="" tt\_link="" tt\_filename="cfile2.uf.184DBC4C4D4BC862282530.jpg" tt\_caption="" tt\_align="left" tt_type="img"></ttml>그러면, 뭔가 문제가 생기겠죠.
 

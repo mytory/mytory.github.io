@@ -20,7 +20,7 @@ tags:
 
 그리고 오른쪽 상단의 설정 버튼을 누른다. 그러면 다음과 같은 화면이 뜬다.
 
-<img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile22.uf.140B8D594D4BC86D218738.png" class="aligncenter" width="580" height="217" alt="" />
+<img src="/uploads/legacy/old-images/1/cfile22.uf.140B8D594D4BC86D218738.png" class="aligncenter" width="580" height="217" alt="" />
 
 클릭하면 확대가 될 거다.
 

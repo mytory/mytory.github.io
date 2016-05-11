@@ -13,7 +13,7 @@ tags:
   - 생각해 보기
 ---
 나의 바람기는 80%라고 한다. ㅡㅡ;;  
-<img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile25.uf.1745044E4D4BC8F02E2F1A.jpg" class="aligncenter" width="580" height="292" alt="" />여러 연인을 거느린단다 ㅡㅡ;;  
+<img src="/uploads/legacy/old-images/1/cfile25.uf.1745044E4D4BC8F02E2F1A.jpg" class="aligncenter" width="580" height="292" alt="" />여러 연인을 거느린단다 ㅡㅡ;;  
 용의주도하단다 ㅡㅡ;;  
 문제가 된다 싶으면 바로 정리해 버린단다 ㅡㅡ;;  
 여러 사람을 통해서 만족을 얻으려 한단다 ㅡㅡ;;  

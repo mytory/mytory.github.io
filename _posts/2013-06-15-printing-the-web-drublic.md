@@ -276,7 +276,7 @@ at-규칙인 `@page`를 인터넷 익스플로러 7을 제외한 모든 주요 
 </div>
 
  [1]: http://www.w3.org/TR/css3-page/
- [2]: http://dl.dropboxusercontent.com/u/15546257/blog/mytory/printing-the-web/print-websites-small-800x346.jpg
+ [2]: /uploads/legacy/printing-the-web/print-websites-small-800x346.jpg
  [3]: http://screengui.de/
  [4]: http://www.sanbeiji.com/archives/953
  [5]: http://adrianroselli.com/
@@ -287,10 +287,10 @@ at-규칙인 `@page`를 인터넷 익스플로러 7을 제외한 모든 주요 
  [10]: http://dabblet.com/gist/5232020
  [11]: http://www.w3.org/TR/2013/WD-css3-page-20130314/#using-named-pages
  [12]: https://developer.mozilla.org/en-US/docs/CSS/@page
- [13]: http://dl.dropboxusercontent.com/u/15546257/blog/mytory/widow-and-orphan.png
+ [13]: /uploads/legacy/widow-and-orphan.png
  [14]: http://www.w3.org/TR/css3-values/
  [15]: http://www.w3.org/TR/css3-gcpm/#page-marks-and-bleed-area
- [16]: http://dl.dropboxusercontent.com/u/15546257/blog/mytory/printing-the-web/box-break.png
+ [16]: /uploads/legacy/printing-the-web/box-break.png
  [17]: http://bricss.net/post/24672339016/box-decoration-break-finally-coming-to-more-browsers
  [18]: http://www.w3.org/TR/CSS21/tables.html#value-def-table-header-group
  [19]: https://twitter.com/SimonSapin

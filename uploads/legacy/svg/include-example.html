@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="ko-KR">
+<head>
+    <meta name="viewport" content="width=device-width" /> 
+    <meta charset="UTF-8">
+    <title>SVG file and include tag example</title>
+    <style>
+        h2 {
+            margin-top: 2em;
+            margin-bottom: 0.5em;
+            border-top: 3px solid #999;
+            border-bottom: 3px solid #999;
+            padding: 0.5em;
+            background-color: #eee;
+        }
+        h2:first-child{
+            margin-top: 0;
+        }
+        svg, img, object, iframe, embed {
+            width: 100px;
+            border: 1px solid red;
+        }
+        .specified {
+            height: 100px;
+        }
+        .not-specified {
+            height: auto;
+        }
+        .ex {
+            display: inline-block;
+            width: 110px;
+        }
+    </style>
+</head>
+<body>
+<h1>SVG file and include tag test</h1>
+<h2>Code</h2>
+<pre><code>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"&gt;
+&lt;svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+version="1.1" width="84px" height="84px" viewBox="0 0 84 84"&gt;
+    &lt;style type="text/css"&gt;
+    #obj {
+        stroke: #34495E;
+    }
+    &lt;/style&gt;
+    &lt;desc&gt;This is svg circle. You can see circle when use svg support browser.&lt;/desc&gt;
+    &lt;circle id="obj" cx="42" cy="42" r="40" stroke="#000" stroke-width="4" fill="gold"/&gt;
+    &lt;script type="text/ecmascript"&gt;&lt;![CDATA[
+        var obj = document.getElementById('obj');
+        obj.setAttribute('fill', '#2ECC71');
+    ]]&gt;&lt;/script&gt;
+&lt;/svg&gt;</code></pre>
+<h2>width 100px, height 100px, with viewBox</h2>
+<div class="ex">
+    <h3>inline</h3>
+    <svg class="specified" xmlns="http://www.w3.org/2000/svg" version="1.1" width="84px" height="84px" viewBox="0 0 84 84">
+      <desc>This is svg circle. You can see circle when use svg support browser.</desc>
+      <circle cx="42" cy="42" r="40" stroke="#34495E" 
+        stroke-width="4" fill="#2ECC71"/>
+    </svg>
+</div>
+
+<div class="ex">
+    <h3>img</h3>
+    <p><img class="specified" src="include-example.svg" alt=""></p>
+</div>
+<div class="ex">
+    <h3>object</h3>
+    <p><object class="specified" data="include-example.svg" type="image/svg+xml"></object></p>
+</div>
+<div class="ex">
+    <h3>iframe</h3>
+    <p><iframe class="specified" src="include-example.svg"></iframe></p>
+</div>
+<div class="ex">
+    <h3>embed</h3>
+    <p><embed class="specified" src="include-example.svg" type="image/svg+xml"></p>
+</div>
+    <h2>width 100px, height 100px, without viewBox</h2>
+<div class="ex">
+    <h3>inline</h3>
+    <svg class="specified" xmlns="http://www.w3.org/2000/svg" version="1.1" width="84px" height="84px">
+      <desc>This is svg circle. You can see circle when use svg support browser.</desc>
+      <circle cx="42" cy="42" r="40" stroke="#34495E" 
+        stroke-width="4" fill="#2ECC71"/>
+    </svg>
+</div>
+<div class="ex">
+    <h3>img</h3>
+    <p><img class="specified" src="include-example-without-viewbox.svg" alt=""></p>
+</div>
+<div class="ex">
+    <h3>object</h3>
+    <p><object class="specified" data="include-example-without-viewbox.svg" type="image/svg+xml"></object></p>
+</div>
+<div class="ex">
+    <h3>iframe</h3>
+    <p><iframe class="specified" src="include-example-without-viewbox.svg"></iframe></p>
+</div>
+<div class="ex">
+    <h3>embed</h3>
+    <p><embed class="specified" src="include-example-without-viewbox.svg" type="image/svg+xml"></p>
+</div>
+
+
+<h2>width 100px, height auto, with viewBox</h2>
+<div class="ex">
+    <h3>inline</h3>
+    <svg class="not-specified" xmlns="http://www.w3.org/2000/svg" version="1.1" width="84px" height="84px" viewBox="0 0 84 84">
+      <desc>This is svg circle. You can see circle when use svg support browser.</desc>
+      <circle cx="42" cy="42" r="40" stroke="#34495E" 
+        stroke-width="4" fill="#2ECC71"/>
+    </svg>
+</div>
+
+<div class="ex">
+    <h3>img</h3>
+    <p><img class="not-specified" src="include-example.svg" alt=""></p>
+</div>
+<div class="ex">
+    <h3>object</h3>
+    <p><object class="not-specified" data="include-example.svg" type="image/svg+xml"></object></p>
+</div>
+<div class="ex">
+    <h3>iframe</h3>
+    <p><iframe class="not-specified" src="include-example.svg"></iframe></p>
+</div>
+<div class="ex">
+    <h3>embed</h3>
+    <p><embed class="not-specified" src="include-example.svg" type="image/svg+xml"></p>
+</div>
+
+<h2>width 100px, height auto, without viewBox</h2>
+<div class="ex">
+    <h3>inline</h3>
+    <svg class="not-specified" xmlns="http://www.w3.org/2000/svg" version="1.1" width="84px" height="84px">
+      <desc>This is svg circle. You can see circle when use svg support browser.</desc>
+      <circle cx="42" cy="42" r="40" stroke="#34495E" 
+        stroke-width="4" fill="#2ECC71"/>
+    </svg>
+</div>
+<div class="ex">
+    <h3>img</h3>
+    <p><img class="not-specified" src="include-example-without-viewbox.svg" alt=""></p>
+</div>
+<div class="ex">
+    <h3>object</h3>
+    <p><object class="not-specified" data="include-example-without-viewbox.svg" type="image/svg+xml"></object></p>
+</div>
+<div class="ex">
+    <h3>iframe</h3>
+    <p><iframe class="not-specified" src="include-example-without-viewbox.svg"></iframe></p>
+</div>
+<div class="ex">
+    <h3>embed</h3>
+    <p><embed class="not-specified" src="include-example-without-viewbox.svg" type="image/svg+xml"></p>
+</div>
+
+
+</body>
+</html>

@@ -12,7 +12,7 @@ categories:
 tags:
   - Program
 ---
-<a href="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile4.uf.1426DE484D4BC96930AC8D.zip" class="aligncenter" />cfile4.uf.1426DE484D4BC96930AC8D.zip</a> <div>
+<a href="/uploads/legacy/old-images/1/cfile4.uf.1426DE484D4BC96930AC8D.zip" class="aligncenter" />cfile4.uf.1426DE484D4BC96930AC8D.zip</a> <div>
   사용법은, 메뉴에서 <b>Window > Action</b> 을 선택해서 액션 메뉴를 연다.
 </div>
 
@@ -21,7 +21,7 @@ tags:
 </div>
 
 <div>
-  <img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile7.uf.1444524E4D4BC9692F46C8.jpg" class="aligncenter" width="211" height="132" alt="" />
+  <img src="/uploads/legacy/old-images/1/cfile7.uf.1444524E4D4BC9692F46C8.jpg" class="aligncenter" width="211" height="132" alt="" />
 </div>
 
 <div>
@@ -29,7 +29,7 @@ tags:
 </div>
 
 <div>
-  <img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile10.uf.11581A474D4BC9691B562A.jpg" class="aligncenter" width="200" height="601" alt="" />
+  <img src="/uploads/legacy/old-images/1/cfile10.uf.11581A474D4BC9691B562A.jpg" class="aligncenter" width="200" height="601" alt="" />
 </div>
 
 <div>
@@ -41,7 +41,7 @@ tags:
 </div>
 
 <div>
-  <img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile5.uf.14193A574D4BC96A1418F6.jpg" class="aligncenter" width="308" height="218" alt="" />
+  <img src="/uploads/legacy/old-images/1/cfile5.uf.14193A574D4BC96A1418F6.jpg" class="aligncenter" width="308" height="218" alt="" />
 </div>
 
 <div>
@@ -65,7 +65,7 @@ tags:
 </div>
 
 <div>
-  따라서 원래 화면으로 돌려야 하는데 <b>View > Screen Mode > Standard Screen Mode</b> 를 선택해 주면 원래대로 돌아 온다. 아래 그림 참고.<br /><img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile4.uf.142E35484D4BC96A2228C6.jpg" class="aligncenter" width="580" height="513" alt="" />
+  따라서 원래 화면으로 돌려야 하는데 <b>View > Screen Mode > Standard Screen Mode</b> 를 선택해 주면 원래대로 돌아 온다. 아래 그림 참고.<br /><img src="/uploads/legacy/old-images/1/cfile4.uf.142E35484D4BC96A2228C6.jpg" class="aligncenter" width="580" height="513" alt="" />
 </div>
 
 <div>

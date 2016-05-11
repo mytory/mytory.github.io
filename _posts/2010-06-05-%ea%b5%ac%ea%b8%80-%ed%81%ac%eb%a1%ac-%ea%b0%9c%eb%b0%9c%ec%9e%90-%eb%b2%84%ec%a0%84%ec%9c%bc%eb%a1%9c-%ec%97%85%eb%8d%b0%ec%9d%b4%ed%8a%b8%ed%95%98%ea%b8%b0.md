@@ -20,4 +20,4 @@ tags:
 
 우분투 사용자의 경우 아래와 같이 소프트웨어 센터에 들어가서 설치한다.(우분투 소프트웨어 센터는 9.10 버전부터 프로그램 메뉴 하단에 있다.)
 
-<img class="aligncenter" src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile25.uf.140BBA494D4BC94C3523D1.png" alt="" width="580" height="333" />위처럼 소프트웨어 센터에 구글이 등장하려면 구글 저장소를 추가해 뒀거나, 크롬을 이미 설치해 뒀거나 해야 한다.
+<img class="aligncenter" src="/uploads/legacy/old-images/1/cfile25.uf.140BBA494D4BC94C3523D1.png" alt="" width="580" height="333" />위처럼 소프트웨어 센터에 구글이 등장하려면 구글 저장소를 추가해 뒀거나, 크롬을 이미 설치해 뒀거나 해야 한다.

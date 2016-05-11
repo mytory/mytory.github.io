@@ -16,4 +16,4 @@ tags:
 
 아래 스크린샷은 원본 글에서 가져 왔다.
 
-<img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile7.uf.1460BD504D4BC96C253D9F.png" class="aligncenter" width="400" height="315" alt="" filename="8973822340.png" filemime="image/jpeg" />
+<img src="/uploads/legacy/old-images/1/cfile7.uf.1460BD504D4BC96C253D9F.png" class="aligncenter" width="400" height="315" alt="" filename="8973822340.png" filemime="image/jpeg" />

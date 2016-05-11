@@ -15,7 +15,7 @@ tags:
 <a href="https://twitter.com/settings/widgets" target="_blank" title="[https://twitter.com/about/resources/widgets/widget_profile]로 이동합니다.">트위터 공식 위젯</a>을 게시하려는 페이지의 인코딩이 euc-kr일 경우 오류가 발생한다.
 
 <div style="width: 269px" class="wp-caption aligncenter">
-  <img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile23.uf.1576D4514D4BC96B14A958.png" width="259" height="219" alt="" filename="cfile23.uf.1576D4514D4BC96B14A958.png" filemime="" /><p class="wp-caption-text">
+  <img src="/uploads/legacy/old-images/1/cfile23.uf.1576D4514D4BC96B14A958.png" width="259" height="219" alt="" filename="cfile23.uf.1576D4514D4BC96B14A958.png" filemime="" /><p class="wp-caption-text">
     △트위터 공식 위젯
   </p>
 </div>

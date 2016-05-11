@@ -25,19 +25,19 @@ tags:
 
 일단 오픈오피스에서 &#8216;**<font class="Apple-style-span" color="#FF0000">파일 &#8211; 다른 이름으로 저장</font>**&#8216;(Ctrl+Shift+S)을 선택한다. 아래 그림처럼 말이다.
 
-<img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile25.uf.1132D5554D4BC87E297A0F.png" class="aligncenter" width="261" height="510" alt="" />
+<img src="/uploads/legacy/old-images/1/cfile25.uf.1132D5554D4BC87E297A0F.png" class="aligncenter" width="261" height="510" alt="" />
 
 그러면 저장하는 화면이 뜰 텐데, 오른쪽 하단에 파일 형식을 고르는 게 있다. 거기서 **<font class="Apple-style-span" color="#FF0000">&#8216;인코딩된 텍스트&#8217;</font>**를 고른다.
 
-<img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile29.uf.12534C4C4D4BC87F22A840.png" class="aligncenter" width="580" height="585" alt="" />
+<img src="/uploads/legacy/old-images/1/cfile29.uf.12534C4C4D4BC87F22A840.png" class="aligncenter" width="580" height="585" alt="" />
 
 오른쪽 하단의 &#8216;ODF 텍스트 문서&#8217;라고 표시된 부분을 클릭하면 아래 화면처럼 여러 형식이 나온다. 이 중 &#8216;인코딩된 텍스트&#8217;를 고르라는 말이다.
 
-<img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile26.uf.161C5C524D4BC8802306B4.png" class="aligncenter" width="580" height="610" alt="" />
+<img src="/uploads/legacy/old-images/1/cfile26.uf.161C5C524D4BC8802306B4.png" class="aligncenter" width="580" height="610" alt="" />
 
 선택하고 파일 이름도 정하고, 폴더도 확인했다면 저장 버튼을 누른다. 저장 버튼을 누르면 아래 같은 창이 뜬다.
 
-<img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile23.uf.1750BD4F4D4BC87F216D6B.png" class="aligncenter" width="548" height="155" alt="" />
+<img src="/uploads/legacy/old-images/1/cfile23.uf.1750BD4F4D4BC87F216D6B.png" class="aligncenter" width="548" height="155" alt="" />
 
 위 그림에 나와 있는대로, 한국어(EUC-KR)과 CR&LF를 선택해 주자.(이걸 선택하지 않아서 엔터값이 다 무시된 채로 보였던 것이다. 리눅스 txt의 엔터값 코드와 윈도우의 엔터값 코드가 다르기 때문에 생기는 문제라고 한다.)
 

@@ -17,7 +17,7 @@ tags:
 <div class="mceTemp mceIEcenter">
   <dl>
     <dt>
-      <img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile1.uf.17571A4F4D4BC94F18CC13.png" alt="" width="580" height="152" />
+      <img src="/uploads/legacy/old-images/1/cfile1.uf.17571A4F4D4BC94F18CC13.png" alt="" width="580" height="152" />
     </dt>
     
     <dd>

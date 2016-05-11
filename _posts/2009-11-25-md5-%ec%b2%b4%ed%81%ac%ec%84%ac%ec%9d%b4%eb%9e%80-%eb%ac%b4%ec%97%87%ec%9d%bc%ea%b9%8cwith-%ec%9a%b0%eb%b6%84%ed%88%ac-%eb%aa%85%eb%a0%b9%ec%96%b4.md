@@ -21,7 +21,7 @@ tags:
 
 예컨대, 아래 그림을 참고해 보자. <a href="http://ubuntu.or.kr/viewtopic.php?f=6&t=8239" target="_blank">우분투를 한국 환경에 맞게 설정해 둔 '코분투'를 다운로드 하는 링크</a>다.
 
-<img alt="" class="aligncenter" height="128" src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile25.uf.1255FC4D4D4BC8702E3C41.png" width="513" />
+<img alt="" class="aligncenter" height="128" src="/uploads/legacy/old-images/1/cfile25.uf.1255FC4D4D4BC8702E3C41.png" width="513" />
 
 아래쪽에 체크섬파일이라고 적혀있는 게 보일 거다. 클릭해서 들어가보면 아래처럼 나온다.
 

@@ -21,5 +21,5 @@ tags:
 </div>
 
 <div>
-  <a href="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile22.uf.1542804E4D4BC865319937.odt" class="aligncenter" />cfile22.uf.1542804E4D4BC865319937.odt</a><a href="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile27.uf.152810484D4BC865295A0B.txt" class="aligncenter" />cfile27.uf.152810484D4BC865295A0B.txt</a>
+  <a href="/uploads/legacy/old-images/1/cfile22.uf.1542804E4D4BC865319937.odt" class="aligncenter" />cfile22.uf.1542804E4D4BC865319937.odt</a><a href="/uploads/legacy/old-images/1/cfile27.uf.152810484D4BC865295A0B.txt" class="aligncenter" />cfile27.uf.152810484D4BC865295A0B.txt</a>
 </div>

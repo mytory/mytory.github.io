@@ -21,4 +21,4 @@ apt-get install이나 시냅틱 패키지 관리자로 설치한 프로그램 �
 
 [덧]아래 그림처럼 &#8216;패키지 설치 파일만 내려 받기&#8217;에 체크하면 설치는 안 되고 위 경로에 설치 파일만 내려 받게 된다.
 
-<img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile29.uf.19211E484D4BC87A332255.png" class="aligncenter" width="492" height="414" alt="" />
+<img src="/uploads/legacy/old-images/1/cfile29.uf.19211E484D4BC87A332255.png" class="aligncenter" width="492" height="414" alt="" />

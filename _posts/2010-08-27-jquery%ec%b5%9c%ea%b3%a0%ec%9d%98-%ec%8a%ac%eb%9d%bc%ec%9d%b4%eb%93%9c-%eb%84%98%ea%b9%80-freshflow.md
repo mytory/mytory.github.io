@@ -19,7 +19,7 @@ http://techdesignz.net/index.php?/topic/3-freshflow-1-page-jquery-html-theme/
 
 <div>
   <div style="width: 550px" class="wp-caption aligncenter">
-    <img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile23.uf.1466F6504D4BC9621AAB0D.png" alt="" width="540" height="170" /><p class="wp-caption-text">
+    <img src="/uploads/legacy/old-images/1/cfile23.uf.1466F6504D4BC9621AAB0D.png" alt="" width="540" height="170" /><p class="wp-caption-text">
       △이렇게 부드럽게 스르륵 넘어갑니다. 그림 클릭하면 예제 페이지로 갑니다.
     </p>
   </div>

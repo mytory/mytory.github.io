@@ -20,4 +20,4 @@ tags:
 
 혹시 삭제될 지도 몰라 화면을 그대로 저장한 파일도 올린다.
 
-<a href="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile22.uf.1443FF4E4D4BC88C2D4369.7z" class="aligncenter" />cfile22.uf.1443FF4E4D4BC88C2D4369.7z</a>
+<a href="/uploads/legacy/old-images/1/cfile22.uf.1443FF4E4D4BC88C2D4369.7z" class="aligncenter" />cfile22.uf.1443FF4E4D4BC88C2D4369.7z</a>

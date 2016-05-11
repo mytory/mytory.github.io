@@ -18,7 +18,7 @@ Posted by Jen in coding front-end, trends on December 9th, 2009
 
 (역자 주 : 당연히, 나는 전문 번역자가 아니다. 그래서 오역이 있을 수 있다. 원문의 링크는 클리어 보스에서 얻었다. 원문과 비교해 보면 의역이 많다는 걸 알 수 있을 텐데, 번역 실력이 모자라기 때문에 그런 거다;;)
 
-<img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile9.uf.163E7A4A4D4BC89B2DEBC3.png" class="alignleft" width="152" height="300" alt="" />
+<img src="/uploads/legacy/old-images/1/cfile9.uf.163E7A4A4D4BC89B2DEBC3.png" class="alignleft" width="152" height="300" alt="" />
 
 내가 모바일 CSS에 대해 얘기할 때, 나는 아이폰의 사파리, 블랙베리의 기본 브라우저, 그리고 신제품이지만 많은 이들이 사용하게 될 오페라 미니를 떠올린다.(원문은 이거다 : I am looking for safari in iphone, blackberry default browser and this new born but the mobile browser for majority to be &#8211; opera mini.)
 

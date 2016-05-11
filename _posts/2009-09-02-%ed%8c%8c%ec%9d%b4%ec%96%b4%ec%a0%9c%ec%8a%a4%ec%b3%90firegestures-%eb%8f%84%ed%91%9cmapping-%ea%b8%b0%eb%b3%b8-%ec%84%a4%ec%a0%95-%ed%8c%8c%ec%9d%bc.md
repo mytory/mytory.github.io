@@ -18,5 +18,5 @@ tags:
 <p>웬걸 원래 설정으로 되돌리기 기능이 없는 것이었다!!! 이런 젠장.</p>
 <p>그래서 삭제했다가 다시 깔아봤다. 도표가 그대로 살아있다. ㅡㅡ;; 친절도 하셔라.</p>
 <p>결국 서브컴퓨터에 있는 도표를 백업한 후 메인컴으로 카피해 왔다.(백업을 하려면 최소 한 번은 수정을 해야 한다. 안 그러면 백업도 안 된다. 이것 때문에 또 헤맸다.) 그리고 나서야 원래 도표대로 만들 수 있었다.</p>
-<p>귀찮은 마음에, 그리고 혹시나 나 같은 사람이 또 있을까봐서, 백업 파일을 올려 둔다.<a href="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile25.uf.145F054D4D4BC8641F0F4A.sqlite"  />cfile25.uf.145F054D4D4BC8641F0F4A.sqlite</a></p>
+<p>귀찮은 마음에, 그리고 혹시나 나 같은 사람이 또 있을까봐서, 백업 파일을 올려 둔다.<a href="/uploads/legacy/old-images/1/cfile25.uf.145F054D4D4BC8641F0F4A.sqlite"  />cfile25.uf.145F054D4D4BC8641F0F4A.sqlite</a></p>
 <p></p>

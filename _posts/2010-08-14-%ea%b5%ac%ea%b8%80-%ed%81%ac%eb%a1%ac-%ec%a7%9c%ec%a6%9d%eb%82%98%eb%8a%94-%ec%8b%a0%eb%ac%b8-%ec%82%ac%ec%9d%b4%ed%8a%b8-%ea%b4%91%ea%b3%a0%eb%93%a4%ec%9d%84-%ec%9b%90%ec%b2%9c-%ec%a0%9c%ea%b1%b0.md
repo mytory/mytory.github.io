@@ -32,7 +32,7 @@ tags:
 
 그 다음은 **고급설정 > 콘텐츠 설정 > 자바스크립트 탭 > 예외 > 추가** 이렇게 눌러 주면 된다.
 
-<img class="aligncenter" alt="" src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile22.uf.135E0B4D4D4BC960221287.png" width="580" height="612" />
+<img class="aligncenter" alt="" src="/uploads/legacy/old-images/1/cfile22.uf.135E0B4D4D4BC960221287.png" width="580" height="612" />
 
 위에 보이는 것처럼 http://를 제외하고 메인 URL 부분을 써 주면 된다. 옵션에는 반드시 &#8216;허용&#8217;이 아니라 &#8216;차단&#8217;을 선택해 주자.
 

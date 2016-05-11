@@ -90,8 +90,8 @@ tags:
 
  [1]: http://mytory.net/archives/2159
  [2]: http://www.istockphoto.com/stock-illustration-3561299-magic-tree-amp-birdie.php
- [3]: http://dl.dropboxusercontent.com/u/15546257/blog/mytory/magic-tree-01.png
- [4]: http://dl.dropboxusercontent.com/u/15546257/blog/mytory/magic-tree-logo.png
+ [3]: /uploads/legacy/magic-tree-01.png
+ [4]: /uploads/legacy/magic-tree-logo.png
  [5]: http://inuitcss.com/
  [6]: http://sass-lang.com/
  [7]: http://designmodo.com/demo/flat-ui/

@@ -25,7 +25,7 @@ tags:
 
 아래 그림을 참고하라.
 
-[<img class="aligncenter" alt="" src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/filezilla-server-passive.png" width="607" height="418" />][2]
+[<img class="aligncenter" alt="" src="/uploads/legacy/filezilla-server-passive.png" width="607" height="418" />][2]
 
 <span style="line-height: 1.714285714; font-size: 1rem;">위에서 빨간 줄 친 곳을 입력하면 된다.</span>
 
@@ -34,4 +34,4 @@ tags:
 &nbsp;
 
  [1]: https://forum.filezilla-project.org/viewtopic.php?f=6&t=27163#p102246
- [2]: http://dl.dropboxusercontent.com/u/15546257/blog/mytory/filezilla-server-passive.png
+ [2]: /uploads/legacy/filezilla-server-passive.png

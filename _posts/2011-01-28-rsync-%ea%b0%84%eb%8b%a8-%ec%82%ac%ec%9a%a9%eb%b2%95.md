@@ -14,7 +14,7 @@ tags:
 ---
 rsync는 폴더를 동기화해 주는 프로그램이다. 리눅스 등 유닉스 계열에서 사용하는 듯. 서버 관리자라면 알아 두는 게 좋을 것이고, 뭔가 백업과 동기화가 필요한 작업을 하는 분도 알아 두는 게 좋을 듯. 로컬에서도 작동하고 원격으로도 작동한다.
 
-<img class="aligncenter" src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile30.uf.1945374E4D4BC96E31B91C.jpg" alt="" width="320" height="200" />
+<img class="aligncenter" src="/uploads/legacy/old-images/1/cfile30.uf.1945374E4D4BC96E31B91C.jpg" alt="" width="320" height="200" />
 
 내가 사용한 명령어는 아래와 같다.
 

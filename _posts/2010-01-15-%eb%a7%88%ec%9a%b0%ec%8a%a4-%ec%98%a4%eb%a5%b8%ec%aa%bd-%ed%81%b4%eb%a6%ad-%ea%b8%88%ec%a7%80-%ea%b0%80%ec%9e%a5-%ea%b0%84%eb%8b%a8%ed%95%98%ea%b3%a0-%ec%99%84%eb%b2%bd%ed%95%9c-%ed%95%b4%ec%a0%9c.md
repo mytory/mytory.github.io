@@ -20,7 +20,7 @@ tags:
 
 아래 그림은 **<a href="http://www.mozilla.or.kr/" target="_blank">파이어폭스</a>의 환경설정 화면**이다. 내용 탭에서 **자바스크립트 사용**을 체크해제해 준다.
 
-<img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile10.uf.116287504D4BC8821D511E.png" class="aligncenter" width="575" height="581" alt="" />
+<img src="/uploads/legacy/old-images/1/cfile10.uf.116287504D4BC8821D511E.png" class="aligncenter" width="575" height="581" alt="" />
 
 위 그림처럼 &#8216;자바스크립트 사용&#8217;을 체크해제한다.
 

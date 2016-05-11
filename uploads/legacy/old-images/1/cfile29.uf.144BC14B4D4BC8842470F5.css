@@ -1,0 +1,58 @@
+/*
+	/dekiwiki/skins/fiesta/print.css
+*/
+#printfooter,
+#pageToc,
+#deki-page-alerts,
+noscript,
+.header,
+.siteNav,
+.pageBar, 
+.pageInfo, 
+.pageStatus, 
+.pageRevision,
+.file,
+.gallery,
+#comments,
+.custom,
+.MindTouch {
+	display: none;
+}
+
+#pageTypeSpecial {
+	background-image:none !important;
+}
+
+#pageContent {
+	/*font: 14px trebuchet MS, Arial, Verdana;*/
+
+}
+#pageText{
+	font:10pt 바탕, '맑은 고딕', '은 명조' !important;
+}
+#pageText p {
+	font:10pt 바탕, '맑은 고딕', '은 명조' !important;
+	line-height: 1.6 !important;
+	text-align: justify !important;
+	padding:0 !important;
+	text-indent: 1em  !important;
+}
+#topic h3, #pageText h3, .header_3 {
+	font-size:15pt !important;
+	font-weight:bold;
+	margin: 10pt 0 !important;
+}
+h1#title {
+	border-bottom:1px solid #ccc;	
+}
+#topic table, #pageText table {
+	font-size:10pt !important;
+	margin: 10pt 0 !important;
+	border-collapse: collapse;
+	overflow:auto;
+}
+#topic table td, #pageText table td{
+	border:1px solid #000;	
+}
+
+

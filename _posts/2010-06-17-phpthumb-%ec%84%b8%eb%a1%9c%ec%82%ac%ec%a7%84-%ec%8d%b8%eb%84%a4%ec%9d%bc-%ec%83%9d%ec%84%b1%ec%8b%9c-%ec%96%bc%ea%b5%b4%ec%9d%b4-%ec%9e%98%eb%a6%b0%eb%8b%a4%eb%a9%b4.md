@@ -31,7 +31,7 @@ phpThumb 덕에 썸네일 걱정없이 산지 몇 주가 됐습니다. <div>
 
 <div>
   <div style="width: 310px" class="wp-caption aligncenter">
-    <img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile22.uf.180D9C494D4BC950264C00.jpg" width="300" height="464" alt="" /><p class="wp-caption-text">
+    <img src="/uploads/legacy/old-images/1/cfile22.uf.180D9C494D4BC950264C00.jpg" width="300" height="464" alt="" /><p class="wp-caption-text">
       △이게 원본입니다. 클릭하면 이 사진이 있는 기사로 갑니다.
     </p>
   </div>
@@ -39,7 +39,7 @@ phpThumb 덕에 썸네일 걱정없이 산지 몇 주가 됐습니다. <div>
 
 <div>
   <div style="width: 80px" class="wp-caption aligncenter">
-    <img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile26.uf.132592484D4BC9512F1E9F.jpg" width="70" height="50" alt="" /><p class="wp-caption-text">
+    <img src="/uploads/legacy/old-images/1/cfile26.uf.132592484D4BC9512F1E9F.jpg" width="70" height="50" alt="" /><p class="wp-caption-text">
       △가로 70px, 세로 50px의 썸네일을 생성하자 이렇게 노회찬 진보신당 대표의 얼굴이 잘려 버립니다.
     </p>
   </div>
@@ -61,7 +61,7 @@ phpThumb 덕에 썸네일 걱정없이 산지 몇 주가 됐습니다. <div>
 
 <div>
   <div style="width: 80px" class="wp-caption aligncenter">
-    <img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile10.uf.111D52524D4BC95126CF3F.jpg" width="70" height="50" alt="" /><p class="wp-caption-text">
+    <img src="/uploads/legacy/old-images/1/cfile10.uf.111D52524D4BC95126CF3F.jpg" width="70" height="50" alt="" /><p class="wp-caption-text">
       △수정한 후 모습입니다. 세로사진인 경우 약간 위쪽을 자르도록 했습니다.
     </p>
   </div>
@@ -194,7 +194,7 @@ phpThumb 덕에 썸네일 걱정없이 산지 몇 주가 됐습니다. <div>
 </div>
 
 <div>
-  <img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile22.uf.15420D4E4D4BC951323B43.jpg" class="aligncenter" width="300" height="464" alt="" />
+  <img src="/uploads/legacy/old-images/1/cfile22.uf.15420D4E4D4BC951323B43.jpg" class="aligncenter" width="300" height="464" alt="" />
 </div>
 
 <div>
@@ -238,7 +238,7 @@ phpThumb 덕에 썸네일 걱정없이 산지 몇 주가 됐습니다. <div>
 </div>
 
 <div>
-  <img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile4.uf.130CBE494D4BC9512866E7.jpg" class="aligncenter" width="300" height="214" alt="" />
+  <img src="/uploads/legacy/old-images/1/cfile4.uf.130CBE494D4BC9512866E7.jpg" class="aligncenter" width="300" height="214" alt="" />
 </div>
 
 <div>
@@ -250,7 +250,7 @@ phpThumb 덕에 썸네일 걱정없이 산지 몇 주가 됐습니다. <div>
 </div>
 
 <div>
-  <img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile10.uf.111D52524D4BC95126CF3F.jpg" class="aligncenter" width="70" height="50" alt="" />
+  <img src="/uploads/legacy/old-images/1/cfile10.uf.111D52524D4BC95126CF3F.jpg" class="aligncenter" width="70" height="50" alt="" />
 </div>
 
 <div>

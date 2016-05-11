@@ -19,4 +19,4 @@ tags:
 
 운영체제에 따라서 `Ctrl`+`DEL`이나 `Shift`+`DEL`, `fn`+`DEL`을 눌러야 할 수도 있다.
 
- [1]: http://dl.dropboxusercontent.com/u/15546257/blog/mytory/chrome-autocomplete-url.png
+ [1]: /uploads/legacy/chrome-autocomplete-url.png

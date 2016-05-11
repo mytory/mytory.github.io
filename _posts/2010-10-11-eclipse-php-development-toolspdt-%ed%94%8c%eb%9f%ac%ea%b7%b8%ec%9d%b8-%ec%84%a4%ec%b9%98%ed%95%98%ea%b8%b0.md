@@ -22,7 +22,7 @@ PHP Development Tools (PDT) Runtime Feature 2.1.2.v20090826-1027-7L7979F8NcJKhKR
 
 아래 그림을 참고하면 쉽다.
 
-<img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile25.uf.114EB24C4D4BC9682C3E25.png" class="aligncenter" width="580" height="729" alt="" />
+<img src="/uploads/legacy/old-images/1/cfile25.uf.114EB24C4D4BC9682C3E25.png" class="aligncenter" width="580" height="729" alt="" />
 
 참 쉽다.
 

@@ -24,7 +24,7 @@ tags:
 
 물론, 설정은 필요했다. 아래처럼 말이다. (아마 클릭하면 확대될 거다.)
 
-<img class="aligncenter" alt="" src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile30.uf.1249464E4D4BC8F9262EF9.jpg" width="580" height="189" />
+<img class="aligncenter" alt="" src="/uploads/legacy/old-images/1/cfile30.uf.1249464E4D4BC8F9262EF9.jpg" width="580" height="189" />
 
 흠. 일단 필드 구분자를 쉼표로 바꿨고, 필드 감싸기를 지웠다. 줄 구분자는 그냥 오토로 했다.
 
@@ -37,6 +37,6 @@ tags:
 
 [2013년 5월 30일자 우편번호 mysql export 파일 다운로드][1]
 
- [1]: http://dl.dropboxusercontent.com/u/15546257/blog/mytory/zipcode.sql.gz
+ [1]: /uploads/legacy/zipcode.sql.gz
  [2]: http://mytory.net/archives/1284 "우체국의 우편번호 API를 이용해 우편번호 검색 서비스를 만들어 보자 (1) 서버단"
  [3]: https://docs.google.com/leaf?id=0B1y-xjZYE3AqMzFhNzEzYWUtMWY1OC00MGIyLWI5NGYtZmQ1YzY5YWZmZDVi&hl=ko

@@ -22,14 +22,14 @@ tags:
 
 일단 아래 그림부터 보자.
 
-<img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile25.uf.121D49524D4BC8EF21B5D5.png" class="aligncenter" width="580" height="477" alt="" />
+<img src="/uploads/legacy/old-images/1/cfile25.uf.121D49524D4BC8EF21B5D5.png" class="aligncenter" width="580" height="477" alt="" />
 
 window > preperences 에서 상단 왼쪽에 svn이라고 치면 서브클립스 관련한 설정을 할 수 있는 부분이 나온다.
 
 우리에게 필요한 건 Label Decoration 이다. 이 메뉴를 고르면 라벨을 어떻게 붙일지 설정할 수 있다.
 
 위에 보이는 것처럼 {date} {author} 를 지워버리면 아래 그림처럼 깔끔하게 리비전 번호만 남는다.  
-<img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile6.uf.193F624A4D4BC8EF2F0667.png" class="aligncenter" width="580" height="477" alt="" />
+<img src="/uploads/legacy/old-images/1/cfile6.uf.193F624A4D4BC8EF2F0667.png" class="aligncenter" width="580" height="477" alt="" />
 
 솔직히 리비전 시간이랑 작성자 궁금하면 히스토리로 보면 된다.
 

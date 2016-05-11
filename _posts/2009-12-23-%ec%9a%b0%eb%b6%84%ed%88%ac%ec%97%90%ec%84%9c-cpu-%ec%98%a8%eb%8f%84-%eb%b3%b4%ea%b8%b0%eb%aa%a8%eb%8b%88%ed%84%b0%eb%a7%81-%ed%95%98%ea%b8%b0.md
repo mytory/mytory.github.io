@@ -32,21 +32,21 @@ tags:
 일단, 설치할 프로그램은 sensors-applet이다. 시냅틱 패키지 관리자에서 찾아서 설치하면 의존성을 만족시키면서 모두 설치하니까 저놈만 찾아서 설치하면 된다.
 
 <div style="width: 380px" class="wp-caption aligncenter">
-  <img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile22.uf.1575A3584D4BC8761F996B.png" width="370" height="82" alt="" /><p class="wp-caption-text">
+  <img src="/uploads/legacy/old-images/1/cfile22.uf.1575A3584D4BC8761F996B.png" width="370" height="82" alt="" /><p class="wp-caption-text">
     △이놈만 찾아서 설치하면 된다.
   </p>
 </div>
 
 설치 끝난 후 패널에 CPU 온도를 표시하려면 다음과 같이 한다. 시냅틱 패키지 관리자 일단 끄고. 패널에서 마우스 오른쪽 버튼을 누른다.
 
-<img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile9.uf.130EAD494D4BC8762244B8.png" class="aligncenter" width="154" height="172" alt="" />
+<img src="/uploads/legacy/old-images/1/cfile9.uf.130EAD494D4BC8762244B8.png" class="aligncenter" width="154" height="172" alt="" />
 
 나오는 메뉴에서 패널에 추가를 선택한다.
 
 &#8216;패널에 추가할 항목 찾기&#8217;에 sensors 라고 치면 필요한 놈이 나올 것이다. 아래 그림 참고하면 된다.(안 나오면 로그아웃했다가 들어와 보자. 로그아웃했다 들어왔는데 안 되면 재부팅 해 보자.)
 
-<img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile9.uf.124C91474D4BC8762CF7DA.png" class="aligncenter" width="570" height="522" alt="" />
+<img src="/uploads/legacy/old-images/1/cfile9.uf.124C91474D4BC8762CF7DA.png" class="aligncenter" width="570" height="522" alt="" />
 
 그러면 아래 그림처럼 CPU 온도가 표시된다. 내 노트북의 CPU는 평소 때 45~46℃를 유지하는 것 같다.
 
-<img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile25.uf.135B8E4C4D4BC87717458C.png" class="aligncenter" width="558" height="26" alt="" />
+<img src="/uploads/legacy/old-images/1/cfile25.uf.135B8E4C4D4BC87717458C.png" class="aligncenter" width="558" height="26" alt="" />

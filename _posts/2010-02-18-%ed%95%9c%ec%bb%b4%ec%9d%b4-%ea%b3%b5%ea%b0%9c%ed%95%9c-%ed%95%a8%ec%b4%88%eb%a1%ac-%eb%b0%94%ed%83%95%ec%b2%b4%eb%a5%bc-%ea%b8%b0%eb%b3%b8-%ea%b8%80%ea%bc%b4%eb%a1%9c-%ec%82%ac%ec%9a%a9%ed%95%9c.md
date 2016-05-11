@@ -31,13 +31,13 @@ tags:
 어쨌든, 아래는 함초롬 바탕을 기본글꼴로 하고 웹을 탐색한 모습을 캡쳐한 것이다. 눈에 전혀 부담이 없고 부드러워서 기분이 좋다. ^^
 
 <div style="width: 549px" class="wp-caption aligncenter">
-  <img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile10.uf.1813B1594D4BC8921861DB.png" width="539" height="225" alt="" /><p class="wp-caption-text">
+  <img src="/uploads/legacy/old-images/1/cfile10.uf.1813B1594D4BC8921861DB.png" width="539" height="225" alt="" /><p class="wp-caption-text">
     큰 글꼴도 잘 표현하고...
   </p>
 </div>
 
 <div style="width: 550px" class="wp-caption aligncenter">
-  <img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile22.uf.122716484D4BC8932B8F83.png" width="540" height="252" alt="" /><p class="wp-caption-text">
+  <img src="/uploads/legacy/old-images/1/cfile22.uf.122716484D4BC8932B8F83.png" width="540" height="252" alt="" /><p class="wp-caption-text">
     작은 글꼴도 잘 표현한다.
   </p>
 </div>

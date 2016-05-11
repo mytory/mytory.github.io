@@ -26,44 +26,44 @@ translated to another language.)고 돼 있으니, 이렇게 소개하는 게 �
 
 ## <a target="_blank" href="http://www.newmediacampaigns.com/page/jquery-vs-flash-for-interactive-map">상호작용 지도</a> | <a target="_blank" href="http://ncmarinescience.com/">데모</a>
 
-<img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile6.uf.1960CD504D4BC8D421808F.jpg" class="aligncenter" width="500" height="200" alt="" />
+<img src="/uploads/legacy/old-images/1/cfile6.uf.1960CD504D4BC8D421808F.jpg" class="aligncenter" width="500" height="200" alt="" />
 
 플래시 없이도 위 그림과 같은 지도를 만들 수 있다고 한다.
 
 ## <a target="_blank" href="http://tutorialzine.com/2009/12/animated-share-buttons-jquery-css/">움직이는 공유 버튼</a> | <a target="_blank" href="http://demo.tutorialzine.com/2009/12/animated-share-buttons-jquery-css/demo.html">데모</a>
 
-<img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile29.uf.1866F5504D4BC8D219C20A.jpg" class="aligncenter" width="500" height="200" alt="" />
+<img src="/uploads/legacy/old-images/1/cfile29.uf.1866F5504D4BC8D219C20A.jpg" class="aligncenter" width="500" height="200" alt="" />
 
 ## <a target="_blank" href="http://jquery.vostrel.cz/reel">Reel 효과(아래 보이는 화살표가 휠과 드래그를 따라 빙글빙글 돈다.)</a> | <a target="_blank" href="http://jquery.vostrel.cz/reel">데모</a>
 
-<img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile3.uf.161006494D4BC8D2225FDE.jpg" class="aligncenter" width="500" height="200" alt="" />
+<img src="/uploads/legacy/old-images/1/cfile3.uf.161006494D4BC8D2225FDE.jpg" class="aligncenter" width="500" height="200" alt="" />
 
 ## <a target="_blank" href="http://aext.net/2010/02/learn-jquery-first-jquery-plugin-bubbleup/">버블 업 버튼(올려놓으면 버튼이 확 커지는 효과)</a> | <a target="_blank" href="http://aext.net/jquery-menu-plugin-bubbleup/">데모</a>
 
-<img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile8.uf.144BDC4B4D4BC8D225A9B9.jpg" class="aligncenter" width="500" height="200" alt="" />
+<img src="/uploads/legacy/old-images/1/cfile8.uf.144BDC4B4D4BC8D225A9B9.jpg" class="aligncenter" width="500" height="200" alt="" />
 
 ## <a target="_blank" href="http://nivo.dev7studios.com//">최고의 jQuery 이미지 슬라이더</a> | <a target="_blank" href="http://nivo.dev7studios.com/">데모</a>
 
-<img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile1.uf.12715A5A4D4BC8D2246C4E.jpg" class="aligncenter" width="500" height="200" alt="" />
+<img src="/uploads/legacy/old-images/1/cfile1.uf.12715A5A4D4BC8D2246C4E.jpg" class="aligncenter" width="500" height="200" alt="" />
 
 ## <a target="_blank" href="http://blog.yctin.com/archives/jquery-plugins-ajaxscroll/">Ajax 스크롤</a>(아래쪽으로 스크롤하면 또 그 아래쪽 데이터를 로딩하는 그런 거, 스크롤이 계속 늘어난다. 위아래도 있고 수평 스크롤도 있다.) | <a target="_blank" href="http://project.yctin.com/ajaxscroll/demo/demo.integrate.fullsize.html">데모</a>
 
-<img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile30.uf.1158094C4D4BC8D31AE721.jpg" class="aligncenter" width="500" height="200" alt="" />
+<img src="/uploads/legacy/old-images/1/cfile30.uf.1158094C4D4BC8D31AE721.jpg" class="aligncenter" width="500" height="200" alt="" />
 
 ## <a target="_blank" href="http://razorjack.net/quicksand/">퀵 샌드</a>(아이콘 헤쳐모여 하는 거) | <a target="_blank" href="http://razorjack.net/quicksand/">데모</a>
 
-<img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile2.uf.124B054C4D4BC8D32E9355.jpg" class="aligncenter" width="500" height="200" alt="" />
+<img src="/uploads/legacy/old-images/1/cfile2.uf.124B054C4D4BC8D32E9355.jpg" class="aligncenter" width="500" height="200" alt="" />
 
 ## <a target="_blank" href="http://mypocket-technologies.com/jquery/SelectBoxPlugin/">셀렉스 박스 플러그인</a> | <a target="_blank" href="http://mypocket-technologies.com/jquery/SelectBoxPlugin/">데모</a>
 
-<img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile27.uf.154C354C4D4BC8D32D37E5.jpg" class="aligncenter" width="500" height="200" alt="" />
+<img src="/uploads/legacy/old-images/1/cfile27.uf.154C354C4D4BC8D32D37E5.jpg" class="aligncenter" width="500" height="200" alt="" />
 
 ## <a target="_blank" href="http://www.zurb.com/playground/ajax_upload">Ajax 업로드</a> | <a target="_blank" href="http://www.zurb.com/playground/ajax_upload">데모</a>
 
-<img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile25.uf.110FA8494D4BC8D31DA5CB.jpg" class="aligncenter" width="500" height="200" alt="" />
+<img src="/uploads/legacy/old-images/1/cfile25.uf.110FA8494D4BC8D31DA5CB.jpg" class="aligncenter" width="500" height="200" alt="" />
 
 업로드할 이미지를 선택하면 파일명만 보이고그림은 안 보였는데, 파일을 선택하는 순간 어떤 이미지가 선택됐는지 볼 수 있도록 해 주는 놈이라고 한다.
 
 ## <a target="_blank" href="http://www.marcofolio.net/webdesign/jfancytile_a_jquery_tile_shifting_image_viewer_plugin.html">타일 쉬프팅 이미지 뷰</a>(아래 그림처럼 타일로 쪼개지면서 그림이 전환된다.) | <a target="_blank" href="http://demo.marcofolio.net/jfancytile/">데모</a>
 
-<img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile10.uf.1717F9594D4BC8D415A075.jpg" class="aligncenter" width="500" height="200" alt="" />
+<img src="/uploads/legacy/old-images/1/cfile10.uf.1717F9594D4BC8D415A075.jpg" class="aligncenter" width="500" height="200" alt="" />

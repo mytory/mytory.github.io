@@ -34,7 +34,7 @@ fckeditor에 플러그인으로 붙여서 생성한 코드를, 코드 하이라�
 
 사실 다운받은 다음에 거기에 있는 설명대로 하면 된다. 영어 설명서에 공포감을 갖고 있는 사람이 아니라면 차분히 읽으며 따라하는 게 더 나을지도 모른다. 여튼, 나도 나름대로 설명해 보겠다.
 
-<img class="alignleft" src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile22.uf.150AF7564D4BC8632F83C7.jpg" alt="" width="301" height="358" />왼쪽 그림처럼 폴더에 설치한다. 다운받은 거에서 압축 풀면 나오는 파일들 다 넣는다. <span style="text-decoration: underline;"><strong><span style="color: #ff0000;">폴더명은 반드시 syntaxhighlight2</span></strong></span>여야 한다. 다르게 하면 작동 안 한다.
+<img class="alignleft" src="/uploads/legacy/old-images/1/cfile22.uf.150AF7564D4BC8632F83C7.jpg" alt="" width="301" height="358" />왼쪽 그림처럼 폴더에 설치한다. 다운받은 거에서 압축 풀면 나오는 파일들 다 넣는다. <span style="text-decoration: underline;"><strong><span style="color: #ff0000;">폴더명은 반드시 syntaxhighlight2</span></strong></span>여야 한다. 다르게 하면 작동 안 한다.
 
 단, 압축풀면 fckconfig.js도 같이 들어있는데, 이건 업로드할 필요 업다.
 
@@ -72,7 +72,7 @@ Code Syntax Highlight2의 버튼이름은 <span style="color: #ff0000;"><strong>
 
 fckeditor 편집화면에서 아래같은 버튼이 나오고, 눌렀을 때 아래같은 화면이 나오면 일단 성공한 것이다.
 
-<img class="aligncenter" src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile9.uf.120B09534D4BC86307C697.png" alt="" width="478" height="578" />
+<img class="aligncenter" src="/uploads/legacy/old-images/1/cfile9.uf.120B09534D4BC86307C697.png" alt="" width="478" height="578" />
 
 ## fckeditor가 생성한 코드로 Code Syntax Highlighter2 작동시키기
 

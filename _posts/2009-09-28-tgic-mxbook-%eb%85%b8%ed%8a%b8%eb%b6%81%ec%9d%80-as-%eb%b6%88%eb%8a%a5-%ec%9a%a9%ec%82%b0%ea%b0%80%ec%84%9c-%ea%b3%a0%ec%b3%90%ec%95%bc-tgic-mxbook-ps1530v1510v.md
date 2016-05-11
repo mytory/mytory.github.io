@@ -49,7 +49,7 @@ AS 받으러 갈 건데 어디죠? 물어보니, 용산이란다. OK, 사무실�
 아항&#8230; 그래서 노트북 뒤에 있는 홈페이지(tgicnote.co.kr)는 안 들어가졌던 것이구나&#8230;
 
 <div style="width: 510px" class="wp-caption aligncenter">
-  <img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile25.uf.120FA8494D4BC86C1CF8D4.jpg" alt="TGIC MXBOOK PS-1530V/1510V 노트북" width="500" height="453" /><p class="wp-caption-text">
+  <img src="/uploads/legacy/old-images/1/cfile25.uf.120FA8494D4BC86C1CF8D4.jpg" alt="TGIC MXBOOK PS-1530V/1510V 노트북" width="500" height="453" /><p class="wp-caption-text">
     이것이 내 노트북. 제조사가 부도났다고 한다;;
   </p>
 </div>

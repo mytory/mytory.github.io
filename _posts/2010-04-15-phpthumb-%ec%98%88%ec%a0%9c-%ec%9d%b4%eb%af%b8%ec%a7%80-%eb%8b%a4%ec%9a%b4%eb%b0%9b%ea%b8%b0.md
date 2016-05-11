@@ -22,5 +22,5 @@ phpthumb 홈페이지의 <a href="http://phpthumb.sourceforge.net/demo/demo/phpT
 </div>
 
 <div>
-  <a href="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile4.uf.1346954C4D4BC8E7311E65.zip" class="aligncenter" />cfile4.uf.1346954C4D4BC8E7311E65.zip</a>
+  <a href="/uploads/legacy/old-images/1/cfile4.uf.1346954C4D4BC8E7311E65.zip" class="aligncenter" />cfile4.uf.1346954C4D4BC8E7311E65.zip</a>
 </div>

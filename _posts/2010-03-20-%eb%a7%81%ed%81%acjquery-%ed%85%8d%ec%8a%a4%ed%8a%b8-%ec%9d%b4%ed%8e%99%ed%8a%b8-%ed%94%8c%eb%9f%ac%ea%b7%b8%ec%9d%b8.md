@@ -18,5 +18,5 @@ tags:
 </div>
 
 <div>
-  <img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile25.uf.126496504D4BC8BD1EFC73.png" class="aligncenter" width="580" height="320" alt="" />
+  <img src="/uploads/legacy/old-images/1/cfile25.uf.126496504D4BC8BD1EFC73.png" class="aligncenter" width="580" height="320" alt="" />
 </div>

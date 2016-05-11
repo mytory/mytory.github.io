@@ -33,10 +33,10 @@ Inconsolata라는 글꼴도 안 겹친다고 한다. 이 글꼴은 설치해야 
 
 그리고 나서 아래 그림처럼 글꼴을 바꿔 주면 된다.
 
-<img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile9.uf.12297E484D4BC89225C839.png" class="aligncenter" width="540" height="436" alt="" />
+<img src="/uploads/legacy/old-images/1/cfile9.uf.12297E484D4BC89225C839.png" class="aligncenter" width="540" height="436" alt="" />
 
 <div style="width: 92px" class="wp-caption align">
-  <img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile6.uf.176A85504D4BC89212A74E.png" width="82px" height="46px" alt="" /><p class="wp-caption-text">
+  <img src="/uploads/legacy/old-images/1/cfile6.uf.176A85504D4BC89212A74E.png" width="82px" height="46px" alt="" /><p class="wp-caption-text">
     원래는 이렇게 겹친다.
   </p>
 </div>

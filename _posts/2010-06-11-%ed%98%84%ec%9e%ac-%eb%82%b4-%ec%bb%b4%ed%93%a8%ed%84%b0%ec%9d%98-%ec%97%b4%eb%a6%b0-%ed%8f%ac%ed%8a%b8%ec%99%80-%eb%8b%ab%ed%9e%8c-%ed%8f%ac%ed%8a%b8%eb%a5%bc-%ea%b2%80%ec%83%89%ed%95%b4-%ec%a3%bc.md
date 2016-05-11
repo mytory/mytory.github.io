@@ -32,7 +32,7 @@ tags:
 
 <div>
   <div style="width: 590px" class="wp-caption aligncenter">
-    <img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile3.uf.127A68544D4BC94F1E0202.jpg" alt="" width="580" height="208" /><p class="wp-caption-text">
+    <img src="/uploads/legacy/old-images/1/cfile3.uf.127A68544D4BC94F1E0202.jpg" alt="" width="580" height="208" /><p class="wp-caption-text">
       △위 그림에서 주황색으로 표시된 게 바로 인터넷 업체가 막아 놓은 TimeOut 포트다.
     </p>
   </div>

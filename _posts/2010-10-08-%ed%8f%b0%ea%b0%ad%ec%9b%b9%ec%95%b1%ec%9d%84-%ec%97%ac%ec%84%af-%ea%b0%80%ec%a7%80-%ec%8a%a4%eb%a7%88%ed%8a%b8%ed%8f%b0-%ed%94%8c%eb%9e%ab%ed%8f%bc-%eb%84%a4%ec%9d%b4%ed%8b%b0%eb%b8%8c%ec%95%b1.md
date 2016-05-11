@@ -39,7 +39,7 @@ tags:
 아래는 폰갭이 제공하는 디바이스API의 목록이다.
 
 <div style="width: 590px" class="wp-caption aligncenter">
-  <img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile7.uf.15547C4F4D4BC9681F61A6.png" width="580" height="362" alt="" /><p class="wp-caption-text">
+  <img src="/uploads/legacy/old-images/1/cfile7.uf.15547C4F4D4BC9681F61A6.png" width="580" height="362" alt="" /><p class="wp-caption-text">
     △클릭하면 폰갭 홈페이지에서 직접 볼 수 있습니다.
   </p>
 </div>

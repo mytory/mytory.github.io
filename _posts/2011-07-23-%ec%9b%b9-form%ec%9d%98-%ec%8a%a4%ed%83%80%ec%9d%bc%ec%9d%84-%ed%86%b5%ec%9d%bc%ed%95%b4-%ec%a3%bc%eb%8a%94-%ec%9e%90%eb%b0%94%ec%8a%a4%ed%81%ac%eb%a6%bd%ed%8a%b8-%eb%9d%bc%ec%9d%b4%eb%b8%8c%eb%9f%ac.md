@@ -12,7 +12,7 @@ categories:
 tags:
   - javascript
 ---
-[<img class="alignnone size-full" src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/2011/07/20110723-033749.jpg" alt="20110723-033749.jpg" />][1]
+[<img class="alignnone size-full" src="/uploads/legacy/old-images/2011/07/20110723-033749.jpg" alt="20110723-033749.jpg" />][1]
 
 폼 스타일이 브라우저마다 달라 고민한 사람에게 유용해 보인다.
 
@@ -24,4 +24,4 @@ IE6까지 지원한다고 명시돼 있다.
   <a href="http://formalize.me/">http://formalize.me/</a>
 </p>
 
- [1]: http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/2011/07/20110723-033749.jpg
+ [1]: /uploads/legacy/old-images/2011/07/20110723-033749.jpg

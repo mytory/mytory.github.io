@@ -16,7 +16,7 @@ tags:
 
 아래 그림을 참고하면 도움이 될 것이다.(실제 사용할 때는 [<span class="Apple-style-span" style="background-color: rgb(255, 255, 0);"> </span>code][<span class="Apple-style-span" style="background-color: rgb(255, 255, 0);"> </span>/code] 노란 부분으로 표시한 공백이 있으면 안 된다. 그냥 붙여 쓰라는 말이다.)
 
-<img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile8.uf.18104A494D4BC86E1E7EE1.jpg" class="aligncenter" width="555" height="638" alt="" />
+<img src="/uploads/legacy/old-images/1/cfile8.uf.18104A494D4BC86E1E7EE1.jpg" class="aligncenter" width="555" height="638" alt="" />
 
 [ code]와 [ /code] 사이에 코드를 집어넣으면 된다.
 
@@ -45,7 +45,7 @@ tags:
 그런데, 이걸 에디터 모드에서 쓰면 안 되고, HTML 모드에서 써야 한다.
 
 <div style="width: 590px" class="wp-caption aligncenter">
-  <img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile10.uf.185059474D4BC86F2629C8.jpg" width="580" height="211" alt="" /><p class="wp-caption-text">
+  <img src="/uploads/legacy/old-images/1/cfile10.uf.185059474D4BC86F2629C8.jpg" width="580" height="211" alt="" /><p class="wp-caption-text">
     html모드에 체크하면 이런 화면이 나온다.
   </p>
 </div>

@@ -21,4 +21,4 @@ tags:
 그래야 정확한 개념과 내용을 알 수 있다.
 
   
-<a href="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile23.uf.174A344B4D4BC8FD2EA3ED.pdf" class="aligncenter" />cfile23.uf.174A344B4D4BC8FD2EA3ED.pdf</a><a href="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile22.uf.1572C9584D4BC8FC265CBC.pdf" class="aligncenter" />cfile22.uf.1572C9584D4BC8FC265CBC.pdf</a>
+<a href="/uploads/legacy/old-images/1/cfile23.uf.174A344B4D4BC8FD2EA3ED.pdf" class="aligncenter" />cfile23.uf.174A344B4D4BC8FD2EA3ED.pdf</a><a href="/uploads/legacy/old-images/1/cfile22.uf.1572C9584D4BC8FC265CBC.pdf" class="aligncenter" />cfile22.uf.1572C9584D4BC8FC265CBC.pdf</a>

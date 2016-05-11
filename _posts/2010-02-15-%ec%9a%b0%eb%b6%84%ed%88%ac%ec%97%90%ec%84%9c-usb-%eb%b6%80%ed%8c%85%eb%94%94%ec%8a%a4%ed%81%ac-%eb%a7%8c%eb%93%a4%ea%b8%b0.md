@@ -27,7 +27,7 @@ tags:
 
 일단 **시스템 > 관리 > 소프트웨어 소스** 에 들어가서 기타 소프트웨어에서 추가 버튼을 누른다.
 
-<img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile3.uf.121F15494D4BC8900B5066.png" class="aligncenter" width="459" height="507" alt="" />
+<img src="/uploads/legacy/old-images/1/cfile3.uf.121F15494D4BC8900B5066.png" class="aligncenter" width="459" height="507" alt="" />
 
 기타 소프트웨어는 영어로는 third party software다 알아 둬라.
 

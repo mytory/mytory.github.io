@@ -26,7 +26,7 @@ tags:
 
 아래 스크린샷을 보자. <a href="http://www.scribd.com/" target="_blank">Scribd</a>(문서를 플래시 형태로 제공해 주는 사이트다) 데이터를 기반으로 사용자가 포맷을 결정한 검색 결과의 예제다. 사이즈에 맞게 조각 그림을 조정해서 넣었고, 메타데이터를 포함한 새 줄이 추가됐다. 메타데이터에는 문서 타입 아이콘도 있다.
 
-<img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile2.uf.1855C9474D4BC8DC1F9276.png" class="aligncenter" width="400" height="210" alt="" />
+<img src="/uploads/legacy/old-images/1/cfile2.uf.1855C9474D4BC8DC1F9276.png" class="aligncenter" width="400" height="210" alt="" />
 
 우리는 당신이 맞춤 검색을 활용해서 데이터 렌더링의 힘을 사용하기 바란다. 맞춤검색 요소의 데이터 렌더링 방법을 단계별로 배우고 싶다면, <a href="http://googleajaxsearchapi.blogspot.com/2010/04/rendering-custom-data-in-custom-search.html" target="_blank">Search API blog</a>(이 글이 핵심인 것 같다.)의 글을 읽기 바란다.
 

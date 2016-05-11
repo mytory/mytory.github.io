@@ -19,8 +19,8 @@ tags:
 
 일단 열고싶은 파일에서 마우스 오른쪽 클릭을 하자. 거기서 속성을 누른다.
 
-<img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile27.uf.1657094F4D4BC8791B8A08.png" class="aligncenter" width="269" height="354" alt="" />
+<img src="/uploads/legacy/old-images/1/cfile27.uf.1657094F4D4BC8791B8A08.png" class="aligncenter" width="269" height="354" alt="" />
 
 속성을 누르면 나오는 데서 &#8216;다른 프로그램으로 열기&#8217; 탭을 선택하고 원하는 프로그램을 선택해 준다. 아래 그림 참고.(만약 원하는 프로그램이 없다면 &#8216;추가&#8217; 버튼을 눌러서 실행 파일을 선택해 주면 된다.)
 
-<img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile30.uf.18085F564D4BC87A322A1D.png" class="aligncenter" width="462" height="479" alt="" />
+<img src="/uploads/legacy/old-images/1/cfile30.uf.18085F564D4BC87A322A1D.png" class="aligncenter" width="462" height="479" alt="" />

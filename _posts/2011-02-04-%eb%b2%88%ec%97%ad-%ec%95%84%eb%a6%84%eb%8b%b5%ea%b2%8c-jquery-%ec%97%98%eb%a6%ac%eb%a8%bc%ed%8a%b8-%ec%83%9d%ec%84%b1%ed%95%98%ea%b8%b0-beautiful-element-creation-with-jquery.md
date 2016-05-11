@@ -29,7 +29,7 @@ tags:
 
 &#8212;&#8212;- 번역 시작 &#8212;&#8212;
 
-<img class="aligncenter" src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile27.uf.203A6C444D4C0D6F2EB4D6.png" alt="" width="268" height="268" />
+<img class="aligncenter" src="/uploads/legacy/old-images/1/cfile27.uf.203A6C444D4C0D6F2EB4D6.png" alt="" width="268" height="268" />
 
 jQuery의 새(로운 것 같은) 엘리먼트 생성 문법은 리본을 떨구는 것 같은 문법이다.(jQuery&#8217;s new(ish) element creation syntax drops &#8216;bows.) 모르는 사람들을 위해 &#8211; 난 약간 기대하고 있는데 &#8211; jQuery는 당신들이 엘리먼트를 만들게 하고, 거기에 파라미터를 추가하게 한다. 엘리먼트와 엘리먼트의 어트리뷰트를 생성하기 위해 그 파라미터들을 사용할 것이다.
 

@@ -21,7 +21,7 @@ tags:
 </div>
 
 <div>
-  <a href="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile7.uf.1367FD4D4D4BC95516BE24.zip" class="aligncenter" />cfile7.uf.1367FD4D4D4BC95516BE24.zip</a>
+  <a href="/uploads/legacy/old-images/1/cfile7.uf.1367FD4D4D4BC95516BE24.zip" class="aligncenter" />cfile7.uf.1367FD4D4D4BC95516BE24.zip</a>
 </div>
 
 <div>

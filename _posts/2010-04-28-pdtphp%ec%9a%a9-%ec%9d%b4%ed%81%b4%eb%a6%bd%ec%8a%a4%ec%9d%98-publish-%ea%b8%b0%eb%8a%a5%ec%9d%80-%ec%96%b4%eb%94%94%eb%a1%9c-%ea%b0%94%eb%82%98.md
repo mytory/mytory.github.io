@@ -40,13 +40,13 @@ tags:
 
 <div>
   <div style="width: 510px" class="wp-caption aligncenter">
-    <img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile6.uf.164C4D4C4D4BC8F22F4E47.jpg" alt="" width="500" height="305" /><p class="wp-caption-text">
+    <img src="/uploads/legacy/old-images/1/cfile6.uf.164C4D4C4D4BC8F22F4E47.jpg" alt="" width="500" height="305" /><p class="wp-caption-text">
       △이게 IBM 설명에 나와 있는 스크린샷이다. 그런데...
     </p>
   </div>
   
   <div style="width: 535px" class="wp-caption aligncenter">
-    <img src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile29.uf.1941264E4D4BC8F133D659.png" alt="" width="525" height="319" /><p class="wp-caption-text">
+    <img src="/uploads/legacy/old-images/1/cfile29.uf.1941264E4D4BC8F133D659.png" alt="" width="525" height="319" /><p class="wp-caption-text">
       △내 PDT에는 Publish Projects to this Server 를 설정하는 항목이 없었다.
     </p>
   </div>

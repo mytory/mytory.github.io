@@ -28,10 +28,10 @@ SVG는 Scalable Vector Graphics의 약자다. 늘이거나 줄여도 도트가 �
 
 동그라미를 나타내는 태그는 `circle`이고 `cx`와 `cy`는 중점의 좌표를 의미한다. `stroke`는 외곽선 색깔, `stroke-width`는 외곽선의 굵기, `fill`은 동그라미의 색깔을 의미한다. 위와 같은 태그를 쓰면 아래와 같은 모양이 나온다. 외곽선이 있는 에메랄드색(#34495E) 원이다. (좌표를 확인할 수 있게 외곽선을 추가로 쳐 줬다.)
 
-<img class="aligncenter" alt="SVG 예제 이미지" src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/svg/svg-example.png" />
+<img class="aligncenter" alt="SVG 예제 이미지" src="/uploads/legacy/svg/svg-example.png" />
 
 <p style="text-align: center;">
-  <a href="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/svg/svg-example.html">▷실제 예제 보기</a>
+  <a href="/uploads/legacy/svg/svg-example.html">▷실제 예제 보기</a>
 </p>
 
 따로 파일로 넣을 필요없이 HTML처럼 적어 주면 표현된다. 태그에 클래스와 아이디를 적고 CSS와 js로 제어할수 있으니 대박이다. 물론 태그로 제어해도 된다.

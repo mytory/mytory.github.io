@@ -16,7 +16,7 @@ tags:
 
 이만큼 모았으면 모은 것 자체로 수고를 인정해 드려야 한다고 생각합니다. 혹시나 블로그가 닫힐 것을 염려하여 그림을 모아 압축 파일을 보관하려고 하는데, 너그러이 양해 부탁드립니다.
 
-<a href="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile25.uf.1749674C4D4BC8C12E7D26.rar" class="aligncenter" />cfile25.uf.1749674C4D4BC8C12E7D26.rar</a>
+<a href="/uploads/legacy/old-images/1/cfile25.uf.1749674C4D4BC8C12E7D26.rar" class="aligncenter" />cfile25.uf.1749674C4D4BC8C12E7D26.rar</a>
 
 아래는 이 그림들을 모은 분의 코멘트입니다.
 

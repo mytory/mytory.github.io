@@ -37,17 +37,19 @@ tags:
 
 의 비율을 보여 준다. 검색엔진을 통한 방문 수가 가장 많다는 것을 알 수 있다.
 
-<img class="aligncenter" alt="" src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile25.uf.114FA5474D4BC8702B406A.jpg" width="460" height="270" />
+<img class="aligncenter" alt="" src="/uploads/legacy/old-images/1/cfile25.uf.114FA5474D4BC8702B406A.jpg" width="460" height="270" />
 
 아래 그림을 보자. 각 방문 유형의 페이지뷰를 보여 준다. 여전히 검색 엔진을 타고 들어온 사람들이 본 총 페이지뷰가 가장 많지만, Direct Traffic이 방문수에 비해 페이지를 많이 보고 나간다는 사실을 알 수 있다.
 
-<img class="aligncenter" alt="" src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile9.uf.131179594D4BC86F1B575E.jpg" width="460" height="270" />아래를 보자. 사이트에 머문 시간을 보여 주는 그래프다.
+<img class="aligncenter" alt="" src="/uploads/legacy/old-images/1/cfile9.uf.131179594D4BC86F1B575E.jpg" width="460" height="270" />
+
+아래를 보자. 사이트에 머문 시간을 보여 주는 그래프다.
 
 이번에는 방문수의 비율과 비교해 완전히 역전됐음을 알 수 있다.
 
 Direct Traffic이 사이트에 머문 총 시간이 46%나 된다. 반면 검색엔진을 타고 들어온 경우는 방문수는 많지만 사이트에 많이 머물지는 않는다는 사실을 알 수 있다.
 
-<img class="aligncenter" alt="" src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/old-images/1/cfile25.uf.163F1F4A4D4BC86F30E3F8.jpg" width="460" height="270" />
+<img class="aligncenter" alt="" src="/uploads/legacy/old-images/1/cfile25.uf.163F1F4A4D4BC86F30E3F8.jpg" width="460" height="270" />
 
 구글 아날리틱스 통계를 바탕화면에 띄워놓고 볼 수 있는 이 프로그램을 다운받으려면(설치하려면)
 

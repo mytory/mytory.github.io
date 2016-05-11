@@ -10,7 +10,7 @@ categories:
 tags:
   - TIP
 ---
-<img class="alignnone" alt="" src="http://dl.dropboxusercontent.com/u/15546257/blog/mytory/feedly-disable-mini.png" width="476" height="387" />
+<img class="alignnone" alt="" src="/uploads/legacy/feedly-disable-mini.png" width="476" height="387" />
 
 Feedly 설정은 좌측 사이드바에 있는 &#8216;Prefs&#8217;다. 여기로 들어가면 &#8216;Mini Enabled?&#8217;라고 있다. 이놈을 No로 설정하면 된다.
 

@@ -30,8 +30,11 @@ if (!window.location.origin) {
 
 서버단 값을 받아 js에서 처리해야 하는 경우에는 위처럼 기본값을 가져와서 사용하는 게 안 된다. 예컨대 js에서 `$username` 값이 필요하다고 가정해 보자. 이런 경우엔 HTML DOM의 적당한 곳에 `$username` 값을 박은 뒤 js에서 꺼내 쓰도록 한다.  어딘가에 'mytory님, 환영합니다!' 같은 문구가 있을 테니 거기에 넣으면 될 것이다. 논리적이기도 하다. HTML은 아래와 같이 될 것이다(`$username`을 굳이 이스케이프 처리하진 않았다. 필요하면 알아서 할 것).
 
-    <p id="username" data-username="<?= $username ?>">
-        <?= $username ?>님, 환영합니다!
+    <p>
+        <span id="#username" data-username="<?= $username ?>">
+            <?= $username ?>
+        </span>
+        님, 환영합니다!
     </p>
 
 jQuery를 사용한다면 이렇게 가져다 쓰면 될 것이다.

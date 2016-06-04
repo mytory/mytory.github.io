@@ -19,7 +19,7 @@ tags:
 
 일단 이 파일을 다운받는다.
 
-<a href="/uploads/legacy/old-images/1/cfile6.uf.1645C44A4D4BC88525EB68.zip" class="aligncenter" />cfile6.uf.1645C44A4D4BC88525EB68.zip</a>
+[kozip.zip](/uploads/legacy/old-images/1/kozip.zip)
 
 Alt+F2를 눌러서 실행 창을 열고 여기에
 

@@ -13,13 +13,18 @@ tags:
   - Ubuntu
   - Ubuntu Family
 ---
-여기 간단한 해결책이 있다 : <a href="http://ubuntu.or.kr/viewtopic.php?p=40719#p40719" target="_blank">http://ubuntu.or.kr/viewtopic.php?p=40719#p40719</a>
 
-저 해결책대로 하는 방법을 요약하면 이렇다.
+일단 unzip 최신버전을 사용하는 경우 `-O` 옵션을 주면 된다. 최신 우분투에선 되니깐 이렇게 하자.
 
-일단 이 파일을 다운받는다.
+    unzip -O cp949 korean-archives.zip
 
-[kozip.zip](/uploads/legacy/old-images/1/kozip.zip)
+
+## kozip 스크립트 사용
+
+수집한 kozip이다.
+
+- 파이썬으로 마든 kozip이다 : [kozip](https://github.com/hojunester/kozip), 다운로드받은 뒤 `kozip.py`를 사용하면 된다.
+- 펄로 만든 kozip 파일이다: [kozip.zip](/uploads/legacy/old-images/1/kozip.zip)
 
 Alt+F2를 눌러서 실행 창을 열고 여기에
 
@@ -27,12 +32,8 @@ Alt+F2를 눌러서 실행 창을 열고 여기에
 
 라고 쳐서 관리자 모드로 파일 탐색기를 연다.
 
-방금 다운받은 파일의 압축을 풀면 kozip이라는 파일이 나오는데, 얘를 /usr/local/bin 에 집어넣어 준다.
+다운 받은 `kozip` 혹은 `kozip.py` 파일을 `/usr/local/bin` 폴더에 집어넣는다. `kozip.py`라면 파일명은 `kozip`으로 변경해 주자. 마우스 우클릭해서 속성을 보자. 실행 권한이 있어야 한다.
 
-그럼 끝!
-
-<pre class="brush:plain">kozip 압축파일명.zip</pre>
+    kozip 압축파일명.zip
 
 위와 같은 방식으로 압축을 풀면 게임 끝!
-
-[덧] 우분투 사용자들의 경우 처음부터 <a href="http://ubuntu.or.kr/viewtopic.php?p=48979" target="_blank">cobuntu</a>를 설치했다면 이미 kozip이 포함돼 있기 때문에 성가시게 위 과정을 거칠 필요가 없다. 그냥 kozip 사용하면 된다.

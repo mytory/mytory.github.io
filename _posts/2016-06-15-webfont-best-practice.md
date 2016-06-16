@@ -117,7 +117,7 @@ woff 내장 CSS 파일의 내용은 아래와 같을 것이다. base64 인코딩
 
 ```css
 body {
-  font-family: "NanumGothic", "NanumGothic OTF", "Nanum Gothic", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+  font-family: "NanumGothic", "NanumGothicOTF", "Nanum Gothic", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
 }
 ```
 

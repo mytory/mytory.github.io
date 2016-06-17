@@ -11,7 +11,15 @@ tags:
   - SVG 활용
   - 마법 나무 테마
 ---
-이 글은 [블로그 디자인을 개편하면서 얻은 경험을 공유하는 글][1]이다. 첫 번째로, [SVG 활용에 대한 글][2]을 여러 편으로 나눠서 쓰고 있다.
+
+## 목차
+
+1. [SVG 활용 1 – 아이콘 폰트가 아니라 SVG를 사용한 이유](/archives/11169)
+2. [SVG 활용 2 – 일러스트레이터를 이용해서 SVG 파일 만들기](/archives/11175)
+3. SVG 활용 3 – 웹 문서에 SVG를 넣는 다양한 방법, 온갖 예외 피하기
+4. [SVG 활용 4 – 미지원 브라우저 대응](/archives/11338)
+5. [SVG 활용 5 – SVG에 애니메이션 효과 주기](/archives/11444)
+
 
 ## 필요에 따라 선택하기
 
@@ -39,7 +47,7 @@ SVG를 웹문서에 넣는 방법은 다양하다. 앞선 글에서 밝혔듯이
         </svg>
       </a>
     </li>
-    
+
 
 (위 코드는 RSS 아이콘 코드인데, `circle` 태그와 `path` 태그로 이뤄져 있다. `circle`은 원이고, `path`는 원이 아닌 대부분의 것을 표현하는 태그다. 좌표 묶음이 `d` 속성에 들어가 있는 것을 볼 수 있다.)
 
@@ -68,7 +76,7 @@ SVG 파일을 텍스트 편집기에서 연 뒤 xml 선언을 하는 부분은 �
 `viewBox` 속성은 SVG의 캔버스 사이즈를 지정하는 속성이고, 아래처럼 쓴다. 물론, 일러스트레이터에서 작업했다면 기본적으로 들어가 있을 것이다.
 
     <svg viewBox="0 0 84 84" ...>
-    
+
 
 앞의 숫자 두 개는 사각형 좌측 상단의 x,y값이고 뒤의 숫자 두 개는 너비와 높이다. 그러니까 좌표값 0 0에서 시작하는 너비 84px, 높이 84px의 캔버스를 만들라는 이야기다. 이 속성을 줘야 css에서 `svg`, `object`, `embed` 태그에 매긴 높이와 너비가 적용된다. 그렇지 않으면 캔버스만 늘어나고 실제 이미지는 커지지 않는다.
 
@@ -76,7 +84,7 @@ SVG 파일을 텍스트 편집기에서 연 뒤 xml 선언을 하는 부분은 �
 
 아래는 각 삽입 태그별로 `viewBox` 속성 유무, `height` 지정 유무에 따른 네 가지 경우를 보여 주는 예제다. 태그별로 script가 작동하는지, CSS가 작동하는지도 알 수 있다.
 
-**[▶SVG 포함하기 예시 링크][4]** : 각 브라우저로 들어가서 체크해 보기 바란다.
+<del>**[▶SVG 포함하기 예시 링크][4]** : 각 브라우저로 들어가서 체크해 보기 바란다</del>(현재 링크가 깨져 있다. 고칠 예정이다).
 
 동그라미가 20개나 그려져 있어서 복잡하게 느껴질 텐데, 자세히 볼 건 없다. 그냥 이거만 외우면 된다.
 
@@ -91,7 +99,7 @@ SVG 파일을 텍스트 편집기에서 연 뒤 xml 선언을 하는 부분은 �
 이미지 태그를 이용해 넣는 것은 일반적인 이미지들을 넣는 것과 똑같다.
 
     <img src="vector-img.svg" alt="">
-    
+
 
 그냥 이런 식으로 넣으면 된다.
 
@@ -115,161 +123,159 @@ SVG 파일을 텍스트 편집기에서 연 뒤 xml 선언을 하는 부분은 �
   <tr>
     <th>
     </th>
-    
+
     <th>
       scale
     </th>
-    
+
     <th>
       외부 <code>a</code> link
     </th>
-    
+
     <th>
       <code>height:auto</code>
     </th>
-    
+
     <th>
       CSS style
     </th>
-    
+
     <th>
       script
     </th>
   </tr>
-  
+
   <tr>
     <th scope="row">
       inline <code>svg</code>
     </th>
-    
+
     <td>
       o
     </td>
-    
+
     <td>
       o
     </td>
-    
+
     <td>
       o
     </td>
-    
+
     <td>
       o
     </td>
-    
+
     <td>
       o
     </td>
   </tr>
-  
+
   <tr>
     <th scope="row">
       <code>img</code>
     </th>
-    
+
     <td>
       o
     </td>
-    
+
     <td>
       o
     </td>
-    
+
     <td>
       o
     </td>
-    
+
     <td>
       o
     </td>
-    
+
     <td>
       x
     </td>
   </tr>
-  
+
   <tr>
     <th scope="row">
       <code>object</code>
     </th>
-    
+
     <td>
       o
     </td>
-    
+
     <td>
       x
     </td>
-    
+
     <td>
       x
     </td>
-    
+
     <td>
       o
     </td>
-    
+
     <td>
       o
     </td>
   </tr>
-  
+
   <tr>
     <th scope="row">
       <code>embed</code>
     </th>
-    
+
     <td>
       o
     </td>
-    
+
     <td>
       x
     </td>
-    
+
     <td>
       x
     </td>
-    
+
     <td>
       o
     </td>
-    
+
     <td>
       o
     </td>
   </tr>
-  
+
   <tr>
     <th scope="row">
       <code>iframe</code>
     </th>
-    
+
     <td>
       x(webkit o)
     </td>
-    
+
     <td>
       x
     </td>
-    
+
     <td>
       x
     </td>
-    
+
     <td>
       o
     </td>
-    
+
     <td>
       o
     </td>
   </tr>
 </table>
 
- [1]: http://mytory.net/archives/tag/%eb%a7%88%eb%b2%95-%eb%82%98%eb%ac%b4-%ed%85%8c%eb%a7%88
- [2]: http://mytory.net/archives/tag/svg-%ed%99%9c%ec%9a%a9
  [3]: http://mytory.net/archives/2314
  [4]: http://mytory.net/wp-content/uploads/svg-ex/
  [5]: http://tutorials.jenkov.com/svg/a-element.html

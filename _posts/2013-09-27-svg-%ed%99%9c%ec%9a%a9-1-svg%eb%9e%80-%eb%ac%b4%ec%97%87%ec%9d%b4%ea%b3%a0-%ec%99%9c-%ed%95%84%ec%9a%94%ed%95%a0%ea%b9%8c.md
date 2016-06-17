@@ -12,7 +12,14 @@ tags:
   - SVG 활용
   - 마법 나무 테마
 ---
-이 글은 [블로그 디자인을 개편하면서 얻은 경험을 공유하는 글][1]이다. 첫 번째로, [SVG 활용에 대한 글][2]을 여러 편으로 나눠서 쓰고 있다.
+
+## 목차
+
+1. SVG 활용 1 – 아이콘 폰트가 아니라 SVG를 사용한 이유
+2. [SVG 활용 2 – 일러스트레이터를 이용해서 SVG 파일 만들기](/archives/11175)
+3. [SVG 활용 3 – 웹 문서에 SVG를 넣는 다양한 방법, 온갖 예외 피하기](/archives/11213)
+4. [SVG 활용 4 – 미지원 브라우저 대응](/archives/11338)
+5. [SVG 활용 5 – SVG에 애니메이션 효과 주기](/archives/11444)
 
 ## SVG란?
 
@@ -21,10 +28,10 @@ SVG는 Scalable Vector Graphics의 약자다. 늘이거나 줄여도 도트가 �
 예컨대, 동그라미를 SVG로 그리려면 아래처럼 쓰면 된다.
 
     <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
-      <circle cx="42" cy="42" r="40" stroke="#34495E" 
+      <circle cx="42" cy="42" r="40" stroke="#34495E"
         stroke-width="4" fill="#2ECC71"/>
     </svg>
-    
+
 
 동그라미를 나타내는 태그는 `circle`이고 `cx`와 `cy`는 중점의 좌표를 의미한다. `stroke`는 외곽선 색깔, `stroke-width`는 외곽선의 굵기, `fill`은 동그라미의 색깔을 의미한다. 위와 같은 태그를 쓰면 아래와 같은 모양이 나온다. 외곽선이 있는 에메랄드색(#34495E) 원이다. (좌표를 확인할 수 있게 외곽선을 추가로 쳐 줬다.)
 
@@ -53,7 +60,7 @@ SVG는 꽤 오래 전에 나왔지만, 고해상도 디스플레이가 등장하
 아이콘 폰트는 사용하기도 편했다. 예컨대 아래처럼 사용하면 된다.
 
     <span class="icon-font">t</span>
-    
+
 
 CSS에서 `.icon-font`에 웹폰트 글꼴을 매기면, t는 t가 아닌 트위터 아이콘이 되는 거다. 내 블로그에도 잠깐 아이콘 폰트를 적용한 적이 있었다.
 
@@ -68,7 +75,7 @@ CSS에서 `.icon-font`에 웹폰트 글꼴을 매기면, t는 t가 아닌 트위
     * {
         font-family: 'Malgun Gothic'!important;
     }
-    
+
 
 파이어폭스와 IE는 스타일시트를 만질 것도 없이 설정에서 글꼴을 강제 적용할 수 있다. 한 번 강제 적용한 뒤 GitHub에 들어가 봐라. 아이콘이 다 날아가는 걸 볼 수 있을 거다.
 
@@ -78,7 +85,5 @@ CSS에서 `.icon-font`에 웹폰트 글꼴을 매기면, t는 t가 아닌 트위
 
 SVG가 뭐고, 왜 사용하는지를 알아 봤다. 다음 글은 일러스트레이터를 이용해서 SVG를 만드는 방법을 간단하게 알아 본다.
 
- [1]: http://mytory.net/archives/tag/%eb%a7%88%eb%b2%95-%eb%82%98%eb%ac%b4-%ed%85%8c%eb%a7%88
- [2]: http://mytory.net/archives/tag/svg-%ed%99%9c%ec%9a%a9
  [3]: http://icomoon.io/
  [4]: http://mytory.net/archives/1262

@@ -3,8 +3,6 @@ title: 'SVG 활용 2 &#8211; 일러스트레이터를 이용해서 SVG 파일 �
 author: 녹풍(綠風, Windgreen)
 layout: post
 permalink: /archives/11175
-daumview_id:
-  - 50143023
 categories:
   - 기타
   - 웹 퍼블리싱
@@ -14,7 +12,14 @@ tags:
   - Web Design
   - 마법 나무 테마
 ---
-이 글은 [블로그 디자인을 개편하면서 얻은 경험을 공유하는 글][1]이다. 첫 번째로, [SVG 활용에 대한 글][2]을 여러 편으로 나눠서 쓰고 있다.
+## 목차
+
+1. [SVG 활용 1 – 아이콘 폰트가 아니라 SVG를 사용한 이유](/archives/11169)
+2. SVG 활용 2 – 일러스트레이터를 이용해서 SVG 파일 만들기
+3. [SVG 활용 3 – 웹 문서에 SVG를 넣는 다양한 방법, 온갖 예외 피하기](/archives/11213)
+4. [SVG 활용 4 – 미지원 브라우저 대응](/archives/11338)
+5. [SVG 활용 5 – SVG에 애니메이션 효과 주기](/archives/11444)
+
 
 ## SVG 파일 만들기
 
@@ -112,8 +117,6 @@ SVG 사이즈 역시 CSS로 조정할 수 있지만 기본 이미지 사이즈�
 
 이정도면 간단한 SVG 이미지 제작은 가능할 거다. 일단 이번 글은 여기서 마치고 다음 글에서는 웹페이지에 SVG 이미지를 넣는 다양한 방법을 알아 볼 것이다.
 
- [1]: http://mytory.net/archives/tag/%eb%a7%88%eb%b2%95-%eb%82%98%eb%ac%b4-%ed%85%8c%eb%a7%88
- [2]: http://mytory.net/archives/tag/svg-%ed%99%9c%ec%9a%a9
  [3]: http://www.istockphoto.com/stock-illustration-3561299-magic-tree-amp-birdie.php
  [4]: /uploads/legacy/svg/save-as-svg.png
  [5]: /uploads/legacy/svg/save-as-svg-setting.png

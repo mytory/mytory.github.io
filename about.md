@@ -2,7 +2,7 @@
 title: 소개
 author: 녹풍(綠風, Windgreen)
 layout: page
-permalink: /page/about.html
+permalink: /about
 ---
 저도 한 번 제 소개를 블로그에 써 볼까 합니다.
 

@@ -2,7 +2,7 @@
 title: 이메일 구독
 author: 녹풍(綠風, Windgreen)
 layout: page
-permalink: /page/email.html
+permalink: /subscribe
 ---
 저의 새 글이 올라올 때마다 이메일을 받고 싶은 분은 아래 링크로 등록해 주세요.
 

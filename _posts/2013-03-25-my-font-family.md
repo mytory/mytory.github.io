@@ -26,7 +26,7 @@ tags:
 
 ```css
 body{
-	font-family: "Apple SD Gothic Neo", "KoPubDotum", "KoPubDotum Light", "NanumBarunGothic", "NanumBarunGothicOTF", "Malgun Gothic", "NanumGothic", "NanumGothicOTF", sans-serif;
+  font-family: "Apple SD Gothic Neo", "KoPubDotum", "KoPubDotum Light", "NanumBarunGothic", "NanumBarunGothicOTF", "Malgun Gothic", "NanumGothic", "NanumGothicOTF", sans-serif;
   font-weight: 300;
 }
 ```
@@ -70,7 +70,7 @@ body{
 
     font-family: HelveticaNeue-Light, AppleSDGothicNeo-Light, sans-serif-light;
 
-기왕 데스크톱 사이트에서 나눔고딕을 사용한다면 브랜드 통일성을 위해 모바일에서도 나눔고딕을 가장 앞세울 수 있었다. 굳이 웹폰트를 사용할 필요는 없다. 나눔고딕이 설치된 스마트폰도 꽤 있기 때문이다. 그리고 맨 마지막에 넣어 둔 `sans-serif-light`는 안드로이드 전용 값이다. 안드로이드만 대응할 게 아니라면 맨 뒤에는 `sans-serif`를 명시해 줘야 한다. 따라서 아래처럼 개선해 볼 수 있겠다(영문 글꼴 표현을 위해 HelveticaNeue-Light를 앞세운 것으로 간주했다).
+기왕 데스크톱 사이트에서 나눔고딕을 사용한다면 브랜드 통일성을 위해 모바일에서도 나눔고딕을 가장 앞세울 수 있었다. 굳이 웹폰트를 사용할 필요는 없다. 나눔고딕이 설치된 스마트폰도 꽤 있기 때문이다. 그리고 맨 마지막에 넣어 둔 `sans-serif-light`는 처음 보는 값이라 찾아 봤는데, 안드로이드에서만 사용되는 값이다. 데스크톱 크롬에서 테스트해 보니 값이 무시된다. 안드로이드만 대응할 게 아니라면 맨 뒤에는 `sans-serif`를 명시해 줘야 한다. 따라서 아래처럼 개선해 볼 수 있겠다(영문 글꼴 표현을 위해 `HelveticaNeue-Light`를 앞세운 것으로 간주했다).
 
     font-family: HelveticaNeue-Light, NanumGothic, AppleSDGothicNeo-Light, sans-serif-light, sans-serif;
 

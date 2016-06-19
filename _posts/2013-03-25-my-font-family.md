@@ -1,5 +1,5 @@
 ---
-title: 내가 사용하는 font-family. 그리고 XP에서 맑은 고딕 뿌옇게 나오는 문제 회피하는 팁
+title: 내가 선호하는 글꼴 목록(font-family)과 그 이유
 author: 녹풍(綠風, Windgreen)
 layout: post
 permalink: /archives/9743

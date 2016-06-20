@@ -66,27 +66,64 @@ inuit.css는 IE8까지만 지원한다. IE7까지 지원하고 싶다면 [v4.1.5
 
 아래 예제를 보자.
 
-    <div class="image-list">
-      <ul class="multi-list five-cols">
-        <li><img src="http://lorempixel.com/100/100/"></li>
-        <li><img src="http://lorempixel.com/100/100/"></li>
-        <li><img src="http://lorempixel.com/100/100/"></li>
-        <li><img src="http://lorempixel.com/100/100/"></li>
-        <li><img src="http://lorempixel.com/100/100/"></li> 
-        <li><img src="http://lorempixel.com/100/100/"></li>
-        <li><img src="http://lorempixel.com/100/100/"></li> 
-        <li><img src="http://lorempixel.com/100/100/"></li>
-        <li><img src="http://lorempixel.com/100/100/"></li>
-        <li><img src="http://lorempixel.com/100/100/"></li>
-        <li><img src="http://lorempixel.com/100/100/"></li>
-        <li><img src="http://lorempixel.com/100/100/"></li> 
-      </ul>
-    </div>
-    
+```html
+<div class="image-list">
+  <ul class="multi-list five-cols">
+    <li>
+      <img src="http://lorempixel.com/100/100/">
+      <p>Good!</p>
+    </li>
+    <li>
+      <img src="http://lorempixel.com/100/100/">
+      <p>Good!</p>
+    </li>
+    <li>
+      <img src="http://lorempixel.com/100/100/">
+      <p>Good!</p>
+    </li>
+    <li>
+      <img src="http://lorempixel.com/100/100/">
+      <p>Good!</p>
+    </li>
+    <li>
+      <img src="http://lorempixel.com/100/100/">
+      <p>Good!</p>
+    </li> 
+    <li>
+      <img src="http://lorempixel.com/100/100/">
+      <p>Good!</p>
+    </li>
+    <li>
+      <img src="http://lorempixel.com/100/100/">
+      <p>Good!</p>
+    </li> 
+    <li>
+      <img src="http://lorempixel.com/100/100/">
+      <p>Good!</p>
+    </li>
+    <li>
+      <img src="http://lorempixel.com/100/100/">
+      <p>Good!</p>
+    </li>
+    <li>
+      <img src="http://lorempixel.com/100/100/">
+      <p>Good!</p>
+    </li>
+    <li>
+      <img src="http://lorempixel.com/100/100/">
+      <p>Good!</p>
+    </li>
+    <li>
+      <img src="http://lorempixel.com/100/100/">
+      <p>Good!</p>
+    </li> 
+  </ul>
+</div>
+```
 
 위 코드의 결과는 아래와 같다.
 
-<p data-height="265" data-theme-id="0" data-slug-hash="gJFlj" data-default-tab="html,result" data-user="mytory" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/mytory/pen/gJFlj/">inuit.css milti-list example</a> by An, Hyeong-woo (<a href="http://codepen.io/mytory">@mytory</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<p data-height="365" data-theme-id="0" data-slug-hash="gJFlj" data-default-tab="result" data-user="mytory" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/mytory/pen/gJFlj/">inuit.css milti-list example</a> by An, Hyeong-woo (<a href="http://codepen.io/mytory">@mytory</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 
 이런 게 OOCSS에서 중복을 줄이는 방법이다. 비슷한 패턴에 죄다 `multi-list` 클래스를 사용하면 된다. 추가로 해 줘야 하는 것에만 자신의 클래스를 붙이면 된다. 위의 예제에서 내가 겉을 감싸는 `div`에 `image-list` 클래스를 붙인 것처럼 말이다.

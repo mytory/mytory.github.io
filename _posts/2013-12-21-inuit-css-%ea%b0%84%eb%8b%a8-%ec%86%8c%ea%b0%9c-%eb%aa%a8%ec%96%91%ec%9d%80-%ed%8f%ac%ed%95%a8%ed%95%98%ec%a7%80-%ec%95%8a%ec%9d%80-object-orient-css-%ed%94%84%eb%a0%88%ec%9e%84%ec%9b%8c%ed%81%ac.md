@@ -66,7 +66,7 @@ inuit.css는 IE8까지만 지원한다. IE7까지 지원하고 싶다면 [v4.1.5
 
 아래 예제를 보자.
 
-<p data-height="401" data-theme-id="0" data-slug-hash="aZmPoV" data-default-tab="result" data-user="mytory" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/mytory/pen/aZmPoV/">grid example</a> by An, Hyeong-woo (<a href="http://codepen.io/mytory">@mytory</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<p data-height="401" data-theme-id="0" data-slug-hash="aZmPoV" data-default-tab="html,result" data-user="mytory" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/mytory/pen/aZmPoV/">grid example</a> by An, Hyeong-woo (<a href="http://codepen.io/mytory">@mytory</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 
 이런 게 OOCSS에서 중복을 줄이는 방법이다. 비슷한 패턴에 죄다 `grid`, `grid__item` 클래스를 사용하면 된다. 추가로 해 줘야 하는 것에만 자신의 클래스를 붙이면 된다. 위의 예제에서 내가 겉을 감싸는 `div`에 `image-list` 클래스를 붙인 것처럼 말이다.

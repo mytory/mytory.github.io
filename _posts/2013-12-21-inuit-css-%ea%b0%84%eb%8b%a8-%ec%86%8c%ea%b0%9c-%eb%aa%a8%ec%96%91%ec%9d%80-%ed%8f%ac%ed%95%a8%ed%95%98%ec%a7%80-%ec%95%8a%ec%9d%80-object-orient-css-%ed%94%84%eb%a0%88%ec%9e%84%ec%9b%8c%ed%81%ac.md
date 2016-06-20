@@ -62,71 +62,14 @@ inuit.css는 IE8까지만 지원한다. IE7까지 지원하고 싶다면 [v4.1.5
 
 ### 이미지 목록 같은 데 사용하는 multi-list 모듈
 
-상품을 진열할 때 이미지 목록을 많이 사용한다. 이건 여러 군데서 반복되는 패턴이다. 큰 이미지 목록도 있을 수 있고 작은 이미지 목록도 있을 수 있다. inuit.css는 `multi-list`라는 클래스로 이걸 단박에 해결한다. 졸라 편하다. ([inuit.css의 `.multi-list`예제 보기][7])
+상품을 진열할 때 이미지 목록을 많이 사용한다. 이건 여러 군데서 반복되는 패턴이다. 큰 이미지 목록도 있을 수 있고 작은 이미지 목록도 있을 수 있다. inuit.css의 그리드 객체를 이용해서 이걸 손쉽게 해결할 수 있다. 그리드 객체는 레이아웃뿐 아니라 이런 데도 사용할 수 있는 것이다.
 
 아래 예제를 보자.
 
-```html
-<div class="image-list">
-  <ul class="multi-list five-cols">
-    <li>
-      <img src="http://lorempixel.com/100/100/">
-      <p>Good!</p>
-    </li>
-    <li>
-      <img src="http://lorempixel.com/100/100/">
-      <p>Good!</p>
-    </li>
-    <li>
-      <img src="http://lorempixel.com/100/100/">
-      <p>Good!</p>
-    </li>
-    <li>
-      <img src="http://lorempixel.com/100/100/">
-      <p>Good!</p>
-    </li>
-    <li>
-      <img src="http://lorempixel.com/100/100/">
-      <p>Good!</p>
-    </li> 
-    <li>
-      <img src="http://lorempixel.com/100/100/">
-      <p>Good!</p>
-    </li>
-    <li>
-      <img src="http://lorempixel.com/100/100/">
-      <p>Good!</p>
-    </li> 
-    <li>
-      <img src="http://lorempixel.com/100/100/">
-      <p>Good!</p>
-    </li>
-    <li>
-      <img src="http://lorempixel.com/100/100/">
-      <p>Good!</p>
-    </li>
-    <li>
-      <img src="http://lorempixel.com/100/100/">
-      <p>Good!</p>
-    </li>
-    <li>
-      <img src="http://lorempixel.com/100/100/">
-      <p>Good!</p>
-    </li>
-    <li>
-      <img src="http://lorempixel.com/100/100/">
-      <p>Good!</p>
-    </li> 
-  </ul>
-</div>
-```
-
-위 코드의 결과는 아래와 같다.
-
-<p data-height="365" data-theme-id="0" data-slug-hash="gJFlj" data-default-tab="result" data-user="mytory" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/mytory/pen/gJFlj/">inuit.css milti-list example</a> by An, Hyeong-woo (<a href="http://codepen.io/mytory">@mytory</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<p data-height="401" data-theme-id="0" data-slug-hash="aZmPoV" data-default-tab="result" data-user="mytory" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/mytory/pen/aZmPoV/">grid example</a> by An, Hyeong-woo (<a href="http://codepen.io/mytory">@mytory</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 
-이런 게 OOCSS에서 중복을 줄이는 방법이다. 비슷한 패턴에 죄다 `multi-list` 클래스를 사용하면 된다. 추가로 해 줘야 하는 것에만 자신의 클래스를 붙이면 된다. 위의 예제에서 내가 겉을 감싸는 `div`에 `image-list` 클래스를 붙인 것처럼 말이다.
+이런 게 OOCSS에서 중복을 줄이는 방법이다. 비슷한 패턴에 죄다 `grid`, `grid__item` 클래스를 사용하면 된다. 추가로 해 줘야 하는 것에만 자신의 클래스를 붙이면 된다. 위의 예제에서 내가 겉을 감싸는 `div`에 `image-list` 클래스를 붙인 것처럼 말이다.
 
 ### 내비게이션(nav) 모듈
 

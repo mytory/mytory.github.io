@@ -8,7 +8,7 @@ aktt_notify_twitter:
 daumview_id:
   - 36793579
 mytory_md_path:
-  - 
+  -
 categories:
   - 웹 퍼블리싱
 tags:
@@ -85,10 +85,10 @@ $('#mask').click(function () {
 완성된 코드는 아래와 같다. (주의! DTD 선언을 하지 않으면  IE에서 깨진다!)
 
 <pre class="brush:js; html-script: true">&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"&gt;
-&lt;html&gt; 
-&lt;head&gt; 
-	&lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8"&gt; 
-	&lt;style&gt; 
+&lt;html&gt;
+&lt;head&gt;
+	&lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8"&gt;
+	&lt;style&gt;
 	#mask {  
 	  position:absolute;  
 	  z-index:9000;  
@@ -96,7 +96,7 @@ $('#mask').click(function () {
 	  display:none;  
 	  left:0;
 	  top:0;
-	} 
+	}
 	.window{
 	  display: none;
 	  position:absolute;  
@@ -104,9 +104,9 @@ $('#mask').click(function () {
 	  top:100px;
 	  z-index:10000;
 	}
-	&lt;/style&gt; 
-	&lt;script src="http://code.jquery.com/jquery-latest.js"&gt;&lt;/script&gt; 
-	&lt;script&gt; 
+	&lt;/style&gt;
+	&lt;script src="https://code.jquery.com/jquery-latest.js"&gt;&lt;/script&gt; 
+	&lt;script&gt;
 	function wrapWindowByMask(){
 		//화면의 높이와 너비를 구한다.
 		var maskHeight = $(document).height();  
@@ -143,15 +143,15 @@ $('#mask').click(function () {
 		    $('.window').hide();  
 		});      
 	});
-	&lt;/script&gt; 
-&lt;/head&gt; 
-&lt;body&gt; 
-	&lt;div id="mask"&gt;&lt;/div&gt; 
-	&lt;div class="window"&gt; 
-		&lt;input type="button" href="#" class="close" value="나는야 닫기 버튼(.window .close)"/&gt; 
-	&lt;/div&gt; 
-	&lt;a href="#" class="openMask"&gt;검은 막 띄우기&lt;/a&gt; 
-&lt;/body&gt; 
+	&lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+	&lt;div id="mask"&gt;&lt;/div&gt;
+	&lt;div class="window"&gt;
+		&lt;input type="button" href="#" class="close" value="나는야 닫기 버튼(.window .close)"/&gt;
+	&lt;/div&gt;
+	&lt;a href="#" class="openMask"&gt;검은 막 띄우기&lt;/a&gt;
+&lt;/body&gt;
 &lt;/html&gt;</pre>
 
 반투명 검은 막 위로 박스를 띄울 때 박스를 스크롤과 상관없이 화면의 정 중앙에 오도록 하고 싶다면 &#8216;[[jQuery] 레이어 팝업 박스를 화면 정 가운데 위치시키기(ie든 파폭이든 크롬이든 다 되는 거)][1]&#8216;를 참고하면 된다.

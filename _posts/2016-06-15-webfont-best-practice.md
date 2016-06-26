@@ -83,11 +83,11 @@ IE8은 로컬 스토리지를 지원하면서 woff는 지원하지 않는다. �
 
 웹개발에서 자주 활용하는 base64 인코딩은 작은 이미지를 base64로 인코딩해서 CSS에 포함시키는 것이다. 이러면 브라우저가 서버에 보내는 요청 수를 한 번 줄일 수 있으므로 성능을 개선하는 데 도움이 된다.
 
-    background-image: url(data:image/png;base64,...==)
+    background-image: url(data:image/png;base64,...=)
 
 잘 사용하진 않지만, 아예 `img` 태그에 들어가는 이미지를 base64로 넣을 수도 있다.
 
-    <img src="data:image/png;base64,...==">
+    <img src="data:image/png;base64,...=">
 
 작은 이미지를 base64로 인코딩해 주는 사이트는 검색하면 많이 나온다. 그런데 이번 경우는 수백 키로바이트 짜리 `woff` 폰트 파일을 base64로 인코딩해야 한다. 이럴 땐 로컬 프로그램을 사용하는 편이 더 나을 것이다. 리눅스 터미널에선 간단하게 만들 수 있다.
 
@@ -106,7 +106,7 @@ woff 내장 CSS 파일의 내용은 아래와 같을 것이다. base64 인코딩
   font-family: "Nanum Gothic";
   font-style: normal;
   font-weight: 500;
-  src: url("data:application/font-woff;base64,d09GRgAB...중략...==")
+  src: url("data:application/font-woff;base64,d09GRgAB...중략...=")
        format("woff");
 }
 ```

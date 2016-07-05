@@ -10,7 +10,7 @@ categories:
 ---
 무슨 소리냐 하면, Sass 문법을 Sublime Text 2에서 사용할 수 있는데, 닫는 표시가 없는 CSS 주석을 처리하는 못하고 아래쪽 전부를 주석 처리하는 문제가 있다는 거다. 예컨대 아래처럼 된다는 거다. (캡쳐 뜬 거다.)
 
-<img class="alignnone" alt="" src="http://dl.dropbox.com/u/15546257/blog/mytory/sass-comment-example.png" width="561" height="324" />
+<img class="alignnone" alt="" src="/uploads/legacy/sass-comment-example.png" width="561" height="324" />
 
 36행을 보면 주석이 닫혀 있지 않고, 그래서 그 아래쪽은 전부 주석 처리된다는 걸 알 수 있다. `sass-convert`를 이용해서 변환한 CSS는 죄다 저렇게 된다. 즉, 사용자 주석을 닫지 않아도 Sass는 알아서 잘 처리를 하는데, Sublime Text 2의 Sass 확장은 처리를 못하는 거다.
 
@@ -24,7 +24,7 @@ categories:
 
 그리고 정규식을 사용하겠다고 표시한다. (`.*` 라고 씌어 있는 버튼을 누르면 된다. 아래 그림 참고)
 
-<img class="alignnone" alt="" src="http://dl.dropbox.com/u/15546257/blog/mytory/sumlime-text-2-regex-find.png" width="347" height="63" />
+<img class="alignnone" alt="" src="/uploads/legacy/sumlime-text-2-regex-find.png" width="347" height="63" />
 
 그리고 찾기 부분에 `/\*(.*)\n`라고 써 주고, 바꾸기 부분에 `/\*$1 \*/\n`라고 써 준다. 그리고 한꺼번에 바꾸기! 그럼 닫기가 없는 모든 주석을 닫아 준다. (아, 그리고 닫기가 있는 주석도 다 닫아 준다. 주의!)
 

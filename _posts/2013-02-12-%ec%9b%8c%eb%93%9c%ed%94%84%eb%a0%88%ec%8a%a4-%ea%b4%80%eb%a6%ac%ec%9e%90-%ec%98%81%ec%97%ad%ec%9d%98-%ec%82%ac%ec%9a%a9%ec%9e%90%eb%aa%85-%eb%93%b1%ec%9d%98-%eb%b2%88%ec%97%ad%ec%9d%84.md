@@ -15,5 +15,5 @@ tags:
 워드프레스로 제품 출시를 할 때 사용하려고 조금 다듬은 언어 파일이 있다. 공유한다. 비밀번호 분실 안내문을 좀더 이해하기 쉽게 바꿨고, 사용자명을 죄다 아이디로 변경했다.
 
 <p style="text-align: center;">
-  <a href="http://dl.dropbox.com/u/15546257/blog/mytory/wp-content_languages.7z">▶다운로드</a>
+  <a href="/uploads/legacy/wp-content_languages.7z">▶다운로드</a>
 </p>

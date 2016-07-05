@@ -30,7 +30,7 @@ tags:
 다른 객체 기반 코딩 방법론처럼, OOCSS의 목적도 코드 재사용성을 높이고, 궁극적으로는, 더 빠르고 효율적이며 뭔가 추가하기 쉽고 유지보수하기 용이한 스타일시트를 만드는 것이다.
 
 <p style="text-align: center;">
-  <img class="aligncenter" alt="OOCSS" src="http://dl.dropbox.com/u/15546257/blog/mytory/intruduce-oocss/oocss-splash1.jpg" width="500" height="375" />
+  <img class="aligncenter" alt="OOCSS" src="/uploads/legacy/intruduce-oocss/oocss-splash1.jpg" width="500" height="375" />
 </p>
 
 [OOCSS GitHub의 위키 페이지][5]에서 설명하듯, OOCSS는 두 가지 원칙에 기초해 있다.
@@ -220,7 +220,7 @@ OOCSS 사용법을 좀더 설명하기 위해, [내 사이트를 최근에 다�
 OOCSS 운동의 개척자 중 하나는 [니콜 설리반][7]이다. 니콜 설리반은[ 미디어 객체][8]라는 재사용 가능한 모듈을 만들었다. 니콜의 설명을 보면, 이 모듈을 사용해서 [코드 분량을 대폭 줄일 수 있다.][9]
 
 <p style="text-align: center;">
-  <img class="aligncenter" alt="OOCSS" src="http://dl.dropbox.com/u/15546257/blog/mytory/intruduce-oocss/media-object.jpg" width="500" height="375" />
+  <img class="aligncenter" alt="OOCSS" src="/uploads/legacy/intruduce-oocss/media-object.jpg" width="500" height="375" />
 </p>
 
 미디어 객체는 OOCSS의 강력함을 보여 주는 훌륭한 예다. 콘텐츠 좌측에 사이즈에 상관없이 미디어 요소를 배치할 수 있도록 해 주기 때문이다. 안쪽 콘텐츠에 적용하는 많은 스타일이 ─ 그리고 미디어 요소 자신의 크기 조차도 ─ 변할 수 있지만, 미디어 객체 자체는 불필요한 중복을 피하도록 해 주는 공통 스타일에 기반한다.

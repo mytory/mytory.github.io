@@ -19,7 +19,7 @@ tags:
 [2012-10-20 추가] Eclipse Juno 에서는 이 방법이 잘 먹힌다. 우분투에서도 먹힌다. 그런데 갈릴레오에서는 잘 안 된다. 즉, 늘 작동하는 방법은 아니라는 것이다. 그 점을 감안해야 할 듯하다.
 
 <div style="width: 588px" class="wp-caption aligncenter">
-  <img src="http://dl.dropbox.com/u/15546257/blog/mytory/makegood.png" alt="" width="578" height="504" /><p class="wp-caption-text">
+  <img src="/uploads/legacy/makegood.png" alt="" width="578" height="504" /><p class="wp-caption-text">
     이놈을 찾아서 설치하면 그 때부터 한글 함수명, 변수명 자동완성과 찾아가기가 지원된다.
   </p>
 </div>

@@ -124,7 +124,7 @@ CSS 클래스만 갖고 컴포넌트 안의 DOM을 건드리려면 미친 짓을
 
 [역자 주 - 뭔지 궁금해서 [Segment.io][9]에 가 봤는데, 아래 이미지처럼 생긴 놈이다. 섹션을 구분할 때 그냥 선이 아니라 저렇게 은은한 그라데이션으로 만든 거다. 저게 입술처럼 생겼다고 lip이라고 이름붙였나 보다.]
 
-<img class="aligncenter" alt="" src="http://dl.dropbox.com/u/15546257/blog/mytory/lip.png" width="775" height="83" />
+<img class="aligncenter" alt="" src="/uploads/legacy/lip.png" width="775" height="83" />
 
 <pre><code class="sass">%lip
     clear: both
@@ -205,7 +205,7 @@ CSS 클래스만 갖고 컴포넌트 안의 DOM을 건드리려면 미친 짓을
 valley처럼, 페이지에서 들어가 있는 부분이다. `<code>` 예제 같은 데서 사용한다. (이 블로그에서 사용하는 것과 비슷하다. [역자 주 - 이 블로그란 저자의 블로그를 말한다.])
 
 <div style="width: 773px" class="wp-caption aligncenter">
-  <img alt="" src="http://dl.dropbox.com/u/15546257/blog/mytory/seam.png" width="763" height="138" /><p class="wp-caption-text">
+  <img alt="" src="/uploads/legacy/seam.png" width="763" height="138" /><p class="wp-caption-text">
     seam
   </p>
 </div>

@@ -42,10 +42,10 @@ default-character-set=utf8</pre>
 
 결국, [Where are the Apache Configuration files on Mac? – `httpd.conf`][3] 에서 실마리를 찾을 수 있었는데, &#8216;시스템 환경설정&#8217;에 들어가서 &#8216;공유 > 웹 공유&#8217;를 활성화해야 하는 것이었다. 아래 그림을 참고하면 된다.
 
-<img class="aligncenter" alt="" src="http://dl.dropbox.com/u/15546257/blog/mytory/macbook-web-sharing-1.png" width="782" height="675" />
+<img class="aligncenter" alt="" src="/uploads/legacy/macbook-web-sharing-1.png" width="782" height="675" />
 
 <div style="width: 706px" class="wp-caption aligncenter">
-  <img class=" " alt="" src="http://dl.dropbox.com/u/15546257/blog/mytory/macbook-web-sharing-2.png" width="696" height="578" /><p class="wp-caption-text">
+  <img class=" " alt="" src="/uploads/legacy/macbook-web-sharing-2.png" width="696" height="578" /><p class="wp-caption-text">
     이렇게 웹 공유를 활성화하면 그 때부터 버추얼호스트 설정이 적용되기 시작한다.
   </p>
 </div>

@@ -15,7 +15,7 @@ tags:
 [《실전 웹사이트 분석 A to Z》][1]를 240일 만에 다 읽었다. 오래도 읽었다. 느낀점을 적는 것도 좋을 텐데, 읽으면서 밑줄 그은 것으로 대신하려고 한다.
 
 <p style="text-align: center;">
-  <img class="aligncenter" src="http://dl.dropbox.com/u/15546257/blog/mytory/book-%EC%8B%A4%EC%A0%84-%EC%9B%B9%EC%82%AC%EC%9D%B4%ED%8A%B8-%EB%B6%84%EC%84%9D-A-to-Z.jpg" alt="" width="400" height="530" />
+  <img class="aligncenter" src="/uploads/legacy/book-%EC%8B%A4%EC%A0%84-%EC%9B%B9%EC%82%AC%EC%9D%B4%ED%8A%B8-%EB%B6%84%EC%84%9D-A-to-Z.jpg" alt="" width="400" height="530" />
 </p>
 
 이 책은, 웹마스터 등 웹 전략 담당자에게 큰 도움이 되는 책이다. 이 책은 기술을 설명하는 책이라기 보다는 웹사이트 분석이 무엇이며, 분석을 잘 하기 위해서는 어떤 지표를 봐야 하는지, 어떻게 해석해야 하는지 알려 주는 책이다.

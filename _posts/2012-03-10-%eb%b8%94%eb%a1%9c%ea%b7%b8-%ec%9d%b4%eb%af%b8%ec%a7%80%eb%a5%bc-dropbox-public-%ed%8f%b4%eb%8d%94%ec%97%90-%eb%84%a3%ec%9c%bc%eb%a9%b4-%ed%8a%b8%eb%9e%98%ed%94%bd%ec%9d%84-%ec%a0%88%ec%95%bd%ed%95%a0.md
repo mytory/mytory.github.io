@@ -31,13 +31,13 @@ tags:
 아래 그림을 참고한다.
 
 <div style="width: 598px" class="wp-caption aligncenter">
-  <img src="http://dl.dropbox.com/u/15546257/blog/mytory/dropbox-public-link.png" alt="" width="588" height="90" /><p class="wp-caption-text">
+  <img src="/uploads/legacy/dropbox-public-link.png" alt="" width="588" height="90" /><p class="wp-caption-text">
     드롭박스 클라이언트를 설치한 경우엔 탐색기에서 마우스 우클릭을 해서 뽑으면 된다.
   </p>
 </div>
 
 <div style="width: 583px" class="wp-caption aligncenter">
-  <img class=" " src="http://dl.dropbox.com/u/15546257/blog/mytory/dropbox-web-public-link.png" alt="" width="573" height="293" /><p class="wp-caption-text">
+  <img class=" " src="/uploads/legacy/dropbox-web-public-link.png" alt="" width="573" height="293" /><p class="wp-caption-text">
     온라인인 경우 이렇게 Copy public link 버튼을 누르면 된다.
   </p>
 </div>

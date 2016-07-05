@@ -32,11 +32,11 @@ tags:
 *   그리고 아래처럼 세팅한다. 한글과 영어 둘 다 제공해 주겠다. ㅋ
 
 <p style="text-align: center;">
-  <img class="aligncenter" src="http://dl.dropbox.com/u/15546257/blog/mytory/ga-filter-english.png" alt="" width="692" height="722" />
+  <img class="aligncenter" src="/uploads/legacy/ga-filter-english.png" alt="" width="692" height="722" />
 </p>
 
 <p style="text-align: center;">
-  <img class="alignnone aligncenter" src="http://dl.dropbox.com/u/15546257/blog/mytory/ga-filter-korean.png" alt="" width="659" height="750" />
+  <img class="alignnone aligncenter" src="/uploads/legacy/ga-filter-korean.png" alt="" width="659" height="750" />
 </p>
 
 필터 이름은 내용에 맞게 잘 적도록 하고, 맞춤 필터(Custom filter)를 고른다. 그리고 고급(Advanced)을 골라 준다. 필드 A(Field A) -> 추출 A(Extract A) 에서 요청 URI(Request URI)를 골라 주고 거기다가는 `(.*)\.html` 이라고 적어 준다. 이건 정규식이다. 정규식이 뭔지 모르는 사람은 따라하는 거 말고 독창적인 건 하지 말기 바란다. 필드 B(Field B)는 비워 둔다.

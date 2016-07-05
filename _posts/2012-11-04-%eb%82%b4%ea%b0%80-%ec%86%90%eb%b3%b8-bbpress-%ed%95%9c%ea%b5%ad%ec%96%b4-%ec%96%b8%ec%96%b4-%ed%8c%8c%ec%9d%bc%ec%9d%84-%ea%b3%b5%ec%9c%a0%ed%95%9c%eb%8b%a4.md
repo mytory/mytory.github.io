@@ -27,4 +27,4 @@ bbPress는 워드프레스에 게시판을 달아 주는 플러그인이다. 그
 다운로드한 뒤 wp-content/plugins/bbpress/bbp-languages 폴더에 파일을 넣으면 된다.
 
  [1]: http://mytory.net/archives/3245 "[번역] bbPress 한글 언어 파일 설치하기"
- [2]: http://dl.dropbox.com/u/15546257/blog/mytory/bbpress-ko_KR/bbpress-ko_KR.7z
+ [2]: /uploads/legacy/bbpress-ko_KR/bbpress-ko_KR.7z

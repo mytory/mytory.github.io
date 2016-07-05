@@ -23,7 +23,7 @@ tags:
 </p>
 
 <div style="width: 187px" class="wp-caption aligncenter">
-  <img class=" " src="http://dl.dropbox.com/u/15546257/blog/mytory/LED-light-for-iphone4-free.png" alt="" width="177" height="178" /><p class="wp-caption-text">
+  <img class=" " src="/uploads/legacy/LED-light-for-iphone4-free.png" alt="" width="177" height="178" /><p class="wp-caption-text">
     LED light for iPhone4 바로 가기
   </p>
 </div>

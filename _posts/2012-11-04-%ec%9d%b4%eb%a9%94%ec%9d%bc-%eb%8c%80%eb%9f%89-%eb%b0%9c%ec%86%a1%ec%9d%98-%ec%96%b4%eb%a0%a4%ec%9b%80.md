@@ -15,7 +15,7 @@ tags:
   - 생각해 보기
 ---
 <div style="width: 460px" class="wp-caption aligncenter">
-  <img src="http://dl.dropbox.com/u/15546257/blog/mytory/gongjam-email.jpg" alt="" width="450" height="224" /><p class="wp-caption-text">
+  <img src="/uploads/legacy/gongjam-email.jpg" alt="" width="450" height="224" /><p class="wp-caption-text">
     하나씩 쏠 때는 잘 가다가도, 한꺼번에 많이 쏘면 꼭 문제가 생긴다. <a href="http://gongjam.co.kr/">ⓒ공잠</a>
   </p>
 </div>

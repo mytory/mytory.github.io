@@ -25,7 +25,7 @@ tags:
 이놈을 설치한 후, 브라우저 오른쪽 상단의 공구모양 아이콘 <img class="alignnone" alt="" src="http://www.google.com/help/hc/images/chrome_toolsmenu.gif" width="29" height="29" />을 누른 후 **도구 > 확장 프로그램**을 선택한다. 그러면 설치된 확장 프로그램들이 나오는데, 거기서 Personalized Web 을 찾아 **&#8216;옵션&#8217;**을 누른다. 그러면 아래 같은 설정을 할 수 있다.
 
 <p style="text-align: center;">
-  <img class="aligncenter" alt="" src="http://dl.dropbox.com/u/15546257/blog/mytory/chrome-font/personalized-web.png" width="640" height="273" />
+  <img class="aligncenter" alt="" src="/uploads/legacy/chrome-font/personalized-web.png" width="640" height="273" />
 </p>
 
 Rule name은 본인이 원하는대로 사용하고 Match URLs는 그대로 둔다. Add CSS 에 다음 코드를 집어 넣는다.

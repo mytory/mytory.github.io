@@ -20,7 +20,7 @@ tags:
 
 촬영좀 하는 분들이야 다들 삼각대 하나쯤 있을 테니 큰 문제는 없을 거라 생각한다.
 
-<img class="aligncenter" alt="" src="http://dl.dropbox.com/u/15546257/blog/mytory/iphone-glif2.jpg" />
+<img class="aligncenter" alt="" src="/uploads/legacy/iphone-glif2.jpg" />
 
 이 이미지에서 삼각대는 판매되는 게 아니라는 거. 삼각대랑 아이폰을 연결하는 부분이 판매되는 놈이라는 거.
 

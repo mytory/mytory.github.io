@@ -15,7 +15,7 @@ tags:
 우선 처음 쓴 방법은 워드프레스 3.5부터 들어간 기능을 사용하는 것이다. 글 목록에 custom taxonomy를 보여 주는 것. 그러면 글 목록에 있는 제조사를 클릭했을 때 해당 제조사로 필터링이 된다. 아래 그림처럼 말이다. 아래 그림의 SIMAG 같은 것을 클릭하면 해당 제조사 것만 리스트에 나오게 된다.
 
 <div style="width: 756px" class="wp-caption aligncenter">
-  <img alt="" src="http://dl.dropbox.com/u/15546257/blog/mytory/wp-custom-taxonomy-in-admin-list.png" width="746" height="192" /><p class="wp-caption-text">
+  <img alt="" src="/uploads/legacy/wp-custom-taxonomy-in-admin-list.png" width="746" height="192" /><p class="wp-caption-text">
     판매분류와 제조사가 Custom Taxonomy고, Ice-hello, SIMAG 같은 것이 Term이다.
   </p>
 </div>
@@ -26,7 +26,7 @@ tags:
 
 하지만 목록에 표시되지 않는 제조사로 필터링을 할 수 없지 않나? 여하튼간에 아래처럼 만들어야 했다.
 
-<img class="alignnone" alt="" src="http://dl.dropbox.com/u/15546257/blog/mytory/wp-custom-taxonomy-in-admin-list-2.png" width="665" height="68" />
+<img class="alignnone" alt="" src="/uploads/legacy/wp-custom-taxonomy-in-admin-list-2.png" width="665" height="68" />
 
 알겠지만, 만들어서 이 글을 쓰는 거다. 위처럼 표시하기 위한 코드는 아래와 같다. 판매분류도 custom taxonomy지만, 제조사용 코드만 쓴다. 제조사의 custom taxonomy slug는 company였다.
 

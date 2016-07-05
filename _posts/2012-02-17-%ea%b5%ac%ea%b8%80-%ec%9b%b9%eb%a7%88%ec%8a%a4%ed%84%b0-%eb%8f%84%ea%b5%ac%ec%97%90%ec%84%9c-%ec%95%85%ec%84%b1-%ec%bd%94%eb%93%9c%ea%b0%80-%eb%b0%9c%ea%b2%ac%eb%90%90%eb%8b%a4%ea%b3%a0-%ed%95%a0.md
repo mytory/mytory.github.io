@@ -18,7 +18,7 @@ tags:
 
 얼마 전부터 구글 웹마스터 도구에 들어가면 내 블로그에서 악성 코드가 감지됐다고 나온다. 나는 사이트를 사용하는 데 아무 문제가 없었기 때문에 의아했다.
 
-<img class="aligncenter" src="http://dl.dropbox.com/u/15546257/blog/mytory/google_webmaster_badware_alert.jpg" alt="" width="553" height="284" />
+<img class="aligncenter" src="/uploads/legacy/google_webmaster_badware_alert.jpg" alt="" width="553" height="284" />
 
 검토 요청을 두 번이나 했는데 해제되지 않았다. 코드를 모두 다운받아 백신으로 검사를 해 보기도 했다. 악성코드는 발견되지 않았고, 크롬과 구글 검색에서도 사이트를 이용하는 데 아무 문제가 없었다.
 

@@ -25,14 +25,14 @@ tags:
 한메일은 아래 그림에 빨갛게 표시한 부분에서 환경설정을 찾을 수 있다.
 
 <div style="width: 550px" class="wp-caption aligncenter">
-  <img class=" " src="http://dl.dropbox.com/u/15546257/blog/mytory/daum-mail-imap-setting.png" alt="" width="540" height="273" /><p class="wp-caption-text">
+  <img class=" " src="/uploads/legacy/daum-mail-imap-setting.png" alt="" width="540" height="273" /><p class="wp-caption-text">
     △환경설정 버튼 찾기가 항상 제일 어려운 일.
   </p>
 </div>
 
 네이버 메일은 아래 이미지를 참고해서 imap을 활성화하면 된다.
 
-<img class="aligncenter" src="http://dl.dropbox.com/u/15546257/blog/mytory/naver-mail-imap-setting.jpg" alt="" width="578" height="637" />
+<img class="aligncenter" src="/uploads/legacy/naver-mail-imap-setting.jpg" alt="" width="578" height="637" />
 
 각 환경설정에 보면 메일 클라이언트에 따라서 설정하는 방법이 나와 있으니 참고 하면 된다.
 

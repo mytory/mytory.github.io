@@ -14,4 +14,4 @@ tags:
 
 그런다가 문득 아이폰5 와이파이 문제가 있다고 본 게 기억이 났다. 그래서 보니까 **&#8216;설정 > 일반 > 재설정 > 네트워크 설정 재설정&#8217;**을 하면 괜찮아 진다는 설명이 있었다. 그래서 했다. 그리고 괜찮아졌다.
 
-<img class="aligncenter" alt="" src="http://dl.dropbox.com/u/15546257/blog/mytory/iphone5-WiFi-problem.png" width="320" height="402" />
+<img class="aligncenter" alt="" src="/uploads/legacy/iphone5-WiFi-problem.png" width="320" height="402" />

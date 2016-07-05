@@ -24,13 +24,13 @@ CSS로 요소를 수직으로 가운데 오게 하는 방법은 몇 가지 방�
 
 CSS로 수직 가운데 정렬을 하는 것은 쉽지 않다. 서로 다른 방법들이 있고, 어떤 방법은 몇몇 브라우저에서는 작동하지 않는다. CSS를 다룰 때, 작동이 어떻게 되는지 아는 것은 중요하다. 그러니 요소를 수직 가운데 정렬하는 5가지 방법을 살펴 보자. 그리고 장단점을 살펴 보자. (각 방법을 간략하게 요약 설명한 [테스트 페이지][3]를 볼 수 있다. <a class="simple-footnote" title="원본의 test page URL" id="return-note-9727-2" href="#note-9727-2"><sup>2</sup></a>)
 
-[<img style="border: 0px;" alt="" src="http://dl.dropbox.com/u/15546257/blog/mytory/css-absolute-center/tutorial/demo-thumb.jpg" width="550" height="330" border="0" />][3]
+[<img style="border: 0px;" alt="" src="/uploads/legacy/css-absolute-center/tutorial/demo-thumb.jpg" width="550" height="330" border="0" />][3]
 
 일러 두기: 나는 오스트레일리아인이다. 그래서 center라고 쓰지 않고 centre라고 쓴다. css에서는 cent**er**라고 써야 하니 헷갈리지 말기 바란다.
 
 ## 방법 1
 
-[<img alt="" src="http://dl.dropbox.com/u/15546257/blog/mytory/css-absolute-center/tutorial/images/method1.gif" width="255" height="500" border="0" />][3]
+[<img alt="" src="/uploads/legacy/css-absolute-center/tutorial/images/method1.gif" width="255" height="500" border="0" />][3]
 
 이 방법은 테이블처럼 만들어서 테이블의 `vertical-align` 속성을 사용할 수 있도록 `<div>`를 몇 개 세팅한다. (테이블의 `vertical-align` 속성은 다른 요소들에서는 [굉장히 다르게][4] 작동한다.)
 
@@ -61,7 +61,7 @@ CSS로 수직 가운데 정렬을 하는 것은 쉽지 않다. 서로 다른 방
 
 ## 방법 2
 
-[<img alt="" src="http://dl.dropbox.com/u/15546257/blog/mytory/css-absolute-center/tutorial/images/method2.gif" width="255" height="500" border="0" />][3]
+[<img alt="" src="/uploads/legacy/css-absolute-center/tutorial/images/method2.gif" width="255" height="500" border="0" />][3]
 
 이 방법은 position absolute를 사용한다. top을 50%로 설정하고 margin-top을 콘텐츠의 절반 높이만큼 음수로 설정한다. 이것은 요소의 높이를 CSS에서 지정해야 한다는 걸 의미한다.
 
@@ -84,7 +84,7 @@ CSS로 수직 가운데 정렬을 하는 것은 쉽지 않다. 서로 다른 방
 
 ## 방법 3
 
-[<img alt="" src="http://dl.dropbox.com/u/15546257/blog/mytory/css-absolute-center/tutorial/images/method3.gif" width="255" height="500" border="0" />][3]
+[<img alt="" src="/uploads/legacy/css-absolute-center/tutorial/images/method3.gif" width="255" height="500" border="0" />][3]
 
 이 방법은 내용 요소 위에 div를 두는 방법이다. 이 div는 `height:50%;`, `margin-bottom:-content높이의절반;` 이렇게 설정한다. content엔 clear 속성을 줘서 float된 div 밑으로 오게 하면 content가 가운데 오게 된다.
 
@@ -107,7 +107,7 @@ CSS로 수직 가운데 정렬을 하는 것은 쉽지 않다. 서로 다른 방
 
 ## 방법 4
 
-[<img alt="" src="http://dl.dropbox.com/u/15546257/blog/mytory/css-absolute-center/tutorial/images/method4.gif" width="255" height="500" border="0" />][3]
+[<img alt="" src="/uploads/legacy/css-absolute-center/tutorial/images/method4.gif" width="255" height="500" border="0" />][3]
 
 이 방법은 높이와 너비를 지정하고 `position:absolute;`를 매긴 div를 사용한다. div는 그러면 `top:0;`부터 `bottom:0;`까지 뻗는다. 근데 사실 높이를 지정해 뒀기 때문에 그게 가능하진 않다. 그래서 `margin:auto;` 라고 주면 요소가 가운데로 가게 된다. 이건 우리가 흔히 블럭 요소에 `margin:0 auto;` 를 적용해서 사용하는 수평 가운데 정렬과 아주 비슷하다.
 
@@ -129,7 +129,7 @@ CSS로 수직 가운데 정렬을 하는 것은 쉽지 않다. 서로 다른 방
 
 ## 방법 5
 
-[<img alt="" src="http://dl.dropbox.com/u/15546257/blog/mytory/css-absolute-center/tutorial/images/method5.gif" width="255" height="500" border="0" />][3]
+[<img alt="" src="/uploads/legacy/css-absolute-center/tutorial/images/method5.gif" width="255" height="500" border="0" />][3]
 
 이 방법은 오직 한 줄짜리 텍스트만 수직 가운데 정렬을 해 준다. 간단히,  `line-height`를 요소의 높이로 설장한다. 그러면 텍스트가 가운데로 간다.
 
@@ -169,7 +169,7 @@ CSS로 수직 가운데 정렬을 하는 것은 쉽지 않다. 서로 다른 방
 
 이제 어떻게 작동하는지 감이 잡힐 거다. 간단하지만 흥미로운 웹사이트를 만들어 보자! 최종 결과물은 아래처럼 보일 거다.
 
-[<img alt="" src="http://dl.dropbox.com/u/15546257/blog/mytory/css-absolute-center/tutorial/step4-thumb.jpg" width="550" height="330" border="0" />][6]
+[<img alt="" src="/uploads/legacy/css-absolute-center/tutorial/step4-thumb.jpg" width="550" height="330" border="0" />][6]
 
 ## 스텝 1
 
@@ -294,7 +294,7 @@ float시킨 요소의 `margin-bottom`은 콘텐츠 높이(400px)의 절반인 -
 
 아래처럼 보여야 한다.
 
-<img alt="" src="http://dl.dropbox.com/u/15546257/blog/mytory/css-absolute-center/tutorial/step2-thumb.jpg" width="550" height="330" border="0" />  
+<img alt="" src="/uploads/legacy/css-absolute-center/tutorial/step2-thumb.jpg" width="550" height="330" border="0" />  
 <code style="line-height: 1.714285714;"></code>
 
 <code style="line-height: 1.714285714;">#centered</code><span style="line-height: 1.714285714; font-size: 1rem;">의 너비는 80%다. 이렇게 하면 작은 스크린에서는 웹사이트가 작게 표현되고, 큰 스크린에서는 웹사이트가 크게 표현된다. (내 스크린은 약간 큰데, 낡은 웹사이트들 상당수가 좌측 상단 코너에 조그맣게 표현된다. 좀 짜증난다.) 이것은 유동 레이아웃으로 알려진 것이다.  </span><code style="line-height: 1.714285714;">min-width</code><span style="line-height: 1.714285714; font-size: 1rem;">와 </span><code style="line-height: 1.714285714;">max-width</code><span style="line-height: 1.714285714; font-size: 1rem;">가 너무 커지거나 너무 작아지는 것을 막아 준다. Internet Explorer는 min&max width를 지원하지 않는다. 그렇긴 하지만 전용  </span><code style="line-height: 1.714285714;">expression</code><span style="line-height: 1.714285714; font-size: 1rem;"> 값을 이용해서 나중에 수정할 것이다. 당연히, 이렇게 하는 대신에 고정폭을 선택할 수도 있다.</span>
@@ -347,7 +347,7 @@ float시킨 요소의 `margin-bottom`은 콘텐츠 높이(400px)의 절반인 -
 
 메뉴에서 또 재밌는 부분은,  `:before`와 `:after` CSS 가상 요소다. 이것은 요소의 앞뒤로 콘텐츠를 넣게 한다. 이걸 이용하면 작은 아이콘이나 문자 ─ 예컨대 화살표 같은 같은 걸 각 링크의 뒷부분에 쉽게 넣을 수 있다. 하지만 Internet Explorer 8 이전 버전에선 작동하지 않는다.
 
-<img alt="" src="http://dl.dropbox.com/u/15546257/blog/mytory/css-absolute-center/tutorial/step3-thumb.jpg" width="550" height="330" border="0" />
+<img alt="" src="/uploads/legacy/css-absolute-center/tutorial/step3-thumb.jpg" width="550" height="330" border="0" />
 
 ## 스텝 4
 
@@ -399,7 +399,7 @@ a {
 
 봐야 할 부분은,  `#centered`의 둥근 모서리다. CSS3에서, 모서리를 둥글게 만들려면 `border-radius` 프로퍼티를 사용해야 한다. [2009년 2월까지] 아직 어떤 주요 브라우저도 이걸 그대로 구현하지 않았고,  `-moz`나 `-webkit` prefix를 붙여서 사용해야 한다. (Mozilla Firefox와 Safari/Webkit용)
 
-<img alt="" src="http://dl.dropbox.com/u/15546257/blog/mytory/css-absolute-center/tutorial/step4-thumb.jpg" width="550" height="330" border="0" />
+<img alt="" src="/uploads/legacy/css-absolute-center/tutorial/step4-thumb.jpg" width="550" height="330" border="0" />
 
 ## 스텝 5 — IE를 위한 수정
 
@@ -499,10 +499,10 @@ IE6 stylesheet는 IE5의 문제까지 함께 해결한다. 그래서 조건식 �
   
   <ol>
     <li id="note-9727-1">
-      정확히 말하면 저자가 약간 개선한 버전을 이메일로 보내 줬다. 그래서 좌측 링크와는 약간 다른 게 있을 거다. 저자가 보내 준 개선판의 제목은 <a href="http://dl.dropbox.com/u/15546257/blog/mytory/css-absolute-center/tutorial/tut.html">CSS Vertical Centering (without tables!)</a>이다. <a href="#return-note-9727-1">&#8617;</a>
+      정확히 말하면 저자가 약간 개선한 버전을 이메일로 보내 줬다. 그래서 좌측 링크와는 약간 다른 게 있을 거다. 저자가 보내 준 개선판의 제목은 <a href="/uploads/legacy/css-absolute-center/tutorial/tut.html">CSS Vertical Centering (without tables!)</a>이다. <a href="#return-note-9727-1">&#8617;</a>
     </li>
     <li id="note-9727-2">
-      <a href="http://dl.dropbox.com/u/15546257/blog/mytory/css-absolute-center/demo/demo4.html">원본의 test page URL</a> <a href="#return-note-9727-2">&#8617;</a>
+      <a href="/uploads/legacy/css-absolute-center/demo/demo4.html">원본의 test page URL</a> <a href="#return-note-9727-2">&#8617;</a>
     </li>
     <li id="note-9727-3">
       역자 주 &#8211; 스펙에 맞지 않게 요소를 사용하는 점이 걸린다는 뜻인 것 같다. <a href="#return-note-9727-3">&#8617;</a>
@@ -521,15 +521,15 @@ IE6 stylesheet는 IE5의 문제까지 함께 해결한다. 그래서 조건식 �
 
  [1]: https://github.com/PaulSpr/jQuery-Flex-Vertical-Center
  [2]: http://blog.themeforest.net/tutorials/vertical-centering-with-css/
- [3]: http://dl.dropbox.com/u/15546257/blog/mytory/css-absolute-center/demo/demo4.html
+ [3]: /uploads/legacy/css-absolute-center/demo/demo4.html
  [4]: http://phrogz.net/CSS/vertical-align/index.html
- [5]: http://dl.dropbox.com/u/15546257/blog/mytory/css-absolute-center/demo/demo5.html
- [6]: http://dl.dropbox.com/u/15546257/blog/mytory/css-absolute-center/demo/demo.html
+ [5]: /uploads/legacy/css-absolute-center/demo/demo5.html
+ [6]: /uploads/legacy/css-absolute-center/demo/demo.html
  [7]: http://reference.sitepoint.com/css/conditionalcomments
  [8]: http://reference.sitepoint.com/css/haslayout
  [9]: http://en.wikipedia.org/wiki/Conditional_operator
  [10]: http://douglasheriot.com/swfobjectgenerator/
  [11]: http://code.google.com/p/swfobject/
- [12]: http://dl.dropbox.com/u/15546257/blog/mytory/css-absolute-center/demo/demo1.html
+ [12]: /uploads/legacy/css-absolute-center/demo/demo1.html
  [13]: http://www.student.oulu.fi/~laurirai/www/css/middle/
  [14]: http://www.jakpsatweb.cz/css/css-vertical-center-solution.html

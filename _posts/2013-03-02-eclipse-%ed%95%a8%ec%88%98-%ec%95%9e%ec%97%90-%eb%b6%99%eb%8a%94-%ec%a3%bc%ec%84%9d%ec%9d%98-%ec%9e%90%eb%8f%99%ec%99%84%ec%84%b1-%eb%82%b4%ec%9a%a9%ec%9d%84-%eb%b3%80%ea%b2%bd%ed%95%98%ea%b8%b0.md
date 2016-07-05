@@ -25,7 +25,7 @@ function add_memo($id_person, $data, $user_id){ ... }</pre>
 
 그런데 난 여기에 `author`와 `since`도 자동으로 넣어 주고 싶었다. 그래서 설정을 찾아 봤고, 찾았다.
 
-<img class="alignnone" alt="" src="http://dl.dropbox.com/u/15546257/blog/mytory/eclipse-comment-template.png" width="833" height="802" />
+<img class="alignnone" alt="" src="/uploads/legacy/eclipse-comment-template.png" width="833" height="802" />
 
 위의 이미지에 있는 것처럼 설정에서 PHP > Code Style > Code Templates > Comment > Method로 들어가서 pattern을 수정해 주면 된다.
 
@@ -33,7 +33,7 @@ function add_memo($id_person, $data, $user_id){ ... }</pre>
 
 ${user}나 ${date}는 Edit를 눌러서 뜨는 창의 하단에 있는 Insert Variable&#8230;을 누르면 찾아 볼 수 있다.
 
-<img class="alignnone" alt="" src="http://dl.dropbox.com/u/15546257/blog/mytory/eclipse-comment-template-tag.png" />
+<img class="alignnone" alt="" src="/uploads/legacy/eclipse-comment-template-tag.png" />
 
 편집창에서 자신이 원하는 모양을 만들어 주면 완료. 그러면 이렇게 나온다.
 

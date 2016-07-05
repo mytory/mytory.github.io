@@ -131,7 +131,7 @@ add_action(&#039;admin_notices&#039;, &#039;gae_notice&#039;);
 플러그인 폴더 없이 파일 하나이므로 plugins 폴더에 그냥 넣으면 된다. 플러그인을 활성화하면 아래와 같은 메시지가 출력된다. 그러면 메시지의 코드 부분을 긁어서 업로드 폴더에 .htaccess 파일을 만들고 붙여 넣으면 된다.
 
 <div style="width: 1269px" class="wp-caption alignnone">
-  <img src="http://dl.dropbox.com/u/15546257/blog/mytory/get-all-extensions-plugin.png" alt="" width="1259" height="547" /><p class="wp-caption-text">
+  <img src="/uploads/legacy/get-all-extensions-plugin.png" alt="" width="1259" height="547" /><p class="wp-caption-text">
     이렇게, .htaccess에 넣을 문자열을 만들어서 뿌려 준다.
   </p>
 </div>

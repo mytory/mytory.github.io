@@ -21,7 +21,7 @@ tags:
 아래 밑줄 그은 내용들을 훑어 보면, 읽을 만한 책인지 판단할 수 있을 것이다.
 
 <p style="text-align: center;">
-  <img class="aligncenter" alt="" src="http://dl.dropbox.com/u/15546257/blog/mytory/book-code-simplicity.gif" width="400" height="525" />
+  <img class="aligncenter" alt="" src="/uploads/legacy/book-code-simplicity.gif" width="400" height="525" />
 </p>
 
 *   <span style="line-height: 1.714285714; font-size: 1rem;">저자 : 맥스 카넷-알렉산더</span>

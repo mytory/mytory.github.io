@@ -27,7 +27,7 @@ tags:
 일단 토론회 웹사이트 스크린샷을 보실까요? ^^
 
 <p style="text-align: center;">
-  <img class="alignnone aligncenter" src="http://dl.dropbox.com/u/15546257/blog/mytory/marxism/marxism2011.png" alt="" width="598" height="720" />
+  <img class="alignnone aligncenter" src="/uploads/legacy/marxism/marxism2011.png" alt="" width="598" height="720" />
 </p>
 
 처음에 구상해서 잠깐 띄웠다가 폐기한 디자인은 이거보다 훨씬 심플했더랍니다.(아래 소개해 둔 초안 버전을 말하는 게 아닙니다.)
@@ -44,7 +44,7 @@ tags:
 
 이 웹사이트의 초안은 아래 이미지였답니다.
 
-<img class="aligncenter" src="http://dl.dropbox.com/u/15546257/blog/mytory/marxism/%EB%A7%91%EC%8B%9C%EC%A6%98%202011%20%EB%94%94%EC%9E%90%EC%9D%B8%20%EC%B4%88%EC%95%88.jpg" alt="" width="648" height="720" />거의 그대로 구현됐다고 볼 수도 있겠지만 사소한 디테일들은 좀 변화를 줬답니다.
+<img class="aligncenter" src="/uploads/legacy/marxism/%EB%A7%91%EC%8B%9C%EC%A6%98%202011%20%EB%94%94%EC%9E%90%EC%9D%B8%20%EC%B4%88%EC%95%88.jpg" alt="" width="648" height="720" />거의 그대로 구현됐다고 볼 수도 있겠지만 사소한 디테일들은 좀 변화를 줬답니다.
 
 예컨대, 초안에 있던 more 라는 푯말은 사라졌죠. 아래쪽에 있는 그라데이션도 좀더 은은하게 변경했고, 아이콘들도 좀더 통일성있게 바꿨지요.
 
@@ -59,7 +59,7 @@ tags:
 작년 토론회인 맑시즘2010의 글로벌 내비게이션은 다소 산만했습니다. 아래처럼 말이죠.
 
 <p style="text-align: center;">
-  <img class="aligncenter" src="http://dl.dropbox.com/u/15546257/blog/mytory/marxism/marxism-2010-global-navigation.png" alt="" width="676" height="86" />
+  <img class="aligncenter" src="/uploads/legacy/marxism/marxism-2010-global-navigation.png" alt="" width="676" height="86" />
 </p>
 
 글로벌 내비게이션은 홈버튼을 포함해 7개의 카테고리로 돼 있었습니다.
@@ -68,7 +68,7 @@ tags:
 
 바꾼 건 이거예요.
 
-<img class="aligncenter" src="http://dl.dropbox.com/u/15546257/blog/mytory/marxism/marxism-2011-global-navigation.png" alt="" width="571" height="290" />
+<img class="aligncenter" src="/uploads/legacy/marxism/marxism-2011-global-navigation.png" alt="" width="571" height="290" />
 
 일단 카테고리 자체를 5개로 줄였습니다. 특히 핵심기능인 연사/주제/시간표를 비중에 맞게 각각 독립적인 카테고리를 이루도록 했죠.
 

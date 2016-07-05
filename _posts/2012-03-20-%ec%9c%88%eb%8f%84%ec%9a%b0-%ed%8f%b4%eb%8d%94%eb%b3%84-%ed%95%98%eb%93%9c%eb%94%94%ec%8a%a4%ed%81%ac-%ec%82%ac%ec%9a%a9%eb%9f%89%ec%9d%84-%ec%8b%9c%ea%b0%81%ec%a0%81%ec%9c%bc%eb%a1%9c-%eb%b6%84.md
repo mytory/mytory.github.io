@@ -24,7 +24,7 @@ tags:
 
 프로그램은 포터블이다. 설치가 필요없다. 설치하고 드라이브를 선택하면 아래처럼 분석해 준다.
 
-<img class="aligncenter" src="http://dl.dropbox.com/u/15546257/blog/mytory/spacesniffer.png" alt="" width="640" height="611" />
+<img class="aligncenter" src="/uploads/legacy/spacesniffer.png" alt="" width="640" height="611" />
 
 네모 칸을 선택하고 마우스 우클릭을 하면 탐색기 폴더에서 마우스 우클릭을 했을 때와 마찬가지의 컨텍스트 메뉴가 나온다. &#8216;열기&#8217;를 누르면 탐색기 폴더가 열린다.
 

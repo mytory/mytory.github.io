@@ -14,7 +14,9 @@ tags:
 
 ## 역자의 말
 
-이 글을 번역한 지 3년 반이 지났다. 지금은 이 방법이 별로라고 생각하게 됐다. 그냥 HTML에 여러 개의 클래스를 쓰자. 그리고 이 글은 `@extend`를 긍정적으로 묘사하고 있는데, [`@extend`는 사용하지 말자.](http://csswizardry.com/2014/11/when-to-use-extend-when-to-use-a-mixin/) 그래도 번역은 한 거니 남겨 둔다.
+이 글을 번역한 지 3년 반이 지났다. 지금은 이 방법이 별로라고 생각하게 됐다. 그냥 HTML에 여러 개의 클래스를 쓰자. 그리고 이 글은 `@extend`를 긍정적으로 묘사하고 있는데, [`@extend`는 사용하지 말자.](http://csswizardry.com/2016/02/mixins-better-for-performance/)
+
+즉, 번역을 했으니 남겨두는 것일 뿐, 나는 이 방법을 지지하지 않는다.
 
 -----
 

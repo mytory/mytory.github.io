@@ -25,6 +25,6 @@ sass 원본 파일이 UTF-8로 돼 있었고, 한글로 // 주석을 붙여 놨�
 
 그래서 풀 명령어 예시는 이렇게 된다. 당연히 파일명과 다른 옵션들은 알아서 하면 된다.
 
-<pre>sass --watch -E -UTF-8 common.sass:common.css</pre>
+<pre>sass --watch -E UTF-8 common.sass:common.css</pre>
 
  [1]: https://groups.google.com/forum/?fromgroups=#!msg/sass-lang/lHpKGGi9eWY/qnfKlw3Jx2wJ

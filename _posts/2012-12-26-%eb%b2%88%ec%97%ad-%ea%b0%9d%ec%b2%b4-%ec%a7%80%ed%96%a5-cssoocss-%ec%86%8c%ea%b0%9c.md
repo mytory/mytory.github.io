@@ -15,7 +15,7 @@ tags:
 
 나는 평소에 재사용성이 높은 CSS가 개발 속도를 높여 줄 것이라고 생각해 왔다. 그리고 그렇게 하려면 컨테이너에 독립적인 스타일을 사용하는 편이 낫지 않을까 하는 생각을 하고 있었다. 그런데 웬걸! 아예 객체 지향 CSS라는 개발 방법론이 있었다! 와우! 신나서 다 읽고 번역했다. 도움이 되길 바란다.
 
-&#8212;&#8212;
+--------
 
 **&#8220;콘텐츠가 생명이다&#8221; 하는 이야기를 들어 봤는지? 웹 개발자로서 우리는 콘텐츠 생산에 관련된 일을 자주 하게 된다. 콘텐츠가 생명이라는 말은 확실히 남용돼 왔지만, 사이트 방문자에게는 진실이다.**
 
@@ -299,15 +299,14 @@ OOCSS를 계속 배우려면, 연관 맺을 가장 중요한 사람은 [니콜 �
 
 전반적으로 나는 OOCSS가 CSS 개발의 밝은 미래일 것이라고 생각한다. 그리고 OOCSS는 모든 개발자들이 웹 페이지를 더 빠르고 효율적이며 유지보수하기 쉽게 만들기 위해 프로젝트에 ─ 적어도 몇몇 단계에서는 ─ 적용해야 하는 개념이다.
 
-&#8212;&#8212;
+--------
 
-[역자 주] OOCSS에 관심이 생겼다면 [&#8216;[번역] OOCSS(객체 지향 CSS)와 Sass를 결합하는 것이 최고의 CSS 코딩 방법이다(OOCSS + Sass = The best way to CSS)&#8217;][18]  <a class="simple-footnote" title="원문 : OOCSS + Sass = The best way to CSS" id="return-note-8949-7" href="#note-8949-7"><sup>7</sup></a> 도 한 번 검토해 보는 게 좋겠다. OOCSS는 HTML 유지보수를 힘들게 하므로 OOCSS 모듈 개념을 바탕으로 Sass 3.2의 `@extend`를 사용하면 최상이라는 주장이다.
 
 <div class="simple-footnotes">
   <p class="notes">
     Notes:
   </p>
-  
+
   <ol>
     <li id="note-8949-1">
       The common styles might exist for branding purposes or consistency of design. <a href="#return-note-8949-1">&#8617;</a>
@@ -350,4 +349,3 @@ OOCSS를 계속 배우려면, 연관 맺을 가장 중요한 사람은 [니콜 �
  [15]: http://developer.yahoo.com/blogs/ydn/posts/2009/03/website_and_webapp_performance/
  [16]: http://www.slideshare.net/stubbornella/our-best-practices-are-killing-us
  [17]: http://www.slideshare.net/stubbornella/css-bloat
- [18]: http://mytory.net/archives/8986 "[번역] OOCSS(객체 지향 CSS)와 Sass를 결합하는 것이 최고의 CSS 코딩 방법이다(OOCSS + Sass = The best way to CSS)"

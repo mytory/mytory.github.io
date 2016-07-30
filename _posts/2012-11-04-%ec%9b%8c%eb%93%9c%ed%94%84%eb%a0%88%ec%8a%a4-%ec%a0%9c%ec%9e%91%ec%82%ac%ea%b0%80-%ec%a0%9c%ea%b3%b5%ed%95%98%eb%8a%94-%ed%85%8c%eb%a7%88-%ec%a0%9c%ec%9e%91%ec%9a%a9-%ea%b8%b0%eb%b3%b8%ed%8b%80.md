@@ -36,6 +36,6 @@ tags:
 
  [1]: http://underscores.me/ "[워드프레스] 테마에서 po에디터로 번역할 문장 뽑아오는 방법"
  [2]: http://underscores.me/ "CSS3 버튼 – 워드프레스 Underscores 테마(?)에서 약간 개량"
- [3]: http://dl.dropbox.com/u/15546257/blog/mytory/underscores-theme-name-inpu.png
- [4]: http://dl.dropbox.com/u/15546257/blog/mytory/underscores-language-file.7z
+ [3]: /uploads/legacy/underscores-theme-name-inpu.png
+ [4]: /uploads/legacy/underscores-language-file.7z
  [5]: http://www.poedit.net/download.php

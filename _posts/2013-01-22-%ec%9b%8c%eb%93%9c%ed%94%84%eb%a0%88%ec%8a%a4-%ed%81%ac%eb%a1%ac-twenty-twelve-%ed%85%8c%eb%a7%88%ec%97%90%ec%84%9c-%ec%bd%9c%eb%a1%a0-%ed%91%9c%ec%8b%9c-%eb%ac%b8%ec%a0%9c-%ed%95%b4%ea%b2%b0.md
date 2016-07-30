@@ -14,7 +14,7 @@ tags:
 
 근데 크롬에서 한글에 :표시가 되는 문제가 있다. 아래 이미지 참고.
 
-<img class="aligncenter" alt="" src="http://dl.dropbox.com/u/15546257/blog/mytory/twenty-twelve-colon-problem.png" width="656" height="190" />
+<img class="aligncenter" alt="" src="/uploads/legacy/twenty-twelve-colon-problem.png" width="656" height="190" />
 
 이걸 해결하려면, `wp-content/themes/twentytwelve/style.css` 파일을 열어서 아래 코드를 찾는다. 484번째 줄이다.
 
@@ -32,7 +32,7 @@ tags:
 
 [text-rendering: optimizeLegibility][1]라는 CSS 속성은 비표준 속성인데, 크롬과 파폭에서 지원한다. Legibility는 가독성이란 뜻이다. 즉, 텍스트를 렌더링할 때 가독성을 최적화해서 렌더링하라는 속성이다. 이 옵션을 줬을 때 영어에서 결과물은 아래와 같다. Live Example 표에서 3번째 줄과 4번째 줄을 비교하면 어떤 차이가 생기는지 알 수 있다.
 
-<img class="aligncenter" alt="" src="http://dl.dropbox.com/u/15546257/blog/mytory/css-text-rendering.png" width="652" height="415" />
+<img class="aligncenter" alt="" src="/uploads/legacy/css-text-rendering.png" width="652" height="415" />
 
 영어 YoW의 간격이 읽기 좋게 조정되는 걸 볼 수 있다.
 

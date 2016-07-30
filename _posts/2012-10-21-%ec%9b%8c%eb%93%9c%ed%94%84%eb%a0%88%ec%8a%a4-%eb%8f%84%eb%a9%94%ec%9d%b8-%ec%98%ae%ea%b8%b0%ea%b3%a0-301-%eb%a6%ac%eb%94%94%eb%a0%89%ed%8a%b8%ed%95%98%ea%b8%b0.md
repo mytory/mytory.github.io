@@ -67,7 +67,7 @@ MySQL을 백업받은 뒤, 에디트 플러스 같은 걸로 열어서 찾기 �
 
 도메인을 변경한 후 구글에서 거의 유입이 사라졌다가 3주 지나고 회복이 됐다. 휴=3
 
-<img class="aligncenter" src="http://dl.dropbox.com/u/15546257/blog/mytory/visits-count-after-changing-domain.png" alt="" width="764" height="292" />
+<img class="aligncenter" src="/uploads/legacy/visits-count-after-changing-domain.png" alt="" width="764" height="292" />
 
 이 정도 리스크를 안을 생각이 있다면 도메인 변경을 해도 좋다는 결론 ㅋ
 

@@ -42,7 +42,7 @@ tags:
 아이폰5가 나왔는데 비슷한 이야기들을 한다. 지겹지도 않나. 둘 중 하나다. 언론들이 바보거나, 소비자를 호구로 알거나.
 
 <div style="width: 338px" class="wp-caption aligncenter">
-  <img src="http://dl.dropbox.com/u/15546257/blog/mytory/ipad-ipod-duct-tape.png" alt="" width="328" height="423" /><p class="wp-caption-text">
+  <img src="/uploads/legacy/ipad-ipod-duct-tape.png" alt="" width="328" height="423" /><p class="wp-caption-text">
     아이패드가 처음 나왔을 때 이게 무슨 혁신이냐며 사람들은 비웃었다. 화면만 키운 아이팟이라는 게 조롱의 요지였다.
   </p>
 </div>
@@ -57,7 +57,7 @@ tags:
 
 옴니아뿐이 아니다. 삼성은 그 때 일명 ‘스타폰’으로 불리는 S5230, S5600 모델도 발표했다고 하는데… 누구 기억하시는 분? (물론 유럽 모델이라고 한다.)
 
-<img class="aligncenter" src="http://dl.dropbox.com/u/15546257/blog/mytory/samsung-s5600-s52300-2009-year.jpg" alt="" width="439" height="375" />그니까 요약하면 아이폰의 매력은 ‘혁신’에 있는 게 아니라 오히려 안정성에 있다는 거다. 아이폰 그 자체가 혁신인 이래로 아이폰은 컨셉 그 자체에서 변한 게 없다. 그리고 대부분의 아이폰을 계속 안정적으로 지원했다. 안정적으로 말이다. 혁신한 게 아니라! 이 사람들아!
+<img class="aligncenter" src="/uploads/legacy/samsung-s5600-s52300-2009-year.jpg" alt="" width="439" height="375" />그니까 요약하면 아이폰의 매력은 ‘혁신’에 있는 게 아니라 오히려 안정성에 있다는 거다. 아이폰 그 자체가 혁신인 이래로 아이폰은 컨셉 그 자체에서 변한 게 없다. 그리고 대부분의 아이폰을 계속 안정적으로 지원했다. 안정적으로 말이다. 혁신한 게 아니라! 이 사람들아!
 
 즉, 애플은 혁신적 시장을 열고 그 시장을 선도하는 제품을 안정적으로 유지한다.
 

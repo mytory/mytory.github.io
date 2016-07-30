@@ -14,7 +14,7 @@ tags:
 ---
 [Emmet(예전 젠 코딩)][1]. 뭘까? 모르는 사람들은 일단 [Emmet 문서 사이트][2]에 있는 온라인 데모부터 보면 된다. 심지어 직접 사용해 볼 수도 있는데, Watch Demo 우측 상단에 있는 Try it yourself를 누르면 된다. (이게 동영상이 아니다.) 근데 내가 추천하는 건, 바로 Try it youself하기보다는 Play demo 해서 차분히 본 다음에 Try it yourself 하는 거다.
 
-<img class="aligncenter" alt="" src="http://dl.dropbox.com/u/15546257/blog/mytory/emmet-watch-demo.png" width="716" height="363" />
+<img class="aligncenter" alt="" src="/uploads/legacy/emmet-watch-demo.png" width="716" height="363" />
 
 처음에 젠 코딩 시절에 Emmet이라는 걸 알았을 때, 대박이라고 생각하면서도, 한 편으로는 &#8220;그래도 쉽게 사용하긴 힘들 거야. 나중에 연습을 좀 한 다음 사용해 봐야겠다&#8221; 하고 생각을 했다.
 

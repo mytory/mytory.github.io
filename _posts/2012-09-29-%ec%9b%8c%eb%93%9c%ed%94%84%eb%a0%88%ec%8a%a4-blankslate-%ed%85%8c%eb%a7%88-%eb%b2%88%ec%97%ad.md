@@ -18,7 +18,7 @@ tags:
 
 [blankslate 테마][1]는 워드프레스의 기본중의 기본 파일들만 담고 있는 테마다. 아무 스타일도 없다. 그냥 뼈대만 있다. 아래 이미지처럼 말이다. [미리보기는 여기를 클릭.][2]
 
-<img class="aligncenter" src="http://dl.dropbox.com/u/15546257/blog/mytory/blankslate-language/blankslate-screenshot.png" alt="" />
+<img class="aligncenter" src="/uploads/legacy/blankslate-language/blankslate-screenshot.png" alt="" />
 
 기본 뼈대밖에 없기 때문에 새로운 웹사이트를 개발할 때 이용하기 좋다.
 

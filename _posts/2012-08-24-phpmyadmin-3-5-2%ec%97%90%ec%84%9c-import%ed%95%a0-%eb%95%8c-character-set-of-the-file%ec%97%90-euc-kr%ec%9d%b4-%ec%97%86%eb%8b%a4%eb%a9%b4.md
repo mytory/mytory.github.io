@@ -21,7 +21,7 @@ tags:
 그런데 황당, Character set of the file 항목에 `euc-kr`이 없는 거다. `cp949`도 없고.
 
 <div style="width: 588px" class="wp-caption aligncenter">
-  <img src="http://dl.dropbox.com/u/15546257/blog/mytory/phpmyadmin3.5.2-import-encoding.png" alt="" width="578" height="233" /><p class="wp-caption-text">
+  <img src="/uploads/legacy/phpmyadmin3.5.2-import-encoding.png" alt="" width="578" height="233" /><p class="wp-caption-text">
     이 셀렉트 박스 목록에 <code>euc-kr</code>이 없었다.
   </p>
 </div>

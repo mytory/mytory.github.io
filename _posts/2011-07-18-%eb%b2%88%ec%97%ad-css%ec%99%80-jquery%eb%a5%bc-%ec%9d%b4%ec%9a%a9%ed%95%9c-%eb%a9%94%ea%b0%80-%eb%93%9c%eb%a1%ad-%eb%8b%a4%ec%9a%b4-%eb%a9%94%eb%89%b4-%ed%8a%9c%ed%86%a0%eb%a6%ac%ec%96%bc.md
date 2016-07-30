@@ -32,7 +32,7 @@ tags:
 그의 글에서, 드롭 다운 메뉴는 마우스가 올라갔을 때(hover)와 내려갔을 때(out) 메뉴가 펼쳐지는 시간에 잠깐의 딜레이가 있어야 한다는 것을 읽었을 때, 나는 이 일에 [Hover Intent Jquery plugin][3]을 사용하겠다고 마음먹었다.
 
 <p style="text-align: center;">
-  <img class="aligncenter" src="http://dl.dropbox.com/u/15546257/blog/mytory/mega-dropdown-demo.jpg" alt="" width="575" height="200" />
+  <img class="aligncenter" src="/uploads/legacy/mega-dropdown-demo.jpg" alt="" width="575" height="200" />
 </p>
 
 <p style="text-align: center;">
@@ -99,7 +99,7 @@ ul#topnav a.store {
 메인 내비게이션 링크의 바로 뒤에 &#8220;sub&#8221; 클래스를 [가진 요소를] 추가한다. 그리고 그 안에 순서없는 목록(ul)을 집어 넣는다. 각각의 순서없는 목록(ul)은 메가 드롭 다운의 내비 컬럼으로 작동할 것이다.
 
 <p style="text-align: center;">
-  <img class="aligncenter" src="http://dl.dropbox.com/u/15546257/blog/mytory/mega-dropdown-subnav1.jpg" alt="" width="512" height="277" />
+  <img class="aligncenter" src="/uploads/legacy/mega-dropdown-subnav1.jpg" alt="" width="512" height="277" />
 </p>
 
 <pre class="brush:xml">&lt;ul id="topnav"&gt; &lt;li&gt;&lt;a href="#" class="home"&gt;Home&lt;/a&gt;&lt;/li&gt;
@@ -302,33 +302,33 @@ $("ul#topnav li .sub").css({&#039;opacity&#039;:&#039;0&#039;}); //기본적으�
 이제 메가 드롭 다운 메뉴를 처음부터 어떻게 만드는지 알았으므로, 영감을 얻을 수 있는 다른 사이트들을 체크해 보자.
 
 <div style="width: 585px" class="wp-caption aligncenter">
-  <img src="http://dl.dropbox.com/u/15546257/blog/mytory/mega-dropdown-examples/yahoo.jpg" alt="" width="575" height="311" /><p class="wp-caption-text">
+  <img src="/uploads/legacy/mega-dropdown-examples/yahoo.jpg" alt="" width="575" height="311" /><p class="wp-caption-text">
     야후는 디자인이 변경됐으므로 이미지만 보면 된다 - 형우
   </p>
 </div>
 
 <p style="text-align: center;">
-  <a href="http://www.shop.puma.com/on/demandware.store/Sites-US-Site/en_US/Home-Show"><img class="alignnone" src="http://dl.dropbox.com/u/15546257/blog/mytory/mega-dropdown-examples/puma.jpg" alt="" width="575" height="311" /></a>
+  <a href="http://www.shop.puma.com/on/demandware.store/Sites-US-Site/en_US/Home-Show"><img class="alignnone" src="/uploads/legacy/mega-dropdown-examples/puma.jpg" alt="" width="575" height="311" /></a>
 </p>
 
 <div style="text-align: center;">
-  <a href="http://virgin.com"><img class="aligncenter" src="http://dl.dropbox.com/u/15546257/blog/mytory/mega-dropdown-examples/virgin.jpg" alt="" width="575" height="311" /></a>
+  <a href="http://virgin.com"><img class="aligncenter" src="/uploads/legacy/mega-dropdown-examples/virgin.jpg" alt="" width="575" height="311" /></a>
 </div>
 
 <div style="text-align: center;">
-  <a href="http://www.whitehouse.gov"><img class="aligncenter" src="http://dl.dropbox.com/u/15546257/blog/mytory/mega-dropdown-examples/whitehouse.jpg" alt="" width="575" height="311" /></a>
+  <a href="http://www.whitehouse.gov"><img class="aligncenter" src="/uploads/legacy/mega-dropdown-examples/whitehouse.jpg" alt="" width="575" height="311" /></a>
 </div>
 
 <div style="text-align: center;">
-  <a href="http://www.rei.com"><img class="aligncenter" src="http://dl.dropbox.com/u/15546257/blog/mytory/mega-dropdown-examples/rei.jpg" alt="" width="575" height="311" /></a>
+  <a href="http://www.rei.com"><img class="aligncenter" src="/uploads/legacy/mega-dropdown-examples/rei.jpg" alt="" width="575" height="311" /></a>
 </div>
 
 <div style="text-align: center;">
-  <a href="http://www.gateway.com"><img class="aligncenter" src="http://dl.dropbox.com/u/15546257/blog/mytory/mega-dropdown-examples/gateway.jpg" alt="" width="575" height="311" /></a>
+  <a href="http://www.gateway.com"><img class="aligncenter" src="/uploads/legacy/mega-dropdown-examples/gateway.jpg" alt="" width="575" height="311" /></a>
 </div>
 
 <div>
-  <a href="http://www.billabong.com/us"><img class="alignnone aligncenter" src="http://dl.dropbox.com/u/15546257/blog/mytory/mega-dropdown-examples/billabong.jpg" alt="" width="575" height="311" /></a>
+  <a href="http://www.billabong.com/us"><img class="alignnone aligncenter" src="/uploads/legacy/mega-dropdown-examples/billabong.jpg" alt="" width="575" height="311" /></a>
 </div>
 
 ## 관련 글

@@ -13,7 +13,7 @@ tags:
 우선 애플이 주장한 특허는 사각형의 둥근 모서리가 아니다. 그런 식의 묘사는 대중적일지 몰라도 전문성을 의심받게 한다. 그런 점에서 [&lt;레프트21> 88호에 실린 글][1]은 저작권 문제를 좋은 관점에서 다루고 있지만, 옥의 티가 있다고 할 수 있다. 우리가 흔히 쓰는 말로 번역하면 미국 법원의 판결은 이런 거다. “갤럭시S는 한 마디로 아이폰3GS 짝퉁이고, 그걸로 애플의 이익을 침해했으니, 판매 금지! 그리고 1조 2천억 배상!”
 
 <div style="width: 489px" class="wp-caption aligncenter">
-  <img src="http://dl.dropbox.com/u/15546257/blog/mytory/samsung-is-copycat.jpg" alt="" width="479" height="1024" /><p class="wp-caption-text">
+  <img src="/uploads/legacy/samsung-is-copycat.jpg" alt="" width="479" height="1024" /><p class="wp-caption-text">
     <a title="" href="http://obamapacman.com/2011/11/samsung-galaxy-player-copies-apple-ipod-touch/" target="_blank">“가격까지 베꼈다”는 말</a>을 들은 갤럭시 플레이어 &#8211; <a href="http://slownews.kr/5335">삼성의 ‘베끼기’ 관행과 애플 소송(슬로우뉴스)</a>에서 재인용
   </p>
 </div>

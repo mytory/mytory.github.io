@@ -21,7 +21,7 @@ tags:
 정품 윈도우가 깔린 노트북을 사용하는 친구였다. 노트북을 우연히 보게 됐는데 보안 업데이트가 정말 오랫동안 안 돼 있었다. 업데이트를 실행하니까 몇 백 메가에 달하는 업데이트를 다운받기 시작했다.
 
 <p style="text-align: center;">
-  <img class="aligncenter" src="http://dl.dropbox.com/u/15546257/blog/mytory/window-update.png" alt="" width="640" height="459" />
+  <img class="aligncenter" src="/uploads/legacy/window-update.png" alt="" width="640" height="459" />
 </p>
 
 헐랭…
@@ -39,7 +39,7 @@ tags:
 예컨대, 가장 많은 해커들이 노리는 것도 바로 인터넷 익스플로러 6다. 2001년에 나온 브라우저고 더이상 업데이트도 지원하지 않는다. 하지만 한국 사용자의 20퍼센트가 인터넷 익스플로러 6를 사용한다. 이해는 하지만 바보 같은 짓이다. (이 이야기를 하는 이유는, 인터넷 익스플로러는 윈도우 업데이트를 하면 자동으로 함께 업데이트되기 때문이다. 물론 관공서에서 기본으로 인터넷 익스플로러 6가 세팅돼 있는 경우가 많아서 한국의 사용 비율이 높다는 건 알고 있다. 이건 개인 사용자들 문제는 아니므로 패스.)
 
 <div style="width: 129px" class="wp-caption aligncenter">
-  <img class=" " src="http://dl.dropbox.com/u/15546257/blog/mytory/ie6icon.jpg" alt="" width="119" height="128" /><p class="wp-caption-text">
+  <img class=" " src="/uploads/legacy/ie6icon.jpg" alt="" width="119" height="128" /><p class="wp-caption-text">
     이놈이 IE6다.
   </p>
 </div>

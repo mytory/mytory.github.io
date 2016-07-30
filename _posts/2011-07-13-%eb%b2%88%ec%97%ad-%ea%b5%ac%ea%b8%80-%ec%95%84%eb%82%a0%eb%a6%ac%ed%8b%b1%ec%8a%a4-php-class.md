@@ -22,7 +22,7 @@ tags:
 
 # Google Analytics API class for PHP
 
-<img alt="" src="http://dl.dropbox.com/u/15546257/blog/mytory/ga-marbles.jpg" width="277" height="184" />
+<img alt="" src="/uploads/legacy/ga-marbles.jpg" width="277" height="184" />
 
 한 달 전쯤 [구글이 아날리틱스 API 서비스를 개장][3]했다. [역자 주: 이 글은 2009년 5월 29일에 씌어졌다.] 모든 아날리틱스 유저에게 말이다. API를 이용하면 개발자가 GA[역자주: 구글 아날리틱스 - 이하 전부 GA로 표기] 보고서를 자신의 어플리게이션이나 웹사이트에 통합할 수 있다. 심지어 핸드폰에서도 불러올 수 있다!
 
@@ -69,7 +69,7 @@ try {
 내가 바라는 건, 설명 없이고 코드 자체가 자신이 뭘 하는지 나타내는 거다. `setProfile()`에는 자신의 웹사이트 프로필 id 번호가 필요하다. 프로필 id 번호를 얻으려면 GA 대시보드에 가서 원하는 웹사이트의 &#8216;보고서 보기&#8217;를 누른다. 그리고 URL을 살펴 보는 거다. 거기에 &#8216;id=xxxxxx&#8217; 라는 문자열이 있다. 그게 자신의 id 번호다. 그걸 `setProfile()`에 &#8216;ga:xxxxxxx&#8217; 형식으로 세팅을 해 줘야 한다.
 
 <p style="text-align: center;">
-  <img class="aligncenter" alt="" src="http://dl.dropbox.com/u/15546257/blog/mytory/ga-url.jpg" width="507" height="29" />
+  <img class="aligncenter" alt="" src="/uploads/legacy/ga-url.jpg" width="507" height="29" />
 </p>
 
 [2013-09-30 추가 : URL로는 더이상 id를 얻을 수 없다. 아날리틱스에서 **관리 > 보기(프로필) 탭 > 설정 보기 > 보기 ID** (영문 :** Admin > VIEW(PROFILE) > View Settings > View ID**)에 나오는 값이 ID값이다.]

@@ -38,7 +38,7 @@ tags:
 `_serVar` 를 바탕으로 코드를 짰다면 아래 위치에서 해당 변수가 세팅된 방문을 추적할 수 있다.
 
 <div style="width: 243px" class="wp-caption aligncenter">
-  <img src="http://dl.dropbox.com/u/15546257/blog/mytory/google-analytics-set-var.png" alt="" width="233" height="382" /><p class="wp-caption-text">
+  <img src="/uploads/legacy/google-analytics-set-var.png" alt="" width="233" height="382" /><p class="wp-caption-text">
     영어로는 User Defined 라고 돼 있다.
   </p>
 </div>
@@ -47,9 +47,9 @@ tags:
 
 아래 이미지는 구글 도움말에서 나온대로 필터를 세팅해 본 거다. 도움말에는 &#8220;사용자설정&#8221;이라고 돼 있는데 실제로 선택해야 하는 놈은 &#8220;맞춤 설정&#8221;이다. (영어는 User Defined로 설명과 실제가 동일하다.)
 
-<img class="aligncenter" src="http://dl.dropbox.com/u/15546257/blog/mytory/exclude-admin-korean.jpg" alt="" width="513" height="594" />
+<img class="aligncenter" src="/uploads/legacy/exclude-admin-korean.jpg" alt="" width="513" height="594" />
 
-<img class="aligncenter" src="http://dl.dropbox.com/u/15546257/blog/mytory/exclude-admin-english.jpg" alt="" width="545" height="589" />
+<img class="aligncenter" src="/uploads/legacy/exclude-admin-english.jpg" alt="" width="545" height="589" />
 
 위 이미지에 나온대로 필터 설정을 해 주면 될 것이다.
 

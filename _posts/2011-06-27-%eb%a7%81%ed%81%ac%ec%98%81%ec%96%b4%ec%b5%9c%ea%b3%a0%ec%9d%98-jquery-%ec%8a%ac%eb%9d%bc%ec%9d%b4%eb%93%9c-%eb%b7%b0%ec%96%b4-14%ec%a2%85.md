@@ -258,13 +258,13 @@ CSS3 트렌지션을 사용한다. 파폭과 크롬에선 미려한 효과가 �
  [3]: http://tympanus.net/codrops/2012/12/31/how-to-create-a-simple-multi-item-slider/
  [4]: http://tympanus.net/Tutorials/ItemSlider/
  [5]: http://www.wtfpl.net/
- [6]: http://dl.dropbox.com/u/15546257/blog/mytory/bxSlider1.png
- [7]: http://dl.dropbox.com/u/15546257/blog/mytory/bxSlider2.png
+ [6]: /uploads/legacy/bxSlider1.png
+ [7]: /uploads/legacy/bxSlider2.png
  [8]: http://bxslider.com/
  [9]: http://bxslider.com/examples/carousel-demystified#example4
- [10]: http://dl.dropbox.com/u/15546257/blog/mytory/rcarousel1.png
- [11]: http://dl.dropbox.com/u/15546257/blog/mytory/rcarousel2.png
- [12]: http://dl.dropbox.com/u/15546257/blog/mytory/rcarousel3.png
+ [10]: /uploads/legacy/rcarousel1.png
+ [11]: /uploads/legacy/rcarousel2.png
+ [12]: /uploads/legacy/rcarousel3.png
  [13]: http://ryrych.github.com/rcarousel/
  [14]: http://ryrych.github.com/rcarousel/examples/auto_reverse.html
  [15]: http://creativecommons.org/licenses/by/2.0/deed.en

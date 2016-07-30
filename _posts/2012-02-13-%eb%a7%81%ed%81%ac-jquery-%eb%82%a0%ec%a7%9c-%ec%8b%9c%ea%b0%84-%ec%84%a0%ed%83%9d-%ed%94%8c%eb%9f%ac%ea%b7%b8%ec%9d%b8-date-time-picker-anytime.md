@@ -20,13 +20,13 @@ jQueryUI는 기본적으로 날짜 선택 UI인 datepicker를 제공한다. 하�
 UI는 아래와 같다.
 
 <div style="width: 437px" class="wp-caption aligncenter">
-  <img src="http://dl.dropbox.com/u/15546257/blog/mytory/anyTime1.jpg" alt="" width="427" height="340" /><p class="wp-caption-text">
+  <img src="/uploads/legacy/anyTime1.jpg" alt="" width="427" height="340" /><p class="wp-caption-text">
     테마라고 써 있는 부분에서 알 수 있듯이, jQueryUI의 기본 테마를 그대로 이용한다.
   </p>
 </div>
 
 <div style="width: 450px" class="wp-caption aligncenter">
-  <img src="http://dl.dropbox.com/u/15546257/blog/mytory/anyTime2.jpg" alt="" width="440" height="337" /><p class="wp-caption-text">
+  <img src="/uploads/legacy/anyTime2.jpg" alt="" width="440" height="337" /><p class="wp-caption-text">
     이렇게 날짜와 시간을 한꺼번에 선택하게 할 수도 있다. 하지만 이정도까지 UI를 쓰면 좀 어지럽다.
   </p>
 </div>

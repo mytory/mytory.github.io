@@ -21,13 +21,13 @@ tags:
 좌측 사이드바를 보면 아래처럼 &#8216;친한 친구&#8217;라는 리스트가 있다. 클릭해서 들어간다.
 
 <p style="text-align: center;">
-  <img class="aligncenter" src="http://dl.dropbox.com/u/15546257/blog/mytory/facebook-turn-off-best-freind-alert-1.png" alt="" width="233" height="64" />
+  <img class="aligncenter" src="/uploads/legacy/facebook-turn-off-best-freind-alert-1.png" alt="" width="233" height="64" />
 </p>
 
 그 뒤 우측 상단을 보면 &#8216;알림&#8217;이라고 버튼이 있다. 클릭하면 아래처럼 &#8216;끄기&#8217;가 보인다. 끄자.
 
 <p style="text-align: center;">
-  <img class="aligncenter" src="http://dl.dropbox.com/u/15546257/blog/mytory/facebook-turn-off-best-freind-alert-2.png" alt="" />
+  <img class="aligncenter" src="/uploads/legacy/facebook-turn-off-best-freind-alert-2.png" alt="" />
 </p>
 
 ## 친한 친구 알림을 유용하게 쓰려면

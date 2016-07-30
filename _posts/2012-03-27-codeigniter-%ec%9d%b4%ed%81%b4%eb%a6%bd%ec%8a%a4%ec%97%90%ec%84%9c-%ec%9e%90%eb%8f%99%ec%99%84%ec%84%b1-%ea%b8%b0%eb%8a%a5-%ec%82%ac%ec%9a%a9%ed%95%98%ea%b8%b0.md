@@ -25,7 +25,7 @@ tags:
 일단 CI_CodeBase 따위로 이름을 짓고 프로젝트를 하나 만든다. 그리고 거기 코드이그니터 소스코드를 다 집어 넣는다.
 
 <p style="text-align: center;">
-  <img class="aligncenter" src="http://dl.dropbox.com/u/15546257/blog/mytory/codeigniter-eclipse-autocomplete-1.png" alt="" width="237" height="249" />
+  <img class="aligncenter" src="/uploads/legacy/codeigniter-eclipse-autocomplete-1.png" alt="" width="237" height="249" />
 </p>
 
 이렇게 넣으면 된다. 위에서 .settings 는 이클립스가 만든 거니 신경쓰지 마시고. (평소엔 감춰져 있는데 난 보이게 설정했을 뿐이다.)
@@ -169,7 +169,7 @@ var $zip;</pre>
 
 나오는 창에서 Projects 탭을 고른 후, Add 버튼을 누른다. 여기서 CI_CodeBase 프로젝트를 선택해 준 후 OK 버튼을 누른다. (아래 그림 참고)
 
-<img class="aligncenter" src="http://dl.dropbox.com/u/15546257/blog/mytory/codeigniter-eclipse-autocomplete-3.png" alt="" width="746" height="554" />
+<img class="aligncenter" src="/uploads/legacy/codeigniter-eclipse-autocomplete-3.png" alt="" width="746" height="554" />
 
 그러면 이제부터 자동완성 기능이 작동하기 시작한다.
 
@@ -202,7 +202,7 @@ var $stringtable;
 
 이렇게 하면 아래와 같이 자동완성 기능을 사용할 수 있다.
 
-<img class="aligncenter" src="http://dl.dropbox.com/u/15546257/blog/mytory/codeigniter-eclipse-autocomplete.png" alt="" width="491" height="287" />
+<img class="aligncenter" src="/uploads/legacy/codeigniter-eclipse-autocomplete.png" alt="" width="491" height="287" />
 
 ## 동영상 보고 따라하기
 
@@ -213,4 +213,4 @@ var $stringtable;
 
  [1]: http://taggedzi.com/articles/display/autocomplete-eclipse-codeigniter-2
  [2]: http://youtu.be/MzvSA0hq3Ts?hd=1
- [3]: http://dl.dropbox.com/u/15546257/blog/mytory/codeigniter-eclipse-autocomplete-2.png
+ [3]: /uploads/legacy/codeigniter-eclipse-autocomplete-2.png

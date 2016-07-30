@@ -20,4 +20,4 @@ Git가 SVN을 대체하고 있는데, 공부나 해야겠다 하고 보니까 �
 
  [1]: https://github.com/dogfeet/progit
  [2]: http://dogfeet.github.com/articles/2012/progit.html
- [3]: http://dl.dropbox.com/u/15546257/blog/mytory/progit.ko.epub
+ [3]: /uploads/legacy/progit.ko.epub

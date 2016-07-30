@@ -75,7 +75,7 @@ tags:
 
 ## 추신 &#8211; 아답터
 
-<img class="aligncenter" src="http://dl.dropbox.com/u/15546257/blog/mytory/adaptor.jpg" alt="" width="382" height="512" />
+<img class="aligncenter" src="/uploads/legacy/adaptor.jpg" alt="" width="382" height="512" />
 
 내가 사용하고 있는 아답터는 위와 같다. 이 글을 보고 누가 질문을 주셨는데, 아답터 정보가 알고 싶다고 하셔서 올려 둔다.
 

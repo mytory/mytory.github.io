@@ -30,4 +30,4 @@ categories:
 
 난 이렇게 다섯 개를 했는데, 자신의 환경에 맞게 하면 될 것이다. 아래 이미지 참고.
 
-<img class="aligncenter" src="http://dl.dropbox.com/u/15546257/blog/mytory/filezilla-filename-filter.png" alt="" width="766" height="538" />
+<img class="aligncenter" src="/uploads/legacy/filezilla-filename-filter.png" alt="" width="766" height="538" />

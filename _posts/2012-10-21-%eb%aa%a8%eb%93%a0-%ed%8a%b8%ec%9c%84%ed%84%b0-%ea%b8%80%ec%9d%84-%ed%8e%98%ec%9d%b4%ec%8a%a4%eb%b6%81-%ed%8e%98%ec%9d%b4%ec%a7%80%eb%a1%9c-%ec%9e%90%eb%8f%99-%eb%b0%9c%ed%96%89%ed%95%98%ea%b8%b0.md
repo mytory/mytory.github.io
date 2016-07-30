@@ -94,5 +94,5 @@ echo $xmldom-&gt;asXML();</pre>
 내 설정 결과는 아래 이미지를 참고한다.
 
 <p style="text-align: center;">
-  <img class="aligncenter" src="http://dl.dropbox.com/u/15546257/blog/mytory/rssgraffiti-twitter.png" alt="" width="680" height="663" />
+  <img class="aligncenter" src="/uploads/legacy/rssgraffiti-twitter.png" alt="" width="680" height="663" />
 </p>

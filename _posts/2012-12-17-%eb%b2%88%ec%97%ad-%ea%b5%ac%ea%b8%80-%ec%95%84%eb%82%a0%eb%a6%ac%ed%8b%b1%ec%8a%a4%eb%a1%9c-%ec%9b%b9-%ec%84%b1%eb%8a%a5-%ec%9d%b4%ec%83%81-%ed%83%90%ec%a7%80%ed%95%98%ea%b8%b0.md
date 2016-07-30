@@ -15,7 +15,7 @@ tags:
 
 &#8212;&#8212;
 
-<img class="left alignleft" alt="" src="http://dl.dropbox.com/u/15546257/blog/mytory/GA-detect-anomaly/ga-alert.png" width="208" height="129" />
+<img class="left alignleft" alt="" src="/uploads/legacy/GA-detect-anomaly/ga-alert.png" width="208" height="129" />
 
 첫째, 모든 것을 모니터링하라. 둘째, 데이터 분석, 통찰 얻기, **반복적으로** 측정치를 모니터링하고 최적화하는 데에 분석 시간과 자원의 90%를 집중하라. 그러나 한 가지 작은 문제가 있다. **기계가 생산해내는 대량의 데이터가 우리의 분석 능력, 모니터링 능력, 수치를 연관지어 해석하는 능력을 앞지르는 경우이다.**
 
@@ -35,7 +35,7 @@ tags:
 사실, 조금 수고를 들이고 커스터마이징을 하면, **지능형 이벤트를 이용해 손쉽게 사이트 성능을 모니터링할 수 있다!** 인도에서 온 방문자의 페이지 로딩 시간이 이상하다? 문제를 감지할 수 있는 자동화된 툴이 있는 거다.
 
 <p style="text-align: center;">
-  <img class="center aligncenter" style="max-width: 691px; width: 100%;" alt="" src="http://dl.dropbox.com/u/15546257/blog/mytory/GA-detect-anomaly/wplt-alert.png.pagespeed.ic.png" width="691" height="184" />
+  <img class="center aligncenter" style="max-width: 691px; width: 100%;" alt="" src="/uploads/legacy/GA-detect-anomaly/wplt-alert.png.pagespeed.ic.png" width="691" height="184" />
 </p>
 
 금상첨화로, 예시로 든 보고서를 보면 알겠지만, 알림이 왜 생성됐는지, 인도 첸나이에서 온 방문자와 연관지어 설명하고 있다는 점이다. 인도 첸나이에서 온 방문자들이 페이지 로딩 시간이 상당히 길었던 것으로 확인됐다. 이렇게 정보를 손에 쥠으로써, 우리는 근본 원인을 밝혀낼 수 있다.
@@ -46,7 +46,7 @@ tags:
 
 [사이트 속도 보고서][6]에 익숙치 않으면, 배우기 좋은 곳이 있다. 상세히 알고 싶으면 [이 GDL 에피소드][7]를 봐라. <a class="simple-footnote" title="GDL &#8211; Google Developers Live" id="return-note-8880-2" href="#note-8880-2"><sup>2</sup></a> 근데, 우리는 한 단계 더 나갈 거다. **각각의 내이게이션 타이밍 측정치를 지능형 이벤트로 모니터링할 수 있다!** 맞춤 알림을 만들고, 이벤트를 발생시킬 기준점 정도만 설정해 주면 된다.
 
-<img class="center" style="max-width: 638px; width: 100%;" alt="" src="http://dl.dropbox.com/u/15546257/blog/mytory/GA-detect-anomaly/walert-segment.png.pagespeed.ic.png" width="638" height="275" />
+<img class="center" style="max-width: 638px; width: 100%;" alt="" src="/uploads/legacy/GA-detect-anomaly/walert-segment.png.pagespeed.ic.png" width="638" height="275" />
 
 우리 사이트 성능 알림을 위한 아이디어 :
 

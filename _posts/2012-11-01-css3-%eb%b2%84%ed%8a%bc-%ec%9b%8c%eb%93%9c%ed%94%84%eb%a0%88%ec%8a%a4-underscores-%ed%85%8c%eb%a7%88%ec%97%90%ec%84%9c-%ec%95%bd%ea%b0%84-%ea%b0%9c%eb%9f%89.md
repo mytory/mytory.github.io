@@ -108,5 +108,5 @@ input[type="submit"]:active {
 
  [1]: http://zoomzum.com/10-latest-css3-buttons-with-source-code/ "10 Latest CSS3 Buttons With Source Code"
  [2]: http://underscores.me/ "Underscores | A Starter Theme for WordPress"
- [3]: http://dl.dropbox.com/u/15546257/blog/mytory/underscores-css3-button.png
+ [3]: /uploads/legacy/underscores-css3-button.png
  [4]: https://github.com/aFarkas/html5shiv

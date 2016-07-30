@@ -19,7 +19,7 @@ Select2 라이브러리는 매우 강력하고 쉽다.
 
 이렇게 만들 수 있다.
 
-<img class="alignnone" alt="" src="http://dl.dropbox.com/u/15546257/blog/mytory/select2-input.png" width="131" height="124" />
+<img class="alignnone" alt="" src="/uploads/legacy/select2-input.png" width="131" height="124" />
 
 ## HTML
 

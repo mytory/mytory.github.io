@@ -16,7 +16,7 @@ tags:
   - jQuery
 ---
 <p style="text-align: center;">
-  <img class="aligncenter" src="http://dl.dropbox.com/u/15546257/blog/mytory/jquery-select2.png" alt="" width="316" height="203" />
+  <img class="aligncenter" src="/uploads/legacy/jquery-select2.png" alt="" width="316" height="203" />
 </p>
 
 평범한 셀렉트박스에 아래처럼 코드를 한 줄 적어 주면 위 이미지처럼 변한다.

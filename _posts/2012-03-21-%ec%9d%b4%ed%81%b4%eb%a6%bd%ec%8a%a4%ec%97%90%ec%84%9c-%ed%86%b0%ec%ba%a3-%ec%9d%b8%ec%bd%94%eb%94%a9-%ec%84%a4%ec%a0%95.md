@@ -18,12 +18,12 @@ tags:
 
 내가 요약에 안내한 내용을 바탕으로 아래 이미지를 참고해서 설정하면 된다.
 
-<img class="aligncenter" src="http://dl.dropbox.com/u/15546257/blog/mytory/eclipse-tomcat-encoding-setting-0.png" alt="" width="395" height="105" />
+<img class="aligncenter" src="/uploads/legacy/eclipse-tomcat-encoding-setting-0.png" alt="" width="395" height="105" />
 
 서버를 더블클릭하면 나오는 곳에서 아래 항목을 찾는다.
 
-<img class="aligncenter" src="http://dl.dropbox.com/u/15546257/blog/mytory/eclipse-tomcat-encoding-setting-1.png" alt="" width="442" height="188" />
+<img class="aligncenter" src="/uploads/legacy/eclipse-tomcat-encoding-setting-1.png" alt="" width="442" height="188" />
 
 Open launch configuration을 클릭한다.
 
-<img class="aligncenter" src="http://dl.dropbox.com/u/15546257/blog/mytory/eclipse-tomcat-encoding-setting-2.png" alt="" width="533" height="638" />
+<img class="aligncenter" src="/uploads/legacy/eclipse-tomcat-encoding-setting-2.png" alt="" width="533" height="638" />

@@ -74,7 +74,7 @@ tags:
 
 <div id="attachment_1592">
   <p>
-    <img class="aligncenter" title="unfrozen_caveman_lawyer" src="http://dl.dropbox.com/u/15546257/blog/mytory/mobile-first/unfrozen_caveman_lawyer.jpg" alt="unfrozen caveman lawyer" width="259" height="194" />이 친구를 보자. 이 사람은 형편없는 폰을 사용하고 있다. 그런데 우리 콘텐츠를 보고 싶어 한다. 그렇게 해 줄 수 있을까?
+    <img class="aligncenter" title="unfrozen_caveman_lawyer" src="/uploads/legacy/mobile-first/unfrozen_caveman_lawyer.jpg" alt="unfrozen caveman lawyer" width="259" height="194" />이 친구를 보자. 이 사람은 형편없는 폰을 사용하고 있다. 그런데 우리 콘텐츠를 보고 싶어 한다. 그렇게 해 줄 수 있을까?
   </p>
   
   <p>
@@ -82,7 +82,7 @@ tags:
   </p>
 </div>
 
-<img title="progressive_enhancement" src="http://dl.dropbox.com/u/15546257/blog/mytory/mobile-first/progressive_enhancement.jpg" alt="progressive enhancement" width="650" height="424" />
+<img title="progressive_enhancement" src="/uploads/legacy/mobile-first/progressive_enhancement.jpg" alt="progressive enhancement" width="650" height="424" />
 
 모바일 환경에 맞춰 제작한 뒤 데스크탑에 맞게 점진적으로 향상시켜 나가는 것과 데스크탑 환경에 맞춰 제작한 뒤 모바일 환경에 맞게 점진적으로 줄여 나가는 것을 비교해 보자. 전자의 경우 인터넷 연결 속도와 화면 사이즈가 커져도 메시지, 콘텐츠 그리고 기능이 손상되지 않고 그대로 남는다. 하지만 점진적으로 줄여 나간다면, 모바일 환경까지 갔을 때는 핵심 메시지와 기능이 손상을 입을 위험이 커진다.
 
@@ -92,7 +92,7 @@ tags:
 
 이제 모바일 사이트가 마련됐고, 반응형의 기반이 마련됐다. 이제 사이트의 레이아웃과 기능, 그리고 (어쩌면 심지어) 내용을 [데스크탑 쪽을 향해 - 역자] 점진적으로 향상시킬 때다. 이걸 도와 줄 수 있는 테크닉과 툴은 엄청나게 많다. (예를 들면 [responsive images][8], [Sencha.io Src][9] 등으로 이미지를 동적으로 교체할 수 있다.) 그러나 다시 말하자면, 이것이 정말로 단지 점진적 향상이기 때문에, 최고의 방법은 전문가를 따르는 것이다. (but again because this is really just progressive enhancement at it’s finest I’ll defer to the experts.)
 
-[<img class="alignleft" title="dwpe-bookcover" src="http://dl.dropbox.com/u/15546257/blog/mytory/mobile-first/dwpe-bookcover.jpg" alt="Designing with Progressive Enhancement" width="150" height="192" />][10][<img class="alignleft" title="adaptive-web-design" src="http://dl.dropbox.com/u/15546257/blog/mytory/mobile-first/adaptive-web-design.jpg" alt="adaptive-web-design" width="150" height="232" />][11]
+[<img class="alignleft" title="dwpe-bookcover" src="/uploads/legacy/mobile-first/dwpe-bookcover.jpg" alt="Designing with Progressive Enhancement" width="150" height="192" />][10][<img class="alignleft" title="adaptive-web-design" src="/uploads/legacy/mobile-first/adaptive-web-design.jpg" alt="adaptive-web-design" width="150" height="232" />][11]
 
 Aaron Gustafson이 쓴 *[Adaptive Web Design][11]*은 점진적 향상에 대해 정말 최고의 방법, 예시, 테크닉을 알려 준다. Filament Group의 *<a href="http://filamentgroup.com/dwpe/" rel="external">Designing with Progressive Enhancement</a>*은 점진적 향상의 아름다운 세계로 우리를 깊이 끌고 간다. 이 책에서 토론되는 주제들은 웹의 미래에 관한 것이다. 즉, 유저의 환경이 미래의 물결이라는 점에 초점을 맞춘 것이다.
 

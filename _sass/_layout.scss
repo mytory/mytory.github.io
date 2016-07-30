@@ -297,14 +297,18 @@ a.post-link {
 
 .wp-caption {
   border: 1px solid #ddd;
+  margin-bottom: 1em;
 }
 
 .wp-caption-text {
   font-size: 0.9em;
+  padding: 1em;
+  margin-bottom: 0;
 }
 
 .aligncenter {
   display: block;
   margin-right: auto;
   margin-left: auto;
+  max-width: 100%;
 }

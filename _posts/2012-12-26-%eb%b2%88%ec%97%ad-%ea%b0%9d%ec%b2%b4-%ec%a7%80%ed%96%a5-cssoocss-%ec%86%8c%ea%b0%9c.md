@@ -15,7 +15,7 @@ tags:
 
 나는 평소에 재사용성이 높은 CSS가 개발 속도를 높여 줄 것이라고 생각해 왔다. 그리고 그렇게 하려면 컨테이너에 독립적인 스타일을 사용하는 편이 낫지 않을까 하는 생각을 하고 있었다. 그런데 웬걸! 아예 객체 지향 CSS라는 개발 방법론이 있었다! 와우! 신나서 다 읽고 번역했다. 도움이 되길 바란다.
 
-&#8212;&#8212;
+--------
 
 **&#8220;콘텐츠가 생명이다&#8221; 하는 이야기를 들어 봤는지? 웹 개발자로서 우리는 콘텐츠 생산에 관련된 일을 자주 하게 된다. 콘텐츠가 생명이라는 말은 확실히 남용돼 왔지만, 사이트 방문자에게는 진실이다.**
 
@@ -30,7 +30,7 @@ tags:
 다른 객체 기반 코딩 방법론처럼, OOCSS의 목적도 코드 재사용성을 높이고, 궁극적으로는, 더 빠르고 효율적이며 뭔가 추가하기 쉽고 유지보수하기 용이한 스타일시트를 만드는 것이다.
 
 <p style="text-align: center;">
-  <img class="aligncenter" alt="OOCSS" src="http://dl.dropbox.com/u/15546257/blog/mytory/intruduce-oocss/oocss-splash1.jpg" width="500" height="375" />
+  <img class="aligncenter" alt="OOCSS" src="/uploads/legacy/intruduce-oocss/oocss-splash1.jpg" width="500" height="375" />
 </p>
 
 [OOCSS GitHub의 위키 페이지][5]에서 설명하듯, OOCSS는 두 가지 원칙에 기초해 있다.
@@ -220,7 +220,7 @@ OOCSS 사용법을 좀더 설명하기 위해, [내 사이트를 최근에 다�
 OOCSS 운동의 개척자 중 하나는 [니콜 설리반][7]이다. 니콜 설리반은[ 미디어 객체][8]라는 재사용 가능한 모듈을 만들었다. 니콜의 설명을 보면, 이 모듈을 사용해서 [코드 분량을 대폭 줄일 수 있다.][9]
 
 <p style="text-align: center;">
-  <img class="aligncenter" alt="OOCSS" src="http://dl.dropbox.com/u/15546257/blog/mytory/intruduce-oocss/media-object.jpg" width="500" height="375" />
+  <img class="aligncenter" alt="OOCSS" src="/uploads/legacy/intruduce-oocss/media-object.jpg" width="500" height="375" />
 </p>
 
 미디어 객체는 OOCSS의 강력함을 보여 주는 훌륭한 예다. 콘텐츠 좌측에 사이즈에 상관없이 미디어 요소를 배치할 수 있도록 해 주기 때문이다. 안쪽 콘텐츠에 적용하는 많은 스타일이 ─ 그리고 미디어 요소 자신의 크기 조차도 ─ 변할 수 있지만, 미디어 객체 자체는 불필요한 중복을 피하도록 해 주는 공통 스타일에 기반한다.
@@ -299,15 +299,14 @@ OOCSS를 계속 배우려면, 연관 맺을 가장 중요한 사람은 [니콜 �
 
 전반적으로 나는 OOCSS가 CSS 개발의 밝은 미래일 것이라고 생각한다. 그리고 OOCSS는 모든 개발자들이 웹 페이지를 더 빠르고 효율적이며 유지보수하기 쉽게 만들기 위해 프로젝트에 ─ 적어도 몇몇 단계에서는 ─ 적용해야 하는 개념이다.
 
-&#8212;&#8212;
+--------
 
-[역자 주] OOCSS에 관심이 생겼다면 [&#8216;[번역] OOCSS(객체 지향 CSS)와 Sass를 결합하는 것이 최고의 CSS 코딩 방법이다(OOCSS + Sass = The best way to CSS)&#8217;][18]  <a class="simple-footnote" title="원문 : OOCSS + Sass = The best way to CSS" id="return-note-8949-7" href="#note-8949-7"><sup>7</sup></a> 도 한 번 검토해 보는 게 좋겠다. OOCSS는 HTML 유지보수를 힘들게 하므로 OOCSS 모듈 개념을 바탕으로 Sass 3.2의 `@extend`를 사용하면 최상이라는 주장이다.
 
 <div class="simple-footnotes">
   <p class="notes">
     Notes:
   </p>
-  
+
   <ol>
     <li id="note-8949-1">
       The common styles might exist for branding purposes or consistency of design. <a href="#return-note-8949-1">&#8617;</a>
@@ -350,4 +349,3 @@ OOCSS를 계속 배우려면, 연관 맺을 가장 중요한 사람은 [니콜 �
  [15]: http://developer.yahoo.com/blogs/ydn/posts/2009/03/website_and_webapp_performance/
  [16]: http://www.slideshare.net/stubbornella/our-best-practices-are-killing-us
  [17]: http://www.slideshare.net/stubbornella/css-bloat
- [18]: http://mytory.net/archives/8986 "[번역] OOCSS(객체 지향 CSS)와 Sass를 결합하는 것이 최고의 CSS 코딩 방법이다(OOCSS + Sass = The best way to CSS)"

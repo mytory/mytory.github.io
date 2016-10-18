@@ -77,8 +77,8 @@ URL을 잘 보면 알겠지만, `sendMessgae`는 명령어다. [명령어 목록
     $curl = curl_init();
     curl_setopt_array($curl, $curl_opt);
     
-    // 텔레그램의 응답을 받아서 처리.
-    save_telegram_response(curl_exec($curl), true);
+    // 텔레그램의 응답을 받아서 저장.
+    save_telegram_response($post_id, curl_exec($curl));
 
 설명은 주석으로 달았으니 됐고. 
 

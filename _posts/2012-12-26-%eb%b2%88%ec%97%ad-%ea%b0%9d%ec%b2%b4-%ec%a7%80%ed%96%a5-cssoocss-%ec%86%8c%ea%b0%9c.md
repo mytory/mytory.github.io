@@ -289,7 +289,7 @@ OOCSS를 계속 배우려면, 연관 맺을 가장 중요한 사람은 [니콜 �
 니콜은 자기 블로그에 OOCSS에 대한 글을 정기적으로 올린다. 또한 슬라이드쇼를 활용한 발표를 많이 했다. 아래는 볼 만한 발표 자료다.
 
 *   [Object Oriented CSS (객체 지향 CSS)][14] (Slideshow)
-*   [High Performance Websites: Nicole Sullivan (고성능 웹사이트)][15] (Video)
+*   [High Performance Websites: Nicole Sullivan (고성능 웹사이트)][15] [(Video)](http://ydn.zenfs.com/blogs/videos/nicolesullivan.m4v)
 *   [Our Best Practices Are Killing Us (베스트 프랙티스가 우리를 죽이고 있다)][16] (Slideshow)
 *   [CSS Bloat (CSS 과잉)][17] (Slideshow)
 

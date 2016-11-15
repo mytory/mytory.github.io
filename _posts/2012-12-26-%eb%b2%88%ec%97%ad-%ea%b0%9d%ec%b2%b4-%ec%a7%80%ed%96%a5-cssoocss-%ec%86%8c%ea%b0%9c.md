@@ -346,6 +346,6 @@ OOCSS를 계속 배우려면, 연관 맺을 가장 중요한 사람은 [니콜 �
  [12]: https://github.com/stubbornella/csslint/wiki/Rules
  [13]: http://www.stubbornella.org/content/2011/01/22/grids-improve-site-performance/
  [14]: http://www.slideshare.net/stubbornella/object-oriented-css
- [15]: http://developer.yahoo.com/blogs/ydn/posts/2009/03/website_and_webapp_performance/
+ [15]: https://developer.yahoo.com/blogs/ydn/high-performance-websites-nicole-sullivan-6939.html
  [16]: http://www.slideshare.net/stubbornella/our-best-practices-are-killing-us
  [17]: http://www.slideshare.net/stubbornella/css-bloat

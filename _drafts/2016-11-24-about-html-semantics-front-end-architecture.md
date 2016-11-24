@@ -67,6 +67,7 @@ HTML 요소들의 시맨틱과 차이가 날 수 있다. HTML 요소, 특정 HTM
 
 
 [1]: https://www.w3.org/TR/html-design-principles/#pave-the-cowpaths
+[2]: https://www.w3.org/TR/html5/dom.html#classes
 
 [^fn1]: "aspects of the information"을 그냥 정보들이라고 번역했다. "정보의 측면들"이라고 번역하면 너무 이상하다. 더 좋은 번역이 있다면 알려 달라.
 [^fn2]: "subject to adaptation and co-option by developers"를 번역한 것이다. 직역하면 "개발자들에 의해 적응되고 공동 선택되는 대상" 정도 될 것이다.

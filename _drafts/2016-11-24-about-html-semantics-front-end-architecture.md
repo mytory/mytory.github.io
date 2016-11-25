@@ -62,10 +62,121 @@ tags:
 
 ## 프론트엔드 아키텍처
 
+컴포넌트/텔플릿/객체지향 아키텍처의 목표는 한정된 숫자의 재사용 가능한 컴포넌트를 이용해서 서로 다른 콘텐트 타입을 다룰 수 있게 하는 것이다. 대규모(non-trivial) 어플리케이션에서 클래스명을 시맨틱하게 짓는다고 할 때 중요한 것은 실용성을 염두에 두고 지어야 한다는 것이다. 그리고 그것의 주 목적 ― 의미있고, 유연하고, 재사용 가능한 표현/행위에 관한 훅(hook)을 _개발자들이_ 사용할 수 있게 제공하는 것을 최우선으로 해야 한다는 점이다.
 
+### 재사용 가능하고 결합 가능한 컴포넌트
 
+확장에 용이한 HTML/CSS를 만들려면, 대개는, 클래스를 활용해서 재사용 가능한 컴포넌트를 만들어야 한다. 유연하고 재사용 가능한 컴포넌트는 특정 DOM 요소나 구조[^fn3]에 의존하면 안 된다. 특정 요소 유형[HTML 태그 - 형우]을 필수로 해서도 안 된다. 서로 다른 컨테이너에 적용할 수 있어야 하고, 모양을 바꾸는 것도 쉬워야 한다. 컴포넌트를 더 건강하게 만들기 위해, 필요하다면 HTML 요소를 (콘텐트를 마크업하는 데 필요한 정도를 넘어) 추가로 사용할 수도 있어야 한다. 좋은 예는 [니콜 설리반][4]이 [미디어 객체][5]라고 부른 것이다.
 
+Components that can be easily combined benefit from the avoidance of type selectors in favour of classes. The following example prevents the easy combination of the btn component with the uilist component. The problems are that the specificity of .btn is less than that of .uilist a (which will override any shared properties), and the uilist component requires anchors as child nodes.
 
+.btn { /* styles */ }
+.uilist { /* styles */ }
+.uilist a { /* styles */ }
+<nav class="uilist">
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a class="btn" href="#">Login</a>
+</nav>
+An approach that improves the ease with which you can combine other components with uilist is to use classes to style the child DOM elements. Although this helps to reduce the specificity of the rule, the main benefit is that it gives you the option to apply the structural styles to any type of child node.
+
+.btn { /* styles */ }
+.uilist { /* styles */ }
+.uilist-item { /* styles */ }
+<nav class="uilist">
+    <a class="uilist-item" href="#">Home</a>
+    <a class="uilist-item" href="#">About</a>
+    <span class="uilist-item">
+        <a class="btn" href="#">Login</a>
+    </span>
+</nav>
+JavaScript-specific classes
+
+Using some form of JavaScript-specific classes can help to reduce the risk that thematic or structural changes to components will break any JavaScript that is also applied. An approach that I’ve found helpful is to use certain classes only for JavaScript hooks – js-* – and not to hang any presentation off them.
+
+<a href="/login" class="btn btn-primary js-login"></a>
+This way, you can reduce the chance that changing the structure or theme of components will inadvertently affect any required JavaScript behaviour and complex functionality.
+
+Component modifiers
+
+Components often have variants with slightly different presentations from the base component, e.g., a different coloured background or border. There are two mains patterns used to create these component variants. I’m going to call them the “single-class” and “multi-class” patterns.
+
+The “single-class” pattern
+
+.btn, .btn-primary { /* button template styles */ }
+.btn-primary { /* styles specific to save button */ }
+
+<button class="btn">Default</button>
+<button class="btn-primary">Login</button>
+The “multi-class” pattern
+
+.btn { /* button template styles */ }
+.btn-primary { /* styles specific to primary button */ }
+
+<button class="btn">Default</button>
+<button class="btn btn-primary">Login</button>
+If you use a pre-processor, you might use Sass’s @extend functionality to reduce some of the maintenance work involved in using the “single-class” pattern. However, even with the help of a pre-processor, my preference is to use the “multi-class” pattern and add modifier classes in the HTML.
+
+I’ve found it to be a more scalable pattern. For example, take the base btn component and add a further 5 types of button and 3 additional sizes. Using a “multi-class” pattern you end up with 9 classes that can be mixed-and-matched. Using a “single-class” pattern you end up with 24 classes.
+
+It is also easier to make contextual tweaks to a component, if absolutely necessary. You might want to make small adjustments to any btn that appears within another component.
+
+/* "multi-class" adjustment */
+.thing .btn { /* adjustments */ }
+
+/* "single-class" adjustment */
+.thing .btn,
+.thing .btn-primary,
+.thing .btn-danger,
+.thing .btn-etc { /* adjustments */ }
+A “multi-class” pattern means you only need a single intra-component selector to target any type of btn-styled element within the component. A “single-class” pattern would mean that you may have to account for any possible button type, and adjust the selector whenever a new button variant is created.
+
+Structured class names
+
+When creating components – and “themes” that build upon them – some classes are used as component boundaries, some are used as component modifiers, and others are used to associate a collection of DOM nodes into a larger abstract presentational component.
+
+It’s hard to deduce the relationship between btn (component), btn-primary (modifier), btn-group (component), and btn-group-item (component sub-object) because the names don’t clearly surface the purpose of the class. There is no consistent pattern.
+
+In early 2011, I started experimenting with naming patterns that help me to more quickly understand the presentational relationship between nodes in a DOM snippet, rather than trying to piece together the site’s architecture by switching back-and-forth between HTML, CSS, and JS files. The notation in the gist is primarily influenced by the BEM system‘s approach to naming, but adapted into a form that I found easier to scan.
+
+Since I first wrote this post, several other teams and frameworks have adopted this approach. MontageJS modified the notation into a different style, which I prefer and currently use in the SUIT framework:
+
+/* Utility */
+.u-utilityName {}
+
+/* Component */
+.ComponentName {}
+
+/* Component modifier */
+.ComponentName--modifierName {}
+
+/* Component descendant */
+.ComponentName-descendant {}
+
+/* Component descendant modifier */
+.ComponentName-descendant--modifierName {}
+
+/* Component state (scoped to component) */
+.ComponentName.is-stateOfComponent {}
+This is merely a naming pattern that I’m finding helpful at the moment. It could take any form. But the benefit lies in removing the ambiguity of class names that rely only on (single) hyphens, or underscores, or camel case.
+
+A note on raw file size and HTTP compression
+
+Related to any discussion about modular/scalable CSS is a concern about file size and “bloat”. Nicole Sullivan’s talks often mention the file size savings (as well as maintenance improvements) that companies like Facebook experienced when adopting this kind of approach. Further to that, I thought I’d share my anecdotes about the effects of HTTP compression on pre-processor output and the extensive use of HTML classes.
+
+When Twitter Bootstrap first came out, I rewrote the compiled CSS to better reflect how I would author it by hand and to compare the file sizes. After minifying both files, the hand-crafted CSS was about 10% smaller than the pre-processor output. But when both files were also gzipped, the pre-processor output was about 5% smaller than the hand-crafted CSS.
+
+This highlights how important it is to compare the size of files after HTTP compression, because minified file sizes do not tell the whole story. It suggests that experienced CSS developers using pre-processors don’t need to be overly concerned about a certain degree of repetition in the compiled CSS because it can lend itself well to smaller file sizes after HTTP compression. The benefits of more maintainable “CSS” code via pre-processors should trump concerns about the aesthetics or size of the raw and minified output CSS.
+
+In another experiment, I removed every class attribute from a 60KB HTML file pulled from a live site (already made up of many reusable components). Doing this reduced the file size to 25KB. When the original and stripped files were gzipped, their sizes were 7.6KB and 6KB respectively – a difference of 1.6KB. The actual file size consequences of liberal class use are rarely going to be worth stressing over.
+
+How I learned to stop worrying…
+
+The experience of many skilled developers, over many years, has led to a shift in how large-scale website and applications are developed. Despite this, for individuals weaned on an ideology where “semantic HTML” means using content-derived class names (and even then, only as a last resort), it usually requires you to work on a large application before you can become acutely aware of the impractical nature of that approach. You have to be prepared to disgard old ideas, look at alternatives, and even revisit ways that you may have previously dismissed.
+
+Once you start writing non-trivial websites and applications that you and others must not only maintain but actively iterate upon, you quickly realise that despite your best efforts, your code starts to get harder and harder to maintain. It’s well worth taking the time to explore the work of some people who have proposed their own approaches to tackling these problems: Nicole’s blog and Object Oriented CSS project, Jonathan Snook’s Scalable Modular Architecture CSS, and the Block Element Modifier method that Yandex have developed.
+
+When you choose to author HTML and CSS in a way that seeks to reduce the amount of time you spend writing and editing CSS, it involves accepting that you must instead spend more time changing HTML classes on elements if you want to change their styles. This turns out to be fairly practical, both for front-end and back-end developers – anyone can rearrange pre-built “lego blocks”; it turns out that no one can perform CSS-alchemy.
 
 
 
@@ -74,6 +185,9 @@ tags:
 [1]: https://www.w3.org/TR/html-design-principles/#pave-the-cowpaths
 [2]: https://www.w3.org/TR/html5/dom.html#classes
 [3]: http://nicolasgallagher.com/about-html-semantics-front-end-architecture/
+[4]: http://www.stubbornella.org/content/
+[5]: http://www.stubbornella.org/content/2010/06/25/the-media-object-saves-hundreds-of-lines-of-code/
 
 [^fn1]: "aspects of the information"을 그냥 정보들이라고 번역했다. "정보의 측면들"이라고 번역하면 너무 이상하다. 더 좋은 번역이 있다면 알려 달라.
 [^fn2]: "subject to adaptation and co-option by developers"를 번역한 것이다. 직역하면 "개발자들에 의해 적응되고 공동 선택되는 대상" 정도 될 것이다.
+[^fn3]: "existing within a certain part of the DOM tree"를 번역한 것이다. 직역하면 "DOM 트리의 특정 부분에 존재하는 것"

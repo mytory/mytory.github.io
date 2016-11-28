@@ -68,16 +68,23 @@ tags:
 
 확장에 용이한 HTML/CSS를 만들려면, 대개는, 클래스를 활용해서 재사용 가능한 컴포넌트를 만들어야 한다. 유연하고 재사용 가능한 컴포넌트는 특정 DOM 요소나 구조[^fn3]에 의존하면 안 된다. 특정 요소 유형[HTML 태그 - 형우]을 필수로 해서도 안 된다. 서로 다른 컨테이너에 적용할 수 있어야 하고, 모양을 바꾸는 것도 쉬워야 한다. 컴포넌트를 더 건강하게 만들기 위해, 필요하다면 HTML 요소를 (콘텐트를 마크업하는 데 필요한 정도를 넘어) 추가로 사용할 수도 있어야 한다. 좋은 예는 [니콜 설리반][4]이 [미디어 객체][5]라고 부른 것이다.
 
-Components that can be easily combined benefit from the avoidance of type selectors in favour of classes. The following example prevents the easy combination of the btn component with the uilist component. The problems are that the specificity of .btn is less than that of .uilist a (which will override any shared properties), and the uilist component requires anchors as child nodes.
+컴포넌트를 쉽게 결합하려면 타입 선택자[6]\[`h1`, `p` 같은 태그 선택자를 말하는 것 - 형우\]보다는 클래스를 사용해야 한다.[^fn4] 다음 예는 `btn` 컴포넌트와 `uilist` 컴포넌트를 쉽게 결합하지 못하게 만든 예다. 문제는 `.btn`의 특정도(Specificity)[^fn5]가 `.uilist`보다 낮고 (그래서 겹치는 속성을 덮어 쓰게 될 것이다), `uilist` 컴포넌트에는 앵커 노드가 자식으로 있어야 한다는 점이다.
 
+~~~~
 .btn { /* styles */ }
 .uilist { /* styles */ }
 .uilist a { /* styles */ }
+~~~~
+
+~~~~
 <nav class="uilist">
     <a href="#">Home</a>
     <a href="#">About</a>
     <a class="btn" href="#">Login</a>
 </nav>
+~~~~
+
+
 An approach that improves the ease with which you can combine other components with uilist is to use classes to style the child DOM elements. Although this helps to reduce the specificity of the rule, the main benefit is that it gives you the option to apply the structural styles to any type of child node.
 
 .btn { /* styles */ }
@@ -182,12 +189,19 @@ When you choose to author HTML and CSS in a way that seeks to reduce the amount 
 
 
 
+[^fn1]: "aspects of the information"을 그냥 정보들이라고 번역했다. "정보의 측면들"이라고 번역하면 너무 이상하다. 더 좋은 번역이 있다면 알려 달라.
+[^fn2]: "subject to adaptation and co-option by developers"를 번역한 것이다. 직역하면 "개발자들에 의해 적응되고 공동 선택되는 대상" 정도 될 것이다.
+[^fn3]: "existing within a certain part of the DOM tree"를 번역한 것이다. 직역하면 "DOM 트리의 특정 부분에 존재하는 것"
+[^fn4]: Components that can be easily combined benefit from the avoidance of type selectors in favour of classes. 직역 불능에 가까워 의역했다.
+[^fn5]: Specificity는 "특정도"로 번역했다. [MDN에서는 "명시도"로 번역][7]했더라. 이 점수는 두 개의 선택자가 같은 요소를 가리킬 때 어떤 CSS 규칙을 적용할지 가릴 때 사용하는 개념인데, 예컨대 id가 클래스보다 Specificity가 높고, 클래스 두 개가 중첩된 것이 클래스 한 개만 사용한 것보다 Specificity가 높다.   
+MDN의 "명시도"라는 번역은 사전적으로 볼 때 크게 무리가 있는 번역은 아니다. "명시"의 사전적 뜻은 "분명하게 드러내 보임"이고, "명시도"의 뜻은 "<미술> 둘 이상의 색깔이 같은 거리에 같은 크기로 있을 때, 뚜렷이 잘 보이는 것과 잘 보이지 않는 정도"다. 비교한다는 뜻이 명확히 있다.  
+그런데 "명시성"이라고 하면 "더 잘 보인다" 하는 식의 뉘앙스가 느껴진다. 그보다는 "이놈보다 저놈이 더 우선한다, 이것보다 저것을 더 특정했다" 하는 뉘앙스가 더 나아 보였다. 그래서 "특정도"라고 번역했다. 영어사전의 뜻도 비슷한데, 옥스퍼드는 "특별함, 우수함", 동아출판과 YBM은 "특수성, 전문성"으로 적고 있다.
+
+
 [1]: https://www.w3.org/TR/html-design-principles/#pave-the-cowpaths
 [2]: https://www.w3.org/TR/html5/dom.html#classes
 [3]: http://nicolasgallagher.com/about-html-semantics-front-end-architecture/
 [4]: http://www.stubbornella.org/content/
 [5]: http://www.stubbornella.org/content/2010/06/25/the-media-object-saves-hundreds-of-lines-of-code/
-
-[^fn1]: "aspects of the information"을 그냥 정보들이라고 번역했다. "정보의 측면들"이라고 번역하면 너무 이상하다. 더 좋은 번역이 있다면 알려 달라.
-[^fn2]: "subject to adaptation and co-option by developers"를 번역한 것이다. 직역하면 "개발자들에 의해 적응되고 공동 선택되는 대상" 정도 될 것이다.
-[^fn3]: "existing within a certain part of the DOM tree"를 번역한 것이다. 직역하면 "DOM 트리의 특정 부분에 존재하는 것"
+[6]: https://www.w3.org/TR/CSS22/selector.html#type-selectors
+[7]: https://developer.mozilla.org/ko/docs/Web/CSS/Specificity

@@ -84,61 +84,72 @@ tags:
 </nav>
 ~~~~
 
+다른 컴포넌트들을 `uilist`와 결합하기 쉽게 개선하는 접근법은 자식 DOM 요소에 스타일을 입힐 때 클래스를 사용하는 것이다. 이 방법은 규칙의 특정도를 감소시켜 주긴 하지만, 주요한 장점은 어떤 종류의 자식 노드에도 구조상의 스타일을 입힐 수 있게 해 준다는 점이다.
 
-An approach that improves the ease with which you can combine other components with uilist is to use classes to style the child DOM elements. Although this helps to reduce the specificity of the rule, the main benefit is that it gives you the option to apply the structural styles to any type of child node.
-
+<pre>
 .btn { /* styles */ }
 .uilist { /* styles */ }
-.uilist-item { /* styles */ }
-<nav class="uilist">
-    <a class="uilist-item" href="#">Home</a>
-    <a class="uilist-item" href="#">About</a>
-    <span class="uilist-item">
-        <a class="btn" href="#">Login</a>
-    </span>
-</nav>
-JavaScript-specific classes
+<mark>.uilist-item { /* styles */ }</mark></pre>
 
-Using some form of JavaScript-specific classes can help to reduce the risk that thematic or structural changes to components will break any JavaScript that is also applied. An approach that I’ve found helpful is to use certain classes only for JavaScript hooks – js-* – and not to hang any presentation off them.
 
-<a href="/login" class="btn btn-primary js-login"></a>
-This way, you can reduce the chance that changing the structure or theme of components will inadvertently affect any required JavaScript behaviour and complex functionality.
+<pre>
+&lt;nav class=&quot;uilist&quot;&gt;
+    &lt;a class=&quot;uilist-item&quot; href=&quot;#&quot;&gt;Home&lt;/a&gt;
+    &lt;a class=&quot;uilist-item&quot; href=&quot;#&quot;&gt;About&lt;/a&gt;
+    <mark>&lt;span class=&quot;uilist-item&quot;&gt;</mark>
+        &lt;a class=&quot;btn&quot; href=&quot;#&quot;&gt;Login&lt;/a&gt;
+    <mark>&lt;/span&gt;</mark>
+&lt;/nav&gt;</pre>
 
-Component modifiers
 
-Components often have variants with slightly different presentations from the base component, e.g., a different coloured background or border. There are two mains patterns used to create these component variants. I’m going to call them the “single-class” and “multi-class” patterns.
+### 자바스크립트 전용 클래스
 
-The “single-class” pattern
+어떤 형태든 자바스크립트 전용 클래스를 사용하는 것은 모양이나 구조에 변화가 있을 때 거기에 적용된 자바스크립트가 깨질 위험을 줄여 준다. 내가 발견한 유용한 방법은, 내가 발견한 유용한 접근법은 자바스크립트 훅_만을_ 위한 특정한 클래스(`js-*` 같은 것)를 사용하는 것이다. 그리고 거기엔 모양을 전혀 입히지 않는다.
 
-.btn, .btn-primary { /* button template styles */ }
-.btn-primary { /* styles specific to save button */ }
+<pre>
+&lt;a href=&quot;/login&quot; class=&quot;btn btn-primary <mark>js-login</mark>&quot;&gt;&lt;/a&gt;</pre>
 
-<button class="btn">Default</button>
-<button class="btn-primary">Login</button>
-The “multi-class” pattern
+이 방법을 사용하면 구조나 모양을 변경했을 때 필수적 자바스크립트 동작이나 복잡한 기능에 우연히 영향을 미치게 되는 경우를 줄일 수 있다.
 
-.btn { /* button template styles */ }
-.btn-primary { /* styles specific to primary button */ }
+### 컴포넌트 수식어(modifier)
 
-<button class="btn">Default</button>
-<button class="btn btn-primary">Login</button>
-If you use a pre-processor, you might use Sass’s @extend functionality to reduce some of the maintenance work involved in using the “single-class” pattern. However, even with the help of a pre-processor, my preference is to use the “multi-class” pattern and add modifier classes in the HTML.
+기본 컴포넌트와 모양이 약간 다른 컴포넌트 변종을 사용해야 하는 경우가 자주 있다. 예컨대 배경이나 외곽선 색을 달리하는 경우. 컴포넌트 변종을 만들기 위해서는 주로 두 가지 패턴 중 하나를 사용한다. 여기서는 그것을 "싱글 클래스(single-class)"와 "멀티 클래스(multi-class)" 패턴이라고 부를 것이다.
 
-I’ve found it to be a more scalable pattern. For example, take the base btn component and add a further 5 types of button and 3 additional sizes. Using a “multi-class” pattern you end up with 9 classes that can be mixed-and-matched. Using a “single-class” pattern you end up with 24 classes.
+#### "싱글 클래스" 패턴
 
-It is also easier to make contextual tweaks to a component, if absolutely necessary. You might want to make small adjustments to any btn that appears within another component.
+    .btn, .btn-primary { /* button template styles */ }
+    .btn-primary { /* styles specific to save button */ }
 
-/* "multi-class" adjustment */
-.thing .btn { /* adjustments */ }
+    <button class="btn">Default</button>
+    <button class="btn-primary">Login</button>
 
-/* "single-class" adjustment */
-.thing .btn,
-.thing .btn-primary,
-.thing .btn-danger,
-.thing .btn-etc { /* adjustments */ }
-A “multi-class” pattern means you only need a single intra-component selector to target any type of btn-styled element within the component. A “single-class” pattern would mean that you may have to account for any possible button type, and adjust the selector whenever a new button variant is created.
 
-Structured class names
+#### "멀티 클래스" 패턴
+
+    .btn { /* button template styles */ }
+    .btn-primary { /* styles specific to primary button */ }
+
+    <button class="btn">Default</button>
+    <button class="btn btn-primary">Login</button>
+
+프리 프로세서를 사용한다면, 아마 Sass의 `@extend` 기능을 이용해서 "싱글 클래스" 패턴 유지보수에 드는 노력을 줄일 수 있을 것이다. 하지만, 프리 프로세서의 도움이 있더라도, 나는 "멀티 클래스" 패턴과 HTML에 클래스 수식어를 추가하는 것을 선호한다.
+
+나는 그게 더 확장성 있는 패턴이라는 점을 발견했다. 예를 들면, 기본 `btn` 컴포넌트를 만들고, 다섯 종류의 버튼과 세 가지 크기를 추가한다고 해 보자. "멀티 클래스" 패턴을 사용하면 결합해 적용할 수 있는 클래스를 9개 만들게 된다. "싱글 클래스" 패턴을 사용하면 클래스를 24개 만들어야 한다.
+
+"멀티 클래스" 패턴을 사용하면, 정말 필요한 경우에는, 맥락에 따라 살짝 변형하기도 쉽다. 우리는 _어떤_ `btn`이 다른 컴포넌트 안에 나타나게 살짝 조정을 가해야 할 지도 모른다. 
+
+    /* "multi-class" adjustment */
+    .thing .btn { /* adjustments */ }
+
+    /* "single-class" adjustment */
+    .thing .btn,
+    .thing .btn-primary,
+    .thing .btn-danger,
+    .thing .btn-etc { /* adjustments */ }
+
+"멀티 클래스" 패턴에서는 컴포넌트에 있는 `btn`으로 스타일된 모든 요소를 가리키는 컴포넌트 안쪽 선택자(intra-component selector)를 하나만 추가하면 된다. "싱글 클래스" 패턴에서는 가능한 모든 버튼 종류를 나열해야 할 것이고, 새 변종이 만들어질 때마다 선택자를 조정해야 한다.
+
+## 구조화된 클래스명
 
 When creating components – and “themes” that build upon them – some classes are used as component boundaries, some are used as component modifiers, and others are used to associate a collection of DOM nodes into a larger abstract presentational component.
 

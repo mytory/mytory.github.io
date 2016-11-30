@@ -221,7 +221,9 @@ tags:
 
 많은 숙련 개발자들의 경험은, 여러해 동안, 대규모 웹사이트와 어플리케이션을 개발하는 방법의 전환을 이끌어 왔다. 반면, "시맨틱 HTML"이 의미하는 콘텐트에서 도출되는 클래스명이라는 이데올로기에서 젖을 떼고 있다(대개는, 오직 최후의 수단으로만). 우리는 그런 접근법이 낳는, 다 파악하는 것이 불가능한 환경에서 다 파악하기도 전에 흔히 대규모 어플리케이션에서 일할 것을 요구한다. 우리는 낡은 아이디어를 거부하고, 대안을 찾고, 심지어 이전에 거부했을 방법조차 재검토할 준비를 해야만 한다. 
 
-Once you start writing non-trivial websites and applications that you and others must not only maintain but actively iterate upon, you quickly realise that despite your best efforts, your code starts to get harder and harder to maintain. It’s well worth taking the time to explore the work of some people who have proposed their own approaches to tackling these problems: Nicole’s blog and Object Oriented CSS project, Jonathan Snook’s Scalable Modular Architecture CSS, and the Block Element Modifier method that Yandex have developed.
+우리가 유지보수해야할 뿐만 아니라 개발도 계속해 나가야 하는(actively iterate) 대규모(non-trivial) 웹사이트와 애플리케이션을 작성하기 시작하면, 최선의 노력에도 불구하고 코드가 점점 더 유지보수하기 어려워진다는 사실을 금세 깨닫는다. 그럴 때 이런 문제들을 해결하기 위한 자신만의 접근법을 제안한 사람들의 작업을 둘러보는 것은 할 만한 가치가 있는 일이다: 니콜 설리반의 블로그와 [객체 지향 CSS][10] 프로젝트, 조나단 스눅의 [확장성 있는 모듈화된 구조의 CSS(SMACSS)][11], 그리고 얀덱스[러시아의 포털 - 역자]가 개발한[Block Element Modifier(BEM)][12] 방법론.
+
+
 
 When you choose to author HTML and CSS in a way that seeks to reduce the amount of time you spend writing and editing CSS, it involves accepting that you must instead spend more time changing HTML classes on elements if you want to change their styles. This turns out to be fairly practical, both for front-end and back-end developers – anyone can rearrange pre-built “lego blocks”; it turns out that no one can perform CSS-alchemy.
 
@@ -236,7 +238,6 @@ When you choose to author HTML and CSS in a way that seeks to reduce the amount 
 [^fn5]: Specificity는 "특정도"로 번역했다. [MDN에서는 "명시도"로 번역][7]했더라. 이 점수는 두 개의 선택자가 같은 요소를 가리킬 때 어떤 CSS 규칙을 적용할지 가릴 때 사용하는 개념인데, 예컨대 id가 클래스보다 Specificity가 높고, 클래스 두 개가 중첩된 것이 클래스 한 개만 사용한 것보다 Specificity가 높다.   
 MDN의 "명시도"라는 번역은 사전적으로 볼 때 크게 무리가 있는 번역은 아니다. "명시"의 사전적 뜻은 "분명하게 드러내 보임"이고, "명시도"의 뜻은 "<미술> 둘 이상의 색깔이 같은 거리에 같은 크기로 있을 때, 뚜렷이 잘 보이는 것과 잘 보이지 않는 정도"다. 비교한다는 뜻이 명확히 있다.  
 그런데 "명시성"이라고 하면 "더 잘 보인다" 하는 식의 뉘앙스가 느껴진다. 그보다는 "이놈보다 저놈이 더 우선한다, 이것보다 저것을 더 특정했다" 하는 뉘앙스가 더 나아 보였다. 그래서 "특정도"라고 번역했다. 영어사전의 뜻도 비슷한데, 옥스퍼드는 "특별함, 우수함", 동아출판과 YBM은 "특수성, 전문성"으로 적고 있다.
-[^fn7]: Camel Case는 
 
 
 [1]: https://www.w3.org/TR/html-design-principles/#pave-the-cowpaths
@@ -248,3 +249,6 @@ MDN의 "명시도"라는 번역은 사전적으로 볼 때 크게 무리가 있�
 [7]: https://developer.mozilla.org/ko/docs/Web/CSS/Specificity
 [8]: http://zetawiki.com/wiki/%EC%B9%B4%EB%A9%9C%ED%91%9C%EA%B8%B0%EB%B2%95_camelCase,_%ED%8C%8C%EC%8A%A4%EC%B9%BC%ED%91%9C%EA%B8%B0%EB%B2%95_PascalCase
 [9]: http://www.slideshare.net/stubbornella/our-best-practices-are-killing-us
+[10]: https://github.com/stubbornella/oocss/wiki
+[11]: http://smacss.com/book/
+[12]: http://bem.github.com/bem-method/pages/beginning/beginning.en.html

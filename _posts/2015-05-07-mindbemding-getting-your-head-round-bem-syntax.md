@@ -17,13 +17,13 @@ tag:
 
 내가 가장 자주 받는 질문 중에 하나는 <q>당신이 작성한 클래스에서 `--`랑 `__`가 뭘 뜻하는 거냐?</q> 하는 것이다.
 
-대답은 [BEM](http://bem.info)과 [니콜라스 갤라거(Nicolas Gallagher)](http://twitter.com/necolas) 덕분에…
+대답은 [BEM](http://bem.info)과 [니콜라스 갤러거(Nicolas Gallagher)](http://twitter.com/necolas) 덕분에…
 
 ---
 
 BEM - <i>block</i>, <i>element</i>, <i>modifier</i>의 약어 - 은 [Yandex](http://yandex.ru) 사람들이 고안해 낸 프론트엔드 작명법이다. BEM은 깔끔한 CSS 클래스 작명법이다. CSS 클래스들을 더 투명하게 하고, 다른 개발자들에게 의미가 잘 전달될 수 있도록 한다. BEM으로 작명한 클래스들은 훨씬 더 엄격하고, 정보가 풍부하다. BEM 작명 규칙(naming convention)은 지속될 큰 프로젝트에 이상적이다. 
 
-짚고 가야 할 것은, 내가 BEM에 _기반한_ 작명 규칙을 사용하지만, 그것은 [니콜라스 갤라거가 발전시킨 것](http://nicolasgallagher.com/about-html-semantics-front-end-architecture/)이라는 점이다.
+짚고 가야 할 것은, 내가 BEM에 _기반한_ 작명 규칙을 사용하지만, 그것은 [니콜라스 갤러거가 발전시킨 것](http://nicolasgallagher.com/about-html-semantics-front-end-architecture/)이라는 점이다.
 이 글에서 다루는 작명 기법(techniques)은 BEM 원형의 것이 아니다. 내가 선호하는 개선판이다. 실제로 어떤 표기법을 사용하든 간에 그것은 모두 동일한 BEM 원리에 기초한다.
 
 작명 규칙은 다음 패턴을 따른다.

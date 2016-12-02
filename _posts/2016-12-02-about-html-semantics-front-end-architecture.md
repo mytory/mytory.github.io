@@ -15,14 +15,14 @@ tags:
 
 이 글은 내가 좋아하는 생각, 경험, 아이디어들에 관한 것이고, 지난 1년 간 내가 실험한 것들에 관한 것이다. HTML 시맨틱과 컴포넌트를 다룬 뒤 프론트엔드 아키텍처, 클래스 작명 방식, 그리고 HTTP 압축을 다룬다.
 
-> 우리는 탐험을 멈추지 않을 것이다
-> 그리고 우리 모든 탐험의 끝은
-> 출발한 곳에 도착하는 것이 될 것이다
+> 우리는 탐험을 멈추지 않을 것이다  
+> 그리고 우리 모든 탐험의 끝은  
+> 출발한 곳에 도착하는 것이 될 것이다  
 > 그리고 그곳을 처음으로 알게 될 것이다.
 >
-> We shall not cease from exploration
-> And the end of all our exploring
-> Will be to arrive where we started
+> We shall not cease from exploration  
+> And the end of all our exploring  
+> Will be to arrive where we started  
 > And know the place for the first time.
 >
 > T.S. 엘리엇 – “리틀 기딩(Little Gidding)”
@@ -54,7 +54,7 @@ tags:
 
 - **클래스명은 기계**나 사람**에겐 시맨틱한 정보를 거의 또는 전혀 전달하지 않는다.** 작은 예외로, 합의된 (그리고 기계가 읽을 수 있는) 이름이 있다. 위에서 언급한 마이크로포맷이다.
 
-- **클래스명의 주 목적은 CSS와 JavaScript 훅을 걸기 위한 것이다.** 모양이나 동작을 추가할 필요가 없다면 아마 HTML에는 클래스가 필요 없을 것이다.
+- **클래스명의 주 목적은 CSS와 자바스크립트 훅을 걸기 위한 것이다.** 모양이나 동작을 추가할 필요가 없다면 아마 HTML에는 클래스가 필요 없을 것이다.
 
 - **클래스명은 _개발자_에게 _유용한_ 정보를 전해 줘야 한다.** DOM 조각을 읽을 때 특정 클래스명은 그게 뭘 하는 것인지 알 수 있는 이름이어야 한다. 프론트엔드 개발자만이 아니라 여러 개발자가 HTML을 건드리는 팀인 경우에 특히 그렇다.
 
@@ -86,9 +86,9 @@ tags:
 컴포넌트를 쉽게 결합하려면 타입 선택자[6]\[`h1`, `p` 같은 태그 선택자를 말하는 것- 역자\]보다는 클래스를 사용해야 한다.[^fn4] 다음 예는 `btn` 컴포넌트와 `uilist` 컴포넌트를 쉽게 결합하지 못하게 만든 예다. 문제는 `.btn`의 특정도(Specificity)[^fn5]가 `.uilist`보다 낮고 (그래서 겹치는 속성을 덮어 쓰게 될 것이다), `uilist` 컴포넌트에는 앵커 노드가 자식으로 있어야 한다는 점이다.
 
 ~~~~
-.btn { /* styles */ }
-.uilist { /* styles */ }
-.uilist a { /* styles */ }
+.btn { /* 스타일 */ }
+.uilist { /* 스타일 */ }
+.uilist a { /* 스타일 */ }
 ~~~~
 
 ~~~~
@@ -102,9 +102,9 @@ tags:
 다른 컴포넌트들을 `uilist`와 결합하기 쉽게 개선하는 방법은 자식 DOM 요소에 스타일을 입힐 때 클래스를 사용하는 것이다. 이 방법은 규칙의 특정도를 감소시켜 주지만, 더 주요한 장점은 어떤 종류의 자식 노드에도 해당 구조의 스타일(structural styles)을 입힐 수 있게 해 준다는 점이다.
 
 <pre>
-.btn { /* styles */ }
-.uilist { /* styles */ }
-<mark>.uilist-item { /* styles */ }</mark></pre>
+.btn { /* 스타일 */ }
+.uilist { /* 스타일 */ }
+<mark>.uilist-item { /* 스타일 */ }</mark></pre>
 
 
 <pre>
@@ -132,8 +132,8 @@ tags:
 
 #### "싱글 클래스" 패턴
 
-    .btn, .btn-primary { /* button template styles */ }
-    .btn-primary { /* styles specific to save button */ }
+    .btn, .btn-primary { /* 버튼 템플릿 스타일 */ }
+    .btn-primary { /* 주요 버튼과 관련된 스타일 */ }
 
     <button class="btn">Default</button>
     <button class="btn-primary">Login</button>
@@ -141,8 +141,8 @@ tags:
 
 #### "멀티 클래스" 패턴
 
-    .btn { /* button template styles */ }
-    .btn-primary { /* styles specific to primary button */ }
+    .btn { /* 버튼 템플릿 스타일 */ }
+    .btn-primary { /* 주요 버튼과 관련된 스타일 */ }
 
     <button class="btn">Default</button>
     <button class="btn btn-primary">Login</button>
@@ -153,14 +153,14 @@ tags:
 
 "멀티 클래스" 패턴을 사용하면, 정말 필요한 경우에, 맥락에 따라 살짝 변형하기도 쉽다. 우리는 다른 컴포넌트 안에 나타나는 _어떤_ `btn`에 살짝 조정을 가해야 할 지도 모른다. 
 
-    /* "multi-class" adjustment */
-    .thing .btn { /* adjustments */ }
+    /* "멀티 클래스" 조정 */
+    .thing .btn { /* 조정 */ }
 
-    /* "single-class" adjustment */
+    /* "싱글 클래스" 조정 */
     .thing .btn,
     .thing .btn-primary,
     .thing .btn-danger,
-    .thing .btn-etc { /* adjustments */ }
+    .thing .btn-etc { /* 조정 */ }
 
 "멀티 클래스" 패턴에서는 컴포넌트 안쪽 선택자 하나만 추가하면 된다. 그러면 이 선택자가 컴포넌트에 안의 `btn`으로 스타일된 모든 요소를 가리킨다. "싱글 클래스" 패턴에서는 가능한 모든 버튼 종류를 나열해야 할 것이고, 새 변종이 만들어질 때마다 선택자를 조정해야 한다.
 

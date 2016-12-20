@@ -1,5 +1,5 @@
 ---
-title: [bash] 현재 폴더의 특정 파일 용량 합산 
+title: '[bash] 현재 폴더의 특정 파일 용량 합산'
 author: 안형우
 layout: post
 tags:

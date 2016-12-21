@@ -10,9 +10,10 @@ categories:
 tags:
   - WordPress Tip
 ---
-워드프레스엔 기본적으로 제공하는 목록 버튼이 없다. 블로그로 출발해서 그런지 모르겠지만, 여튼간에 간단하게 목록 보기를 구현해 보자.
 
 `post`의 경우와 custom post type을 모두 대응할 수 있도록 짜 봤다.
+
+돌려 주는 링크를 사용하는 고유주소에 맞게 돌려 주는 부분은 구현하지 않았다. 대충 수동으로 코드를 고쳐 쓰길.
 
     if( ! function_exists('fu_get_list_url')){
         /**
@@ -26,21 +27,24 @@ tags:
          * @return string|void
          */
         function fu_get_list_url($taxonomy = NULL, $term_slug = NULL){
-            global $post, $table_prefix;
-    
-            if( ! $taxonomy){
+            global $post, $table_prefix, $wpdb;
+
+            if (!$taxonomy) {
                 $taxonomies = get_post_taxonomies();
                 $taxonomy = $taxonomies[0];
             }
-    
-            if( ! $term_slug){
+
+            if (!$term_slug) {
                 $terms = wp_get_post_terms($post->ID, $taxonomy);
-                $term = $terms[0];
-            }else{
+                if (!empty($terms)) {
+                    $term = $terms[0];
+                }
+            } else {
                 $term = get_term_by('slug', $term_slug, $taxonomy);
             }
-    
-            if($term){
+
+            $ids = array();
+            if (!empty($term)) {
                 $sql = "SELECT SQL_CALC_FOUND_ROWS {$table_prefix}posts.ID
                     FROM {$table_prefix}posts
                     INNER JOIN {$table_prefix}term_relationships ON ( {$table_prefix}posts.ID = {$table_prefix}term_relationships.object_id )
@@ -56,23 +60,23 @@ tags:
                     )
                     GROUP BY {$table_prefix}posts.ID
                     ORDER BY {$table_prefix}posts.post_date DESC";
-                $result = mysql_query($sql);
-                while($row = mysql_fetch_array($result)){
-                    $ids[] = $row['ID'];
+
+                foreach ($wpdb->get_results($sql) as $row) {
+                    $ids[] = $row->ID;
                 }
-    
+
                 $current_index = 0;
                 foreach ($ids as $index => $ID) {
-                    if($ID == $post->ID){
+                    if ($ID == $post->ID) {
                         $current_index = $index + 1;
                     }
                 }
                 $curr_page = ceil($current_index / get_option('posts_per_page'));
-    
+
                 // term 로드 결과 있으면
                 return get_term_link($term) . "/page/" . $curr_page;
-            }else{
-    
+            } else {
+
                 $sql = "SELECT SQL_CALC_FOUND_ROWS {$table_prefix}posts.ID
                     FROM {$table_prefix}posts
                     WHERE 1 =1
@@ -82,21 +86,21 @@ tags:
                     OR {$table_prefix}posts.post_status = 'private'
                     )
                     ORDER BY {$table_prefix}posts.post_date DESC";
-                $result = mysql_query($sql);
-                while($row = mysql_fetch_array($result)){
-                    $ids[] = $row['ID'];
+                foreach ($wpdb->get_results($sql) as $row) {
+                    $ids[] = $row->ID;
                 }
-    
+
                 $current_index = 0;
                 foreach ($ids as $index => $ID) {
-                    if($ID == $post->ID){
+                    if ($ID == $post->ID) {
                         $current_index = $index + 1;
                     }
                 }
                 $curr_page = ceil($current_index / get_option('posts_per_page'));
-    
+
                 // 없으면(custom post type의 경우 term이 아예 없을 수 있다.)
-                return home_url('/page/' . $curr_page . '/?post_type=' . $post->post_type);
+                $post_type_object = get_post_type_object($post->post_type);
+                return home_url($post_type_object->rewrite['slug'] . '/page/' . $curr_page);
             }
         }
     }

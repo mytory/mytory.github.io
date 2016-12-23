@@ -18,7 +18,7 @@ RSS와 이메일은 제 블로그 글만 날아가고, 트위터와 페이스북
 
 이메일 구독은 FeedBurner를 통해 하고 있습니다. 좋은 서비스인데 문제는 영어라는 거죠. 여튼간에, 이메일 쓰는 곳에 자신의 이메일을 적으세요.
 
-![](http://dl.dropbox.com/u/15546257/blog/mytory/mytory-email-subscription.png)
+![](/uploads/legacy/mytory-email-subscription.png)
 
 그러면 이메일로 확인 메일이 하나 날아갈 겁니다. 거기 들어가서 누르라는 링크를 누르면 구독절차가 완료됩니다. 이제 제가 새 글을 쓰게 되면 다음날 아침에 이메일로 날아가게 됩니다.
 

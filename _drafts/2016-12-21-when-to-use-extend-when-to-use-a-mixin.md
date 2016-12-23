@@ -125,10 +125,185 @@ Sass를 처음 사용하고 가장 신기했던 게 `@extend`였다. CSS 속성�
         font-size: 0.75em;
     }
 
-문제는 내가 관계없는 규칙들을 강제로 관계 맺개 했다는 점이다 — 규칙들은 서로 수백 줄 떨어져 있다. 이것은 순전히 우연히 공유된 특성에 기반해서 맺은 관계다. And not only have I forced an unusual relationship, but I now have a very unusual source order in which specificity is jumbled up. I am distributing selectors across my codebase for purely circumstantial reasons. This is [not good news][not-good-news].
+문제는 내가 관계없는 규칙들을 강제로 관계 맺개 했다는 점이다 — 규칙들은 서로 수백 줄 떨어져 있다. 이것은 순전히 우연히 공유된 특성에 기반해서 맺은 관계다. 강제로 이상하게 연관맺었을 뿐 아니라, 소스 순서가 아주 이상해져서 특정도(specificity)가 꼬이게 됐다. [좋지 않은 소식][not-good-news]이다.
 
 [not-good-news]: http://csswizardry.com/2014/10/the-specificity-graph/
 
-I have transplanted unrelated rulesets to hundreds of lines away from their source, in order to live with other rulesets, in the incorrect location, based on purely coincidental and circumstantial similarities. **This is not a good way to use `@extend`.** (In fact, this is probably a perfect use-case for an argument-less mixin. We’ll come back to that soon.)
+나는 연관성 없는 규칙들을 다른 규칙들과 묶기 위해서 그 자신의 소스로부터 수백줄 떨어진 곳에 이식했다. 잘못된 위치에, 순전히 우연적이고 상황적인 유사성에 기반해서 말이다. **이것은 `@extend`를 잘못 사용하는 것이다.** (사실, 이런 경우는 인자값 없는 믹스인을 사용하기에 딱 맞는 상황일 것이다. 이것은 나중에 다루겠다.)
 
-Another case of an abused `@extend` looks a little like this:
+또다른 `@extend` 오용 사례는 아래 코드 같은 것이다:
+
+    %bold {
+        font-weight: bold;
+    }
+
+    ...
+
+    .header--home > .header__tagline {
+        @extend %bold;
+        color: #333;
+        font-style: italic;
+    }
+
+    ...
+
+    .btn--warning {
+        @extend %bold;
+        background-color: red;
+        color: white;
+    }
+
+    ...
+
+    .alert--error > .alert__text {
+        @extend %bold;
+        color: red;
+    }
+    
+결과물은, 예상하겠지만, 아래와 같다.
+
+    .header--home > .header__tagline,
+    .btn--warning,
+    .alert--error > .alert__text {
+        font-weight: bold;
+    }
+
+    ...
+
+    .header--home > .header__tagline {
+        color: #333;
+        font-style: italic;
+    }
+
+    ...
+
+    .btn--warning {
+        background-color: red;
+        color: white;
+    }
+
+    ...
+
+    .alert--error > .alert__text {
+        color: red;
+    }
+
+용량은 299바이트다.
+
+흔히, 반복을 피하려고 작성한 선언보다 이식한 [결과물로 출력된 - 형우] 선택자가 더 길 수 있다. 실제로 ―반복을 완전히 피하려고 하기보다― 그냥 `font-weight: bold;` 선언을 *n*회 반복했다면, 파일 용량은 **264바이트**로 더 작았을 것이다. 이것은 아주 소극적인 모델일 뿐이지만, 결과물의 용량을 절감할 가능성을 그려 보는 데 분명 도움이 된다. 한 줄짜리 선언에 `@extend`를 사용하는 것은 대개 역효과를 낳는다.
+
+그러면, *도대체*  언제 `@extend`를 사용하는가?
+
+명백히 연관성이 있는 규칙들 사이에 특성을 공유하기 위해 `@extend`를 사용한다. 다음은 완벽한 예다:
+
+    .btn,
+    %btn {
+        display: inline-block;
+        padding: 1em;
+    }
+
+    .btn-positive {
+        @extend %btn;
+        background-color: green;
+        color: white;
+    }
+
+    .btn-negative {
+        @extend %btn;
+        background-color: red;
+        color: white;
+    }
+
+    .btn-neutral {
+        @extend %btn;
+        background-color: lightgray;
+        color: black;
+    }
+
+결과물은 이렇다:
+
+    .btn,
+    .btn-positive,
+    .btn-negative,
+    .btn-neutral {
+        display: inline-block;
+        padding: 1em;
+    }
+
+    .btn-positive {
+        background-color: green;
+        color: white;
+    }
+
+    .btn-negative {
+        background-color: red;
+        color: white;
+    }
+
+    .btn-neutral {
+        background-color: lightgray;
+        color: black;
+    }
+
+이것은 완벽한 `@extend` 활용 사례다. 이 규칙들은 본질적으로 연관성이 있다. 공유한 특성은 이유가 있고, 우연적이지 않다. 더 나아가, 우리는 소스에서 수백 줄 떨어진 곳으로 선택자를 이식하지도 않았다. 그래서 우리의 [특정도 그래프][specificity-graph]는 훌륭하고 아름답게 유지됐다.
+
+[specificity-graph]: http://csswizardry.com/2014/10/the-specificity-graph/
+
+## 믹스인을 사용할 때
+
+<q>인자값 없는 믹스인은 나쁘다</q>는 규칙(rule)은 좋은 의도를 담고 있다. 하지만 불행히도 그것은 그리 간단한 문제가 아니다.
+
+이 규칙은 DRY 원칙을 약간 오해한 데서 비롯한 것이다. DRY는 프로젝트에서 [Single Source of Truth][ssot]를 추구하는 원칙이다. DRY는 **직접(Yourself)** 반복하지 말라는 것이지, 반복을 완전히 피하라는 것이 아니다.
+
+[ssot]: http://en.wikipedia.org/wiki/Single_Source_of_Truth
+
+만약 프로젝트에서 같은 선언을 50번 수동으로 치고 있다면, 그것은 직접 반복하는 것이다. 이것은 DRY하지 않은 것이다. 수동으로 반복해 치지 않으면서 선언을 50번 생성할 수 있다면, 그것은 DRY한 것이다. 직접 반복하지 않으면서 반복되는 코드를 생성한 것이다. 이것은 꽤 미묘하지만 인식에서 중요한 구분이다. **컴파일 결과물에서 반복은나쁜 것이 아니다. 소스를 반복하는 것이 나쁜 것이다.**
+
+Single Source of Truth는 반복 사용할 소스를 한 군데 저장한 뒤, 그것을 실제로 중복하지 않으면서도 재활용하고 재사용할 수 있다는 것을 의미한다. 물론, 시스템이 우리를 위해 반복할 것이다. 하지만 소스는 오직 한 군데만 존재한다. 이것은 우리가 그것만 고치면 변경이 모든 것으로 전파된다는 것을 의미한다. 그리고 소스코드에는 중복이 없을 것이라는 것을 의미한다. 거기엔 Single Source of Truth가 있을 것이라는 것을 의미한다. 이것이 우리가 DRY에 대해 말할 때 의미하는 것이다. 
+
+이것을 염두에 두면, 인자값 없는 믹스인을 실제로 매우 유용하게 쓸 수 있다는 것을 알 수 있다. 앞서 다뤘던 `%brand-font {}` 예제로 돌아가 보자.
+
+프로젝트에서 특정한 글꼴을 사용하고 있다고 생각해 보자. 이 글꼴에는 언제나 `font-weight:`를 정의해야 한다.
+
+    .foo {
+        font-family: webfont, sans-serif;
+        font-weight: 700;
+    }
+
+    ...
+
+    .bar {
+        font-family: webfont, sans-serif;
+        font-weight: 700;
+    }
+
+    ...
+
+    .baz {
+        font-family: webfont, sans-serif;
+        font-weight: 700;
+    }
+
+
+코드에서 두 선언을 수동으로 끝없이 반복하는 것은 아주 지루한 일일 것이다. 게다가 익숙한 `regular`나 `bold`가 아니라 `700`이라는 숫자를 기억해야만 한다. 만약 웹 폰트나 굵기를 변경해야 한다면, 우리는 프로젝트 전체를 훑으면서 위 선언을 전부 찾아내 고쳐야 한다. 
+
+이럴 때 `@extend`를 이용해 강제로 연관성을 부여하면 안 된다는 점을 앞서 다뤘다. 해야 할 일은 믹스인을 사용하는 것이다.
+
+    @mixin webfont() {
+        font-family: webfont, sans-serif;
+        font-weight: 700;
+    }
+
+    ...
+
+    .foo {
+        @include webfont();
+    }
+    
+    
+**우리는 반복을 컴파일했다. 직접 반복하지 않았다.** 위 규칙들은 서로 연관성이 없는 규칙들이고, 그래서 연관성을 맺게 만들지 않았다는 점을 여기서 기억하는 것이 중요하다. 이 규칙들은 연관성이 없고, 단지 *우연히*  몇몇 특성을 공유하게 된 것이다. 그래서 이 반복은 합리적이고 예상 가능한 것이다. 우리는 이 선언들을 *여러* 곳에서 사용하길 *원하며* 따라서 *여러* 군데 나타나게 만들었다.
+
+인자값 없는 믹스인은 Single Source of Truth를 유지하면서 똑같은 선언들을 반복해서 뱉어내는 데 아주 좋다. 이 믹스인을 클립보드 복사/붙여넣기 기능의 멋진 확장판처럼 생각하라. 몇몇 문자열을 다른 데서 미리 저장했다가 붙여넣기 위해 사용하기만 하면 된다. 
+
+
+무언가가없는 믹스 인은 진실의 단일 소스를 유지하면서 똑같은 선언의 반복 그룹을 뱉어내는 데 아주 좋습니다. 복사 / 붙여 넣기 클립 보드의 새시 확장 기능을 좋아합니다. 이전에 다른 곳에 저장 한 문자열을 붙여 넣기 위해 사용하는 것입니다. 우리는 Single Source of Truth를 가지고 있습니다. 즉, 오직 하나의 수동 변경 만하는 동안 이러한 선언에 변경 사항을 전파 할 수 있음을 의미합니다. 매우 건조한 상태.

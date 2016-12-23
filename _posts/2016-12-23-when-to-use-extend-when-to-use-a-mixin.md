@@ -1,5 +1,5 @@
 ---
-title: '[Sass] @extend를 사용해야 할 때와 mixin을 사용해야 할 때'
+title: '[Sass] 웬만하면 @extend 말고 mixin을 사용하자'
 author: 안형우
 layout: post
 tags:
@@ -8,7 +8,7 @@ tags:
 
 ## 역자 주 
 
-[csswizardry에 실린 해리 로버츠의 글][원문]을 번역한 것이다. 
+csswizardry에 실린 해리 로버츠의 글, ['@extend를 사용해야 할 때와 mixin을 사용해야 할 때(When to use @extend; when to use a mixin)'][원문]를 번역한 것이다.
 
 [원문]: http://csswizardry.com/2014/11/when-to-use-extend-when-to-use-a-mixin/
 

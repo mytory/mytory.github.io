@@ -6,7 +6,7 @@ tags:
   - css
 ---
 
-## 역자 주 
+## 역자의 말 
 
 csswizardry에 실린 해리 로버츠의 글, ['@extend를 사용해야 할 때와 mixin을 사용해야 할 때(When to use @extend; when to use a mixin)'][원문]를 번역한 것이다.
 

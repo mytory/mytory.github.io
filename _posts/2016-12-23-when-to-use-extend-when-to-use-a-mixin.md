@@ -6,6 +6,8 @@ tags:
   - css
 ---
 
+## 역자 주 
+
 [csswizardry에 실린 해리 로버츠의 글][원문]을 번역한 것이다. 
 
 [원문]: http://csswizardry.com/2014/11/when-to-use-extend-when-to-use-a-mixin/

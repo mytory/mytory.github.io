@@ -1,6 +1,6 @@
 ---
 title: '[CSS] 사용자 컴터에 없는 글꼴 사용할 수 있게 만들기 @font-face'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/641
 aktt_notify_twitter:

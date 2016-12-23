@@ -1,6 +1,6 @@
 ---
 title: '[링크] jQuery를 이용한 네비게이션 바(상단 메뉴)'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/344
 aktt_notify_twitter:

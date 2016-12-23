@@ -1,6 +1,6 @@
 ---
 title: jQuery 체크박스 체크됐는지 확인하는 코드
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/193
 aktt_notify_twitter:

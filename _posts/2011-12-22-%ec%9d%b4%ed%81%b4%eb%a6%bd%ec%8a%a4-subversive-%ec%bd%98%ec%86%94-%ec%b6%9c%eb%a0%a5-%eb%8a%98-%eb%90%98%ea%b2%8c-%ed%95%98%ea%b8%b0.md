@@ -1,6 +1,6 @@
 ---
 title: '[이클립스] subversive 콘솔 출력 늘 되게 하기'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/2030
 aktt_notify_twitter:

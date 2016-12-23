@@ -1,6 +1,6 @@
 ---
 title: '[Tip] 개발시 자동으로 폼 정보 채우게 하는 가장 속편한 방법 &#8211; GreaseMonkey(Firefox), TamperMonkey(Chrome) + jQuery 사용하기'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/2650
 aktt_notify_twitter:

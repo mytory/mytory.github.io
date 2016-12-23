@@ -1,6 +1,6 @@
 ---
 title: '[번역] 구글 아날리틱스로 웹 성능 이상 탐지하기'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/8880
 daumview_id:

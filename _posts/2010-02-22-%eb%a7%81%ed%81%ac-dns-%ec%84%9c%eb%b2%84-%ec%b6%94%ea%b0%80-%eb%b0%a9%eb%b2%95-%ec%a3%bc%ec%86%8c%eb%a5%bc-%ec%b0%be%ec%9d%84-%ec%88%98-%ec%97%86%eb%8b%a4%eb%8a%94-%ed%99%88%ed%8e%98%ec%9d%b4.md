@@ -1,6 +1,6 @@
 ---
 title: '[링크] DNS 서버 추가 방법. 주소를 찾을 수 없다는 홈페이지가 있다면 해 보자.'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/318
 aktt_notify_twitter:

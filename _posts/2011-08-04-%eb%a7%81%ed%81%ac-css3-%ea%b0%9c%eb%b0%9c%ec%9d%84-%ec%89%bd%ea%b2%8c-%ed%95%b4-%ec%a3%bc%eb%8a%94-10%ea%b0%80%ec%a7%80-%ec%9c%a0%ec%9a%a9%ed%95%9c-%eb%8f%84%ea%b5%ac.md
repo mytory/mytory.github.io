@@ -1,6 +1,6 @@
 ---
 title: '[링크] CSS3 개발을 쉽게 해 주는 10가지 유용한 도구'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1579
 aktt_notify_twitter:

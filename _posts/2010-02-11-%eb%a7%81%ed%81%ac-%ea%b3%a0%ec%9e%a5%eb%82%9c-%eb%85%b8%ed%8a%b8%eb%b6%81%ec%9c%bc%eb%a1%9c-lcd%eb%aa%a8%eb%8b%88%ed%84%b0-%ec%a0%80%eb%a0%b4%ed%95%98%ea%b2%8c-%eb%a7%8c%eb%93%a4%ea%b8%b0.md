@@ -1,6 +1,6 @@
 ---
 title: '[링크] 고장난 노트북으로 LCD모니터 저렴하게 만들기'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/267
 aktt_notify_twitter:

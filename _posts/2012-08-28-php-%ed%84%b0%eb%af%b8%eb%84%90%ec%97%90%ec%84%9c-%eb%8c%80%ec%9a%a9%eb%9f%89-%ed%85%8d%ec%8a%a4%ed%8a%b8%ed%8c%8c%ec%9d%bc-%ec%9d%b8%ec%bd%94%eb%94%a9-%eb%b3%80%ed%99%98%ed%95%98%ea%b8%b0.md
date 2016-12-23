@@ -1,6 +1,6 @@
 ---
 title: '[PHP] 터미널에서 대용량 텍스트파일 인코딩 변환하기'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/3180
 aktt_notify_twitter:

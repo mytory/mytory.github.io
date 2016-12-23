@@ -1,6 +1,6 @@
 ---
 title: 마우스 오른쪽 클릭 금지, 가장 간단하고 완벽한 해제 방법
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/226
 aktt_notify_twitter:

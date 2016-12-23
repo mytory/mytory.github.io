@@ -1,6 +1,6 @@
 ---
 title: '[아파치:우분투]홈 폴더를 홈페이지 루트로 썼더니 Forbidden이 나와서&#8230;'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/600
 aktt_notify_twitter:

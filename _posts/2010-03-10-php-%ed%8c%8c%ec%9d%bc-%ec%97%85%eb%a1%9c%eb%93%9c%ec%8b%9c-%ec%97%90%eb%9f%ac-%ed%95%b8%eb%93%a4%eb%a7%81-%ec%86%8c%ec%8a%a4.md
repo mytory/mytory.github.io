@@ -1,6 +1,6 @@
 ---
 title: '[PHP] 파일 업로드시 에러 핸들링 소스'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/386
 aktt_notify_twitter:

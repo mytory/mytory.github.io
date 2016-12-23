@@ -1,6 +1,6 @@
 ---
 title: 한메일과 네이버 메일, pop3와 imap 지원
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/273
 aktt_notify_twitter:

@@ -1,6 +1,6 @@
 ---
 title: 사이트를 임시로 닫을 때 구글에 알려 주기
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/11692
 mytory_md_path:

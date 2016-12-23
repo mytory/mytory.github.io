@@ -1,6 +1,6 @@
 ---
 title: '구글의 구글스런 광고 &#8211; 파리에서 사랑을…'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/260
 aktt_notify_twitter:

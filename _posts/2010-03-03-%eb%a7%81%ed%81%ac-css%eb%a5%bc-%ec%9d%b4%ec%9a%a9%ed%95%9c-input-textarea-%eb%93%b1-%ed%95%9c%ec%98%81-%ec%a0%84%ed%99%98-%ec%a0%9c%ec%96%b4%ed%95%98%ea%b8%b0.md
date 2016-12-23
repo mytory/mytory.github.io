@@ -1,6 +1,6 @@
 ---
 title: '[링크] CSS의 &#8220;ime-mode&#8221; 속성에 대하여'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/341
 aktt_notify_twitter:

@@ -1,6 +1,6 @@
 ---
 title: python에서 utf-8로 한글 사용하기
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/13172
 mytory_md_path:

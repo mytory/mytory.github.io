@@ -1,6 +1,6 @@
 ---
 title: '[이클립스] 압타나 jQuery 코드 어시스트 켜기'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/565
 aktt_notify_twitter:

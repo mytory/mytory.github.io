@@ -1,6 +1,6 @@
 ---
 title: '[우분투] 버추얼박스에서 USB 장치 인식시키기'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1672
 aktt_notify_twitter:

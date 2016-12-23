@@ -1,6 +1,6 @@
 ---
 title: 라즈베리 파이, 서버로 쓸 때 뭘 사면 될까?
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/12529
 mytory_md_path:

@@ -1,6 +1,6 @@
 ---
 title: 워드프레스 플러그인 만들기 기본 개념
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/3225
 aktt_notify_twitter:

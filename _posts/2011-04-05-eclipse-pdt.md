@@ -1,6 +1,6 @@
 ---
 title: '[Eclipse PDT] &lt;?php 에서 php 안 나오게 하고 &lt;?만 나오게 하기(헬리오스 &#8211; 3.6버전만 됨)'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1073
 aktt_notify_twitter:

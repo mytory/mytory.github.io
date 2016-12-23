@@ -1,6 +1,6 @@
 ---
 title: '[링크:영어] 괜찮은 아이콘 모음'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/418
 aktt_notify_twitter:

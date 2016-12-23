@@ -1,6 +1,6 @@
 ---
 title: '[읽을 책]크리에이티브 디자이너를 위한 웹표준'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/654
 aktt_notify_twitter:

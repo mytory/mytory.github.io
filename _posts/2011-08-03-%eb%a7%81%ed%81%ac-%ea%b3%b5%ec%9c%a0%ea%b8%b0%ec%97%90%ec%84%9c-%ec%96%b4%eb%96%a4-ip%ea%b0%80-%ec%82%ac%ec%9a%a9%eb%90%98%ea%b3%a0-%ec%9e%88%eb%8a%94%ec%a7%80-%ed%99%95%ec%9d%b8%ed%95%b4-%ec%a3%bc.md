@@ -1,6 +1,6 @@
 ---
 title: '[링크] 공유기에서 어떤 IP가 사용되고 있는지 확인해 주는 프로그램 (리눅스 것도 있음)'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1545
 aktt_notify_twitter:

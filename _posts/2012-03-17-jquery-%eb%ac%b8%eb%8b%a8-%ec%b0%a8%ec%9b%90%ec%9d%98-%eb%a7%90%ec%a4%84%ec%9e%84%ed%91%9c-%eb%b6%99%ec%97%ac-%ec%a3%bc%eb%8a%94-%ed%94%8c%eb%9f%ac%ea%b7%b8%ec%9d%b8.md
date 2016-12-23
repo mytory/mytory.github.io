@@ -1,6 +1,6 @@
 ---
 title: '[jQuery] 문단 차원으로 말줄임표 붙여 주는 플러그인'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/2325
 aktt_notify_twitter:

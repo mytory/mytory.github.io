@@ -1,6 +1,6 @@
 ---
 title: '[PHP]에러 메시지 출력이 안 되게 돼 있을 때 &#8211; 1.에러 설정 강제 변환 2.커스텀 에러 핸들러'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/456
 aktt_notify_twitter:

@@ -1,6 +1,6 @@
 ---
 title: '네이버 랩 포토에디터 &#8211; 웹에서 사진/이미지 편집하는 사이트/API'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/175
 aktt_notify_twitter:

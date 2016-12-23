@@ -1,6 +1,6 @@
 ---
 title: '[링크] 아이폰과 안드로이드와 앱에 대한 통찰을 담은 글'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/670
 aktt_notify_twitter:

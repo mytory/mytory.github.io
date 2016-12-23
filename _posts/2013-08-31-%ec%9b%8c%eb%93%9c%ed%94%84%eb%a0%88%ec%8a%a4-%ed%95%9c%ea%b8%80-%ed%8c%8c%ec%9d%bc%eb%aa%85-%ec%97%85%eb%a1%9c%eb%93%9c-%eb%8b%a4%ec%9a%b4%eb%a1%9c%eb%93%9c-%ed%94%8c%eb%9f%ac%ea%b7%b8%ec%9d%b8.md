@@ -1,6 +1,6 @@
 ---
 title: 워드프레스 한글 첨부 파일명 플러그인 wordpress uploading downloading non-latin filename
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/3309
 categories:

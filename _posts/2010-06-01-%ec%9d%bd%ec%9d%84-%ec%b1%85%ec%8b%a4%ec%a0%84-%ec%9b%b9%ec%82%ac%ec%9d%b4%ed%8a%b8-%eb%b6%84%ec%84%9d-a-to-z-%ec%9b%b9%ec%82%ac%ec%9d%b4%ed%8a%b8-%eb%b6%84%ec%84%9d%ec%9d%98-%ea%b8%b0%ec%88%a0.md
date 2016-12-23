@@ -1,6 +1,6 @@
 ---
 title: '[읽을 책]실전 웹사이트 분석 A TO Z, 웹사이트 분석의 기술'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/632
 aktt_notify_twitter:

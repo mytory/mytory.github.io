@@ -1,6 +1,6 @@
 ---
 title: '[CSS] 박스 쉐도우 box-shadow 그림자 넣기'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/637
 aktt_notify_twitter:

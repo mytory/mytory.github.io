@@ -1,6 +1,6 @@
 ---
 title: '[링크]윈도우7 폴더 최적화로 내용을 빠르게 표시하기'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/439
 aktt_notify_twitter:

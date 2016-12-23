@@ -1,6 +1,6 @@
 ---
 title: IE 구버전 모음 (iecollection)
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/36
 aktt_notify_twitter:

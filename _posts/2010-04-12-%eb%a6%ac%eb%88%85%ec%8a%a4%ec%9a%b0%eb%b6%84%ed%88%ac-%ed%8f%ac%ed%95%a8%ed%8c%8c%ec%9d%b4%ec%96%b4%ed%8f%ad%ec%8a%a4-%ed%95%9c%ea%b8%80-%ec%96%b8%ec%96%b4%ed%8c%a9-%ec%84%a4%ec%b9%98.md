@@ -1,6 +1,6 @@
 ---
 title: '[리눅스(우분투 포함)]파이어폭스 한글 언어팩 설치'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/491
 aktt_notify_twitter:

@@ -1,6 +1,6 @@
 ---
 title: jQuery.log(msg) 플러그인을 만들어 봤다
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/2107
 aktt_notify_twitter:

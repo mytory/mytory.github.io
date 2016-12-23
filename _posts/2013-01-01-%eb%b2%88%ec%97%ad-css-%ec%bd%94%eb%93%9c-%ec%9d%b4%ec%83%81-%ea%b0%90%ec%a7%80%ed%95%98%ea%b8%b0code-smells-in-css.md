@@ -1,6 +1,6 @@
 ---
 title: '[번역] CSS 코드 이상 감지하기(Code smells in CSS)'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/8982
 daumview_id:

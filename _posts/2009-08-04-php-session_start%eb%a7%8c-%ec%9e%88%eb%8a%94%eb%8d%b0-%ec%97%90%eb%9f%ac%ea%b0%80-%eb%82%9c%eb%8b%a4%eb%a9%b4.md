@@ -1,6 +1,6 @@
 ---
 title: php session_start()만 있는데 에러가 난다면?
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/12
 aktt_notify_twitter:

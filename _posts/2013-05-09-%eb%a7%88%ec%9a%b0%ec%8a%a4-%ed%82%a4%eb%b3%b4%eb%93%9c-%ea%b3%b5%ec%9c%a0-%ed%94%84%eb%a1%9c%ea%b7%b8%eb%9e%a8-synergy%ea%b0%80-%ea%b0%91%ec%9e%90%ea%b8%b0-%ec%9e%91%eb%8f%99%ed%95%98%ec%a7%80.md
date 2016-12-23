@@ -1,6 +1,6 @@
 ---
 title: 마우스 키보드 공유 프로그램, Synergy가 갑자기 작동하지 않을 때 체크할 것
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/10098
 daumview_id:

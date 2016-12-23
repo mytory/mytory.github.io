@@ -1,6 +1,6 @@
 ---
 title: '[링크] 보스턴 글로브 웹사이트에 적용된 반응형 웹디자인 기술 소개 글'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1828
 aktt_notify_twitter:

@@ -1,6 +1,6 @@
 ---
 title: '한글만 찾아서 escape하기 &#8211; javascript replace 함수 사용'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1790
 aktt_notify_twitter:

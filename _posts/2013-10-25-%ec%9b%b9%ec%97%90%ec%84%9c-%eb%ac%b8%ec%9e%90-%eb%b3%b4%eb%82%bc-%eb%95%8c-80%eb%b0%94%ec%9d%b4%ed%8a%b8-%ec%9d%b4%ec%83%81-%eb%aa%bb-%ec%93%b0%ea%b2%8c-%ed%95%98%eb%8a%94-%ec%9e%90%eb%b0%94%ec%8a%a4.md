@@ -1,6 +1,6 @@
 ---
 title: 웹에서 문자 보낼 때 80바이트 이상 못 쓰게 하는 자바스크립트
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/11557
 mytory_md_path:

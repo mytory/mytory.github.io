@@ -1,6 +1,6 @@
 ---
 title: 아이폰 액정을 사설 수리점(애플SC)에서 고치다
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/8685
 daumview_id:

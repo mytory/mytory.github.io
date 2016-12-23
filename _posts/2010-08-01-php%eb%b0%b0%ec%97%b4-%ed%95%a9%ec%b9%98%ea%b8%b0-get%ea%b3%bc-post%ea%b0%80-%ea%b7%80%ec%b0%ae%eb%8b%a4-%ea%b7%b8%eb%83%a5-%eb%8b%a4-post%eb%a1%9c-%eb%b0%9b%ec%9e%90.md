@@ -1,6 +1,6 @@
 ---
 title: '[PHP]배열 합치기 &#8211; GET과 POST가 귀찮다, 그냥 다 POST로 받자?!'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/716
 aktt_notify_twitter:

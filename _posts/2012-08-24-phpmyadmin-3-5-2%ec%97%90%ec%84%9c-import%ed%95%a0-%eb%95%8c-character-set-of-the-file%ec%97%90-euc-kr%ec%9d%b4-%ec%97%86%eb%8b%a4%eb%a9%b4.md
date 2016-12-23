@@ -1,6 +1,6 @@
 ---
 title: phpMyAdmin 3.5.2에서 import할 때 Character set of the file에 euc-kr이 없다면
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/3162
 aktt_notify_twitter:

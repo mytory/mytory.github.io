@@ -1,6 +1,6 @@
 ---
 title: '[워드프레스 코드조각] 잠긴글 앞에 붙는 &#8216;잠긴 글&#8217;이라는 글자 떼고 아이콘 붙이기'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/10517
 daumview_id:

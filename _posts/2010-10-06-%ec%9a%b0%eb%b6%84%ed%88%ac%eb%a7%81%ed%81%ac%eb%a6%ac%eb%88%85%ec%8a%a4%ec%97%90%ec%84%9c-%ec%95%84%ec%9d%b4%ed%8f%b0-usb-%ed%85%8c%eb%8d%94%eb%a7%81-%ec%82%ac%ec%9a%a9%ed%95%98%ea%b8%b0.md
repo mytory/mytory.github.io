@@ -1,6 +1,6 @@
 ---
 title: '[우분투:링크]리눅스에서 아이폰 USB 테더링 사용하기'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/779
 aktt_notify_twitter:

@@ -1,6 +1,6 @@
 ---
 title: phpThumb를 이용해 이미지 글자 만들기
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1328
 aktt_notify_twitter:

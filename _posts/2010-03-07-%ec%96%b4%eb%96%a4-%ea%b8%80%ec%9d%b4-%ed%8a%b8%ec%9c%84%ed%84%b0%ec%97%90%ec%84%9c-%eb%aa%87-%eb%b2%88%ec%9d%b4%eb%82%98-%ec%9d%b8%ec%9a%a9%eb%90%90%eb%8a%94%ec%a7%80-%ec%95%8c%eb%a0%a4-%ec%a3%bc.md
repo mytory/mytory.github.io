@@ -1,6 +1,6 @@
 ---
 title: 어떤 글이 트위터에서 몇 번이나 인용됐는지 알려 주는 사이트(유료. 14일 체험판 제공)
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/350
 aktt_notify_twitter:

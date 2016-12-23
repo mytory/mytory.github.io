@@ -1,6 +1,6 @@
 ---
 title: '[javascript/jQuery] 키보드로 이벤트 핸들링할 때 input과 textarea에서 작동하지 않도록 만들기'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/324
 aktt_notify_twitter:

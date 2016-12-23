@@ -1,6 +1,6 @@
 ---
 title: '[번역:phpThumb] phpThumb FAQ(1)'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/474
 aktt_notify_twitter:

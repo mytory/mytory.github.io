@@ -1,6 +1,6 @@
 ---
 title: 구글 아날리틱스에서 하위 도메인(혹은 폴더)을 추가로 추적하고 싶은데, 추가로 추적코드를 삽입하지 않아도 되게 하는 방법
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1210
 aktt_notify_twitter:

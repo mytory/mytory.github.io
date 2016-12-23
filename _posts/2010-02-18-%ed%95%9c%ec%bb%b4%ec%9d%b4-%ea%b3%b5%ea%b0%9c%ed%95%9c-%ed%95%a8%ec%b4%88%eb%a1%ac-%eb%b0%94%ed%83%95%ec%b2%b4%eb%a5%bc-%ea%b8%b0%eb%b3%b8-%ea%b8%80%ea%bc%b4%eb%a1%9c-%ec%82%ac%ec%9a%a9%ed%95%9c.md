@@ -1,6 +1,6 @@
 ---
 title: 한컴이 공개한 함초롬 바탕체를 기본 글꼴로 사용한 소감
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/298
 aktt_notify_twitter:

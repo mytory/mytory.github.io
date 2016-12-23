@@ -1,6 +1,6 @@
 ---
 title: ie에서 AlphaImageLoader를 사용한 png 이미지가 보이지 않으면, 그건 바로 https 때문
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/617
 aktt_notify_twitter:

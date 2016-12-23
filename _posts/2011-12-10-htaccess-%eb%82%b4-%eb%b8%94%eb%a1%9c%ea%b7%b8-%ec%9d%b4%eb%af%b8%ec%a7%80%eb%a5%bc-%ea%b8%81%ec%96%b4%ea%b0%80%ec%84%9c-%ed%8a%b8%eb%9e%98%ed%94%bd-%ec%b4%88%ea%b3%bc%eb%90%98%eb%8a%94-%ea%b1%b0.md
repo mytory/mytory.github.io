@@ -1,6 +1,6 @@
 ---
 title: '[.htaccess] 누가 내 블로그 이미지를 긁어가서 트래픽 초과되는 거 방지하기 (설치형 블로그)'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/2002
 aktt_notify_twitter:

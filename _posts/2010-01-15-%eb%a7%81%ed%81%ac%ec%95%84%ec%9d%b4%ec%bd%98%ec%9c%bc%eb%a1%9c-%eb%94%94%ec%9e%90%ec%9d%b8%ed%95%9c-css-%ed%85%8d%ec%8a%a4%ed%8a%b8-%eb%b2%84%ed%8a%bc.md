@@ -1,6 +1,6 @@
 ---
 title: '[링크]아이콘으로 디자인한 CSS 텍스트 버튼'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/228
 aktt_notify_twitter:

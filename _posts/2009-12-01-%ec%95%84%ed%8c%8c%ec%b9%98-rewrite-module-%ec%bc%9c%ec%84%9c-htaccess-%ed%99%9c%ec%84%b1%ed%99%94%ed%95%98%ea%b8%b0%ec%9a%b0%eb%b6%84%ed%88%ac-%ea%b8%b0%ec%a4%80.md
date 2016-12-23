@@ -1,6 +1,6 @@
 ---
 title: 아파치 rewrite module 켜서 .htaccess 활성화하기(우분투 기준)
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/108
 aktt_notify_twitter:

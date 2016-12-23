@@ -1,6 +1,6 @@
 ---
 title: js와 iframe 없는 가벼운 트위터 공유 버튼
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/11702
 mytory_md_path:

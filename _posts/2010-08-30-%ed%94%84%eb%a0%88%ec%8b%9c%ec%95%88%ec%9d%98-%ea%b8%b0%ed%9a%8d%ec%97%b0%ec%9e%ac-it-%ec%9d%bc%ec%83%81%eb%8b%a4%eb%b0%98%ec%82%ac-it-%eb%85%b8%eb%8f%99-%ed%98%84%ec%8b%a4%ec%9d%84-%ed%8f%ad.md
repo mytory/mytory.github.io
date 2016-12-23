@@ -1,6 +1,6 @@
 ---
 title: '프레시안의 기획연재 &#8211; IT 일상다반사, IT 노동 현실을 폭로한다'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/757
 aktt_notify_twitter:

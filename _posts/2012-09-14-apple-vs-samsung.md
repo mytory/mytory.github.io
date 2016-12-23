@@ -1,6 +1,6 @@
 ---
 title: 애플과 삼성, 창조와 모방
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/3265
 categories:

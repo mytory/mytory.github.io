@@ -1,6 +1,6 @@
 ---
 title: '[CSS] 텍스트가 넘치면 말줄임표 붙여 주기 &#8211; CSS로 된다니!'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/639
 aktt_notify_twitter:

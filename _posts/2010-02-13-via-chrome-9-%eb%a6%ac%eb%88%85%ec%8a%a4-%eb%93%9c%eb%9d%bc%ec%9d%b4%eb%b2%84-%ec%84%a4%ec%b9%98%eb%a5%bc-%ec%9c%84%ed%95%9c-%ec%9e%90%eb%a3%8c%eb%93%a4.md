@@ -1,6 +1,6 @@
 ---
 title: via chrome 9 리눅스 드라이버 설치를 위한 자료들
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/275
 aktt_notify_twitter:

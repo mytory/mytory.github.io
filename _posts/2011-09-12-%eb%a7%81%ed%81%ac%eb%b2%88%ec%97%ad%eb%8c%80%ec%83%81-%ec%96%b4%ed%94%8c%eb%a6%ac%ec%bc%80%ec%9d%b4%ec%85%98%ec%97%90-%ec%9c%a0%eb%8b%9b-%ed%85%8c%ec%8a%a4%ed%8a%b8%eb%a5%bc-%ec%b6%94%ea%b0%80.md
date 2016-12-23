@@ -1,6 +1,6 @@
 ---
 title: '[링크:번역대상] 어플리케이션에 유닛 테스트를 추가하는 가장 쉬운 방법'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1781
 aktt_notify_twitter:

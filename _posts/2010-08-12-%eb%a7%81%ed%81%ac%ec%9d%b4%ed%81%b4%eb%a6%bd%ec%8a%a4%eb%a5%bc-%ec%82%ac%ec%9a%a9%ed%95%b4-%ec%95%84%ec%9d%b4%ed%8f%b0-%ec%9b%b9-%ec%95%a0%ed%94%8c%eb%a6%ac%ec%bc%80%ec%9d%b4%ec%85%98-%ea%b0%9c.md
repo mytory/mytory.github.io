@@ -1,6 +1,6 @@
 ---
 title: '[링크]이클립스를 사용해 아이폰 웹 애플리케이션 개발하기 (한글)'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/745
 aktt_notify_twitter:

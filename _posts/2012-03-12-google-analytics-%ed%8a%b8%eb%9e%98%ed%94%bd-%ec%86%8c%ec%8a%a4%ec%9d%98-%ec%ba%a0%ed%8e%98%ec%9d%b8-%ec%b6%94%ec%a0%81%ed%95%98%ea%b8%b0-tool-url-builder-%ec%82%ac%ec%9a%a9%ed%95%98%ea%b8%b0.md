@@ -1,6 +1,6 @@
 ---
 title: '[Google Analytics] 트래픽 소스의 캠페인 추적하기 &#8211; Tool: URL Builder 사용하기'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/2318
 aktt_notify_twitter:

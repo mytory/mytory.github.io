@@ -1,6 +1,6 @@
 ---
 title: 네이버 데뷰2009 참가기(5) 데브피아와 nFORGE
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/52
 aktt_notify_twitter:

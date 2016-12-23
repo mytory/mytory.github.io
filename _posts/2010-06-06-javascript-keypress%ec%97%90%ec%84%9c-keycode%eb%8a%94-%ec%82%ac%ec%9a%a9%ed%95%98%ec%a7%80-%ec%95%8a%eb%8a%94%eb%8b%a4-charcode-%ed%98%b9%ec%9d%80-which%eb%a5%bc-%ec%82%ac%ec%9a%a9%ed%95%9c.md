@@ -1,6 +1,6 @@
 ---
 title: '[javascript] keypress에서 keyCode는 사용하지 않는다. charCode 혹은 which를 사용한다.'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/658
 aktt_notify_twitter:

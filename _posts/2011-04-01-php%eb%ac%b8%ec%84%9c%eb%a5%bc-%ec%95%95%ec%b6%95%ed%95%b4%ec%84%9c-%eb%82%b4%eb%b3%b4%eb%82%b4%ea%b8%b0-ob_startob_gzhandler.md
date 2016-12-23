@@ -1,6 +1,6 @@
 ---
 title: 'PHP문서를 압축해서 내보내기 &#8211; ob_start(&#8220;ob_gzhandler&#8221;)'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1050
 aktt_notify_twitter:

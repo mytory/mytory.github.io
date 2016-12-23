@@ -1,6 +1,6 @@
 ---
 title: '[번역] 구글 맞춤 검색, 검색결과를 커스터마이징 하기(데이터 렌더링 서비스)'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/504
 aktt_notify_twitter:

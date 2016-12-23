@@ -1,6 +1,6 @@
 ---
 title: '[fancyBox2] 모바일 문제 해결하기 &#8211; 위치가 이상해지는 것'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/2634
 aktt_notify_twitter:

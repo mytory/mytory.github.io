@@ -1,6 +1,6 @@
 ---
 title: '[워드프레스] 로그인 시도 제한 플러그인 Limit Login Attempts 한글 언어 파일'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/9924
 daumview_id:

@@ -1,6 +1,6 @@
 ---
 title: 웹 form의 스타일을 통일해 주는 자바스크립트 라이브러리
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1515
 aktt_notify_twitter:

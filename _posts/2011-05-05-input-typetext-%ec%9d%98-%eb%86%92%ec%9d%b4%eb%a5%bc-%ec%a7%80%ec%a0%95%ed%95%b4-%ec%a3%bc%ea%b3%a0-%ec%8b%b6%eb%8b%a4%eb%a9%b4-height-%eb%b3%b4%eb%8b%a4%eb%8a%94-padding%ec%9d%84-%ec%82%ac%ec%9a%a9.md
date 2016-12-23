@@ -1,6 +1,6 @@
 ---
 title: input type=text 의 높이를 지정해 주고 싶다면 height 보다는 padding을 사용하라
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1207
 aktt_notify_twitter:

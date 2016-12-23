@@ -1,6 +1,6 @@
 ---
 title: 'SVG 활용 4 &#8211; 미지원 브라우저 대응'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/11338
 categories:

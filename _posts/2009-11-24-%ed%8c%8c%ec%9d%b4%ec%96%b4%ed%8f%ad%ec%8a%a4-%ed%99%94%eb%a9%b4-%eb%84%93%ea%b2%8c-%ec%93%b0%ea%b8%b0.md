@@ -1,6 +1,6 @@
 ---
 title: 파이어폭스 화면 넓게 쓰기
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/95
 aktt_notify_twitter:

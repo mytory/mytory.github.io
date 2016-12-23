@@ -1,6 +1,6 @@
 ---
 title: '[링크]인터넷서점 알라딘, ActiveX 폐기 선언!'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/177
 aktt_notify_twitter:

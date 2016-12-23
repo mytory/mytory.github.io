@@ -1,6 +1,6 @@
 ---
 title: '[저가형 리뷰] 추천하는 싼 아이폰/아이패드 블루투스 키보드 &#8211; 아이매직 YH001 (갤럭시 가능)'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/3094
 aktt_notify_twitter:

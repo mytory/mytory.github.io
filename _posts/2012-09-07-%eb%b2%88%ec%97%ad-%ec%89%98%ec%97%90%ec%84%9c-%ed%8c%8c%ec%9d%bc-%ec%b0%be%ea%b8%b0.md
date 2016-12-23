@@ -1,6 +1,6 @@
 ---
 title: '[번역] 쉘에서 파일 찾기'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/3242
 aktt_notify_twitter:

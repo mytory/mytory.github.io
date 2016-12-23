@@ -1,6 +1,6 @@
 ---
 title: '[링크]Javascript Array의 유용한 메소드들'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/232
 aktt_notify_twitter:

@@ -1,6 +1,6 @@
 ---
 title: '[javascript] 배열에서 요소를 제거하고 선택하는 함수 splice()'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/308
 aktt_notify_twitter:

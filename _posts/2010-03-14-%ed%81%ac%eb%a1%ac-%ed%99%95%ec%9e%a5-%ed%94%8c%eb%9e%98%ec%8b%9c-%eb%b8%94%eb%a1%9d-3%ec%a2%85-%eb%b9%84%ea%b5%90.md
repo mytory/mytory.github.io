@@ -1,6 +1,6 @@
 ---
 title: '[크롬 확장] 플래시 블록 3종 비교'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/396
 aktt_notify_twitter:

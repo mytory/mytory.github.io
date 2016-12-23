@@ -1,6 +1,6 @@
 ---
 title: '[PHP]올림, 반올림, 내림(정수화)'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/591
 aktt_notify_twitter:

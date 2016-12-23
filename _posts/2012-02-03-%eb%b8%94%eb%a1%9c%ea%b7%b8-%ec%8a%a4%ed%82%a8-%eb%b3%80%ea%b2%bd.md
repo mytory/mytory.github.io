@@ -1,6 +1,6 @@
 ---
 title: Twenty Eleven 테마(유동형 레이아웃, 1단 가능)로 블로그 스킨 변경한 후 커스터마이징 했습니다
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/2159
 aktt_notify_twitter:

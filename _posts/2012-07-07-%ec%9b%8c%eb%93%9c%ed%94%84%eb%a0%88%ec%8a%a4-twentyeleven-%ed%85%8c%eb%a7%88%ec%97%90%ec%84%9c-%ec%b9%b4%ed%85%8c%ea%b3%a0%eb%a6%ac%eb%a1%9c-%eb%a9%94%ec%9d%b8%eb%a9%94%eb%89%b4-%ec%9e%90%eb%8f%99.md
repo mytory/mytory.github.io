@@ -1,6 +1,6 @@
 ---
 title: '[워드프레스] TwentyEleven 테마에서 카테고리로 메인메뉴 자동 생성하기'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/3000
 aktt_notify_twitter:

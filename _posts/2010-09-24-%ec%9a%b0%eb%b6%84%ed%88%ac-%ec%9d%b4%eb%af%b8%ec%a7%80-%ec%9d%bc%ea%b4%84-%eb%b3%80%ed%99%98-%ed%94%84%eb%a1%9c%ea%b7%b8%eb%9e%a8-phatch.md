@@ -1,6 +1,6 @@
 ---
 title: '[우분투] 이미지 일괄 변환 프로그램 phatch'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/773
 aktt_notify_twitter:

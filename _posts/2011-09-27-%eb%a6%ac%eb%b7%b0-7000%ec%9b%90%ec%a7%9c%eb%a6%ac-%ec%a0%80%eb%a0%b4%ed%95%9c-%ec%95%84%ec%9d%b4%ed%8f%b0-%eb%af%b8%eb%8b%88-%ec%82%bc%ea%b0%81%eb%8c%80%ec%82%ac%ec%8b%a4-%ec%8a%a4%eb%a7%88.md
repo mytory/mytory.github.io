@@ -1,6 +1,6 @@
 ---
 title: '[리뷰] 7000원짜리 저렴한 아이폰 미니 삼각대(사실 스마트폰,일반폰,디카 다 되는 삼각대)'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1859
 aktt_notify_twitter:

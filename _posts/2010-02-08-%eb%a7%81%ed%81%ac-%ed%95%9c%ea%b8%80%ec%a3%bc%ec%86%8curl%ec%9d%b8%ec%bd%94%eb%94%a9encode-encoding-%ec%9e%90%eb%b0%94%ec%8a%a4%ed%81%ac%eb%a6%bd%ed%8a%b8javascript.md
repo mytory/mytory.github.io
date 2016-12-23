@@ -1,6 +1,6 @@
 ---
 title: '[링크] 한글주소(URL)인코딩(encode, Encoding), 자바스크립트(JavaScript)'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/258
 aktt_notify_twitter:

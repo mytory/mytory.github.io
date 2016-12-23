@@ -1,6 +1,6 @@
 ---
 title: '[아이폰4] Black UPS Dialer 테마 kuaidial 한글 키패드'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1203
 aktt_notify_twitter:

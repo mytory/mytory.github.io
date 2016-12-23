@@ -1,6 +1,6 @@
 ---
 title: '[링크]사람을 위한 자동화:코드 리팩토링'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/586
 aktt_notify_twitter:

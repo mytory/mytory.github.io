@@ -1,6 +1,6 @@
 ---
 title: '[아이폰4]페이스타임 활성화 대기중이라고 나올 때'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/775
 aktt_notify_twitter:

@@ -1,6 +1,6 @@
 ---
 title: Javascript로 문서 수정하기(DOM Script) 간단 예제
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/41
 aktt_notify_twitter:

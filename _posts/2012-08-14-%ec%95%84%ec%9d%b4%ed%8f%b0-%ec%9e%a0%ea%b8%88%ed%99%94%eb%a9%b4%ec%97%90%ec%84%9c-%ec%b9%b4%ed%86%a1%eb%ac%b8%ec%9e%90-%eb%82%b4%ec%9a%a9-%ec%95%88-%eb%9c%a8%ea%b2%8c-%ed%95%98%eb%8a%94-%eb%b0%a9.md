@@ -1,6 +1,6 @@
 ---
 title: 아이폰 잠금화면에서 카톡/문자 내용 안 뜨게 하는 방법
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/3154
 aktt_notify_twitter:

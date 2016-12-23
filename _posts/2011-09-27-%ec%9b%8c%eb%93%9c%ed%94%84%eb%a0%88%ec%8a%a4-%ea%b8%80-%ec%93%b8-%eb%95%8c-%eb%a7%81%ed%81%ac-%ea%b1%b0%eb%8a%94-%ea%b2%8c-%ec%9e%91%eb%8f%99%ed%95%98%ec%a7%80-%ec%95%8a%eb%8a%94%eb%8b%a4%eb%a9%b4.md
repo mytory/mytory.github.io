@@ -1,6 +1,6 @@
 ---
 title: 워드프레스 글 쓸 때 링크 거는 게 작동하지 않는다면?
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1863
 aktt_notify_twitter:

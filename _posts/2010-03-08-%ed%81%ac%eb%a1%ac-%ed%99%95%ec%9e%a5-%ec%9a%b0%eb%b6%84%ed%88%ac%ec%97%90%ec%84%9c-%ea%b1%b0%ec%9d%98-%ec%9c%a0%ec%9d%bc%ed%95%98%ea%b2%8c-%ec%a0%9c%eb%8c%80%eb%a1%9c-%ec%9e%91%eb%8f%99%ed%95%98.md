@@ -1,6 +1,6 @@
 ---
 title: '[추천] 우분투에서 제대로 작동하는 마우스 제스쳐인 chrome pig toolbox'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/371
 categories:

@@ -1,6 +1,6 @@
 ---
 title: '[TIP] 크롬 확장, iReader 한글 글꼴 고치기'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/10219
 categories:

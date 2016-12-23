@@ -1,6 +1,6 @@
 ---
 title: '[링크] 구글 크롬의 탭 닫기 버튼의 사용자 배려'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/208
 aktt_notify_twitter:

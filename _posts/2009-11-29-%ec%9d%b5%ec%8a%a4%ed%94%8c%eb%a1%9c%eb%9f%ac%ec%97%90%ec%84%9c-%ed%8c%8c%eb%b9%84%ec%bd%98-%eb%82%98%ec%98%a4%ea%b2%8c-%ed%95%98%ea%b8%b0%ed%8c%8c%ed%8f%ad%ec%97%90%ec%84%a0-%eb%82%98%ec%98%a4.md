@@ -1,6 +1,6 @@
 ---
 title: 익스플로러에서 파비콘 나오게 하기(파폭에선 나오는데 익스에선 안나올 경우)
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/100
 aktt_notify_twitter:

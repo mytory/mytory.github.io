@@ -1,6 +1,6 @@
 ---
 title: '[tip] 페이지 하단에 깜빡거리는 배너 광고 &#8211; realclick 정지시키기'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/667
 aktt_notify_twitter:

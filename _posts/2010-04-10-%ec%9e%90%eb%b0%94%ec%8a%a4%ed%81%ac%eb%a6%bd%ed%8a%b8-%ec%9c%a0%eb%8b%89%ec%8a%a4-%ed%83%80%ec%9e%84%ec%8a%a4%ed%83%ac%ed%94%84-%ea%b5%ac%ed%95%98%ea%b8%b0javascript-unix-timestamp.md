@@ -1,6 +1,6 @@
 ---
 title: 자바스크립트, 유닉스 타임스탬프 구하기(javascript unix timestamp)
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/489
 aktt_notify_twitter:

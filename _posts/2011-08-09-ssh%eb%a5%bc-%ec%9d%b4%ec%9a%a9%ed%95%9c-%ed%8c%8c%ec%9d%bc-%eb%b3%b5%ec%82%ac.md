@@ -1,6 +1,6 @@
 ---
 title: 'ssh를 이용한 파일 복사 scp &#8211; 암호 없이 복사하는 방법도.'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1144
 aktt_notify_twitter:

@@ -1,6 +1,6 @@
 ---
 title: '[번역] 구글 아날리틱스 PHP Class'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1469
 aktt_notify_twitter:

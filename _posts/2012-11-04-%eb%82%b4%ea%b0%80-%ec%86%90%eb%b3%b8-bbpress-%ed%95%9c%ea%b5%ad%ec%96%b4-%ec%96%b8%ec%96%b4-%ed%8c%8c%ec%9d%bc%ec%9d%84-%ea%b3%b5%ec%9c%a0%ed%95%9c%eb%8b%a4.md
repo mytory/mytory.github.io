@@ -1,6 +1,6 @@
 ---
 title: 내가 손본 bbPress 한국어 언어 파일을 공유한다
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/4942
 aktt_notify_twitter:

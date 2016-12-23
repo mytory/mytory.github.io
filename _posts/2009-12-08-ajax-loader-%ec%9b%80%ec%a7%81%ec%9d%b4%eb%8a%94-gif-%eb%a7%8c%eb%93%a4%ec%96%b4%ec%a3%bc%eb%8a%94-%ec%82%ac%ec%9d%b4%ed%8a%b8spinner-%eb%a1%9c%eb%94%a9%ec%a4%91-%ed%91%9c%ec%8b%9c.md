@@ -1,6 +1,6 @@
 ---
 title: ajax loader 움직이는 gif 만들어주는 사이트(spinner, 로딩중 표시)
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/115
 aktt_notify_twitter:

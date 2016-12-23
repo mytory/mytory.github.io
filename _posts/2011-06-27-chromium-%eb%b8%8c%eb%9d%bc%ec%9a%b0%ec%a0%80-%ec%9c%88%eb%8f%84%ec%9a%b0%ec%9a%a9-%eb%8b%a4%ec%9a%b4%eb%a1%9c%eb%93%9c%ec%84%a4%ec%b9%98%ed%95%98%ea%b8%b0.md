@@ -1,6 +1,6 @@
 ---
 title: Chromium 브라우저 윈도우용 다운로드/설치하기
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1384
 aktt_notify_twitter:

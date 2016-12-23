@@ -1,6 +1,6 @@
 ---
 title: 나눔고딕으로 Cufon 적용 후, 나눔고딕이나 맑은 고딕이 있는 사람에게는 적용하지 않기
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1169
 aktt_notify_twitter:

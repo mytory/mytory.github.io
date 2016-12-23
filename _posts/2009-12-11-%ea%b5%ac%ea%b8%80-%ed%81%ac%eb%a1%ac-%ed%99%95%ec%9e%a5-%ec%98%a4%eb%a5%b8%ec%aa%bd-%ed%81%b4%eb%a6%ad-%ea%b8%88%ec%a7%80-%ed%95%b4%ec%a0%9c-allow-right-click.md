@@ -1,6 +1,6 @@
 ---
 title: '구글 크롬 확장 &#8211; 오른쪽 클릭 금지 해제 allow right click'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/122
 aktt_notify_twitter:

@@ -1,6 +1,6 @@
 ---
 title: '[jQuery] Select2 라이브러리 &#8211; 선택만이 아니라 입력도 할 수 있게 하기'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/9444
 daumview_id:

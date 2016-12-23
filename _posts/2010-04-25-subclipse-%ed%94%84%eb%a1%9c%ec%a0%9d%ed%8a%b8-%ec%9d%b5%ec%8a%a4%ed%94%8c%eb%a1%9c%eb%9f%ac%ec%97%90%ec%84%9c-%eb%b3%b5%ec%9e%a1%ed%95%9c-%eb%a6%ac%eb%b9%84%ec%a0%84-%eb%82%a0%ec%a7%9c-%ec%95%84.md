@@ -1,6 +1,6 @@
 ---
 title: subclipse 프로젝트 익스플로러에서 복잡한 리비전 날짜, 아이디 안 보이게 하기
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/534
 aktt_notify_twitter:

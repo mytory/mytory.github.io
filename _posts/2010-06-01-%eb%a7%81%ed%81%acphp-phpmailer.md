@@ -1,6 +1,6 @@
 ---
 title: '[링크:PHP] phpmailer'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/631
 aktt_notify_twitter:

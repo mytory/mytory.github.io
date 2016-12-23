@@ -1,6 +1,6 @@
 ---
 title: 사내 메신저 서버 오픈파이어의 관리자 비번을 까먹었을 때
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/2328
 aktt_notify_twitter:

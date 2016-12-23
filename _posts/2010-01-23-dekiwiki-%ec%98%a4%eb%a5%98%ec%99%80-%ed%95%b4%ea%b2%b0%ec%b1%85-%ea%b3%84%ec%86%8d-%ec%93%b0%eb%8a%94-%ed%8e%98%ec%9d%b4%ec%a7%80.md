@@ -1,6 +1,6 @@
 ---
 title: dekiwiki 오류와 해결책 계속 쓰는 페이지
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/233
 aktt_notify_twitter:

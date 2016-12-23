@@ -1,6 +1,6 @@
 ---
 title: '[워드프레스 플러그인] 내 트위터를 다 모아 주는 Tweet Collection'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/10433
 daumview_id:

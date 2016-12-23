@@ -1,6 +1,6 @@
 ---
 title: '[TIP] 어디서나 등장하는 Feedly 공유 아이콘 날려 버리기'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/10216
 daumview_id:

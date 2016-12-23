@@ -1,6 +1,6 @@
 ---
 title: '[링크]WTP의 Server View 사용하기'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/262
 aktt_notify_twitter:

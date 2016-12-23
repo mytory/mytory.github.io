@@ -1,6 +1,6 @@
 ---
 title: '[번역] CSS와 jQuery를 이용한 메가 드롭 다운 메뉴 튜토리얼'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1488
 aktt_notify_twitter:

@@ -1,6 +1,6 @@
 ---
 title: 구글 언어 API를 이용해서 input type=text에 있는 글 제목 자동으로 번역해 넣기
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/83
 aktt_notify_twitter:

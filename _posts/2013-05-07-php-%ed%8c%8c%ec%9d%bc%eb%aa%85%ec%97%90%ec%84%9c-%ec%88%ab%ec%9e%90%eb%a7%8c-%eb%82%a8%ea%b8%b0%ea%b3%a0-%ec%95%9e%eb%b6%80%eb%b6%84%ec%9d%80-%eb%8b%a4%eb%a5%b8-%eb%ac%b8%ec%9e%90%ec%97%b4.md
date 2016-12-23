@@ -1,6 +1,6 @@
 ---
 title: '[PHP] 파일명에서 숫자만 남기고 앞부분은 다른 문자열 붙여 주는 스크립트'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/10085
 daumview_id:

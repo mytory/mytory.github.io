@@ -1,6 +1,6 @@
 ---
 title: '[링크]IE6 커닝 페이퍼: IE6 버그 25+ 해결하는 방법'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/131
 aktt_notify_twitter:

@@ -1,6 +1,6 @@
 ---
 title: '[링크]우분투 10.04에서 trac과 svn 설치/설정하기'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/614
 aktt_notify_twitter:

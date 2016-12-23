@@ -1,6 +1,6 @@
 ---
 title: '[구글 아날리틱스] 아주 간단하게 외부 링크와 다운로드 추적하기'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/2279
 aktt_notify_twitter:

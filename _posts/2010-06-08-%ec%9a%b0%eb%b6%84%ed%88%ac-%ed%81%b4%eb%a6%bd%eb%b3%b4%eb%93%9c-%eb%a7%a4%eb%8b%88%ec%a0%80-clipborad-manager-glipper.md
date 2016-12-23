@@ -1,6 +1,6 @@
 ---
 title: '[우분투] 클립보드 매니저 clipborad manager &#8211; glipper'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/664
 aktt_notify_twitter:

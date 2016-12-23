@@ -1,6 +1,6 @@
 ---
 title: '[PHP] preg_match_all 함수 사용법'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/3252
 aktt_notify_twitter:

@@ -1,6 +1,6 @@
 ---
 title: 우분투 64bit에 adobe air 설치하기
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1409
 aktt_notify_twitter:

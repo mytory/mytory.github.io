@@ -1,6 +1,6 @@
 ---
 title: javascript, 숫자 앞에 0 채워 주는 함수
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/393
 aktt_notify_twitter:

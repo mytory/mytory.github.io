@@ -1,6 +1,6 @@
 ---
 title: lvm 수동 마운트해서 grub 복구하기
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/13141
 mytory_md_path:

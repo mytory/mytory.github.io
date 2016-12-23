@@ -1,6 +1,6 @@
 ---
 title: 그리스몽키 GreaseMonkey로 워드프레스 태그 전체를 삭제하는 방법
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/2988
 aktt_notify_twitter:

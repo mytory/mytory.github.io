@@ -1,6 +1,6 @@
 ---
 title: jquery와 플래시를 이용한 다중 파일 업로드
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/347
 aktt_notify_twitter:

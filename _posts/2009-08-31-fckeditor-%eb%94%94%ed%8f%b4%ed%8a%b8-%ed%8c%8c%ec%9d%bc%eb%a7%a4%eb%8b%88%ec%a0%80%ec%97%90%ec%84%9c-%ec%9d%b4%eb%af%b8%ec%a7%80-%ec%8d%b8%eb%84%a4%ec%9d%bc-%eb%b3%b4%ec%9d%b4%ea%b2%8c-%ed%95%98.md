@@ -1,6 +1,6 @@
 ---
 title: fckeditor, 디폴트 파일매니저에서 이미지 썸네일 보이게 하는 방법
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/28
 aktt_notify_twitter:

@@ -1,6 +1,6 @@
 ---
 title: 블로그 이미지를 dropbox public 폴더에 넣으면 트래픽을 절약할 수 있다
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/2314
 aktt_notify_twitter:

@@ -1,6 +1,6 @@
 ---
 title: '[번역] 자바스크립트 파싱 시점을 늦춰 페이지 체감 속도를 높이는 방법 &#8211; Defer Loading Javascript'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1225
 aktt_notify_twitter:

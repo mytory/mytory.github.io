@@ -1,6 +1,6 @@
 ---
 title: '[프리웨어]동영상을 플래시로 바꿔주는 프로그램'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/75
 aktt_notify_twitter:

@@ -1,6 +1,6 @@
 ---
 title: '[크롬] 개발자 도구에서 아작스 추적 활성화하기'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/2043
 aktt_notify_twitter:

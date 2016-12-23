@@ -1,6 +1,6 @@
 ---
 title: 우분투 이클립스와 톰캣 연동 후기
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/255
 aktt_notify_twitter:

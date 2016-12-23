@@ -1,6 +1,6 @@
 ---
 title: 오픈소스 애자일/스크럼 프로젝트 관리 툴, iceScrum 기본 개념과 사용법 익히기
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/11279
 mytory_markdown_html:

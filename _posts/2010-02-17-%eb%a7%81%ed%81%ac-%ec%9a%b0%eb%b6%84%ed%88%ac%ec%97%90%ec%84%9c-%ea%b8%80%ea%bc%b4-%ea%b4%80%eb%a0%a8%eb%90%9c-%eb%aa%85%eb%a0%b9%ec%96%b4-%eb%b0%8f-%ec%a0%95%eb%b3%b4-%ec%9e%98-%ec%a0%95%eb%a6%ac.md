@@ -1,6 +1,6 @@
 ---
 title: '[링크] 우분투에서 글꼴 관련된 명령어 및 정보 잘 정리된 것'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/281
 aktt_notify_twitter:

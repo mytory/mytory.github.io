@@ -1,6 +1,6 @@
 ---
 title: '[워드프레스] Media Uploader를 Flash로만 사용하고 Siverlight는 사용하고 싶지 않을 때 필터'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/9254
 daumview_id:

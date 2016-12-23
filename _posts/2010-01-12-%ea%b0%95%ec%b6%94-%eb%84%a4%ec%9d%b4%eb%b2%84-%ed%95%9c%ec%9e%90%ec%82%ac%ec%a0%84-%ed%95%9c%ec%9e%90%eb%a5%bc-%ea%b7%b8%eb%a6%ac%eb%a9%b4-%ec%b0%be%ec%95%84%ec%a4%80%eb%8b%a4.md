@@ -1,6 +1,6 @@
 ---
 title: '강추, 네이버 한자사전 &#8211; 한자를 그리면 찾아준다'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/213
 aktt_notify_twitter:

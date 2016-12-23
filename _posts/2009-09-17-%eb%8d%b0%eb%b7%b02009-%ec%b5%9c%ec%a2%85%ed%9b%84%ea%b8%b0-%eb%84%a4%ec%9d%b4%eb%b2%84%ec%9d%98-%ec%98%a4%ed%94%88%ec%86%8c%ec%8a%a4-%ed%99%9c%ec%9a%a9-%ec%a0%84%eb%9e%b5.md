@@ -1,6 +1,6 @@
 ---
 title: '데뷰2009 최종후기 : 네이버의 오픈소스 활용 전략'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/55
 aktt_notify_twitter:

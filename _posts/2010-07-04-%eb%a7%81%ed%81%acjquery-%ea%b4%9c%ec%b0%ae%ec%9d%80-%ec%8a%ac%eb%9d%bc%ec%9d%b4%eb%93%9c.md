@@ -1,6 +1,6 @@
 ---
 title: '[링크]jQuery 괜찮은 슬라이드'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/704
 aktt_notify_twitter:

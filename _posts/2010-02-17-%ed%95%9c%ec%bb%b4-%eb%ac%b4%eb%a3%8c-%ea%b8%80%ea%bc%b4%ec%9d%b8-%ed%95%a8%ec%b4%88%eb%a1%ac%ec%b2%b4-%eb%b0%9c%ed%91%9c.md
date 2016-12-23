@@ -1,6 +1,6 @@
 ---
 title: 한컴, 무료 글꼴인 함초롬체 발표
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/280
 aktt_notify_twitter:

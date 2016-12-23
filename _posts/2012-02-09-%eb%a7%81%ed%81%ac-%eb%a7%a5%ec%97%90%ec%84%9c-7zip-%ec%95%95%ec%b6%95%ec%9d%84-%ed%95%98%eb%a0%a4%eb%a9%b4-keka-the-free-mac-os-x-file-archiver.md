@@ -1,6 +1,6 @@
 ---
 title: '[링크] 맥에서 7zip 압축을 하려면? Keka &#8211; the free Mac OS X file archiver'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/2190
 aktt_notify_twitter:

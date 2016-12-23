@@ -1,6 +1,6 @@
 ---
 title: javascript Date 오브젝트 활용법
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/79
 aktt_notify_twitter:

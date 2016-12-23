@@ -1,6 +1,6 @@
 ---
 title: '[자작]살짝 올린 종이 밑의 그림자 효과'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/421
 aktt_notify_twitter:

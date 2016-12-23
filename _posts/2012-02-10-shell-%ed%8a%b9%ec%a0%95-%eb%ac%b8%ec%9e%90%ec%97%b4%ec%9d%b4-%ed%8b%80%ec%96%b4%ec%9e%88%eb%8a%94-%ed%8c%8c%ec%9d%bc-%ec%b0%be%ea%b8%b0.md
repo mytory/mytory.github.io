@@ -1,6 +1,6 @@
 ---
 title: '[Shell] 특정 문자열이 들어있는 파일 찾기'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/2211
 aktt_notify_twitter:

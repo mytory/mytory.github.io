@@ -1,6 +1,6 @@
 ---
 title: 파인드 마이 프렌즈 앱으로 아내가 바람피는 것을 잡았다?
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1942
 aktt_notify_twitter:

@@ -1,6 +1,6 @@
 ---
 title: '[MySql] Select문 안에서 IF문 사용하기'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1416
 aktt_notify_twitter:

@@ -1,6 +1,6 @@
 ---
 title: '리눅스용 그림 보기 프로그램 gThumb &#8211; 리눅스용 XnView,알씨,ACDSee 같은 것을 찾는다면&#8230;'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/162
 aktt_notify_twitter:

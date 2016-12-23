@@ -1,6 +1,6 @@
 ---
 title: '[jQuery]레이어 팝업(modal window) 띄울 때 전체를 덮는 반투명 검은 막(black mask) 만들기'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/783
 aktt_notify_twitter:

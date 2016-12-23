@@ -1,6 +1,6 @@
 ---
 title: '[PHP] 배열을 URL GET 변수로 만들어 주는 함수 http_build_query'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1279
 aktt_notify_twitter:

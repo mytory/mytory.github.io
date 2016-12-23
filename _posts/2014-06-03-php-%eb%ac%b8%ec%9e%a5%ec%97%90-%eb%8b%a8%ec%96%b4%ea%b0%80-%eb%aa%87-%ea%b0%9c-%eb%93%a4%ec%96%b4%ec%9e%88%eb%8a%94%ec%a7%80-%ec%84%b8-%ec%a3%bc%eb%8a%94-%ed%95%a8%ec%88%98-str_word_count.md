@@ -1,6 +1,6 @@
 ---
 title: '[PHP] 문장에 단어가 몇 개 들어있는지 세 주는 함수 str_word_count'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/13037
 mytory_md_path:

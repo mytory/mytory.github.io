@@ -1,6 +1,6 @@
 ---
 title: '[번역:튜토리얼] HTML, CSS, jQuery로 애니메이션 그래프 만들기'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1893
 aktt_notify_twitter:

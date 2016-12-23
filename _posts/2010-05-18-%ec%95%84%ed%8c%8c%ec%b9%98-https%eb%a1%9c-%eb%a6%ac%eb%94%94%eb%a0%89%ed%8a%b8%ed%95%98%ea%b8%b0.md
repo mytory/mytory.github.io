@@ -1,6 +1,6 @@
 ---
 title: '[아파치] https로 리디렉트하기'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/603
 aktt_notify_twitter:

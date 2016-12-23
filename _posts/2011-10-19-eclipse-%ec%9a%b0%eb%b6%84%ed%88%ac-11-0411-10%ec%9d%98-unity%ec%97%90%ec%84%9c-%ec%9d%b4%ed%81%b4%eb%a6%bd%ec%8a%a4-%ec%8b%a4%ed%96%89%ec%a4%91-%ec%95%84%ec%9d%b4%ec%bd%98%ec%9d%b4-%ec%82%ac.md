@@ -1,6 +1,6 @@
 ---
 title: '[eclipse] 우분투 11.04/11.10의 Unity에서 이클립스 실행중 아이콘이 사라지는 경우'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1956
 aktt_notify_twitter:

@@ -1,6 +1,6 @@
 ---
 title: '[링크]우분투 부팅 usb 만들기'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/792
 aktt_notify_twitter:

@@ -1,6 +1,6 @@
 ---
 title: '[링크]IT와 사회과학이야기8-리눅스 성장에서 뭘 배울건가'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/133
 aktt_notify_twitter:

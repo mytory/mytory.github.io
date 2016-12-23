@@ -1,6 +1,6 @@
 ---
 title: Ubuntu에서 Kubuntu 설치하기
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/731
 aktt_notify_twitter:

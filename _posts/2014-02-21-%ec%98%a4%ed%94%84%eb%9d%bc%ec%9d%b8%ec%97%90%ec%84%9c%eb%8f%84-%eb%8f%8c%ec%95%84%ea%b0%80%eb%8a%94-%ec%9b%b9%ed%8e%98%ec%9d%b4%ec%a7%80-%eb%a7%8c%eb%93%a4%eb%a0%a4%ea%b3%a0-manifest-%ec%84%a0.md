@@ -1,6 +1,6 @@
 ---
 title: manifest 선언시 네트워크로 받을 게 다른 도메인이고 여러 개고 계속 변한다면 이렇게 하면 된다
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/12616
 mytory_md_path:

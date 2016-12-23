@@ -1,6 +1,6 @@
 ---
 title: '[링크:영어] 멋진 슬라이드 쇼를 사용한 웹사이트 50개'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1524
 aktt_notify_twitter:

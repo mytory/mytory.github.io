@@ -1,6 +1,6 @@
 ---
 title: '[링크:자바] 소켓 통신 때 서버 운영체제별 인코딩 문제 해결'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/426
 aktt_notify_twitter:

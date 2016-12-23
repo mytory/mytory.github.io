@@ -1,6 +1,6 @@
 ---
 title: '[Google Analytics] pageTracker is not defined 라는 메세지는 무엇일까?'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/2088
 aktt_notify_twitter:

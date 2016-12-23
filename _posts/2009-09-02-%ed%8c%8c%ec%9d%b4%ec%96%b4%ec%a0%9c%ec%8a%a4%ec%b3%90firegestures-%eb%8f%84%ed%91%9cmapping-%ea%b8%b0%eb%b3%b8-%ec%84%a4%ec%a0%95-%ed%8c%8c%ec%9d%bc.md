@@ -1,6 +1,6 @@
 ---
 title: 파이어제스쳐(FireGestures) 도표(Mapping) 기본 설정 파일
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/31
 aktt_notify_twitter:

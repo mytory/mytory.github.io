@@ -1,6 +1,6 @@
 ---
 title: '[링크] 아이폰용 USB 5V 10000ma 배터리팩 만들기'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/804
 aktt_notify_twitter:

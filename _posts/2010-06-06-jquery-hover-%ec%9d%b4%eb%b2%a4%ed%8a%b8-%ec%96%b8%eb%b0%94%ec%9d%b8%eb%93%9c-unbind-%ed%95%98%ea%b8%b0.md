@@ -1,6 +1,6 @@
 ---
 title: '[jQuery] hover 이벤트 언바인드 unbind 하기'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/660
 aktt_notify_twitter:

@@ -1,6 +1,6 @@
 ---
 title: '[PDF] 마이크로소프트에 실렸던 PHP 이클립스(PDT)에 대한 설명글'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/587
 aktt_notify_twitter:

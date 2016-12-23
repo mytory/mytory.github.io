@@ -1,6 +1,6 @@
 ---
 title: '[이클립스] Failed to load JavaHL Library 해결하기'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/978
 aktt_notify_twitter:

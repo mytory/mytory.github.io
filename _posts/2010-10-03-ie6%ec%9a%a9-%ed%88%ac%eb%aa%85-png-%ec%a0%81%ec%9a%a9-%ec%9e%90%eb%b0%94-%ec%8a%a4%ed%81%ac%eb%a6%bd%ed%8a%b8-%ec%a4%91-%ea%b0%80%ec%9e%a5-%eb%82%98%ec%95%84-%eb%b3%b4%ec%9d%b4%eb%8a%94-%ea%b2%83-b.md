@@ -1,6 +1,6 @@
 ---
 title: 'IE6용 투명 png 적용 자바 스크립트 중 가장 나아 보이는 것 &#8211; background 이미지까지 처리해 주는 DD_belatedPNG'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/778
 aktt_notify_twitter:

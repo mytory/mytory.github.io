@@ -1,6 +1,6 @@
 ---
 title: '[java] yyyy-MM-dd HH:mm:ss 형식 날짜를 RSS 포맷 날짜로 변경하기'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1029
 aktt_notify_twitter:

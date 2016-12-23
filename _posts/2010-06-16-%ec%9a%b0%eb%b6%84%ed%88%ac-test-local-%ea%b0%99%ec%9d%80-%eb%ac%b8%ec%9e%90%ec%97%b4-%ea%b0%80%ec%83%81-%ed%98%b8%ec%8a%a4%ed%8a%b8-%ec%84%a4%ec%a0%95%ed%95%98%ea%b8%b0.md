@@ -1,6 +1,6 @@
 ---
 title: '[우분투] test.local 같은 문자열 가상 호스트 설정하기'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/678
 aktt_notify_twitter:

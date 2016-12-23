@@ -1,6 +1,6 @@
 ---
 title: 리눅스 사운드 카드는 잡혀 있는데 소리는 안 나온다면(엄청 작게 나온다면)
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/160
 aktt_notify_twitter:

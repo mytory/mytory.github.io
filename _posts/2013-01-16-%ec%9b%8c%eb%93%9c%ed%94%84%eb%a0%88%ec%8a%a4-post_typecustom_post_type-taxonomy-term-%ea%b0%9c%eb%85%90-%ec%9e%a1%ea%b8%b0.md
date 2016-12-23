@@ -1,6 +1,6 @@
 ---
 title: 워드프레스, post_type(custom_post_type), taxonomy, term 개념
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/9176
 daumview_id:

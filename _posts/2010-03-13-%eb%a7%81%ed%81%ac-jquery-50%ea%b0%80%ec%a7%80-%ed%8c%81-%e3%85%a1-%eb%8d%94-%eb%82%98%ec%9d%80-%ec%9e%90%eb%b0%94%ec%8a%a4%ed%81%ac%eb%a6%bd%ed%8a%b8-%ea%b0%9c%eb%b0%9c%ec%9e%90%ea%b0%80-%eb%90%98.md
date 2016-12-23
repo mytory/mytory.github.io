@@ -1,6 +1,6 @@
 ---
 title: '[링크] jQuery, 50가지 팁 ㅡ 더 나은 자바스크립트 개발자가 되자'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/389
 aktt_notify_twitter:

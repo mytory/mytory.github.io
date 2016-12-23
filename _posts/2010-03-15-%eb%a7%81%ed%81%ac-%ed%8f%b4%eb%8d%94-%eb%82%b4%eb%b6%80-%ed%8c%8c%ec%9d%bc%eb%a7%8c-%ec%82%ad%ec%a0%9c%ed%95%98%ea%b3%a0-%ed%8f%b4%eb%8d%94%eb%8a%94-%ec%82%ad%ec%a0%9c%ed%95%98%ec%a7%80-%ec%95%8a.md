@@ -1,6 +1,6 @@
 ---
 title: '[링크] 폴더 내부 파일만 삭제하고 폴더는 삭제하지 않는 방법'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/403
 aktt_notify_twitter:

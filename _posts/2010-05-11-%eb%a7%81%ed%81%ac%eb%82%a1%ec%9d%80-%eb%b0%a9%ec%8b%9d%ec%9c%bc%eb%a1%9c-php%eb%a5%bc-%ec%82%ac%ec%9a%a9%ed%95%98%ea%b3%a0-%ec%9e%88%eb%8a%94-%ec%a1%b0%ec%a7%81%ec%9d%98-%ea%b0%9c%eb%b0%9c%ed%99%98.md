@@ -1,6 +1,6 @@
 ---
 title: '[링크]낡은 방식으로 PHP를 사용하고 있는 조직의 개발환경 개선 방안 구상'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/584
 aktt_notify_twitter:

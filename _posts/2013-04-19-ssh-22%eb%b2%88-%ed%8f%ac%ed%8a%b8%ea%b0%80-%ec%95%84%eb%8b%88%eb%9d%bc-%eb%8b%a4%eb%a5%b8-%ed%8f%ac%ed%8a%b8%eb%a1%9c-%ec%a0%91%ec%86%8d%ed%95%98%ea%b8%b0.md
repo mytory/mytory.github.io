@@ -1,6 +1,6 @@
 ---
 title: ssh 22번 포트가 아니라 다른 포트로 접속하기
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/9945
 daumview_id:

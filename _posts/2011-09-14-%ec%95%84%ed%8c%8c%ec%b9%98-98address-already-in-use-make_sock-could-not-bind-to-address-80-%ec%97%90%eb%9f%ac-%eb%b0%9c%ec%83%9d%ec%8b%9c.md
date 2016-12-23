@@ -1,6 +1,6 @@
 ---
 title: '[아파치] (98)Address already in use: make_sock: could not bind to address [::]:80 에러 발생시'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1797
 aktt_notify_twitter:

@@ -1,6 +1,6 @@
 ---
 title: 구글 웹마스터 도구에서 악성 코드가 발견됐다고 할 때 대처법
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/2273
 aktt_notify_twitter:

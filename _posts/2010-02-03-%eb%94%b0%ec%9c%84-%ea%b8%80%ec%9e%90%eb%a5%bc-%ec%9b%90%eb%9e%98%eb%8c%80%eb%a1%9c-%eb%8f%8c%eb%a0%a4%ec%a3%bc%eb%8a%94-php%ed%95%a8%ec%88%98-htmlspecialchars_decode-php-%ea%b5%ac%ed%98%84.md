@@ -1,6 +1,6 @@
 ---
 title: '&lt; 따위 글자를 원래대로 돌려주는 php함수 &#8211; htmlspecialchars_decode.php 구현함수'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/247
 aktt_notify_twitter:

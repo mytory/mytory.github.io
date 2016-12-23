@@ -1,6 +1,6 @@
 ---
 title: '[링크]jQuery와 FCKEditor를 연동하여 웹에디터를 구현하는 jQuery FCKEditor 플러그인 소개'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/210
 aktt_notify_twitter:

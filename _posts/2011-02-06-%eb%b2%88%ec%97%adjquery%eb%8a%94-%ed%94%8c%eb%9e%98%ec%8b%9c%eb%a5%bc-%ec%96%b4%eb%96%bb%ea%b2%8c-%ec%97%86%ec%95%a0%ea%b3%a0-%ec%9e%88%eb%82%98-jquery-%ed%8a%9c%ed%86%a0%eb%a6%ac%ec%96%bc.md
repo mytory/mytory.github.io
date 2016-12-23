@@ -1,6 +1,6 @@
 ---
 title: '[번역]jQuery는 플래시를 어떻게 없애고 있나 + jQuery 튜토리얼 &#038; 플래시 애니메이션을 대체할 플러그인'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/831
 aktt_notify_twitter:

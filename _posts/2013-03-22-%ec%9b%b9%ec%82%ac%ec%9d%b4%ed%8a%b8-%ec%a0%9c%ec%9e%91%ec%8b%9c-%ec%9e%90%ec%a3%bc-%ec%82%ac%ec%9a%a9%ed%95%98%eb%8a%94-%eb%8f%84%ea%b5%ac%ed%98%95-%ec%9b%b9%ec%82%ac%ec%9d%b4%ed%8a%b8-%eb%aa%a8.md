@@ -1,6 +1,6 @@
 ---
 title: 웹사이트 제작시 자주 사용하는 도구형 웹사이트 모음
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/9683
 daumview_id:

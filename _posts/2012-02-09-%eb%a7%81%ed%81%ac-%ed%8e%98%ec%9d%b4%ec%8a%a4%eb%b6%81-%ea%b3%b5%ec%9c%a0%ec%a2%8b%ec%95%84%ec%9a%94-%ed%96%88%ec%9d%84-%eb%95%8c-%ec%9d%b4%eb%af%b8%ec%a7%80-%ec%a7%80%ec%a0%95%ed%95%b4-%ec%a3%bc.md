@@ -1,6 +1,6 @@
 ---
 title: 페이스북 공유/좋아요 했을 때 이미지 지정해 주기
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/2186
 aktt_notify_twitter:

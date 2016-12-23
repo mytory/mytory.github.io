@@ -1,6 +1,6 @@
 ---
 title: iptime 등 공유기에서 서버를 세팅했는데 외부에서 접속이 80포트로 안 된다면 체크해야 할 것들
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/621
 aktt_notify_twitter:

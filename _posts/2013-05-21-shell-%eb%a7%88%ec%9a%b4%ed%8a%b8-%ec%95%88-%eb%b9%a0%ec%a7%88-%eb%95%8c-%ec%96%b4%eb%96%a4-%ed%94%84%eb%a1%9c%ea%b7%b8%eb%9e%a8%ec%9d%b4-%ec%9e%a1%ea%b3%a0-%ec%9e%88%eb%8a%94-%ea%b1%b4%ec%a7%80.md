@@ -1,6 +1,6 @@
 ---
 title: '[shell] 마운트 안 빠질 때 어떤 프로그램이 잡고 있는 건지 확인해 보기'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/10189
 daumview_id:

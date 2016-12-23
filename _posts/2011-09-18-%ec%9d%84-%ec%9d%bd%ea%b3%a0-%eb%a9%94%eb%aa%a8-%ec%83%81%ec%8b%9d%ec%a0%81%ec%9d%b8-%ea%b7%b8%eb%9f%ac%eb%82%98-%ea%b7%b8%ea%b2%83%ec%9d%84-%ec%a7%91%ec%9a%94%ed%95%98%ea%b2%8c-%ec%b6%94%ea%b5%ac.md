@@ -1,6 +1,6 @@
 ---
 title: '《스크럼》을 읽고 메모 &#8211; 상식적인, 그러나 그것을 집요하게 추구하므로 더는 상식적이기만 하지는 않은 방법론이 바로 스크럼이다'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1803
 aktt_notify_twitter:

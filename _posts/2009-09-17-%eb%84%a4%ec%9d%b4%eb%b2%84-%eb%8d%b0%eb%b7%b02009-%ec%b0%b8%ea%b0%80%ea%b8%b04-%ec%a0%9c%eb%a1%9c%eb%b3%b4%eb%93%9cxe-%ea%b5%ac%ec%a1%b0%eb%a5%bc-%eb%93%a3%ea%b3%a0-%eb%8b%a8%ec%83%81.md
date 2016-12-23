@@ -1,6 +1,6 @@
 ---
 title: 네이버 데뷰2009 참가기(4) 제로보드XE 구조를 듣고 단상
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/51
 aktt_notify_twitter:

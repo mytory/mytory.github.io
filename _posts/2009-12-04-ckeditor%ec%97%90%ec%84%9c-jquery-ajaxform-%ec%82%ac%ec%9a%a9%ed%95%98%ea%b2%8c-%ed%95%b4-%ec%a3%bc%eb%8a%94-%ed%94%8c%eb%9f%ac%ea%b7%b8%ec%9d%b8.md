@@ -1,6 +1,6 @@
 ---
 title: ckeditor에서 jquery ajaxform 사용하게 해 주는 플러그인
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/113
 aktt_notify_twitter:

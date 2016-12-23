@@ -1,6 +1,6 @@
 ---
 title: '[tomcat] 톰캣 매니저 사용시 log4j NullPointer Exception'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/466
 aktt_notify_twitter:

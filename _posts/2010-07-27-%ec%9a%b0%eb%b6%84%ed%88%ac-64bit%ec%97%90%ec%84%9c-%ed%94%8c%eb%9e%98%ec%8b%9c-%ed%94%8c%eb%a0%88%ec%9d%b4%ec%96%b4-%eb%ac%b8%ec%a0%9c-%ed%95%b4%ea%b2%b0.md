@@ -1,6 +1,6 @@
 ---
 title: 우분투 64bit에서 플래시 플레이어 문제 해결
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/710
 aktt_notify_twitter:

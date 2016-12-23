@@ -1,6 +1,6 @@
 ---
 title: '[PHP] Class 없이 데이터용 객체 생성하기'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/12844
 mytory_md_path:

@@ -1,6 +1,6 @@
 ---
 title: git submodule 활용하기
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/13033
 mytory_md_path:

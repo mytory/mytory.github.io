@@ -1,6 +1,6 @@
 ---
 title: '[아파치 코드조각] PDF 무조건 다운받게 하기'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/10490
 daumview_id:

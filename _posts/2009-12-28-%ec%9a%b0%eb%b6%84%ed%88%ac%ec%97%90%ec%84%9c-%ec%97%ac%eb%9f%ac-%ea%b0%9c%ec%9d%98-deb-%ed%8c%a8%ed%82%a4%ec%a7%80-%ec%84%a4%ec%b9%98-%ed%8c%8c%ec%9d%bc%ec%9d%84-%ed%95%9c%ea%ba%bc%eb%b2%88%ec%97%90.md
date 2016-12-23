@@ -1,6 +1,6 @@
 ---
 title: 우분투에서 여러 개의 deb 패키지 설치 파일을 한꺼번에 설치하고 싶다면
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/167
 aktt_notify_twitter:

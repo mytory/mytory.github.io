@@ -1,6 +1,6 @@
 ---
 title: '[링크:영어] 클래스 이름을 시맨틱하게 만든다는 것은?'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1580
 aktt_notify_twitter:

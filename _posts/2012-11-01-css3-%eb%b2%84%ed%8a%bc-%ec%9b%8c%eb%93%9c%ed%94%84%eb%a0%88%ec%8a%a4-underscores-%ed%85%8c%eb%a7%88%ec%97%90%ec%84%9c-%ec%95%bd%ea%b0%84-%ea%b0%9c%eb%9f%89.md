@@ -1,6 +1,6 @@
 ---
 title: 'CSS3 버튼 &#8211; 워드프레스 Underscores 테마(?)에서 약간 개량'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/4898
 aktt_notify_twitter:

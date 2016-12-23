@@ -1,6 +1,6 @@
 ---
 title: php에서 GET 변수를 0으로 줬을 때 확인 안 되는 경우
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/14
 aktt_notify_twitter:

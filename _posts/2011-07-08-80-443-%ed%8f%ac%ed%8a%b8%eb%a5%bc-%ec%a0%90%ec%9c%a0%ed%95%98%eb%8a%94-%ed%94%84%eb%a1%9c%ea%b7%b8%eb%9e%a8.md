@@ -1,6 +1,6 @@
 ---
 title: 80, 443 포트를 점유하는 프로그램
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1435
 aktt_notify_twitter:

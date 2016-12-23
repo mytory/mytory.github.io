@@ -1,6 +1,6 @@
 ---
 title: '[Google Analytics] 전자 상거래 추적 Ecommerce Tracking'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/2503
 aktt_notify_twitter:

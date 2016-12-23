@@ -1,6 +1,6 @@
 ---
 title: 우분투 저장소 바꾸기
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/619
 aktt_notify_twitter:

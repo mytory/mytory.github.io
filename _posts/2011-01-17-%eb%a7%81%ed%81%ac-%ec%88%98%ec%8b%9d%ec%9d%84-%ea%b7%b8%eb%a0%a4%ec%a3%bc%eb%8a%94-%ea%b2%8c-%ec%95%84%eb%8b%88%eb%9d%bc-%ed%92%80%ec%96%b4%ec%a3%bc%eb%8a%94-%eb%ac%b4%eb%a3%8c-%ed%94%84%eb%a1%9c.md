@@ -1,6 +1,6 @@
 ---
 title: '[링크] 수식을 그려주는 게 아니라 풀어주는 무료 프로그램'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/806
 aktt_notify_twitter:

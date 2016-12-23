@@ -1,6 +1,6 @@
 ---
 title: '[우분투] 다운로드 없이 iso 파일로 배포판 업그레이드하기'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/553
 aktt_notify_twitter:

@@ -1,6 +1,6 @@
 ---
 title: 이미지를 업로드하면 비슷한 이미지를 찾아주는, 이미지 검색 사이트
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/502
 aktt_notify_twitter:

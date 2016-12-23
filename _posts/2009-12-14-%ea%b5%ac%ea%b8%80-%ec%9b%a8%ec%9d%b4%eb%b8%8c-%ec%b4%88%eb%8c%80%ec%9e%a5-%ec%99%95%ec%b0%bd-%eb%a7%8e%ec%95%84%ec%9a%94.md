@@ -1,6 +1,6 @@
 ---
 title: 구글 웨이브 초대장 왕창 많아요
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/125
 aktt_notify_twitter:

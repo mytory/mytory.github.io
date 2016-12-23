@@ -1,6 +1,6 @@
 ---
 title: '[번역] HTML 유효성 검사하기(Validating)'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/434
 aktt_notify_twitter:

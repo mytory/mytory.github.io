@@ -1,6 +1,6 @@
 ---
 title: '[이클립스PHP] 한글 함수명, 변수명 코드 어시스트 작동하게 하는 방법'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/3275
 aktt_notify_twitter:

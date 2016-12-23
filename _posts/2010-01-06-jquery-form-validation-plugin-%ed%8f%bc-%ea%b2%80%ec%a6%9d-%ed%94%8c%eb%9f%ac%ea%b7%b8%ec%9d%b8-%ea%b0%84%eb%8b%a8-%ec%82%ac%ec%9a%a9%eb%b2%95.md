@@ -1,6 +1,6 @@
 ---
 title: jQuery Form Validation Plugin 폼 검증 플러그인 간단 사용법
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/195
 categories:

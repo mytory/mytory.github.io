@@ -1,6 +1,6 @@
 ---
 title: 리눅스, 저장장치 자동 마운트
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/13326
 mytory_md_path:

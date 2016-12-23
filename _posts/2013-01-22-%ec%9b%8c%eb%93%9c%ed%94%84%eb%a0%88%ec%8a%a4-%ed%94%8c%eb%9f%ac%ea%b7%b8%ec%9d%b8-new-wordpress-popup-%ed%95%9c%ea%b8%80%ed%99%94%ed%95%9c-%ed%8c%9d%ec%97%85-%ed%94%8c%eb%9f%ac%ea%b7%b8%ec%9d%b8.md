@@ -1,6 +1,6 @@
 ---
 title: '[워드프레스 플러그인] New WordPress Popup &#8211; 한글화한 팝업 플러그인'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/9235
 daumview_id:

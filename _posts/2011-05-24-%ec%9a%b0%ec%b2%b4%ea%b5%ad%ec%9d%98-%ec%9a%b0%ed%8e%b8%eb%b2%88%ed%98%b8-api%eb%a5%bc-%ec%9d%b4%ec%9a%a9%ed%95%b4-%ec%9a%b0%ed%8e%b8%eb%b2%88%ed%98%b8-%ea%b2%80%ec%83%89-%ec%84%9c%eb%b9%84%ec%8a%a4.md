@@ -1,6 +1,6 @@
 ---
 title: '우체국의 우편번호 API를 이용해 우편번호 검색 서비스를 만들어 보자 &#8211; 서버단'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1284
 aktt_notify_twitter:

@@ -1,6 +1,6 @@
 ---
 title: '[링크]잘못된 웹표준, 웹접근성 상식'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/694
 aktt_notify_twitter:

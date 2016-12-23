@@ -1,6 +1,6 @@
 ---
 title: '[php]폴더 확인해서 없으면 만드는 함수'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/394
 aktt_notify_twitter:

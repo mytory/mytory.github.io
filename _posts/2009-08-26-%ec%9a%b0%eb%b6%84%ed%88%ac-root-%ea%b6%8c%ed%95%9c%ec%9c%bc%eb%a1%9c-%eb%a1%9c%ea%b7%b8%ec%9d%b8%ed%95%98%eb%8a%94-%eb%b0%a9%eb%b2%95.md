@@ -1,6 +1,6 @@
 ---
 title: 우분투, root 권한으로 로그인하는 방법
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/27
 aktt_notify_twitter:

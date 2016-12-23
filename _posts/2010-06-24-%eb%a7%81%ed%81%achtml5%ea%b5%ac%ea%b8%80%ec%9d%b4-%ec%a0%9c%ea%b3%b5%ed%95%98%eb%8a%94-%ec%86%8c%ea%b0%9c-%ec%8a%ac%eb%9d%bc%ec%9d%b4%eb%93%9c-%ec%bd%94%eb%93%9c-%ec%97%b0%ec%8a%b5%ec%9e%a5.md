@@ -1,6 +1,6 @@
 ---
 title: '[링크:HTML5]구글이 제공하는 소개 슬라이드, 코드 연습장, 튜토리얼, 애플의 쇼케이스'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/699
 aktt_notify_twitter:

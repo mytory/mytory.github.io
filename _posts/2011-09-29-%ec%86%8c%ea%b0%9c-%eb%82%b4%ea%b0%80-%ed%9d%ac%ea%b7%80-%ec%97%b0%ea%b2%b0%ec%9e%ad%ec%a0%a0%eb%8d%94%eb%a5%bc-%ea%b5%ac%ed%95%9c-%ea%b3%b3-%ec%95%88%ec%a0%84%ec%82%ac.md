@@ -1,6 +1,6 @@
 ---
 title: '[소개] 내가 희귀 연결잭/젠더를 구한 곳 &#8211; 안전사'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1880
 aktt_notify_twitter:

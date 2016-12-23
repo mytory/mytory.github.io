@@ -1,6 +1,6 @@
 ---
 title: fancybox1 버그 잡기
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/623
 aktt_notify_twitter:

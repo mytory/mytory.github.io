@@ -1,6 +1,6 @@
 ---
 title: 우분투에서 쉘 스크립트(sh)를 이용해 여러 개의 설치 파일을 한꺼번에 설치하는 실행 파일을 만들려고 한다면
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/168
 aktt_notify_twitter:

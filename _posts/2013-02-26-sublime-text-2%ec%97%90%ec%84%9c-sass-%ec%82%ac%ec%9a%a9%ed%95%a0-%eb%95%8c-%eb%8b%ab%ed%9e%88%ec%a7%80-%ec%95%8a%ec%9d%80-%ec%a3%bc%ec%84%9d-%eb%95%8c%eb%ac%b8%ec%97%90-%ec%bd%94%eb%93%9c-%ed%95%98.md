@@ -1,6 +1,6 @@
 ---
 title: Sublime Text 2에서 Sass 사용할 때, 닫히지 않은 주석 때문에 코드 하이라이팅이 잘 되지 않는 문제 해결
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/9481
 daumview_id:

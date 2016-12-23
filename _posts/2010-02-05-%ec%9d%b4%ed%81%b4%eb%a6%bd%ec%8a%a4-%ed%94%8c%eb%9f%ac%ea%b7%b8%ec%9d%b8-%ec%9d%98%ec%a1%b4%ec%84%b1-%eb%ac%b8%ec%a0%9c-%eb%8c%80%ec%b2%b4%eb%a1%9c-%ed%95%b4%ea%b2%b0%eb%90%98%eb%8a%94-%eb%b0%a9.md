@@ -1,6 +1,6 @@
 ---
 title: 이클립스 플러그인 의존성 문제 대체로 해결되는 방법
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/252
 aktt_notify_twitter:

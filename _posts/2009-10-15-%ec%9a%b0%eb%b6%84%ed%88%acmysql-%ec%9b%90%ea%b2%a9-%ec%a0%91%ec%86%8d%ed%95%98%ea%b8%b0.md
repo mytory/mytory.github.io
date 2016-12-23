@@ -1,6 +1,6 @@
 ---
 title: '[우분투]mysql 원격 접속하기'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/72
 aktt_notify_twitter:

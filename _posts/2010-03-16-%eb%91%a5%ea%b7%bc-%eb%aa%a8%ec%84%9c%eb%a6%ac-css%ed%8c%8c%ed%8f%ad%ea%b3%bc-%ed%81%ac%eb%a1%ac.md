@@ -1,6 +1,6 @@
 ---
 title: 둥근 모서리 CSS(파폭과 크롬)
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/416
 aktt_notify_twitter:

@@ -1,6 +1,6 @@
 ---
 title: 이클립스에서 CharacterEncodingFilter.java에 에러 표시가 뜰 때
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/10681
 daumview_id:

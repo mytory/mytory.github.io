@@ -1,6 +1,6 @@
 ---
 title: 'SVG 활용 1 &#8211; 아이콘 폰트가 아니라 SVG를 사용한 이유'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/11169
 daumview_id:

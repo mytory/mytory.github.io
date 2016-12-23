@@ -1,6 +1,6 @@
 ---
 title: 'ie6에서 margin: auto 하면 문제가 있다'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/622
 aktt_notify_twitter:

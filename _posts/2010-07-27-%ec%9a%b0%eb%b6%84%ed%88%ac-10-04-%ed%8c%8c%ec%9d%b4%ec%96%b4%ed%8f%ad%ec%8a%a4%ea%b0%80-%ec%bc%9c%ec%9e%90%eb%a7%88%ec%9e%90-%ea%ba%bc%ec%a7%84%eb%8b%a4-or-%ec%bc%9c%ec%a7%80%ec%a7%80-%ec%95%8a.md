@@ -1,6 +1,6 @@
 ---
 title: 우분투 10.04, 파이어폭스가 켜자마자 꺼진다! or 켜지지 않는다. (혹은 Attempting to load the system libmoon 라는 에러를 내며 실행 안 됨)
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/715
 aktt_notify_twitter:

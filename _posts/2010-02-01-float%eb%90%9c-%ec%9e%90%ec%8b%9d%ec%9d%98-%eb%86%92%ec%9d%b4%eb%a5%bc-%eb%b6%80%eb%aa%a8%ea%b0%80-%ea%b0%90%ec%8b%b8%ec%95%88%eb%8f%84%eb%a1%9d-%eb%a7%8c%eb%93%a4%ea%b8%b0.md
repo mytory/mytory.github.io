@@ -1,6 +1,6 @@
 ---
 title: float된 자식의 높이를 부모가 감싸안도록 만들기
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/245
 aktt_notify_twitter:

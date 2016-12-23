@@ -1,6 +1,6 @@
 ---
 title: USB를 제대로 활용하려면 꼭 알아야 할 사이트
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/311
 aktt_notify_twitter:

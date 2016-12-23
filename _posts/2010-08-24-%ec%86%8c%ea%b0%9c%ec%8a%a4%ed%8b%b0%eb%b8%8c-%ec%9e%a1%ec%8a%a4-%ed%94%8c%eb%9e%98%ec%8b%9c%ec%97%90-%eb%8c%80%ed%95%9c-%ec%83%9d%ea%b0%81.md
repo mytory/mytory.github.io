@@ -1,6 +1,6 @@
 ---
 title: '[소개]스티브 잡스, &#8220;플래시에 대한 생각&#8221;'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/753
 aktt_notify_twitter:

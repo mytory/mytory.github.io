@@ -1,6 +1,6 @@
 ---
 title: '[링크] 페이스북 플랫폼 업그레이드에 따른 프로필 변경사'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/2017
 aktt_notify_twitter:

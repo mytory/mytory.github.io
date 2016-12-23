@@ -1,6 +1,6 @@
 ---
 title: '[영어] 이메일 클라이언트에서 CSS 지원 가이드'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/503
 aktt_notify_twitter:

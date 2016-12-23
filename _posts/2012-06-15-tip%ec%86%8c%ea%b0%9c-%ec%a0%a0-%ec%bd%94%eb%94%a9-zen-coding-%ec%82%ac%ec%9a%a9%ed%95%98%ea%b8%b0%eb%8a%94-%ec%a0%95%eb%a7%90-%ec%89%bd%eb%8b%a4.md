@@ -1,6 +1,6 @@
 ---
 title: '[Tip/소개] Emmet(예전 젠 코딩 Zen Coding) 사용법은 정말 쉽다!'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/2521
 aktt_notify_twitter:

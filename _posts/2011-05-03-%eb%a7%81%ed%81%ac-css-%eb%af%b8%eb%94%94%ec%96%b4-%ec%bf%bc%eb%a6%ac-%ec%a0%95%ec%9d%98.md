@@ -1,6 +1,6 @@
 ---
 title: '[링크] CSS 미디어 쿼리 정의'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1200
 aktt_notify_twitter:

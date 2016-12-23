@@ -1,6 +1,6 @@
 ---
 title: '[우분투] 오픈 파이어 제작사에서 만든 메신저 Spark 우분투에 설치하기'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/4953
 daumview_id:

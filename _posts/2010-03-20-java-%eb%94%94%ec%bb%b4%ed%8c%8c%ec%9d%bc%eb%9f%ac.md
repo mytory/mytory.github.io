@@ -1,6 +1,6 @@
 ---
 title: '[java] 디컴파일러'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/431
 aktt_notify_twitter:

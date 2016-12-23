@@ -1,6 +1,6 @@
 ---
 title: '[링크:소개] 조엘 온 소프트웨어 한국 사이트'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/464
 aktt_notify_twitter:

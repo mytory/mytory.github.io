@@ -1,6 +1,6 @@
 ---
 title: 리눅스용 실버라이트, 문라이트 다운로드
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/290
 aktt_notify_twitter:

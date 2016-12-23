@@ -1,6 +1,6 @@
 ---
 title: '[리눅스] 하드웨어 정보를 보는 커맨드라인 명령어 16개'
-author: 녹풍
+author: 안형우
 layout: post
 tags:
   - linux

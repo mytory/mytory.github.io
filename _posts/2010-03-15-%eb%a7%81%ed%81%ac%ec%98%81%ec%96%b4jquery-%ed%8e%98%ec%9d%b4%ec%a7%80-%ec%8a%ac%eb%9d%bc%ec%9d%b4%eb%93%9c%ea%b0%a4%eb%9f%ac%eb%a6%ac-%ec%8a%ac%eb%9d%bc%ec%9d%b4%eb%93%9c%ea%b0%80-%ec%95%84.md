@@ -1,6 +1,6 @@
 ---
 title: '[링크:영어]jQuery 페이지 슬라이드(갤러리 슬라이드가 아니다)'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/407
 aktt_notify_twitter:

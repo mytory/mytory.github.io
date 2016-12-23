@@ -1,6 +1,6 @@
 ---
 title: '[jQueryUI] datepicker 한글화하기'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/2217
 aktt_notify_twitter:

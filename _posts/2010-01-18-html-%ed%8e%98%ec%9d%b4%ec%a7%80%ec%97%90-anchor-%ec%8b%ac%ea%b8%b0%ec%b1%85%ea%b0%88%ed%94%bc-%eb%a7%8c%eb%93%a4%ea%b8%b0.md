@@ -1,6 +1,6 @@
 ---
 title: html 페이지에 anchor 심기(책갈피 만들기)
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/229
 aktt_notify_twitter:

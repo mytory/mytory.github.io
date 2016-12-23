@@ -1,6 +1,6 @@
 ---
 title: '[번역] 윈도우2000,XP,서버2003 익스플로러 사용자는 웹서핑중 F1 누르지 말 것'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/346
 aktt_notify_twitter:

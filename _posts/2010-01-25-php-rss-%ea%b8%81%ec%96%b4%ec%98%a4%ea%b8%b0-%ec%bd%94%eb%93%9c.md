@@ -1,6 +1,6 @@
 ---
 title: '[PHP] RSS 긁어오기 라이브러리 &#8211; lastRSS'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/237
 aktt_notify_twitter:

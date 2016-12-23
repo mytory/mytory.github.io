@@ -1,6 +1,6 @@
 ---
 title: '[jQuery plugin] 오른쪽 위에 반투명 메세지 박스 띄우는 플러그인 jgrowl'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1369
 aktt_notify_twitter:

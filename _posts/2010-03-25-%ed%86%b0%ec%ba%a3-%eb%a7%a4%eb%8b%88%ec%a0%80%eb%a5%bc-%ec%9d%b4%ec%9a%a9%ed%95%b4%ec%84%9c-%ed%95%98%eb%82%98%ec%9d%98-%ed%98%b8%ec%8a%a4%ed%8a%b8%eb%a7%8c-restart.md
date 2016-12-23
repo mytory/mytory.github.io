@@ -1,6 +1,6 @@
 ---
 title: 톰캣 매니저를 이용해서 하나의 호스트만 restart
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/458
 aktt_notify_twitter:

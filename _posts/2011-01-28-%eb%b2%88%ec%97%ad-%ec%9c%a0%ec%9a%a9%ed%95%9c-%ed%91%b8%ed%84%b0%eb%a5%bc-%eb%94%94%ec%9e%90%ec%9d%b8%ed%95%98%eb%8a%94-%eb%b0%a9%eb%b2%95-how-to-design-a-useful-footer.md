@@ -1,6 +1,6 @@
 ---
 title: '[번역] 유용한 푸터를 디자인하는 방법 How to Design a Useful Footer'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/816
 aktt_notify_twitter:

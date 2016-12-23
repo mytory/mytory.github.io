@@ -1,6 +1,6 @@
 ---
 title: '[포토샵 액션 파일] 폴라로이드 사진으로 만들기 Polaroid_GENERATOR_V2_by_rawimage'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/787
 aktt_notify_twitter:

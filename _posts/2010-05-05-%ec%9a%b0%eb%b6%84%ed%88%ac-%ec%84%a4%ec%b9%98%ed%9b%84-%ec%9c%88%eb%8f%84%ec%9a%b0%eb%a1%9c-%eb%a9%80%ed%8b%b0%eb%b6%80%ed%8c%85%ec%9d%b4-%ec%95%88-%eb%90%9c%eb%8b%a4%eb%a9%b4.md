@@ -1,6 +1,6 @@
 ---
 title: 우분투 설치후 윈도우로 멀티부팅이 안 된다면?
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/567
 aktt_notify_twitter:

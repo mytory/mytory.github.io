@@ -1,6 +1,6 @@
 ---
 title: '[링크]윈도우용 서버 백업 프로그램, 델타 카피'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/548
 aktt_notify_twitter:

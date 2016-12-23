@@ -1,6 +1,6 @@
 ---
 title: '[링크]Apache 웹서버에서 이미지(사진) 무단링크 방지 방법'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/596
 aktt_notify_twitter:

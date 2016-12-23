@@ -1,6 +1,6 @@
 ---
 title: '[링크:영어] 우분투로 서버 구축하기'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1638
 aktt_notify_twitter:

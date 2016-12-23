@@ -1,6 +1,6 @@
 ---
 title: '[phpThumb] 이미지 사이즈 변경(resizing)해서 저장하기'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/529
 aktt_notify_twitter:

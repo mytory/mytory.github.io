@@ -1,6 +1,6 @@
 ---
 title: 자바스크립트 URL 정보 보기
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/259
 aktt_notify_twitter:

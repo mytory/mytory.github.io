@@ -1,6 +1,6 @@
 ---
 title: ckeditor에서 에디터 인스턴스 접근 방법과 선택 영역 구하는 함수
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/216
 aktt_notify_twitter:

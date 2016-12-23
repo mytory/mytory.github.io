@@ -1,6 +1,6 @@
 ---
 title: form 데이터를 post로 새창에 보내기
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/16
 aktt_notify_twitter:

@@ -1,6 +1,6 @@
 ---
 title: '[번역]스티브 잡스가 옳았다. 플래시는 안드로이드에서 실패했다.'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/754
 aktt_notify_twitter:

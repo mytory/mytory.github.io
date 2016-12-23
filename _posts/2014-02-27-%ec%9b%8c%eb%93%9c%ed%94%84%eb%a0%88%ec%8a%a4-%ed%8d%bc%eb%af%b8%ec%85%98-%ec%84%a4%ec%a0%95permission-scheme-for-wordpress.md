@@ -1,6 +1,6 @@
 ---
 title: '[번역] 워드프레스 퍼미션 설정(Permission Scheme for WordPress)'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/12672
 mytory_md_path:

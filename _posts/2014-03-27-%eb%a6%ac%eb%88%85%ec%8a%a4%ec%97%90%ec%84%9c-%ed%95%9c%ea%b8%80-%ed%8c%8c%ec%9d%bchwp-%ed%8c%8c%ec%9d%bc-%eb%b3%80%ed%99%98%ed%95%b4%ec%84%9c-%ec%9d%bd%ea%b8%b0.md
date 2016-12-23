@@ -1,6 +1,6 @@
 ---
 title: 리눅스에서 한글 파일(hwp) 파일 변환해서 읽기
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/12797
 mytory_md_path:

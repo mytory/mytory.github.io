@@ -1,6 +1,6 @@
 ---
 title: '[링크]SVN과 https 그리고 아파치 설치 가장 잘 정리된 듯한 글'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/604
 aktt_notify_twitter:

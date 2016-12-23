@@ -1,6 +1,6 @@
 ---
 title: '[추천] 스마트폰과 액티브X를 다룬 한겨레 기사'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/309
 aktt_notify_twitter:

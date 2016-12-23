@@ -1,6 +1,6 @@
 ---
 title: NHN 애자일 개발 어떻게 진행하고 있나요?
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1955
 aktt_notify_twitter:

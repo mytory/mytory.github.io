@@ -1,6 +1,6 @@
 ---
 title: 패킷 감청과 https
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/249
 aktt_notify_twitter:

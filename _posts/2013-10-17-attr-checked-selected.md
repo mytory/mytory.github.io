@@ -1,6 +1,6 @@
 ---
 title: '[PHP] 셀렉트, 라디오, 체크박스에서 현재 선택된 놈을 편하게 체크하도록 해 주는 함수'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/11454
 daumview_id:

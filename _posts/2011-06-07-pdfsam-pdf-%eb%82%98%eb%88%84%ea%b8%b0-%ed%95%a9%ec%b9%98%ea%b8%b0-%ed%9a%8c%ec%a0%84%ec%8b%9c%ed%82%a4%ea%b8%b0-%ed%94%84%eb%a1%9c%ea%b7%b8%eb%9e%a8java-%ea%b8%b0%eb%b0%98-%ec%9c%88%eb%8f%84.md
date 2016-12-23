@@ -1,6 +1,6 @@
 ---
 title: '[pdfsam] PDF 나누기 합치기 회전시키기 프로그램(JAVA 기반, 윈도우/리눅스/맥 다 됨)'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1354
 aktt_notify_twitter:

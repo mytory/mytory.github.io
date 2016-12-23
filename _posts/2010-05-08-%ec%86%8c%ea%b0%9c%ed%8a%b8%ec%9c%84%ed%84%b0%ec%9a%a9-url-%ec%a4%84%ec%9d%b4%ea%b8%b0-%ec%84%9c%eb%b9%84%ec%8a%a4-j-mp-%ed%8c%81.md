@@ -1,6 +1,6 @@
 ---
 title: '[소개]트위터용 URL 줄이기 서비스 j.mp 팁'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/576
 aktt_notify_twitter:

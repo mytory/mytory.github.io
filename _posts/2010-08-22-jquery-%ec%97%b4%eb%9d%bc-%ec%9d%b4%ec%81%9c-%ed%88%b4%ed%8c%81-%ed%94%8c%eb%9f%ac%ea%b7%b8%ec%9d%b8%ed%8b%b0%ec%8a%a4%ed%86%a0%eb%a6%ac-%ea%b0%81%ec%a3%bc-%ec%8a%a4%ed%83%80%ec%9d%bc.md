@@ -1,6 +1,6 @@
 ---
 title: '[jQuery] 열라 이쁜 툴팁 플러그인(티스토리 각주 스타일)'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/750
 aktt_notify_twitter:

@@ -1,6 +1,6 @@
 ---
 title: '[영문] CSS 타이포그라피의 미래'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/358
 aktt_notify_twitter:

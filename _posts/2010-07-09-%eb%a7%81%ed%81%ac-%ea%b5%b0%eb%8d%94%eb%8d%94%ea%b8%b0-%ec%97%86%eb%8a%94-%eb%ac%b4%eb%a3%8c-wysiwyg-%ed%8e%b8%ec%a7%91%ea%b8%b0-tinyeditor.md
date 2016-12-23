@@ -1,6 +1,6 @@
 ---
 title: '[링크] 군더더기 없는 무료 WYSIWYG 편집기 &#8211; TinyEditor'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/707
 aktt_notify_twitter:

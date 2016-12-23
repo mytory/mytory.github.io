@@ -1,6 +1,6 @@
 ---
 title: 이클립스 serial version ID 경고 메세지 없애기
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/220
 aktt_notify_twitter:

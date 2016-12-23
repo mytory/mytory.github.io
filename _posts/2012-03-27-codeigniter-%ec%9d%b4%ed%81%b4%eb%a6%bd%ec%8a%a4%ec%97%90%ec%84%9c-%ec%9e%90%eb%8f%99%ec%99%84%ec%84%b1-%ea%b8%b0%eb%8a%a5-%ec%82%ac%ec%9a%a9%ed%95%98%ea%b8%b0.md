@@ -1,6 +1,6 @@
 ---
 title: '[CodeIgniter] 이클립스로 코드이그니터 사용할 때 자동완성 기능 되게 하기'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/2379
 aktt_notify_twitter:

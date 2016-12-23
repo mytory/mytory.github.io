@@ -1,6 +1,6 @@
 ---
 title: MD5 체크섬이란 무엇일까?(with 우분투 명령어)
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/96
 aktt_notify_twitter:

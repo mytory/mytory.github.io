@@ -1,6 +1,6 @@
 ---
 title: 우분투 패키지로 phpmyadmin 설치했는데 안 들어가질 때
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1711
 aktt_notify_twitter:

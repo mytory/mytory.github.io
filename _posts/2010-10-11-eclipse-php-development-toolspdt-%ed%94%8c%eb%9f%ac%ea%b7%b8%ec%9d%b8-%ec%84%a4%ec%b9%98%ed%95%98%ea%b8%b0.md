@@ -1,6 +1,6 @@
 ---
 title: '[eclipse] PHP Development Tools(PDT) 플러그인 설치하기'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/784
 aktt_notify_twitter:

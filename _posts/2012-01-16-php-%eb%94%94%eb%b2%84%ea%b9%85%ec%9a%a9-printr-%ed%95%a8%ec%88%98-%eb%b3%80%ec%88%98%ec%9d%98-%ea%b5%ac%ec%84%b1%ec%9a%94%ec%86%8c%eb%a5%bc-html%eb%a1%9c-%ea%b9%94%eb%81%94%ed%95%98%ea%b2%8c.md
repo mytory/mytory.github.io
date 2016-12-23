@@ -1,6 +1,6 @@
 ---
 title: '[PHP] 디버깅용 printr 함수 &#8211; 변수의 구성요소를 HTML로 깔끔하게 출력해 준다'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/2073
 aktt_notify_twitter:

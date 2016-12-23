@@ -1,6 +1,6 @@
 ---
 title: 루비 Ruby 기초 연습하기
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1412
 aktt_notify_twitter:

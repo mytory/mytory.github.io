@@ -1,6 +1,6 @@
 ---
 title: jquery $.get이나 $.post의 callback 함수 안에서 this
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/383
 aktt_notify_twitter:

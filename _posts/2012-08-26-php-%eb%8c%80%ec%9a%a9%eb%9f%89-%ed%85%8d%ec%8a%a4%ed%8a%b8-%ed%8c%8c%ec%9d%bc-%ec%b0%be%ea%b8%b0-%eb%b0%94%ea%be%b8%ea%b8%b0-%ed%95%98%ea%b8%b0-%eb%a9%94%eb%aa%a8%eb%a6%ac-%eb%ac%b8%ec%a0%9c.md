@@ -1,6 +1,6 @@
 ---
 title: '[PHP] 터미널에서 대용량 텍스트 파일 찾기 바꾸기 하기 (메모리 문제 없이)'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/3168
 aktt_notify_twitter:

@@ -1,6 +1,6 @@
 ---
 title: 네이버 데뷰2009 참가기(6) 오류 테스터기 NTAF 소개
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/53
 aktt_notify_twitter:

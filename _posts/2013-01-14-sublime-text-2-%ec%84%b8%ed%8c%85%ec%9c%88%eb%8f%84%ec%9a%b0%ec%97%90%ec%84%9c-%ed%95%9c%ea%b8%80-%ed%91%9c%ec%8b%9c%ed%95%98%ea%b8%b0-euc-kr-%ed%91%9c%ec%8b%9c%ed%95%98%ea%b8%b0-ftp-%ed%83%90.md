@@ -1,6 +1,6 @@
 ---
 title: Sublime Text 2 세팅(윈도우에서 한글 표시하기, euc-kr 표시하기, FTP 탐색하기)
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/9151
 daumview_id:

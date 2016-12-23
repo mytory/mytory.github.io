@@ -1,6 +1,6 @@
 ---
 title: '[링크]JSP에서 직접 spring ibatis 사용하기'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/440
 aktt_notify_twitter:

@@ -1,6 +1,6 @@
 ---
 title: '[파이어폭스 부가기능] 플래시블록에서 플래시 안 보고 없애기'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/412
 aktt_notify_twitter:

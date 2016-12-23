@@ -1,6 +1,6 @@
 ---
 title: 《실전 웹사이트 분석 A to Z》 읽으며 밑줄 그은 것
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/2486
 aktt_notify_twitter:

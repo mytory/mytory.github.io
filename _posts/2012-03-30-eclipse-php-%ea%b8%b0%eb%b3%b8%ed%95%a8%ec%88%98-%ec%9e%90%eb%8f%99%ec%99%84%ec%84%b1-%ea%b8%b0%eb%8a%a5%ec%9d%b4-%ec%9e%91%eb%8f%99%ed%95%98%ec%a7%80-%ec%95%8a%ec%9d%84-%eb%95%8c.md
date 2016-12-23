@@ -1,6 +1,6 @@
 ---
 title: '[eclipse] PHP 기본함수 자동완성 기능이 작동하지 않을 때'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/2390
 aktt_notify_twitter:

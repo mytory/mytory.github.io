@@ -1,6 +1,6 @@
 ---
 title: '[링크]정규식 테스터기'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/674
 aktt_notify_twitter:

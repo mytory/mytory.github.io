@@ -1,6 +1,6 @@
 ---
 title: '[우분투] 하드웨어 사양 보는 프로그램 sysinfo'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/513
 aktt_notify_twitter:

@@ -1,6 +1,6 @@
 ---
 title: '[링크]MySQL 관리툴 : webyog 프로그램과 HeidiSQL 프로그램'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/76
 aktt_notify_twitter:

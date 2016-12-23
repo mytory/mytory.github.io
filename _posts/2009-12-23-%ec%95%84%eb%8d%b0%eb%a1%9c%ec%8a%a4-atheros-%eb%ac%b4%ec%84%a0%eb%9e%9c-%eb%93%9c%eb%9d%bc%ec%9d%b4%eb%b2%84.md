@@ -1,6 +1,6 @@
 ---
 title: 아데로스 atheros 무선랜 드라이버
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/137
 aktt_notify_twitter:

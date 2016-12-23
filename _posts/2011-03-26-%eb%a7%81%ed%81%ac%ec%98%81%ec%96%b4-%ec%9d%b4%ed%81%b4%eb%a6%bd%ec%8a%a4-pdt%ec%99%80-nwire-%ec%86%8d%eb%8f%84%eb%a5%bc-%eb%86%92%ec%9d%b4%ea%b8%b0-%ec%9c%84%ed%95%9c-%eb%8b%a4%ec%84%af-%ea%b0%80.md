@@ -1,6 +1,6 @@
 ---
 title: '[링크:영어] 이클립스 PDT와 nWire 속도를 높이기 위한 다섯 가지 팁 Five tips for speeding up Eclipse PDT and nWire'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1010
 aktt_notify_twitter:

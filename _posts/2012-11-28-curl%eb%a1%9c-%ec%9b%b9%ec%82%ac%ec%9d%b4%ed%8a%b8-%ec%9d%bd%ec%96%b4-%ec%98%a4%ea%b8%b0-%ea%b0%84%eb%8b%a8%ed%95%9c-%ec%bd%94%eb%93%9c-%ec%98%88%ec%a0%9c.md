@@ -1,6 +1,6 @@
 ---
 title: '[PHP] cURL로 웹사이트 읽어 오기 &#8211; 간단한 예제 함수'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/8643
 daumview_id:

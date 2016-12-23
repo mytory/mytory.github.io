@@ -1,6 +1,6 @@
 ---
 title: 윈도우7 정품인증 프로그램 만드는 사람들은…
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/305
 aktt_notify_twitter:

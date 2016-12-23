@@ -1,6 +1,6 @@
 ---
 title: '[번역] CSS 수직 가운데 정렬 (테이블 없이!) Vertical Centering with CSS'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/9727
 daumview_id:

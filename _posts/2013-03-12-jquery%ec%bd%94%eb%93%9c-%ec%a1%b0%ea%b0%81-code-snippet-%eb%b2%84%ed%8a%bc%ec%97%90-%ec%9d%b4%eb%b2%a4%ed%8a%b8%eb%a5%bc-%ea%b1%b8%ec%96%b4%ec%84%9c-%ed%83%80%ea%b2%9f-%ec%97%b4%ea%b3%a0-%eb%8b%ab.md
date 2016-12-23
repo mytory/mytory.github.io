@@ -1,6 +1,6 @@
 ---
 title: 'Code Snippet &#8211; 버튼에 이벤트를 걸어서 타겟을 열고 닫는 jQuery 코드 조각'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/9601
 daumview_id:

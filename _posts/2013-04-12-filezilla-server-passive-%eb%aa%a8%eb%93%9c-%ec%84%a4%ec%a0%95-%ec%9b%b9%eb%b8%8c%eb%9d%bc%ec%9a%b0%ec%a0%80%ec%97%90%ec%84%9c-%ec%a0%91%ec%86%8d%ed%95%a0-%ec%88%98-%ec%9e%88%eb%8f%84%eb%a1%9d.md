@@ -1,6 +1,6 @@
 ---
 title: 'Filezilla Server, Passive 모드 설정 &#8211; 웹브라우저에서 접속할 수 있도록 하기'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/9878
 daumview_id:

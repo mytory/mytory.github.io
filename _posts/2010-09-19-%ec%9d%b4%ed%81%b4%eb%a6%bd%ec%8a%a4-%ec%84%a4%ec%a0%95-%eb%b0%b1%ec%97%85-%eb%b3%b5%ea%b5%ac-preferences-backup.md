@@ -1,6 +1,6 @@
 ---
 title: '[이클립스] 설정 백업, 복구 Preferences backup'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/771
 aktt_notify_twitter:

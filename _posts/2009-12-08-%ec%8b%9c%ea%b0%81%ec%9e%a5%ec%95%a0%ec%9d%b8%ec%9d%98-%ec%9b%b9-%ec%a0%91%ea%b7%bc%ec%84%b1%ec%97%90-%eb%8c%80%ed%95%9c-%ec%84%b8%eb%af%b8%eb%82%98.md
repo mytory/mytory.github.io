@@ -1,6 +1,6 @@
 ---
 title: 시각장애인의 웹 접근성에 대한 세미나
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/117
 aktt_notify_twitter:

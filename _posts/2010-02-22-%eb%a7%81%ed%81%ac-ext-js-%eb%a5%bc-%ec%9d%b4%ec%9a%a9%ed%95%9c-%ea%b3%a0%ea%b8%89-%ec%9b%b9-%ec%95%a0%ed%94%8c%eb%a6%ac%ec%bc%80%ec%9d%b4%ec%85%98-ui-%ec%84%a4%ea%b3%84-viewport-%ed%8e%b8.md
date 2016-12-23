@@ -1,6 +1,6 @@
 ---
 title: '[링크] Ext JS 를 이용한 고급 웹 애플리케이션 UI 설계 &#8211; Viewport 편'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/319
 aktt_notify_twitter:

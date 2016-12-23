@@ -1,6 +1,6 @@
 ---
 title: 여러분, 윈도우 업데이트를 반드시 하세요
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1522
 aktt_notify_twitter:

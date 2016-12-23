@@ -1,6 +1,6 @@
 ---
 title: '[링크]Selenium RC를 이용한 웹 애플리케이션 테스트'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1506
 aktt_notify_twitter:

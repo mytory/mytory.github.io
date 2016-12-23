@@ -1,6 +1,6 @@
 ---
 title: '[링크] 애자일 초보용 메일링 리스트'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/675
 aktt_notify_twitter:

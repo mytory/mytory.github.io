@@ -1,6 +1,6 @@
 ---
 title: '[git] 파일 권한 기능이 없는 파일 시스템에서 작업하느라 발생하는 문제를 없애려면?'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/10294
 daumview_id:

@@ -1,6 +1,6 @@
 ---
 title: 구글 맞춤 검색 요소(구글 ajax 맞춤 검색)의 검색어를 구글 아날리틱스에서 통계로 잡기
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/179
 aktt_notify_twitter:

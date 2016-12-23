@@ -1,6 +1,6 @@
 ---
 title: 아이폰4 가입자 ollehWiFi와 넷스팟(NETSPOT) 사용
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/772
 aktt_notify_twitter:

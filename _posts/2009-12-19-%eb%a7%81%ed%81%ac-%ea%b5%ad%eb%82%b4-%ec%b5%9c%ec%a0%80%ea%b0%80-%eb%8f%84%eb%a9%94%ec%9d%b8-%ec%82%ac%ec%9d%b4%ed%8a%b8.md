@@ -1,6 +1,6 @@
 ---
 title: '[링크] 국내 최저가 도메인 사이트'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/128
 aktt_notify_twitter:

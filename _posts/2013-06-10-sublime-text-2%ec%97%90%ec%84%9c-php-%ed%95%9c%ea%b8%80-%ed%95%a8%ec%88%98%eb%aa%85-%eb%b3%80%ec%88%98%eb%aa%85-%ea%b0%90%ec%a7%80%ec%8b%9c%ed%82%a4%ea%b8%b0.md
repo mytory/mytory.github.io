@@ -1,6 +1,6 @@
 ---
 title: Sublime Text 2에서 PHP 한글 함수명, 변수명 감지시키기
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/10343
 daumview_id:

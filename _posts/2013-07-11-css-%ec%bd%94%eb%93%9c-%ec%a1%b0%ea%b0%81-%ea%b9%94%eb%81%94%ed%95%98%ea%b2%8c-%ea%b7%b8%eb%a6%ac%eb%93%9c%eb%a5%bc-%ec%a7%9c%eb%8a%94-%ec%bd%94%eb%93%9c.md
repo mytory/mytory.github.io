@@ -1,6 +1,6 @@
 ---
 title: '[CSS 코드 조각] 깔끔하게 그리드를 짜는 코드'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/10535
 daumview_id:

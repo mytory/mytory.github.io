@@ -1,6 +1,6 @@
 ---
 title: '[구글 아날리틱스] 여러 개의 URL을 하나의 URL로 통계 잡기(ex. /asdf.html 을 /asdf 로 잡기)'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/2192
 aktt_notify_twitter:

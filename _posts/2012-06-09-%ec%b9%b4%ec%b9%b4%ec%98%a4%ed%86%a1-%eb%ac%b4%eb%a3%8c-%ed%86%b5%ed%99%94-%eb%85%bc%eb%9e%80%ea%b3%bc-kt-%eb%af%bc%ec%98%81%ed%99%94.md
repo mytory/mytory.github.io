@@ -1,6 +1,6 @@
 ---
 title: 카카오톡 무료 통화 논란, KT 민영화 때문이잖아!
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/2523
 aktt_notify_twitter:

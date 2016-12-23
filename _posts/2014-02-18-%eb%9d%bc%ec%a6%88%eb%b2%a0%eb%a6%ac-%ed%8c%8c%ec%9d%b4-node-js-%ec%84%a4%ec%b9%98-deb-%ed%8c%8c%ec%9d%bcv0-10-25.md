@@ -1,6 +1,6 @@
 ---
 title: 라즈베리 파이 node.js 설치 deb 파일(v0.10.25)
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/12572
 mytory_md_path:

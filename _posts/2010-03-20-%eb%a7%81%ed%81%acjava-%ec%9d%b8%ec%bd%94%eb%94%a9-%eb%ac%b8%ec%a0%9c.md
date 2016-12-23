@@ -1,6 +1,6 @@
 ---
 title: '[링크]java 인코딩 문제'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/430
 aktt_notify_twitter:

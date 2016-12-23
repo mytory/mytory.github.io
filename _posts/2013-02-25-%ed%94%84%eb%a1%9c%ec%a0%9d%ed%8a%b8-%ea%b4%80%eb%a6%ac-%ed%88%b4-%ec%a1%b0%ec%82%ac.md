@@ -1,6 +1,6 @@
 ---
 title: 오픈소스 설치형 프로젝트 관리 툴 조사
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/9467
 daumview_id:

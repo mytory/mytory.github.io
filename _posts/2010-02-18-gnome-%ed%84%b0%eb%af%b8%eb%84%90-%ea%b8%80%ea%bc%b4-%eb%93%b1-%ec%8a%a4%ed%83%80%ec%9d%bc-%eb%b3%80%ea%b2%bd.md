@@ -1,6 +1,6 @@
 ---
 title: gnome 터미널 글꼴 등 스타일 변경
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/294
 aktt_notify_twitter:

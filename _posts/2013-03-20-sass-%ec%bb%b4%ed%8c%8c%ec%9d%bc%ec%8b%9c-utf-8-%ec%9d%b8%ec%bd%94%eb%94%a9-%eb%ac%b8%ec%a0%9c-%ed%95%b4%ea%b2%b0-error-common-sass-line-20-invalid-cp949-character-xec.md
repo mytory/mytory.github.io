@@ -1,6 +1,6 @@
 ---
 title: '[Sass] 컴파일시 UTF-8 인코딩 문제 해결 error common.sass (Line 20: Invalid CP949 character &#8220;\xEC&#8221;)'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/9653
 daumview_id:

@@ -1,6 +1,6 @@
 ---
 title: 아이폰, iOS5부터 추가된 키보드 단축키 기능 이용하기
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/2079
 aktt_notify_twitter:

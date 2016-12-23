@@ -1,6 +1,6 @@
 ---
 title: '[PHP] 명사 뒤에 나오는 &#8216;은는이가을를&#8217; 판단할 수 있게 해 주는 함수'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/13065
 mytory_md_path:

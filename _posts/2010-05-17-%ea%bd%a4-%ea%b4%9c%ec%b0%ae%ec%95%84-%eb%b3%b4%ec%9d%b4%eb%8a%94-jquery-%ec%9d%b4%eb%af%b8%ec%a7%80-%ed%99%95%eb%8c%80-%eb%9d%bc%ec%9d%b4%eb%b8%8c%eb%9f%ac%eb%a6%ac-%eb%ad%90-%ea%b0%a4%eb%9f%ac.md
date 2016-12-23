@@ -1,6 +1,6 @@
 ---
 title: 최고의 jQuery 갤러리 플러그인, fancyBox, 2로 업그레이드하면서 상업적 사용은 금지했다
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/599
 aktt_notify_twitter:

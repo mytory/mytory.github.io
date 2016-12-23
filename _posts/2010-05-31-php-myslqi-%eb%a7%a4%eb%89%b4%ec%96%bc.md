@@ -1,6 +1,6 @@
 ---
 title: '[PHP] myslqi 매뉴얼'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/627
 aktt_notify_twitter:

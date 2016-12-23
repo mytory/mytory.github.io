@@ -1,6 +1,6 @@
 ---
 title: 구글 클라우드 커넥터로 파워포인트 협업을 해 본 결과
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/2133
 aktt_notify_twitter:

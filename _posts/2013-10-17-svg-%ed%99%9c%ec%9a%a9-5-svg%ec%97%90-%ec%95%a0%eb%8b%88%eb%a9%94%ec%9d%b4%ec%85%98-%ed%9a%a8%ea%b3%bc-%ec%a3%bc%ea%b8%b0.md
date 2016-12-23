@@ -1,6 +1,6 @@
 ---
 title: 'SVG 활용 5 &#8211; SVG에 애니메이션 효과 주기'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/11444
 mytory_md_path:

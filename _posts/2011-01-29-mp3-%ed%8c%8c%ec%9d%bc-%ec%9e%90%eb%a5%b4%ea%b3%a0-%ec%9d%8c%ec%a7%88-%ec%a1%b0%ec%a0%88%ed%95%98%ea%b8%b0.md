@@ -1,6 +1,6 @@
 ---
 title: mp3 파일 자르고 음질 조절하기
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/822
 aktt_notify_twitter:

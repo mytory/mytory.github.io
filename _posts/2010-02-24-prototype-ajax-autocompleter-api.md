@@ -1,6 +1,6 @@
 ---
 title: '[prototype] Ajax.Autocompleter API'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/326
 aktt_notify_twitter:

@@ -1,6 +1,6 @@
 ---
 title: '[MySql] 컬럼 코멘트 불러 오기'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/2395
 aktt_notify_twitter:

@@ -1,6 +1,6 @@
 ---
 title: '[PHP] 터미널에서 글자 찾기 바꾸기 하는 스크립트'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/10384
 daumview_id:

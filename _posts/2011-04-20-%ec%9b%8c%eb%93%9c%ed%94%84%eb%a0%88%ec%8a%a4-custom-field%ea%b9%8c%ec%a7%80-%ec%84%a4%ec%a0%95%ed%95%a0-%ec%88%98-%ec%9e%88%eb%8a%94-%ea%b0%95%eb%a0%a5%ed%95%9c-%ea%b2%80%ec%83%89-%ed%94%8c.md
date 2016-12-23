@@ -1,6 +1,6 @@
 ---
 title: '[워드프레스] custom field까지 설정할 수 있는 강력한 검색 플러그인 : Relevanssi &#8211; A Better Search'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1127
 aktt_notify_twitter:

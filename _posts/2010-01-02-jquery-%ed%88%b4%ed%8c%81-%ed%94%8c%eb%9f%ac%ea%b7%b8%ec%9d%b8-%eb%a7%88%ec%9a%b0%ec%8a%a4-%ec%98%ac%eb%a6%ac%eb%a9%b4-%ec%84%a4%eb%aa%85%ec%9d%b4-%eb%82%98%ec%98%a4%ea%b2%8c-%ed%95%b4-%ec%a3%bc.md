@@ -1,6 +1,6 @@
 ---
 title: 'jQuery 툴팁 플러그인 &#8211; 마우스 올리면 설명이 나오게 해 주는 플러그인'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/184
 aktt_notify_twitter:

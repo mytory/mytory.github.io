@@ -1,6 +1,6 @@
 ---
 title: '[워드프레스] 테마에서 템플릿 파일 매칭 순서'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/10119
 daumview_id:

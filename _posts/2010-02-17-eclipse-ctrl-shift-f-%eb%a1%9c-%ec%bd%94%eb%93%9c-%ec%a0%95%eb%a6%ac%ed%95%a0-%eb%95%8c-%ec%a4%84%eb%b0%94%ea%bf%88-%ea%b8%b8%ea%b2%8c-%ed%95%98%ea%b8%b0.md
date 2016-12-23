@@ -1,6 +1,6 @@
 ---
 title: '[eclipse] Ctrl + Shift + F 로 코드 정리할 때 줄바꿈 길게 하기'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/287
 aktt_notify_twitter:

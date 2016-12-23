@@ -1,6 +1,6 @@
 ---
 title: '[java] 온갖 예제를 모아 놓은 사이트'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/293
 aktt_notify_twitter:

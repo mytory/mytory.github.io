@@ -1,6 +1,6 @@
 ---
 title: '[번역:phpThumb] phpThumb 포함, 관련 데모'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/467
 aktt_notify_twitter:

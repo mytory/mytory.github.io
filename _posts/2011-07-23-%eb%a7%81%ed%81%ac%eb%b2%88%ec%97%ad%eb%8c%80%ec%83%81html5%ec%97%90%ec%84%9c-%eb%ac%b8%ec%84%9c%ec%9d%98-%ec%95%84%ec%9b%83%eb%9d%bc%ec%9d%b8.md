@@ -1,6 +1,6 @@
 ---
 title: '[링크:번역대상]HTML5에서 문서의 아웃라인'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1516
 aktt_notify_twitter:

@@ -1,6 +1,6 @@
 ---
 title: '[링크]IE6을 위한 PNG 이미지의 투명도 버그픽스 방법'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/327
 aktt_notify_twitter:

@@ -1,6 +1,6 @@
 ---
 title: '[perl] md를 구글 번역기를 이용해 일본어로 번역한 뒤 정돈하는 스크립트'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/10373
 daumview_id:

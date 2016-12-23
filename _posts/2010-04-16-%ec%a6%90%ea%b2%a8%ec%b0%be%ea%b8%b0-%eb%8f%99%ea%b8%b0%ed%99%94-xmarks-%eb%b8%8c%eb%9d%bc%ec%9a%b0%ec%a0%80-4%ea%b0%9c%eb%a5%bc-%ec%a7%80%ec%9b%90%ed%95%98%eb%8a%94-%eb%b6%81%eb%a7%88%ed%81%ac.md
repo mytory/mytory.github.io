@@ -1,6 +1,6 @@
 ---
 title: '즐겨찾기 동기화 &#8211; Xmarks : 브라우저 4개를 지원하는 북마크 동기화 프로그램(IE, 파폭, 크롬, 사파리)'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/515
 aktt_notify_twitter:

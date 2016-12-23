@@ -1,6 +1,6 @@
 ---
 title: fckeditor/ckeditor에서 글쓰기 모드 자체를 미리보기처럼 만들기(커스텀 CSS)
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/264
 aktt_notify_twitter:

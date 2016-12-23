@@ -1,6 +1,6 @@
 ---
 title: 월스트리트 저널이 모바일 앱 사용자 리뷰에서 별표를 2개밖에 못 얻은 이유 by Jacob Nielson
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1425
 aktt_notify_twitter:

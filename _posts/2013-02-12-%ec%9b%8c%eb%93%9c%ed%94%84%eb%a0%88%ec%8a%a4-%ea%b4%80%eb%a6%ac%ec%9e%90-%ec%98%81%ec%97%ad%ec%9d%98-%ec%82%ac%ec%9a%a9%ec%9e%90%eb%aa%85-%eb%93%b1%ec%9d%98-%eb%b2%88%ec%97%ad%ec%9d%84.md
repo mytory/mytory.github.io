@@ -1,6 +1,6 @@
 ---
 title: '[워드프레스] 관리자 영역의 &#8216;사용자명&#8217; 등의 번역을 다듬은 언어 파일 (3.5.1 기준)'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/9396
 daumview_id:

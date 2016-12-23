@@ -1,6 +1,6 @@
 ---
 title: 워드프레스 플러그인에 언어 파일을 등록하기
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/8528
 daumview_id:

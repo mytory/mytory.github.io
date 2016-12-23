@@ -1,6 +1,6 @@
 ---
 title: '[PHP] 구글 아날리틱스 통계 그래프를 홈페이지에 달기'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/629
 aktt_notify_twitter:

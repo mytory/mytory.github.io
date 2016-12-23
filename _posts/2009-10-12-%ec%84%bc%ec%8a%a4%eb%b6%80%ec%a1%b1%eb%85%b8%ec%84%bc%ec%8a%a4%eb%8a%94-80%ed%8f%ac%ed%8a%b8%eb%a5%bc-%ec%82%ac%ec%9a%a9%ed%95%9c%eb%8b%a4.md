@@ -1,6 +1,6 @@
 ---
 title: 센스부족(노센스)는 80포트를 사용한다
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/70
 aktt_notify_twitter:

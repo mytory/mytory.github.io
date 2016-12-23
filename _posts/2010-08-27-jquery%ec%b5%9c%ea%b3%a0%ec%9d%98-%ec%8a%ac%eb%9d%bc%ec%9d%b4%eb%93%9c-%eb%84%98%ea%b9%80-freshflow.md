@@ -1,6 +1,6 @@
 ---
 title: '[jQuery]최고의 슬라이드 넘김, FreshFlow'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/755
 aktt_notify_twitter:

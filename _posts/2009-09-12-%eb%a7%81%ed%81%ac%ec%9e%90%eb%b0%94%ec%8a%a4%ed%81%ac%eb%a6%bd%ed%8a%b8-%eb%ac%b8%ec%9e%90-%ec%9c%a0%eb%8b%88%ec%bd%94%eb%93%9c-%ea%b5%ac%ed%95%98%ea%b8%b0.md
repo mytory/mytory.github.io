@@ -1,6 +1,6 @@
 ---
 title: '[링크]자바스크립트, 문자-유니코드 구하기'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/38
 aktt_notify_twitter:

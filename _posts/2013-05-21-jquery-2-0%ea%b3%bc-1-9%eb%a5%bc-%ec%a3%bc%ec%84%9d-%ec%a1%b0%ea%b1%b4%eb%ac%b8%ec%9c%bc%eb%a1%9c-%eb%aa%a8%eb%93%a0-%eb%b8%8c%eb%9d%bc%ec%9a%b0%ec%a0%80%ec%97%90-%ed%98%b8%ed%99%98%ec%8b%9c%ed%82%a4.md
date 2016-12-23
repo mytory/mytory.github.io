@@ -1,6 +1,6 @@
 ---
 title: jQuery 2.0과 1.9를 주석 조건문으로 모든 브라우저에 호환시키기
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/10176
 daumview_id:

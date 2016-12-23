@@ -1,6 +1,6 @@
 ---
 title: 아이폰5 와이파이 문제 해결
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/8866
 daumview_id:

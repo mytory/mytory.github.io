@@ -1,6 +1,6 @@
 ---
 title: '[링크] 괜찮아 보이는 아이폰 전용 삼각대+렌즈(?)'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1645
 aktt_notify_twitter:

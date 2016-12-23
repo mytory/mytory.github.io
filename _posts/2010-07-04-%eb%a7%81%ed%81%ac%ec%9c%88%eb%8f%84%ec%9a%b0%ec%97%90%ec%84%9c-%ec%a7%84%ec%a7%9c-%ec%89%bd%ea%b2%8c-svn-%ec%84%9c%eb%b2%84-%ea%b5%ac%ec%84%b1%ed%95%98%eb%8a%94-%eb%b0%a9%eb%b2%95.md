@@ -1,6 +1,6 @@
 ---
 title: '[링크]윈도우에서 진짜 쉽게 svn 서버 구성하는 방법'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/703
 aktt_notify_twitter:

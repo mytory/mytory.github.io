@@ -1,6 +1,6 @@
 ---
 title: jQuery each() 함수-여러 객체에 같은 함수를 모두 적용해야 할 때
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/182
 aktt_notify_twitter:

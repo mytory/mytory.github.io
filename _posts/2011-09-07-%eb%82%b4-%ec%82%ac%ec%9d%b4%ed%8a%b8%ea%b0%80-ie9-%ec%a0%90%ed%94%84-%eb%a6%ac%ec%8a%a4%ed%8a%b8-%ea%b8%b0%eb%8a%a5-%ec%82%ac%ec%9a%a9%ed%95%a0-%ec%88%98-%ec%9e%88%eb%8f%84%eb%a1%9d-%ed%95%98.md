@@ -1,6 +1,6 @@
 ---
 title: 내 사이트가 IE9 점프 리스트 기능 사용할 수 있도록 하기
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1767
 aktt_notify_twitter:

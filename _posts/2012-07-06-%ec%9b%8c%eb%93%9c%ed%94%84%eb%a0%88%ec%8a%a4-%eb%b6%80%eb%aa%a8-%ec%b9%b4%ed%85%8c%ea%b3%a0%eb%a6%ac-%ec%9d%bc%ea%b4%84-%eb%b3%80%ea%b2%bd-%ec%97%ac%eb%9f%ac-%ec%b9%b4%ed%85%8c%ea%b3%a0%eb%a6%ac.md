@@ -1,6 +1,6 @@
 ---
 title: '[워드프레스] 부모 카테고리 일괄 변경, 여러 카테고리 합치기 플러그인 Term Management Tools'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/2986
 aktt_notify_twitter:

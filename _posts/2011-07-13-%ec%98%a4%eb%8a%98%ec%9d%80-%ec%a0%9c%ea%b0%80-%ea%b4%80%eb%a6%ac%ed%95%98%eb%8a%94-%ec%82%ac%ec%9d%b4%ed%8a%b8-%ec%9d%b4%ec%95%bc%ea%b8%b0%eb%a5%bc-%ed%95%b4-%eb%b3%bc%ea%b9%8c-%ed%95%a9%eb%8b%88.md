@@ -1,6 +1,6 @@
 ---
 title: 오늘은 제가 관리하는 사이트 이야기를 해 볼까 합니다
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1458
 aktt_notify_twitter:

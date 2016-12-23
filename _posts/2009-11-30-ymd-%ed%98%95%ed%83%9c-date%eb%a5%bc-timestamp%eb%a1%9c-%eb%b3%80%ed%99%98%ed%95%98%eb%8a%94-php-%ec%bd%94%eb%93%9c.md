@@ -1,6 +1,6 @@
 ---
 title: '[PHP] Ymd 형태 date를 timestamp로 변환'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/105
 aktt_notify_twitter:

@@ -1,6 +1,6 @@
 ---
 title: '[MySQL] PASSWORD() 함수의 결과값이 달라졌을 때 (MySQL 4.1부터 달라짐)'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/3120
 aktt_notify_twitter:

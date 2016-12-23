@@ -1,6 +1,6 @@
 ---
 title: '헐~ 아고라 이슈에 이런게 &#8211; IT 노동자는 왜 야근할까요'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/577
 aktt_notify_twitter:

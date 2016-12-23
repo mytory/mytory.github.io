@@ -1,6 +1,6 @@
 ---
 title: 우분투, hosts 파일을 이용한 광고 제거
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/155
 aktt_notify_twitter:

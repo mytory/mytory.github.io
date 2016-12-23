@@ -1,6 +1,6 @@
 ---
 title: 구글 크롬 포터블
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1511
 aktt_notify_twitter:

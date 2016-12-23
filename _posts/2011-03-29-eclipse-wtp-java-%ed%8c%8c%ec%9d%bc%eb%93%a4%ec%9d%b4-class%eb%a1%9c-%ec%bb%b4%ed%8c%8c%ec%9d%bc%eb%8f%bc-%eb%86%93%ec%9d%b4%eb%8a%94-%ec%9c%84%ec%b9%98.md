@@ -1,6 +1,6 @@
 ---
 title: '[Eclipse WTP] java 파일들이 class로 컴파일돼 놓이는 위치'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1027
 aktt_notify_twitter:

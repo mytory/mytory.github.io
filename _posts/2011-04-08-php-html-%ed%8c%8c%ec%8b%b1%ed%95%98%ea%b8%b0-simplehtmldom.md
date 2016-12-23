@@ -1,6 +1,6 @@
 ---
 title: '[PHP] HTML 파싱하기 simplehtmldom, phphtmlparser'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1085
 aktt_notify_twitter:

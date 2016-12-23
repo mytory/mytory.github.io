@@ -1,6 +1,6 @@
 ---
 title: '[링크] jQuery 날짜, 시간 선택 플러그인 Date Time Picker &#8211; Any+Time'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/2235
 aktt_notify_twitter:

@@ -1,6 +1,6 @@
 ---
 title: CSS Sprite 이미지 만들어 주는 곳 중 괜찮은 곳
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/2311
 aktt_notify_twitter:

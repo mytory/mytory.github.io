@@ -1,6 +1,6 @@
 ---
 title: 'Dropbox, GitHub와 연동하는 WordPress Markdown Plugin &#8211; Mytory Markdown'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/12276
 mytory_md_path:

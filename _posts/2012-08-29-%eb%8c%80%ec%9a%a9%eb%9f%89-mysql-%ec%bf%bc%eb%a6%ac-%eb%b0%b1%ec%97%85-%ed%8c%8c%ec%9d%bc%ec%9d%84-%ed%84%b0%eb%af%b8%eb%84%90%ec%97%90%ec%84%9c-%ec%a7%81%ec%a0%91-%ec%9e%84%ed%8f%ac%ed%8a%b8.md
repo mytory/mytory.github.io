@@ -1,6 +1,6 @@
 ---
 title: 대용량 MySQL 쿼리 백업 파일을 터미널에서 직접 임포트하는 방법
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/3189
 aktt_notify_twitter:

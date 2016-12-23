@@ -1,6 +1,6 @@
 ---
 title: '[링크] 워드프레스 한글 태그 문제 해결 방법'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/9917
 daumview_id:

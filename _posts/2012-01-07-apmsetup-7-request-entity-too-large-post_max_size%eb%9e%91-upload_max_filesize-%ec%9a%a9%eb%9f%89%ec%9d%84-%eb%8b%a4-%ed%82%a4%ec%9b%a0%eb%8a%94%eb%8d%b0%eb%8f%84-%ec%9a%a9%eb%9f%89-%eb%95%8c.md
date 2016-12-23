@@ -1,6 +1,6 @@
 ---
 title: '[APMSETUP 7] Request Entity Too Large &#8211; post_max_size랑 upload_max_filesize 용량을 다 키웠는데도 용량 때문에 업로드가 안 된다고 나올 때'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/2051
 aktt_notify_twitter:

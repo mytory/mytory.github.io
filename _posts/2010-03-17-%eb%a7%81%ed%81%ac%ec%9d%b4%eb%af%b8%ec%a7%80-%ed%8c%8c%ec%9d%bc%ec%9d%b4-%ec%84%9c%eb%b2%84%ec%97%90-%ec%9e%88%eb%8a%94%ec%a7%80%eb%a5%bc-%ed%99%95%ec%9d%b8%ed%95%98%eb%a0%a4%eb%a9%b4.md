@@ -1,6 +1,6 @@
 ---
 title: '[링크]이미지 파일이 서버에 있는지를 확인하려면?'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/425
 aktt_notify_twitter:

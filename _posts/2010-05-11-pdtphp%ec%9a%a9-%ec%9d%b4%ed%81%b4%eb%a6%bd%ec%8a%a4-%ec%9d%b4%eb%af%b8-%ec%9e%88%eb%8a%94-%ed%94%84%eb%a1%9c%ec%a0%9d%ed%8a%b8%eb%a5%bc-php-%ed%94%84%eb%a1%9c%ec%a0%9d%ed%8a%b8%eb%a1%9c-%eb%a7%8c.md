@@ -1,6 +1,6 @@
 ---
 title: '[PDT(PHP용 이클립스)] 이미 있는 프로젝트를 PHP 프로젝트로 만들기'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/589
 aktt_notify_twitter:

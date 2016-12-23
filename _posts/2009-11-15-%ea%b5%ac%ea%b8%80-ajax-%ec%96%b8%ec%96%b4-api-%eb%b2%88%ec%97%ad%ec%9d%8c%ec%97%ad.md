@@ -1,6 +1,6 @@
 ---
 title: 구글 ajax 언어 api (번역/음역)
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/82
 aktt_notify_twitter:

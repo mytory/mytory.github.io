@@ -1,6 +1,6 @@
 ---
 title: 'PHP 버그? 세션 변수 값을 일반 변수가 덮어 쓰는 문제 &#8211; 아마 register_globals 때문인 듯'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/810
 aktt_notify_twitter:

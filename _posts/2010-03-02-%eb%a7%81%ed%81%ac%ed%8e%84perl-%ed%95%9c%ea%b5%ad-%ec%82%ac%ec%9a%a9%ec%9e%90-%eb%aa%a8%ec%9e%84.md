@@ -1,6 +1,6 @@
 ---
 title: '[링크]펄(perl) 한국 사용자 모임'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/340
 aktt_notify_twitter:

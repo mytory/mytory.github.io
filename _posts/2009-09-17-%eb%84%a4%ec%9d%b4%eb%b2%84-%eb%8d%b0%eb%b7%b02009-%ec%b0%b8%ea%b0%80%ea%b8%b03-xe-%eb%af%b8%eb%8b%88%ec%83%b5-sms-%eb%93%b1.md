@@ -1,6 +1,6 @@
 ---
 title: 네이버 데뷰2009 참가기(3) XE 미니샵, SMS 등
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/50
 aktt_notify_twitter:

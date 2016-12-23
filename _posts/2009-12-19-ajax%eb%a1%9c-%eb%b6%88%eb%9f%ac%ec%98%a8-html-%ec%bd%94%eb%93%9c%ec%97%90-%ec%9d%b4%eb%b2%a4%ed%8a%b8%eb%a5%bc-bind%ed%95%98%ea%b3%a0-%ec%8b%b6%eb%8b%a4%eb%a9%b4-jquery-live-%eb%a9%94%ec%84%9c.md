@@ -1,6 +1,6 @@
 ---
 title: ajax로 불러온 html 코드에 이벤트를 bind하고 싶다면? jquery live() 메서드
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/129
 aktt_notify_twitter:

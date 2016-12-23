@@ -1,6 +1,6 @@
 ---
 title: '[공유] 잘 알려지지 않았지만 알아 두면 좋은 PHP 코드 사용하기'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1342
 aktt_notify_twitter:

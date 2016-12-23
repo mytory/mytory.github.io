@@ -1,6 +1,6 @@
 ---
 title: '[리눅스] 한글 폰트의 영문 이름 구하기'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1131
 aktt_notify_twitter:

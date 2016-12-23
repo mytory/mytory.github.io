@@ -1,6 +1,6 @@
 ---
 title: '[번역]모바일용 사이트를 디자인할 때 유용한 팁'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/329
 aktt_notify_twitter:

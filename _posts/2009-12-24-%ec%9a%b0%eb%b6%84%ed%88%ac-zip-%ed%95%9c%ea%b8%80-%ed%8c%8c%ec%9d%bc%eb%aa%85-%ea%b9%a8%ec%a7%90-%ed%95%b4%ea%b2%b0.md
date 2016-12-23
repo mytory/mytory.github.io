@@ -1,6 +1,6 @@
 ---
 title: 우분투, zip 한글 파일명 깨짐 해결
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/151
 aktt_notify_twitter:

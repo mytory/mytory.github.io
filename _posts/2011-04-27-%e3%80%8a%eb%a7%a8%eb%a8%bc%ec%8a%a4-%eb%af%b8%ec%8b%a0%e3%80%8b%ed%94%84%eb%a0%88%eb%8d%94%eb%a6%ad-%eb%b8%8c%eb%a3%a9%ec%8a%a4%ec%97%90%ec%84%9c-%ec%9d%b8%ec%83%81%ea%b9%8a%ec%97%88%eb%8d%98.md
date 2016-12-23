@@ -1,6 +1,6 @@
 ---
 title: 《맨먼스 미신》(프레더릭 브룩스)에서 인상깊었던 구절 모음
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1159
 aktt_notify_twitter:

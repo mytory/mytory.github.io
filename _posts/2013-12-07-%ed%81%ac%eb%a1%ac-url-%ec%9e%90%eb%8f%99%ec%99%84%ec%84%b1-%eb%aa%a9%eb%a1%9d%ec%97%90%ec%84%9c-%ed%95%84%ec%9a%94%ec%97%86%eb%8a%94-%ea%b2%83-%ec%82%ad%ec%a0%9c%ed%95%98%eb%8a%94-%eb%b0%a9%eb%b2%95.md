@@ -1,6 +1,6 @@
 ---
 title: 크롬 URL 자동완성 목록에서 필요없는 것 삭제하는 방법
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/11888
 mytory_md_path:

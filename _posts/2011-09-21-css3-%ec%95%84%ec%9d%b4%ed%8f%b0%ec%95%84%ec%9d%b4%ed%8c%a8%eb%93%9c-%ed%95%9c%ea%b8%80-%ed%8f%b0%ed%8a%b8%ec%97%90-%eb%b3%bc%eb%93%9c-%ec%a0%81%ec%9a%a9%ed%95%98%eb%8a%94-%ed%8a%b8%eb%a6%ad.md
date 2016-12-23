@@ -1,6 +1,6 @@
 ---
 title: '[CSS3] 아이폰/아이패드 한글 폰트에 볼드 적용하는 트릭'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1843
 aktt_notify_twitter:

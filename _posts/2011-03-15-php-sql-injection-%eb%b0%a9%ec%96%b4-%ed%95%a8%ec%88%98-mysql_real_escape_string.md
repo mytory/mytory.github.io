@@ -1,6 +1,6 @@
 ---
 title: '[PHP] sql injection 방어 함수, mysql_real_escape_string'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/961
 aktt_notify_twitter:

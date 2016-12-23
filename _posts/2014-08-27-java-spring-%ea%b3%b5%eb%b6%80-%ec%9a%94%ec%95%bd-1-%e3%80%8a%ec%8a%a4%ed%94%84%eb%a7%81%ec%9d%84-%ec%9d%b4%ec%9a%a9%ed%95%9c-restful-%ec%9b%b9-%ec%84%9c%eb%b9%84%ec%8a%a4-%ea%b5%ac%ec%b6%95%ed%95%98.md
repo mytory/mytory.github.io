@@ -1,6 +1,6 @@
 ---
 title: JAVA Spring 공부 요약 1 (《스프링을 이용한 RESTful 웹 서비스 구축하기》)
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/13185
 mytory_md_path:

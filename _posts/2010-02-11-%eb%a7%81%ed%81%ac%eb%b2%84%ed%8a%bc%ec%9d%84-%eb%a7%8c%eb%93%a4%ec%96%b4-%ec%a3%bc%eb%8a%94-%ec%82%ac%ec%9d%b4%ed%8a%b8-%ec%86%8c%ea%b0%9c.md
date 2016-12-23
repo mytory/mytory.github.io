@@ -1,6 +1,6 @@
 ---
 title: '[링크] 버튼을 만들어 주는 사이트 소개 (지금은 없어짐)'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/268
 aktt_notify_twitter:

@@ -1,6 +1,6 @@
 ---
 title: '[ImgageMagick] PSD의 모든 레이어를 한방에 PNG로 뽑기'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/12922
 mytory_md_path:

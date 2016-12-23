@@ -1,6 +1,6 @@
 ---
 title: '[git] 과거로 갔다가 돌아 오기 (특정 리비전으로 갔다가 되돌아 오기)'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/10078
 daumview_id:

@@ -1,6 +1,6 @@
 ---
 title: '[링크]외국 업계에서 본 한국 인터넷 뱅킹 보안의 문제점'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/135
 aktt_notify_twitter:

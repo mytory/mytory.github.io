@@ -1,6 +1,6 @@
 ---
 title: '[ckeditor] jQuery 아답터(adaptor) 함수들'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/552
 aktt_notify_twitter:

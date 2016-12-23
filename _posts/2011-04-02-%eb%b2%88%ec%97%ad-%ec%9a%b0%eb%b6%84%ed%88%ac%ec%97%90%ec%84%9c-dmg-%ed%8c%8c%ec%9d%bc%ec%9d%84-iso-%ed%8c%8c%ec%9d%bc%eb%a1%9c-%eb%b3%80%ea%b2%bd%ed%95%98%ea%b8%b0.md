@@ -1,6 +1,6 @@
 ---
 title: '[번역] 우분투에서 dmg 파일을 iso 파일로 변경하기'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1057
 Description:

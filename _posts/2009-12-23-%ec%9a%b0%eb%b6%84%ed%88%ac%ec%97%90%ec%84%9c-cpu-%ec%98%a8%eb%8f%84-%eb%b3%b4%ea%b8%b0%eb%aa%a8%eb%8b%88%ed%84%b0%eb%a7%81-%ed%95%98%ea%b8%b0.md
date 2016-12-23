@@ -1,6 +1,6 @@
 ---
 title: 우분투에서 CPU 온도 보기(모니터링 하기)
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/146
 aktt_notify_twitter:

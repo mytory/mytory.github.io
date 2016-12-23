@@ -1,6 +1,6 @@
 ---
 title: '[링크:영어] 최신 네비게이션 디자인 트렌드 모음'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/417
 aktt_notify_twitter:

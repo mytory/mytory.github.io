@@ -1,6 +1,6 @@
 ---
 title: 이클립스에서 PHPUnit(PHP 단위 테스트) 사용하기
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/687
 aktt_notify_twitter:

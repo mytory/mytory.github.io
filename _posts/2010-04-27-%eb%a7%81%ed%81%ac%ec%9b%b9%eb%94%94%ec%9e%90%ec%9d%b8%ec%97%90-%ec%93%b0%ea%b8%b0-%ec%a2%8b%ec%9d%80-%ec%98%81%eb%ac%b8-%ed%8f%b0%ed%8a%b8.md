@@ -1,6 +1,6 @@
 ---
 title: '[링크]웹디자인에 쓰기 좋은 영문 폰트'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/540
 aktt_notify_twitter:

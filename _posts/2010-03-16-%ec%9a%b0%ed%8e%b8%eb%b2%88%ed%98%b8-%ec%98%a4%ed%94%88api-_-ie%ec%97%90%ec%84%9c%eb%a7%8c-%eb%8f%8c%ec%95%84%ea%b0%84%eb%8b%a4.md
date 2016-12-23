@@ -1,6 +1,6 @@
 ---
 title: 우편번호 오픈API _ IE에서만 돌아간다? 아니다
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/420
 aktt_notify_twitter:

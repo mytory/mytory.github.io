@@ -1,6 +1,6 @@
 ---
 title: '[shell] 원격 접속해서 시간 오래 걸리는 작업, 접속 끊어도 계속 진행되게 하기 disown'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/2340
 aktt_notify_twitter:

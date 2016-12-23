@@ -1,6 +1,6 @@
 ---
 title: 구글 맵에서 SVG 마커가 선의 중앙에 오게 만들기
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/12907
 mytory_md_path:

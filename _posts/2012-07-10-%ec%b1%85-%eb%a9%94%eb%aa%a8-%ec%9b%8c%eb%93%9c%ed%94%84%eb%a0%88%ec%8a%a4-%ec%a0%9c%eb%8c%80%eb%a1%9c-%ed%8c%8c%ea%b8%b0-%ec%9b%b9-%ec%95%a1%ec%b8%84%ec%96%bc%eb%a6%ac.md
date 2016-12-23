@@ -1,6 +1,6 @@
 ---
 title: '[책 메모] 《워드프레스 제대로 파기》, 웹 액츄얼리'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/3013
 aktt_notify_twitter:

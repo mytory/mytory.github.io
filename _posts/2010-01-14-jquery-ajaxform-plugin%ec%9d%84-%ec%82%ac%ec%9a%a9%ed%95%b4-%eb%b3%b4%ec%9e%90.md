@@ -1,6 +1,6 @@
 ---
 title: jQuery ajaxForm plugin을 사용해 보자
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/223
 aktt_notify_twitter:

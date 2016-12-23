@@ -1,6 +1,6 @@
 ---
 title: '[어떻게 생각하세요?] &#8220;웹표준이 병신인 것을&#8230;&#8221;'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/488
 aktt_notify_twitter:

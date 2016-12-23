@@ -1,6 +1,6 @@
 ---
 title: '[번역:CSS3] rem으로 글자 크기 지정하기 &#8211; 워드프레스 Twenty Twelve 테마에 사용된 놈'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/8906
 daumview_id:

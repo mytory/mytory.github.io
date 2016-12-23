@@ -1,6 +1,6 @@
 ---
 title: ckeditor, javascript의 appendChild(child) 처럼 html 추가하기
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/218
 aktt_notify_twitter:

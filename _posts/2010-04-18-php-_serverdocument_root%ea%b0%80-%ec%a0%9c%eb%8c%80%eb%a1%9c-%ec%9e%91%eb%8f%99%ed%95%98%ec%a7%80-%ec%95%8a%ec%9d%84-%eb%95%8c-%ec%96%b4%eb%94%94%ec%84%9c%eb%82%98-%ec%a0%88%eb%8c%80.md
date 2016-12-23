@@ -1,6 +1,6 @@
 ---
 title: "[PHP] $_SERVER['DOCUMENT_ROOT']가 제대로 작동하지 않을 때 어디서나 절대경로 제대로 구하기"
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/519
 aktt_notify_twitter:

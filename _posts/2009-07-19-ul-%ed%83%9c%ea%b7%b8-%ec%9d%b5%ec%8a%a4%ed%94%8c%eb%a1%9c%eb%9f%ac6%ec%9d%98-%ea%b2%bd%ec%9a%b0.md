@@ -1,6 +1,6 @@
 ---
 title: UL 태그, 익스플로러6의 경우
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/8
 aktt_notify_twitter:

@@ -1,6 +1,6 @@
 ---
 title: '파이어폭스 확장, Vimperator 자주 사용할 단축키 &#8211; 마우스에서 벗어나게 해 주는 확장'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/9492
 daumview_id:

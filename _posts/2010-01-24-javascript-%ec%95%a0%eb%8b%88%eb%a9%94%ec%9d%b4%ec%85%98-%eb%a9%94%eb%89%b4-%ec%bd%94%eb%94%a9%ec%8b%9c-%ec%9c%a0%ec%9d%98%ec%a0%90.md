@@ -1,6 +1,6 @@
 ---
 title: javascript 애니메이션 메뉴 코딩시 유의점
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/235
 aktt_notify_twitter:

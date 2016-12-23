@@ -1,6 +1,6 @@
 ---
 title: '크롬에서 모든 웹사이트 글꼴을 &#8220;맑은 고딕&#8221;이나 &#8220;나눔고딕&#8221;으로 만들기'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1262
 categories:

@@ -1,6 +1,6 @@
 ---
 title: 우분투 리눅스에서 알집,rar,7zip 풀수 있게 만들기
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/81
 aktt_notify_twitter:

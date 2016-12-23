@@ -1,6 +1,6 @@
 ---
 title: '[추천] 스마트폰에 대해 읽어야 할 글 몇 가지'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/306
 aktt_notify_twitter:

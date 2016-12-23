@@ -1,6 +1,6 @@
 ---
 title: '[우분투:링크:영어] 멀티미디어 관련해 할 것 들'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/518
 aktt_notify_twitter:

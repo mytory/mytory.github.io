@@ -1,6 +1,6 @@
 ---
 title: ckeditor, 자바스크립트로 내용 집어넣기(전체 내용 바꾸기)
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/217
 aktt_notify_twitter:

@@ -1,6 +1,6 @@
 ---
 title: Selenium에서 jQuery Select2 테스트하기
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/9376
 daumview_id:

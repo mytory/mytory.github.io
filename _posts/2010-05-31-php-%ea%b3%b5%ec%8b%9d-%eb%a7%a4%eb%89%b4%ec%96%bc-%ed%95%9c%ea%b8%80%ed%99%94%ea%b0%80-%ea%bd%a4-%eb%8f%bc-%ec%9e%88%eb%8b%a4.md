@@ -1,6 +1,6 @@
 ---
 title: 'PHP 공식 매뉴얼 &#8211; 한글화가 꽤 돼 있다'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/624
 aktt_notify_twitter:

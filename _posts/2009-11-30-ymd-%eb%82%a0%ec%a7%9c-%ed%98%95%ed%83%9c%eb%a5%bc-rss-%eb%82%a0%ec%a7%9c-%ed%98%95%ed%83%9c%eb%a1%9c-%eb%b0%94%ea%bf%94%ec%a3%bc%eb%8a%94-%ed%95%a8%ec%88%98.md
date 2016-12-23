@@ -1,6 +1,6 @@
 ---
 title: Ymd 날짜 형태를 rss 날짜 형태로 바꿔주는 함수
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/107
 aktt_notify_twitter:

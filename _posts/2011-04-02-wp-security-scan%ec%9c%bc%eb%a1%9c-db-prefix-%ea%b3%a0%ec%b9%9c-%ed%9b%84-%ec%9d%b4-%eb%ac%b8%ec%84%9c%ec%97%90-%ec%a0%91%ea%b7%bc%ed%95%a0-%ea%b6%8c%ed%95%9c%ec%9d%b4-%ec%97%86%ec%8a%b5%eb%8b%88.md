@@ -1,6 +1,6 @@
 ---
 title: 'WP Security Scan으로 DB prefix 고친 후 &#8220;이 문서에 접근할 권한이 없습니다(You do not have sufficient permissions to access this page)&#8221;가 나올 경우'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1064
 aktt_notify_twitter:

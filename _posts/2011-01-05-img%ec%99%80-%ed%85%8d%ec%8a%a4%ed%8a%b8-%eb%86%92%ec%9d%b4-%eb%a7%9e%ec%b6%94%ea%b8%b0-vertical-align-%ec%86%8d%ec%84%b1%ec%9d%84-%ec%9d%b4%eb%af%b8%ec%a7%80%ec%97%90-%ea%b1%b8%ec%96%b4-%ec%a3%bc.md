@@ -1,6 +1,6 @@
 ---
 title: 'img와 텍스트 높이 맞추기 : vertical-align 속성을 이미지에 걸어 주기'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/797
 aktt_notify_twitter:

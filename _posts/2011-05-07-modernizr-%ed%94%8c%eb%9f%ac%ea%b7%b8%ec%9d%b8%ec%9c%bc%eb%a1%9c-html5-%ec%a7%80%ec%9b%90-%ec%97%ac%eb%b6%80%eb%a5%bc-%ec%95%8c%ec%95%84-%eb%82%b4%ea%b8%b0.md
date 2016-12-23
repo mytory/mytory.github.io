@@ -1,6 +1,6 @@
 ---
 title: Modernizr 라이브러리로 브라우저의 HTML5 지원 여부 알아 내기 + 플레이스 홀더
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1213
 aktt_notify_twitter:

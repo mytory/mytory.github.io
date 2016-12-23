@@ -1,6 +1,6 @@
 ---
 title: '[번역]스마트폰에 모바일 CSS 적용시키기'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/335
 aktt_notify_twitter:

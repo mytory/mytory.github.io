@@ -1,6 +1,6 @@
 ---
 title: '[링크] 디자인을 올리고, 디자이너들의 평가를 받을 수 있는 사이트'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1887
 aktt_notify_twitter:

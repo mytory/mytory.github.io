@@ -1,6 +1,6 @@
 ---
 title: 우편번호 DB 20130530 mysql insert query
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/579
 aktt_notify_twitter:

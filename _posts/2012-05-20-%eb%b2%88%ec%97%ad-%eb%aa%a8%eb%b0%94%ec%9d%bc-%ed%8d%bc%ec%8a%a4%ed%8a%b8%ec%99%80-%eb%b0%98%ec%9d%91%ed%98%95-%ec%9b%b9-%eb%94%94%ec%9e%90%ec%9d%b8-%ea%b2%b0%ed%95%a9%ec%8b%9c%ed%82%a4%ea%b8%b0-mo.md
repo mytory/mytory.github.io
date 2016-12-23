@@ -1,6 +1,6 @@
 ---
 title: '[번역] 모바일 퍼스트 반응형 웹 디자인 mobile-first responsive web design'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/2400
 aktt_notify_twitter:

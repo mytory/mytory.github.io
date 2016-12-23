@@ -1,6 +1,6 @@
 ---
 title: '맥에서 편집한 MOV를 AVI로 변환해 주는 프로그램 &#8211; Pazera Free MOV to AVI Converter'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/2305
 aktt_notify_twitter:

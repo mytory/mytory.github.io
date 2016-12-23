@@ -1,6 +1,6 @@
 ---
 title: 구글 웨이브 초대장 배포합니다
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/99
 aktt_notify_twitter:

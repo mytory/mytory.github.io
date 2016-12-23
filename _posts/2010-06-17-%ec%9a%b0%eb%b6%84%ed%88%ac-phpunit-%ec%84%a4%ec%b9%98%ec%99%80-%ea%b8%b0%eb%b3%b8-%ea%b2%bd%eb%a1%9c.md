@@ -1,6 +1,6 @@
 ---
 title: '[우분투] PHPunit 설치와 기본 경로'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/686
 aktt_notify_twitter:

@@ -1,6 +1,6 @@
 ---
 title: '[Shell] find와 grep 조합해서 텍스트 문서 검색하기'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/10905
 daumview_id:

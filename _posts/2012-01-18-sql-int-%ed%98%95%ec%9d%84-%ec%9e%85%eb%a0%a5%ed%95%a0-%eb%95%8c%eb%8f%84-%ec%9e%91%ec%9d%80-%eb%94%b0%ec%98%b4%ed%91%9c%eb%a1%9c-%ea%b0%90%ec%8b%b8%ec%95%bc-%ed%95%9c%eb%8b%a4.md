@@ -1,6 +1,6 @@
 ---
 title: '[SQL] INT 형을 입력할 때도 작은 따옴표로 감싸야 한다'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/2083
 aktt_notify_twitter:

@@ -1,6 +1,6 @@
 ---
 title: '[링크] 안전한 PHP 응용 프로그램을 작성하는 일곱 가지 습관'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/74
 aktt_notify_twitter:

@@ -1,6 +1,6 @@
 ---
 title: 'live(), die() 대신 jquery 1.4.2부터 사용할 메서드 &#8211; delegate(), undelegate()'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/372
 aktt_notify_twitter:

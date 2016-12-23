@@ -1,6 +1,6 @@
 ---
 title: 페이지 전체 새로고침 없이 CSS만 새로 불러오는 솔루션들
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/10854
 daumview_id:

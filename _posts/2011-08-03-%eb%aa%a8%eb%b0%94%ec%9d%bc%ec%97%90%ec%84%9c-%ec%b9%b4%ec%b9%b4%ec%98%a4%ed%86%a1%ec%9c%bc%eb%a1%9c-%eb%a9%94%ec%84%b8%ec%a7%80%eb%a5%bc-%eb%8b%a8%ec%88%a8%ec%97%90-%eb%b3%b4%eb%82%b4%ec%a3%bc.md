@@ -1,6 +1,6 @@
 ---
 title: '이 페이지를 카카오톡으로 보내기 &#8211; 카카오링크'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1563
 aktt_notify_twitter:

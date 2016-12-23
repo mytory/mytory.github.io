@@ -1,6 +1,6 @@
 ---
 title: '[링크]이클립스 에러: Problems occurred when invoking code from plug-in: &#8220;org.eclipse.jface&#8221;.'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/78
 aktt_notify_twitter:

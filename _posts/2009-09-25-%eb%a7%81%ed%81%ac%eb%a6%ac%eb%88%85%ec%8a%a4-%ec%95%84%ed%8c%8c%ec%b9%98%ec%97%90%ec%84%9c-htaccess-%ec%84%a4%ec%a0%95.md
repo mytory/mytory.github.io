@@ -1,6 +1,6 @@
 ---
 title: '[링크]리눅스 아파치에서 .htaccess 설정'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/61
 aktt_notify_twitter:

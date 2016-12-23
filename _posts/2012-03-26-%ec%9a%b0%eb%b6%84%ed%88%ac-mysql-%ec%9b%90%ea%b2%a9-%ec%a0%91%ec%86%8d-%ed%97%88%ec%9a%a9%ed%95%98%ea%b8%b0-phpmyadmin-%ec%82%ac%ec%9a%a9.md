@@ -1,6 +1,6 @@
 ---
 title: '[우분투] MySql 원격 접속 허용하기 &#8211; PhpMyAdmin 사용'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/2372
 aktt_notify_twitter:

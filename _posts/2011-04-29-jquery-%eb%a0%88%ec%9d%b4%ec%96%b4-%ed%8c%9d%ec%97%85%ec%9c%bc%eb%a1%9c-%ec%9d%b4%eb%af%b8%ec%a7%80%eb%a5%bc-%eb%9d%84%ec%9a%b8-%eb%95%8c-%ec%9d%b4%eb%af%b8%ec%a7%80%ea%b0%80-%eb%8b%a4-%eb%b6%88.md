@@ -1,6 +1,6 @@
 ---
 title: '[jQuery] 레이어 팝업으로 이미지를 띄울 때 이미지가 다 불러진 다음 이미지 사이즈를 계산해서 화면 정 중앙에 오게 하기'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1174
 aktt_notify_twitter:

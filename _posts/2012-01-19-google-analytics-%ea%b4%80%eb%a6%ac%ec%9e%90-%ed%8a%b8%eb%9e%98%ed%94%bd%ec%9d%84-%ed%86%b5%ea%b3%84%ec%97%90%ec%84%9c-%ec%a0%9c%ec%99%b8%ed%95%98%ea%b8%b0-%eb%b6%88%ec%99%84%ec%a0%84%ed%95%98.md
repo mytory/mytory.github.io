@@ -1,6 +1,6 @@
 ---
 title: '[Google Analytics] 쿠키를 이용해 관리자 트래픽을 통계에서 제외하기'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/2090
 aktt_notify_twitter:

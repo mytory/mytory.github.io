@@ -1,6 +1,6 @@
 ---
 title: 《Pro Git》 epub 코드 줄바꿈 되는 버전 다운로드
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/8707
 daumview_id:

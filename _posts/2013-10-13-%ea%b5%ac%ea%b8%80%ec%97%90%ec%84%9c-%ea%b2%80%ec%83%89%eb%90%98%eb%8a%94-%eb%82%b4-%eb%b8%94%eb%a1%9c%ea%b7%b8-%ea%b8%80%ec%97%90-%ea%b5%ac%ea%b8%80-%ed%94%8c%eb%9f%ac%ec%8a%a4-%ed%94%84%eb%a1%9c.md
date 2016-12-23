@@ -1,6 +1,6 @@
 ---
 title: 구글에서 검색되는 내 블로그 글에 구글 플러스 프로필/페이지 연결하기
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/11394
 mytory_markdown_html:

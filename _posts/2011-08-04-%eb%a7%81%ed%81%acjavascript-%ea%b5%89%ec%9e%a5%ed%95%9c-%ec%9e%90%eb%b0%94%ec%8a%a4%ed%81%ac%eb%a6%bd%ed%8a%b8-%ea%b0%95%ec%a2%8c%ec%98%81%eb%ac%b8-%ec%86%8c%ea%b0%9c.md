@@ -1,6 +1,6 @@
 ---
 title: '[링크][JavaScript] 굉장한 자바스크립트 강좌(영문) 소개'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1575
 aktt_notify_twitter:

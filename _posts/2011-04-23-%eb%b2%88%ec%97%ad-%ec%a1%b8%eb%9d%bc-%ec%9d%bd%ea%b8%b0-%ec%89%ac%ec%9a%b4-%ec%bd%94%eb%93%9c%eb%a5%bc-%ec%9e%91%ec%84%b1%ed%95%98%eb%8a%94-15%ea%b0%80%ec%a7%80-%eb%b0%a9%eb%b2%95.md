@@ -1,6 +1,6 @@
 ---
 title: '[번역] 정말 읽기 쉬운 코드를 작성하는 최우선 15가지+ 최고의 방법'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1098
 aktt_notify_twitter:

@@ -1,6 +1,6 @@
 ---
 title: '[링크] Shell에서 용량 관리 위한 명령어'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/2195
 aktt_notify_twitter:

@@ -1,6 +1,6 @@
 ---
 title: '[링크] 아이폰 DFU 모드 진입에 관한 가장 훌륭한 한국어 동영상'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1379
 aktt_notify_twitter:

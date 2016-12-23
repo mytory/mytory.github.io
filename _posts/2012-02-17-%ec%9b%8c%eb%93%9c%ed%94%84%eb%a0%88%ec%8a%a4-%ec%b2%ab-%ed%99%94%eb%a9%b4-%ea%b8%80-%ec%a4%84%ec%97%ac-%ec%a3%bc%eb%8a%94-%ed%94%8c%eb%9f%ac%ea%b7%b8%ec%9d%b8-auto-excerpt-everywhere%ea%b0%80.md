@@ -1,6 +1,6 @@
 ---
 title: '[워드프레스] 첫 화면 글 줄여 주는 플러그인 &#8211; Auto Excerpt Everywhere가 좋다, Frontpage Manager는 별로다'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/2276
 aktt_notify_twitter:

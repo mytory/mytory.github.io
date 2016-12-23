@@ -1,6 +1,6 @@
 ---
 title: 윈도우, 맥에서 IntelliJ 톰캣 로그 한글이 깨질 때
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/13224
 mytory_md_path:

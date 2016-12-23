@@ -1,6 +1,6 @@
 ---
 title: '[아이폰 북마클릿] 아이폰 크롬에서 열기 + 아이폰 크롬에 대한 단상'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/2792
 aktt_notify_twitter:

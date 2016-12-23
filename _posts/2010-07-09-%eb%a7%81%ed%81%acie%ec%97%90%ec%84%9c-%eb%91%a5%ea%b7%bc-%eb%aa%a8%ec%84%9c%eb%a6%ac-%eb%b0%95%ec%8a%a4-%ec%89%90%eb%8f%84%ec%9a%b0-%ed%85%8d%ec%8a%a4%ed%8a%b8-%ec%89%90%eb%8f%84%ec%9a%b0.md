@@ -1,6 +1,6 @@
 ---
 title: '[링크]IE에서 둥근 모서리, 박스 쉐도우, 텍스트 쉐도우 효과 사용하기'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/708
 aktt_notify_twitter:

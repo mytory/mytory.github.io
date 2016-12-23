@@ -1,6 +1,6 @@
 ---
 title: '[링크] 쓰레기 알집, 꼴값하는 이스트 소프트'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/328
 aktt_notify_twitter:

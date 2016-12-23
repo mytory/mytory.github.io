@@ -1,6 +1,6 @@
 ---
 title: '[우분투:이클립스]숨김파일 보이게 하기(.htaccess 같은 거)'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/592
 aktt_notify_twitter:

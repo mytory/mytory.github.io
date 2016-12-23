@@ -1,6 +1,6 @@
 ---
 title: '[JAVA] HTMLEntities 클래스 &#8211; PHP의 htmlspecialchars 기능'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1151
 aktt_notify_twitter:

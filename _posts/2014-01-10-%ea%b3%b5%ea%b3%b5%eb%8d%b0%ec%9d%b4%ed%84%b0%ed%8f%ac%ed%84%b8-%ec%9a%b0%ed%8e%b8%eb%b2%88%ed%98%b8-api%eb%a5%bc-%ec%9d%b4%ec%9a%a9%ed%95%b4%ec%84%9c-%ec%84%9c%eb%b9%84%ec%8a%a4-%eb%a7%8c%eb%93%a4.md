@@ -1,6 +1,6 @@
 ---
 title: 공공데이터포털 우편번호 API 신청 절차와 우편번호 API 정리
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/12185
 mytory_md_path:

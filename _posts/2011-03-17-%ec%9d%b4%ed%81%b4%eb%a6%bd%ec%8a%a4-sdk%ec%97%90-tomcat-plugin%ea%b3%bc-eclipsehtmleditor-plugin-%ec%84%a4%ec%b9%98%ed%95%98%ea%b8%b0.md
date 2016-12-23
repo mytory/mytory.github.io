@@ -1,6 +1,6 @@
 ---
 title: 이클립스 SDK에 tomcat plugin과 EclipseHTMLEditor plugin 설치하기
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/963
 aktt_notify_twitter:

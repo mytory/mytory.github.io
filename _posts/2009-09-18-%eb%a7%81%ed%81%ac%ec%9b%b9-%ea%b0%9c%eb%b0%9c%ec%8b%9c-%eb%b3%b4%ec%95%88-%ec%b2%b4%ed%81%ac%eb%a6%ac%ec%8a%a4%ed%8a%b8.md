@@ -1,6 +1,6 @@
 ---
 title: '[링크]웹 개발시 보안 체크리스트'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/59
 aktt_notify_twitter:

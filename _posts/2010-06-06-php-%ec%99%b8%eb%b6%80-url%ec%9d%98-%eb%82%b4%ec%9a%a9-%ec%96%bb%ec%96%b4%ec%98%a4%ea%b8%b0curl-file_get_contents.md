@@ -1,6 +1,6 @@
 ---
 title: '[PHP] 외부 URL의 내용 얻어오기(cURL, file_get_contents)'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/649
 aktt_notify_twitter:

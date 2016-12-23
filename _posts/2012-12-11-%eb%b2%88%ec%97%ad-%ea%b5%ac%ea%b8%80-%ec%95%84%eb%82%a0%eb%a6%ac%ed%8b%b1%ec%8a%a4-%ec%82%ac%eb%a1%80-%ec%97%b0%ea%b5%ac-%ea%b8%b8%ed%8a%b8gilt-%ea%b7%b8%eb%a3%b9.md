@@ -1,6 +1,6 @@
 ---
 title: '[번역] 구글 아날리틱스 사례 연구 &#8211; 길트(Gilt) 그룹은 엔터프라이즈급 분석을 통해 통찰력을 얻었다'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/8794
 daumview_id:

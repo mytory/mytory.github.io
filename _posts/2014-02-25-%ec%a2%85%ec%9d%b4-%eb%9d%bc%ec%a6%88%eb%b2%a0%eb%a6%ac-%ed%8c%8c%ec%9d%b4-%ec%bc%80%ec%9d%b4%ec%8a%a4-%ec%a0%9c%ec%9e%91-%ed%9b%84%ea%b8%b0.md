@@ -1,6 +1,6 @@
 ---
 title: 라즈베리 파이 종이 케이스 제작 후기
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/12655
 mytory_md_path:

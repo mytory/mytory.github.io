@@ -1,6 +1,6 @@
 ---
 title: '[워드프레스] wp_cron(사실은 wp_schedule_event)을 이용해서 정기적인 작업 하기'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/3029
 aktt_notify_twitter:

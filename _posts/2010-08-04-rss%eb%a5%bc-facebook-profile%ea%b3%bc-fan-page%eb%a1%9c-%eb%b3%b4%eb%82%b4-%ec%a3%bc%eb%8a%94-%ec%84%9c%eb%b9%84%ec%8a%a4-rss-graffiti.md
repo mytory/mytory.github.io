@@ -1,6 +1,6 @@
 ---
 title: 'RSS를 facebook Profile과 Fan Page로 보내 주는 서비스 &#8211; RSS Graffiti'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/724
 aktt_notify_twitter:

@@ -1,6 +1,6 @@
 ---
 title: 워드프레스에서 Jekyll로 이전
-author: 녹풍
+author: 안형우
 layout: post
 categories:
   - 기타

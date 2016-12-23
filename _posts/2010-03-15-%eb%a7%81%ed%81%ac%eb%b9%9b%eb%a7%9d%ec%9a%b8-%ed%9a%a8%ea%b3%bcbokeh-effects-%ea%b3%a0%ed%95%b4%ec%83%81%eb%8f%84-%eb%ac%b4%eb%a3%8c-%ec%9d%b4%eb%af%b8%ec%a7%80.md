@@ -1,6 +1,6 @@
 ---
 title: '[링크]빛망울 효과(Bokeh Effects), 고해상도 무료 이미지'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/404
 aktt_notify_twitter:

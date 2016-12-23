@@ -1,6 +1,6 @@
 ---
 title: jQuery를 이용해 스크롤바 따라다니는 레이어 만들기(IE6,IE7,IE8,크롬,사파리,파폭)
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/761
 aktt_notify_twitter:

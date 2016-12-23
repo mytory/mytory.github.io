@@ -1,6 +1,6 @@
 ---
 title: '[링크]프로그래머를 위한 공부론'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/605
 aktt_notify_twitter:

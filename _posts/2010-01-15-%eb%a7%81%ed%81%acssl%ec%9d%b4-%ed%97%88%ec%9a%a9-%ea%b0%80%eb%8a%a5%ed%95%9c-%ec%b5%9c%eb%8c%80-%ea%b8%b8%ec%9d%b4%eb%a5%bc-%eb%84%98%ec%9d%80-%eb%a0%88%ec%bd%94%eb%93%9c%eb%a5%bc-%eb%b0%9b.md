@@ -1,6 +1,6 @@
 ---
 title: '[링크]SSL이 허용 가능한 최대 길이를 넘은 레코드를 받았습니다. &#8211; 파이어폭스 부가기능 에러'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/224
 aktt_notify_twitter:

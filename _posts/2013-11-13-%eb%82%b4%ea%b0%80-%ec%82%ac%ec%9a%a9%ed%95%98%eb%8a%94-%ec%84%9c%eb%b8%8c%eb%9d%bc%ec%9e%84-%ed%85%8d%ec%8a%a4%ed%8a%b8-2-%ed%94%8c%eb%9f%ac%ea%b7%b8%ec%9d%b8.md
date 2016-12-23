@@ -1,6 +1,6 @@
 ---
 title: 내가 사용하는 서브라임 텍스트 2 플러그인
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/11726
 mytory_md_path:

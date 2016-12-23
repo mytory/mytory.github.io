@@ -1,6 +1,6 @@
 ---
 title: '[링크] 워드프레스 다국어 지원 플러그인들 소개 Best WordPress Translation Plugins'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/3187
 aktt_notify_twitter:

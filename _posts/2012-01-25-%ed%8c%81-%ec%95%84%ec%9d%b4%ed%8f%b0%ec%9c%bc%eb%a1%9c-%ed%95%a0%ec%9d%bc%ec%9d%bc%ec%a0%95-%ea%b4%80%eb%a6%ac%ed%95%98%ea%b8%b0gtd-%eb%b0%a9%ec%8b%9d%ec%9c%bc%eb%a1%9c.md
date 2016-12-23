@@ -1,6 +1,6 @@
 ---
 title: '[팁] 아이폰으로 할일/일정 관리하기(GTD 방식으로!)'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/2118
 aktt_notify_twitter:

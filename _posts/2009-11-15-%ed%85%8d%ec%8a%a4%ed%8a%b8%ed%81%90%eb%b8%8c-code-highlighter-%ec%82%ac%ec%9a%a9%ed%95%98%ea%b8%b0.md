@@ -1,6 +1,6 @@
 ---
 title: 텍스트큐브 code highlighter 사용하기
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/84
 aktt_notify_twitter:

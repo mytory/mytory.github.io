@@ -1,6 +1,6 @@
 ---
 title: '[링크] 소셜미디어 아이콘 모음'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/378
 aktt_notify_twitter:

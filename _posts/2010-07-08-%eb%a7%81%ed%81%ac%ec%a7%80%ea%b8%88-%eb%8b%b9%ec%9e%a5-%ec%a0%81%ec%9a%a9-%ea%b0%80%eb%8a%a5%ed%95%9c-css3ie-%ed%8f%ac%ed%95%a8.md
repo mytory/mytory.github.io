@@ -1,6 +1,6 @@
 ---
 title: '[링크]지금 당장 적용 가능한 CSS3(IE 포함)'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/705
 aktt_notify_twitter:

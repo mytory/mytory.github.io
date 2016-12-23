@@ -1,6 +1,6 @@
 ---
 title: '[링크:번역대상] 니콜라스 자카스가 말하는, 자바스크립트 속도 향상 팁 10가지'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1541
 aktt_notify_twitter:

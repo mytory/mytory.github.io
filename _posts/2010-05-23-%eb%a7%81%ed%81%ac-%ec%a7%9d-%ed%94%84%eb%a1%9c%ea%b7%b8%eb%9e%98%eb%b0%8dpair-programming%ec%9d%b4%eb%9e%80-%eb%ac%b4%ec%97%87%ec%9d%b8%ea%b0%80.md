@@ -1,6 +1,6 @@
 ---
 title: '[링크] 짝 프로그래밍(pair programming)이란 무엇인가?'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/608
 aktt_notify_twitter:

@@ -1,6 +1,6 @@
 ---
 title: 이메일 대량 발송의 어려움
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/4936
 aktt_notify_twitter:

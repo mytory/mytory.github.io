@@ -1,6 +1,6 @@
 ---
 title: '[jQuery] 가로 아코디언 플러그인 horizon accordion plugin'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/2376
 aktt_notify_twitter:

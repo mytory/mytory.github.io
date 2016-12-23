@@ -1,6 +1,6 @@
 ---
 title: '[꼬꼬면을 먹고] 기획과 입소문 마케팅의 결합'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1776
 aktt_notify_twitter:

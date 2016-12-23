@@ -1,6 +1,6 @@
 ---
 title: '[우분투] 컴피즈 마우스 포인터 변경이 안 될 때(부분만 변경될 때)'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/746
 aktt_notify_twitter:

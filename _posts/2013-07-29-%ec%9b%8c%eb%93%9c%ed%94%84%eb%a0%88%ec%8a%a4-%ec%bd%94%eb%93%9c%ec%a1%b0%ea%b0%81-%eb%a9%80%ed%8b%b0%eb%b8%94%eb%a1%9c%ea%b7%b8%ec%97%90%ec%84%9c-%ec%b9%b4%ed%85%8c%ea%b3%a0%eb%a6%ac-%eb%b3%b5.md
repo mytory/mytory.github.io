@@ -1,6 +1,6 @@
 ---
 title: '[워드프레스 코드조각] 멀티블로그에서 카테고리 복사 뜨기'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/10601
 daumview_id:

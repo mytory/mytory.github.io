@@ -1,6 +1,6 @@
 ---
 title: 아이폰 어플의 데이터가 갑자기 사라졌다면?
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1855
 aktt_notify_twitter:

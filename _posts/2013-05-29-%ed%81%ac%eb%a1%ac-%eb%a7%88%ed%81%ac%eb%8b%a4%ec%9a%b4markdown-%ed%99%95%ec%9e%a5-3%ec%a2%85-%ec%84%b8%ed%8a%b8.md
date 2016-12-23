@@ -1,6 +1,6 @@
 ---
 title: 크롬 마크다운(Markdown) 확장 3종 세트
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/10258
 daumview_id:

@@ -1,6 +1,6 @@
 ---
 title: '[링크]무료 프로그램 모음글'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/644
 aktt_notify_twitter:

@@ -1,6 +1,6 @@
 ---
 title: '[링크] Curl HTTP 리퀘스트를 쉽게 해 주는 클래스'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1513
 aktt_notify_twitter:

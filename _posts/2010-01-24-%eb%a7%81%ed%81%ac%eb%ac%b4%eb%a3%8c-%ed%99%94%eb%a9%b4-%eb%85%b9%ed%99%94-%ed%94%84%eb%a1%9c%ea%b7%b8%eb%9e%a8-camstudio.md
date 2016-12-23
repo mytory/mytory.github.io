@@ -1,6 +1,6 @@
 ---
 title: '[링크]무료 화면 녹화 프로그램 &#8211; CamStudio'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/234
 aktt_notify_twitter:

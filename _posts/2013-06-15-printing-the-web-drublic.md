@@ -1,6 +1,6 @@
 ---
 title: '[번역] 웹을 인쇄하기'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/9796
 daumview_id:

@@ -1,6 +1,6 @@
 ---
 title: 'jQuery, 객체를 바꿔치기하는 replaceWith() 함수 &#8211; 태그 바꿀 때도 사용 가능'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/183
 aktt_notify_twitter:

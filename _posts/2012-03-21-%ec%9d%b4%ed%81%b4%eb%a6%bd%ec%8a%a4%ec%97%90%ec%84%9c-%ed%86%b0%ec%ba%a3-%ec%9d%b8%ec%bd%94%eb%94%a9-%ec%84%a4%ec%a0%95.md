@@ -1,6 +1,6 @@
 ---
 title: 이클립스에서 톰캣 인코딩 설정
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/2351
 aktt_notify_twitter:

@@ -1,6 +1,6 @@
 ---
 title: Git 패치 파일 만들어서 적용하기
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/12126
 mytory_md_path:

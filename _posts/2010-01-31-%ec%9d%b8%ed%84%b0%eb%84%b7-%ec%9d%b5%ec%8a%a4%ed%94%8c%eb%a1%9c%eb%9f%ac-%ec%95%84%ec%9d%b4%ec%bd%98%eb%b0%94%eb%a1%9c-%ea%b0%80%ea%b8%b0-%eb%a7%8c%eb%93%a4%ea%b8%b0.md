@@ -1,6 +1,6 @@
 ---
 title: 인터넷 익스플로러 아이콘(바로 가기) 만들기
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/242
 aktt_notify_twitter:

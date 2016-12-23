@@ -1,6 +1,6 @@
 ---
 title: '워드프레스 도메인 옮기고 검색엔진에 알려 주기 (301 리디렉트하기) &#8211; 멀티사이트까지 되게 하기'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/4850
 aktt_notify_twitter:

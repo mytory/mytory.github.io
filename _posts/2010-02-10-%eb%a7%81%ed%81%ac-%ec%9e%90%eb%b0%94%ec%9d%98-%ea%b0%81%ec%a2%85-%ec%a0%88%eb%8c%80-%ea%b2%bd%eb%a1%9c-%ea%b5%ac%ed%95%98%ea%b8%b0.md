@@ -1,6 +1,6 @@
 ---
 title: '[링크] 자바의 각종 절대 경로 구하기'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/263
 aktt_notify_twitter:

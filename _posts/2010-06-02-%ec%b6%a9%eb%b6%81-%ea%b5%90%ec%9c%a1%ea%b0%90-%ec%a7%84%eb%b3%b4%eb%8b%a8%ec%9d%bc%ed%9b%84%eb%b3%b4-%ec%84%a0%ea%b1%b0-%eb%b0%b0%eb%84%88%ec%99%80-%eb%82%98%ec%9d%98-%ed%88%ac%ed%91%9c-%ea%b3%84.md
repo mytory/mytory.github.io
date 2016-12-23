@@ -1,6 +1,6 @@
 ---
 title: 충북 교육감 진보단일후보 선거 배너와 나의 투표 계획
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/636
 aktt_notify_twitter:

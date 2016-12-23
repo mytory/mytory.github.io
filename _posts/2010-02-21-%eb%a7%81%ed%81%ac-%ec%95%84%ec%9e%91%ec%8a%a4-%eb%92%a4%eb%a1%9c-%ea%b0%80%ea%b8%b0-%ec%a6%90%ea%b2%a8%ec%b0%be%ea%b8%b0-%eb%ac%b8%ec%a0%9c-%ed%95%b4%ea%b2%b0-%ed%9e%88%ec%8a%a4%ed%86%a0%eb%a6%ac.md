@@ -1,6 +1,6 @@
 ---
 title: '[링크] 아작스 뒤로 가기 즐겨찾기 문제 해결 &#8211; 히스토리'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/317
 aktt_notify_twitter:

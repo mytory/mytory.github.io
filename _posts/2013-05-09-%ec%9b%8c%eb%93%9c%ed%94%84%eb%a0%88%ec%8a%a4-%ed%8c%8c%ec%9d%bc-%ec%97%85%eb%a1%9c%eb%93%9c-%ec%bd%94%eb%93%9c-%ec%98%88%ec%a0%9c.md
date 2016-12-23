@@ -1,6 +1,6 @@
 ---
 title: '[워드프레스] 파일 업로드 코드 예제'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/10107
 daumview_id:

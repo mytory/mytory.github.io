@@ -1,6 +1,6 @@
 ---
 title: '[Eclipse PDT] 함수 앞에 붙는 주석의 자동완성 내용을 변경하기'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/9521
 daumview_id:

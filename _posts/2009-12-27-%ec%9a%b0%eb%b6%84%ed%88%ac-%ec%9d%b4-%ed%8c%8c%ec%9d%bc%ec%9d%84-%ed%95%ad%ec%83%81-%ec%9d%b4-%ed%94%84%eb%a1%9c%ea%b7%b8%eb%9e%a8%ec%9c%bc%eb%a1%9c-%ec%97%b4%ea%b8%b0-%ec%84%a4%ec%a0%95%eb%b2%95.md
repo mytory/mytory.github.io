@@ -1,6 +1,6 @@
 ---
 title: '우분투 &#8211; 이 파일을 항상 이 프로그램으로 열기 설정법'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/163
 aktt_notify_twitter:

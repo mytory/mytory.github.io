@@ -1,6 +1,6 @@
 ---
 title: '코드를 그대로 출력해 주는 html 태그 &#8211; xmp'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/18
 aktt_notify_twitter:

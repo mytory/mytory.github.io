@@ -1,6 +1,6 @@
 ---
 title: '[링크] Trello &#8211; “Joel On Software” 조엘 아저씨의 새로운 웹서비스'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1830
 aktt_notify_twitter:

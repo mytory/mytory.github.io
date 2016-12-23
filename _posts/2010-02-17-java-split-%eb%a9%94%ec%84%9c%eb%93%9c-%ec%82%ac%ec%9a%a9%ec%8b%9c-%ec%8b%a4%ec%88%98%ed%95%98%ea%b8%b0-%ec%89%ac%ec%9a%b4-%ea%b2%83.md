@@ -1,6 +1,6 @@
 ---
 title: '[java] split 메서드 사용시 실수하기 쉬운 것'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/285
 aktt_notify_twitter:

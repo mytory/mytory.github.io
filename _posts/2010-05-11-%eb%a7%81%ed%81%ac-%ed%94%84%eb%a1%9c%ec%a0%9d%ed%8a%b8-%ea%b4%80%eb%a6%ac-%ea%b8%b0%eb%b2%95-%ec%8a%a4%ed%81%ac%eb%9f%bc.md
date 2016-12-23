@@ -1,6 +1,6 @@
 ---
 title: '[링크] 프로젝트 관리 기법 &#8211; 스크럼'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/583
 aktt_notify_twitter:

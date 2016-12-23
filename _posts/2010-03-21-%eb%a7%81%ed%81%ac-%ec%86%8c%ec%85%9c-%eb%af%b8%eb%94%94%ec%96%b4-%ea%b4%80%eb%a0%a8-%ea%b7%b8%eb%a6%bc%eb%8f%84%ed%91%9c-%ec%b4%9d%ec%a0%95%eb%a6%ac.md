@@ -1,6 +1,6 @@
 ---
 title: '[링크] 소셜 미디어 관련 그림/도표 총정리'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/438
 aktt_notify_twitter:

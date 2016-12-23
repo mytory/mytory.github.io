@@ -1,6 +1,6 @@
 ---
 title: 윈도우에서 기본 프로그램으로 sublime text를 선택할 수 없을 때 조치법
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/11417
 daumview_id:

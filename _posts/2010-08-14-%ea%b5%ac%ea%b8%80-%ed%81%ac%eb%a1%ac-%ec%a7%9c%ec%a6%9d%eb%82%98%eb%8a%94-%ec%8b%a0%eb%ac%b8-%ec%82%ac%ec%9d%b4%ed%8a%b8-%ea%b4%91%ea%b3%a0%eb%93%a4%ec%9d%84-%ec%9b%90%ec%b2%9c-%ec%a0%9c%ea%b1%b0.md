@@ -1,6 +1,6 @@
 ---
 title: '[구글 크롬] 짜증나는 신문 사이트 광고들을 원천 제거해 보자 &#8211; 자바스크립트 예외 처리'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/748
 aktt_notify_twitter:

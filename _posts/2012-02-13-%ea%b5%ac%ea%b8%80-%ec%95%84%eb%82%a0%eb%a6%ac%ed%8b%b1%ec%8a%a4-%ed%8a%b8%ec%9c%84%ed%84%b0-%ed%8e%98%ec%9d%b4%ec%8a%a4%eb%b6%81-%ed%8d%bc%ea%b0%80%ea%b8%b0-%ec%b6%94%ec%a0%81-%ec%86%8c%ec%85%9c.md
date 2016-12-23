@@ -1,6 +1,6 @@
 ---
 title: '[구글 아날리틱스] 트위터, 페이스북 퍼가기 추적 (소셜 네트워크 트래킹)'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/2232
 aktt_notify_twitter:

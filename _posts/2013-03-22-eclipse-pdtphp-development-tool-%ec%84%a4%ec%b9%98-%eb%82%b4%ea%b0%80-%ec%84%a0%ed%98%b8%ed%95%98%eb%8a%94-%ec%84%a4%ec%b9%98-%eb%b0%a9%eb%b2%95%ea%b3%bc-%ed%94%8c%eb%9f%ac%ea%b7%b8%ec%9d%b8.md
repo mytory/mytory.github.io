@@ -1,6 +1,6 @@
 ---
 title: Eclipse PDT(PHP Development Tool) 설치, 내가 선호하는 설치 방법과 플러그인, 그리고 플러그인 설치 방법
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/9695
 daumview_id:

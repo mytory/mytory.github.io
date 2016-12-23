@@ -1,6 +1,6 @@
 ---
 title: MarkDown, 목록(li) 바로 뒤의 pre 처리 문제
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/10048
 daumview_id:

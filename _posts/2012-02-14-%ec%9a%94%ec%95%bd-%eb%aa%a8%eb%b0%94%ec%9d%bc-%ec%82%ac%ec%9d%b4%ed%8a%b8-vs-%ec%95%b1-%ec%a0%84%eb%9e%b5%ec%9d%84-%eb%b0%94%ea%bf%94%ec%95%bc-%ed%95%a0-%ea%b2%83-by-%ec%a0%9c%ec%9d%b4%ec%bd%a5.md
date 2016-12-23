@@ -1,6 +1,6 @@
 ---
 title: '[요약] 모바일 사이트 vs. 앱: 전략을 바꿔야 할 것 &#8211; by 제이콥 닐슨'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/2246
 aktt_notify_twitter:

@@ -1,6 +1,6 @@
 ---
 title: '[링크:영어]지도를 생성해 주는 20가지 유용한 툴'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1517
 aktt_notify_twitter:

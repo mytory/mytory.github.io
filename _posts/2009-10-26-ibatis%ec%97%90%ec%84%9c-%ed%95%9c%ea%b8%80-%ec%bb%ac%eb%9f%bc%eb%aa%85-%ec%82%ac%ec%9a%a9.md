@@ -1,6 +1,6 @@
 ---
 title: ibatis에서 한글 컬럼명 사용
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/80
 aktt_notify_twitter:

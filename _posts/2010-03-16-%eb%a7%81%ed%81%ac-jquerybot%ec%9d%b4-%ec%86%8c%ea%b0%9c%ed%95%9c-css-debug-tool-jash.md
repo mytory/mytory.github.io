@@ -1,6 +1,6 @@
 ---
 title: '[링크] jQueryBot이 소개한 css debug tool &#8211; Jash'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/419
 aktt_notify_twitter:

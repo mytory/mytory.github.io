@@ -1,6 +1,6 @@
 ---
 title: '[우분투] 자동으로 하드를 마운트해 주는 프로그램'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1655
 aktt_notify_twitter:

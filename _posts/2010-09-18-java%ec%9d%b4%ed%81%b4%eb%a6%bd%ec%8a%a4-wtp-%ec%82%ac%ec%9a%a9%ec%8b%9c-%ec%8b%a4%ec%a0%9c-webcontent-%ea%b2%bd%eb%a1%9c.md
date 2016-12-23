@@ -1,6 +1,6 @@
 ---
 title: '[java]이클립스 WTP 사용시 실제 WebContent 경로'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/770
 aktt_notify_twitter:

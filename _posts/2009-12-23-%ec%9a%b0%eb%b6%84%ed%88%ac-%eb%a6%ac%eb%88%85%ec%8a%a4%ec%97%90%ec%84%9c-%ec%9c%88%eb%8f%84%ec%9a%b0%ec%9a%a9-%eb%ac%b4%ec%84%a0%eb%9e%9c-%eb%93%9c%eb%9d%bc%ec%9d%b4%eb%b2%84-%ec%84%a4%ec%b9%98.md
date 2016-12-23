@@ -1,6 +1,6 @@
 ---
 title: 우분투 리눅스에서 윈도우용 무선랜 드라이버 설치하기
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/138
 aktt_notify_twitter:

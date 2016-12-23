@@ -1,6 +1,6 @@
 ---
 title: 오픈 소스 프로그램, GIMP의 놀라운 능력(풍경화 그리는 동영상)
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/154
 aktt_notify_twitter:

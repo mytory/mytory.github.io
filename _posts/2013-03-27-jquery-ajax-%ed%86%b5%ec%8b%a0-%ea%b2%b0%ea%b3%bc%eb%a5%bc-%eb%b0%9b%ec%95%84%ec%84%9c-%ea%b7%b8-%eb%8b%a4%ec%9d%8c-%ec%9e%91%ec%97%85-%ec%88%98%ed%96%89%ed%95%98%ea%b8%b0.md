@@ -1,6 +1,6 @@
 ---
 title: '[jQuery] ajax 통신 결과를 받아서 그 다음 작업 수행하기'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/9807
 daumview_id:

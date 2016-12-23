@@ -1,6 +1,6 @@
 ---
 title: '[Tip] SyntaxHighlighter 세로 스크롤바 없애기'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/3050
 aktt_notify_twitter:

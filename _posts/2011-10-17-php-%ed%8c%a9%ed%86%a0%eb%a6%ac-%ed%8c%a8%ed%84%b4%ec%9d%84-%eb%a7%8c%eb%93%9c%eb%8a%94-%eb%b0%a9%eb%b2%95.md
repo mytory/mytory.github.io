@@ -1,6 +1,6 @@
 ---
 title: PHP 팩토리 패턴을 만드는 방법
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1948
 aktt_notify_twitter:

@@ -1,6 +1,6 @@
 ---
 title: svn export시 ATTENTION! Your password for authentication realm 하고 나올 때 해결책
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1147
 aktt_notify_twitter:

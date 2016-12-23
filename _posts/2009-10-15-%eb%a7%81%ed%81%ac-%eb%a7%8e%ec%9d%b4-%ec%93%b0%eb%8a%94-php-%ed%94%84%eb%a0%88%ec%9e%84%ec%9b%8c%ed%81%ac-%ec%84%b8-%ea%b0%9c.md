@@ -1,6 +1,6 @@
 ---
 title: 많이 쓰는 php 프레임워크 세 개
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/73
 aktt_notify_twitter:

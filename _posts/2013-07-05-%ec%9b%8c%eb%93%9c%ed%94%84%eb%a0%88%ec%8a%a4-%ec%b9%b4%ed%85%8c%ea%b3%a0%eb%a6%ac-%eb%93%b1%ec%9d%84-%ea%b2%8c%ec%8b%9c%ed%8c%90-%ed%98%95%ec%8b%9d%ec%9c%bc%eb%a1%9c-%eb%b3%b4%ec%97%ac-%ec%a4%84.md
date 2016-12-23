@@ -1,6 +1,6 @@
 ---
 title: '[워드프레스] 카테고리 등을 게시판 형식으로 보여 줄 때 앞에 붙일 번호에 사용할 숫자를 가져 오는 함수'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/10502
 daumview_id:

@@ -1,6 +1,6 @@
 ---
 title: dekiwiki, Sharing violation on path /var/www/dekiwiki/bin/cache/luceneindex/default-queue/data_1.bin
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1763
 aktt_notify_twitter:

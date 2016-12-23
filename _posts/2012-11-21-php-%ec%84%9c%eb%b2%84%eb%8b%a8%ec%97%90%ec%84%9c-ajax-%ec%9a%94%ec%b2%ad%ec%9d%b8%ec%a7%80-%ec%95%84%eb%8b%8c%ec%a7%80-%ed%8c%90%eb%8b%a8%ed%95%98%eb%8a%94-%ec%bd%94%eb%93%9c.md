@@ -1,6 +1,6 @@
 ---
 title: '[PHP] 서버단에서 ajax 요청인지 아닌지 판단하는 코드'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/8595
 daumview_id:

@@ -1,6 +1,6 @@
 ---
 title: '[번역]  jqMobi &#8211; iOS와 Android 기기의 모바일 HTML5에 최적화해 jQuery를 다시 작성해 만든 모바일 프레임워크 README'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/2257
 aktt_notify_twitter:

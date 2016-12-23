@@ -1,6 +1,6 @@
 ---
 title: 워드프레스 메뉴에서 sub-menu를 가진 경우엔 has-child 클래스 붙여 주기
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/10851
 daumview_id:

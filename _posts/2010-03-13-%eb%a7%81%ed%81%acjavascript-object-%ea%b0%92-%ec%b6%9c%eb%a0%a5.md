@@ -1,6 +1,6 @@
 ---
 title: '[링크]javascript Object 값 출력'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/390
 aktt_notify_twitter:

@@ -1,6 +1,6 @@
 ---
 title: "[이클립스] &#8216;현재 줄의 색깔'(Highlight current line)이 이상하게 변했다면?"
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/2039
 aktt_notify_twitter:

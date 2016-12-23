@@ -1,6 +1,6 @@
 ---
 title: '[소개] 내 웹사이트는 접근성을 얼마나 준수하고 있을까? PAJET'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1588
 aktt_notify_twitter:

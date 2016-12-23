@@ -1,6 +1,6 @@
 ---
 title: '[jQuery] input에 숫자만 입력받기'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/697
 aktt_notify_twitter:

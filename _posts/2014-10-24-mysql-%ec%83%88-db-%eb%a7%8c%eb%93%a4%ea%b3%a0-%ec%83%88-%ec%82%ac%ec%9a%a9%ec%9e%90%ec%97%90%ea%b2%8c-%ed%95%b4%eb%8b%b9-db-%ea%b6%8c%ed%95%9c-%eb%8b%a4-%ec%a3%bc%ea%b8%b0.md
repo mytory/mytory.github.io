@@ -1,6 +1,6 @@
 ---
 title: mysql 새 db 만들고 새 사용자에게 해당 db 권한 다 주기
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/13336
 mytory_md_path:

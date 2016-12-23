@@ -1,6 +1,6 @@
 ---
 title: '[jQuery] 플러그인 만들기 (2) 기본값 설정'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/662
 aktt_notify_twitter:

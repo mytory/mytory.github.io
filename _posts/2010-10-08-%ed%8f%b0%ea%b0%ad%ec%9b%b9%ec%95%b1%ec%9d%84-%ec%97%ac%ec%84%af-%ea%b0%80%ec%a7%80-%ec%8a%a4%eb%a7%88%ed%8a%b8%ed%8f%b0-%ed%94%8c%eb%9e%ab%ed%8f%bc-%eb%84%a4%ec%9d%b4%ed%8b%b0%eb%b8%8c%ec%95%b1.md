@@ -1,6 +1,6 @@
 ---
 title: '[폰갭]웹앱을 여섯 가지 스마트폰 플랫폼 네이티브앱으로 감싸주는 플러그인, 폰갭 PhoneGap'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/781
 aktt_notify_twitter:

@@ -1,6 +1,6 @@
 ---
 title: '[PHP] 배열 합치기 함수 _ array_merge'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/628
 aktt_notify_twitter:

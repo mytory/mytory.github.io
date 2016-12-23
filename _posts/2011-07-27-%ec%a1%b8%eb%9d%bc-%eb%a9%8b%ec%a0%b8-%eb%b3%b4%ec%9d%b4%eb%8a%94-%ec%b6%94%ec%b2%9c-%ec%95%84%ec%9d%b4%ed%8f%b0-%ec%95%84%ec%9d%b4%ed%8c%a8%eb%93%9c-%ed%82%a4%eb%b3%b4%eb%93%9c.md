@@ -1,6 +1,6 @@
 ---
 title: '[아이폰/아이패드] 유용해 보이지만 비싼 거치대'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1520
 aktt_notify_twitter:

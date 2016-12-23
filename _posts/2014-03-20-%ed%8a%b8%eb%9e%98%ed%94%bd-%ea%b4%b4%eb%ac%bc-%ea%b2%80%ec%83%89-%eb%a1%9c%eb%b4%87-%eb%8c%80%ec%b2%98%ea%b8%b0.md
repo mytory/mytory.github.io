@@ -1,6 +1,6 @@
 ---
 title: 트래픽 괴물 검색 로봇 대처기
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/12750
 mytory_md_path:

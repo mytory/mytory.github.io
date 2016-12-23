@@ -1,6 +1,6 @@
 ---
 title: FCKeditor 플러그인 ajaxAutoSave를 붙일 때 추가해 줄 코드
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/26
 aktt_notify_twitter:

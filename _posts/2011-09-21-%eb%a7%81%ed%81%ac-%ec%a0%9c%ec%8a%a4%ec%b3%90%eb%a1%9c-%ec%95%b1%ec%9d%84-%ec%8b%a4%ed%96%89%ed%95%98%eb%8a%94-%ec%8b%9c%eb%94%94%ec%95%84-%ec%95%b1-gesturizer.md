@@ -1,6 +1,6 @@
 ---
 title: '[링크] 제스쳐로 앱을 실행하는 시디아 트윅 &#8211; gesturizer'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1834
 aktt_notify_twitter:

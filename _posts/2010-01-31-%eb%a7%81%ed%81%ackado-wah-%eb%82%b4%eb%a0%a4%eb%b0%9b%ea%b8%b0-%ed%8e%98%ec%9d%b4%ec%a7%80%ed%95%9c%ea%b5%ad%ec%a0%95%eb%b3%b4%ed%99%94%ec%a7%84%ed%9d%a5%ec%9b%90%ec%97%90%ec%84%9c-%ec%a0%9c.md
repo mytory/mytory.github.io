@@ -1,6 +1,6 @@
 ---
 title: '[링크]kado-wah 내려받기 페이지(한국정보화진흥원에서 제작한 웹 접근성 자동평가도구)'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/241
 aktt_notify_twitter:

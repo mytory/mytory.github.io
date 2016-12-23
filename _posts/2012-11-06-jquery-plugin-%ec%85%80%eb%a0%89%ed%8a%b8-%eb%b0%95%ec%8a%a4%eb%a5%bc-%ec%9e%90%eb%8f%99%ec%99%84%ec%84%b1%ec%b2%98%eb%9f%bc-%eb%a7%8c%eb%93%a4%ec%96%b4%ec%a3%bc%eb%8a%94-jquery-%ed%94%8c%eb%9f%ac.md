@@ -1,6 +1,6 @@
 ---
 title: '[jQuery Plugin] 셀렉트 박스를 자동완성처럼 만들어주는 jQuery 플러그인'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/4944
 aktt_notify_twitter:

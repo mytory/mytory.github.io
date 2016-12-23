@@ -1,6 +1,6 @@
 ---
 title: '[jQuery plugin] 파이어폭스와 크롬에서 한글 단어별로 줄바꾸기 jQuery word-break: keep-all Plugin'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/2801
 aktt_notify_twitter:

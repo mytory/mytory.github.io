@@ -1,6 +1,6 @@
 ---
 title: '[PHP] 특정 URL이 트위터에 몇 번 공유되었는지 확인하는 함수 예제'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/8647
 daumview_id:

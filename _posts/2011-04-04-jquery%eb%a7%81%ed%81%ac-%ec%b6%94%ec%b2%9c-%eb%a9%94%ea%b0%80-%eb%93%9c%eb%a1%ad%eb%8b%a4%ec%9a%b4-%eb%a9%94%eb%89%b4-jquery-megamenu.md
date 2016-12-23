@@ -1,6 +1,6 @@
 ---
 title: '[jQuery:링크] 추천 메가 드롭다운 메뉴 jQuery Mega Drop Down Menu'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1069
 aktt_notify_twitter:

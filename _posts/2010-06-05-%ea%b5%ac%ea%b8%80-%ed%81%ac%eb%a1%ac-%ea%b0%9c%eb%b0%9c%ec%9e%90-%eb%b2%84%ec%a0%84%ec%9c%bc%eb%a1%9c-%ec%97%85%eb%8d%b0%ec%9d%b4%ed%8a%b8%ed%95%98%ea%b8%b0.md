@@ -1,6 +1,6 @@
 ---
 title: 구글 크롬 개발자 버전으로 업데이트하기
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/645
 aktt_notify_twitter:

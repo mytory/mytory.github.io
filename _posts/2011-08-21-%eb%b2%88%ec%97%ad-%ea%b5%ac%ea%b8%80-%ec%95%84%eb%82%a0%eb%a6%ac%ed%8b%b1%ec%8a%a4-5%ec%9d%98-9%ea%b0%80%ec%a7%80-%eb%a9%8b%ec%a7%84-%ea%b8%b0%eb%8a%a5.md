@@ -1,6 +1,6 @@
 ---
 title: '[번역] 구글 아날리틱스 5의 9가지 멋진 기능'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1736
 aktt_notify_twitter:

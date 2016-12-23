@@ -1,6 +1,6 @@
 ---
 title: '&#8216;The Yes Men Fix The World P2P Edition 2010 Xvid-VODO&#8217; torrent와 한글 자막'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/776
 aktt_notify_twitter:

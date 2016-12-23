@@ -1,6 +1,6 @@
 ---
 title: '[워드프레스] 관리자 글목록에서 custom taxonomy로 필터링할 수 있도록 하기'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/9090
 daumview_id:

@@ -1,6 +1,6 @@
 ---
 title: '[mysql] 정렬해서 가져온 놈을 뒤집어야 할 때'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/602
 aktt_notify_twitter:

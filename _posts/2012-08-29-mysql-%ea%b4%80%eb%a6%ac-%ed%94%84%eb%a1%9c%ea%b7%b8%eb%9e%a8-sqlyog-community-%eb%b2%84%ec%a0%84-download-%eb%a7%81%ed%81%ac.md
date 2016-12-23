@@ -1,6 +1,6 @@
 ---
 title: MySQL GUI 관리 프로그램 sqlyog community 버전 download 링크
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/3192
 aktt_notify_twitter:

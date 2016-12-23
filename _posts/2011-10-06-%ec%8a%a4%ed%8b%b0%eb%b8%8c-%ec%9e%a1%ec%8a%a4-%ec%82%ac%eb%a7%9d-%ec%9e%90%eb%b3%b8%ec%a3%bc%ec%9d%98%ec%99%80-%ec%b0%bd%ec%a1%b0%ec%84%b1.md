@@ -1,6 +1,6 @@
 ---
 title: '스티브 잡스 사망 &#8211; 자본주의와 창조성'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1901
 aktt_notify_twitter:

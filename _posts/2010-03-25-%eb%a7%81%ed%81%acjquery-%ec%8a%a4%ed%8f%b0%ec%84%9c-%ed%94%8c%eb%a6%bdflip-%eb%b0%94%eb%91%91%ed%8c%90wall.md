@@ -1,6 +1,6 @@
 ---
 title: '[링크]jQuery 스폰서 플립(Flip) 바둑판(Wall)'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/457
 aktt_notify_twitter:

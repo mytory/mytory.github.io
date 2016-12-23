@@ -1,6 +1,6 @@
 ---
 title: '[링크] 크롬 확장, 가벼운 툴팁 사전 프로그램 &#8211; dictionary lite'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/656
 aktt_notify_twitter:

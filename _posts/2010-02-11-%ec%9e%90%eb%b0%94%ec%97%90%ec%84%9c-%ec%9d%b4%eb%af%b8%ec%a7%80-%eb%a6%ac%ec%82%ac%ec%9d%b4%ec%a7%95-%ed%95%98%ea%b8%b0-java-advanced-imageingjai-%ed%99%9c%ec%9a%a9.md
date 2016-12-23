@@ -1,6 +1,6 @@
 ---
 title: 자바에서 이미지 리사이징 하기-Java Advanced Imageing(JAI) 활용
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/271
 aktt_notify_twitter:

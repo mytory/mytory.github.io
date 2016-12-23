@@ -1,6 +1,6 @@
 ---
 title: '[링크]CSS3의 유연한 박스 모델'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/532
 aktt_notify_twitter:

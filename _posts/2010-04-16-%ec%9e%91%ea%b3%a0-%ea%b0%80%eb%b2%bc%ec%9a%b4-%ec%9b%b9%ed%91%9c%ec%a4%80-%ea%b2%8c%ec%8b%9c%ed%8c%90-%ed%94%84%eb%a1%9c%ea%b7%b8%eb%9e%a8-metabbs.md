@@ -1,6 +1,6 @@
 ---
 title: 작고 가벼운 웹표준 게시판 프로그램 metabbs
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/514
 aktt_notify_twitter:

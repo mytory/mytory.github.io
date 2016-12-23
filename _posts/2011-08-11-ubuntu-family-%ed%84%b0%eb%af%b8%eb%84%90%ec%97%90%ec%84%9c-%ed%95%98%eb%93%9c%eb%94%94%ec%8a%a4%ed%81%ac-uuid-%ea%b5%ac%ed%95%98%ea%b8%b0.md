@@ -1,6 +1,6 @@
 ---
 title: '[Ubuntu Family] 터미널에서 하드디스크 UUID 구하기'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1669
 aktt_notify_twitter:

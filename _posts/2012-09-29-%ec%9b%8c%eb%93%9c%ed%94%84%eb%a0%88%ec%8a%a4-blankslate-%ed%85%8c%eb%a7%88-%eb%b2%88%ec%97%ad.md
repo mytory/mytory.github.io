@@ -1,6 +1,6 @@
 ---
 title: 워드프레스 blankslate 테마 한글 언어 파일
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/3299
 aktt_notify_twitter:

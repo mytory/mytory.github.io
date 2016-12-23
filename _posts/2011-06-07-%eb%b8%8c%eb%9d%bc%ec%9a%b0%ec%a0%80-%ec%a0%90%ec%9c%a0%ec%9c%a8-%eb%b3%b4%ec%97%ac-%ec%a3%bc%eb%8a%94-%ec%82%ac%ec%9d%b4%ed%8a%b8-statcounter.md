@@ -1,6 +1,6 @@
 ---
 title: 브라우저 점유율 보여 주는 사이트 statcounter
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1348
 aktt_notify_twitter:

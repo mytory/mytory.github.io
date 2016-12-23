@@ -1,6 +1,6 @@
 ---
 title: FileZilla에서 웹사이트 다운받을 때, 이미지랑 첨부파일 무시하고 텍스트만 받도록 하기
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/4873
 aktt_notify_twitter:

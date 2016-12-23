@@ -1,6 +1,6 @@
 ---
 title: '[링크]모서리를 둥글게 해 주는 자바스크립트 라이브러리 &#8211; curvycorners'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/176
 aktt_notify_twitter:

@@ -1,6 +1,6 @@
 ---
 title: phpThumb 세로사진 썸네일 생성시 얼굴이 잘린다면?
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/679
 aktt_notify_twitter:

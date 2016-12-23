@@ -1,6 +1,6 @@
 ---
 title: '[링크]jQuery와 CSS를 활용한 드롭다운 메뉴, 슬라이드쇼 등등 리소스'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/701
 aktt_notify_twitter:

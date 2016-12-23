@@ -1,6 +1,6 @@
 ---
 title: 'UnEgg &#8211; 확장자가 egg인 압축파일을 풀어 주는 프로그램'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/702
 aktt_notify_twitter:

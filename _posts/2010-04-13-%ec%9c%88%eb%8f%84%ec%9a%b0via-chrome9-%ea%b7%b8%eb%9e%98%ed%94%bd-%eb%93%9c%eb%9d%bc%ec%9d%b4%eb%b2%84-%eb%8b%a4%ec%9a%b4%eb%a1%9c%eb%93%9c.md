@@ -1,6 +1,6 @@
 ---
 title: '[윈도우]via Chrome9 그래픽 드라이버 다운로드'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/501
 aktt_notify_twitter:

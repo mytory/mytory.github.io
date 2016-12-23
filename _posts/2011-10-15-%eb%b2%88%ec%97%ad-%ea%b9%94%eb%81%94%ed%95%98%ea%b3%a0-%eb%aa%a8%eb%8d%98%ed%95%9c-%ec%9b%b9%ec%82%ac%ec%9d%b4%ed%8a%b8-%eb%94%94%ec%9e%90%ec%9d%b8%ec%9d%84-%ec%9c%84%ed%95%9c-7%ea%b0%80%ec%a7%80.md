@@ -1,6 +1,6 @@
 ---
 title: '[번역] 깔끔하고 모던한 웹사이트 디자인을 위한 7가지 포토샵 팁'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1917
 aktt_notify_twitter:

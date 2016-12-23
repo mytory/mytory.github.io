@@ -1,6 +1,6 @@
 ---
 title: '[워드프레스] 이미지 썸네일 만들어서 URL 가져오는 함수'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/10164
 daumview_id:

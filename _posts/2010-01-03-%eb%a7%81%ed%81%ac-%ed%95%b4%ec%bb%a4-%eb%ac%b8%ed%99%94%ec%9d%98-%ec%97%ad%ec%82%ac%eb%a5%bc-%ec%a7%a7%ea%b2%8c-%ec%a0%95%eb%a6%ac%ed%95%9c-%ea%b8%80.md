@@ -1,6 +1,6 @@
 ---
 title: '[링크] 해커 문화(?)의 역사를 짧게 정리한 글'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/190
 aktt_notify_twitter:

@@ -1,6 +1,6 @@
 ---
 title: '구글 앱스 무료판 URL &#8211; 개인 및 소규모 팀용'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/4192
 aktt_notify_twitter:

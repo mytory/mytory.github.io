@@ -1,6 +1,6 @@
 ---
 title: '[PHP] 현재 디렉토리와 서브 디렉토리 파일의 인코딩을 변경해 주는 PHP Script'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/9120
 daumview_id:

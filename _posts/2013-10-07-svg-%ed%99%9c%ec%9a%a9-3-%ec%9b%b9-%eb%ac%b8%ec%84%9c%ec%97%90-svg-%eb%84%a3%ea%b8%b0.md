@@ -1,6 +1,6 @@
 ---
 title: 'SVG 활용 3 &#8211; 웹 문서에 SVG를 넣는 다양한 방법, 온갖 예외 피하기'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/11213
 daumview_id:

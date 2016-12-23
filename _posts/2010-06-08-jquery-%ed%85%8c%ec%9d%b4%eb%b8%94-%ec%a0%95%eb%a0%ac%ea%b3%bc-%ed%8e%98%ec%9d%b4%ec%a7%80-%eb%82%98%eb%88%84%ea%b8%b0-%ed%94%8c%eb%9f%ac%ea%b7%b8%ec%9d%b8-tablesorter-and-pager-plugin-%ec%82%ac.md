@@ -1,6 +1,6 @@
 ---
 title: '[jQuery] 테이블 정렬(과 페이지 나누기) 플러그인 tablesorter (and pager) plugin 사용해 보기'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/666
 aktt_notify_twitter:

@@ -1,6 +1,6 @@
 ---
 title: '[소개:영어] 꼭 알아야 할 신종 jQuery 플러그인 10종'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/445
 aktt_notify_twitter:

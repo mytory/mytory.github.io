@@ -1,6 +1,6 @@
 ---
 title: 텍스트큐브 관심 블로그 등록 버튼이 없는 황당한 경우 대처법
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/124
 aktt_notify_twitter:

@@ -1,6 +1,6 @@
 ---
 title: '[jQuery]플러그인 제작시 $문자 충돌 방지'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/650
 aktt_notify_twitter:

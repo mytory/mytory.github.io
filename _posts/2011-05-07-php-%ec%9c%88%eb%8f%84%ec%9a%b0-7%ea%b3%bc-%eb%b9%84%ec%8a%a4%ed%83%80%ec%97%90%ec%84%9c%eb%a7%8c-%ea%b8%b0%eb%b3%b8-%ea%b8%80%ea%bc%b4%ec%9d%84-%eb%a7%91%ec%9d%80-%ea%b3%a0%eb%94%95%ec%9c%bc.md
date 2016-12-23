@@ -1,6 +1,6 @@
 ---
 title: '[PHP] 윈도우 7과 비스타에서만 기본 글꼴을 맑은 고딕으로 설정하고 XP에서는 안 그러기'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1223
 aktt_notify_twitter:

@@ -1,6 +1,6 @@
 ---
 title: '[소개:번역] phpThumb() : PHP 썸네일 생성기 &#8211; 사실은 이미지 변환 라이브러리'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/463
 aktt_notify_twitter:

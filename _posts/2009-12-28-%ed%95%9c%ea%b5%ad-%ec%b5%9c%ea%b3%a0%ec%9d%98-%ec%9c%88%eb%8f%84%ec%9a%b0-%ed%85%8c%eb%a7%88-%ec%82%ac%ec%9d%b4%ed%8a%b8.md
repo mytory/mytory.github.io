@@ -1,6 +1,6 @@
 ---
 title: 한국 최고의 윈도우 테마 사이트
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/173
 aktt_notify_twitter:

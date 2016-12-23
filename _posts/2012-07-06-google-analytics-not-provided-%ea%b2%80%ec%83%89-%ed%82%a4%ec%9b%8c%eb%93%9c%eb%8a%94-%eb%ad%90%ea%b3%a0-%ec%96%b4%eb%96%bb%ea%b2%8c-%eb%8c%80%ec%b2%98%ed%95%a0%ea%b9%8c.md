@@ -1,6 +1,6 @@
 ---
 title: '[Google Analytics] (not provided) 검색 키워드는 뭐고 어떻게 대처할까'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/2958
 aktt_notify_twitter:

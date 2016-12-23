@@ -1,6 +1,6 @@
 ---
 title: 워드프레스 3.2를 소개한다. 자기 PHP 버전을 확인하라.
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1431
 aktt_notify_twitter:

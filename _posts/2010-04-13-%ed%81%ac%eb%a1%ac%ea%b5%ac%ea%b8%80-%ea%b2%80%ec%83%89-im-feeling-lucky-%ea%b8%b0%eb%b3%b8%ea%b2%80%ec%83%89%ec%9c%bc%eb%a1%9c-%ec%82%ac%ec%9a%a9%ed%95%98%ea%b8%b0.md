@@ -1,6 +1,6 @@
 ---
 title: '[크롬] 구글 I`m Feeling Lucky 기본검색으로 사용하기, 다양한 검색엔진 쉽게 활용하기'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/495
 aktt_notify_twitter:

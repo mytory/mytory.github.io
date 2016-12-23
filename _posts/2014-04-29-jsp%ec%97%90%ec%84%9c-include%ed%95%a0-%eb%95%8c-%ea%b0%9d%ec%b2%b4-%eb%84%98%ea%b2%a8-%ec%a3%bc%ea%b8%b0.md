@@ -1,6 +1,6 @@
 ---
 title: jsp에서 include할 때 객체 넘겨 주기
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/12985
 mytory_md_path:

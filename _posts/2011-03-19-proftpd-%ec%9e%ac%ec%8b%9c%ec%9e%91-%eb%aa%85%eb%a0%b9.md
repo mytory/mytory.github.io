@@ -1,6 +1,6 @@
 ---
 title: 레드햇에서 proftpd 재시작 명령
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/992
 aktt_notify_twitter:

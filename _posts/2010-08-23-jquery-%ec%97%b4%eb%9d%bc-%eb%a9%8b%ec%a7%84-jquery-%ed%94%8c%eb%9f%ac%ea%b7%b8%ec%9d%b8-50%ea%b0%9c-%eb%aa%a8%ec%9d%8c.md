@@ -1,6 +1,6 @@
 ---
 title: '[jQuery] 열라 멋진 jQuery 플러그인 50개 모음'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/752
 aktt_notify_twitter:

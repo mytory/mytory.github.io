@@ -1,6 +1,6 @@
 ---
 title: '[워드프레스] 포스트에 첨부파일 연결하기'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/10104
 daumview_id:

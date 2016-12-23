@@ -1,6 +1,6 @@
 ---
 title: PDT(PHP용 이클립스)의 publish 기능은 어디로 갔나
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/545
 aktt_notify_twitter:

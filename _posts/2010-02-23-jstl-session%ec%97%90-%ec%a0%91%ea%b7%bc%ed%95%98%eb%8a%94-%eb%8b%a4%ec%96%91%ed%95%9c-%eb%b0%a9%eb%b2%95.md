@@ -1,6 +1,6 @@
 ---
 title: '[JSTL] session에 접근하는 다양한 방법'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/323
 aktt_notify_twitter:

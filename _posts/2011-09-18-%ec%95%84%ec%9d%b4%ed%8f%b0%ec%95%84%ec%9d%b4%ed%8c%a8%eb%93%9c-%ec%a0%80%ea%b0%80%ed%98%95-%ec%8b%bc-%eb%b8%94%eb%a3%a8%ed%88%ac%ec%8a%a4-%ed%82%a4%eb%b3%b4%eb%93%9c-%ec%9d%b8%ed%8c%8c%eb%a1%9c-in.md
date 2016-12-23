@@ -1,6 +1,6 @@
 ---
 title: '[저가형 리뷰] 아이폰/아이패드 저가형 싼 블루투스 키보드 &#8211; 인파로 IN-BK01, 아이노트 FS-94KBT 리뷰'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1801
 aktt_notify_twitter:

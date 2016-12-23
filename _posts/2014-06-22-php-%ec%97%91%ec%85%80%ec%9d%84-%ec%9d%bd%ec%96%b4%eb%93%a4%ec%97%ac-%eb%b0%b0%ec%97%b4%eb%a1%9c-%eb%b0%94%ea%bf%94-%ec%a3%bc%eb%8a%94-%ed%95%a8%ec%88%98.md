@@ -1,6 +1,6 @@
 ---
 title: '[PHP] 엑셀을 읽어들여 배열로 바꿔 주는 함수'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/13076
 mytory_md_path:

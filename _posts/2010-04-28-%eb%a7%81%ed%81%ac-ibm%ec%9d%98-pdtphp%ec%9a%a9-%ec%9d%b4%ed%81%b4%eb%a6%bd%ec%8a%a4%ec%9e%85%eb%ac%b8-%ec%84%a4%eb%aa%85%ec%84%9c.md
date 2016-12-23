@@ -1,6 +1,6 @@
 ---
 title: '[링크] IBM의 PDT(PHP용 이클립스)입문 설명서'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/541
 aktt_notify_twitter:

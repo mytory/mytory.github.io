@@ -1,6 +1,6 @@
 ---
 title: '아파치 Forbidden  You don&#8217;t have permission to access / on this server. 에러 해결'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/3143
 aktt_notify_twitter:

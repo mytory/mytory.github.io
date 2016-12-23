@@ -1,6 +1,6 @@
 ---
 title: '[JAVA] UTF-8 서버에서 올더게이트 전자결제 소켓통신 수정할 부분'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/433
 aktt_notify_twitter:

@@ -1,6 +1,6 @@
 ---
 title: 아파치 가상호스트 작동 안 할 때 _default_ VirtualHost overlap on port 80, the first has precedence
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/825
 aktt_notify_twitter:

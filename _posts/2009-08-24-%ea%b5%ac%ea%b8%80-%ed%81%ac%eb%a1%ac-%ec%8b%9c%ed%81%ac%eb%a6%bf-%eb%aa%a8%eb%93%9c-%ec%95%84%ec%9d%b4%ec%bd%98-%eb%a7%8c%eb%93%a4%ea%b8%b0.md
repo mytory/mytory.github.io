@@ -1,6 +1,6 @@
 ---
 title: 구글 크롬 시크릿 모드 아이콘 만들기
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/23
 aktt_notify_twitter:

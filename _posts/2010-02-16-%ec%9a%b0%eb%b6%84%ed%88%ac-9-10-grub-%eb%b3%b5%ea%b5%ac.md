@@ -1,6 +1,6 @@
 ---
 title: 우분투 9.10 grub 복구
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/278
 aktt_notify_twitter:

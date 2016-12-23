@@ -1,6 +1,6 @@
 ---
 title: '[링크]구글 크롬을 더 강력하게 하는 확장 프로그램 20종'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/215
 aktt_notify_twitter:

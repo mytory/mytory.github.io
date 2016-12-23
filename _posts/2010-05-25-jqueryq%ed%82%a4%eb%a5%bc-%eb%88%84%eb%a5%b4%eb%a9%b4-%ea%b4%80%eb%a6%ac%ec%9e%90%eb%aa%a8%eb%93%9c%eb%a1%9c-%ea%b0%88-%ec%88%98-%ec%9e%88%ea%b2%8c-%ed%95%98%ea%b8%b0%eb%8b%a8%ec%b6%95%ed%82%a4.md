@@ -1,6 +1,6 @@
 ---
 title: '[jQuery]Q키를 누르면 관리자모드로 갈 수 있게 하기(단축키 이용 이동 자바스크립트)'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/616
 aktt_notify_twitter:

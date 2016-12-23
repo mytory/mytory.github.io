@@ -1,6 +1,6 @@
 ---
 title: '[phpThumb] Deprecated: Function eregi() is deprecated in /phpThumb_1.7.9/phpthumb.functions.php on line 652'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/510
 aktt_notify_twitter:

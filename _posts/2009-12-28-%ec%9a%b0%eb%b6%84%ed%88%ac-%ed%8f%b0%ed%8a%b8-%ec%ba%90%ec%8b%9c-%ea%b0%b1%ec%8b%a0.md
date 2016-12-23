@@ -1,6 +1,6 @@
 ---
 title: 우분투 폰트 캐시 갱신
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/166
 aktt_notify_twitter:

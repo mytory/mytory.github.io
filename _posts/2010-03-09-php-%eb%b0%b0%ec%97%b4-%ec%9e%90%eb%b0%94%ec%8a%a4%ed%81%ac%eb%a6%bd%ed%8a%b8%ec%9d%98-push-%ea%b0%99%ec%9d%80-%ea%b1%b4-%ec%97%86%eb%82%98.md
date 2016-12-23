@@ -1,6 +1,6 @@
 ---
 title: PHP 배열, 자바스크립트의 push 같은 건 없나?
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/377
 aktt_notify_twitter:

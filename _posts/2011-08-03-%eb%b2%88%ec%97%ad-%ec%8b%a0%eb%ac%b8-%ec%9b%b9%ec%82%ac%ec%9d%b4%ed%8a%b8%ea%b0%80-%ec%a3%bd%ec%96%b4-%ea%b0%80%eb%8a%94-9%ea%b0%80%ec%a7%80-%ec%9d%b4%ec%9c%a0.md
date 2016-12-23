@@ -1,6 +1,6 @@
 ---
 title: '[번역:만화] 신문 웹사이트가 죽어 가는 9가지 이유'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1546
 aktt_notify_twitter:

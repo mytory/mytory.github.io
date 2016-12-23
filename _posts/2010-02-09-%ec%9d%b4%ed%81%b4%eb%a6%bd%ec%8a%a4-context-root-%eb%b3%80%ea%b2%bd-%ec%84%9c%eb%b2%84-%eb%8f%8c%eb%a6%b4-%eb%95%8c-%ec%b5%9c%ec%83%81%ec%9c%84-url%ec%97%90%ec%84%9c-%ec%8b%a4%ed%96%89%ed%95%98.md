@@ -1,6 +1,6 @@
 ---
 title: '이클립스 context root 변경 &#8211; 서버 돌릴 때 최상위 url(/)에서 실행하기'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/261
 aktt_notify_twitter:

@@ -1,6 +1,6 @@
 ---
 title: 파이썬 소수점 0 채우기, 숫자에 쉼표 찍기
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/12832
 mytory_md_path:

@@ -1,6 +1,6 @@
 ---
 title: '[번역] 아름답게 jQuery 엘리먼트 생성하기 Beautiful Element Creation with jQuery'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/829
 aktt_notify_twitter:

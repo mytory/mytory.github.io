@@ -1,6 +1,6 @@
 ---
 title: '[링크]자바스크립트 문서화 준-표준 scriptdoc'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/651
 aktt_notify_twitter:

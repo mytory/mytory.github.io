@@ -1,6 +1,6 @@
 ---
 title: 구글에서 javascript 라이브러리를 빌려다 쓰자
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/357
 aktt_notify_twitter:

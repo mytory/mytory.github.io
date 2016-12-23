@@ -1,6 +1,6 @@
 ---
 title: 인스모바일 ME 팟인코더, 엔젤, 바닥, 유마일 인코더 프리셋 preset
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/568
 aktt_notify_twitter:

@@ -1,6 +1,6 @@
 ---
 title: PHP 실행중 register_globals=On 으로 해야 한다면?
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/11227
 daumview_id:

@@ -1,6 +1,6 @@
 ---
 title: '[minify] js, css 압축 &#8211; 웹사이트 속도 증가, 트래픽 절약'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1048
 aktt_notify_twitter:

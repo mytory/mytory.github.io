@@ -1,6 +1,6 @@
 ---
 title: '[링크] JSON Text를 JSON Object로 변환하기'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/381
 aktt_notify_twitter:

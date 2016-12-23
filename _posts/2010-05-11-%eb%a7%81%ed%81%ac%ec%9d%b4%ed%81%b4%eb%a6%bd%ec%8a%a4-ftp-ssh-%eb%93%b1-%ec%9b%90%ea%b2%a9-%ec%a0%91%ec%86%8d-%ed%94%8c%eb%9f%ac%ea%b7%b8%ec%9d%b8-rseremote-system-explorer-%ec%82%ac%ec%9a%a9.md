@@ -1,6 +1,6 @@
 ---
 title: '[링크]이클립스 FTP, SSH 등 원격 접속 플러그인 RSE(Remote System Explorer) 사용 설명'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/588
 aktt_notify_twitter:

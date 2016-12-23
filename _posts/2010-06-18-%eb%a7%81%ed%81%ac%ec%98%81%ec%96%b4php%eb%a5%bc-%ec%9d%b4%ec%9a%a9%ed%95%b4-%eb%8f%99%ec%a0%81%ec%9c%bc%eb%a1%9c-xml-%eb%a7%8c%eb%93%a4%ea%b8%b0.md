@@ -1,6 +1,6 @@
 ---
 title: '[링크:영어]PHP를 이용해 동적으로 XML 만들기'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/693
 aktt_notify_twitter:

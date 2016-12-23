@@ -1,6 +1,6 @@
 ---
 title: '[링크:슬라이드]HTML5 기술과 표준의 현황'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/706
 aktt_notify_twitter:

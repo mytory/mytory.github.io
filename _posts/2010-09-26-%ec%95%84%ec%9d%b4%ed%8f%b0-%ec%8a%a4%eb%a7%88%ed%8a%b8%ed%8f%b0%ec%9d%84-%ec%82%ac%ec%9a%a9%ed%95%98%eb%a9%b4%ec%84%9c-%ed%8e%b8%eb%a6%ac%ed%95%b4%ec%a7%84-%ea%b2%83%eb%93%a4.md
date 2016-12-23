@@ -1,6 +1,6 @@
 ---
 title: '[아이폰] 스마트폰을 사용하면서 편리해진 것들'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/777
 aktt_notify_twitter:

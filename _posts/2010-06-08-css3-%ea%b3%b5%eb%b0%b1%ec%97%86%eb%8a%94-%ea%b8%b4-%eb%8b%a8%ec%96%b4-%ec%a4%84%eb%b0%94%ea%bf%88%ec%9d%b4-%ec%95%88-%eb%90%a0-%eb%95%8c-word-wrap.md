@@ -1,6 +1,6 @@
 ---
 title: '[CSS3] 공백없는 긴 단어 줄바꿈이 안 될 때 word-wrap'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/665
 aktt_notify_twitter:

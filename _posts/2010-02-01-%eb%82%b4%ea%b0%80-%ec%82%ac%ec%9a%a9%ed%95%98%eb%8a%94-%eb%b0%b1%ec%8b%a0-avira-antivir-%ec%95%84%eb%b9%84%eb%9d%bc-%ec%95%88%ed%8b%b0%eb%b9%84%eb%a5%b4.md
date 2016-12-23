@@ -1,6 +1,6 @@
 ---
 title: 내가 사용하는 백신, Avira Antivir 아비라 안티비르
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/243
 aktt_notify_twitter:

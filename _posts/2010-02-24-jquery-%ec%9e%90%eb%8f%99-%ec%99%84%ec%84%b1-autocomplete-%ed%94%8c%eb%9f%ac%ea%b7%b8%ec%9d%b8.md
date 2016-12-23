@@ -1,6 +1,6 @@
 ---
 title: jQuery 자동 완성 AutoComplete 플러그인
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/325
 aktt_notify_twitter:

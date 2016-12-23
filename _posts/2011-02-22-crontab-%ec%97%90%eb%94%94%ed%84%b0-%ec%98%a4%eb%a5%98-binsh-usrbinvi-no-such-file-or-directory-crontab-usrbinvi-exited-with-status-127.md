@@ -1,6 +1,6 @@
 ---
 title: 'crontab 에디터 오류 &#8211; /bin/sh: /usr/bin/vi: No such file or directory    crontab: &#8220;/usr/bin/vi&#8221; exited with status 127'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/836
 aktt_notify_twitter:

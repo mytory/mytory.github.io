@@ -1,6 +1,6 @@
 ---
 title: '[PHP:링크] 빌드 시 발생할 수 있는 문제에 관한 공식 한글 문서'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/598
 aktt_notify_twitter:

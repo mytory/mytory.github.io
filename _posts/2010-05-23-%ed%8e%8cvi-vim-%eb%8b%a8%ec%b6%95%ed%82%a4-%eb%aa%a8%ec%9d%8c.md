@@ -1,6 +1,6 @@
 ---
 title: '[펌]vi vim 단축키 모음'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/610
 aktt_notify_twitter:

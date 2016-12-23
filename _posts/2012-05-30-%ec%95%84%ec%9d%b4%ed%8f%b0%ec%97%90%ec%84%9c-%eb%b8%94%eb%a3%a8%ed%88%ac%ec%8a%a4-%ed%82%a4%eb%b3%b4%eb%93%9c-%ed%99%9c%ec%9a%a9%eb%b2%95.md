@@ -1,6 +1,6 @@
 ---
 title: 아이폰에서 블루투스 키보드 활용법
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/2499
 aktt_notify_twitter:

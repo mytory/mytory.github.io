@@ -1,6 +1,6 @@
 ---
 title: PHP class에서 set/get method 만들기
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/19
 aktt_notify_twitter:

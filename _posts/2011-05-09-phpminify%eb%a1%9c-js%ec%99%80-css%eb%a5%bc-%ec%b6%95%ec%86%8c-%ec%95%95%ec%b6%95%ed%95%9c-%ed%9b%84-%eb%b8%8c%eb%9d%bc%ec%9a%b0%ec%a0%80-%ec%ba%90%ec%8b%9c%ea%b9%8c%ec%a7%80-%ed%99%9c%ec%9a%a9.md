@@ -1,6 +1,6 @@
 ---
 title: '[PHP]minify로 js와 css를 축소, 압축한 후 브라우저 캐시까지 활용하면 금상첨화다'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1252
 aktt_notify_twitter:

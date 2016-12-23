@@ -1,6 +1,6 @@
 ---
 title: 내가 선호하는 글꼴 목록(font-family)과 그 이유
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/9743
 tags:

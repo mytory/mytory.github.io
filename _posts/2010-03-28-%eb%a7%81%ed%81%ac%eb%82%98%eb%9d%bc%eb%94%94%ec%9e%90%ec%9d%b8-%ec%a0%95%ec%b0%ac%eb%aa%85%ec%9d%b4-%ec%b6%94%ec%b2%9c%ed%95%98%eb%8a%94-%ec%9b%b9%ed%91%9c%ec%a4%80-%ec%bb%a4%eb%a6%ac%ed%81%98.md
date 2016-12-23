@@ -1,6 +1,6 @@
 ---
 title: '[링크]나라디자인 정찬명이 추천하는 웹표준 커리큘럼'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/468
 aktt_notify_twitter:

@@ -1,6 +1,6 @@
 ---
 title: '[북마클릿] GitHub에 있는 MarkDown 파일을 프린트하게 좋게 만드는 Bookmarklet'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/10052
 daumview_id:

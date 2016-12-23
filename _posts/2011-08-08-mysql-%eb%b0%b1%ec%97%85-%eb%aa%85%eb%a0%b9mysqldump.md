@@ -1,6 +1,6 @@
 ---
 title: MySql 백업 명령(mysqldump)
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1641
 aktt_notify_twitter:

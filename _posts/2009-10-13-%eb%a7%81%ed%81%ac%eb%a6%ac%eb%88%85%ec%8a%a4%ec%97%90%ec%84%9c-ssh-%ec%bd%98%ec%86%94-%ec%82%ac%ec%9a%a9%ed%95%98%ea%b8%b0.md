@@ -1,6 +1,6 @@
 ---
 title: '[링크]리눅스에서 ssh 콘솔 사용하기'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/71
 aktt_notify_twitter:

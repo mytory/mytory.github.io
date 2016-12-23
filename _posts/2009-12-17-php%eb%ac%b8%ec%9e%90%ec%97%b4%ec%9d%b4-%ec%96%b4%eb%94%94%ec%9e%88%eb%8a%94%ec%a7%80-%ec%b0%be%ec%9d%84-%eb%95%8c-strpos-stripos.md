@@ -1,6 +1,6 @@
 ---
 title: '[PHP]문자열이 어디있는지 찾을 때 strpos / stripos'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/126
 aktt_notify_twitter:

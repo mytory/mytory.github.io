@@ -1,6 +1,6 @@
 ---
 title: '[lubuntu(루분투)] 기본 탐색기 PCManFM을 노틸러스로 바꾸기'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1664
 aktt_notify_twitter:

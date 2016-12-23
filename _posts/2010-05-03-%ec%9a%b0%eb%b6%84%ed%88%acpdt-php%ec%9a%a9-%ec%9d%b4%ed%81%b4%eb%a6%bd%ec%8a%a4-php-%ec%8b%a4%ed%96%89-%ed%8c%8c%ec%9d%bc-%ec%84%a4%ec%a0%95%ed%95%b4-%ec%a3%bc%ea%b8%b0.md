@@ -1,6 +1,6 @@
 ---
 title: '[우분투:PDT] php용 이클립스, php 실행 파일 설정해 주기'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/556
 aktt_notify_twitter:

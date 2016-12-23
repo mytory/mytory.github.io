@@ -1,6 +1,6 @@
 ---
 title: '[링크] 워드프레스 유용한 갤러리 테마 23개 (23 Useful Gallery Themes for WordPress 2012)'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/2715
 aktt_notify_twitter:

@@ -1,6 +1,6 @@
 ---
 title: '[링크:영어]포토샵 커스텀 모양(Custom Shape) 1000개 이상 공짜 다운로드'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/442
 aktt_notify_twitter:

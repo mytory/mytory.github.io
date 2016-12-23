@@ -1,6 +1,6 @@
 ---
 title: IE6,7에서 ajax 처리 HTML 로드할 때 HTML 문법에 오류가 있으면 데이터가 DOM에 들어가지 않는다
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1502
 aktt_notify_twitter:

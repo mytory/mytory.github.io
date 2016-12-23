@@ -1,6 +1,6 @@
 ---
 title: '바람기 테스트라는데&#8230;'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/537
 aktt_notify_twitter:

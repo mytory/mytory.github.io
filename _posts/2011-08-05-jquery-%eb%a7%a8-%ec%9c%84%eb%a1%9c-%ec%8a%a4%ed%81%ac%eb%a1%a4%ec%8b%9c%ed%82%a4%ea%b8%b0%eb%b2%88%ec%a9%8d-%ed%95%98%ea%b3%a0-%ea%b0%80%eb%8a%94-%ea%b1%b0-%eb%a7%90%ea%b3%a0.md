@@ -1,6 +1,6 @@
 ---
 title: '[jQuery] 맨 위로 스크롤시키기(번쩍 하고 가는 거 말고)'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1594
 aktt_notify_twitter:

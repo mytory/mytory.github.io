@@ -1,6 +1,6 @@
 ---
 title: '아이폰5 출시 &#8211; 아이폰 시리즈의 장점은 혁신이 아니라 안정감이다'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/3284
 aktt_notify_twitter:

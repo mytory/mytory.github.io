@@ -1,6 +1,6 @@
 ---
 title: 'MySQL PID 에러와 Can&#8217;t read from messagefile 에러'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/12624
 mytory_md_path:

@@ -1,6 +1,6 @@
 ---
 title: 'svn: Checksum mismatch while updating 에러 해결'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/827
 aktt_notify_twitter:

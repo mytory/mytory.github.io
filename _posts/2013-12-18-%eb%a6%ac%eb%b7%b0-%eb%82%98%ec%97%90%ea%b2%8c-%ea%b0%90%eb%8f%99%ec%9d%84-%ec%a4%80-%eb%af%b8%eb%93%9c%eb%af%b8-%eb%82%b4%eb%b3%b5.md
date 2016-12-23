@@ -1,6 +1,6 @@
 ---
 title: '[리뷰] 나에게 감동을 준 미드미 내복'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/12003
 mytory_md_path:

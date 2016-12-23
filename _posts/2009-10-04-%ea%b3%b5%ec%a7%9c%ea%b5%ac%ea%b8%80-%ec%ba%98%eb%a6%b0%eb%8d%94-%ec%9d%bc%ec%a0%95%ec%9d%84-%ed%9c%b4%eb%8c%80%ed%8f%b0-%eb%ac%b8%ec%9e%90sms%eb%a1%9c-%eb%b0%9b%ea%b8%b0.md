@@ -1,6 +1,6 @@
 ---
 title: '[공짜]구글 캘린더 일정을 휴대폰 문자(SMS)로 받기'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/67
 aktt_notify_twitter:

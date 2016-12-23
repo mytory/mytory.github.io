@@ -1,6 +1,6 @@
 ---
 title: '[이클립스] SVN 단축키 활성화 방법'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/2024
 aktt_notify_twitter:

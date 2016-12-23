@@ -1,6 +1,6 @@
 ---
 title: '[mysql] 테이블 세 개 이상 outer join 하기'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/132
 aktt_notify_twitter:

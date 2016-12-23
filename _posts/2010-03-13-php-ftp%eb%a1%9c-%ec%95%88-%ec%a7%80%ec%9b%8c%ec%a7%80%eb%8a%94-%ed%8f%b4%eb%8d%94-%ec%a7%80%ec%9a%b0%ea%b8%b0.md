@@ -1,6 +1,6 @@
 ---
 title: '[php] ftp로 안 지워지는 폴더 지우기'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/395
 aktt_notify_twitter:

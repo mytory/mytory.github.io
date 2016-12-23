@@ -1,6 +1,6 @@
 ---
 title: fckeditor용 code syntax highlighter 사용하기
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/20
 aktt_notify_twitter:

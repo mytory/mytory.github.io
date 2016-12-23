@@ -1,6 +1,6 @@
 ---
 title: '[윈도우,리눅스]랜카드 맥 어드레스 알아내는 방법'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/470
 aktt_notify_twitter:

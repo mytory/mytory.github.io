@@ -1,6 +1,6 @@
 ---
 title: '[우분투] 구글 크롬 백업'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/563
 aktt_notify_twitter:

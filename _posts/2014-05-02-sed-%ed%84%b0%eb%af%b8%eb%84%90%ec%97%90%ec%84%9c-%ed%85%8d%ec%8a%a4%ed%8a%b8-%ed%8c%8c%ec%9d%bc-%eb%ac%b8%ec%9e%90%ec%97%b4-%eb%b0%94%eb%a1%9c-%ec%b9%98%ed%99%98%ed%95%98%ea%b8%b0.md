@@ -1,6 +1,6 @@
 ---
 title: '[sed] 터미널에서 텍스트 파일 문자열 바로 치환하기'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/12993
 mytory_md_path:

@@ -1,6 +1,6 @@
 ---
 title: 포토샵에 버금가는 프리웨어 그래픽 프로그램 artweaver라고 한다
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/35
 aktt_notify_twitter:

@@ -1,6 +1,6 @@
 ---
 title: '[번역] PHP 이미지 업로드 보안: 제대로 하지 않는 방법 PHP Image Upload Security: How Not to Do It'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/3011
 aktt_notify_twitter:

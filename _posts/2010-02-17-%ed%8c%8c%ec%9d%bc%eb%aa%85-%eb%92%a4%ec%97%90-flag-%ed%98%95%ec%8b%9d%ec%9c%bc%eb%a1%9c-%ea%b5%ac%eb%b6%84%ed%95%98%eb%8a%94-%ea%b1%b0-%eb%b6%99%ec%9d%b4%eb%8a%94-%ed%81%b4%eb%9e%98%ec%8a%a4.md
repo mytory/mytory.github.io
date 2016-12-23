@@ -1,6 +1,6 @@
 ---
 title: '[java]파일명 뒤에 -flag 형식으로 구분하는 거 붙이는 클래스'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/284
 aktt_notify_twitter:

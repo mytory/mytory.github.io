@@ -1,6 +1,6 @@
 ---
 title: '[워드프레스 코드조각] 멀티링규얼 프레스 글들 한 방에 연결하기'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/10506
 daumview_id:

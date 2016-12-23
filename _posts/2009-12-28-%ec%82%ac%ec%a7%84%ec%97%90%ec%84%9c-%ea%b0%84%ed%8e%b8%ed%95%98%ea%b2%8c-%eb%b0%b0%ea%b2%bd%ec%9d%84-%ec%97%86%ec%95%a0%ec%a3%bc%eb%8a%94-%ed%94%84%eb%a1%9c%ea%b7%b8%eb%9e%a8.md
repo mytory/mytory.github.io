@@ -1,6 +1,6 @@
 ---
 title: 사진에서 간편하게 배경을 없애주는 프로그램
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/172
 aktt_notify_twitter:

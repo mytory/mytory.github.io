@@ -1,6 +1,6 @@
 ---
 title: '[링크] IE에서 CSS로 드롭 쉐도우를 쓸 수 있다고?'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/561
 aktt_notify_twitter:

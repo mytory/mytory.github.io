@@ -1,6 +1,6 @@
 ---
 title: 'gerrit 어디로 어떻게 푸시해야 하나 &#8211; 푸시와 리뷰 개념에 대해'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/12632
 mytory_md_path:

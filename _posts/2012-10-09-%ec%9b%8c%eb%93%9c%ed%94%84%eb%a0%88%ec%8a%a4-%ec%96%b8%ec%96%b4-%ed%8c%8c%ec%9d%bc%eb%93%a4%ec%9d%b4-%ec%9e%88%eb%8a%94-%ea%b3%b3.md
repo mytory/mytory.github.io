@@ -1,6 +1,6 @@
 ---
 title: 워드프레스 언어 파일들이 있는 곳
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/3364
 aktt_notify_twitter:

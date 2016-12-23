@@ -1,6 +1,6 @@
 ---
 title: '[subclipse] svn에서 무시할 파일 설정하기 svn:ignore property 설정'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1015
 aktt_notify_twitter:

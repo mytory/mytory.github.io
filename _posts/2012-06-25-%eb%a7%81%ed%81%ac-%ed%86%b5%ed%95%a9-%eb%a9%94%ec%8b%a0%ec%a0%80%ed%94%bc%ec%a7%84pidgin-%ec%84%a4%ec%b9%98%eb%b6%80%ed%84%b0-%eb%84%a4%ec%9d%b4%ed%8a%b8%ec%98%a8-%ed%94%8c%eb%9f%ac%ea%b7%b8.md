@@ -1,6 +1,6 @@
 ---
 title: '[링크:통합 메신저]피진(pidgin) 설치부터 네이트온 플러그인 설치, 알림창(팝업창) 설치까지 강좌!'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/2656
 aktt_notify_twitter:

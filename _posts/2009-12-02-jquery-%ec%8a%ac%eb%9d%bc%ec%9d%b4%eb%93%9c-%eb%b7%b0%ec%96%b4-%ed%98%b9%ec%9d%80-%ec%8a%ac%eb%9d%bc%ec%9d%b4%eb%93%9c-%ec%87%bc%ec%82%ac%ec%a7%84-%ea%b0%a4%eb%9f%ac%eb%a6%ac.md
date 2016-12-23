@@ -1,6 +1,6 @@
 ---
 title: jQuery 슬라이드 뷰어 혹은 슬라이드 쇼(사진 갤러리)
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/112
 aktt_notify_twitter:

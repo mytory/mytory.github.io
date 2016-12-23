@@ -1,6 +1,6 @@
 ---
 title: 'TGIC MXBOOK 노트북은 A/S 불능, 용산가서 고쳐야 &#8211; TGIC MXBOOK PS1530V/1510V'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/62
 aktt_notify_twitter:

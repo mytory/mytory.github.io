@@ -1,6 +1,6 @@
 ---
 title: '[워드프레스] 기본 콘텐츠 포매팅 함수 &#8211; the_content 필터 거치지 않고 the_content 효과 내기'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/9232
 daumview_id:

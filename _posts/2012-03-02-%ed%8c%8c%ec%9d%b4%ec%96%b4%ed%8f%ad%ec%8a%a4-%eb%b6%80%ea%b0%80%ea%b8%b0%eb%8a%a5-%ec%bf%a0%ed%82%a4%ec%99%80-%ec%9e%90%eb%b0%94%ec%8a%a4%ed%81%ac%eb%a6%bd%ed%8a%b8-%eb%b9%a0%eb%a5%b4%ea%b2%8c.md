@@ -1,6 +1,6 @@
 ---
 title: '[파이어폭스 부가기능] 쿠키와 자바스크립트 빠르게 껐다 켰다 하기'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/2308
 aktt_notify_twitter:

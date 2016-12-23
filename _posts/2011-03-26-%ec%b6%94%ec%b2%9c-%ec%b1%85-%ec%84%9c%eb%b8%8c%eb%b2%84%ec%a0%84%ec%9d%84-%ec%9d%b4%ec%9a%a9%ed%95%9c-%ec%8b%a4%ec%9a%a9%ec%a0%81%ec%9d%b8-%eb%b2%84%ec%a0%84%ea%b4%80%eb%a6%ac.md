@@ -1,6 +1,6 @@
 ---
 title: '[추천 책] 서브버전을 이용한 실용적인 버전관리'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1021
 aktt_notify_twitter:

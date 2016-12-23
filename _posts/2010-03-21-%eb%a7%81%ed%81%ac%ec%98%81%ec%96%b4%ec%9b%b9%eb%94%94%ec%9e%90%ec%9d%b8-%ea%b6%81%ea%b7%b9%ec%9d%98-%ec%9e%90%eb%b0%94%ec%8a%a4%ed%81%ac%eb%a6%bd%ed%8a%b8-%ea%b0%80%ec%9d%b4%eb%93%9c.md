@@ -1,6 +1,6 @@
 ---
 title: '[링크:영어]웹디자인, 궁극의 자바스크립트 가이드'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/432
 aktt_notify_twitter:

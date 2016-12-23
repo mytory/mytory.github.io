@@ -1,6 +1,6 @@
 ---
 title: '[링크]PHP에서 다중값CheckBox 전송하고 편리하게 받기'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/459
 aktt_notify_twitter:

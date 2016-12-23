@@ -1,6 +1,6 @@
 ---
 title: 구글 아날리틱스 통계를 바탕화면에 띄워놓고 실시간으로 보자
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/88
 aktt_notify_twitter:

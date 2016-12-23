@@ -1,6 +1,6 @@
 ---
 title: 브라우저의 스타일 간섭 없애기
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/24
 aktt_notify_twitter:

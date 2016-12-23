@@ -1,6 +1,6 @@
 ---
 title: 리눅스에서 오픈오피스를 활용해 텍스트 파일을 EUC-KR 윈도우용 문자 인코딩으로 저장하기
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/199
 aktt_notify_twitter:

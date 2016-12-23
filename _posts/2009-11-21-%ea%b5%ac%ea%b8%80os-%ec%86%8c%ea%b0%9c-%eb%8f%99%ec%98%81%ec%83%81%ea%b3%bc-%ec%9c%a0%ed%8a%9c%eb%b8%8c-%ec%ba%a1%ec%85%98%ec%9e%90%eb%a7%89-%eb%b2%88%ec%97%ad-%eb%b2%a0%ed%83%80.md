@@ -1,6 +1,6 @@
 ---
 title: 구글OS 소개 동영상과 유튜브 캡션(자막) 번역 베타
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/92
 aktt_notify_twitter:

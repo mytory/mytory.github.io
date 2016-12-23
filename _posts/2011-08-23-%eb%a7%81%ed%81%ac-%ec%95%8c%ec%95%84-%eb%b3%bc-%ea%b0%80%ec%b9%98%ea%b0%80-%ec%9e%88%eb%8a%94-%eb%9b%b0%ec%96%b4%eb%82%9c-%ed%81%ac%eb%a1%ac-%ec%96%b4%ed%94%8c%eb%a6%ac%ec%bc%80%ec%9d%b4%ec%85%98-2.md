@@ -1,6 +1,6 @@
 ---
 title: '[링크] 알아 볼 가치가 있는 뛰어난 크롬 어플리케이션 21개'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1743
 aktt_notify_twitter:

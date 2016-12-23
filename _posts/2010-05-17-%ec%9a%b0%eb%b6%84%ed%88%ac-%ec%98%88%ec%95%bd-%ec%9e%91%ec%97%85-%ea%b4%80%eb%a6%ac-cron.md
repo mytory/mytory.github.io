@@ -1,6 +1,6 @@
 ---
 title: '[우분투] 예약 작업 관리, cron'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/601
 aktt_notify_twitter:

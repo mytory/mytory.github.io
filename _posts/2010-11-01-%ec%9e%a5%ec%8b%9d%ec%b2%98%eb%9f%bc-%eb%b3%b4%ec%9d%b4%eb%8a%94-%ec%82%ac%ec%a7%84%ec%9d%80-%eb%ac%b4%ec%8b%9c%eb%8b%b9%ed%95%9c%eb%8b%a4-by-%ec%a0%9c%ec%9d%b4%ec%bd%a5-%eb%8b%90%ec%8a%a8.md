@@ -1,6 +1,6 @@
 ---
 title: 장식처럼 보이는 사진은 무시당한다 by 제이콥 닐슨
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/786
 aktt_notify_twitter:

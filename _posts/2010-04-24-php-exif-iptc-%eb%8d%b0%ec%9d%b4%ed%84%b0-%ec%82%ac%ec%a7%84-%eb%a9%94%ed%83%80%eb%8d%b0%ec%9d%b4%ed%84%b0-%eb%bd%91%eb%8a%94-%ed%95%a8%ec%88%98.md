@@ -1,6 +1,6 @@
 ---
 title: '[php] EXIF, IPTC 데이터 &#8211; 사진 메타데이터 뽑는 함수'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/531
 aktt_notify_twitter:

@@ -1,6 +1,6 @@
 ---
 title: tinymce에서 콘텐트 set/get
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1419
 aktt_notify_twitter:

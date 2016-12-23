@@ -1,6 +1,6 @@
 ---
 title: '[jQuery] 레이어 팝업 박스를 화면 정 가운데 위치시키기(ie든 파폭이든 크롬이든 다 되는 거)'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/812
 aktt_notify_twitter:

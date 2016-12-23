@@ -1,6 +1,6 @@
 ---
 title: 유닉스 명령어 메모
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/2057
 aktt_notify_twitter:

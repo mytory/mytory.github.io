@@ -1,6 +1,6 @@
 ---
 title: 윈도우7, 권한이 없다며 프로그램 설치가 안 될 때 You may not have the necessary permissions to use all the features of the program you are about to run.
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1871
 aktt_notify_twitter:

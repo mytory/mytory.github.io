@@ -1,6 +1,6 @@
 ---
 title: 배열을 http Query String 으로 만들어 주는 함수
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1437
 aktt_notify_twitter:

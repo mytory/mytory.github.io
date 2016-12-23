@@ -1,6 +1,6 @@
 ---
 title: '[팁] 드롭박스 베타 기능 사용으로 용량 5GB 늘리기'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/2248
 aktt_notify_twitter:

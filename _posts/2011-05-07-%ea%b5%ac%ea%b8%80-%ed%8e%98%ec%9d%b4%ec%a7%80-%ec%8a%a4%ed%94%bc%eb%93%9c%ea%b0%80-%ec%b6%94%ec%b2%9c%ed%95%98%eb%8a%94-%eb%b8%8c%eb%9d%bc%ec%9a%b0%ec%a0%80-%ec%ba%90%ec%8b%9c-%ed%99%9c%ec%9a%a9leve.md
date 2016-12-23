@@ -1,6 +1,6 @@
 ---
 title: 구글 페이지 스피드가 추천하는 브라우저 캐시 활용(Leverage browser caching)
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1232
 aktt_notify_twitter:

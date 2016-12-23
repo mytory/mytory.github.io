@@ -1,6 +1,6 @@
 ---
 title: 워드프레스 업로드 폴더 보안용 .htaccess 생성 플러그인
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/3304
 aktt_notify_twitter:

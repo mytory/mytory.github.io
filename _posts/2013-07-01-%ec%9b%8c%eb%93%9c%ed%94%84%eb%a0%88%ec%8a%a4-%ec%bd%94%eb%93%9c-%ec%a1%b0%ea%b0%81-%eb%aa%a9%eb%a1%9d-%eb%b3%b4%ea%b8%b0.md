@@ -1,6 +1,6 @@
 ---
 title: '[워드프레스 코드 조각] 목록 보기'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/10474
 daumview_id:

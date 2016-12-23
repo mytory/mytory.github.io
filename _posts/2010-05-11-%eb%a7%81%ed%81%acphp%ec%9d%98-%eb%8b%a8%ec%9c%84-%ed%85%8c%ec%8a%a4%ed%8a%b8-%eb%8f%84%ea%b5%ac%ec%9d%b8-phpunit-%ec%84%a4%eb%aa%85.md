@@ -1,6 +1,6 @@
 ---
 title: '[링크]PHP의 단위 테스트 도구인 PHPUnit 설명'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/585
 aktt_notify_twitter:

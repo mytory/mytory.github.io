@@ -1,6 +1,6 @@
 ---
 title: rsync 간단 사용법(로컬 원격 모두)
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/814
 aktt_notify_twitter:

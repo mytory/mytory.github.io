@@ -1,6 +1,6 @@
 ---
 title: '[아이폰4 이상] 빨리 켜지는 플래시 라이트'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/2333
 aktt_notify_twitter:

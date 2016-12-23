@@ -1,6 +1,6 @@
 ---
 title: '코분투(cobuntu &#8211; 코리아 우분투?) 10.04 플래시 한글 깨짐 해결'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/582
 aktt_notify_twitter:

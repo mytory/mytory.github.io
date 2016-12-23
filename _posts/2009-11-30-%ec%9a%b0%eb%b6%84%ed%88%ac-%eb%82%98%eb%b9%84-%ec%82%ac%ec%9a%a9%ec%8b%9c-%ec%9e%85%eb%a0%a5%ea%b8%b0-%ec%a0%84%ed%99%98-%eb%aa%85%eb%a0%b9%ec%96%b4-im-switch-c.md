@@ -1,6 +1,6 @@
 ---
 title: 우분투 나비 사용시, 입력기 전환 명령어 im-switch -c
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/104
 aktt_notify_twitter:

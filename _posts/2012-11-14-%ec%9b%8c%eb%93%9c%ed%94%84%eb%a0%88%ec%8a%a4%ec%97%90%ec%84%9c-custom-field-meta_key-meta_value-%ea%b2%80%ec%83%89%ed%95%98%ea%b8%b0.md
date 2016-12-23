@@ -1,6 +1,6 @@
 ---
 title: 워드프레스에서 Custom Field(post_meta)로 포스트 검색하기
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/8448
 daumview_id:

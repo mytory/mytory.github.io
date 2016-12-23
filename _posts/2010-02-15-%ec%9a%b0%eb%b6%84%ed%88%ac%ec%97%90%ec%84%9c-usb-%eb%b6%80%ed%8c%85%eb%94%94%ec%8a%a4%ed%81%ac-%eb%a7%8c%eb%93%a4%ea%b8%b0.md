@@ -1,6 +1,6 @@
 ---
 title: 우분투에서 USB 부팅디스크 만들기
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/276
 aktt_notify_twitter:

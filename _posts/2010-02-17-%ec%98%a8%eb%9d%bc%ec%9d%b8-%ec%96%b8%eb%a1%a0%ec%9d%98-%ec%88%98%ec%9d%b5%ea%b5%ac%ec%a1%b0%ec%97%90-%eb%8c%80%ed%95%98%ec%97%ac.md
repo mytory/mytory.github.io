@@ -1,6 +1,6 @@
 ---
 title: 온라인 언론의 수익구조에 대하여
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/283
 aktt_notify_twitter:

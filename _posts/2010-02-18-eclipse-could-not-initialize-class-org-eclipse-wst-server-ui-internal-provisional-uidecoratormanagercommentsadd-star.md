@@ -1,6 +1,6 @@
 ---
 title: 'Eclipse: Could not initialize class org.eclipse.wst.server.ui.internal.provisional.UIDecoratorManagerCommentsAdd Star'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/291
 aktt_notify_twitter:

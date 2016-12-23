@@ -1,6 +1,6 @@
 ---
 title: '[링크:영어] E-book을 재검토할 때인가?'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1915
 aktt_notify_twitter:

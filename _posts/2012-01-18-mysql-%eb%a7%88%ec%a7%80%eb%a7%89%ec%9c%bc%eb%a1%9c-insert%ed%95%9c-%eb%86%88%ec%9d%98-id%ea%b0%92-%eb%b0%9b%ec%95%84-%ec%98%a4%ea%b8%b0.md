@@ -1,6 +1,6 @@
 ---
 title: '[MySql] 마지막으로 Insert한 놈의 ID값 받아 오기 mysql_insert_id()'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/2085
 aktt_notify_twitter:

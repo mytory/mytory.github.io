@@ -1,6 +1,6 @@
 ---
 title: '[링크] 올해는 사용자를 골탕 먹이지 맙시다'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/292
 aktt_notify_twitter:

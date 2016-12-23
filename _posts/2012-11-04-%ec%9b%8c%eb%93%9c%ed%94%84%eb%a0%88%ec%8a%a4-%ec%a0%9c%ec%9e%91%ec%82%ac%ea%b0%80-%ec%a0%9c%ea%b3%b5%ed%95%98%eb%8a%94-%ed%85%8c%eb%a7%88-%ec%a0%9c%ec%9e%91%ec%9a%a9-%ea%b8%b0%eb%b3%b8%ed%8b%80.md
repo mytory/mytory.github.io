@@ -1,6 +1,6 @@
 ---
 title: '워드프레스 제작사가 제공하는 테마 제작용 기본틀 테마 &#8211; UnderScores 테마 소개와 한국어 언어 파일'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/4917
 aktt_notify_twitter:

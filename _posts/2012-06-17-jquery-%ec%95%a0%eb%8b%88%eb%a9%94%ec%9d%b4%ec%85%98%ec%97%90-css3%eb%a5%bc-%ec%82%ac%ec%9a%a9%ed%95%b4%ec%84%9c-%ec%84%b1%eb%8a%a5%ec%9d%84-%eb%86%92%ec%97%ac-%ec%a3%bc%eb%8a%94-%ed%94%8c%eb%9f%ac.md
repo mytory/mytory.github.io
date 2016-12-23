@@ -1,6 +1,6 @@
 ---
 title: '[jQuery] 애니메이션에 CSS3를 사용해서 성능을 높여 주는 플러그인 &#8211; jquery.animate-enhanced plugin'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/2628
 aktt_notify_twitter:

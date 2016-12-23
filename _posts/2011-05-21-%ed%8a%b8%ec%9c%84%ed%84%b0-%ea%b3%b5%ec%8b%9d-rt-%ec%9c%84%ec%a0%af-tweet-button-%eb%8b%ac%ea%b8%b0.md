@@ -1,6 +1,6 @@
 ---
 title: 트위터 공식 RT 위젯 (Tweet Button) 달기
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1274
 aktt_notify_twitter:

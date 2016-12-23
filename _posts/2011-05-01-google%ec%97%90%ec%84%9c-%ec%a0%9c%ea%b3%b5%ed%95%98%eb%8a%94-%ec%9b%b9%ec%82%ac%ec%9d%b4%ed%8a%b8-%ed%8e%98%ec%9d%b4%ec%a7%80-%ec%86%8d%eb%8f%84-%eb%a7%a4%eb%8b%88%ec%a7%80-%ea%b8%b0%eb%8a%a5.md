@@ -1,6 +1,6 @@
 ---
 title: Google에서 제공하는 웹사이트 페이지 속도 측정, 관리 기능
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1183
 aktt_notify_twitter:

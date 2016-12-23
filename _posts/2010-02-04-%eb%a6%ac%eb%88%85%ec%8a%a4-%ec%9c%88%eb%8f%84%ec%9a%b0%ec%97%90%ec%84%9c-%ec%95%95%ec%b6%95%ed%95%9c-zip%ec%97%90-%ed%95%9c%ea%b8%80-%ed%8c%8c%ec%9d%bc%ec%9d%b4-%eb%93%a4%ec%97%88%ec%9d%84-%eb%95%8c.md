@@ -1,6 +1,6 @@
 ---
 title: 리눅스, 윈도우에서 압축한 zip에 한글 파일이 들었을 때 파일명 깨지는 문제 해결하기
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/250
 aktt_notify_twitter:

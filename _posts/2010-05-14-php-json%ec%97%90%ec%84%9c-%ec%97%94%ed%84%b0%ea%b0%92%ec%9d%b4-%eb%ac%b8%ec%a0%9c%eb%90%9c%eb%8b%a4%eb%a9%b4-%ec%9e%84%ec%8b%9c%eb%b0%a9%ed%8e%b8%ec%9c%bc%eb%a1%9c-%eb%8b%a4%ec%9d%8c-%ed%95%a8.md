@@ -1,6 +1,6 @@
 ---
 title: '[php] json에서 엔터값이 문제된다면, 임시방편으로 다음 함수를&#8230;'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/597
 aktt_notify_twitter:

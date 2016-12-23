@@ -1,6 +1,6 @@
 ---
 title: 실버라이트 삭제 오류 해결
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/12120
 mytory_md_path:

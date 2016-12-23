@@ -1,6 +1,6 @@
 ---
 title: trac 에서 svn 저장소 등 환경변수 변경됐을 때 resync하기
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/613
 aktt_notify_twitter:

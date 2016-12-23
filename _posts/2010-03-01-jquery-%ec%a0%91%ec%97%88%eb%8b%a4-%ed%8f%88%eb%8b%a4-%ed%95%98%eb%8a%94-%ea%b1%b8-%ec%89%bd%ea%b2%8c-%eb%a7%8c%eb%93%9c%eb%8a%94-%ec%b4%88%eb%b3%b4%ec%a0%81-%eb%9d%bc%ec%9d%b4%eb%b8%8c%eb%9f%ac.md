@@ -1,6 +1,6 @@
 ---
 title: '[jQuery] 접었다 폈다 하는 걸 쉽게 만드는 초보적 라이브러리'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/337
 aktt_notify_twitter:

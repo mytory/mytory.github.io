@@ -1,6 +1,6 @@
 ---
 title: '[워드프레스] 크롬, Twenty Twelve 테마에서 :(콜론) 표시 문제 해결 &#8211; text-rendering: optimizeLegibility'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/9225
 daumview_id:

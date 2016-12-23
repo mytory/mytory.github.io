@@ -1,6 +1,6 @@
 ---
 title: 리눅스 오픈오피스 인쇄 글자 빠짐 문제
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/180
 aktt_notify_twitter:

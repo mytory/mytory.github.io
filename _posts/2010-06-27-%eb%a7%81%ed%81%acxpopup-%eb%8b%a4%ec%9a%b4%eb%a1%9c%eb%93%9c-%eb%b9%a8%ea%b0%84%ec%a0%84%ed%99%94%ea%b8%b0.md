@@ -1,6 +1,6 @@
 ---
 title: '[링크]xpopup 다운로드 &#8211; 빨간전화기'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/700
 aktt_notify_twitter:

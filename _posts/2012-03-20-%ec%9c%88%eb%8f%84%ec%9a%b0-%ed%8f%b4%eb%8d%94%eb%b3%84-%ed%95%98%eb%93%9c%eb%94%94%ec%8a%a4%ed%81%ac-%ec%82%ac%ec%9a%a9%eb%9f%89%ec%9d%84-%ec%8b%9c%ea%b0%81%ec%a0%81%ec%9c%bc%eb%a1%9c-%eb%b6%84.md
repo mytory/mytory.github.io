@@ -1,6 +1,6 @@
 ---
 title: '[윈도우] 폴더별 하드디스크 사용량을 시각적으로 분석해 주는 프로그램'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/2338
 aktt_notify_twitter:

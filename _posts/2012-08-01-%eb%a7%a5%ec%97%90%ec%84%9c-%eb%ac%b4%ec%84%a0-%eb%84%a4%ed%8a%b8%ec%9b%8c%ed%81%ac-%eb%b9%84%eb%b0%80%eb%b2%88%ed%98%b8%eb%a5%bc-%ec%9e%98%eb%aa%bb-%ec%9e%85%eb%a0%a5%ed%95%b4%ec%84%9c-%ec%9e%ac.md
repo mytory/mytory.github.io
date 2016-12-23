@@ -1,6 +1,6 @@
 ---
 title: 맥에서 무선 네트워크 비밀번호를 잘못 입력해서 재설정하고 싶을 때
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/3118
 aktt_notify_twitter:

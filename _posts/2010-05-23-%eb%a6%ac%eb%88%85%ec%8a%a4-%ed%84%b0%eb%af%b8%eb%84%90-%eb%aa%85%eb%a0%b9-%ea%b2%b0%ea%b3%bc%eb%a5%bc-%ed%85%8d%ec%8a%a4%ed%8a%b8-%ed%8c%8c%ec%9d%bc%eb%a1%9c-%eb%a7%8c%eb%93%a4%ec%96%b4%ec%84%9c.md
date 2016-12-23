@@ -1,6 +1,6 @@
 ---
 title: 리눅스 터미널 명령 결과를 텍스트 파일로 만들어서 보기
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/609
 aktt_notify_twitter:

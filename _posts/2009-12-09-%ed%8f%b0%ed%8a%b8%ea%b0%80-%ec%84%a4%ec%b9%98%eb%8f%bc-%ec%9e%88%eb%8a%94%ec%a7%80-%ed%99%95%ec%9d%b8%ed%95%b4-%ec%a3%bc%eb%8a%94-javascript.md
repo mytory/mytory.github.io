@@ -1,6 +1,6 @@
 ---
 title: 폰트가 설치돼 있는지 확인해 주는 javascript
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/118
 aktt_notify_twitter:

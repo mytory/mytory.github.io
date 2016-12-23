@@ -1,6 +1,6 @@
 ---
 title: '[리눅스] 커맨드 라인으로 프록시 세팅하기'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/11859
 mytory_md_path:

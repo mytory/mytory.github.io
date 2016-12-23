@@ -1,6 +1,6 @@
 ---
 title: '[워드프레스] load-scripts.php에서 Uncaught SyntaxError: Unexpected token ILLEGAL 라는 에러가 발생할 때'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/10095
 daumview_id:

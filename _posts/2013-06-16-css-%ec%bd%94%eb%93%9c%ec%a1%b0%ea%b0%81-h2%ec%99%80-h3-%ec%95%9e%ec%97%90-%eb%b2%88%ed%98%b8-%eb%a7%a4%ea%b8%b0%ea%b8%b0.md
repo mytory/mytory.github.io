@@ -1,6 +1,6 @@
 ---
 title: '[CSS 코드조각] h2와 h3 앞에 번호 매기기'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/10375
 daumview_id:

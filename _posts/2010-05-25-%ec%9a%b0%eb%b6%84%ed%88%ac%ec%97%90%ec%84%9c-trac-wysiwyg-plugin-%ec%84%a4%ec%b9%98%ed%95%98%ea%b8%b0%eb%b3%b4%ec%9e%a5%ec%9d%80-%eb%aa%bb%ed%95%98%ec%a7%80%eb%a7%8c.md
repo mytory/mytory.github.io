@@ -1,6 +1,6 @@
 ---
 title: 우분투에서 trac-wysiwyg plugin 설치하기(보장은 못하지만;;)
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/615
 aktt_notify_twitter:

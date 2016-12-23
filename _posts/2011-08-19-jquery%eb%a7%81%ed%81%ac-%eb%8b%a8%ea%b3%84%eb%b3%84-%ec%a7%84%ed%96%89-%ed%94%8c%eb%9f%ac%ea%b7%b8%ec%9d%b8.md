@@ -1,6 +1,6 @@
 ---
 title: '[jQuery] 단계별 진행 플러그인 모음 step by step plugin collection'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1726
 aktt_notify_twitter:

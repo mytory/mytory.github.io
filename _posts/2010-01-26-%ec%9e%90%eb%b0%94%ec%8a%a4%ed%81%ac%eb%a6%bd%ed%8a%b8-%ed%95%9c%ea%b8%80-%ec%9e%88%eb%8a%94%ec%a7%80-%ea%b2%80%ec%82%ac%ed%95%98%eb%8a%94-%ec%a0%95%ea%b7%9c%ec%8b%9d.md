@@ -1,6 +1,6 @@
 ---
 title: 자바스크립트 한글 있는지 검사하는 정규식
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/238
 aktt_notify_twitter:

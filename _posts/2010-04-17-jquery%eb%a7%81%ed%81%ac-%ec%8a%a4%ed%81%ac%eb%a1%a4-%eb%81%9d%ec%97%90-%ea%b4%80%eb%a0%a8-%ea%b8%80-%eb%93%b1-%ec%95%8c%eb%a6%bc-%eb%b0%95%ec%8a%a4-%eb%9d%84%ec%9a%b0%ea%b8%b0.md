@@ -1,6 +1,6 @@
 ---
 title: '[jQuery:링크] 스크롤 끝에 관련 글 등 알림 박스 띄우기'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/517
 aktt_notify_twitter:

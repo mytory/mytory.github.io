@@ -1,6 +1,6 @@
 ---
 title: '[워드프레스] 서브카테고리를 전부 태그로 바꾸고 카테고리를 최상위 카테고리로 설정하기'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/10912
 daumview_id:

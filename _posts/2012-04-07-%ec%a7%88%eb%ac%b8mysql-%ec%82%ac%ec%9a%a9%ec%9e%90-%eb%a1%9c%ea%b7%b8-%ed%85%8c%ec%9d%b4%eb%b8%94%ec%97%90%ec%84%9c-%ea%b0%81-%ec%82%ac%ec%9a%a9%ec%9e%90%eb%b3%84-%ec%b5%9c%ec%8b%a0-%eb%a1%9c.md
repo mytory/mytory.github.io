@@ -1,6 +1,6 @@
 ---
 title: '[질문:MySQL] 사용자 로그 테이블에서, 각 사용자별 최신 로그만 1줄씩, 단 한 번의 쿼리로 가져오려면?'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/2403
 aktt_notify_twitter:

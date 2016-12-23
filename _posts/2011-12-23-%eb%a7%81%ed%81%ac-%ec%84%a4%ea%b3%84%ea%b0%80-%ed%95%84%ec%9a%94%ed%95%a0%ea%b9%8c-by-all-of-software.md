@@ -1,6 +1,6 @@
 ---
 title: '[링크] 설계가 필요할까? by All of Software'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/2034
 aktt_notify_twitter:

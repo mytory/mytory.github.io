@@ -1,6 +1,6 @@
 ---
 title: '[링크]그리스 경제 위기에 관해'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/575
 aktt_notify_twitter:

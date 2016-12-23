@@ -1,6 +1,6 @@
 ---
 title: '블로그 리뉴얼 &#8211; 마법 나무 테마'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/10961
 daumview_id:

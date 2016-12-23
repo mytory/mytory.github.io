@@ -1,6 +1,6 @@
 ---
 title: '[싸구려 리뷰:아이폰 핸즈프리] 지하철역 12000원짜리, 옥션 14000원짜리'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1876
 aktt_notify_twitter:

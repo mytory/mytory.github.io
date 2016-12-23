@@ -1,6 +1,6 @@
 ---
 title: '파일질라의 괜찮은 기능 &#8211; 폴더 싱크 하고 파일 비교해서 표시하기'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/570
 aktt_notify_twitter:

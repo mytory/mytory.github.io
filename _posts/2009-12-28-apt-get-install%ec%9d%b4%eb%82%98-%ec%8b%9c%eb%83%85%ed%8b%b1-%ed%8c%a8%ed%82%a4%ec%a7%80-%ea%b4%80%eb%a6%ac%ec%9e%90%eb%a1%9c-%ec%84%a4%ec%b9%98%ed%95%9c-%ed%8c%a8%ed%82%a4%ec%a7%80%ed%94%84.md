@@ -1,6 +1,6 @@
 ---
 title: apt-get install이나 시냅틱 패키지 관리자로 설치한 패키지(프로그램)의 deb 설치 파일은 어디에 있나
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/170
 aktt_notify_twitter:

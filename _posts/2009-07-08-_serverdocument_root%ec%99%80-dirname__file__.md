@@ -1,6 +1,6 @@
 ---
 title: "$_SERVER['DOCUMENT_ROOT']와 dirname(__FILE__)"
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/6
 aktt_notify_twitter:

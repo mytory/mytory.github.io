@@ -1,6 +1,6 @@
 ---
 title: 구루딕, 스타딕 소개와 표준국어대사전 파일 만들기 매뉴얼 링크
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/1686
 aktt_notify_twitter:

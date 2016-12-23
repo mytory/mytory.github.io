@@ -1,6 +1,6 @@
 ---
 title: '맥북 아파치 가상호스트 활성화를 위해선 &#8216;웹 공유&#8217;를 켜야 한다'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/3135
 aktt_notify_twitter:

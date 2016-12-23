@@ -1,6 +1,6 @@
 ---
 title: '[jQuery] 플러그인 만들기 (1)'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/661
 aktt_notify_twitter:

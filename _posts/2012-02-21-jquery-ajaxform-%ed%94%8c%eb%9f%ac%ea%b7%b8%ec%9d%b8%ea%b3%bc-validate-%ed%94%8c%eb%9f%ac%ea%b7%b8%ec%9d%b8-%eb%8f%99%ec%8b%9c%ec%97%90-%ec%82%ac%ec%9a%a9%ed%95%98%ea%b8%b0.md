@@ -1,6 +1,6 @@
 ---
 title: '[jQuery] ajaxForm 플러그인과 validation 플러그인 동시에 사용하기'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/2292
 aktt_notify_twitter:

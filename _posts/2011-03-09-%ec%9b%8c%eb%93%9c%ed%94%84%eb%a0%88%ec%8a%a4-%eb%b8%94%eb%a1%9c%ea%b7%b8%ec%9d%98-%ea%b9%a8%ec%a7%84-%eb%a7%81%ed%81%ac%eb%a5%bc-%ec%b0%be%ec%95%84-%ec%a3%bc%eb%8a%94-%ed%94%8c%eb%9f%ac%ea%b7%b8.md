@@ -1,6 +1,6 @@
 ---
 title: '[워드프레스] 블로그의 깨진 링크를 찾아 주는 플러그인 Broken Link Checker'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/947
 aktt_notify_twitter:

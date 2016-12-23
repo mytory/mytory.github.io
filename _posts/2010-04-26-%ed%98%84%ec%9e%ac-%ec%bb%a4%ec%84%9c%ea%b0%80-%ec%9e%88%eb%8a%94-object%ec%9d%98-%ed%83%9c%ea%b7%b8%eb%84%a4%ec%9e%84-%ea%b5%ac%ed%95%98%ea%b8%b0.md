@@ -1,6 +1,6 @@
 ---
 title: 현재 커서가 있는 Object의 태그네임 구하기
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/539
 aktt_notify_twitter:

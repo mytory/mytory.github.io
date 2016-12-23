@@ -1,6 +1,6 @@
 ---
 title: '[이클립스:링크] UML, ERD 플러그인'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/520
 aktt_notify_twitter:

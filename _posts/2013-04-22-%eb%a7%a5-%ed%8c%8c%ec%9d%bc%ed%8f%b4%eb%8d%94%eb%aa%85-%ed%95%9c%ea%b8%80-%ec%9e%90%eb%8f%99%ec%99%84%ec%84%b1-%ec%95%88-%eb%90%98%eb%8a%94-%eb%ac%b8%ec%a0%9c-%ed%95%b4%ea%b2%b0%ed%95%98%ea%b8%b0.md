@@ -1,6 +1,6 @@
 ---
 title: 맥 터미널 파일/폴더명 한글 자동완성 안 되는 문제 해결하기
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/9967
 daumview_id:

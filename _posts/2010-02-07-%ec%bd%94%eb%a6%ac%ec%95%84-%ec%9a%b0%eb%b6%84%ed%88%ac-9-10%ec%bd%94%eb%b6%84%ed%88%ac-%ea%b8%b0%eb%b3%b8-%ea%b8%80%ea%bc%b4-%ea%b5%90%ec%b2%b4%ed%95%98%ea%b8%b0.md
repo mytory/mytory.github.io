@@ -1,6 +1,6 @@
 ---
 title: 코리아 우분투 9.10(코분투), 기본 글꼴 교체하기
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/256
 aktt_notify_twitter:

@@ -1,6 +1,6 @@
 ---
 title: 우분투 리눅스, phpMyAdmin 패키지 설치
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/25
 aktt_notify_twitter:

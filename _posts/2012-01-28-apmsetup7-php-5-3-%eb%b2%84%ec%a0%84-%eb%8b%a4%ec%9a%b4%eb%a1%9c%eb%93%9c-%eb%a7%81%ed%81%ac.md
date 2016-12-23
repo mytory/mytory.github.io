@@ -1,6 +1,6 @@
 ---
 title: APMSETUP7 PHP 5.3 버전 다운로드 링크
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/2125
 aktt_notify_twitter:

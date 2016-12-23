@@ -1,6 +1,6 @@
 ---
 title: 쿠분투 두 번 클릭으로 파일과 폴더 열기
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/738
 aktt_notify_twitter:

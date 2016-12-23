@@ -1,6 +1,6 @@
 ---
 title: '[링크:영문]CSS3 드롭다운 메뉴 만드는 방법 설명'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/345
 aktt_notify_twitter:

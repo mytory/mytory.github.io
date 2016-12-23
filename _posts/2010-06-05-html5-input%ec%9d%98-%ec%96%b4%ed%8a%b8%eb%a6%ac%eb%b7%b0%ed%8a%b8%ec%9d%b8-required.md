@@ -1,6 +1,6 @@
 ---
 title: '[HTML5] input의 어트리뷰트인 required'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/648
 aktt_notify_twitter:

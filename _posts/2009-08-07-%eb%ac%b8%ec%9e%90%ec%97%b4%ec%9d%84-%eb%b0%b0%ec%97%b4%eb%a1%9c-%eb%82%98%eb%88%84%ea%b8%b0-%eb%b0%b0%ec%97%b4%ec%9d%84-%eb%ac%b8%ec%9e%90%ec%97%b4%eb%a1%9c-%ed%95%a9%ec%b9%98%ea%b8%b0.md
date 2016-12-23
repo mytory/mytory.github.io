@@ -1,6 +1,6 @@
 ---
 title: 문자열을 배열로 나누기, 배열을 문자열로 합치기
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/15
 aktt_notify_twitter:

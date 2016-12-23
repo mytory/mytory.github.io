@@ -1,6 +1,6 @@
 ---
 title: '[java] 디렉토리 있는지 확인하고 없으면 만드는 메서드'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/286
 aktt_notify_twitter:

@@ -1,6 +1,6 @@
 ---
 title: 웹 폼(form)을 향상시켜 주는 15가지 jQuery plugin
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/475
 aktt_notify_twitter:

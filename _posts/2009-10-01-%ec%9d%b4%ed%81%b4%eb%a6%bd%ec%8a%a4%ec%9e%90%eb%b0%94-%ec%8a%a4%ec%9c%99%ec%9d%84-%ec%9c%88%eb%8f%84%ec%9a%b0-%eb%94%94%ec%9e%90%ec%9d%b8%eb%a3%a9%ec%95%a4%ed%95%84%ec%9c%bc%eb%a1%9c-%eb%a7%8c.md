@@ -1,6 +1,6 @@
 ---
 title: '[이클립스]자바 스윙을 윈도우 디자인(룩앤필)으로 만드는 방법'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/64
 aktt_notify_twitter:

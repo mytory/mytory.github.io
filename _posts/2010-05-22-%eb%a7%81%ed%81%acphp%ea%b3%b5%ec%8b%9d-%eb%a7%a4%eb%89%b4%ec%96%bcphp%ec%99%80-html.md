@@ -1,6 +1,6 @@
 ---
 title: '[링크:PHP공식 매뉴얼]PHP와 HTML'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/607
 aktt_notify_twitter:

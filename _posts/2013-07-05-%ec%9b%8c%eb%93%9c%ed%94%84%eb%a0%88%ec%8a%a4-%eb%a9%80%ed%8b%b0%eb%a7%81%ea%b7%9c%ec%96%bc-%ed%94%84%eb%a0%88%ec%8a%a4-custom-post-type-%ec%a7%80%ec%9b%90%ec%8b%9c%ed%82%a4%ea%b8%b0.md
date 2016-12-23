@@ -1,6 +1,6 @@
 ---
 title: '[워드프레스] 멀티링규얼 프레스 custom post type 지원시키기'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/10508
 daumview_id:

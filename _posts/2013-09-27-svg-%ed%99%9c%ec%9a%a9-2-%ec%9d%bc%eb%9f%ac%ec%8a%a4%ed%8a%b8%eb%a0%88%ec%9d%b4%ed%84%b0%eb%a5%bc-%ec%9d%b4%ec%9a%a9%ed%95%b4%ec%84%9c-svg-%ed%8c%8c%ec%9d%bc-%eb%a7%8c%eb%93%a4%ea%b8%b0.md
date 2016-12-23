@@ -1,6 +1,6 @@
 ---
 title: 'SVG 활용 2 &#8211; 일러스트레이터를 이용해서 SVG 파일 만들기'
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/11175
 categories:

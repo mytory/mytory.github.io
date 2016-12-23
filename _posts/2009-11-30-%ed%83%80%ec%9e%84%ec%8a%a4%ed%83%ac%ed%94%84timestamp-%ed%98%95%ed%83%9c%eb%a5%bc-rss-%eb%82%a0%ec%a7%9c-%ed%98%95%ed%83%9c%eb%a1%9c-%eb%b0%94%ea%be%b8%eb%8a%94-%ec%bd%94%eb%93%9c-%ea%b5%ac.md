@@ -1,6 +1,6 @@
 ---
 title: 타임스탬프(Timestamp) 형태를 rss 날짜 형태로 바꾸는 코드 구현
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/106
 aktt_notify_twitter:

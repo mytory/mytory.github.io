@@ -1,6 +1,6 @@
 ---
 title: 미친듯이 느린 IT World 웹사이트 빠르게 만들기
-author: 녹풍(綠風, Windgreen)
+author: 안형우
 layout: post
 permalink: /archives/11791
 mytory_md_path:

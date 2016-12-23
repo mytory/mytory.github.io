@@ -1,5 +1,5 @@
 ---
-title: '@extend를 사용해야 할 때와 mixin을 사용해야 할 때'
+title: '[Sass] @extend를 사용해야 할 때와 mixin을 사용해야 할 때'
 author: 안형우
 layout: post
 tags:

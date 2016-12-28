@@ -1,12 +1,12 @@
 ---
 title: "OOCSS에서 객체를 수정하는 방법"
 author: 안형우
-tags: 
+tags:
   - OOCSS
   - css
 ---
 
-올리버 조셉 애쉬의 ["Methods for modifying objects in OOCSS"][원본](2012년 9월) 번역글이다. 관련 주제를 다룬 글로 세 번째 번역이다. 
+올리버 조셉 애쉬의 ["Methods for modifying objects in OOCSS"][원본](2012년 9월) 번역글이다. 관련 주제를 다룬 글로 세 번째 번역이다.
 
 [원본]: https://oliverjash.me/2012/09/07/methods-for-modifying-objects-in-oocss
 
@@ -34,7 +34,15 @@ OOCSS의 발상을 처음 접하는 사람들을 위해, 객체 수정자의 원
       padding: 10px;
     }
 
-`widget` 객체가 있다. 이 객체의 목적은 이름에 잘 나타나 있다. `widget`엔 패딩이 있지만
+`widget` 객체가 있다. 이 객체의 목적은 이름에 잘 나타나 있다. `widget`엔 패딩이 있지만, 예를 들면 가끔 외곽선이 있는 위젯을 보여 줘야 한다고 해 보자. DRY 방법론을 따르면 `widget` 객체를 확장하고 수정할 테니, 나는 다음과 같이 할 필요가 없다.
 
+<pre>.widget {
+    padding: 10px;
+}
 
+.widget-alt {
+    padding: 10px;
+    border: 1px solid #ccc;
+}</pre>
 
+새로 만든 `widget-alt` 객체(alternative widget의 약어)에는 외곽선이 있지만, `widget`의 패딩을 중복하고 있다. 

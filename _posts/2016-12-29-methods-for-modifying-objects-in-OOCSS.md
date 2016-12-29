@@ -314,6 +314,7 @@ HTML에 클래스 추가하기를 꺼리는 사람도 있을 것이다. 개인�
 }
 </pre>
 
-내가 여기서 말한 것과 다른 생각이 있다면, 트위터로 알려 달라. (다른 모든 프론트엔드 개발자들이 그렇듯이, 정말로) 나는 내가 실제로 사용하는 방법들을 매우 비판적으로 검토한다.[^critical] 모든 비판은 좋은 것이다.
+내가 여기서 말한 것과 다른 생각이 있다면, [트위터][twitter]로 알려 달라. (다른 모든 프론트엔드 개발자들이 그렇듯이, 정말로) 나는 내가 실제로 사용하는 방법들을 매우 비판적으로 검토한다.[^critical] 모든 비판은 좋은 것이다.
 
+[twitter]: https://twitter.com/OliverJAsh
 [^critical]: I’m incredibly critical of the methods I use in practice (like any front-end developer should be, really).

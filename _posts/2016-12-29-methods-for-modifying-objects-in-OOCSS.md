@@ -16,7 +16,7 @@ tags:
 [갤러거]: http://mytory.net/2016/12/02/about-html-semantics-front-end-architecture.html
 [로버츠]: http://mytory.net/2016/12/23/when-to-use-extend-when-to-use-a-mixin.html
 
-각주는 모두 역자가 붙인 것이다.
+각주는 모두 역자가 붙인 것이다. \[ \] 안의 말은 역자가 이해를 돕기 위해 추가한 말이다.
 
 -----
 

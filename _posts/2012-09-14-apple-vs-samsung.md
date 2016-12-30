@@ -39,7 +39,7 @@ tags:
 둥근 모서리 사각형이 부각되서 잘 알려지지 않았지만, 애플은 이번 소송에서 다음 특허들도 인정받았다. ([참고][2]) 한 손가락 스크롤, 두 손가락을 모아서 확대 축소를 하는 것, 화면을 톡톡 두드려 확대를 하는 것, 맨 아래로 스크롤했을 때 화면이 튕겨 올라오는 것. 무슨 생각이 드는가? 이게 의미하는 바는 앞으로 스마트폰 만들 때 이런 것들을 돈주고 써야 한다는 것이다. 쉬운 말로 정리하자면, 바퀴 사용할 때 돈 내라는 이야기다. 미닫이 문도 특허 낼 걸 그랬다.
 
 <div style="width: 510px" class="wp-caption aligncenter">
-  <img src="http://dl.dropbox.com/u/38351999/gongjam/mytory/Study-hard-but-Dont-use-it.jpg" alt="" width="500" height="338" /><p class="wp-caption-text">
+  <img src="http://mytory.net/uploads/gongjam/Study-hard-but-Dont-use-it.jpg" alt="" width="500" height="338" /><p class="wp-caption-text">
     주의! 시그마 함수 사용료 100$ 초과 ©<a href="http://gongjam.co.kr">공잠</a>
   </p>
 </div>

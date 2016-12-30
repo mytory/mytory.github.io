@@ -1,0 +1,930 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>message</title>
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script>
+$(document).ready(function(){
+	escapeMessage();
+});
+function escapeMessage(){
+	$('b').each(function(){
+		text=$(this).text();
+		$(this).text(text.replace(/([가-힣])/g, escapeThis));
+	});
+}
+function escapeThis(str){
+	return escape(str).replace(/\%/g,"\\");					
+}
+</script>
+#<br/>
+# Copyright (c) 2010 iceScrum Technologies.<br/>
+#<br/>
+# This file is part of iceScrum.<br/>
+#<br/>
+# iceScrum is free software: you can redistribute it and/or modify<br/>
+# it under the terms of the GNU Affero General Public License as published by<br/>
+# the Free Software Foundation, either version 3 of the License.<br/>
+#<br/>
+# iceScrum is distributed in the hope that it will be useful,<br/>
+# but WITHOUT ANY WARRANTY; without even the implied warranty of<br/>
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the<br/>
+# GNU General Public License for more details.<br/>
+#<br/>
+# You should have received a copy of the GNU Affero General Public License<br/>
+# along with iceScrum.  If not, see <http://www.gnu.org/licenses/>.<br/>
+#<br/>
+# Authors:<br/>
+#<br/>
+# Wolfgan Alber ()<br/>
+# Manuarii Stein (manuarii.stein@icescrum.com)<br/>
+# Vincent Barrier (vbarrier@kagilum.com)<br/>
+#<br/>
+<br/>
+#General messages<br/>
+is.shortname=<b>iS</b><br/>
+is.welcome=<b>안녕하세요! iceScrum 입니다.</b><br/>
+is.denied=<b>You don't have the required authority to perform this action.</b><br/>
+is.error=<b>An error has occurred</b><br/>
+is.logout=<b>Logout</b><br/>
+is.mainmenu=<b>Menu:</b><br/>
+is.stale.object =<b> This object {0} has recently been updated by someone else. Please reload the form.</b><br/>
+is.yes=<b>Yes</b><br/>
+is.no=<b>No</b><br/>
+is.about=<b>iceScrum에 대해</b><br/>
+is.loading =<b> 로딩중 ...</b><br/>
+is.confirm.delete=<b>선택한 것들을 지울까요?</b><br/>
+is.confirm.cancel.form=<b>다 쓰지 않고 나갈까요?</b><br/>
+is.button.close=<b>닫기</b><br/>
+is.button.reset=<b>Reset</b><br/>
+is.error.no.window.toolbar=<b>윈도우 툴바를 새로 고치다가 에러 발생</b><br/>
+is.error.no.window=<b>Requested window does not exist</b><br/>
+is.error.no.widget=<b>Requested widget does not exist</b><br/>
+is.error.import.no.data=<b>No data to import</b><br/>
+is.error.import=<b>An error has occurred during import (Maybe due to a wrong data format)</b><br/>
+is.error.denied=<b>Access forbidden</b><br/>
+is.error.database=<b>Unable to connect to the database. Please contact your admin (more informations in log file)</b><br/>
+is.error.memory=<b>iceScrum doesn't have enough memory. Please contact your admin (more informations in log file)</b><br/>
+is.view.tableView=<b>표 형태로 보기</b><br/>
+is.view.postitsView=<b>포스트잇 형태로 보기</b><br/>
+is.day=<b>Day</b><br/>
+is.blame.sended=<b>Report successfully sended, we will take a look as soon as possible, thank you.</b><br/>
+is.optional=<b>optional</b><br/>
+is.permalink=<b>Permalink</b><br/>
+is.closeProduct=<b>닫기 {0}</b><br/>
+is.mail.error =<b> Error, mail server is offline</b><br/>
+is.date.file=<b>MM-dd-yy</b><br/>
+<br/>
+is.ui.shortcut.title=<b>단축키 :</b><br/>
+is.ui.shortcut.escape.code=<b>ESCAPE</b><br/>
+is.ui.shortcut.ctrlf.code=<b>CTRL+F</b><br/>
+is.ui.shortcut.ctrln.code=<b>CTRL+N</b><br/>
+is.ui.shortcut.ctrla.code=<b>CTRL+A</b><br/>
+is.ui.shortcut.ctrlg.code=<b>CTRL+G</b><br/>
+is.ui.shortcut.ctrlshifta.code=<b>CTRL+SHIFT+A</b><br/>
+is.ui.shortcut.ctrlshiftc.code=<b>CTRL+SHIFT+C</b><br/>
+is.ui.shortcut.ctrlshiftv.code=<b>CTRL+SHIFT+V</b><br/>
+is.ui.shortcut.ctrlshiftd.code=<b>CTRL+SHIFT+D</b><br/>
+is.ui.shortcut.ctrlshiftr.code=<b>CTRL+SHIFT+R</b><br/>
+is.ui.shortcut.del.code=<b>DEL</b><br/>
+is.ui.shortcut.space.code=<b>SPACE</b><br/>
+is.ui.shortcut.ctrlf.text=<b>Search</b><br/>
+is.ui.shortcut.escape.text=<b>Cancel</b><br/>
+is.ui.shortcut.sandbox.ctrln.text=<b>New story</b><br/>
+is.ui.shortcut.sandbox.ctrla.text=<b>Select all stories (Only for Product Owner)</b><br/>
+is.ui.shortcut.sandbox.del.text=<b>Delete selected stories (Only for Product Owner)</b><br/>
+is.ui.shortcut.sandbox.space.text=<b>Quicklook selected story</b><br/>
+is.ui.shortcut.sandbox.ctrlshifta.text=<b>Accept selected stories (Only for Product Owner)</b><br/>
+is.ui.shortcut.sandbox.ctrlshiftc.text=<b>Copy selected stories to the sandbox</b><br/>
+is.ui.shortcut.productBacklog.ctrla.text=<b>Select all stories (Only for Product Owner)</b><br/>
+is.ui.shortcut.productBacklog.ctrlshiftc.text=<b>Copy selected stories to the sandbox</b><br/>
+is.ui.shortcut.productBacklog.del.text=<b>Delete selected stories (Only for Product Owner)</b><br/>
+is.ui.shortcut.productBacklog.space.text=<b>Quicklook selected story</b><br/>
+is.ui.shortcut.timeline.ctrln.text=<b>New release (Only for Product Owner)</b><br/>
+is.ui.shortcut.releasePlan.ctrln.text=<b>New sprint (Only for Product Owner or ScrumMaster)</b><br/>
+is.ui.shortcut.releasePlan.ctrlg.text=<b>Generate sprint (Only for Product Owner or ScrumMaster)</b><br/>
+is.ui.shortcut.releasePlan.ctrlshifta.text=<b>Auto plan (Only for Product Owner or ScrumMaster)</b><br/>
+is.ui.shortcut.releasePlan.ctrlshiftv.text=<b>Vision</b><br/>
+is.ui.shortcut.releasePlan.ctrlshiftd.text=<b>Dissociate all (Only for Product Owner or ScrumMaster)</b><br/>
+is.ui.shortcut.sprintBacklog.ctrln.text=<b>New task</b><br/>
+is.ui.shortcut.sprintBacklog.del.text=<b>Delete all selected tasks</b><br/>
+is.ui.shortcut.sprintBacklog.ctrla.text=<b>Select all tasks</b><br/>
+is.ui.shortcut.sprintBacklog.ctrlshifta.text=<b>Activate sprint (Only for Product Owner or ScrumMaster)</b><br/>
+is.ui.shortcut.sprintBacklog.ctrlshiftc.text=<b>Close sprint (Only for Product Owner or ScrumMaster)</b><br/>
+is.ui.shortcut.sprintBacklog.ctrlshiftd.text=<b>Defnition of done</b><br/>
+is.ui.shortcut.sprintBacklog.ctrlshiftr.text=<b>Retrospective</b><br/>
+is.ui.shortcut.members.del.text=<b>Remove team(s) (Only for Creator)</b><br/>
+is.ui.shortcut.members.ctrln.text=<b>새 팀 추가 (Only for Creator)</b><br/>
+is.ui.shortcut.actor.ctrln.text=<b>New actor (Only for Product Owner)</b><br/>
+is.ui.shortcut.actor.ctrla.text=<b>Select all actors (Only for Product Owner)</b><br/>
+is.ui.shortcut.actor.del.text=<b>Delete selected actors (Only for Product Owner)</b><br/>
+is.ui.shortcut.actor.space.text=<b>Quicklook selected actor</b><br/>
+is.ui.shortcut.feature.ctrln.text=<b>New feature (Only for Product Owner)</b><br/>
+is.ui.shortcut.feature.ctrla.text=<b>Select all features (Only for Product Owner)</b><br/>
+is.ui.shortcut.feature.del.text=<b>Delete selected features (Only for Product Owner)</b><br/>
+is.ui.shortcut.feature.space.text=<b>Quicklook selected feature</b><br/>
+<br/>
+is.export.inprogress =<b> Exporting ({0})</b><br/>
+is.export.start =<b> Export starting</b><br/>
+is.export.complete =<b> Export complete</b><br/>
+is.export.error =<b> Error while exporting</b><br/>
+<br/>
+is.upload.wait =<b> Waiting to upload</b><br/>
+is.upload.start =<b> Starting to upload</b><br/>
+is.upload.inprogress =<b> Upload in progress</b><br/>
+is.upload.inprogress.wait=<b>Upload in progress, please wait before submit</b><br/>
+is.upload.complete =<b> Upload complete</b><br/>
+is.upload.error =<b> Error while uploading</b><br/>
+is.upload.error.fileAlReadyAdded=<b>Error file already uploaded</b><br/>
+is.upload.error.fileNotAccepted=<b>Error file type not accepted</b><br/>
+<br/>
+is.parse =<b> Parsing ({0})</b><br/>
+is.parse.error =<b> Error while parsing ({0})</b><br/>
+is.validate =<b> Validating ({0})</b><br/>
+is.validate.start =<b> Starting validation</b><br/>
+is.validate.complete =<b> Validation complete</b><br/>
+is.validate.error =<b> Error validating ({0})</b><br/>
+<br/>
+is.ui.alreadyOpen=<b>{0} already open</b><br/>
+<br/>
+<br/>
+<br/>
+#Buttons<br/>
+is.button.connect=<b>로그인</b><br/>
+is.button.register=<b>새로 등록</b><br/>
+is.button.cancel=<b>취소</b><br/>
+is.button.update=<b>업데이트</b><br/>
+is.button.join=<b>Join</b><br/>
+is.button.open=<b>Open</b><br/>
+is.button.ok=<b>OK</b><br/>
+is.button.suggest=<b>제안(Suggest)</b><br/>
+is.button.add=<b>추가(Add)</b><br/>
+is.button.andContinue=<b>, 계속하기</b><br/>
+<br/>
+#autocompletechoose<br/>
+is.ui.autocompletechoose.find =<b> 찾기</b><br/>
+is.ui.autocompletechoose.selected =<b> SELECTED</b><br/>
+is.ui.autocompletechoose.prev =<b> 이전</b><br/>
+is.ui.autocompletechoose.next =<b> 다음</b><br/>
+is.ui.autocompletechoose.add =<b> 추가 선택</b><br/>
+is.ui.autocompletechoose.filter =<b> Filter</b><br/>
+is.ui.autocompletechoose.page =<b> page</b><br/>
+is.ui.autocompletechoose.teams =<b> TEAMS</b><br/>
+is.ui.autocompletechoose.teams.details =<b> TEAM 자세히 보기</b><br/>
+is.ui.autocompletechoose.users =<b> USERS</b><br/>
+<br/>
+#project menu<br/>
+is.projectmenu.title=<b>프로젝트</b><br/>
+is.projectmenu.submenu.project.create=<b>새 프로젝트 생성</b><br/>
+is.projectmenu.submenu.project.browse=<b>다른 프로젝트 더 보기</b><br/>
+is.projectmenu.submenu.project.import=<b>Import...</b><br/>
+is.projectmenu.submenu.project.export=<b>Export...</b><br/>
+is.projectmenu.submenu.project.edit=<b>프로젝트 수정</b><br/>
+is.projectmenu.submenu.project.editPractices=<b>프로젝트 관련 속성 수정</b><br/>
+is.projectmenu.submenu.project.delete=<b>이 프로젝트 삭제</b><br/>
+is.projectmenu.submenu.project.my.title=<b>내 프로젝트들</b><br/>
+<br/>
+is.projectmenu.submenu.team.create=<b>새 팀 생성</b><br/>
+is.projectmenu.submenu.team.edit=<b>수정</b><br/>
+is.projectmenu.submenu.team.delete=<b>이 팀 삭제</b><br/>
+is.projectmenu.submenu.team.join=<b>다른 팀 더 보기</b><br/>
+is.projectmenu.submenu.team.my.title=<b>내가 속해 있는 팀들 (My teams)</b><br/>
+<br/>
+#Browse projets<br/>
+is.dialog.browseProject.title=<b>Browse projects</b><br/>
+is.dialog.browseProject.button=<b>Open</b><br/>
+is.dialog.browseProject.projects=<b>PROJECTS</b><br/>
+is.dialog.browseProject.details=<b>PROJECT 자세히 보기</b><br/>
+<br/>
+#Dialog wizard<br/>
+is.dialog.wizard=<b>새 프로젝트</b><br/>
+is.dialog.wizard.section.project=<b>프로젝트를 정의해 주세요</b><br/>
+is.dialog.wizard.section.team=<b>팀을 고르세요</b><br/>
+is.dialog.wizard.section.options=<b>프로젝트 속성들(practices)을 정의하세요.</b><br/>
+is.dialog.wizard.section.starting=<b>프로젝트 시작</b><br/>
+is.dialog.wizard.section.project.description=<b>프로젝트를 설명하세요. (프로젝트 속성에서 나중에 수정할 수 있습니다.) 만약 개인적인(private) 프로젝트로 선택을 했다면 해당 제품의 멤버만 이 프로젝트를 볼 수 있을 것입니다. 이것은 또한 샌드박스에서 이 프로젝트에 속하지 않은 팀원들은 스토리를 제안할 수 없다는 걸 의미합니다.</b><br/>
+is.dialog.wizard.section.options.description=<b>Define your options (these can be modified later by editing your project properties)</b><br/>
+is.dialog.wizard.section.starting.description=<b>Indicate the first milestones (these can be modified later from the timeline and release plan view)</b><br/>
+is.dialog.wizard.section.team.description=<b>프로젝트는 하나 이상의 팀과 연결돼 있습니다. (각 팀은 나중에 수정 가능합니다.) 프로젝트 생성시 새 팀을 만들거나 기존 팀 중 하나를 선택할 수 있습니다. 팀을 선택하려면, 새 팀을 만들겠냐고 물을 때 ‘아니오’를 선택하고, 표시된 파인더에서 팀을 검색한 후, 마지막으로 고르시면 됩니다. (드래그&드롭, 더블클릭이나 마우스 선택 + '선택 추가(add selection') 새 팀을 만들 때, 멤버를 고르기 위해 같은 절차를 사용할 수 있습니다.</b><br/>
+is.dialog.wizard.next=<b>Next</b><br/>
+is.dialog.wizard.previous=<b>Previous</b><br/>
+is.dialog.wizard.submit=<b>프로젝트 만들기</b><br/>
+is.dialog.wizard.firstSprint=<b>첫 스프린트 시작일</b><br/>
+is.dialog.wizard.project.startDate=<b>프로젝트 시작일</b><br/>
+is.dialog.wizard.project.endDate=<b>출시일(Release end date)</b><br/>
+is.dialog.wizard.project.option=<b>OPTION</b><br/>
+is.dialog.wizard.project.value=<b>VALUE</b><br/>
+is.dialog.wizard.project.pkey=<b>프로젝트 ID(영어 대문자)</b><br/>
+<br/>
+#Dialog create team<br/>
+is.dialog.createTeam.general.title=<b>팀 속성(Team properties)</b><br/>
+is.dialog.createTeam.search.title=<b>팀원 검색</b><br/>
+is.dialog.createTeam.button=<b>만들기</b><br/>
+<br/>
+#Dialog join team<br/>
+is.dialog.team.general.title =<b>Join Team</b><br/>
+is.dialog.joinTeam.button=<b>Join</b><br/>
+<br/>
+#Dialog update team<br/>
+is.dialog.team.properties.title=<b>수정</b><br/>
+is.dialog.team.permissions.title=<b>Permissions</b><br/>
+is.dialog.team.others.delete.button =<b> Delete Team</b><br/>
+<br/>
+#Dialog login<br/>
+is.dialog.login=<b>Login</b><br/>
+is.dialog.login.rememberme=<b>Remember me</b><br/>
+is.dialog.login.lostPassword=<b>Lost password ?</b><br/>
+is.dialog.login.error =<b> Login error</b><br/>
+<br/>
+#Dialog retrieve<br/>
+is.dialog.retrieve=<b>암호 재설정</b><br/>
+is.dialog.retrieve.description=<b>Please enter your login to reset your password</b><br/>
+is.dialog.retrieve.input=<b>아이디(Username)</b><br/>
+is.dialog.retrieve.success=<b>Your account has been reset, please check your mailbox on {0}</b><br/>
+is.dialog.retrieve.button.reset=<b>Reset your account</b><br/>
+is.dialog.retrieve.not.activated=<b>Retrieve password feature is not activated, please contact your iceScrum admin</b><br/>
+<br/>
+#Dialog register<br/>
+is.dialog.register=<b>Registration</b><br/>
+is.dialog.register.description=<b>Please fill in all the fields. This will allow you to log on the application.</b><br/>
+is.dialog.register.confirmPassword=<b>Confirm password</b><br/>
+<br/>
+#Dialog Profile<br/>
+is.dialog.profile=<b>Your account</b><br/>
+is.dialog.profile.general.title=<b>Your connection details</b><br/>
+is.dialog.profile.confirmPassword=<b>Confirm password</b><br/>
+<br/>
+#Dialog project Open/edit properties<br/>
+is.dialog.project.title=<b>Project properties</b><br/>
+is.dialog.project.properties.title=<b>수정(Edit)</b><br/>
+is.dialog.project.properties.pkey=<b>Key (Capital letters)</b><br/>
+is.dialog.project.preferences.title=<b>Practices</b><br/>
+is.dialog.project.permissions.title=<b>Permissions</b><br/>
+is.dialog.project.preferences.project.title=<b>...for the project</b><br/>
+is.dialog.project.preferences.planification.title=<b>...for planning</b><br/>
+is.dialog.project.preferences.sprint.title=<b>...for sprint management</b><br/>
+is.dialog.project.preferences.sprintTasks.title=<b>...for urgent tasks management</b><br/>
+is.dialog.project.preferences.meetingHours.title=<b>...for meeting hours management</b><br/>
+is.dialog.project.others.title=<b>Other(s) action(s)</b><br/>
+is.dialog.project.others.delete.button=<b>Delete project</b><br/>
+<br/>
+#Confirm close sprint<br/>
+is.dialog.closeSprint.title=<b>Close sprint with unfinished stories</b><br/>
+is.dialog.closeSprint.done=<b>Done</b><br/>
+is.dialog.closeSprint.notDone=<b>Not done</b><br/>
+is.dialog.closeSprint.description=<b>You have unfinished stories in your Sprint backlog. Do you want to set these stories to Done ? \</b><br/>
+Unfinished stories will be shift to the next sprint. If there is no next sprint, they return to the product backlog.<br/>
+is.dialog.closeSprint.button=<b>닫기</b><br/>
+<br/>
+#Confirm activate sprint<br/>
+is.dialog.confirmActivateSprintAndRelease.title =<b> non-activate release</b><br/>
+is.dialog.confirmActivateSprintAndRelease.description =<b> This sprint release is not active, do you want to activate it now ? (the previous release, if still open, will be automatically closed)</b><br/>
+is.dialog.confirmActivateSprintAndRelease.button=<b>활성화(Activate)</b><br/>
+<br/>
+#Prompt Capacity on release<br/>
+is.dialog.promptCapacityAutoPlan.title=<b>Sprint capacity</b><br/>
+is.dialog.promptCapacityAutoPlan.description=<b>In order to plan the release, an estimated capacity for the team is required. This capacity will be used in each following sprint</b><br/>
+is.dialog.promptCapacityAutoPlan.capacity=<b>Capacity</b><br/>
+is.dialog.promptCapacityAutoPlan.button=<b>Planify</b><br/>
+#Confirm close sprint<br/>
+is.dialog.confirmDeleteSprint.title=<b>Confirm delete sprint</b><br/>
+is.dialog.confirmDeleteSprint.description=<b>When you delete a sprint, all of its stories are dissociated and returned to the product backlog. \</b><br/>
+Furthermore, all succeeding sprints will also be deleted, and their stories dissociated.<br/>
+is.dialog.confirmDeleteSprint.button=<b>삭제</b><br/>
+#Dialog error<br/>
+is.dialog.sendError.title=<b>Oops, something has gone wrong !</b><br/>
+is.dialog.sendError.description=<b>If you want to blame iceScrum dev team, send this error, they will find what happened and will fix it</b><br/>
+is.dialog.sendError.stackError=<b>Stack error</b><br/>
+is.dialog.sendError.comments=<b>Comments</b><br/>
+<br/>
+#Dialog export project<br/>
+is.dialog.exportProject.title=<b>Export current project</b><br/>
+is.dialog.exportProject.description=<b>iceScrum is exporting your project data (activities, attachements, avatars will be excluded)</b><br/>
+<br/>
+#Dialog import project<br/>
+is.dialog.importProject.title=<b>Import a project</b><br/>
+is.dialog.importProject.choose.title=<b>Import a project</b><br/>
+is.dialog.importProject.choose.description=<b>Choose an icescrum backup file. Backup files from previous iceScrum release (R2#15 and R2#15.1 only are accepted) can also be used.</b><br/>
+is.dialog.importProject.choose.file=<b>Project backup (*.xml)</b><br/>
+is.dialog.importProject.validate.title=<b>Validate project backup</b><br/>
+is.dialog.importProject.validate.description=<b>iceScrum is validating your project data</b><br/>
+is.dialog.importProject.confirm.title=<b>Confirm import project</b><br/>
+is.dialog.importProject.confirm.description=<b> - Please check your project data and confirm by click on import button.</b><br/>
+is.dialog.importProject.confirm.erasable.description=<b> - The imported project is already exist in iceScrum. As product owner you can erase the saved project or rename the imported project.</b><br/>
+is.dialog.importProject.confirm.changeValues.description=<b> - Some imported data already exist in iceScrum (such as project name, team name or username). In order to save the imported project you must change this values.</b><br/>
+is.dialog.importProject.confirm.changeValues.title=<b>Modifications required</b><br/>
+is.dialog.importProject.confirm.details.title=<b>Project details</b><br/>
+is.dialog.importProject.confirm.details.teams=<b>Team(s)</b><br/>
+is.dialog.importProject.confirm.details.members=<b>Members(s)</b><br/>
+is.dialog.importProject.confirm.details.stories=<b>Storie(s)</b><br/>
+is.dialog.importProject.confirm.details.features=<b>Feature(s)</b><br/>
+is.dialog.importProject.confirm.details.actors=<b>Actor(s)</b><br/>
+is.dialog.importProject.confirm.details.releases=<b>Release(s)</b><br/>
+is.dialog.importProject.confirm.details.startDate=<b>Project start date</b><br/>
+is.dialog.importProject.confirm.details.endDate=<b>Last release end date</b><br/>
+is.dialog.importProject.submit=<b>Import</b><br/>
+is.dialog.importProject.error=<b>Error, please upload backup project first</b><br/>
+is.dialog.importProject.success=<b>Project successfully imported, Refreshing the page...</b><br/>
+is.dialog.importProject.user.name=<b>Member username</b><br/>
+is.dialog.importProject.team.name=<b>Team name</b><br/>
+<br/>
+#Dialog drop import<br/>
+is.dialog.drop.import.button=<b>Import</b><br/>
+is.dialog.drop.import.select.ignore=<b>- Ignore -</b><br/>
+is.dialog.drop.import.sandbox.title=<b>Import stories in the sandbox</b><br/>
+is.dialog.drop.import.sandbox.information=<b>The application can try to import stories from the text you have dropped. \</b><br/>
+  A few set of data have been detected, please match them with the actual story's fields to perform the import.<br/>
+is.dialog.drop.import.sandbox.invalid.format=<b>The application was not able to detect a valid table format in the text \</b><br/>
+  you have submitted. Would you like to create a new story with your text filling the "{0}" field ?<br/>
+<br/>
+#Dialog report generation<br/>
+is.dialog.report.generation=<b>Report Generation</b><br/>
+is.dialog.report.description=<b>The application is generating a report</b><br/>
+<br/>
+#Dialog acceptAs<br/>
+is.dialog.acceptAs.title=<b>스토리를 채택합니다</b><br/>
+is.dialog.acceptAs.acceptAs.title=<b>다음으로 채택: </b><br/>
+is.dialog.acceptAs.button=<b>채택</b><br/>
+<br/>
+#Dialog about<br/>
+is.dialog.about.version=<b>Version</b><br/>
+is.dialog.about.version.link=<b>Website</b><br/>
+is.dialog.about.version.build.title=<b>Build infos</b><br/>
+is.dialog.about.version.buildDate=<b>Build date</b><br/>
+is.dialog.about.version.scr=<b>S.C.R.</b><br/>
+is.dialog.about.version.env=<b>Env.</b><br/>
+is.dialog.about.version.buildNumber=<b>Build</b><br/>
+is.dialog.about.version.buildID=<b>Build ID</b><br/>
+is.dialog.about.version.buildTag=<b>Build TAG</b><br/>
+is.dialog.about.version.appVersion=<b>Version</b><br/>
+is.dialog.about.version.grailsVersion=<b>Grails version</b><br/>
+is.dialog.about.version.javaVersion=<b>Java version</b><br/>
+is.dialog.about.version.libraries.title=<b>Libraries</b><br/>
+is.dialog.about.version.plugins.title=<b>Plugins</b><br/>
+is.dialog.about.version.plugin.name=<b>Plugin name</b><br/>
+is.dialog.about.version.plugin.version=<b>Plugin version</b><br/>
+is.dialog.about.version.library.name=<b>Library name</b><br/>
+is.dialog.about.version.library.version=<b>Library version</b><br/>
+is.dialog.about.license=<b>License</b><br/>
+<br/>
+#User UI<br/>
+is.ui.user.assigned =<b> assigned user(s)</b><br/>
+<br/>
+#Admin UI<br/>
+is.ui.admin=<b>Administration</b><br/>
+<br/>
+#General UI<br/>
+is.ui.toolbar.postit.view=<b>Post-it view</b><br/>
+is.ui.toolbar.table.view=<b>Table view</b><br/>
+is.ui.toolbar.print=<b>Publish as...</b><br/>
+is.ui.toolbar.alt.print=<b>Publish as...</b><br/>
+is.ui.toolbar.charts=<b>Charts</b><br/>
+<br/>
+#ReleasePlan UI<br/>
+is.ui.releasePlan=<b>릴리스 계획</b><br/>
+is.ui.releasePlan.from=<b>시작일</b><br/>
+is.ui.releasePlan.to=<b>종료일</b><br/>
+is.ui.releasePlan.menu.story.update=<b>수정(Update)</b><br/>
+is.ui.releasePlan.menu.story.dissociate=<b>Dissociate</b><br/>
+is.ui.releasePlan.menu.story.done=<b>완료된 것으로 선언</b><br/>
+is.ui.releasePlan.menu.story.undone=<b>완료되지 않은 것으로 변경</b><br/>
+is.ui.releasePlan.menu.story.commentable=<b>Comment</b><br/>
+is.ui.releasePlan.menu.story.details=<b>자세히 보기</b><br/>
+is.ui.releasePlan.menu.story.clone=<b>복사</b><br/>
+is.ui.releasePlan.menu.sprint.open=<b>스프린트 계획 보기</b><br/>
+is.ui.releasePlan.menu.sprint.activate=<b>활성화(Activate)</b><br/>
+is.ui.releasePlan.menu.sprint.close=<b>Close</b><br/>
+is.ui.releasePlan.menu.sprint.delete=<b>삭제</b><br/>
+is.ui.releasePlan.menu.sprint.update=<b>수정(Update)</b><br/>
+is.ui.releasePlan.menu.sprint.dissociateAll=<b>연관성 제거(Dissociate all)</b><br/>
+is.ui.releasePlan.menu.sprint.activate.confirm=<b>스프린트를 활성화(activate)할까요?</b><br/>
+is.ui.releasePlan.menu.sprint.close.confirm=<b>스프린트를 닫을(close)까요?</b><br/>
+is.ui.releasePlan.toolbar.new=<b>새 스프린트</b><br/>
+is.ui.releasePlan.toolbar.generateSprints=<b>Generate sprints</b><br/>
+is.ui.releasePlan.toolbar.autoPlan=<b>Auto planning</b><br/>
+is.ui.releasePlan.toolbar.dissociateAll=<b>Dissociate all</b><br/>
+is.ui.releasePlan.toolbar.vision=<b>Vision</b><br/>
+is.ui.releasePlan.toolbar.alt.new=<b>새 스프린트를 만듭니다</b><br/>
+is.ui.releasePlan.toolbar.alt.generateSprints=<b>Generate sprints</b><br/>
+is.ui.releasePlan.toolbar.alt.autoPlan=<b>Auto planning</b><br/>
+is.ui.releasePlan.toolbar.alt.dissociateAll=<b>Dissociate all</b><br/>
+is.ui.releasePlan.toolbar.alt.vision=<b>Vision</b><br/>
+is.ui.releasePlan.toolbar.alt.next=<b>Next release</b><br/>
+is.ui.releasePlan.toolbar.alt.previous=<b>Previous release</b><br/>
+is.ui.releasePlan.blankSprint.new=<b>Create a new sprint</b><br/>
+is.ui.releasePlan.blankSprint.generateSprints=<b>Generate sprints</b><br/>
+is.ui.releasePlan.blankSprint.description=<b>릴리스는 버전업과 관련됩니다. 조금 확장하면, 아이스 스크럼에서 릴리스는 이번 버전의 작업을 시작해서 성공적인 스프린트들을 전부 완료할 때까지의 기간입니다. 릴리스 계획에는 (스프린트 계획 좌측에 최소 보기로 나오는) 제품 백로그에서 드래그 앤 드롭으로 스프린트에 집어 넣은 스토리들 중에 예상시간이 적혀 있는 것들이 포함됩니다.</b><br/>
+is.ui.releasePlan.blank.new=<b>새 릴리스 생성</b><br/>
+is.ui.releasePlan.blank.description=<b>릴리스는 버전업과 관련됩니다. 조금 확장하면, 아이스 스크럼에서 릴리스는 이번 버전의 작업을 시작해서 성공적인 스프린트들을 전부 완료할 때까지의 기간입니다. 릴리스 계획에는 (스프린트 계획 좌측에 최소 보기로 나오는) 제품 백로그에서 드래그 앤 드롭으로 스프린트에 집어 넣은 스토리들 중에 예상시간이 적혀 있는 것들이 포함됩니다.</b><br/>
+is.ui.releaseplan.charts.burndown=<b>Release burndown chart</b><br/>
+is.ui.releaseplan.charts.parkingLot=<b>Release parking lot</b><br/>
+is.ui.releasePlan.choose.release=<b>Choose a release</b><br/>
+is.ui.releasePlan.sprint.properties.title=<b>Sprint properties</b><br/>
+is.ui.releasePlan.help=<b>릴리스는 버전업과 관련됩니다. 조금 확장하면, 아이스 스크럼에서 릴리스는 이번 버전의 작업을 시작해서 성공적인 스프린트들을 전부 완료할 때까지의 기간입니다. 릴리스 계획에는 (스프린트 계획 좌측에 최소 보기로 나오는) 제품 백로그에서 드래그 앤 드롭으로 스프린트에 집어 넣은 스토리들 중에 예상시간이 적혀 있는 것들이 포함됩니다.</b><br/>
+is.ui.releasePlan.vision.properties.title=<b>Define release vision</b><br/>
+is.ui.releasePlan.vision.button.save=<b>Save vision</b><br/>
+<br/>
+<br/>
+#Actor UI<br/>
+is.ui.actor=<b>Actors</b><br/>
+is.ui.actor.toolbar.new=<b>New</b><br/>
+is.ui.actor.toolbar.delete=<b>삭제</b><br/>
+is.ui.actor.toolbar.alt.new=<b>New</b><br/>
+is.ui.actor.toolbar.alt.delete=<b>삭제</b><br/>
+is.ui.actor.toolbar.import=<b>Import</b><br/>
+is.ui.actor.toolbar.alt.import=<b>Import</b><br/>
+is.ui.actor.help=<b>An actor represents a group of users. In iceScrum an actor can be associated with a story.</b><br/>
+is.ui.actor.toolbar.delete.confirmation=<b>선택한 것들을 지울까요?</b><br/>
+is.ui.actor.blank.new=<b>Create a new actor</b><br/>
+is.ui.actor.blank.description=<b>An actor represents a group of users. Its properties can be defined and it can be associated with stories.</b><br/>
+is.ui.actor.actor.properties.title=<b>Actor properties</b><br/>
+is.ui.actor.actor.attachment.title=<b>Actor attachments</b><br/>
+is.ui.actor.actor.notes.title=<b>Actor notes</b><br/>
+is.ui.actor.menu.update=<b>수정(Update)</b><br/>
+is.ui.actor.menu.delete=<b>삭제</b><br/>
+<br/>
+#sandbox UI<br/>
+is.ui.sandbox=<b>샌드박스</b><br/>
+is.ui.sandbox.drop.import=<b>Drop a selection of cells from your Spreadsheet application to import stories</b><br/>
+is.ui.sandbox.toolbar.new=<b>제안</b><br/>
+is.ui.sandbox.toolbar.accept=<b>승인</b><br/>
+is.ui.sandbox.toolbar.delete=<b>삭제</b><br/>
+is.ui.sandbox.toolbar.import=<b>임포트</b><br/>
+is.ui.sandbox.toolbar.clone=<b>복사</b><br/>
+is.ui.sandbox.toolbar.alt.new=<b>기능을 제안합니다. 각 제안은 스크럼 마스터가 승인합니다.</b><br/>
+is.ui.sandbox.toolbar.alt.accept=<b>제안을 승인해서 백로그, 기능, 할일 중 적절한 위치로 보냅니다.</b><br/>
+is.ui.sandbox.toolbar.alt.delete=<b>삭제</b><br/>
+is.ui.sandbox.toolbar.alt.import=<b>임포트</b><br/>
+is.ui.sandbox.toolbar.alt.clone=<b>복사해서 샌드박스 안에 비슷한 놈을 만듭니다. 복사된 놈은 _1 형식이 이름 뒤에 붙습니다.</b><br/>
+is.ui.sandbox.help=<b>누구나 샌드박스에 이야기(story)를 제안할 수 있습니다. 제안한 이야기는 프로젝트 오너의 결정에 따라 제품 백로그로 채택될 수도 있고 안 될 수도 있습니다.</b><br/>
+is.ui.sandbox.toolbar.delete.confirmation=<b>선택한 것들을 지울까요?</b><br/>
+is.ui.sandbox.blank.new=<b>새로운 이야기(story) 제안하기</b><br/>
+is.ui.sandbox.blank.description=<b>누구나 샌드박스에 이야기(story)를 제안할 수 있습니다. 제안한 이야기는 프로젝트 오너의 결정에 따라 제품 백로그로 채택될 수도 있고 안 될 수도 있습니다.</b><br/>
+is.ui.sandbox.choose.feature=<b>Choose a feature</b><br/>
+is.ui.sandbox.story.properties.title=<b>Story properties</b><br/>
+is.ui.sandbox.story.notes.title=<b>Story notes</b><br/>
+is.ui.sandbox.story.attachment.title=<b>Story attachments</b><br/>
+is.ui.sandbox.story.template=<b>Use story template</b><br/>
+is.ui.sandbox.menu.acceptAsStory=<b>제품 백로그(Story)로 채택</b><br/>
+is.ui.sandbox.menu.acceptAsFeature=<b>기능(feature)으로 채택</b><br/>
+is.ui.sandbox.menu.acceptAsUrgentTask=<b>긴급 태스크(urgent task)로 채택</b><br/>
+is.ui.sandbox.menu.update=<b>수정</b><br/>
+is.ui.sandbox.menu.details=<b>자세히 보기</b><br/>
+is.ui.sandbox.menu.commentable=<b>Comment</b><br/>
+is.ui.sandbox.menu.delete=<b>삭제</b><br/>
+is.ui.sandbox.menu.clone=<b>복사</b><br/>
+is.ui.sandbox.manage.chooseFeature=<b>관련 기능(feature) 선택</b><br/>
+is.ui.sandbox.menu.accept.error.no.selection=<b>채택할 스토리를 고르세요</b><br/>
+is.ui.sandbox.associateFeature.error=<b>기능과 연관을 짓다가 에러 발생</b><br/>
+<br/>
+#Feature UI<br/>
+is.ui.feature=<b>기능(Features)</b><br/>
+is.ui.feature.toolbar.new=<b>만들기</b><br/>
+is.ui.feature.toolbar.delete=<b>삭제</b><br/>
+is.ui.feature.toolbar.import=<b>Import</b><br/>
+is.ui.feature.toolbar.alt.new=<b>기능을 만듭니다</b><br/>
+is.ui.feature.toolbar.alt.delete=<b>기능을 삭제합니다</b><br/>
+is.ui.feature.toolbar.alt.import=<b>Import features</b><br/>
+is.ui.feature.toolbar.delete.confirmation=<b>선택한 것들을 지울까요?</b><br/>
+is.ui.feature.help=<b>기능은 사용자의 요구 사항을 만족하는 제품의 특성이나 서비스입니다. 기능은 보통 여러 이야기로 나뉘어 있습니다.</b><br/>
+is.ui.feature.feature.properties.title=<b>Feature properties</b><br/>
+is.ui.feature.feature.attachment.title=<b>Feature attachments</b><br/>
+is.ui.feature.feature.notes.title=<b>Feature notes</b><br/>
+is.ui.feature.menu.update=<b>수정(Update)</b><br/>
+is.ui.feature.menu.copy=<b>Copy to product backlog</b><br/>
+is.ui.feature.menu.delete=<b>삭제</b><br/>
+is.ui.feature.blank.new=<b>Create new feature</b><br/>
+is.ui.feature.blank.description=<b>기능은 사용자의 요구 사항을 만족하는 제품의 특성이나 서비스입니다. 기능은 보통 여러 이야기로 나뉘어 있습니다.</b><br/>
+is.ui.feature.charts.productParkingLot=<b>Parking lot chart</b><br/>
+<br/>
+#Sprint backlog UI<br/>
+is.ui.sprintBacklog=<b>스프린트 계획</b><br/>
+is.ui.sprintBacklog.kanban.recurrentTasks=<b>반복 태스크</b><br/>
+is.ui.sprintBacklog.kanban.recurrentTasks.add=<b>태스크 추가</b><br/>
+is.ui.sprintBacklog.kanban.copyRecurrentTasks=<b>Copy from previous sprint</b><br/>
+is.ui.sprintBacklog.kanban.urgentTasks=<b>긴급 태스크</b><br/>
+is.ui.sprintBacklog.kanban.urgentTasks.add=<b>태스크 추가</b><br/>
+is.ui.sprintBacklog.kanban.urgentTasks.limit=<b>진행중인 긴급 태스크를 {0}개까지만 설정할 수 있게 제한합니다.</b><br/>
+is.ui.sprintBacklog.toolbar.new=<b>만들기</b><br/>
+is.ui.sprintBacklog.toolbar.delete=<b>삭제</b><br/>
+is.ui.sprintBacklog.toolbar.activate=<b>스프린트 활성화(Activate)</b><br/>
+is.ui.sprintBacklog.toolbar.close=<b>스프린트 닫기(Close)</b><br/>
+is.ui.sprintBacklog.toolbar.activate.confirm=<b>스프린트를 활성화(activate)할까요?</b><br/>
+is.ui.sprintBacklog.toolbar.close.confirm=<b>스프린트를 닫을(close)까요?</b><br/>
+is.ui.sprintBacklog.toolbar.retrospective=<b>Retrospective</b><br/>
+is.ui.sprintBacklog.toolbar.doneDefinition=<b>Definition of done</b><br/>
+is.ui.sprintBacklog.toolbar.filter.allTasks=<b>전체 태스크 보기</b><br/>
+is.ui.sprintBacklog.toolbar.filter.myTasks=<b>내 태스크 보기</b><br/>
+is.ui.sprintBacklog.toolbar.filter.freeTasks=<b>담당자가 정해지지 않은 태스크 보기</b><br/>
+is.ui.sprintBacklog.toolbar.hideDoneState=<b>완료된 태스크 감추기</b><br/>
+is.ui.sprintBacklog.toolbar.showDoneState=<b>완료된 태스크 보이기</b><br/>
+is.ui.sprintBacklog.toolbar.alt.new=<b>새 태스크 추가</b><br/>
+is.ui.sprintBacklog.toolbar.alt.next=<b>다음 스프린트</b><br/>
+is.ui.sprintBacklog.toolbar.alt.previous=<b>이전 스프린트</b><br/>
+is.ui.sprintBacklog.toolbar.alt.delete=<b>선택된 거 삭제</b><br/>
+is.ui.sprintBacklog.toolbar.alt.activate=<b>스프린트 활성화(Activate)</b><br/>
+is.ui.sprintBacklog.toolbar.alt.close=<b>스프린트 닫기(Close)</b><br/>
+is.ui.sprintBacklog.toolbar.alt.retrospective=<b>Retrospective report</b><br/>
+is.ui.sprintBacklog.toolbar.alt.doneDefinition=<b>Definition of done</b><br/>
+is.ui.sprintBacklog.toolbar.alt.hideDoneState=<b>Hide stories and tasks done</b><br/>
+is.ui.sprintBacklog.toolbar.alt.showDoneState=<b>Show stories and tasks done</b><br/>
+is.ui.sprintBacklog.charts.sprintBurndownHoursChart=<b>Sprint burndown (hours)</b><br/>
+is.ui.sprintBacklog.charts.sprintBurnupStoriesChart=<b>Sprint burnup (Stories)</b><br/>
+is.ui.sprintBacklog.charts.sprintBurnupTasksChart=<b>Sprint burnup (Tasks)</b><br/>
+is.ui.sprintBacklog.task.properties.title=<b>Task properties</b><br/>
+is.ui.sprintBacklog.task.attachment.title=<b>Task attachments</b><br/>
+is.ui.sprintBacklog.task.notes.title=<b>Task notes</b><br/>
+is.ui.sprintBacklog.menu.postit.new=<b>태스크 추가</b><br/>
+is.ui.sprintBacklog.menu.postit.commentable=<b>Comment</b><br/>
+is.ui.sprintBacklog.menu.postit.update=<b>수정</b><br/>
+is.ui.sprintBacklog.menu.postit.dissociate=<b>Dissociate</b><br/>
+is.ui.sprintBacklog.menu.postit.shiftToNext=<b>Shift to next sprint</b><br/>
+is.ui.sprintBacklog.menu.postit.declareAsDone=<b>Declare as done</b><br/>
+is.ui.sprintBacklog.menu.postit.declareAsUnDone=<b>Declare as undone</b><br/>
+is.ui.sprintBacklog.menu.postit.details=<b>자세히 보기</b><br/>
+is.ui.sprintBacklog.menu.postit.clone=<b>복사</b><br/>
+is.ui.sprintBacklog.menu.task.take=<b>내가 한다!(take)</b><br/>
+is.ui.sprintBacklog.menu.task.unassign=<b>담당자 없애기(Unassign)</b><br/>
+is.ui.sprintBacklog.menu.task.update=<b>수정</b><br/>
+is.ui.sprintBacklog.menu.task.delete=<b>삭제</b><br/>
+is.ui.sprintBacklog.menu.task.unblock=<b>Unblock</b><br/>
+is.ui.sprintBacklog.menu.task.block=<b>Block</b><br/>
+is.ui.sprintBacklog.menu.task.copy=<b>복사</b><br/>
+is.ui.sprintBacklog.help =<b>스프린트는 기본적으로 바로 사용 가능한 제품을 생산하는 한 주기(iteration)다. 스프린트는 제품(product)의 기능이 구현되고, 팀이 승인한 백로그 아이템이 개발되는 기간이다. 스프린트 백로그의 태스크 목록은 이 아이템을 구축하는 방법을 정의한다.</b><br/>
+is.ui.sprintBacklog.blank.sprint.new=<b>새 스프린트 생성</b><br/>
+is.ui.sprintBacklog.blank.release.new=<b>새 릴리즈 생성</b><br/>
+is.ui.sprintBacklog.blank.description=<b>스프린트는 팀이 제품 백로그에 채택된 이야기들을 선택해 개발하는 기간입니다. 스프린트의 각 스토리는 해당 스토리를 생산하는 데 필요한 태스크를 갖고 있습니다. (없으면 추가하면 됩니다.)</b><br/>
+is.ui.sprintBacklog.choose.sprint =<b> 스프린트 선택</b><br/>
+is.ui.sprintBacklog.doneDefinition.properties.title=<b>Define the team's definition of done</b><br/>
+is.ui.sprintBacklog.retrospective.properties.title=<b>Write sprint retrospective report</b><br/>
+is.ui.sprintBacklog.retrospective.button.save=<b>Save retrospective</b><br/>
+is.ui.sprintBacklog.doneDefinition.button.save=<b>Save definition of done</b><br/>
+is.ui.sprintBacklog.button.copyFromPreviousDoneDefinition=<b>Copy from previous sprint</b><br/>
+is.ui.sprintBacklog.button.copyFromPreviousRetrospective=<b>Copy from previous sprint</b><br/>
+is.ui.sprintBacklog.no.drop=<b>태스크를 시작하려면 스프린트를 활성화(activate)해야 합니다.</b><br/>
+<br/>
+# Timeline UI<br/>
+is.ui.timeline=<b>Timeline</b><br/>
+is.ui.timeline.toolbar.new=<b>New release</b><br/>
+is.ui.timeline.toolbar.delete=<b>삭제</b><br/>
+is.ui.timeline.toolbar.alt.new=<b>Add a new release</b><br/>
+is.ui.timeline.toolbar.alt.delete=<b>Delete release</b><br/>
+is.ui.timeline.toolbar.alt.next=<b>Next</b><br/>
+is.ui.timeline.toolbar.alt.previous=<b>Previous</b><br/>
+is.ui.timeline.charts.productVelocityCapacity=<b>Velocity vs Capacity chart</b><br/>
+is.ui.timeline.charts.productVelocity=<b>Velocity chart</b><br/>
+is.ui.timeline.charts.productParkingLot=<b>Parking lot chart</b><br/>
+is.ui.timeline.charts.productBurndown=<b>Burndown chart</b><br/>
+is.ui.timeline.charts.productBurnup=<b>Burnup chart</b><br/>
+is.ui.timeline.charts.productCumulativeFlow=<b>Cumulative flow chart</b><br/>
+is.ui.timeline.menu.open=<b>Open</b><br/>
+is.ui.timeline.menu.close=<b>Close</b><br/>
+is.ui.timeline.menu.activate=<b>Activate</b><br/>
+is.ui.timeline.menu.update=<b>수정(Update)</b><br/>
+is.ui.timeline.menu.delete=<b>삭제</b><br/>
+is.ui.timeline.menu.activate.confirm=<b>Do you really want to activate the release ?</b><br/>
+is.ui.timeline.menu.close.confirm=<b>Do you really want to close the release ?</b><br/>
+is.ui.timeline.release.properties.title=<b>Release properties</b><br/>
+is.ui.timeline.release.details.title=<b>Release details</b><br/>
+is.ui.timeline.choose.release=<b>Choose a release/sprint</b><br/>
+is.ui.timeline.help =<b>타임라인은 프로젝트의 라이프사이클을 릴리스와 스프린트로 보여 줍니다. 생성된 스프린트는 릴리스 안에 표시됩니다. 스프린트와 릴리스는 선택한 개체를 클릭해서 볼 수 있습니다. 기본적으로, 릴리스를 생성해서 시작하고, (+) 스프린트를 생성하기 위해 릴리스 플랜으로 갑니다.</b><br/>
+is.ui.timeline.blank.new=<b>새 릴리스 생성</b><br/>
+is.ui.timeline.blank.description=<b>임라인은 프로젝트의 라이프사이클을 릴리스와 스프린트로 보여 줍니다. 끝난 것은 초록색, 진행중인 것은 파란색, 앞으로 할 것은 회색입니다.</b><br/>
+<br/>
+#Product Backlog UI<br/>
+is.ui.productBacklog=<b>제품 백로그</b><br/>
+is.ui.productBacklog.toolbar.delete=<b>삭제</b><br/>
+is.ui.productBacklog.toolbar.import=<b>Import</b><br/>
+is.ui.productBacklog.toolbar.clone=<b>복사</b><br/>
+is.ui.productBacklog.toolbar.alt.delete=<b>삭제</b><br/>
+is.ui.productBacklog.toolbar.alt.import=<b>Import</b><br/>
+is.ui.productBacklog.toolbar.alt.clone=<b>선택한 것들을 샌드박스로 복사</b><br/>
+is.ui.productBacklog.toolbar.delete.confirmation=<b>선택한 것들을 지울까요?</b><br/>
+is.ui.productBacklog.help=<b>제품 백로그에는 제품 오너가 채택한 스토리가 들어오게 됩니다. 팀이 이 스토리에 걸릴 시간을 추정(estimate)합니다.<br/>일단 걸릴 시간을 추정하고 나면, 해당 스토리는 릴리스 계획 보기에서 계획을 짜는 데 사용할 수 있게 됩니다.</b><br/>
+is.ui.productBacklog.choose.feature=<b>연관 기능 선택</b><br/>
+is.ui.productBacklog.story.properties.title=<b>스토리 속성</b><br/>
+is.ui.productBacklog.story.attachment.title=<b>태스크 관련 첨부파일</b><br/>
+is.ui.productBacklog.story.notes.title=<b>스토리 관련 메모</b><br/>
+is.ui.productBacklog.story.template=<b>스토리 템플릿 사용</b><br/>
+is.ui.productBacklog.menu.update=<b>수정</b><br/>
+is.ui.productBacklog.menu.estimate=<b>Estimate</b><br/>
+is.ui.productBacklog.menu.details=<b>자세히 보기</b><br/>
+is.ui.productBacklog.menu.commentable=<b>Comment</b><br/>
+is.ui.productBacklog.menu.delete=<b>삭제</b><br/>
+is.ui.productBacklog.menu.clone=<b>복사</b><br/>
+is.ui.productBacklog.associateFeature.error=<b>Error in Association with feature</b><br/>
+is.ui.productBacklog.blank.new=<b>새 스토리 제안</b><br/>
+is.ui.productBacklog.blank.description=<b>누군가 제안한 새로운 스토리는 일단 샌드박스로 들어갑니다. 그걸 제품 오너가 스토리로 채택하면 제품 백로그로 들어옵니다.</b><br/>
+<br/>
+<br/>
+#Project UI / Dashboard<br/>
+is.ui.project=<b>대시보드</b><br/>
+is.ui.project.activity.title=<b>활동</b><br/>
+is.ui.project.update.title=<b>Updates</b><br/>
+is.ui.project.update.no=<b>No update data</b><br/>
+is.ui.project.exception.title=<b>Exceptions</b><br/>
+is.ui.project.exception.no=<b>No exception data</b><br/>
+is.ui.project.charts.productVelocityCapacity=<b>Velocity vs Capcity chart</b><br/>
+is.ui.project.charts.productVelocity=<b>Velocity chart</b><br/>
+is.ui.project.charts.productParkingLot=<b>Parking lot chart</b><br/>
+is.ui.project.charts.productBurndown=<b>Burndown chart</b><br/>
+is.ui.project.charts.productBurnup=<b>Burnup chart</b><br/>
+is.ui.project.charts.productCumulativeFlow=<b>Cumulative flow chart</b><br/>
+is.ui.project.doneDefinition.title=<b>Current definition of done</b><br/>
+is.ui.project.retrospective.title=<b>Current retrospective</b><br/>
+is.ui.project.description.title=<b>Project description</b><br/>
+is.ui.project.chart.title=<b>Project indicator</b><br/>
+is.ui.project.chart.option.stories=<b>Stories</b><br/>
+is.ui.project.chart.option.tasks=<b>Tasks</b><br/>
+is.ui.project.chart.option.project=<b>프로젝트</b><br/>
+is.ui.project.vision.title=<b>Release vision</b><br/>
+is.ui.project.help=<b>The dahboard shows last activities on the projet and significant data</b><br/>
+is.ui.project.link.more=<b>Read more</b><br/>
+is.ui.project.toolbar.print.allStories=<b>Publish stories as...</b><br/>
+<br/>
+#Members UI<br/>
+is.ui.members=<b>Members</b><br/>
+is.ui.members.toolbar.register.team =<b> Add new team...</b><br/>
+is.ui.members.toolbar.join.team =<b> Join team(s)</b><br/>
+is.ui.members.toolbar.new =<b> Add new member...</b><br/>
+is.ui.members.toolbar.leave.product =<b> Remove team(s)</b><br/>
+is.ui.members.toolbar.role =<b> Role</b><br/>
+is.ui.members.toolbar.unset.po =<b> Unassign Product Owner(s)</b><br/>
+is.ui.members.toolbar.set.po =<b> Assign Product Owner(s)</b><br/>
+is.ui.members.toolbar.set.sm =<b> Assign Scrum Master(s)</b><br/>
+is.ui.members.toolbar.set.owner =<b> Change Owner</b><br/>
+is.ui.members.toolbar.unset.sm =<b> Unassign Scrum Master(s)</b><br/>
+is.ui.members.toolbar.be.po =<b> Become Product Owner</b><br/>
+is.ui.members.toolbar.dontbe.po =<b> Cancel Product Owner</b><br/>
+is.ui.members.toolbar.be.sm =<b> Become Scrum Master</b><br/>
+is.ui.members.toolbar.dontbe.sm =<b> Cancel Scrum Master</b><br/>
+is.ui.members.toolbar.leave.team =<b> Leave team</b><br/>
+is.ui.members.toolbar.alt.delete.member =<b> Remove Member(s)</b><br/>
+is.ui.members.toolbar.delete.member =<b> Remove Member(s)</b><br/>
+<br/>
+#Team UI<br/>
+is.ui.team.assigned =<b> team(s) assigned</b><br/>
+<br/>
+#BacklogElement UI<br/>
+is.ui.backlogelement=<b>Backlog Element details</b><br/>
+is.ui.backlogelement.activity=<b>Activity</b><br/>
+is.ui.backlogelement.dates=<b>Dates</b><br/>
+is.ui.backlogelement.information=<b>Information</b><br/>
+is.ui.backlogelement.people=<b>People</b><br/>
+is.ui.backlogelement.progress=<b>Progress</b><br/>
+is.ui.backlogelement.attachment=<b>Attachment{0}</b><br/>
+is.ui.backlogelement.activity.summary=<b>Summary</b><br/>
+is.ui.backlogelement.activity.comments=<b>Comments</b><br/>
+is.ui.backlogelement.activity.history=<b>History</b><br/>
+is.ui.backlogelement.activity.stories=<b>Submitted Stories</b><br/>
+is.ui.backlogelement.activity.task=<b>Task(s)</b><br/>
+is.ui.backlogelement.activity.all.no=<b>There is no data for this element.</b><br/>
+is.ui.backlogelement.activity.comments.no=<b>There is no comment on this element.</b><br/>
+is.ui.backlogelement.activity.task.no=<b>There is no task associated with this element.</b><br/>
+is.ui.backlogelement.activity.history.no=<b>There is no history for this element.</b><br/>
+is.ui.backlogelement.progress.tasks=<b>Tasks progression</b><br/>
+is.ui.backlogelement.toolbar.accept=<b>Accept</b><br/>
+is.ui.backlogelement.toolbar.acceptAsStory=<b>Accept as story</b><br/>
+is.ui.backlogelement.toolbar.acceptAsFeature=<b>Accept as feature</b><br/>
+is.ui.backlogelement.toolbar.acceptAsUrgentTask=<b>Accept as urgent task</b><br/>
+is.ui.backlogelement.toolbar.delete=<b>삭제</b><br/>
+is.ui.backlogelement.toolbar.update=<b>수정(Update)</b><br/>
+is.ui.backlogelement.toolbar.annotate=<b>Annotate</b><br/>
+is.ui.backlogelement.toolbar.comment=<b>Comment</b><br/>
+is.ui.backlogelement.toolbar.previous=<b>Previous</b><br/>
+is.ui.backlogelement.toolbar.next=<b>Next</b><br/>
+is.ui.backlogelement.toolbar.delete.confirmation=<b>Are you sure you want to delete this story?</b><br/>
+is.ui.backlogelement.comment.login=<b>Please log-in to post a new comment.</b><br/>
+is.ui.backlogelement.comment.add=<b>Add a new comment</b><br/>
+is.ui.backlogelement.comment.error=<b>An error has occured when posting the comment.</b><br/>
+is.ui.backlogelement.comment.error.not.exists=<b>That comment no longer exists in the database.</b><br/>
+is.ui.backlogelement.comment.post.button=<b>Post comment</b><br/>
+is.ui.backlogelement.comment.edit.button=<b>Edit comment</b><br/>
+is.ui.backlogelement.comment.edit=<b>수정(Edit)</b><br/>
+is.ui.backlogelement.comment.delete=<b>삭제</b><br/>
+is.ui.backlogelement.comment.last.update=<b>Last edit on</b><br/>
+is.ui.backlogelement.comment.wikisyntax.info=<b>You can style your comment using the Textile syntax.</b><br/>
+<br/>
+#Followable<br/>
+is.followable=<b>Follow the story</b><br/>
+is.followable.status=<b>Status</b><br/>
+is.followable.start=<b>Start following</b><br/>
+is.followable.stop=<b>Stop following</b><br/>
+is.followable.followers=<b>follower{0}</b><br/>
+is.followable.unfollow.error=<b>Error, stop following failed</b><br/>
+is.followable.follow.error=<b>Error, start following failed</b><br/>
+<br/>
+# Fluxiable activities<br/>
+is.fluxiable.comment=<b>has posted a comment on</b><br/>
+is.fluxiable.delete=<b>has deleted</b><br/>
+is.fluxiable.save=<b>has created</b><br/>
+is.fluxiable.acceptAs=<b>has accepted as</b><br/>
+is.fluxiable.update=<b>has updated</b><br/>
+is.fluxiable.done=<b>has declared as done</b><br/>
+is.fluxiable.undone=<b>has declared as undone</b><br/>
+is.fluxiable.taskAssociateUrgent=<b>has associated to urgent tasks the</b><br/>
+is.fluxiable.taskAssociateRecurrent=<b>has associated to recurrent tasks the</b><br/>
+is.fluxiable.taskSave=<b>has created</b><br/>
+is.fluxiable.taskUpdate=<b>has updated</b><br/>
+is.fluxiable.taskWait=<b>has stopped working on</b><br/>
+is.fluxiable.taskInprogress=<b>has started working on</b><br/>
+is.fluxiable.taskFinish=<b>has finished</b><br/>
+is.fluxiable.taskDelete=<b>has deleted</b><br/>
+is.fluxiable.no=<b>No activity data</b><br/>
+<br/>
+#Feature widget<br/>
+is.widget.feature.empty=<b>Empty feature list</b><br/>
+<br/>
+#Actor widget<br/>
+is.widget.actor.empty=<b>Empty actor list</b><br/>
+<br/>
+#Product backlog widget<br/>
+is.widget.productBacklog.empty=<b>Empty story list</b><br/>
+<br/>
+<br/>
+#Postit<br/>
+is.postit.attachment=<b>{0} attachment{1}</b><br/>
+is.postit.comment.count=<b>{0} comment{1}</b><br/>
+is.postit.color.yellow=<b>Yellow</b><br/>
+is.postit.color.blue=<b>Blue</b><br/>
+is.postit.color.green=<b>Green</b><br/>
+is.postit.color.red=<b>Red</b><br/>
+is.postit.color.orange=<b>Orange</b><br/>
+is.postit.color.violet=<b>Violet</b><br/>
+is.postit.color.gray=<b>Grey</b><br/>
+is.postit.color.pink=<b>Pink</b><br/>
+is.postit.color.bluelight=<b>Light Blue</b><br/>
+<br/>
+#Dialog<br/>
+is.dialog.close=<b>Close</b><br/>
+<br/>
+#Estimations suites<br/>
+is.estimationSuite.fibonacci=<b>시간 추정에 피보나치 수열을 사용</b><br/>
+is.estimationSuite.integer=<b>시간 추정에 정수를 사용</b><br/>
+<br/>
+is.chart.error.no.values=<b>No data available to generate this chart, please retry at the end of first sprint</b><br/>
+<br/>
+#Parking lot chart<br/>
+is.chart.productParkinglot.title=<b>Project Parking lot chart</b><br/>
+is.chart.productParkinglot.serie.name=<b>% Features achievement</b><br/>
+is.chart.productParkinglot.yaxis.label=<b>Features</b><br/>
+is.chart.productParkinglot.xaxis.label=<b>% achievement</b><br/>
+<br/>
+<br/>
+#Release Parking lot chart<br/>
+is.chart.releaseParkingLot.title=<b>Release Parking lot chart</b><br/>
+is.chart.releaseParkingLot.serie.name=<b>% Features achievement</b><br/>
+is.chart.releaseParkingLot.yaxis.label=<b>Features</b><br/>
+is.chart.releaseParkingLot.xaxis.label=<b>% achievement</b><br/>
+<br/>
+#Product burndown chart<br/>
+is.chart.productBurnDown.title=<b>Project burndown chart (in points)</b><br/>
+is.chart.productBurnDown.series.userstories.name=<b>User stories</b><br/>
+is.chart.productBurnDown.series.technicalstories.name=<b>Technical stories</b><br/>
+is.chart.productBurnDown.series.defectstories.name=<b>Defect</b><br/>
+is.chart.productBurnDown.yaxis.label=<b>Points</b><br/>
+is.chart.productBurnDown.xaxis.label=<b>Sprints</b><br/>
+<br/>
+#Release burndown chart<br/>
+is.chart.releaseBurnDown.title=<b>Release burndown chart (in points)</b><br/>
+is.chart.releaseBurnDown.series.userstories.name=<b>User stories</b><br/>
+is.chart.releaseBurnDown.series.technicalstories.name=<b>Technical stories</b><br/>
+is.chart.releaseBurnDown.series.defectstories.name=<b>Defect stories</b><br/>
+is.chart.releaseBurnDown.yaxis.label=<b>Points</b><br/>
+is.chart.releaseBurnDown.xaxis.label=<b>Sprints</b><br/>
+<br/>
+#CumulativeFlow chart<br/>
+is.chart.productCumulativeflow.title=<b>Cumulative flow chart</b><br/>
+is.chart.productCumulativeflow.serie.suggested.name=<b>Suggested</b><br/>
+is.chart.productCumulativeflow.serie.accepted.name=<b>Accepted</b><br/>
+is.chart.productCumulativeflow.serie.estimated.name=<b>Estimated</b><br/>
+is.chart.productCumulativeflow.serie.planned.name=<b>Planned</b><br/>
+is.chart.productCumulativeflow.serie.inprogress.name=<b>In progress</b><br/>
+is.chart.productCumulativeflow.serie.done.name=<b>Done</b><br/>
+is.chart.productCumulativeflow.yaxis.label=<b>Nb stories</b><br/>
+is.chart.productCumulativeflow.xaxis.label=<b>Sprints</b><br/>
+<br/>
+#Product burnup Chart<br/>
+is.chart.productBurnUp.title=<b>Project burnup chart (in points)</b><br/>
+is.chart.productBurnUp.serie.all.name=<b>All</b><br/>
+is.chart.productBurnUp.serie.done.name=<b>Done</b><br/>
+is.chart.productBurnUp.yaxis.label=<b>Points</b><br/>
+is.chart.productBurnUp.xaxis.label=<b>Sprints</b><br/>
+<br/>
+#Product velocity chart<br/>
+is.chart.productVelocity.title=<b>Project velocity chart</b><br/>
+is.chart.productVelocity.series.userstories.name=<b>User stories</b><br/>
+is.chart.productVelocity.series.technicalstories.name=<b>Technical stories</b><br/>
+is.chart.productVelocity.series.defectstories.name=<b>Defect stories</b><br/>
+is.chart.productVelocity.yaxis.label=<b>Points</b><br/>
+is.chart.productVelocity.xaxis.label=<b>Sprints</b><br/>
+<br/>
+#Product velocity chart<br/>
+is.chart.productVelocityCapacity.title=<b>Project velocity vs capacity chart</b><br/>
+is.chart.productVelocityCapacity.serie.velocity.name=<b>Velocity</b><br/>
+is.chart.productVelocityCapacity.serie.capacity.name=<b>Capacity</b><br/>
+is.chart.productVelocityCapacity.yaxis.label=<b>Points</b><br/>
+is.chart.productVelocityCapacity.xaxis.label=<b>Sprints</b><br/>
+<br/>
+#Sprint burndown chart<br/>
+is.chart.sprintBurndownHoursChart.title=<b>Sprint burndown chart (in hours)</b><br/>
+is.chart.sprintBurndownHoursChart.serie.task.name=<b>Remaining hours</b><br/>
+is.chart.sprintBurndownHoursChart.serie.task.ideal=<b>Median line</b><br/>
+is.chart.sprintBurndownHoursChart.yaxis.label=<b>Hours</b><br/>
+is.chart.sprintBurndownHoursChart.xaxis.label=<b>Days</b><br/>
+<br/>
+#Sprint burnup tasks chart<br/>
+is.chart.sprintBurnupTasksChart.title=<b>Sprint burnup chart (tasks)</b><br/>
+is.chart.sprintBurnupTasksChart.serie.tasksDone.name=<b>Tasks done</b><br/>
+is.chart.sprintBurnupTasksChart.serie.tasks.name=<b>Tasks</b><br/>
+is.chart.sprintBurnupTasksChart.yaxis.label=<b>Tasks</b><br/>
+is.chart.sprintBurnupTasksChart.xaxis.label=<b>Days</b><br/>
+<br/>
+#Sprint burnup stories chart<br/>
+is.chart.sprintBurnupStoriesChart.title=<b>Sprint burnup chart (stories)</b><br/>
+is.chart.sprintBurnupStoriesChart.serie.storiesDone.name=<b>Stories done</b><br/>
+is.chart.sprintBurnupStoriesChart.serie.stories.name=<b>Stories</b><br/>
+is.chart.sprintBurnupStoriesChart.yaxis.label=<b>Stories</b><br/>
+is.chart.sprintBurnupStoriesChart.xaxis.label=<b>Days</b><br/>
+<br/>
+#Report labels<br/>
+is.report.processing=<b>Please wait...</b><br/>
+is.report.complete=<b>Generation complete</b><br/>
+is.report.error=<b>An error has occured during the report generation</b><br/>
+<br/>
+#Report formats<br/>
+is.report.format.pdf=<b>Portable Document Format</b><br/>
+is.report.format.rtf=<b>Rich Text Format</b><br/>
+is.report.format.odt=<b>OpenDocument Text</b><br/>
+is.report.format.ods=<b>OpenDocument Spreadsheet</b><br/>
+is.report.format.docx=<b>Word 2007 Document</b><br/>
+is.report.format.xls=<b>Excel Spreadsheet</b><br/>
+is.report.format.xlsx=<b>Excel 2007 Spreadsheet</b><br/>
+is.report.format.pptx=<b>Powerpoint 2007 presentation</b><br/>
+<br/>
+#Report error message<br/>
+is.report.error.no.data=<b>There are no data to use for the report generation</b><br/>
+<br/>
+#import error message<br/>
+is.import.error=<b>Error, your backup is malformed</b><br/>
+is.import.error.no.backup=<b>No backup found, please upload first</b><br/>
+<br/>
+is.ui.details.product.name=<b>Project:</b><br/>
+is.ui.details.role.name=<b>Role:</b><br/>
+is.ui.details.team.name=<b>Team:</b><br/>
+<br/>
+<br/>
+#Defaults<br/>
+default.doesnt.match.message=<b>Property {0} with value [{2}] does not match the required pattern [{3}]</b><br/>
+default.invalid.url.message=<b>Property {0} with value [{2}] is not a valid URL</b><br/>
+default.invalid.creditCard.message=<b>Property {0} with value [{2}] is not a valid credit card number</b><br/>
+default.invalid.email.message=<b>Property {0} with value [{2}] is not a valid e-mail address</b><br/>
+default.invalid.range.message=<b>Property {0} with value [{2}] does not fall within the valid range from [{3}] to [{4}]</b><br/>
+default.invalid.size.message=<b>Property {0} with value [{2}] does not fall within the valid size range from [{3}] to [{4}]</b><br/>
+default.invalid.max.message=<b>Property {0} with value [{2}] exceeds maximum value [{3}]</b><br/>
+default.invalid.min.message=<b>Property {0} with value [{2}] is less than minimum value [{3}]</b><br/>
+default.invalid.max.size.message=<b>Property {0} with value [{2}] exceeds the maximum size of [{3}]</b><br/>
+default.invalid.min.size.message=<b>Property {0} with value [{2}] is less than the minimum size of [{3}]</b><br/>
+default.invalid.validator.message=<b>Property {0} with value [{2}] does not pass custom validation</b><br/>
+default.not.inlist.message=<b>Property {0} with value [{2}] is not contained within the list [{3}]</b><br/>
+default.blank.message=<b>Property {0} cannot be blank</b><br/>
+default.not.equal.message=<b>Property {0} with value [{2}] cannot equal [{3}]</b><br/>
+default.null.message=<b>Property {0} cannot be null</b><br/>
+default.not.unique.message=<b>Property {0} with value [{2}] must be unique</b><br/>
+<br/>
+default.paginate.prev=<b>Previous</b><br/>
+default.paginate.next=<b>Next</b><br/>
+default.boolean.true=<b>True</b><br/>
+default.boolean.false=<b>False</b><br/>
+default.date.format=<b>yyyy-MM-dd HH:mm:ss z</b><br/>
+default.number.format=<b>0</b><br/>
+<br/>
+default.created.message=<b>{0} {1} created</b><br/>
+default.updated.message=<b>{0} {1} updated</b><br/>
+default.deleted.message=<b>{0} {1} deleted</b><br/>
+default.not.deleted.message=<b>{0} {1} could not be deleted</b><br/>
+default.not.found.message=<b>{0} not found with id {1}</b><br/>
+default.optimistic.locking.failure=<b>당신이 이걸({0})편집하는 동안 다른 사용자가 이미 수정을 했습니다. 그래서 실패 OTL;;</b><br/>
+<br/>
+default.home.label=<b>홈</b><br/>
+default.list.label=<b>{0} List</b><br/>
+default.add.label=<b>Add {0}</b><br/>
+default.new.label=<b>New {0}</b><br/>
+default.create.label=<b>Create {0}</b><br/>
+default.show.label=<b>Show {0}</b><br/>
+default.edit.label=<b>Edit {0}</b><br/>
+<br/>
+default.button.create.label=<b>생성</b><br/>
+default.button.edit.label=<b>수정(Edit)</b><br/>
+default.button.update.label=<b>수정(Update)</b><br/>
+default.button.delete.label=<b>삭제</b><br/>
+default.button.delete.confirm.message=<b>Are you sure?</b><br/>
+<br/>
+# Data binding errors. Use "typeMismatch.$className.$propertyName to customize (eg typeMismatch.Book.author)<br/>
+typeMismatch.java.net.URL=<b>Property {0} must be a valid URL</b><br/>
+typeMismatch.java.net.URI=<b>Property {0} must be a valid URI</b><br/>
+typeMismatch.java.util.Date=<b>Property {0} must be a valid Date</b><br/>
+typeMismatch.java.lang.Double=<b>Property {0} must be a valid number</b><br/>
+typeMismatch.java.lang.Integer=<b>Property {0} must be a valid number</b><br/>
+typeMismatch.java.lang.Long=<b>Property {0} must be a valid number</b><br/>
+typeMismatch.java.lang.Short=<b>Property {0} must be a valid number</b><br/>
+typeMismatch.java.math.BigDecimal=<b>Property {0} must be a valid number</b><br/>
+typeMismatch.java.math.BigInteger=<b>Property {0} must be a valid number</b>

@@ -1,0 +1,200 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>report</title>
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script>
+$(document).ready(function(){
+	escapeMessage();
+});
+function escapeMessage(){
+	$('b').each(function(){
+		text=$(this).text();
+		$(this).text(text.replace(/([가-힣])/g, escapeThis));
+	});
+}
+function escapeThis(str){
+	return escape(str).replace(/\%/g,"\\");					
+}
+</script>
+#<br/>
+# Copyright (c) 2010 iceScrum Technologies.<br/>
+#<br/>
+# This file is part of iceScrum.<br/>
+#<br/>
+# iceScrum is free software: you can redistribute it and/or modify<br/>
+# it under the terms of the GNU Affero General Public License as published by<br/>
+# the Free Software Foundation, either version 3 of the License.<br/>
+#<br/>
+# iceScrum is distributed in the hope that it will be useful,<br/>
+# but WITHOUT ANY WARRANTY; without even the implied warranty of<br/>
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the<br/>
+# GNU General Public License for more details.<br/>
+#<br/>
+# You should have received a copy of the GNU Affero General Public License<br/>
+# along with iceScrum.  If not, see <http://www.gnu.org/licenses/>.<br/>
+#<br/>
+# Authors:<br/>
+#<br/>
+# Vincent Barrier (vbarrier@kagilum.com)<br/>
+#<br/>
+<br/>
+#report name<br/>
+is.report.sandbox=<b>샌드박스</b><br/>
+is.report.features=<b>기능(Features)</b><br/>
+is.report.productBacklog=<b>제품 백로그</b><br/>
+is.report.timeline=<b>타임라인</b><br/>
+is.report.sprintBacklog=<b>스프린트 백로그</b><br/>
+<br/>
+#Story report<br/>
+is.report.story.name=<b>이름</b><br/>
+is.report.story.rank=<b>Rank</b><br/>
+is.report.story.type=<b>타입</b><br/>
+is.report.story.creator=<b>Creator</b><br/>
+is.report.story.date.suggested=<b>제안일</b><br/>
+is.report.story.date.accepted=<b>채택일</b><br/>
+is.report.story.date.estimated=<b>구현 추정일</b><br/>
+<br/>
+#Task report<br/>
+is.report.task.name=<b>이름</b><br/>
+is.report.task.creator=<b>생성자</b><br/>
+is.report.task.responsible=<b>담당자(Responsible)</b><br/>
+is.report.task.state=<b>State</b><br/>
+is.report.task.story=<b>Associate with</b><br/>
+is.report.task.type.recurrent=<b>반복적인 작업</b><br/>
+is.report.task.type.urgent=<b>긴급하게 처리할 것</b><br/>
+is.task.state.wait=<b>대기중</b><br/>
+is.task.state.inprogress=<b>진행중</b><br/>
+is.task.state.done=<b>완료</b><br/>
+<br/>
+#Actor report<br/>
+is.report.actor=<b>Actor</b><br/>
+is.report.actor.name=<b>Name</b><br/>
+is.report.actor.satisfaction.criteria=<b>Satisfaction criteria</b><br/>
+is.report.actor.it.level=<b>IT Level</b><br/>
+is.report.actor.use.frequency=<b>Usage frequency</b><br/>
+is.report.actor.instances=<b>Instance(s)</b><br/>
+is.report.actor.nb.stories=<b>Associated stories</b><br/>
+<br/>
+is.report.release.name=<b>Release name</b><br/>
+is.report.release.startDate=<b>Start date</b><br/>
+is.report.release.endDate=<b>End date</b><br/>
+is.report.release.goal=<b>Release goal</b><br/>
+is.report.release.state=<b>State</b><br/>
+is.release.state.wait=<b>Todo</b><br/>
+is.release.state.inprogress=<b>In progress</b><br/>
+is.release.state.done=<b>Done</b><br/>
+<br/>
+#BacklogElement report<br/>
+is.report.backlogelement.description=<b>Description</b><br/>
+is.report.backlogelement.notes=<b>Notes</b><br/>
+<br/>
+#Feature report<br/>
+is.report.feature=<b>기능(Feature)</b><br/>
+is.report.feature.name=<b>Name</b><br/>
+is.report.feature.rank=<b>Rank</b><br/>
+is.report.feature.type=<b>Type</b><br/>
+is.report.feature.value=<b>Value</b><br/>
+is.report.feature.effort=<b>Effort</b><br/>
+is.report.feature.stories=<b>Associated stories</b><br/>
+is.report.feature.stories.finish=<b>Associated and Done stories</b><br/>
+<br/>
+#Parking lot chart<br/>
+is.report.chart.productParkinglot.title=<b>Project Parking lot chart</b><br/>
+is.report.chart.productParkinglot.serie.name=<b>% Features achievement</b><br/>
+is.report.chart.productParkinglot.yaxis.label=<b>Features</b><br/>
+is.report.chart.productParkinglot.xaxis.label=<b>% achievement</b><br/>
+<br/>
+<br/>
+#Release Parking lot chart<br/>
+is.report.chart.releaseParkingLot.title=<b>Release Parking lot chart</b><br/>
+is.report.chart.releaseParkingLot.serie.name=<b>% Features achievement</b><br/>
+is.report.chart.releaseParkingLot.yaxis.label=<b>Features</b><br/>
+is.report.chart.releaseParkingLot.xaxis.label=<b>% achievement</b><br/>
+<br/>
+#Product burndown chart<br/>
+is.report.chart.productBurnDown.title=<b>Project burndown chart (in points)</b><br/>
+is.report.chart.productBurnDown.series.userstories.name=<b>User stories</b><br/>
+is.report.chart.productBurnDown.series.technicalstories.name=<b>Technical stories</b><br/>
+is.report.chart.productBurnDown.series.defectstories.name=<b>Defect</b><br/>
+is.report.chart.productBurnDown.yaxis.label=<b>Points</b><br/>
+is.report.chart.productBurnDown.xaxis.label=<b>Sprints</b><br/>
+<br/>
+#Release burndown chart<br/>
+is.report.chart.releaseBurnDown.title=<b>Release burndown chart (in points)</b><br/>
+is.report.chart.releaseBurnDown.series.userstories.name=<b>User stories</b><br/>
+is.report.chart.releaseBurnDown.series.technicalstories.name=<b>Technical stories</b><br/>
+is.report.chart.releaseBurnDown.series.defectstories.name=<b>Defect stories</b><br/>
+is.report.chart.releaseBurnDown.yaxis.label=<b>Points</b><br/>
+is.report.chart.releaseBurnDown.xaxis.label=<b>Sprints</b><br/>
+<br/>
+#CumulativeFlow chart<br/>
+is.report.chart.productCumulativeflow.title=<b>Cumulative flow chart</b><br/>
+is.report.chart.productCumulativeflow.serie.suggested.name=<b>Suggested</b><br/>
+is.report.chart.productCumulativeflow.serie.accepted.name=<b>Accepted</b><br/>
+is.report.chart.productCumulativeflow.serie.estimated.name=<b>Estimated</b><br/>
+is.report.chart.productCumulativeflow.serie.planned.name=<b>Planned</b><br/>
+is.report.chart.productCumulativeflow.serie.inprogress.name=<b>In progress</b><br/>
+is.report.chart.productCumulativeflow.serie.done.name=<b>Done</b><br/>
+is.report.chart.productCumulativeflow.yaxis.label=<b>Nb stories</b><br/>
+is.report.chart.productCumulativeflow.xaxis.label=<b>Sprints</b><br/>
+<br/>
+#Product burnup Chart<br/>
+is.report.chart.productBurnUp.title=<b>Project burnup chart (in points)</b><br/>
+is.report.chart.productBurnUp.serie.all.name=<b>All</b><br/>
+is.report.chart.productBurnUp.serie.done.name=<b>Done</b><br/>
+is.report.chart.productBurnUp.yaxis.label=<b>Points</b><br/>
+is.report.chart.productBurnUp.xaxis.label=<b>Sprints</b><br/>
+<br/>
+#Product velocity chart<br/>
+is.report.chart.productVelocity.title=<b>Project velocity chart</b><br/>
+is.report.chart.productVelocity.series.userstories.name=<b>User stories</b><br/>
+is.report.chart.productVelocity.series.technicalstories.name=<b>Technical stories</b><br/>
+is.report.chart.productVelocity.series.defectstories.name=<b>Defect stories</b><br/>
+is.report.chart.productVelocity.yaxis.label=<b>Points</b><br/>
+is.report.chart.productVelocity.xaxis.label=<b>Sprints</b><br/>
+<br/>
+#Product velocity chart<br/>
+is.report.chart.productVelocityCapacity.title=<b>Project velocity vs capacity chart</b><br/>
+is.report.chart.productVelocityCapacity.serie.velocity.name=<b>Velocity</b><br/>
+is.report.chart.productVelocityCapacity.serie.capacity.name=<b>Capacity</b><br/>
+is.report.chart.productVelocityCapacity.yaxis.label=<b>Points</b><br/>
+is.report.chart.productVelocityCapacity.xaxis.label=<b>Sprints</b><br/>
+<br/>
+#Sprint burndown chart<br/>
+is.report.chart.sprintBurndownHoursChart.title=<b>Sprint burndown chart (in hours)</b><br/>
+is.report.chart.sprintBurndownHoursChart.serie.task.name=<b>Remaining hours</b><br/>
+is.report.chart.sprintBurndownHoursChart.yaxis.label=<b>Hours</b><br/>
+is.report.chart.sprintBurndownHoursChart.xaxis.label=<b>Days</b><br/>
+<br/>
+#Sprint burnup tasks chart<br/>
+is.report.chart.sprintBurnupTasksChart.title=<b>Sprint burnup chart (tasks)</b><br/>
+is.report.chart.sprintBurnupTasksChart.serie.tasksDone.name=<b>Tasks done</b><br/>
+is.report.chart.sprintBurnupTasksChart.serie.tasks.name=<b>Tasks</b><br/>
+is.report.chart.sprintBurnupTasksChart.yaxis.label=<b>Tasks</b><br/>
+is.report.chart.sprintBurnupTasksChart.xaxis.label=<b>Days</b><br/>
+<br/>
+#Sprint burnup stories chart<br/>
+is.report.chart.sprintBurnupStoriesChart.title=<b>Sprint burnup chart (stories)</b><br/>
+is.report.chart.sprintBurnupStoriesChart.serie.storiesDone.name=<b>Stories done</b><br/>
+is.report.chart.sprintBurnupStoriesChart.serie.stories.name=<b>Stories</b><br/>
+is.report.chart.sprintBurnupStoriesChart.yaxis.label=<b>Stories</b><br/>
+is.report.chart.sprintBurnupStoriesChart.xaxis.label=<b>Days</b><br/>
+<br/>
+<br/>
+is.report.timeline.releases.list=<b>Releases list</b><br/>
+<br/>
+is.report.sprintBacklog.tasks.list=<b>할일 목록(Tasks list)</b><br/>
+<br/>
+is.report.footer.credit=<b>iceScrum이 만든 스크럼 보고서</b><br/>
+is.report.footer.page=<b>페이지</b><br/>
+<br/>
+#Postit report<br/>
+is.report.postit.rank=<b>Rank:</b><br/>
+is.report.postit.sprint=<b>Sprint:</b><br/>
+is.report.postit.type=<b>Type:</b><br/>
+is.report.postit.creator=<b>Creator:</b><br/>
+is.report.postit.date.suggested=<b>Suggested:</b><br/>
+is.report.postit.date.accepted=<b>Accepted:</b><br/>
+is.report.postit.date.estimated=<b>Estimated:</b><br/>
+is.report.postit.date.planned=<b>Planned:</b><br/>
+is.report.postit.date.inprogress=<b>In progress:</b><br/>
+is.report.postit.date.done=<b>Done:</b>

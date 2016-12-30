@@ -15,7 +15,7 @@ tags:
   - 제품 리뷰
 ---
 <div style="width: 720px" class="wp-caption aligncenter">
-  <img class="   " src="https://dl.dropbox.com/u/15546257/blog/mytory/imagic-bluetooth-keyboard-710.png" alt="" width="710" height="339" /><p class="wp-caption-text">
+  <img class="   " src="http://mytory.net/uploads/legacy/imagic-bluetooth-keyboard-710.png" alt="" width="710" height="339" /><p class="wp-caption-text">
     지금 사용하는 <a href="http://www.imagicinput.co.kr/html/newpage.html?code=2">아이매직 YH001</a>, 특징 : 2만6천 원 정도의 저렴한 가격, 키 딜레이나 두 번 눌림 현상 없음, 키감 좋은 편이고, 소리도 크지 않음. 블루투스 한 번 연결하면 다시 연결할 필요 없음. 검정색, 하얀색, 은색, 연두색 있음. 추천한다.
   </p>
 </div>
@@ -31,7 +31,7 @@ tags:
 하지만 내 친구가 사용하는 애플 무선 키보드는 역시나 가방에 매일 넣고 들고 다니는데 아직도 고장나지 않았다. 그 친구는 나보다 키보드를 일찍 샀기 때문에 더 오랜 기간 굴렀는데도 말이다. 물론 애플 무선 키보드는 79,000원이다. ㄷㄷ
 
 <div style="width: 720px" class="wp-caption aligncenter">
-  <img src="https://dl.dropbox.com/u/15546257/blog/mytory/apple-wireless-keyboard-710.png" alt="" width="710" height="353" /><p class="wp-caption-text">
+  <img src="http://mytory.net/uploads/legacy/apple-wireless-keyboard-710.png" alt="" width="710" height="353" /><p class="wp-caption-text">
     애플 무선 키보드. 품질은 최고다. 비싸서 그렇지.
   </p>
 </div>

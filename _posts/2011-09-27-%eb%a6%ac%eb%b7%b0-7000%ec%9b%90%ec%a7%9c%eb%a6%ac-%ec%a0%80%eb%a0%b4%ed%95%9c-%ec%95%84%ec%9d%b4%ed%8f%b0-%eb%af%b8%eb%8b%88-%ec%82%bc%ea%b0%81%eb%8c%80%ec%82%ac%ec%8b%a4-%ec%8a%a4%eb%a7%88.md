@@ -59,7 +59,7 @@ tags:
 삼각대를 구매하고, 2011-10-21에 실제 촬영에 사용했다. 경사진 곳에 카메라를 올려놨기 때문에, 삼각대 다리를 조절하고 다리에 테이프를 붙여 고정했다.
 
 <p style="text-align: center;">
-  <img class="aligncenter" src="https://dl.dropbox.com/u/15546257/blog/mytory/iphone-tripod-using-example.jpg" alt="" width="574" height="768" />
+  <img class="aligncenter" src="http://mytory.net/uploads/legacy/iphone-tripod-using-example.jpg" alt="" width="574" height="768" />
 </p>
 
 이렇게 촬영해서 올린 게 바로 아래 동영상이다. HD영상으로는 올라가질 않아서 결국 가로세로 절반인 640*320 사이즈로 올릴 수밖에 없었다. 그래서 화질을 제대로 확인할 수는 없다.

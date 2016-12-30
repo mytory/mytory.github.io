@@ -21,13 +21,13 @@ tags:
 설정하려면 **설정 > 키보드 > 단축키** 로 들어간다. (아래 이미지 참고)
 
 <p style="text-align: center;">
-  <img class="aligncenter" src="https://dl.dropbox.com/u/15546257/blog/mytory/iphone-shortcut-2.png" alt="" width="384" height="576" />
+  <img class="aligncenter" src="http://mytory.net/uploads/legacy/iphone-shortcut-2.png" alt="" width="384" height="576" />
 </p>
 
 그리고 오른쪽 상단의 + 버튼을 눌러서 단축키와 단축키에 연결할 문자열을 써 준다. 그러면 완료. 아래 이미지는 내가 설정해 둔 단축키들이다.
 
 <p style="text-align: center;">
-  <img class="aligncenter" src="https://dl.dropbox.com/u/15546257/blog/mytory/iphone-shortcut-1.png" alt="" width="384" height="576" />
+  <img class="aligncenter" src="http://mytory.net/uploads/legacy/iphone-shortcut-1.png" alt="" width="384" height="576" />
 </p>
 
 ㅎㅌ 같은 단축키는 유용하다. ㄲㅅ는 꺽쇠가 나오게 했다. ㄱㅇㄷㅈ 은 가운데점이다. my 까지만 쓰면 내 풀 이메일 주소가 나오게 해 뒀다.

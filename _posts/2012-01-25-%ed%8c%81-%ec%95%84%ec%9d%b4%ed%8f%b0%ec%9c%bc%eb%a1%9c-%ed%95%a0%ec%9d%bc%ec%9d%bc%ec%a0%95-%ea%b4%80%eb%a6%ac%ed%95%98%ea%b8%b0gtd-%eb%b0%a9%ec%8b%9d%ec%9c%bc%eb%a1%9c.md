@@ -77,7 +77,7 @@ tags:
 그리고 이 책을 읽는 며칠 사이에 나의 할일 관리 프로그램 사용 방식이 상당히 변했다. 아래는 옴니포커스 어플이고, GTD 공부라는 프로젝트에 속한 할일 목록이다.
 
 <p style="text-align: center;">
-  <img class="aligncenter" src="https://dl.dropbox.com/u/15546257/blog/mytory/GTD/GTD-study.PNG" alt="" width="341" height="512" />
+  <img class="aligncenter" src="http://mytory.net/uploads/legacy/GTD/GTD-study.PNG" alt="" width="341" height="512" />
 </p>
 
 대여, 읽기, 메모 마저 하기, 책의 도표 사진찍어 두기 등으로 할 일을 매우 세분화하기 시작했다. 블로그에 쓰기와 책 반납까지 완전히 세부적인 일들을 모두 기록했다. (사실 평소엔 이미 완료한 일은 굳이 보이게 해 놓지 않는다.)
@@ -85,7 +85,7 @@ tags:
 아래는 &#8216;더 나은 집 만들기 2012-02&#8217;라는 프로젝트에 있는 할 일들이다.
 
 <p style="text-align: center;">
-  <img class="aligncenter" src="https://dl.dropbox.com/u/15546257/blog/mytory/GTD/GTD-example-1.PNG" alt="" width="341" height="512" />
+  <img class="aligncenter" src="http://mytory.net/uploads/legacy/GTD/GTD-example-1.PNG" alt="" width="341" height="512" />
 </p>
 
 &#8216;청소기 사기&#8217;와 &#8216;전자렌지 사기&#8217;는 룸메이트와 협의할 사항이다. &#8216;룸메&#8217;라는 꼬리표(Context)가 붙어 있다. &#8216;밥상 구하기&#8217;와 &#8216;후라이팬 구하기&#8217; 아래는 &#8216;편의점, 슈퍼&#8217;라는 꼬리표가 붙어 있다. 이건 편의점이나 슈퍼에 갈 때 이 일을 처리할 수 있다는 거다. &#8216;까는 이불 사기&#8217;와 &#8216;책장 물색&#8217;은 &#8216;컴퓨터로&#8217;라고 돼 있다. 컴퓨터로 알아 보는 게 낫다고 판단해서다.
@@ -93,7 +93,7 @@ tags:
 이런 꼬리표는 언제 도움이 될까? 외출을 한다고 하자. 슈퍼에 들를 거다. 나는 Context 항목으로 가서, &#8216;편의점, 슈퍼&#8217; 항목으로 들어간다. 그러면 아래처럼 나온다.
 
 <p style="text-align: center;">
-  <img class="aligncenter" src="https://dl.dropbox.com/u/15546257/blog/mytory/GTD/GTD-example-2.PNG" alt="" width="341" height="512" />
+  <img class="aligncenter" src="http://mytory.net/uploads/legacy/GTD/GTD-example-2.PNG" alt="" width="341" height="512" />
 </p>
 
 슈퍼에서 후라이팬을 사야 한다는 걸 알 수 있다. 일정은 2월 29일로 돼 있고 넉넉한 편이니 굳이 2월 말이 될 때까지는 신경쓰지 않기로 한다.
@@ -105,7 +105,7 @@ tags:
 그런 것들과, 달력의 일정을 함께 표시해 주는 기능이다. 이게 없다고 생각했는데 있었다. 꽤 쏠쏠한 도움이 된다.
 
 <p style="text-align: center;">
-  <img class="aligncenter" src="https://dl.dropbox.com/u/15546257/blog/mytory/GTD/IMG_6822.PNG" alt="" width="341" height="512" />
+  <img class="aligncenter" src="http://mytory.net/uploads/legacy/GTD/IMG_6822.PNG" alt="" width="341" height="512" />
 </p>
 
 &#8216;매직 마우스 배터리 준비&#8217; 같은 시시콜콜한 사항도 프로젝트로 만들고, &#8216;질문하기&#8217; 같은 &#8216;행동(Action)&#8217;을 세부사항으로 넣었다.
@@ -127,7 +127,7 @@ tags:
 이제는 거의 모든 것을 생각날 때마다 일단 할 일 관리 목록에 집어 넣고 있다. 아래 이미지를 보자.
 
 <p style="text-align: center;">
-  <img class="aligncenter" src="https://dl.dropbox.com/u/15546257/blog/mytory/GTD/IMG_6823.PNG" alt="" width="341" height="512" />
+  <img class="aligncenter" src="http://mytory.net/uploads/legacy/GTD/IMG_6823.PNG" alt="" width="341" height="512" />
 </p>
 
 예전 같았으면 이런 건 절대 할 일 목록에 넣지 않았을 거다. 하지만 이제는 다르다. 모든 걸 일단은 집어넣는다. 그리고 각 항목에는 대부분 컨텍스트가 붙어 있다.

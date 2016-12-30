@@ -13,7 +13,7 @@ tags:
   - Google Analytics
   - Web Analytics
 ---
-<img class="aligncenter" alt="" src="https://dl.dropbox.com/u/15546257/blog/mytory/google-analytics-not-provied-1.png" width="786" height="269" />
+<img class="aligncenter" alt="" src="http://mytory.net/uploads/legacy/google-analytics-not-provied-1.png" width="786" height="269" />
 
 위에서 `(not provided)` 라는 게 보일 거다. 깜짝 놀랐다. 키워드의 거의 30%가 `(not provided)` 처리된 것이다.
 
@@ -42,14 +42,14 @@ tags:
 아래 그림은 `(not provided)`로 고급 세그먼트를 만든 것이다.
 
 <p style="text-align: center;">
-  <img class="aligncenter" alt="" src="https://dl.dropbox.com/u/15546257/blog/mytory/google-analytics-not-provied-2.png" width="645" height="221" />
+  <img class="aligncenter" alt="" src="http://mytory.net/uploads/legacy/google-analytics-not-provied-2.png" width="645" height="221" />
 </p>
 
 키워드를 포함으로 놓고 &#8216;전체 일치&#8217;를 고른 후 `(not provided)`를 넣어 주면 된다.
 
 아래는 구글 검색으로 들어온 사람들 고급 세그먼트를 만든 것이다. 소스에 google을 포함시키고, and로 연결한 후 organic과 전체일치하는 놈을 포함 하면 된다.
 
-<img class="aligncenter" alt="" src="https://dl.dropbox.com/u/15546257/blog/mytory/google-analytics-not-provied-3.png" width="646" height="376" />
+<img class="aligncenter" alt="" src="http://mytory.net/uploads/legacy/google-analytics-not-provied-3.png" width="646" height="376" />
 
 브랜드 검색어는 각자 상황에 맞게 판단하면 된다. 레프트21의 경우는 그냥 레프트21이 브랜드 검색어였다. 그래서 브랜드 검색어 고급 세그먼트는 키워드가 &#8216;레프트21&#8242; 전체 일치 하나만 했고, 브랜드 검색어 아닌 것 고급 세그먼트는 키워드가 &#8216;레프트21&#8217;이랑 전체일치하는 것을 제외한 것으로 설정했다. (참고로 키워드 말고 검색어도 있는데 이놈은 뭔지 모르겠다. 여튼간에 검색엔진에서 사용한 검색어는 &#8216;키워드&#8217;다. 이런 거 할 땐, 번역된 단어가 뜻이 불분명해서 영어로 하는 게 낫다는 생각이 든다.)
 
@@ -65,7 +65,7 @@ tags:
 
 자, 구글 아날리틱스 우측 상단의 &#8216;관리&#8217;를 눌러 준다. 그리고 나오는 페이지에서 &#8216;프로필&#8217; 안에 있는 &#8216;필터&#8217; 탭을 고른다. 아래 이미지를 참고한다.
 
-<img class="aligncenter" alt="" src="https://dl.dropbox.com/u/15546257/blog/mytory/google-analytics-not-provied-4.png" width="690" height="858" />
+<img class="aligncenter" alt="" src="http://mytory.net/uploads/legacy/google-analytics-not-provied-4.png" width="690" height="858" />
 
 1.  필터 이름은 적당한 걸로 한다. 나는 not provided rewrite 라고 적었다.
 2.  필터 유형은 &#8216;맞춤 필터&#8217;를 고르고 &#8216;고급&#8217;을 선택한다.
@@ -76,7 +76,7 @@ tags:
 
 그리고 저장을 누르면 된다. 근데 내가 위의 4번째 순서에서 &#8216;요청 URI&#8217; 혹은 &#8216;페이지 제목&#8217;을 고르라고 했는데, 이건 원문에 있는 것과 약간 다른 거다. 왜 그러냐면, 내 블로그는 URL이 보다시피 다 글번호로 돼 있다. 링크 걸려 있는 것도 아닌데, 글 번호만 나열돼 있으면 나 눈 돌아간다. 그래서 나는 &#8216;페이지 제목&#8217;으로 치환되도록 했다. 아래 그림처럼 말이다.
 
-<img class="aligncenter" alt="" src="https://dl.dropbox.com/u/15546257/blog/mytory/google-analytics-not-provied-5.png" width="515" height="121" />
+<img class="aligncenter" alt="" src="http://mytory.net/uploads/legacy/google-analytics-not-provied-5.png" width="515" height="121" />
 
 자, 이제 적용하고 한두시간 있으면 결과를 알 수 있을 거다.
 
@@ -86,7 +86,7 @@ tags:
 
 [2013-10-04 추가 : 일단, 의미있는 집단이 아니라는 것을 안 뒤, 약 1년 3개월 동안 'np - 제목' 기능을 사용하다가 사용을 중단했다. 실제 키워드를 아는 게 더 낫다는 생각이 들어서다.]
 
-<img class="aligncenter" alt="" src="https://dl.dropbox.com/u/15546257/blog/mytory/google-analytics-not-provied-6.png" width="646" height="488" />
+<img class="aligncenter" alt="" src="http://mytory.net/uploads/legacy/google-analytics-not-provied-6.png" width="646" height="488" />
 
  [1]: http://googleblog.blogspot.kr/2011/10/making-search-more-secure.html
  [2]: http://mytory.net/archives/2486 "《실전 웹사이트 분석 A to Z》 읽으며 밑줄 그은 것"

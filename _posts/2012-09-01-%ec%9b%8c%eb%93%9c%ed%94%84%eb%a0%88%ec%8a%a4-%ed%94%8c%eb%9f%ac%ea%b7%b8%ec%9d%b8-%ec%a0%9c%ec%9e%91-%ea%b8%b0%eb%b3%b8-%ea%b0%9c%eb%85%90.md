@@ -96,4 +96,4 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
 
  [1]: http://codex.wordpress.org/Plugin_API/Filter_Reference
  [2]: http://codex.wordpress.org/Plugin_API/Action_Reference
- [3]: https://dl.dropbox.com/u/15546257/blog/mytory/modify-login-message.zip
+ [3]: http://mytory.net/uploads/legacy/modify-login-message.zip

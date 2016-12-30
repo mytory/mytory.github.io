@@ -16,7 +16,7 @@ tags:
 오늘 플러그인을 하나 만들었다. 예전부터 만들고 싶었던 건데, 바로 한글을 단어별로 줄바꿈할 수 있도록 하는 플러그인이다.
 
 <div style="width: 420px" class="wp-caption aligncenter">
-  <img alt="" src="https://dl.dropbox.com/u/15546257/blog/mytory/word-break-keep-all-example.png" width="410" height="106" /><p class="wp-caption-text">
+  <img alt="" src="http://mytory.net/uploads/legacy/word-break-keep-all-example.png" width="410" height="106" /><p class="wp-caption-text">
     이렇게 &#8216;다&#8217;만 달랑 다음 줄로 오는 경우를 싫어하는 사람들이 있다. 이걸 해결하려면 골치가 좀 아프다.
   </p>
 </div>

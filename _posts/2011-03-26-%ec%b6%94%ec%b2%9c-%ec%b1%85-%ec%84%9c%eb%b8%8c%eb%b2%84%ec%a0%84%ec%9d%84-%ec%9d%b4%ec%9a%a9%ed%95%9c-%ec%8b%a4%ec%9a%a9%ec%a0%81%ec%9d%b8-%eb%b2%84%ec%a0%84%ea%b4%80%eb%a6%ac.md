@@ -12,7 +12,7 @@ categories:
 tags:
   - 개발 방법론
 ---
-<img class="aligncenter" src="https://dl.dropbox.com/u/15546257/blog/mytory/%EC%84%9C%EB%B8%8C%EB%B2%84%EC%A0%84%EC%9D%84%20%EC%9D%B4%EC%9A%A9%ED%95%9C%20%EC%8B%A4%EC%9A%A9%EC%A0%81%EC%9D%B8%20%EB%B2%84%EC%A0%84%20%EA%B4%80%EB%A6%AC.jpg" alt="" width="150" height="215" />[알라딘에 추천평을 쓴 것][1]을 옮긴 거다. 추천평이 하나도 없어서 좀 안타까워서 썼다. 이런 좋은 책을 많은 사람들이 봐야 하는데, 심지어 책이 절판이다. ㅡㅡ;; 도서관에서라도 꼭 보길!
+<img class="aligncenter" src="http://mytory.net/uploads/legacy/%EC%84%9C%EB%B8%8C%EB%B2%84%EC%A0%84%EC%9D%84%20%EC%9D%B4%EC%9A%A9%ED%95%9C%20%EC%8B%A4%EC%9A%A9%EC%A0%81%EC%9D%B8%20%EB%B2%84%EC%A0%84%20%EA%B4%80%EB%A6%AC.jpg" alt="" width="150" height="215" />[알라딘에 추천평을 쓴 것][1]을 옮긴 거다. 추천평이 하나도 없어서 좀 안타까워서 썼다. 이런 좋은 책을 많은 사람들이 봐야 하는데, 심지어 책이 절판이다. ㅡㅡ;; 도서관에서라도 꼭 보길!
 
 개발 그 자체는 아니지만, 개발을 돕는 여러가지 도구가 있다.
 

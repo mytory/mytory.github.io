@@ -22,4 +22,4 @@ tags:
 
 IE6의 점유율이 18.45%로 떨어졌다. 빨리 2% 미만으로 줄어들어라.
 
-<img class="aligncenter" src="https://dl.dropbox.com/u/15546257/blog/mytory/StatCounter-browser_version-KR-monthly-201006-201105.jpg" alt="" width="640" height="375" />
+<img class="aligncenter" src="http://mytory.net/uploads/legacy/StatCounter-browser_version-KR-monthly-201006-201105.jpg" alt="" width="640" height="375" />

@@ -19,7 +19,7 @@ Get extra space free! 라는 드롭박스가 하는 이벤트 같은 건데 여�
 **[▶Get extra space free! 바로 가기][1]**
 
 <p style="text-align: center;">
-  <img class="aligncenter" src="https://dl.dropbox.com/u/15546257/blog/mytory/dropbox-free-space.jpg" alt="" width="616" height="640" />
+  <img class="aligncenter" src="http://mytory.net/uploads/legacy/dropbox-free-space.jpg" alt="" width="616" height="640" />
 </p>
 
 &nbsp;

@@ -30,7 +30,7 @@ pdfsam 이 그것이다. 우분투 같은 경우 그냥 소프트웨어 센터�
 
 인터페이스는 매우 깔끔하다.
 
-<img class="aligncenter" src="https://dl.dropbox.com/u/15546257/blog/mytory/pdfsam-interface.png" alt="" width="100%" />
+<img class="aligncenter" src="http://mytory.net/uploads/legacy/pdfsam-interface.png" alt="" width="100%" />
 
 합칠 거면 Merge/Extract 를 선택하고 합칠 PDF들을 넣어 준 후 Run을 누르면 된다.
 
@@ -65,7 +65,7 @@ Settings에 가면 Language 옵션이 있다. Korean을 선택하고 재시작�
 둘째 해결책은 윈도우 설치 파일을 다운받지 말고 그냥 zip archive 를 다운받는 방법이다.
 
 <div style="width: 709px" class="wp-caption aligncenter">
-  <img src="https://dl.dropbox.com/u/15546257/blog/mytory/pdfsam-download.png" alt="" width="699" height="224" /><p class="wp-caption-text">
+  <img src="http://mytory.net/uploads/legacy/pdfsam-download.png" alt="" width="699" height="224" /><p class="wp-caption-text">
     △위 그림에서 두 번째 줄에 있는 놈을 다운받는다.
   </p>
 </div>

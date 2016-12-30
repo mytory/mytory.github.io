@@ -24,7 +24,7 @@ tags:
 
 주의 : 첫 번째 항목은 [덴버 포스트][2]를 캡쳐한 것이다. 뉴욕 타임스가 아니다. [캡쳐된 걸 보면 뉴욕 타임스라고 써 있는데 아니라는 말이다.] 거기 있는 출처를 눈여겨 보지 않았다. [원문][3]에는 다른 사이트가 아주 잘 링크돼 있다.
 
-<img class="aligncenter" src="https://dl.dropbox.com/u/15546257/blog/mytory/this-is-why-your-newspaper-is-dying%28translated%29.png" alt="" width="898" height="1271" />
+<img class="aligncenter" src="http://mytory.net/uploads/legacy/this-is-why-your-newspaper-is-dying%28translated%29.png" alt="" width="898" height="1271" />
 
  [1]: http://bradcolbow.com/archive/view/the_brads_this_is_why_your_newspaper_is_dying/
  [2]: http://www.denverpost.com/business/ci_18451993

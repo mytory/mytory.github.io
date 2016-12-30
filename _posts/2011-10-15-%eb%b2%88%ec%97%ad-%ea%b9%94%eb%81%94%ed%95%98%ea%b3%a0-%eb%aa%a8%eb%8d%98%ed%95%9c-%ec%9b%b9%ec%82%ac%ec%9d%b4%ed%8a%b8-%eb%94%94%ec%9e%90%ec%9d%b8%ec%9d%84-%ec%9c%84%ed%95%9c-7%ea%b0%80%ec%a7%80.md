@@ -43,7 +43,7 @@ Clean and Modern Web Design은 최근의 디자인 경향을 말하는 단어입
 *   그리드 보이기/감추기: Ctrl+&#8217; (윈도우) 혹은 Cmd+&#8217; (맥)
 
 <p style="text-align: center;">
-  <img class="aligncenter" src="https://dl.dropbox.com/u/15546257/blog/mytory/7-photoshop-tip/ps_grids.jpg" alt="포토샵 가이드라인 예시" />
+  <img class="aligncenter" src="http://mytory.net/uploads/legacy/7-photoshop-tip/ps_grids.jpg" alt="포토샵 가이드라인 예시" />
 </p>
 
 **View > Show > Smart Guides**에 가서 스마트 가이드를 활성화하라. 스마트 가이드는 shape를 그리거나, 텍스트를 정렬하거나 영역을 선택하거나 개체를 움직일 때 자동으로 나타난다. 스마트 가이드는 이런 엘리먼트들을 옮길 때 나타나서 우리 일을 줄여 줄 것이다.
@@ -53,13 +53,13 @@ Clean and Modern Web Design은 최근의 디자인 경향을 말하는 단어입
 빛과 그림자로 깊이를 표현하면, 상큼하고 리얼한 느낌을 준다. 그림자 효과는 어떤 개체나 선택영역, 문자 레이터에도 적용할 수 있다. 하지만 이 트릭은 배경색에 맞는 색을 고르고 기본으로 설정돼 있는 검정색을 무시하는 것이다. [but the trick is to choose a color that matches the background and forgo the default black.]
 
 <p style="text-align: center;">
-  <img class="aligncenter" src="https://dl.dropbox.com/u/15546257/blog/mytory/7-photoshop-tip/ps_shadows.jpg" alt="포토샵에서 그림자 설정하기" />
+  <img class="aligncenter" src="http://mytory.net/uploads/legacy/7-photoshop-tip/ps_shadows.jpg" alt="포토샵에서 그림자 설정하기" />
 </p>
 
 모든 그림자가 어두워야 하는 것은 아니다. 움푹 파인 효과를 글자나 폼 필드에 주기 위해서 Inner Shadow와 함께 white 혹은 light-colored Drop Shadow를 결합하라.
 
 <p style="text-align: center;">
-  <img class="aligncenter" src="https://dl.dropbox.com/u/15546257/blog/mytory/7-photoshop-tip/ps_gradient_form.jpg" alt="그라디언트 폼" width="615" height="350" />
+  <img class="aligncenter" src="http://mytory.net/uploads/legacy/7-photoshop-tip/ps_gradient_form.jpg" alt="그라디언트 폼" width="615" height="350" />
 </p>
 
 ## 3.디테일
@@ -69,13 +69,13 @@ Clean and Modern Web Design은 최근의 디자인 경향을 말하는 단어입
 그라디언트 툴을 불러오려면, Shift+G를 누르고 [페인트 툴이 선택되는 경우에는 한 번 더 눌러 준다. 그러면 그라디언트 툴이 선택된다 - 녹풍], 캔버스를 클릭하고, 드래그한 후 놓는다. 섹션, 버튼, 아이콘 같은 개별 요소들을 다룰 때, Gradient Overlay 레이어 효과는 표면 스타일이나 질감[Texture]을 입히는 데 더 효과적인 수단이다. 이 도구는 요소의 레이어를 더블클릭해서 불러 온다. 더블클릭했을 때 나오는 박스[이 박스가 레이어 효과를 주는 Layer Style 박스다.]에서 &#8220;Gradient Overlay&#8221;를 골라라.
 
 <p style="text-align: center;">
-  <img class="aligncenter" src="https://dl.dropbox.com/u/15546257/blog/mytory/7-photoshop-tip/ps_gradients.jpg" alt="" width="615" height="327" />
+  <img class="aligncenter" src="http://mytory.net/uploads/legacy/7-photoshop-tip/ps_gradients.jpg" alt="" width="615" height="327" />
 </p>
 
 버튼이나 내비게이션 바에 섬세하게 효과를 줄 때, 혹은 종이나 금속의 질감을 흉내낼 때 이 효과를 사용하라.
 
 <p style="text-align: center;">
-  <img class="aligncenter" src="https://dl.dropbox.com/u/15546257/blog/mytory/7-photoshop-tip/example1.jpg" alt="종이나 금속 질감" />
+  <img class="aligncenter" src="http://mytory.net/uploads/legacy/7-photoshop-tip/example1.jpg" alt="종이나 금속 질감" />
 </p>
 
 ## 4.명확함/선명도[Definition]
@@ -85,11 +85,11 @@ Clean and Modern Web Design은 최근의 디자인 경향을 말하는 단어입
 Stroke 레이어 효과는 강조해야 하는 문자열이나 버튼 같은 요소가 있을 때 부각해 준다. 이 효과를 사용하면 Inner Shadow와 Drop Shadow를 더 자유롭게 확장해서 사용할 수 있다.
 
 <p style="text-align: center;">
-  <img class="  aligncenter" src="https://dl.dropbox.com/u/15546257/blog/mytory/7-photoshop-tip/stroke-layer-effect.png" alt="Stroke Layer Effect" />
+  <img class="  aligncenter" src="http://mytory.net/uploads/legacy/7-photoshop-tip/stroke-layer-effect.png" alt="Stroke Layer Effect" />
 </p>
 
 <p style="text-align: center;">
-  <img class="aligncenter" src="https://dl.dropbox.com/u/15546257/blog/mytory/7-photoshop-tip/srmarquee.jpg" alt="" />
+  <img class="aligncenter" src="http://mytory.net/uploads/legacy/7-photoshop-tip/srmarquee.jpg" alt="" />
 </p>
 
 사람들은 펜 툴을 이용해 직선이나 수평선을 그으려고 하는 경향이 있다. 하지만 만약 선에 그라디언트나 그림자를 적용하고 싶다면, Single Row Marquee Tool을 이용하는 게 더 쉽다. 이 툴은 Rectangular Marquee Tool 뒤에 살짝 숨어있다. [이놈을 오래 누르고 있으면 위 이미지에 보이는 것처럼 네 개 중 하나를 선택할 수 있는 메뉴가 나타난다.] 새 레이어에 Single Row Marquee Tool을 사용하라. 그리고 섹션 테두리를 따라 하이라이트 라인을 만들기 위해, 혹은 요소 그 자체에 효과를 줄 수 없는 경우에 구분선을 표시하기 위해 white나 light-colored drop shadow를 사용하라.
@@ -99,11 +99,11 @@ Stroke 레이어 효과는 강조해야 하는 문자열이나 버튼 같은 요
 깔끔하고 모던한 디자인이라는 게 심심하고, 하얗고, 미니멀하다는 것과 동의어일 필요는 없다. 텍스쳐와 패턴을 영리하게 사용하면 스타일과 브랜드를 강조하면서 시선을 끄는 디자인을 만들 수 있다. 노이즈 추가(Filter > Add Noise), 백그라운드 영역이나 인터페이스 요소에 사용하는 Texture Overlay 레이어 효과 같은 섬세한 테크닉을 사용하라. 인터페이스 요소를 사용하면 [효과를 주는 영역과 원본 영역을] 분리해서 효과를 줄 수 있다. 더 리얼하고 깔끔한 요소는 보는 이에게 매력을 준다.
 
 <p style="text-align: center;">
-  <img class="aligncenter" src="https://dl.dropbox.com/u/15546257/blog/mytory/7-photoshop-tip/noise.jpg" alt="노이즈 추가" />
+  <img class="aligncenter" src="http://mytory.net/uploads/legacy/7-photoshop-tip/noise.jpg" alt="노이즈 추가" />
 </p>
 
 <p style="text-align: center;">
-  <img class="aligncenter" src="https://dl.dropbox.com/u/15546257/blog/mytory/7-photoshop-tip/zee7_texture.jpg" alt="텍스쳐" />
+  <img class="aligncenter" src="http://mytory.net/uploads/legacy/7-photoshop-tip/zee7_texture.jpg" alt="텍스쳐" />
 </p>
 
 ## 6.원근감[Perspective]
@@ -113,13 +113,13 @@ Stroke 레이어 효과는 강조해야 하는 문자열이나 버튼 같은 요
 shape나 이미지에서 오른쪽 클릭을 하면 나오는 &#8220;Free Transform Path&#8221;를 선택한 후 툴 옵션 바에 있는 &#8220;Wrap&#8221; 버튼을 누르면 어떤 곳에도 원근감을 줄 수 있다. [아래 이미지 참고. 상단의 다양한 옵션들이 바로 '툴 옵션 바'다.]
 
 <p style="text-align: center;">
-  <img class="aligncenter" src="https://dl.dropbox.com/u/15546257/blog/mytory/7-photoshop-tip/perspective.png" alt="Perspective" />
+  <img class="aligncenter" src="http://mytory.net/uploads/legacy/7-photoshop-tip/perspective.png" alt="Perspective" />
 </p>
 
 모양이나 프레임을 비대칭으로 만들고, 분리된 위치에 적절하게 그라디언트와 그림자를 줌으로써 착시 효과를 낼 수 있다.
 
 <p style="text-align: center;">
-  <img class="aligncenter" src="https://dl.dropbox.com/u/15546257/blog/mytory/7-photoshop-tip/renderwave.jpg" alt="The illusion of perspective" />
+  <img class="aligncenter" src="http://mytory.net/uploads/legacy/7-photoshop-tip/renderwave.jpg" alt="The illusion of perspective" />
 </p>
 
 ## 7.가독성
@@ -129,13 +129,13 @@ shape나 이미지에서 오른쪽 클릭을 하면 나오는 &#8220;Free Transf
 텍스트에 질감을 추가하기 위해, 레이어에서 우클릭을 한 다음 &#8220;Convert to Smart Object&#8221;를 선택해 텍스트 레이어를 Smart Object로 바꿔라. [사실] 텍스트를 rasterize하지 않으면 기본적인 레이어 효과밖에 사용할 수 없다. 그런데 rasterize는, 스크린을 위한 디자인을 할 때조차 웬만하면 다들 피하고 싶어한다. [일단 rasterize를 하고 나면 확대했을 때 도트가 흉하게 보이게 된다. 텍스트 같은 경우는 내용을 편집할 수 없게 된다. - 녹풍] Smart Object 변환은 필터와 다른 테크닉을 텍스트에 줄 수 있도록 하면서도, 나중에 텍스트를 바꿔야 할 때 편집 기능을 사용할 수 있도록 해 준다. 텍스트 요소를 세팅할 때 추적[tracking]과 커닝 옵션을 사용할 수 있다는 것을 기억하라. 설사 텍스트를 CSS로 다시 만들어야 하는 경우라도, 더 나은 비주얼을 만들려면 선과 글자의 배치 간격을 재 보는 실험을 먼저 해 봐야 한다. 또한, 해상도와 선명도를 유지하기 위해 [툴 옵션 바에 있는] &#8220;Crisp&#8221;나 &#8220;Sharp&#8221; 텍스트 옵션을 사용할 수 있다는 것을 기억하라. [아래 이미지을 보면 글자 모양을 설정하는 박스 맨 아래 우측에 Crisp가 선택돼 있는 것을 볼 수 있다. - 녹풍]
 
 <p style="text-align: center;">
-  <img class="aligncenter" src="https://dl.dropbox.com/u/15546257/blog/mytory/7-photoshop-tip/character_options.jpg" alt="character_options" />
+  <img class="aligncenter" src="http://mytory.net/uploads/legacy/7-photoshop-tip/character_options.jpg" alt="character_options" />
 </p>
 
 깔끔한 디자인에서 콘텐츠를 표현하는 방법은 다른 어떤 스타일보다 더 중요하다. 이유는 단순하다. 깔끔하고 모던한 디자인에는 시각적으로 방문자의 시선을 분산시키는 요소가 별로 없기 때문이다. 텍스트와 오브젝트의 간격을 적절히 유지하기 위해 위의 팁을 사용함으로써, 선명성과 재미를 더할 수 있다. 그리고 인터페이스에서 콘텐츠를 분리해서 디자인은 최적의 효과를 얻을 것이다. [이건 무슨 의미인지 모르겠다. 흔히 이런 말을 하면, 틀을 짜 놓고 그 안에 내용은 자유로 넣을 수 있다 이런 말일 텐데, 그렇게 하는 게 왜 디자인에서 최적의 효과를 주는 것인지… - 녹풍]
 
 <p style="text-align: center;">
-  <img class="aligncenter" src="https://dl.dropbox.com/u/15546257/blog/mytory/7-photoshop-tip/jeroen.jpg" alt="present content" />
+  <img class="aligncenter" src="http://mytory.net/uploads/legacy/7-photoshop-tip/jeroen.jpg" alt="present content" />
 </p>
 
 ## 필자 소개

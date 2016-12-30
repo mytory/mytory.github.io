@@ -71,7 +71,7 @@ tags:
 한 달 전에 구입한 [싸구려 아이폰 핸즈프리][2]는 비추다.
 
 <div style="width: 730px" class="wp-caption aligncenter">
-  <img src="https://dl.dropbox.com/u/15546257/blog/mytory/14000-earphone.JPG" alt="" width="720" height="538" /><p class="wp-caption-text">
+  <img src="http://mytory.net/uploads/legacy/14000-earphone.JPG" alt="" width="720" height="538" /><p class="wp-caption-text">
     △사용한 지 한 달이 됐다. 겉은 멀쩡하지만 속이 망가졌다.
   </p>
 </div>

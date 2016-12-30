@@ -17,7 +17,7 @@ tags:
 일단 아이폰에 잡히는 ollehWiFi 보안과 일반, NETSPOT을 정리해 봅시다.
 
 <p style="text-align: center;">
-  <img class=" aligncenter" src="https://dl.dropbox.com/u/15546257/blog/mytory/olleh.PNG" alt="" />
+  <img class=" aligncenter" src="http://mytory.net/uploads/legacy/olleh.PNG" alt="" />
 </p>
 
 *   **자물쇠 그림과 함께 나오는 ****ollehWiFi****:** 비밀번호가 걸려 있습니다. 아이폰은 이 비밀번호를 자동으로 입력하게 세팅된다고 합니다. 그래서 **아이폰 사용자는 이걸 사용하면 됩니다.**

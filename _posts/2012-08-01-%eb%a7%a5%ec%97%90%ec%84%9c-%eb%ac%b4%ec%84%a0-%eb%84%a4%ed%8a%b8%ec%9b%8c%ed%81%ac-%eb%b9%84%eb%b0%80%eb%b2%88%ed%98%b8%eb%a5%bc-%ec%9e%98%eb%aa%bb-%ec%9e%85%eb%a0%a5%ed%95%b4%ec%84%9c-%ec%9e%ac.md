@@ -20,6 +20,6 @@ tags:
 
 이럴 때 비밀번호를 수정하는 방법이다. 일단 스포트라이트 파인더의 응용프로그램 폴더에서 keychain 으로 검색을 해 봐라. 그러면 키체인 접근(keychain access)이라는 앱이 나온다.
 
-<img class="aligncenter" src="https://dl.dropbox.com/u/15546257/blog/mytory/mac-keychain.png" alt="" width="811" height="573" />
+<img class="aligncenter" src="http://mytory.net/uploads/legacy/mac-keychain.png" alt="" width="811" height="573" />
 
 거기 들어가서 좌측 상단의 &#8216;시스템&#8217;을 클릭하면 거기에 무선 네트워크의 이름이 있다. 그걸 더블클릭하면 비밀번호를 변경할 수 있다. 끝!

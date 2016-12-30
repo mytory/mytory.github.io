@@ -20,7 +20,7 @@ tags:
 새로 제작하는 웹사이트에 야심차게 플레이스 홀더 기능을 사용해 보려고 했다.
 
 <div style="width: 225px" class="wp-caption aligncenter">
-  <img class=" " src="https://dl.dropbox.com/u/15546257/blog/mytory/placeholder/example.jpg" alt="" width="215" height="94" /><p class="wp-caption-text">
+  <img class=" " src="http://mytory.net/uploads/legacy/placeholder/example.jpg" alt="" width="215" height="94" /><p class="wp-caption-text">
     플레이스 홀더는 인풋 박스 안에 안내문이 떠 있다가 입력을 위해 클릭을 하면 안내문이 사라지는 기능을 말한다. 레이블을 붙이기 위한 공간이 별도로 필요하지 않으므로 공간 활용에 효율적이다.
   </p>
 </div>
@@ -54,13 +54,13 @@ Modernizr 라이브러리는 HTML5 기능을 구현해 주는 라이브러리가
 그러면 파이어버그를 통해 한 번 보자. 자바스크립트 콘솔을 활성화한 다음, Modernizr 하고 입력하면 Modernizr 객체가 갖고 있는 다양한 변수를 만날 수 있다. 이름이 매우 직관적이므로 골라서 사용하면 된다.
 
 <p style="text-align: center;">
-  <img class="aligncenter" src="https://dl.dropbox.com/u/15546257/blog/mytory/placeholder/modernizr-firebug.jpg" alt="" width="166" height="512" />
+  <img class="aligncenter" src="http://mytory.net/uploads/legacy/placeholder/modernizr-firebug.jpg" alt="" width="166" height="512" />
 </p>
 
 나는 Modernizr.input.placeholder 라고 썼다. 파이어버그 콘솔에서 엔터를 쳐 보면 true나 false를 반환한다는 것을 눈으로 확인할 수 있다.
 
 <p style="text-align: center;">
-  <img class="aligncenter" src="https://dl.dropbox.com/u/15546257/blog/mytory/placeholder/modernizr.placeholder.jpg" alt="" width="216" height="266" />
+  <img class="aligncenter" src="http://mytory.net/uploads/legacy/placeholder/modernizr.placeholder.jpg" alt="" width="216" height="266" />
 </p>
 
 그러면 이제 사용법을 눈치챘을 거다.
@@ -90,7 +90,7 @@ Modernizr 라이브러리는 HTML5 기능을 구현해 주는 라이브러리가
 또한 Modernizr는 HTML5 지원 여부에 따라 html에 class를 붙여 준다. 당장 파이어폭스4에서 Modernizr를 구동해 보면, 아래처럼 나온다.
 
 <div style="width: 522px" class="wp-caption aligncenter">
-  <img class=" " src="https://dl.dropbox.com/u/15546257/blog/mytory/placeholder/modernizr-html-class.jpg" alt="" width="512" height="184" /><p class="wp-caption-text">
+  <img class=" " src="http://mytory.net/uploads/legacy/placeholder/modernizr-html-class.jpg" alt="" width="512" height="184" /><p class="wp-caption-text">
     html 태그에 온갖 클래스가 붙은 걸 확인할 수 있다.
   </p>
 </div>

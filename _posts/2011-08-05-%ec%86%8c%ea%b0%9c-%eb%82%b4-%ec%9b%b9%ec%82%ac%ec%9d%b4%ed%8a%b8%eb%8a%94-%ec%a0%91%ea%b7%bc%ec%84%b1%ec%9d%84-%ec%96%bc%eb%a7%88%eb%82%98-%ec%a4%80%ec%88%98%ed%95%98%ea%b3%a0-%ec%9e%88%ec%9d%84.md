@@ -17,7 +17,7 @@ tags:
 오늘 소개하는PAJET은 브라우저를 타지 않도록 순수 javascript 북마클릿으로 제작된 유용한 툴이다.
 
 <p style="text-align: center;">
-  <img class="aligncenter" src="https://dl.dropbox.com/u/15546257/blog/mytory/PAJET.png" alt="" width="504" height="579" />
+  <img class="aligncenter" src="http://mytory.net/uploads/legacy/PAJET.png" alt="" width="504" height="579" />
 </p>
 
 북마클릿을 즐겨찾기에 등록하고, 실행하면 위처럼 분석을 해 준다.

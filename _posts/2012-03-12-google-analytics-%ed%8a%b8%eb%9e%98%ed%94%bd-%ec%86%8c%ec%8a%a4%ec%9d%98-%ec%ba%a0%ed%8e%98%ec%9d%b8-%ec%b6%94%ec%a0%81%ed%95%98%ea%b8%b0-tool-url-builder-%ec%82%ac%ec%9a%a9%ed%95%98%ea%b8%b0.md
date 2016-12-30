@@ -33,7 +33,7 @@ utm\_campaign의 값은 &#8220;Feed: mytory\_tc (웹으로 말하기)&#8221;를 
 
 위 URL에 따라 Google Analytics는 이렇게 통계를 잡아 준다.
 
-<img class="aligncenter" src="https://dl.dropbox.com/u/15546257/blog/mytory/google-analytics-url-builder-1.jpg" alt="" width="645" height="82" />
+<img class="aligncenter" src="http://mytory.net/uploads/legacy/google-analytics-url-builder-1.jpg" alt="" width="645" height="82" />
 
 구글 아날리틱스의 최신 버전에서 **트래픽 소스 > 소스 > 캠페인** 항목을 보면 볼 수 있다.
 
@@ -43,7 +43,7 @@ utm\_campaign의 값은 &#8220;Feed: mytory\_tc (웹으로 말하기)&#8221;를 
 
 수동으로 세팅을 해 주는 툴도 있었다. [Tool: URL Builder][1]가 그것이다.
 
-<img class="aligncenter" src="https://dl.dropbox.com/u/15546257/blog/mytory/google-analytics-url-builder-2.jpg" alt="" width="676" height="673" />
+<img class="aligncenter" src="http://mytory.net/uploads/legacy/google-analytics-url-builder-2.jpg" alt="" width="676" height="673" />
 
 위 주소로 가면 이런 화면이 나온다.
 

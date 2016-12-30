@@ -17,7 +17,7 @@ tags:
 이렇게 갑작스럽게 잡스가 죽을 거라고는 생각지 못했다. 애도를 표한다.
 
 <p style="text-align: center;">
-  <img class="     aligncenter" src="https://dl.dropbox.com/u/15546257/blog/mytory/steve-jobs.jpg" alt="" />
+  <img class="     aligncenter" src="http://mytory.net/uploads/legacy/steve-jobs.jpg" alt="" />
 </p>
 
 나는 사회주의자고 잡스는 기업 CEO다. 그래도 그가 일군 기술적 혁신이 나의 삶을 훨씬 윤택하게 했으므로, 또한 그의 삶이 영감을 주는 바가 있으므로, 나는 그를 애도해도 된다고 생각한다. 아래는 트위터에서 발견한 한 마디.
@@ -53,7 +53,7 @@ tags:
 애플 코리아가 추도사를 한국어로 번역해서 실었다. 국어교육 전공인 내 입장에서 봤을 때 문장이 깔끔하진 않다.
 
 <p style="text-align: center;">
-  <img class="aligncenter" src="https://dl.dropbox.com/u/15546257/blog/mytory/steve-jobs-ko.png" alt="" width="640" height="150" />
+  <img class="aligncenter" src="http://mytory.net/uploads/legacy/steve-jobs-ko.png" alt="" width="640" height="150" />
 </p>
 
  [1]: http://h21.hani.co.kr/arti/economy/economy_general/30447.html

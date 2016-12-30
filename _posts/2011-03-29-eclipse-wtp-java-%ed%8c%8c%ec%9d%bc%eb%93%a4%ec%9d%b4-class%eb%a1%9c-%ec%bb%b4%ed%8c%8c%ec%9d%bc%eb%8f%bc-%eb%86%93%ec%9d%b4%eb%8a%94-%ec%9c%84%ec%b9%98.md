@@ -38,7 +38,7 @@ eclipse 프로젝트의 최상위 폴더(workspace/projectName 폴더를 말한�
 참고로, 패키지 익스플로러에서 저 위치는 사라지게 된다. 아래 그림처럼, 경로만 나오고 파일이 표시되지 않거나, 그냥 경로가 통째로 사라지거나 한다.
 
 <p style="text-align: center;">
-  <img class="aligncenter" src="https://dl.dropbox.com/u/15546257/blog/mytory/eclipse-build.png" alt="" width="223" height="154" />
+  <img class="aligncenter" src="http://mytory.net/uploads/legacy/eclipse-build.png" alt="" width="223" height="154" />
 </p>
 
  [1]: http://mytory.net/archives/770 "[java]이클립스 WTP 사용시 실제 WebContent 경로"

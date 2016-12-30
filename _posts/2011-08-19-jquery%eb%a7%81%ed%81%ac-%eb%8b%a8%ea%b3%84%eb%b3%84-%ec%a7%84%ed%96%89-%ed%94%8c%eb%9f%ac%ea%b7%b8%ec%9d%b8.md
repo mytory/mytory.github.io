@@ -24,14 +24,14 @@ tags:
 아래 스크린샷 참고. 라이센스는 &#8220;Free to use and modify on both personal and commercial environment&#8221;라고 돼 있다. 개인적/상업적 이용과 수정 모두 무료.
 
 <p style="text-align: center;">
-  <a href="http://techlaboratory.net/labs/SmartWizard2/smartwizard2-validation.php"><img class="  aligncenter" src="https://dl.dropbox.com/u/15546257/blog/mytory/smart-wizard.png" alt="" /></a>
+  <a href="http://techlaboratory.net/labs/SmartWizard2/smartwizard2-validation.php"><img class="  aligncenter" src="http://mytory.net/uploads/legacy/smart-wizard.png" alt="" /></a>
 </p>
 
 ## [jQuery Stepy &#8211; A Wizard Plugin][2]
 
 아래 스크린샷 참고. 라이센스는 [MIT 라이센스][3]. 개인적/상업적 이용 자유, 저작권 표시 및 이 허가 표시 필수.
 
-[<img class="aligncenter" src="https://dl.dropbox.com/u/15546257/blog/mytory/stepy.jpg" alt="" width="529" height="271" />][2]
+[<img class="aligncenter" src="http://mytory.net/uploads/legacy/stepy.jpg" alt="" width="529" height="271" />][2]
 
  [1]: http://techlaboratory.net/products.php?product=smartwizard
  [2]: https://github.com/wbotelhos/stepy

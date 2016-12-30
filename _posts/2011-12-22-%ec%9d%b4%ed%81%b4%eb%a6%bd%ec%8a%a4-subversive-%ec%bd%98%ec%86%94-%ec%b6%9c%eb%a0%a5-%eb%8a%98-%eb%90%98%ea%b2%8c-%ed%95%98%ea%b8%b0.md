@@ -18,4 +18,4 @@ subclipse와 달리 subversive는 콘솔을 켜놓지 않으면 콘솔에 찍히
 
 그리고 Show console automatically 를 On output 으로 바꾼다. 기본값은 Never 라고 돼 있다.
 
-<img class="aligncenter" src="https://dl.dropbox.com/u/15546257/blog/mytory/subversive-console-setup.png" alt="" width="912" height="706" />
+<img class="aligncenter" src="http://mytory.net/uploads/legacy/subversive-console-setup.png" alt="" width="912" height="706" />

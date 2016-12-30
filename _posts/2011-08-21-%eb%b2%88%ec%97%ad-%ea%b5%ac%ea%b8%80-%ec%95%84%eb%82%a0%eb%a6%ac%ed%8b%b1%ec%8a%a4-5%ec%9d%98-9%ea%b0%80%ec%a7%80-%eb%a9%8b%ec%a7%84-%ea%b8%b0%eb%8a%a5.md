@@ -26,13 +26,13 @@ tags:
 만약 로그인할 때마다 봐야 하는 중요한 정보가 있다면 **대시보드** 영역에 세팅해 둬라.
 
 <p style="text-align: center;">
-  <img class="aligncenter" src="https://dl.dropbox.com/u/15546257/blog/mytory/awesome-google-analytics/google-analytics-5-dashboards.jpg" alt="" width="570" height="324" />
+  <img class="aligncenter" src="http://mytory.net/uploads/legacy/awesome-google-analytics/google-analytics-5-dashboards.jpg" alt="" width="570" height="324" />
 </p>
 
 여러 개의 대시보드를 만들 수도 있다. 각각의 대시보드는 여러 개의 위젯을 포함할 수 있다. 새 대시보드를 만드는 건 간단하다. 메뉴에 있는 **대시보드** 항목을 선택하고, 바로 아래쪽에 있는 **새 대시보드**를 누르면 된다. 그리고 자신의 위젯을 추가한다. 특정 통계, 비교 차트, 두 통계의 시간순 비교, 두 특정 통계와 함께 디멘션을 보여 주는 표 따위를 대시보드에 넣을 수 있다. 각 타입의 위젯을 필터링할 수도 있다.
 
 <p style="text-align: center;">
-  <img class="aligncenter" src="https://dl.dropbox.com/u/15546257/blog/mytory/awesome-google-analytics/google-analytics-5-dashboard-widget-setup.jpg" alt="" width="570" height="352" />
+  <img class="aligncenter" src="http://mytory.net/uploads/legacy/awesome-google-analytics/google-analytics-5-dashboard-widget-setup.jpg" alt="" width="570" height="352" />
 </p>
 
 대시보드 기능에서 최고인 점은, 날짜를 설정하고 해당 날짜에 맞춰서 모든 위젯을 업데이트하도록 할 수 있다는 점이다. 이건 트래픽 상태, 목표 성공률, 선택한 어떤 통계 같은 것을 한눈에 볼 수 있는 최고의 방법이다.
@@ -46,7 +46,7 @@ tags:
 고급 세그먼트를 만들기 위해, **고급 세그먼트** 드롭다운을 클릭하고 **새 맞춤 세그먼트**를 누른다. 지역 검색 트로픽을 추적하고 싶다면, 지역 검색 프로필 세그먼트라고 이름을 붙이고, **maps.google.com/maps/** 같은 구글 지도나 **yelp.com** 같은 걸 프로필에 쳐 넣는다. [역자 주: 아래 그림을 참고]
 
 <p style="text-align: center;">
-  <img class="aligncenter" src="https://dl.dropbox.com/u/15546257/blog/mytory/awesome-google-analytics/google-analytics-5-advanced-segments.jpg" alt="" width="570" height="409" />
+  <img class="aligncenter" src="http://mytory.net/uploads/legacy/awesome-google-analytics/google-analytics-5-advanced-segments.jpg" alt="" width="570" height="409" />
 </p>
 
 추척하길 원하는 도메인을 일단 다 넣으면, 데이터를 제대로 끌어오는지 확인하기 위해서 미리 보기를 할 수 있다. 그리고 나서 세그먼트를 저장한다. 저장한 세그먼트를 보려면, 고급 세그먼트를 클릭하고, 보려는 맞춤 세그먼트에 체크한 후 확인을 누른다. 그러면 그 소스들에서 온 트래픽과 목표 전환율을 볼 수 있다. 이 데이터는 자신의 웹사이트에서 뭐가 가장 잘 작동하고 있는지를 알려 줄 것이다. 방금 만든 맞춤 세그먼트를 이용하면, 다른 온라인 마케팅 전략처럼 소셜 미디어 캠페인의 ROI[투자 대비 수익]을 알아낼 수 있을 것이다.
@@ -58,7 +58,7 @@ tags:
 구글 아날리틱스 덕분에, 더이상 걱정할 필요가 없다. 방문자 메뉴 하단에 있는 **방문자** > 인구통계 > **위치 항목**을 보면 된다.
 
 <p style="text-align: center;">
-  <img class="aligncenter" src="https://dl.dropbox.com/u/15546257/blog/mytory/awesome-google-analytics/google-analytics-5-visitors-location.jpg" alt="" width="483" height="512" />
+  <img class="aligncenter" src="http://mytory.net/uploads/legacy/awesome-google-analytics/google-analytics-5-visitors-location.jpg" alt="" width="483" height="512" />
 </p>
 
 여기서 전세계의 통계를 볼 수 있다. 평균 사이트에 머문 시간, 특정 국가 방문자의 반송률[한 페이지만 보고 나간 비율 - 역자] 같은 것들 말이다. 또한 특정 국가를 드릴 다운해 특정 지역의 목표 전환률을 볼 수 있다.
@@ -66,7 +66,7 @@ tags:
 [역자 주: 방문자 분포 하단에 '목표 세트'라는 걸 확인하면 된다. 단, 그 전에 목표 세트 설정이 돼 있어야 한다. 한국 웹사이트들은 사실 위치 기능이 그닥 쓸모있지는 않을 거다. 한국어 웹사이트는 한국에서만 들어오기 때문이다.]
 
 <p style="text-align: center;">
-  <img class="aligncenter" src="https://dl.dropbox.com/u/15546257/blog/mytory/awesome-google-analytics/google-analytics-5-visitors-goals.jpg" alt="" width="447" height="512" />
+  <img class="aligncenter" src="http://mytory.net/uploads/legacy/awesome-google-analytics/google-analytics-5-visitors-goals.jpg" alt="" width="447" height="512" />
 </p>
 
 이걸 보면 어떤 국가의 방문자가 최고의 전환을 가져다 주는지 알 수 있다. 이를 바탕으로 타겟팅을 해서 광고를 집행하면 저 많은 목표 전환을 이룰 수 있을 것이다.
@@ -78,7 +78,7 @@ tags:
 만약 사이트에 검색 박스가 있다면, 검색을 해 보고 검색 결과의 URL을 살펴 봐라. 예를 들면, 내 블로그의 검색 결과 URL은 **http://kikolani.com/?s=blogging** 이다. 일단, 사이트에 이런 게 있으면 아날리틱스 우측 상단의 설정 톱니바퀴 아이콘을 눌러서 **프로필 설정**을 찾아라. **사이트 검색 설정** 파트의 &#8216;사이트 검색 추적&#8217; 옵션을 &#8216;사이트 검색 추적&#8217;으로 선택해 주고, &#8216;검색어 매개변수&#8217;에는 s라고 입력한다. (s는 예시이니, 자신의 사이트 검색 URL 구조에 맞게 넣어 줘야 한다.)
 
 <p style="text-align: center;">
-  <img class="aligncenter" src="https://dl.dropbox.com/u/15546257/blog/mytory/awesome-google-analytics/google-analytics-5-site-search.jpg" alt="" width="512" height="482" />
+  <img class="aligncenter" src="http://mytory.net/uploads/legacy/awesome-google-analytics/google-analytics-5-site-search.jpg" alt="" width="512" height="482" />
 </p>
 
 설정 결과를 보기 위해서는, 보고서의 **콘텐츠** 항목에 **사이트 검색** 영역으로 가면 된다. **검색어**에 가면 어떤 검색어가 사용되고 있는지 알 수 있다. 방문자가 검색어를 바꿔서 다시 검색을 했는지, 검색한 후 계속 사이트를 이용했는지 혹은 나갔는지 등의 정보를 통해 그들이 원하는 것을 찾았는지 알 수 있다. **페이지 항목**에서는 어느 페이지에서 사람들이 검색 기능을 이용했는지 볼 수 있다. 각각의 페이지를 클릭하면, 그들이 검색한 단어를 볼 수 있다.
@@ -90,7 +90,7 @@ tags:
 사람들이 사이트에서 어디를 가장 많이 클릭하는지 궁금한가? **콘텐츠** 항목에 있는 **인페이지 웹로그 분석**은 분석 브라우저를 띄워 사이트의 내부 링크에서 일어난 클릭을 퍼센트로 보여 준다.
 
 <p style="text-align: center;">
-  <img class="  aligncenter" src="https://dl.dropbox.com/u/15546257/blog/mytory/awesome-google-analytics/google-analytics-inpage-weblog.png" alt="" />
+  <img class="  aligncenter" src="http://mytory.net/uploads/legacy/awesome-google-analytics/google-analytics-inpage-weblog.png" alt="" />
 </p>
 
 각 링크에 마우스를 올리면 추가적으로 세부정보를 볼 수 있다. 그리고 링크를 클릭하면 해당 페이지로 가서 또 세부 정보를 보여 준다. 이 기능은 사이트에서 어떤 영역이 가장 인기있는지를 시각적으로 보여 준다. 그리고 사람들이 사이트에서 어디를 가장 많이 클릭하는지 판별할 수 있게 해 준다. 만약 사람들이 꼭 보기를 바라는 링크가 있다면, 가장 클릭이 많은 곳에 해당 링크를 배치해야 할 것이다.
@@ -100,7 +100,7 @@ tags:
 어떤 페이지에서 방문자들이 가장 시간을 많이 보내는지 알고싶은가? 아니면, 반송률이 가장 낮은 페이지를 알고 싶은가? **콘텐츠** 메뉴에 있는 **사이트 콘텐츠** 항목의 **페이지**를 보면 금방 알 수 있다.
 
 <p style="text-align: center;">
-  <img class="aligncenter" src="https://dl.dropbox.com/u/15546257/blog/mytory/awesome-google-analytics/google-analytics-5-top-content.jpg" alt="" width="512" height="470" />
+  <img class="aligncenter" src="http://mytory.net/uploads/legacy/awesome-google-analytics/google-analytics-5-top-content.jpg" alt="" width="512" height="470" />
 </p>
 
 이 섹션은 어떤 페이지가 사람들을 가장 오래 붙잡아 두며, 또 다른 페이지를 계속 둘러보게 만드는지 알 수 있도록 도와 준다. **이 기능의 도움을 받아서 당신은 사람들이 좋아하는 콘텐츠를 생산할 수 있을 것이다.**
@@ -110,7 +110,7 @@ tags:
 콘텐츠 메뉴에서 조금 아래로 내려가면 가장 많은 사람들이 이탈한 페이지 항목이 있다. 이 항목은 특정 페이지에서 얼마나 많은 사람들이 탐색을 종료하고 나갔는지를 보여 준다. [역자 주: 이탈 페이지 항목을 말한다.]
 
 <p style="text-align: center;">
-  <img class="aligncenter" src="https://dl.dropbox.com/u/15546257/blog/mytory/awesome-google-analytics/google-analytics-5-exit-pages.jpg" alt="" width="512" height="464" />
+  <img class="aligncenter" src="http://mytory.net/uploads/legacy/awesome-google-analytics/google-analytics-5-exit-pages.jpg" alt="" width="512" height="464" />
 </p>
 
 이 그림은 어느 정도는 일반적인 블로그의 통계를 보여 준다. 블로그에서 사람들은 특정 페이지를 찾아서 들어온 후 (희망컨대는) 만족한 후 떠난다. 하지만 다른 웹사이트에서, 이것은 사람들이 찾던 것을 찾지 못하고 떠났다는 것을 의미한다. 이것은 사이트의 콘텐츠를 한 번 평가해 볼 필요가 있다는 것을 의미한다. 사람들이 원하는 것을 찾은 다음 콜 투 액션을 하도록 만들고 있는지 말이다. 콜 투 액션은 사람들이 떠나기 전에 당신이 원하는 행위를 하도록 하는 것을 말하는데, 메일링 리스트 구독이나 제품 구입 같은 것을 말한다.
@@ -124,13 +124,13 @@ tags:
 그렇게 하려면, 설정 톱니바퀴 아이콘을 클릭하고, **목표**를 클릭하라. **목표 유형**이 **도착 URL**인 새 목표를 생성하라. 기본 목표의 세부정보로 들어간 후, 결제 프로세스의 마지막 페이지 URL을 입력하고, (흔히 마지막 페이지는 &#8220;감사합니다. 결제가 완료되었습니다.&#8221; 같은 말이나오는 페이지일 것이다.) **목표 유입경로**에 방문자가 물건을 사기 위해 거쳐야 하는 페이지들의 URL들을 입력한다.
 
 <p style="text-align: center;">
-  <img class="aligncenter" src="https://dl.dropbox.com/u/15546257/blog/mytory/awesome-google-analytics/google-analytics-5-goal-funnel.jpg" alt="" width="495" height="512" />
+  <img class="aligncenter" src="http://mytory.net/uploads/legacy/awesome-google-analytics/google-analytics-5-goal-funnel.jpg" alt="" width="495" height="512" />
 </p>
 
 이 설정을 사용하면, 사람들이 결제 프로세스의 어떤 단계에서 쇼핑 카드를 버리고 가 버리는지 보고서를 볼 수 있을 것이다.
 
 <p style="text-align: center;">
-  <img class="aligncenter" src="https://dl.dropbox.com/u/15546257/blog/mytory/awesome-google-analytics/google-analytics-5-funnel-visualization.jpg" alt="" width="488" height="512" />
+  <img class="aligncenter" src="http://mytory.net/uploads/legacy/awesome-google-analytics/google-analytics-5-funnel-visualization.jpg" alt="" width="488" height="512" />
 </p>
 
 만약 특정 페이지에서 많은 사람들이 구매를 포기하고 나가고 있다면, 해당 페이지를 좀더 쇼핑에 최적화시켜야 할 것이다. 혹은 사람들이 주문을 완료하기 전에 나간다면, 뭔가 빼먹은 것이 있다는 것을 알게 될 것이다. 그래서 사람들이 주문 완료 버튼을 누르고 싶지 않게 되는 것이다. 이런 이슈들을 수정하면 더 많은 상품이 더 오래 팔릴 것이다.
@@ -140,7 +140,7 @@ tags:
 웹사이트의 모바일 버전이 필요한지 궁금한가? **방문자** 메뉴를 살펴 보면 찾을 수 있다. 모바일 옵션을 찾을 수 있을 것이다. 이 메뉴에서는 모바일 디바이스로 들어온 사람이 몇 퍼센트나 되는지, 그 사람들은 어떤 기기를 사용하는지 알 수 있다.
 
 <p style="text-align: center;">
-  <img class="aligncenter" src="https://dl.dropbox.com/u/15546257/blog/mytory/awesome-google-analytics/google-analytics-5-mobile-visitors.jpg" alt="" width="512" height="490" />
+  <img class="aligncenter" src="http://mytory.net/uploads/legacy/awesome-google-analytics/google-analytics-5-mobile-visitors.jpg" alt="" width="512" height="490" />
 </p>
 
 이 화면에서 핵심은, 평균 사이트에 머문 시간과 이탈률이다. 만약 전체 평균에 비해 평균 사이트에 머문 시간은 낮고, 이탈률은 높다면, 모바일 트래픽을 많이 잃고 있다는 것을 알 수 있다.

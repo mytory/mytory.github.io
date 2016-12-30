@@ -3,14 +3,10 @@ title: '[번역] CSS 코드 이상 감지하기(Code smells in CSS)'
 author: 안형우
 layout: post
 permalink: /archives/8982
-daumview_id:
-  - 38430067
-categories:
-  - 웹 퍼블리싱
 tags:
   - CSS
 ---
-원문은 [Code smells in CSS][1]다.
+원문은 [CSS의 코드 냄새(Code smells in CSS)][1]다.
 
 Code smell은 리팩토링에서 사용하는 단어다. 코드에 이상한 부분이 생기면 냄새가 난다고 표현하는 것이다. 한국에서 &#8216;코드 냄새&#8217;는 널리 사용하는 단어가 아니다. 그래서 제목에선 그냥 &#8216;코드 이상 감지하기&#8217;라고 했다. 본문에선 섞어서 사용할 거다. 그럼 번역 시작.
 
@@ -18,7 +14,9 @@ Code smell은 리팩토링에서 사용하는 단어다. 코드에 이상한 부
 
 크리스 코이어는 최근 누군가의 질문에 [답했다.][2] 질문은 이거다.
 
-> CSS코드에서 냄새가 나는지 판단하는 방법을 알려 주실래요? 작성하면 안 되는 코드라는 징후는 뭔지, <a class="simple-footnote" title="What are the signs that the code is sub-optional" id="return-note-8982-1" href="#note-8982-1"><sup>1</sup></a> 혹은 개발자가 제대로 하지 못했다는 징후는 뭔지. 코드가 좋은지 나쁜지 어떻게 판단하시는지 궁금합니다.
+> CSS코드에서 냄새가 나는지 판단하는 방법을 알려 주실래요? 작성하면 안 되는 코드라는 징후는 뭔지,[^sub-optional] 혹은 개발자가 제대로 하지 못했다는 징후는 뭔지. 코드가 좋은지 나쁜지 어떻게 판단하시는지 궁금합니다.
+
+[^sub-optional]: What are the signs that the code is sub-optional
 
 크리스의 훌륭한 대답에 내 생각을 몇 가지를 덧붙여서 확장을 할 수 있겠다는 생각이 들었다.
 
@@ -26,9 +24,11 @@ Code smell은 리팩토링에서 사용하는 단어다. 코드에 이상한 부
 
 품질, 유지보수 용이성, 완결성(integrity)에 대해 생각할 거리를 던져 주는 CSS를 몇 가지만 공유를 해 보도록 하겠다. (미리 밝혀두지만, 이론의 여지 없이 내가 실수한 것들이다.)
 
-## 취소 스타일 <a class="simple-footnote" title="Undoing styles" id="return-note-8982-3" href="#note-8982-3"><sup>3</sup></a>
+## 취소 스타일(Undoing styles)
 
-스타일을 재설정하는 CSS는 죄다 분명한 경고음이다. (리셋 스타일은 빼고.) 자연스런 CSS는 이전에 설정된 것을 계층적으로 잘 상속한다. CSS 규칙 세트는 오직 상속하기만 하거나 부모 것에 추가를 해야지 취소를 하면 안 된다. <a class="simple-footnote" title="Any CSS that unsets styles (apart from in a reset) should start ringing alarm bells right away. The very nature of CSS is that things will, well, cascade and inherit from things defined previously. Rulesets should only ever inherit and add to previous ones, never undo." id="return-note-8982-4" href="#note-8982-4"><sup>4</sup></a>
+스타일을 재설정하는 CSS는 죄다 분명한 경고음이다. (리셋 스타일은 빼고.) 자연스런 CSS는 이전에 설정된 것을 계층적으로 잘 상속한다. CSS 규칙 세트는 오직 상속하기만 하거나 부모 것에 추가를 해야지 취소를 하면 안 된다.[^cancel]
+
+[^cancel]: Any CSS that unsets styles (apart from in a reset) should start ringing alarm bells right away. The very nature of CSS is that things will, well, cascade and inherit from things defined previously. Rulesets should only ever inherit and add to previous ones, never undo.
 
 어떤 CSS 선언은 이렇게 생겼다.
 
@@ -38,7 +38,9 @@ Code smell은 리팩토링에서 사용하는 단어다. 코드에 이상한 부
     margin-left:0;
     
 
-이런 게 **전형적인** 실수다. [이제 와서 - 역자] border를 제거해야 하는 거라면, 그전에 너무 빨리 border를 적용한 것이다. <a class="simple-footnote" title="If you are having to remove borders, you probably applied them too early." id="return-note-8982-5" href="#note-8982-5"><sup>5</sup></a> 말로 설명하기는 좀 힘드니까, 간단한 예제를 또 하나 들어 보겠다.
+이런 게 **전형적인** 실수다. [이제 와서 - 역자] border를 제거해야 하는 거라면, 그전에 너무 빨리 border를 적용한 것이다.[^early] 말로 설명하기는 좀 힘드니까, 간단한 예제를 또 하나 들어 보겠다.
+
+[^early]: If you are having to remove borders, you probably applied them too early.
 
     h2{
         font-size:2em;
@@ -78,7 +80,9 @@ CSS가 열 줄에, 클래스 이름도 이상하다. 이게 더 낫다.
 
 **스타일시트를 작성해 나갈 때, 스타일은 추가하기만 해야 한다. 취소하는 건 안 된다.** 스타일을 작성하다가 앞서 선언한 스타일을 취소해야 한다면, 바로 취소 스타일을 추가하기 십상이다. 경솔한 일이다.
 
-이건 아주 사소한 예다. 하지만 내가 짚고 싶은 점을 명확하게 짚어 준다. 수만 줄의 CSS를 생각해 보자. 엄청 지저분하고 쓸모없는 스타일 무효화 선언도 많다. 그렇게 되기 전에 더 간단하게 만들어라. <a class="simple-footnote" title="Peg things onto simpler things that came before it" id="return-note-8982-6" href="#note-8982-6"><sup>6</sup></a> 너무 복잡하게 만들지 마라. 나중에 일을 다시 해야 하도록 만들지 마라. 그랬다가는 **스타일 조금 고치는 데도 긴 CSS를 작성하게 될 거다.**
+이건 아주 사소한 예다. 하지만 내가 짚고 싶은 점을 명확하게 짚어 준다. 수만 줄의 CSS를 생각해 보자. 엄청 지저분하고 쓸모없는 스타일 무효화 선언도 많다. 그렇게 되기 전에 더 간단하게 만들어라.[^peg] 너무 복잡하게 만들지 마라. 나중에 일을 다시 해야 하도록 만들지 마라. 그랬다가는 **스타일 조금 고치는 데도 긴 CSS를 작성하게 될 거다.**
+
+[^peg]: Peg things onto simpler things that came before it
 
 이전 CSS 선언을 취소하는 스타일을 작성하게 되면, 나는 즉각 이렇게 생각한다. 뭔가 구조가 잘못됐기 때문에 이런 일이 벌어진 거야. 고쳐야겠어.
 
@@ -131,8 +135,10 @@ CSS가 열 줄에, 클래스 이름도 이상하다. 이게 더 낫다.
 기본적으로, 선택자 앞에 쓸모없는 HTML 태그가 들어가 있다. 이건 나쁜 징후다. 이유는 다음과 같다.
 
 *   다른 요소에서 전혀 재사용될 수 없다.
-*   CSS 점수(specificity)를 높인다. <a class="simple-footnote" title="역자 주 &#8211; CSS 점수는 같은 요소에 서로 다른 스타일이 선언돼 있을 때 우선순위를 판단하는 점수다. 점수가 높을수록 우선순위가 높다. 이 때의 점수를 specificity라고 하는 것 같다." id="return-note-8982-7" href="#note-8982-7"><sup>7</sup></a>
+*   CSS 점수(specificity)를 높인다.[^specificity]
 *   브라우저 작업량을 증가시킨다. (성능을 저하시킨다.)
+
+[^specificity]: 특정도(specificity)는 같은 요소에 서로 다른 스타일이 선언돼 있을 때 우선순위를 판단하는 점수다.
 
 이건 모두 나쁜 특성이다. 위 선택자들은 이렇게 쓸 수 있고, 이렇게 써야 한다.
 
@@ -215,7 +221,9 @@ CSS가 열 줄에, 클래스 이름도 이상하다. 이게 더 낫다.
 
 **주의.** 이건 line-height에만 적용되는 게 아니다. 기본적으로 스타일시트에 하드코딩된 절대값이 있다면 경고로 받아들이고 의심해 봐야 한다.
 
-절대값은 미래에 어떻게 될지 모르고, 유연하지 않다. 따라서 피해야 한다. 절대값을 사용할 수 있는 유일한 경우는 스프라이트처럼 **언제나** 같은 값이 필요한 경우다.  <a class="simple-footnote" title="역자 주 &#8211; 스프라이트란, 웹사이트의 이미지 들을 하나의 커다란 이미지로 만든 다음 배경 위치를 지정함으로써 각각의 다른 이미지를 표시하는 방식. http 요청을 줄여 사이트 성능을 높이기 위해 사용하는 방식이다. 더 알고 싶다면 CSS sprite로 검색해 봐라." id="return-note-8982-8" href="#note-8982-8"><sup>8</sup></a>
+절대값은 미래에 어떻게 될지 모르고, 유연하지 않다. 따라서 피해야 한다. 절대값을 사용할 수 있는 유일한 경우는 스프라이트처럼 **언제나** 같은 값이 필요한 경우다.[^sprite]
+
+[^sprite]: 스프라이트란, 웹사이트의 이미지 들을 하나의 커다란 이미지로 만든 다음 배경 위치를 지정함으로써 각각의 다른 이미지를 표시하는 방식. http 요청을 줄여 사이트 성능을 높이기 위해 사용하는 방식이다. 더 알고 싶다면 CSS sprite로 검색해 봐라.
 
 나는 스타일시트에서 절대값을 보면, 이게 필요한 이유를 묻고 피할 방법을 찾는다.
 
@@ -232,13 +240,19 @@ CSS가 열 줄에, 클래스 이름도 이상하다. 이게 더 낫다.
     }
     
 
-**끔찍한** CSS다. 모든 선언은 필요 이상으로 엄격하고, 폭력적이고, 어디에 어떻게 렌더링할 것인지 **완전히** 강제함으로써 레이아웃에 영향을 준다. <a class="simple-footnote" title="This is terrible CSS. All of these declarations are heavy-handed, brute-forced, layout-affecting declarations which are clearly only used to force something to render as and where it’s wanted." id="return-note-8982-9" href="#note-8982-9"><sup>9</sup></a>
+**끔찍한** CSS다. 모든 선언은 필요 이상으로 엄격하고, 폭력적이고, 어디에 어떻게 렌더링할 것인지 **완전히** 강제함으로써 레이아웃에 영향을 준다.[^terrible]
+
+[^terrible]: This is terrible CSS. All of these declarations are heavy-handed, brute-forced, layout-affecting declarations which are clearly only used to force something to render as and where it’s wanted.
 
 이런 종류의 CSS는 솜씨가 부족한 코드라는 것을 나타낼 뿐 아니라, 박스 모델 혹은 레이아웃, 아니면 둘 다에 대한 이해가 부족하다는 것을 나타낸다.
 
-잘 작성된 레이아웃은 폭력적으로 스타일을 지정할 필요가 없다. 박스 모델과 레이아웃을 견고하게 이해하고 스타일을 좀더 계산적으로 사용하면 <a class="simple-footnote" title="taking a look at your computed styles more often" id="return-note-8982-10" href="#note-8982-10"><sup>10</sup></a> 이런 상황에 처할 일이 거의 없다.
+잘 작성된 레이아웃은 폭력적으로 스타일을 지정할 필요가 없다. 박스 모델과 레이아웃을 견고하게 이해하고 스타일을 좀더 계산적으로 사용하면[^computed] 이런 상황에 처할 일이 거의 없다.
 
-나는 폭력적으로 사용된 CSS를 발견하면 왜 이런 일이 벌어졌는지 알아 보고, 돌이켜서 더 합리적으로 해결할 수 있는 방법을 찾아 본다. <a class="simple-footnote" title="As soon as I see brute-forced CSS I want to know how it happened, and how far back we need to unpick things before we can lay things out more rationally." id="return-note-8982-11" href="#note-8982-11"><sup>11</sup></a>
+[^computed]: taking a look at your computed styles more often
+
+나는 폭력적으로 사용된 CSS를 발견하면 왜 이런 일이 벌어졌는지 알아 보고, 돌이켜서 더 합리적으로 해결할 수 있는 방법을 찾아 본다.[^as-soon-as]
+
+[^as-soon-as]: As soon as I see brute-forced CSS I want to know how it happened, and how far back we need to unpick things before we can lay things out more rationally.
 
 ## 위험한 선택자(Dangerous selectors)
 
@@ -284,11 +298,15 @@ CSS가 열 줄에, 클래스 이름도 이상하다. 이게 더 낫다.
 
 ## 즉흥적인 `!important`(Reactive `!important)`
 
-`!important`는 좋은 놈이다. 좋은 것이고, 음&#8230; **중요한** 툴이다. 그러나 `!important`는 오직 특정한 상황에서반 사용해야 한다.
+`!important`는 좋은 놈이다. 좋은 것이고, 음... **중요한** 툴이다. 그러나 `!important`는 오직 특정한 상황에서반 사용해야 한다.
 
-**`!important`는 명확한 의도를 갖고(**proactively**) 사용해야지 즉흥적으로 사용하면 안 된다.** <a class="simple-footnote" title="!important should only ever be used proactively, not reactively." id="return-note-8982-12" href="#note-8982-12"><sup>12</sup></a>
+**`!important`는 명확한 의도를 갖고(**proactively**) 사용해야지 즉흥적으로 사용하면 안 된다.**[^important]
 
-이 말이 뜻하는 바는, 언제나, **언제나** 우선 적용할 스타일이라는 점을 알고 있을 때, 그리고 이것을 늘 추적하고 있을 때만 `!important`를 사용하라는 것이다. <a class="simple-footnote" title="By this I mean that there are times when you know you will always, always want a style to take precedence, and you will know this up front." id="return-note-8982-13" href="#note-8982-13"><sup>13</sup></a>
+[^important]: !important should only ever be used proactively, not reactively.
+
+이 말이 뜻하는 바는, 언제나, **언제나** 우선 적용할 스타일이라는 점을 알고 있을 때, 그리고 이것을 늘 추적하고 있을 때만 `!important`를 사용하라는 것이다.[^precedence]
+
+[^precedence]: By this I mean that there are times when you know you will always, always want a style to take precedence, and you will know this up front.
 
 예컨대, 에러는 **언제나** 빨간 색이라는 것을 알 거다. 그래서 이런 선언은 아무 상관이 없다.
 
@@ -301,26 +319,29 @@ CSS가 열 줄에, 클래스 이름도 이상하다. 이게 더 낫다.
 
 `!important`가 나쁜 경우는 즉흥적으로 사용됐을 때다. 말하자면, `!important`를 특정 문제를 회피하는 데 사용하거나, 곤경에 처했을 때 강제로 해결하기 위해 `!important`에 의존하는 것이다. 이런 게 `!important`를 즉흥적으로 사용하는 경우고, 이건 나쁜 소식이다.
 
-`!important`를 즉흥적으로 사용하게 되는 경우는 CSS를 잘못 사용했을 때밖에 없다. `!important`는 어떤 문제점도 수정하지 않는다. 증상만 덮을 뿐이다. 문제는 여전히 남아있다. `!important`에 가려서 묻혀 있을 뿐이다. <a class="simple-footnote" title="The problems still exist, but now with and added layer of super-specificity that will take yet more specificity to overcome." id="return-note-8982-14" href="#note-8982-14"><sup>14</sup></a>
+`!important`를 즉흥적으로 사용하게 되는 경우는 CSS를 잘못 사용했을 때밖에 없다. `!important`는 어떤 문제점도 수정하지 않는다. 증상만 덮을 뿐이다. 문제는 여전히 남아있다. `!important`에 가려서 묻혀 있을 뿐이다.[^overcome]
+
+[^overcome]: The problems still exist, but now with and added layer of super-specificity that will take yet more specificity to overcome.
 
 나는 명확한 의도가 있는 한 `!important` 사용하기를 망설이지 않는다. `!important`를 즉흥적으로 사용한 경우를 보는 순간, 나는 잘못된 CSS 구조가 있을 것이라고 생각하고, 리팩토링을 한다. 성급하게 불필요한 강제력을 사용하지 않는다.
 
 ## ID <a class="simple-footnote" title="IDs" id="return-note-8982-15" href="#note-8982-15"><sup>15</sup></a>
 
-이건 나에게 특히 그런 것이고, 커다란 팀에게도 해당된다. [나는 예전에 ID가 별로 좋은 생각이 아니라고 쓴 적이 있다.][4] CSS 점수가 엄청 높기 때문이다. <a class="simple-footnote" title="because of their heightened specificity. CSS 점수가 높은 걸 high specificity라고 하나보다. 스타일 정의가 겹칠 경우 선택자의 점수가 높은 놈이 우선 적용된다." id="return-note-8982-16" href="#note-8982-16"><sup>16</sup></a> ID는 전혀 쓸모가 없고 **CSS에서는 사용하면 안 된다.** 책갈피나 자바스크립트 이벤트를 거는 데 사용하고, CSS에서는 사용하지 마라.
+이건 나에게 특히 그런 것이고, 커다란 팀에게도 해당된다. [나는 예전에 ID가 별로 좋은 생각이 아니라고 쓴 적이 있다.][4] 특정도(specificity)가 높기 때문이다. ID는 전혀 쓸모가 없고 **CSS에서는 사용하면 안 된다.** 책갈피나 자바스크립트 이벤트를 거는 데 사용하고, CSS에서는 사용하지 마라.
 
 이유는 간단하다.
 
-*   ID는 한 페이지에서 두 번 사용될 수 **없다.  
-    **
+*   ID는 한 페이지에서 두 번 사용될 수 **없다.**
 *   클래스는 한 페이지에 한 번만 존재해도 되고 여러 번 존재해도 된다.
 *   ID를 클래스로 바꾸면 재사용이 가능해지는 경우가 많다.
-*   [ID 하나는 클래스 하나보다 **255배** 강력하다&#8230;][5]  <a class="simple-footnote" title="CSS 점수가 높다는 걸 의미한다. 링크 클릭해 보면 뭔 말인지 알 수 있을 거다. ID는 100점, 클래스는 10점, 태그는 1점으로 알고 있었는데, 그게 또 다르게 적용되는 경우도 있나 보다. 근데 CSS 점수가 ID는 100점, 클래스는 10점, 태그는 1점으로 알고 있었는데, 그게 또 다르게 적용되는 경우도 있나 보다." id="return-note-8982-17" href="#note-8982-17"><sup>17</sup></a>
-*   이건, ID를 [다른 스타일로] 덮어쓰려면 연결된 클래스 256개가 필요하다는 걸 의미한다.
+*   <del>[ID 하나는 클래스 하나보다 **255배** 강력하다...][5]</del> *클래스보다 무한히 강력하다*
+*   이건, <del>ID를 [다른 스타일로] 덮어쓰려면 연결된 클래스 256개가 필요하다는</del> *아무리 많은 클래스로도 ID를 덮어쓸 수 없다는* 걸 의미한다.
 
-ID를 사용하지 말라고 설득하기 위해 내가 꺼낼 수 있는 마지막 카드는 &#8230; 뭔지 모르겠다. <a class="simple-footnote" title="then I don’t know what will…" id="return-note-8982-18" href="#note-8982-18"><sup>18</sup></a>
+ID를 사용하지 말라고 설득하기 위해 내가 꺼낼 수 있는 마지막 카드는 ... 뭔지 모르겠다.[^id]
 
-나는 스타일시트에서 ID를 발견하는 순간, 클래스로 바꾼다. 강력한 선택자로 구성된 CSS는 프로젝트를 소용돌이에 빠뜨리므로, 느슨하게 유지하는 게 좋다. <a class="simple-footnote" title="좀더 직역하면, &#8220;특정성(specificity)은 프로젝트를 소용돌이에 빠뜨리므로 낮게 유지하는 게 핵심이다.&#8221; Specificity is how projects start to spiral so it is vital to keep it low." id="return-note-8982-19" href="#note-8982-19"><sup>19</sup></a>
+[^id]: then I don’t know what will…
+
+나는 스타일시트에서 ID를 발견하는 순간, 클래스로 바꾼다. 특정도가 프로젝트를 소용돌이에 빠지게 만드니, 낮게 유지하는 게 핵심이다.
 
 재미삼아 푸는 문제 : [이 문제][6]를 **우아하게** 풀어 봐라. 힌트 : [이것은 우아하지 않다.][7] [이것도.][8]
 
@@ -333,7 +354,9 @@ ID를 사용하지 말라고 설득하기 위해 내가 꺼낼 수 있는 마지
 *   클래스 자체에서 그것의 목적을 알아낼 수가 없다.
 *   이름이 너무 모호해서 다른 개발자가 우연히 다른 의도로 사용하게 되기 쉽다.
 
-첫 번째 지적은 정말 단순하다. `.card`가 의미하는 바가 뭘까? 스타일은 어떤 모양일까? 트렐로 <a class="simple-footnote" title="프로젝트 협업 관리 툴. 카드 모양 인터페이스를 사용한다." id="return-note-8982-20" href="#note-8982-20"><sup>20</sup></a> 풍으로 각 카드가 컴포넌트인 컨셉인가? 포커 웹사이트에서 카드 게임 하기에 붙인 클래스인가? 크레딧 카드를 의미하는가? 판단하기 힘들다. 너무 느슨하기 때문이다. 이게 크레딧 카드를 의미한다고 해 보자. 이 클래스는 `.credit-card-image{}` 라고 하는 게 훨씬 나을 것이다. 물론 더 길다. 맞다. 그리고 더 낫다. 완전 맞다! <a class="simple-footnote" title="hell yes!" id="return-note-8982-21" href="#note-8982-21"><sup>21</sup></a>
+첫 번째 지적은 정말 단순하다. `.card`가 의미하는 바가 뭘까? 스타일은 어떤 모양일까? 트렐로[^trello] 풍으로 각 카드가 컴포넌트인 컨셉인가? 포커 웹사이트에서 카드 게임 하기에 붙인 클래스인가? 크레딧 카드를 의미하는가? 판단하기 힘들다. 너무 느슨하기 때문이다. 이게 크레딧 카드를 의미한다고 해 보자. 이 클래스는 `.credit-card-image{}` 라고 하는 게 훨씬 나을 것이다. 물론 더 길다. 맞다. 그리고 더 낫다. 완전 맞다!(hell yes!)
+
+[^trello]: 프로젝트 협업 관리 툴. 카드 모양 인터페이스를 사용한다.
 
 느슨한 클래스 이름을 사용할 때 두 번째 문제는 (우연히) 재정의되기가 아주 쉽다는 거다. 전자 상거래 사이트에서 일하고 있다고 해 보자. 역시 `.card`를 사용했다고 치자. `.card`는사용자의 계정으로 연결된 크레딧 카드 모양의 링크다. 이제 다른 개발자가 기능을 추가하러 왔다고 치자. 뭔가를 구입해서 다른 사람에게 선물을 줄 때 카드로 메시지를 첨부할 수 있는 기능이다. `.card`를 어딘가에 다시 사용하고 싶을 것이다. 이건 **잘못**이다. 하지만 확실히, (거의 일어날 것 같지 않은 일이겠지만) .card 클래스를 재정의하고 덮어쓸 수 있다.
 
@@ -347,84 +370,11 @@ ID를 사용하지 말라고 설득하기 위해 내가 꺼낼 수 있는 마지
 
 물론, 모든 규칙에는 예외가 있다. 하지만 각 사례별로 다르게 다뤄야 할 거다. 그러나 대부분은, 여기 있는 모든 것들은 내가 피하기 위해 노력하는 것들이고, CSS에서 한 눈에 알아볼 수 있는 것들이다.
 
-## 내가 말한 것들을 연습할 때&#8230;
+## 내가 말한 것들을 연습할 때...
 
-내가 알기로 이 사이트는 이 규칙들을 거의 다 어기고 있다. 그래서 [이에 대해 댓글을 남겼다.][9] [역자 주 - 그런데 지금은 없다.] <a class="simple-footnote" title="I am more than aware that this site goes against nearly all of these rules, so I left a brief comment on the matter." id="return-note-8982-22" href="#note-8982-22"><sup>22</sup></a>
+내가 알기로 이 사이트는 이 규칙들을 거의 다 어기고 있다. 그래서 [이에 대해 댓글을 남겼다.][9] [역자 주 - 그런데 지금은 없다.][^comment]
 
-<div class="simple-footnotes">
-  <p class="notes">
-    Notes:
-  </p>
-  
-  <ol>
-    <li id="note-8982-1">
-      What are the signs that the code is sub-optional <a href="#return-note-8982-1">&#8617;</a>
-    </li>
-    <li id="note-8982-2">
-      역자 주 &#8211; 어쩔 수 없이 놔둬야 하는 나쁜 코드가 있다는 것 같다. when you’re working on one site for months on end, you can’t afford poor code, be it CSS or otherwise, and any bad code needs righting. <a href="#return-note-8982-2">&#8617;</a>
-    </li>
-    <li id="note-8982-3">
-      Undoing styles <a href="#return-note-8982-3">&#8617;</a>
-    </li>
-    <li id="note-8982-4">
-      Any CSS that unsets styles (apart from in a reset) should start ringing alarm bells right away. The very nature of CSS is that things will, well, cascade and inherit from things defined previously. Rulesets should only ever inherit and add to previous ones, never undo. <a href="#return-note-8982-4">&#8617;</a>
-    </li>
-    <li id="note-8982-5">
-      If you are having to remove borders, you probably applied them too early. <a href="#return-note-8982-5">&#8617;</a>
-    </li>
-    <li id="note-8982-6">
-      Peg things onto simpler things that came before it <a href="#return-note-8982-6">&#8617;</a>
-    </li>
-    <li id="note-8982-7">
-      역자 주 &#8211; CSS 점수는 같은 요소에 서로 다른 스타일이 선언돼 있을 때 우선순위를 판단하는 점수다. 점수가 높을수록 우선순위가 높다. 이 때의 점수를 specificity라고 하는 것 같다. <a href="#return-note-8982-7">&#8617;</a>
-    </li>
-    <li id="note-8982-8">
-      역자 주 &#8211; 스프라이트란, 웹사이트의 이미지 들을 하나의 커다란 이미지로 만든 다음 배경 위치를 지정함으로써 각각의 다른 이미지를 표시하는 방식. http 요청을 줄여 사이트 성능을 높이기 위해 사용하는 방식이다. 더 알고 싶다면 CSS sprite로 검색해 봐라. <a href="#return-note-8982-8">&#8617;</a>
-    </li>
-    <li id="note-8982-9">
-      This is <em>terrible</em> CSS. All of these declarations are heavy-handed, brute-forced, layout-affecting declarations which are <em>clearly</em> only used to force something to render as and where it’s wanted. <a href="#return-note-8982-9">&#8617;</a>
-    </li>
-    <li id="note-8982-10">
-      taking a look at your computed styles more often <a href="#return-note-8982-10">&#8617;</a>
-    </li>
-    <li id="note-8982-11">
-      As soon as I see brute-forced CSS I want to know how it happened, and how far back we need to unpick things before we can lay things out more rationally. <a href="#return-note-8982-11">&#8617;</a>
-    </li>
-    <li id="note-8982-12">
-      <code>!important</code> should only ever be used proactively, not reactively. <a href="#return-note-8982-12">&#8617;</a>
-    </li>
-    <li id="note-8982-13">
-      By this I mean that there are times when you know you will always, <em>always</em> want a style to take precedence, and you will know this up front. <a href="#return-note-8982-13">&#8617;</a>
-    </li>
-    <li id="note-8982-14">
-      The problems still exist, but now with and added layer of super-specificity that will take yet more specificity to overcome. <a href="#return-note-8982-14">&#8617;</a>
-    </li>
-    <li id="note-8982-15">
-      IDs <a href="#return-note-8982-15">&#8617;</a>
-    </li>
-    <li id="note-8982-16">
-      because of their heightened specificity. CSS 점수가 높은 걸 high specificity라고 하나보다. 스타일 정의가 겹칠 경우 선택자의 점수가 높은 놈이 우선 적용된다. <a href="#return-note-8982-16">&#8617;</a>
-    </li>
-    <li id="note-8982-17">
-      CSS 점수가 높다는 걸 의미한다. 링크 클릭해 보면 뭔 말인지 알 수 있을 거다. ID는 100점, 클래스는 10점, 태그는 1점으로 알고 있었는데, 그게 또 다르게 적용되는 경우도 있나 보다. 근데 CSS 점수가 ID는 100점, 클래스는 10점, 태그는 1점으로 알고 있었는데, 그게 또 다르게 적용되는 경우도 있나 보다. <a href="#return-note-8982-17">&#8617;</a>
-    </li>
-    <li id="note-8982-18">
-      then I don’t know what will… <a href="#return-note-8982-18">&#8617;</a>
-    </li>
-    <li id="note-8982-19">
-      좀더 직역하면, &#8220;특정성(specificity)은 프로젝트를 소용돌이에 빠뜨리므로 낮게 유지하는 게 핵심이다.&#8221; Specificity is how projects start to spiral so it is vital to keep it low. <a href="#return-note-8982-19">&#8617;</a>
-    </li>
-    <li id="note-8982-20">
-      프로젝트 협업 관리 툴. 카드 모양 인터페이스를 사용한다. <a href="#return-note-8982-20">&#8617;</a>
-    </li>
-    <li id="note-8982-21">
-      hell yes! <a href="#return-note-8982-21">&#8617;</a>
-    </li>
-    <li id="note-8982-22">
-      I am more than aware that this site goes against nearly all of these rules, so I left <a href="http://csswizardry.com/2012/11/code-smells-in-css/#comment-253931">a brief comment on the matter</a>. <a href="#return-note-8982-22">&#8617;</a>
-    </li>
-  </ol>
-</div>
+[^comment]: I am more than aware that this site goes against nearly all of these rules, so I left a brief comment on the matter.
 
  [1]: http://csswizardry.com/2012/11/code-smells-in-css/
  [2]: http://coding.smashingmagazine.com/2012/07/13/coding-qa-with-chris-coyier-code-smell-type-grid/

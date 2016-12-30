@@ -80,9 +80,9 @@ $('#mask').click(function () {
     $('.window').hide();  
 });</pre>
 
-위 코드들은 당연히 jQuery(document).ready(function(){ /\*코드 넣는 부분\*/ }) 으로 감싸 줘야 한다.
+위 코드들은 당연히 `jQuery(document).ready(function(){ /\*코드 넣는 부분\*/ })` 으로 감싸 줘야 한다.
 
-완성된 코드는 아래와 같다. (주의! DTD 선언을 하지 않으면  IE에서 깨진다!)
+완성된 코드는 아래와 같다. (주의! DTD 선언을 하지 않으면 IE에서 깨진다! 아마 쿽스모드로 렌더링하기 때문일 것이다.)
 
 <pre class="brush:js; html-script: true">&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"&gt;
 &lt;html&gt;

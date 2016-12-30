@@ -370,12 +370,6 @@ ID를 사용하지 말라고 설득하기 위해 내가 꺼낼 수 있는 마지
 
 물론, 모든 규칙에는 예외가 있다. 하지만 각 사례별로 다르게 다뤄야 할 거다. 그러나 대부분은, 여기 있는 모든 것들은 내가 피하기 위해 노력하는 것들이고, CSS에서 한 눈에 알아볼 수 있는 것들이다.
 
-## 내가 말한 것들을 연습할 때...
-
-내가 알기로 이 사이트는 이 규칙들을 거의 다 어기고 있다. 그래서 [이에 대해 댓글을 남겼다.][9] [역자 주 - 그런데 지금은 없다.][^comment]
-
-[^comment]: I am more than aware that this site goes against nearly all of these rules, so I left a brief comment on the matter.
-
  [1]: http://csswizardry.com/2012/11/code-smells-in-css/
  [2]: http://coding.smashingmagazine.com/2012/07/13/coding-qa-with-chris-coyier-code-smell-type-grid/
  [3]: http://csswizardry.com/2012/07/shoot-to-kill-css-selector-intent/
@@ -384,4 +378,3 @@ ID를 사용하지 말라고 설득하기 위해 내가 꺼낼 수 있는 마지
  [6]: http://jsfiddle.net/csswizardry/9wGac/
  [7]: http://jsfiddle.net/csswizardry/9wGac/1/
  [8]: http://jsfiddle.net/csswizardry/9wGac/2/
- [9]: http://csswizardry.com/2012/11/code-smells-in-css/#comment-253931

@@ -217,14 +217,14 @@ function parseJSON(){
         //서버의 응답 상태 : 200 : ok
         if (xmlHttp.status == 200) {
             // responseText -- 서버에서 응답한 데이터.
-            var jsonData = xmlHttp.responseText;
-            <mark>var myJSONObject = eval('('+jsonData+')');</mark>
+            var jsonString = xmlHttp.responseText;
+            <mark>var myJSONObject = eval('('+jsonString+')');</mark>
         }
     }
 }
 </pre>
 
-8번 라인이 중요한데, JSON 문자열인 jsonData를 eval 함수를 이용해 가공한다.
+8번 라인이 중요한데, JSON 문자열인 `jsonString`을 `eval()` 함수로 가공한다.
 
 
 ## euc-kr PHP JSON 한글 처리

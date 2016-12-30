@@ -51,4 +51,4 @@ tags:
 [2013-01-06 추가] 버전 1.2로 업데이트했다. 안에 태그가 있어도 작동하도록 했다.
 
  [1]: https://github.com/mytory/jquery-word-break-keep-all
- [2]: http://dl.dropbox.com/u/15546257/code/jquery-word-break-keep-all-plugin/example.html
+ [2]: http://mytory.net/uploads/code/jquery-word-break-keep-all-plugin/example.html

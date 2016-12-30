@@ -172,5 +172,5 @@ $('#mask').one('touchstart', function () {
 
  [1]: http://mytory.net/archives/812 "[jQuery] 레이어 팝업 박스를 화면 정 가운데 위치시키기(ie든 파폭이든 크롬이든 다 되는 거)"
  [2]: http://mytory.net/archives/1174 "[jQuery] 레이어 팝업으로 이미지를 띄울 때 이미지가 다 불러진 다음 이미지 사이즈를 계산해서 화면 정 중앙에 오게 하기"
- [3]: http://dl.dropbox.com/u/15546257/code/black-cover.html
- [4]: http://dl.dropbox.com/u/15546257/code/black-cover2.html
+ [3]: http://mytory.net/uploads/code/black-cover.html
+ [4]: http://mytory.net/uploads/code/black-cover2.html

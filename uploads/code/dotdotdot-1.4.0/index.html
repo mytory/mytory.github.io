@@ -1,0 +1,162 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="content-type" content="text/html;charset=euc-kr" />
+		<meta name="author" content="www.frebsite.nl" />
+
+		<title>dotdotdot, cross-browser ellipsis for multile line content.</title>
+
+		<script type="text/javascript" language="javascript" src="jquery.js"></script>
+		<script type="text/javascript" language="javascript" src="jquery.dotdotdot-1.4.0-packed.js"></script>
+		<script type="text/javascript" language="javascript">
+			$(function() {
+				$('#dot1').dotdotdot();
+				$('#dot2').dotdotdot({
+					after: 'a.more',
+					wrapper: 'span',
+					height: 100,
+					tolerance: 50,
+					wrap: 'children'
+				});
+				$('#dot3').dotdotdot({
+					watch: 'window'
+				});
+			});
+		</script>
+		<style type="text/css" media="all">
+			html, body {
+				padding: 0;
+				margin: 0;
+				height: 100%;
+			}
+			body, div, p {
+				font-family: 'malgun gothic','nanumgothic';
+				color: #333;
+			}
+			body {
+				background-color: #f3f3f3;
+			}
+			a, a:link, a:active, a:visited {
+				color: black;
+				text-decoration: underline;
+			}
+			a:hover {
+				color: #9E1F63;
+			}
+
+
+			#wrapper {
+				background-color: #fff;
+				width: 600px;
+				padding: 50px 50px 150px 50px;
+				margin: 0 auto;
+				border: 1px solid #ccc;
+				box-shadow: 0 0 5px #ccc;
+			}
+			#intro {
+				margin-bottom: 60px;
+			}
+			#intro p {
+				font-size: 18px;
+			}
+
+			div.example {
+				padding: 0 0 120px 0;
+			}
+			div.l {
+				width: 275px;
+				float: left;
+			}
+			div.r {
+				width: 275px;
+				float: right;
+			}
+			div.c {
+				float: none;
+				clear: both;
+			}
+			
+			div.box {
+				border: 1px solid #ccc;
+				height: 220px;
+				padding: 15px 20px 10px 20px;
+/* 				overflow: hidden; */
+			}
+			div.resize div.box {
+				position: absolute;
+				width: 40%;
+				height: 100px;
+			}
+			div.resize div.box.before {
+				right: 50%;
+				margin-right: 10px;
+			}
+			div.resize div.box.after {
+				left: 50%;
+				margin-left: 10px;
+			}
+			div.box.before {
+				background-color: #ffeeee;
+			}
+			div.box.after {
+				background-color: #eeffee;
+			}
+			p.before {
+				color: #990000;
+			}
+			p.after {
+				color: #006600;
+			}
+		</style>
+	</head>
+	<body>
+		<br />
+		<br />
+		<div id="wrapper">
+			<div id="intro">
+				<h1>jQuery.dotdotdot</h1>
+				<p>Advanced cross-browser ellipsis for multiple line content.<br />
+					Demo's and documentation: <a href="http://dotdotdot.frebsite.nl" target="_blank">dotdotdot.frebsite.nl</a></p>
+			</div>
+
+			<div class="example">
+				<p><strong>Text only:</strong></p>
+				<div class="l">
+					<p class="before">before:</p>
+					<div class="box before">해군과 정부 당국은 절차상 문제가 없고 주민 합의가 끝났다고 얘기하는데요? 강정마을은 인구가 1천9백 명 정도 되는데, 2007년 4월 26일 고작 87명만 모인 마을 임시총회에서 박수로 해군기지 유치가 결정됐습니다. 불과 20일 만에 신속하게 결정해 버린 겁니다.  결국 2007년 8월 10일 마을 임시총회에서 해군기지 유치 결의를 주도한 마을회장을 해임하죠. 열흘 후인 8월 20일에는 ‘해군기지 유치 찬반을 묻는 주민투표’를 했는데, 주민 7백25명이 참가해 94퍼센트인 6백80명이 유치에 반대했어요. </div>
+				</div>
+				<div class="r">
+					<p class="after">after:</p>
+					<div class="box after" id="dot1">해군과 정부 당국은 절차상 문제가 없고 주민 합의가 끝났다고 얘기하는데요? 강정마을은 인구가 1천9백 명 정도 되는데, 2007년 4월 26일 고작 87명만 모인 마을 임시총회에서 박수로 해군기지 유치가 결정됐습니다. 불과 20일 만에 신속하게 결정해 버린 겁니다.  결국 2007년 8월 10일 마을 임시총회에서 해군기지 유치 결의를 주도한 마을회장을 해임하죠. 열흘 후인 8월 20일에는 ‘해군기지 유치 찬반을 묻는 주민투표’를 했는데, 주민 7백25명이 참가해 94퍼센트인 6백80명이 유치에 반대했어요. </div>
+				</div>
+				<div class="c"></div>
+			</div>
+			<div class="example">
+				<p><strong>&quot;after&quot; 옵션 사용시:</strong></p>
+				<div class="l">
+					<p class="before">before:</p>
+					<div class="box before">해군과 정부 당국은 절차상 문제가 없고 주민 합의가 끝났다고 얘기하는데요? 강정마을은 인구가 1천9백 명 정도 되는데, 2007년 4월 26일 고작 87명만 모인 마을 임시총회에서 박수로 해군기지 유치가 결정됐습니다. 불과 20일 만에 신속하게 결정해 버린 겁니다.  결국 2007년 8월 10일 마을 임시총회에서 해군기지 유치 결의를 주도한 마을회장을 해임하죠. 열흘 후인 8월 20일에는 ‘해군기지 유치 찬반을 묻는 주민투표’를 했는데, 주민 7백25명이 참가해 94퍼센트인 6백80명이 유치에 반대했어요.  <a href="#" class="readmore">▶더 보기</a></div>
+				</div>
+				<div class="r">
+					<p class="after">after:</p>
+					<div class="box after" id="dot2"><span>해군과 정부 당국은 절차상 문제가 없고 주민 합의가 끝났다고 얘기하는데요? 강정마을은 인구가 1천9백 명 정도 되는데, 2007년 4월 26일 고작 87명만 모인</span> <span>마을 임시총회에서</span> <span>박수로 해군기지 유치가 결정됐습니다. 불과 20일 만에 신속하게 결정해 버린 겁니다.</span> <span>결국 2007년 8월 10일 마을 임시총회에서 해군기지 유치 결의를 주도한 마을회장을</span> <span>해임하죠. 열흘 후인 8월 20일에는 ‘해군기지 유치 찬반을 묻는 주민투표’를 했는데, 주민</span> <span>7백25명이 참가해 94퍼센트인 6백80명이 유치에 반대했어요.</span>  <a href="#" class="more">▶더 보기</a></div>
+				</div>
+				<div class="c"></div>
+			</div>
+			<div class="example resize">
+				<p><strong>윈도우 리사이즈시 업데이트(Updating onWindowResize):</strong></p>
+				<div class="l">
+					<p class="before">before:</p>
+					<div class="box before">해군과 정부 당국은 절차상 문제가 없고 주민 합의가 끝났다고 얘기하는데요? 강정마을은 인구가 1천9백 명 정도 되는데, 2007년 4월 26일 고작 87명만 모인 마을 임시총회에서 박수로 해군기지 유치가 결정됐습니다. 불과 20일 만에 신속하게 결정해 버린 겁니다.  결국 2007년 8월 10일 마을 임시총회에서 해군기지 유치 결의를 주도한 마을회장을 해임하죠. 열흘 후인 8월 20일에는 ‘해군기지 유치 찬반을 묻는 주민투표’를 했는데, 주민 7백25명이 참가해 94퍼센트인 6백80명이 유치에 반대했어요. </div>
+				</div>
+				<div class="r">
+					<p class="after">after:</p>
+					<div class="box after" id="dot3">해군과 정부 당국은 절차상 문제가 없고 주민 합의가 끝났다고 얘기하는데요? 강정마을은 인구가 1천9백 명 정도 되는데, 2007년 4월 26일 고작 87명만 모인 마을 임시총회에서 박수로 해군기지 유치가 결정됐습니다. 불과 20일 만에 신속하게 결정해 버린 겁니다.  결국 2007년 8월 10일 마을 임시총회에서 해군기지 유치 결의를 주도한 마을회장을 해임하죠. 열흘 후인 8월 20일에는 ‘해군기지 유치 찬반을 묻는 주민투표’를 했는데, 주민 7백25명이 참가해 94퍼센트인 6백80명이 유치에 반대했어요. </div>
+				</div>
+				<div class="c"></div>
+			</div>
+		</div>
+		<br />
+		<br />
+	</body>
+</html>

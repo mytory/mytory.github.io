@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <title>구글 AJAX 언어 API 활용, 문서 일부분만 번역하기</title>
+	<style type="text/css" title="">
+		#translation{display: none;}
+	</style>
+	<!-- 구글 언어 API 연결 -->
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+	<!-- jQuery 연결 -->
+	<script type="text/javascript" src="https://code.jquery.com/jquery-latest.js"></script>
+
+    <script type="text/javascript">
+	//API를 로드한다.
+	google.load("language", "1");
+	//jquery를 사용했다.
+	$(function(){
+		//id가 trans인 아이를 클릭했을 때 벌어지는 일!
+		$('#trans').click(function(){//바로 이 안에 있는 일들을 실행한다.
+			//str은 id가 text인 아이의 value다.
+			var str = $('#text').val();
+			//나는 input에 있는 아이를 사용하려고 한 것인데, 만약 html에 있는 아이를 사용할 거면
+			//var str = $('#div').html();
+			//var str = $('#div').text();
+			//var str = $('#div').innerHTML;
+			//위와 같은 코드를 사용해도 무방하다.
+
+			//구글에서 기본으로 제공하는 코드다. ko는 당연히 한글, en은 영어를 가리킨다.
+			google.language.translate(str, "ko", "en", function(result) {
+				//구글 측에 str을 보내면 result라는 객체를 돌려 준다. 그럼 우린 이 result 객체를 활용해서 작업을 하면 된다. result.translation에는 번역된 text가 담겨 있다. 특수문자는 다 html entity로 바뀌어서 온다.
+				//id가 translation인 아이(display: none으로 설정해 뒀다)의 html로 번역된 text(result.translation)를 넣는다.그러면 html Entity가 다시 제대로 된 문자열이 될 것이다.
+				$('#translation').html(result.translation);
+
+				//str에 id가 translation인 아이의 text를 넣는다.
+				//text() 메서드를 사용했는데 이러면 &lt; 같은 아이들이 < 로 다시 바뀌어서 들어오기 때문이다.
+				var str = $('#translation').text();
+				//특수문자를 제거한 결과를 집어넣을 변수를 하나 만들어 둔다. lastStr
+				var lastStr = str;
+				//공백, 영어, 숫자만 남기고 죄다 지워버린다.
+				for(var i=0;i<str.length;i++){
+					a = str.charCodeAt(i);
+					if( a<32   ||   a>32 && a<48  ||  a >57 && a<65  ||  a>90 && a<97 || a>122 ){
+					  //아스키 코드 번호가 공백,영어,숫자가 아닌 경우 제거 대상을 설정하고,
+					  var removeTarget = str.substr(i,1);
+					  //replace 메서드로 제거한다.
+					  lastStr = lastStr.replace(removeTarget,"")
+					}
+				}
+
+  			    //공백을 -로 바꾼 다음 원래 input에 다시 집어넣는다.
+				//val() 메서드는 jquery 메서드인데, 안에 변수가 들어가면 변수로 value를 채운다.
+				$('#text').val($.trim(lastStr).replace(/ /g,"-"));
+			});
+		});
+	});
+
+    </script>
+  </head>
+  <body>
+	<input type="text" id="text" size="50" value="'안녕 세상!'은 무엇 | 일까요!?"/><input id="trans" type="button" value="번역"/>
+    <div id="translation"></div>
+  </body>
+</html>

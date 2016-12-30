@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>jquery validate demo</title>
+    <style type="text/css">
+        /* 예제를 위한 style. 참고할 필요 없음. */
+        body {
+            font-size: 18px;
+            line-height: 1.8;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid #ccc;
+            border-left: none;
+            border-right: none;
+            padding: 0.5em;
+            vertical-align: top;
+        }
+
+        #수리신청폼 p {
+            margin: 0;
+        }
+
+        .entry-content th {
+            text-align: center;
+            font-weight: bold;
+            letter-spacing: -1px;
+        }
+
+        /* 에러 메시지 style. 참고할 것. */
+        label.error {
+            color: #d54e21;
+            display: none;
+            margin-left: .5em;
+        }
+
+        textarea {
+            width: 100%;
+            height: 10em;
+            font-family: inherit;
+        }
+    </style>
+</head>
+<body>
+<div class="entry-content">
+	<h1>jQuery Validate Example</h1>
+    <form class="advice" method="post" id="수리신청폼">
+        <table>
+            <colgroup>
+                <col width="20%"/>
+            </colgroup>
+            <tbody>
+            <tr>
+                <th>상호</th>
+                <td>
+                    <input
+                        type="text" name="상호" id="상호" class="short"/>
+                </td>
+            </tr>
+            <tr>
+                <th>사업자번호</th>
+                <td>
+                    <input
+                        type="text" name="사업자번호" id="사업자번호" class="long"/>
+                </td>
+            </tr>
+            <tr>
+                <th><b class="star">*</b>휴대폰</th>
+                <td>
+                    <input
+                        type="text" name="휴대폰" id="휴대폰" class="short required number" required="required"/>
+                </td>
+            </tr>
+            <tr>
+                <th>제조사</th>
+                <td>
+                    <input
+                        type="text" name="company" id="company" class="required short"/>
+                </td>
+            </tr>
+            <tr>
+                <th>모델명</th>
+                <td>
+                    <input
+                        type="text" name="모델명" id="모델명" class="required short"/>
+                </td>
+            </tr>
+            <tr>
+                <th>설치환경 및 고장상황</th>
+                <td>
+
+                    <ol>
+                        <li>
+                            <p>업종이 어떻게 되십니까?</p>
+
+                            <p><input type="text" name="업종" id="업종" class="required short" required="required"/></p>
+                        </li>
+                        <li>
+                            <p>설치 장소가 지상입니까, 지하입니까?</p>
+
+                            <p>
+                                <input class="required" required="required" type="radio" name="설치장소" id="설치장소_지상"
+                                       value="지상"/>
+                                <label for="설치장소_지상">지상</label>
+                                <input required="required" type="radio" name="설치장소" id="설치장소_지하" value="지하"/>
+                                <label for="설치장소_지하">지하</label>
+                                <label for="설치장소" class="error">설치장소를 선택해 주세요.</label>
+                            </p>
+                        </li>
+                        <li>
+                            <p>급·배수 시설은 원만한가요?</p>
+
+                            <p>
+                                ▷급수
+                                <input class="required" required="required" type="radio" name="급수" id="급수_원만"
+                                       value="원만"/>
+                                <label for="급수_원만">원만</label>
+                                <input required="required" type="radio" name="급수" id="급수_비원만" value="비원만"/>
+                                <label for="급수_비원만">비원만</label>
+                                <label for="급수" class="error">필수입니다.</label>
+                            </p>
+
+                            <p>
+                                ▷배수
+                                <input class="required" required="required" type="radio" name="배수" id="배수_원만"
+                                       value="원만"/>
+                                <label for="배수_원만">원만</label>
+                                <input required="required" type="radio" name="배수" id="배수_비원만" value="비원만"/>
+                                <label for="배수_비원만">비원만</label>
+                                <label for="배수" class="error">필수입니다.</label>
+                            </p>
+                        </li>
+                        <li>
+                            <p>주변의 벽이나 다른 기기와의 간격은 몇 cm입니까?</p>
+
+                            <p>
+                                <input class="required" required="required" type="radio" name="다른기기와간격"
+                                       id="다른기기와간격_5cm미만" value="5cm미만"/>
+                                <label for="다른기기와간격_5cm미만">5cm 미만</label>
+                                <input required="required" type="radio" name="다른기기와간격" id="다른기기와간격_10cm미만"
+                                       value="10cm미만"/>
+                                <label for="다른기기와간격_10cm미만">10cm 미만</label>
+                                <input required="required" type="radio" name="다른기기와간격" id="다른기기와간격_10cm이상"
+                                       value="10cm이상"/>
+                                <label for="다른기기와간격_10cm이상">10cm 이상</label>
+                                <label for="다른기기와간격" class="error">필수입니다.</label>
+                            </p>
+                        </li>
+                        <li>
+                            <p>기기의 냉각방식이 공냉식입니까, 수냉식입니까?</p>
+
+                            <p>
+                                <input class="required" required="required" type="radio" name="냉각방식" id="냉각방식_공냉식"
+                                       value="공냉식"/>
+                                <label for="냉각방식_공냉식">공냉식</label>
+                                <input required="required" type="radio" name="냉각방식" id="냉각방식_수냉식" value="수냉식"/>
+                                <label for="냉각방식_수냉식">수냉식</label>
+                                <label for="냉각방식" class="error">필수입니다.</label>
+                            </p>
+                        </li>
+                        <li>
+                            <p>설치방식이 빌트인입니까?</p>
+
+                            <p>
+                                <input class="required" required="required" type="radio" name="설치방식" id="설치방식_빌트인"
+                                       value="빌트인"/>
+                                <label for="설치방식_빌트인">빌트인</label>
+                                <input required="required" type="radio" name="설치방식" id="설치방식_빌트인아님" value="빌트인아님"/>
+                                <label for="설치방식_빌트인아님">아니오</label>
+                                <label for="설치방식" class="error">필수입니다.</label>
+                            </p>
+                        </li>
+                        <li>
+                            <p>고장 내용을 설명해 주시겠습니까?</p>
+
+                            <p>
+                                <label for="고장내용" class="error">필수입니다.</label>
+                            </p>
+
+                            <p>
+                                <input class="required" required="required" type="checkbox" name="고장내용" id="고장내용1"
+                                       value="얼음성형 안 됨"/>
+                                <label for="고장내용1">얼음성형 안 됨</label>
+                                <input required="required" type="checkbox" name="고장내용" id="고장내용2" value="얼음이 안 떨어짐"/>
+                                <label for="고장내용2">얼음이 안 떨어짐</label>
+                                <input required="required" type="checkbox" name="고장내용" id="고장내용3" value="전원이 안 들어옴"/>
+                                <label for="고장내용3">전원이 안 들어옴</label>
+                            </p>
+
+                            <p>
+                                <input required="required" type="checkbox" name="고장내용" id="고장내용4" value="급수불량"/>
+                                <label for="고장내용4">급수불량</label>
+                                <input required="required" type="checkbox" name="고장내용" id="고장내용5" value="배수불량"/>
+                                <label for="고장내용5">배수불량</label>
+                                <input required="required" type="checkbox" name="고장내용" id="고장내용6" value="물이 샘"/>
+                                <label for="고장내용6">물이 샘</label>
+                                <input required="required" type="checkbox" name="고장내용" id="고장내용7" value="얼음이 녹음"/>
+                                <label for="고장내용7">얼음이 녹음</label>
+                            </p>
+
+                            <p>
+                                <input required="required" type="checkbox" name="고장내용" id="고장내용8" value="기타"/>
+                                <label for="고장내용8">기타</label>
+                                <input class="long" type="text" name="기타_내용" id="기타_내용" placeholder="기타 내용"/>
+                                <label for="기타_내용" class="error">기타 선택시 내용을 입력해 주셔야 합니다.</label>
+                            </p>
+
+                        </li>
+                        <li>
+                            <p>현재 상태는 어떠한지 묘사해 주세요.</p>
+
+                            <p>
+                                <textarea required="required" name="상태묘사" id="상태묘사"></textarea>
+                            </p>
+                        </li>
+                    </ol>
+                </td>
+            </tr>
+            <tr>
+                <th>출장 위치 선택</th>
+                <td>
+                    <p>
+                        <input required="required" type="radio" name="출장위치" id="출장위치_서울인천경기남부" value="서울, 인천, 경기남부"/>
+                        <label for="출장위치_서울인천경기남부">서울, 인천, 경기남부 - <strong>4만 원</strong></label>
+                    </p>
+
+                    <p>
+                        <input required="required" type="radio" name="출장위치" id="출장위치_경기북부" value="경기 북부"/>
+                        <label for="출장위치_경기북부">경기 북부 - <strong>6만 원</strong></label>
+                    </p>
+
+                    <p>
+                        <input required="required" type="radio" name="출장위치" id="출장위치_기타" value="기타"/>
+                        <label for="출장위치_기타">기타 - <strong>택배 요망</strong></label>
+                    </p>
+
+                    <p><label for="출장위치" class="error">필수입니다.</label></p>
+                </td>
+            </tr>
+            <tr>
+                <th>결제 방법</th>
+                <td>
+                    <input class="required" required="required" type="radio" name="결제방법" id="결제방법_신용카드" value="신용카드"
+                           checked="checked"/>
+                    <label for="결제방법_신용카드">신용카드</label>
+
+                    <input required="required" type="radio" name="결제방법" id="결제방법_무통장" value="무통장"/>
+                    <label for="결제방법_무통장">무통장</label>
+
+                </td>
+            </tr>
+            </tbody>
+        </table>
+        <div style="text-align:center">
+            <input type="submit" value="확인" class="big-button"/>
+        </div>
+    </form>
+</div>
+<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.10.0/jquery.validate.min.js"></script>
+<script>
+    //에러 메시지 번역
+    /*
+     * Translated default messages for the jQuery validation plugin.
+     * Locale: KO
+     * Filename: messages_ko.js
+     */
+    jQuery.extend(jQuery.validator.messages, {
+        required: "반드시 입력해야 합니다.",
+        remote: "수정 바랍니다.",
+        email: "이메일 주소를 올바로 입력하세요.",
+        url: "URL을 올바로 입력하세요.",
+        date: "날짜가 잘못 입력됐습니다.",
+        dateISO: "ISO 형식에 맞는 날짜로 입력하세요.",
+        number: "숫자만 입력하세요.",
+        digits: "숫자(digits)만 입력하세요.",
+        creditcard: "올바른 신용카드 번호를 입력하세요.",
+        equalTo: "값이 서로 다릅니다.",
+        accept: "승낙해 주세요.",
+        maxlength: jQuery.validator.format("{0}글자 이상은 입력할 수 없습니다."),
+        minlength: jQuery.validator.format("적어도 {0}글자는 입력해야 합니다."),
+        rangelength: jQuery.validator.format("{0}글자 이상 {1}글자 이하로 입력해 주세요."),
+        range: jQuery.validator.format("{0}에서 {1} 사이의 값을 입력하세요."),
+        max: jQuery.validator.format("{0} 이하로 입력해 주세요."),
+        min: jQuery.validator.format("{0} 이상으로 입력해 주세요.")
+    });
+</script>
+<script>
+    //기타를 체크한 경우 기타 내용이 필수가 되도록 한다.
+    jQuery(document).ready(function ($) {
+        $('#수리신청폼').validate({
+            rules: {
+                기타_내용: {
+                    required: 'input[name="고장내용"][value="기타"]:checked'
+                }
+            }
+        });
+    });
+</script>
+</body>
+</html>

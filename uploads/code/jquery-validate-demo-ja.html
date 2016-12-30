@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>jquery validate demo</title>
+    <style type="text/css">
+        /* 例のためのstyle。参考不要。 */
+        body {
+            font-size: 18px;
+            line-height: 1.8;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid #ccc;
+            border-left: none;
+            border-right: none;
+            padding: 0.5em;
+            vertical-align: top;
+        }
+
+        #修理申し込みフォーム p {
+            margin: 0;
+        }
+
+        .entry-content th {
+            text-align: center;
+            font-weight: bold;
+            letter-spacing: -1px;
+        }
+
+        /* エラーメッセージstyle。参考にすること。 */
+        label.error {
+            color: #d54e21;
+            display: none;
+            margin-left: .5em;
+        }
+
+        textarea {
+            width: 100%;
+            height: 10em;
+            font-family: inherit;
+        }
+    </style>
+</head>
+<body>
+<div class="entry-content">
+    <p style="color: #888;">私が日本に対してよく知らない用語とお金の単位は韓国式です。ご了承お願いします。</p>
+    <h1>jQuery Validate Example</h1>
+    <form class="advice" method="post" id="修理申し込みフォーム">
+        <table>
+            <colgroup>
+                <col width="20%"/>
+            </colgroup>
+            <tbody>
+            <tr>
+                <th>相互</th>
+                <td>
+                    <input
+                        type="text" name="相互" id="相互" class="short"/>
+                </td>
+            </tr>
+            <tr>
+                <th>事業者番号</th>
+                <td>
+                    <input
+                        type="text" name="事業者番号" id="事業者番号" class="long"/>
+                </td>
+            </tr>
+            <tr>
+                <th><b class="star">*</b>携帯電話</th>
+                <td>
+                    <input
+                        type="text" name="携帯電話" id="携帯電話" class="short required number" required="required"/>
+                </td>
+            </tr>
+            <tr>
+                <th>メーカー</th>
+                <td>
+                    <input
+                        type="text" name="company" id="company" class="required short"/>
+                </td>
+            </tr>
+            <tr>
+                <th>モデル</th>
+                <td>
+                    <input
+                        type="text" name="モデル" id="モデル" class="required short"/>
+                </td>
+            </tr>
+            <tr>
+                <th>インストール環境と故障状況</th>
+                <td>
+
+                    <ol>
+                        <li>
+                            <p>業種がどのようにですか。</p>
+
+                            <p><input type="text" name="業種" id="業種" class="required short" required="required"/></p>
+                        </li>
+                        <li>
+                            <p>設置場所が地上か、地下ですか？</p>
+
+                            <p>
+                                <input class="required" required="required" type="radio" name="設置場所" id="設置場所_地上"
+                                       value="地上"/>
+                                <label for="設置場所_地上">地上</label>
+                                <input required="required" type="radio" name="設置場所" id="設置場所_地下" value="地下"/>
+                                <label for="設置場所_地下">地下</label>
+                                <label for="設置場所" class="error">設置場所を選択してください。</label>
+                            </p>
+                        </li>
+                        <li>
+                            <p>級・排水施設は円満なのですか？</p>
+
+                            <p>
+                                ▷給水
+                                <input class="required" required="required" type="radio" name="給水" id="給水_円満"
+                                       value="円満"/>
+                                <label for="給水_円満">円満</label>
+                                <input required="required" type="radio" name="給水" id="給水_悲円満" value="悲円満"/>
+                                <label for="給水_悲円満">悲円満</label>
+                                <label for="給水" class="error">必須です。</label>
+                            </p>
+
+                            <p>
+                                ▷排水
+                                <input class="required" required="required" type="radio" name="排水" id="排水_円満"
+                                       value="円満"/>
+                                <label for="排水_円満">円満</label>
+                                <input required="required" type="radio" name="排水" id="排水_悲円満" value="悲円満"/>
+                                <label for="排水_悲円満">悲円満</label>
+                                <label for="排水" class="error">必須です。</label>
+                            </p>
+                        </li>
+                        <li>
+                            <p>周辺の壁や他の機器との間隔は、数cmですか？</p>
+
+                            <p>
+                                <input class="required" required="required" type="radio" name="他の機器との間隔"
+                                       id="他の機器との間隔_5cm未満" value="5cm未満"/>
+                                <label for="他の機器との間隔_5cm未満">5cm 未満</label>
+                                <input required="required" type="radio" name="他の機器との間隔" id="他の機器との間隔_10cm未満"
+                                       value="10cm未満"/>
+                                <label for="他の機器との間隔_10cm未満">10cm 未満</label>
+                                <input required="required" type="radio" name="他の機器との間隔" id="他の機器との間隔_10cm以上"
+                                       value="10cm以上"/>
+                                <label for="他の機器との間隔_10cm以上">10cm 以上</label>
+                                <label for="他の機器との間隔" class="error">必須です。</label>
+                            </p>
+                        </li>
+                        <li>
+                            <p>機器の冷却方式が空冷ですか、水冷式ですか？</p>
+
+                            <p>
+                                <input class="required" required="required" type="radio" name="冷却方式" id="冷却方式_空冷式"
+                                       value="空冷式"/>
+                                <label for="冷却方式_空冷式">空冷式</label>
+                                <input required="required" type="radio" name="冷却方式" id="冷却方式_水冷式" value="水冷式"/>
+                                <label for="冷却方式_水冷式">水冷式</label>
+                                <label for="冷却方式" class="error">必須です。</label>
+                            </p>
+                        </li>
+                        <li>
+                            <p>のインストール方法がビルトインですか？</p>
+
+                            <p>
+                                <input class="required" required="required" type="radio" name="インストール方法" id="インストール方法_ビルトイン"
+                                       value="ビルトイン"/>
+                                <label for="インストール方法_ビルトイン">ビルトイン</label>
+                                <input required="required" type="radio" name="インストール方法" id="インストール方法_ビルトインない" value="ビルトインない"/>
+                                <label for="インストール方法_ビルトインない">いいえ</label>
+                                <label for="インストール方法" class="error">必須です。</label>
+                            </p>
+                        </li>
+                        <li>
+                            <p>故障内容を説明していただけますか？</p>
+
+                            <p>
+                                <label for="故障内容" class="error">必須です。</label>
+                            </p>
+
+                            <p>
+                                <input class="required" required="required" type="checkbox" name="故障内容" id="故障内容1"
+                                       value="氷成形ダメ"/>
+                                <label for="故障内容1">氷成形ダメ</label>
+                                <input required="required" type="checkbox" name="故障内容" id="故障内容2" value="氷がない低下"/>
+                                <label for="故障内容2">氷がない低下</label>
+                                <input required="required" type="checkbox" name="故障内容" id="故障内容3" value="電源がつかない"/>
+                                <label for="故障内容3">電源がつかない</label>
+                            </p>
+
+                            <p>
+                                <input required="required" type="checkbox" name="故障内容" id="故障内容4" value="給水不良"/>
+                                <label for="故障内容4">給水不良</label>
+                                <input required="required" type="checkbox" name="故障内容" id="故障内容5" value="排水不良"/>
+                                <label for="故障内容5">排水不良</label>
+                                <input required="required" type="checkbox" name="故障内容" id="故障内容6" value="水が漏れる"/>
+                                <label for="故障内容6">水が漏れる</label>
+                                <input required="required" type="checkbox" name="故障内容" id="故障内容7" value="氷が溶ける"/>
+                                <label for="故障内容7">氷が溶ける</label>
+                            </p>
+
+                            <p>
+                                <input required="required" type="checkbox" name="故障内容" id="故障内容8" value="その他"/>
+                                <label for="故障内容8">その他</label>
+                                <input class="long" type="text" name="その他_内容" id="その他_内容" placeholder="その他 内容"/>
+                                <label for="その他_内容" class="error">その他のコンテンツを選択した場合、入力する必要があります。</label>
+                            </p>
+
+                        </li>
+                        <li>
+                            <p>現在の状態はどうなのか描写してください。</p>
+
+                            <p>
+                                <textarea required="required" name="状態の記述" id="状態の記述"></textarea>
+                            </p>
+                        </li>
+                    </ol>
+                </td>
+            </tr>
+            <tr>
+                <th>出張場所の選択</th>
+                <td>
+                    <p>
+                        <input required="required" type="radio" name="出張位置" id="出張位置_ソウル仁川京畿南部" value="ソウル、仁川、京畿南部"/>
+                        <label for="出張位置_ソウル仁川京畿南部">ソウル、仁川、京畿南部 - <strong>4万ウォン</strong></label>
+                    </p>
+
+                    <p>
+                        <input required="required" type="radio" name="出張位置" id="出張位置_京畿北部" value="京畿北部"/>
+                        <label for="出張位置_경기북부">京畿北部 - <strong>6万ウォン</strong></label>
+                    </p>
+
+                    <p>
+                        <input required="required" type="radio" name="出張位置" id="出張位置_その他" value="その他"/>
+                        <label for="出張位置_その他">その他 - <strong>宅配便ご要望</strong></label>
+                    </p>
+
+                    <p><label for="出張位置" class="error">必須です。</label></p>
+                </td>
+            </tr>
+            <tr>
+                <th>お支払い方法</th>
+                <td>
+                    <input class="required" required="required" type="radio" name="お支払い方法" id="お支払い方法_クレジットカード" value="クレジットカード"
+                           checked="checked"/>
+                    <label for="お支払い方法_クレジットカード">クレジットカード</label>
+
+                    <input required="required" type="radio" name="お支払い方法" id="お支払い方法_口座振替" value="口座振替"/>
+                    <label for="お支払い方法_口座振替">口座振替</label>
+
+                </td>
+            </tr>
+            </tbody>
+        </table>
+        <div style="text-align:center">
+            <input type="submit" value="保存" class="big-button"/>
+        </div>
+    </form>
+</div>
+<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.10.0/jquery.validate.min.js"></script>
+<script>
+    // エラーメッセージの翻訳
+    /*
+     * Translated default messages for the jQuery validation plugin.
+     * Locale: JA (Japanese; 日本語)
+     * https://github.com/satooshi/jquery-validation-ja-util/blob/master/jquery-validation/localization/messages_ja.js
+     */
+    jQuery.extend(jQuery.validator.messages, {
+        required: "この項目は必ず入力して下さい。",
+        remote: "この項目を修正してください。",
+        email: "有効なEメールアドレスを入力してください。",
+        url: "有効なURLを入力してください。",
+        date: "有効な日付を入力してください。",
+        dateISO: "有効な日付を入力してください。",
+        number: "有効な数字を入力してください。",
+        digits: "数字のみを入力してください。",
+        creditcard: "有効なクレジットカード番号を入力してください。",
+        equalTo: "同じ値をもう一度入力してください。",
+        accept: "有効な拡張子を含む値を入力してください。",
+        maxlength: jQuery.format("{0} 文字以内で入力してください。"),
+        minlength: jQuery.format("{0} 文字以上で入力してください。"),
+        rangelength: jQuery.format("{0} 文字から {1} 文字までの値を入力してください。"),
+        range: jQuery.format("{0} から {1} までの値を入力してください。"),
+        max: jQuery.format("{0} 以下の値を入力してください。"),
+        min: jQuery.format("{0} 以上の値を入力してください。")
+    });
+</script>
+<script>
+    // その他の内容を選択した場合の内容を必ず入力している。
+    jQuery(document).ready(function ($) {
+        $('#修理申し込みフォーム').validate({
+            rules: {
+                その他_内容: {
+                    required: 'input[name="故障内容"][value="その他"]:checked'
+                }
+            }
+        });
+    });
+</script>
+</body>
+</html>

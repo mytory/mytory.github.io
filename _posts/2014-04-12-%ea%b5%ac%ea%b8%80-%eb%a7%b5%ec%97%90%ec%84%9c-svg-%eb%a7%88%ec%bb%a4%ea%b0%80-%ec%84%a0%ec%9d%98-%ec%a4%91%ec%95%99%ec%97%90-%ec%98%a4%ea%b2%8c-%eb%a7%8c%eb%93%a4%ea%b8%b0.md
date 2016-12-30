@@ -122,7 +122,7 @@ SVG 문법에서 이걸 넣는 방법은 `path` 태그의 `d` 속성으로 넣�
 이렇게 x좌표 y좌표에서 모두 1씩을 빼 주면 (0,0) 좌표가 캔버스의 중앙에 오게 된다. 그리고 이렇게 하면 구글맵에서 경로를 그리면 아이콘의 중앙이 경로 위에 놓이게 된다.
 
  [1]: https://developers.google.com/maps/documentation/javascript/tutorial?hl=ko
- [2]: https://dl.dropboxusercontent.com/u/15546257/blog/mytory/google-map-marker-position.png
+ [2]: http://mytory.net/uploads/legacy/google-map-marker-position.png
  [3]: https://developers.google.com/maps/documentation/javascript/reference?hl=ko#SymbolPath
  [4]: https://developers.google.com/maps/documentation/javascript/overlays?hl=ko#VectorIcons
  [5]: http://www.w3.org/TR/SVG/paths.html#PathData

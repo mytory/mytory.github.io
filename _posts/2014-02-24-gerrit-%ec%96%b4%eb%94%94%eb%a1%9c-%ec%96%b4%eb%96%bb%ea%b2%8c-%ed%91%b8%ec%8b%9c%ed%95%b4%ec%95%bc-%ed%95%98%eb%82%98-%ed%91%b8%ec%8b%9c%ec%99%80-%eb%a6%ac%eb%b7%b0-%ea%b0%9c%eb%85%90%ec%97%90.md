@@ -69,6 +69,6 @@ gerrit은 Change-Id를 자동으로 넣어 주는 commit hook을 제공한다. �
 알아둘 것. Change-Id는 commit name과 다르다. 그리고 commit name과 구분하기 편하게 `I`로 시작한다.
 
  [1]: https://code.google.com/p/gerrit/
- [2]: https://dl.dropboxusercontent.com/u/15546257/blog/mytory/gerrit.png
+ [2]: http://mytory.net/uploads/legacy/gerrit.png
  [3]: https://gerrit-documentation.storage.googleapis.com/Documentation/2.8.1/intro-quick.html
  [4]: http://git-scm.com/book/ko/Git%EC%9D%98-%EB%82%B4%EB%B6%80-Git-%EB%A0%88%ED%8D%BC%EB%9F%B0%EC%8A%A4

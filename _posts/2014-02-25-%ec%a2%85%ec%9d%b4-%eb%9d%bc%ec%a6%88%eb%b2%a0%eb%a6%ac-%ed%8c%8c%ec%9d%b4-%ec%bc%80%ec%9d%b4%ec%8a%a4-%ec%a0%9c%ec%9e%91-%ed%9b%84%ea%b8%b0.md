@@ -98,12 +98,12 @@ tags:
  [1]: http://mytory.net/archives/12529
  [2]: http://www.raspberrypi.org/archives/1310
  [3]: https://www.google.co.kr/search?q=raspberrypi+paper+case
- [4]: https://dl.dropboxusercontent.com/u/15546257/blog/mytory/raspberry-pi-case/rasp-6.jpg
- [5]: https://dl.dropboxusercontent.com/u/15546257/blog/mytory/raspberry-pi-case/rasp-5.jpg
- [6]: https://dl.dropboxusercontent.com/u/15546257/blog/mytory/raspberry-pi-case/rasp-1.jpg
- [7]: https://dl.dropboxusercontent.com/u/15546257/blog/mytory/raspberry-pi-case/rasp-9.jpg
- [8]: https://dl.dropboxusercontent.com/u/15546257/blog/mytory/raspberry-pi-case/usb-power.png
- [9]: https://dl.dropboxusercontent.com/u/15546257/blog/mytory/raspberry-pi-case/rasp-7.jpg
- [10]: https://dl.dropboxusercontent.com/u/15546257/blog/mytory/raspberry-pi-case/rasp-3.jpg
- [11]: https://dl.dropboxusercontent.com/u/15546257/blog/mytory/raspberry-pi-case/rasp-4.jpg
- [12]: https://dl.dropboxusercontent.com/u/15546257/blog/mytory/raspberry-pi-case/rasp-8.jpg
+ [4]: http://mytory.net/uploads/legacy/raspberry-pi-case/rasp-6.jpg
+ [5]: http://mytory.net/uploads/legacy/raspberry-pi-case/rasp-5.jpg
+ [6]: http://mytory.net/uploads/legacy/raspberry-pi-case/rasp-1.jpg
+ [7]: http://mytory.net/uploads/legacy/raspberry-pi-case/rasp-9.jpg
+ [8]: http://mytory.net/uploads/legacy/raspberry-pi-case/usb-power.png
+ [9]: http://mytory.net/uploads/legacy/raspberry-pi-case/rasp-7.jpg
+ [10]: http://mytory.net/uploads/legacy/raspberry-pi-case/rasp-3.jpg
+ [11]: http://mytory.net/uploads/legacy/raspberry-pi-case/rasp-4.jpg
+ [12]: http://mytory.net/uploads/legacy/raspberry-pi-case/rasp-8.jpg

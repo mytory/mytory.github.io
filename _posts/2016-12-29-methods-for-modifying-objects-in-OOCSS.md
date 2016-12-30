@@ -58,7 +58,7 @@ OOCSS의 발상을 처음 접하는 사람들을 위해, 객체 수정자의 원
 
 CSS를 구성할 때, 속성을 공유하게 하기 위해 늘 이렇게 수동으로 선택자를 확장하는 것은 실용적이지 않다. 여러 종류의 위젯이 있다고 생각해 보자. 매번 직접 작성한 그룹 선택자[^group-selector]로 돌아가서 그걸 확장해야 한다. [`@extend` 마법][extend-magic]을 사용하지 않고 말이다.
 
-[^group-selector]: `.widget, .widget-alt { ... }`처럼 여러 선택자를 연이어 써서 정의한 것을 그룹 선택자라고 부르는 듯하다.
+[^group-selector]: `.widget, .widget-alt { ... }`처럼 여러 선택자를 연이어 써서 정의한 것을 그룹 선택자라고 한다.
 [extend-magic]: http://sass-lang.com/
 
     /* Our pattern */

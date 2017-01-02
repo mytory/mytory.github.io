@@ -390,7 +390,7 @@ CSS가 열 줄에, 클래스 이름도 이상하다. 이게 더 낫다.
 물론, 모든 규칙에는 예외가 *있다*. 하지만 사례별로 근거를 가지고 접근할 필요가 있을 것이다. 대부분의 경우, 그러나, 이 모든 것들은 CSS에서 내가 피하려고 애쓰는 것들이고, 한 눈에 알아볼 수 있는 것들이다.
 
  [1]: http://csswizardry.com/2012/11/code-smells-in-css/
- [2]: http://coding.smashingmagazine.com/2012/07/13/coding-qa-with-chris-coyier-code-smell-type-grid/
+ [2]: https://www.smashingmagazine.com/2012/07/coding-qa-with-chris-coyier-code-smell-type-grid/
  [3]: http://csswizardry.com/2012/07/shoot-to-kill-css-selector-intent/
  [4]: http://csswizardry.com/2011/09/when-using-ids-can-be-a-pain-in-the-class/
  [5]: http://codepen.io/chriscoyier/pen/lzjqh

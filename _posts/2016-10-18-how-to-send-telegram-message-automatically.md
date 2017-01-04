@@ -68,9 +68,14 @@ URL을 잘 보면 알겠지만, `sendMessgae`는 명령어다. [명령어 목록
     $post_url = "http://mytory.net/2016/10/01/latest-iOS-is-good-on-iphone5.html";
     $api_code = '281680794:AAEQdVBa1aEEPIn9-DQ4LDlIVUSsmtUdiHc';
     
-    // 보낼 텍스트를 구성. 줄바꿈은 "\n"으로. GET 요청을 할 테니 urlencode.
-    $telegram_text = urlencode("※ 새 글이 나왔습니다\n{$post_title}\n{$post_url}");
-    $request_url = "https://api.telegram.org/bot{$api_code}/sendMessage?chat_id=@mytorychannel&text={$telegram_text}";
+    // 보낼 텍스트를 구성. 줄바꿈은 "\n"으로.
+    // http_build_query()를 이용하면 url 인코딩을 알아서 처리해 줌.
+    $telegram_text = "※ 새 글이 나왔습니다\n{$post_title}\n{$post_url}";
+    $query_array = array(
+        'chat_id' => '@mytorychannel',
+        'text' => $telegram_text,
+    );
+    $request_url = "https://api.telegram.org/bot{$api_code}/sendMessage?" . http_build_query($query_array);
     
     // curl로 접속
     $curl_opt = array(
@@ -80,9 +85,9 @@ URL을 잘 보면 알겠지만, `sendMessgae`는 명령어다. [명령어 목록
     $curl = curl_init();
     curl_setopt_array($curl, $curl_opt);
     
-    // 텔레그램의 응답을 받아서 저장.
-    save_telegram_response($post_id, curl_exec($curl));
-
+    // 응답결과는 알아서 처리.
+    var_dump(curl_exec($curl));
+    
 설명은 주석으로 달았으니 됐고. 
 
 나머지는 이 코드를 응용하는 것에 불과하니 각자 사정에 맞게 활용하면 되겠다.

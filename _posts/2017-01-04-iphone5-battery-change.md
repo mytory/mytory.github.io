@@ -1,5 +1,5 @@
 ---
-title: '아이폰5 배터리 교체기'
+title: '[DIY] 아이폰5 배터리 자가 교체기'
 layout: post
 author: 안형우
 tags:

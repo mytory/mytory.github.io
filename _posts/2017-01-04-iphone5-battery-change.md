@@ -71,7 +71,7 @@ tags:
 
 ![](/uploads/2017-01/iphone-battery-change-result.jpg)
 
-이미지는, 좌측은 배터리 용량(Capacity)이 1400mAh로 오른 모습. 우측은 20시간 36분 동안 배터리가 버튼 모습.
+이미지는, 좌측은 배터리 용량(Capacity)이 1400mAh로 오른 모습. 우측은 20시간 36분 동안 배터리가 버틴 모습.
 
 이상.
 

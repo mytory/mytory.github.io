@@ -35,13 +35,17 @@ CSS로 요소를 수직으로 가운데 오게 하는 방법은 몇 가지 방�
 
 CSS로 수직 가운데 정렬을 하는 것은 쉽지 않다. 서로 다른 방법들이 있고, 어떤 방법은 몇몇 브라우저에서는 작동하지 않는다. CSS를 다룰 때, 작동이 어떻게 되는지 아는 것은 중요하다. 그러니 요소를 수직 가운데 정렬하는 5가지 방법을 살펴 보자. 그리고 장단점을 살펴 보자. (각 방법을 간략하게 요약 설명한 [테스트 페이지][3]를 볼 수 있다.
 
-![](/uploads/legacy/css-absolute-center/tutorial/demo-thumb.jpg)[3]
+![](/uploads/legacy/css-absolute-center/tutorial/demo-thumb.jpg)
+
+[(테스트 페이지 보기)][3]
 
 일러 두기: 나는 오스트레일리아인이다. 그래서 center라고 쓰지 않고 centre라고 쓴다. css에서는 cent**er**라고 써야 하니 헷갈리지 말기 바란다.
 
 ## 방법 1
 
-![](/uploads/legacy/css-absolute-center/tutorial/images/method1.gif)[3]
+![](/uploads/legacy/css-absolute-center/tutorial/images/method1.gif)
+
+[(테스트 페이지 보기)][3]
 
 이 방법은 테이블처럼 만들어서 테이블의 `vertical-align` 속성을 사용할 수 있도록 `<div>`를 몇 개 세팅한다. (테이블의 `vertical-align` 속성은 다른 요소들에서는 [굉장히 다르게][4] 작동한다.)
 
@@ -77,7 +81,9 @@ CSS로 수직 가운데 정렬을 하는 것은 쉽지 않다. 서로 다른 방
 
 ## 방법 2
 
-![](/uploads/legacy/css-absolute-center/tutorial/images/method2.gif)[3]
+![](/uploads/legacy/css-absolute-center/tutorial/images/method2.gif)
+
+[(테스트 페이지 보기)][3]
 
 이 방법은 `position` `absolute`를 사용한다. `top`을 50%로 설정하고 `margin-top`을 콘텐츠 높이 절반만큼 음수로 설정한다. 이것은 요소의 높이를 CSS에서 지정해야 한다는 걸 의미한다.
 
@@ -105,7 +111,9 @@ CSS로 수직 가운데 정렬을 하는 것은 쉽지 않다. 서로 다른 방
 
 ## 방법 3
 
-![](/uploads/legacy/css-absolute-center/tutorial/images/method3.gif)[3]
+![](/uploads/legacy/css-absolute-center/tutorial/images/method3.gif)
+
+[(테스트 페이지 보기)][3]
 
 이 방법은 내용 요소 위에 `div`를 두는 방법이다. 이 `div`는 `height: 50%;`, `margin-bottom: -content높이의절반;` 이렇게 설정한다. content엔 `clear` 속성을 줘서 `float`된 `div` 밑으로 오게 하면 content가 가운데 오게 된다.
 
@@ -136,7 +144,9 @@ CSS로 수직 가운데 정렬을 하는 것은 쉽지 않다. 서로 다른 방
 
 ## 방법 4
 
-![](/uploads/legacy/css-absolute-center/tutorial/images/method4.gif)[3]
+![](/uploads/legacy/css-absolute-center/tutorial/images/method4.gif)
+
+[(테스트 페이지 보기)][3]
 
 이 방법은 높이와 너비를 지정하고 `position: absolute;`를 매긴 `div`를 사용한다. `div`는 그러면 `top: 0;`부터 `bottom: 0;`까지 뻗는다. 근데 사실 높이를 지정해 뒀기 때문에 그게 가능하진 않다. 그래서 `margin: auto;` 라고 주면 요소가 가운데로 가게 된다. 이건 우리가 흔히 블럭 요소에 `margin: 0 auto;` 를 적용해서 사용하는 수평 가운데 정렬과 아주 비슷하다.
 
@@ -166,7 +176,9 @@ CSS로 수직 가운데 정렬을 하는 것은 쉽지 않다. 서로 다른 방
 
 ## 방법 5
 
-![](/uploads/legacy/css-absolute-center/tutorial/images/method5.gif)[3]
+![](/uploads/legacy/css-absolute-center/tutorial/images/method5.gif)
+
+[(테스트 페이지 보기)][3]
 
 이 방법은 오직 한 줄짜리 텍스트만 수직 가운데 정렬을 해 준다. 간단히,  `line-height`를 요소의 높이로 설장한다. 그러면 텍스트가 가운데로 간다.
 

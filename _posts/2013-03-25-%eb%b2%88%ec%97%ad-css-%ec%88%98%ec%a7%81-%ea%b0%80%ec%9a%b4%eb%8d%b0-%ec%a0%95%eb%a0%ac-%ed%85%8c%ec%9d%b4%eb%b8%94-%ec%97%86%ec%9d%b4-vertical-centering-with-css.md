@@ -554,6 +554,7 @@ body {
 IE6 스타일시트는 IE5의 문제까지 함께 해결한다. 그래서 조건식 주석의 조건도 `lte`로 사용했고, 그러면 이전 버전의 IE도 이 파일을 해석한다.
 
 메뉴 주변에 추가 공간이 생기는 문제를 고치는 것은 좀 복잡하다. IE의 내부적으로 쓰이는 `hasLayout` 프로퍼티로 작업해야 한다. Internet Explorer에서 오직 (`html`,`body`, `table`, `fieldset` 같은) 몇몇 아이템만 "레이아웃을 가진다(have layout)". 그리고 자식들의 레이아웃을 이 아이템들이 제어한다. 레이아웃이 없는 모든 요소들은 페이지의 모양을 제대로 컨트롤하지 못한다. 비록 완전히 무시당하지는 않지만 말이다. IE 렌더링 문제의 대부분은 요소에 "레이아웃"을 부여함으로써 해결할 수 있다. "레이아웃"을 부여하는 가장 간단한 방법은 IE 전용 CSS 프로퍼티인 `zoom`을 해당 요소에 적용하는 것이다. IE용 스타일시트에서 그렇게 하면 된다.[^zoom]
+
 [^zoom]: To fix the problem of extra space around the menu is a bit more complicated. It has to do with IE’s internal `hasLayout` property. In Internet Explorer only some items “have layout” (such as `html`,`body`, `table`, `fieldset`), and these are the ones that control the layout of their children. All the elements that don’t have layout have less control over the display of the page, although they aren’t totally ignored. Many of IE’s rendering problems can be fixed by giving elements “layout”. The simplest way to do this is to add the proprietary CSS property `zoom` to elements in an IE specific stylesheet.
 
 “hasLayout”이라는 주제 전체는 설명하기도, 이해하기도 아주 어렵다. 더 자세한 설명은 역시 [Sitepoint의 자료][8]를 보면 된다.

@@ -1,61 +1,32 @@
 ---
-title: input type=text 의 높이를 지정해 주고 싶다면 height 보다는 padding을 사용하라
+title: input 요소의 높이를 지정할 때 height보다는 line-height를 사용하자
 author: 안형우
 layout: post
 permalink: /archives/1207
-aktt_notify_twitter:
-  - yes
-daumview_id:
-  - 36728498
-categories:
-  - 웹 퍼블리싱
 tags:
   - CSS
 ---
-input 박스의 사이즈가 크면 보기도 좋고 클릭해서 입력하기도 좋다.
 
-미적인 것과 사용성 둘 다를 충족하는 좋은 방법이라고 생각한다.
+## 2017-01-10
 
-그런데 css로 height 를 지정하면 난감한 일이 발생하곤 한다.
+원래 이 글에서는 `padding`을 사용하라고 권하고 있었다. 2011년 5월이면 5년 7개월 전인데, 이제 갓 웹 개발자가 돼 한창 발전을 하고 있을 때니 `height`로 `input` 높이를 지정하는 걸 벗어난 것만으로 기뻤던 것 같다. 나름 테스트도 해 보고 말이다.
 
-높이가 높은데 커서가 맨 위에 딱 붙어 있게 되는 것이다.
+그런데 살면서 깨달은 것은, `padding`으로는 높이 제어가 힘들다는 점이다. 처음에 이 글 쓸 때야 높이 맞추는 것 정도는 신경쓰지 않았지만, 요새는 신경쓰기도 한다. 그래서 높이를 제어할 수 있는 `line-height`를 사용하는 편이 낫다고 생각하게 됐다.
 
-아래는 모두 `height: 25px`을 input에 준 경우다.<span style="text-align: center;"> </span>
+그래서 내용을 갈아 엎었다.
 
-<div style="width: 233px" class="wp-caption aligncenter">
-  <img class=" " src="/uploads/legacy/input-text/ie6-8%EC%9D%80%20%EC%99%BC%EC%AA%BD%EC%9C%84%EC%AA%BD%EC%9D%84%20%EB%94%B1%20%EB%B6%99%EC%9D%B8%EB%8B%A4.png" alt="" width="223" height="76" /><p class="wp-caption-text">
-    IE6부터 8은 입력 필드 왼쪽위로 텍스트가 딱 붙어 버리는 초난감한 사태가 발생한다
-  </p>
-</div>
+-----
 
-<div style="width: 220px" class="wp-caption aligncenter">
-  <img class=" " src="/uploads/legacy/input-text/%ED%8C%8C%EC%9D%B4%EC%96%B4%ED%8F%AD%EC%8A%A4%20input%EC%9D%80%20%EA%B8%80%EC%9E%90%EB%A5%BC%20%EC%9C%84%EC%95%84%EB%9E%98%20%EA%B0%80%EC%9A%B4%EB%8D%B0%EB%A1%9C%20%EC%A0%95%EB%A0%AC%ED%95%B4%20%EC%A4%80%EB%8B%A4.png" alt="" width="210" height="72" /><p class="wp-caption-text">
-    파이어폭스4는 위아래를 기준으로 가운데 오게 정렬해 준다. 왼쪽은 딱 붙지만 IE처럼 흉하지는 않다.
-  </p>
-</div>
+`input` 박스의 사이즈가 크면 보기도 좋고 클릭해서 입력하기도 좋다. 그런데 css로 `height`를 지정하면 IE8에서는 난감한 일이 발생한다. 높긴 한데 커서가 맨 위에 딱 붙어 있게 되는 것이다. (엣지는 아직 확인 안 해 봤다.)
 
-<div style="width: 216px" class="wp-caption aligncenter">
-  <img class=" " src="/uploads/legacy/input-text/ie9%EC%9D%80%20%EA%B7%B8%EB%82%98%EB%A7%88%20%EC%A2%80%20%EB%82%AB%EB%8B%A4.png" alt="" width="206" height="78" /><p class="wp-caption-text">
-    IE9은 그나마 좀 낫다
-  </p>
-</div>
+아래는 IE8에서 `height: 25px`을 input에 준 경우다.
 
-이건 IE7에서 padding을 5px로 지정한 놈이다.
+![](/uploads/legacy/input-text/ie6-8%EC%9D%80%20%EC%99%BC%EC%AA%BD%EC%9C%84%EC%AA%BD%EC%9D%84%20%EB%94%B1%20%EB%B6%99%EC%9D%B8%EB%8B%A4.png)
 
-<div style="width: 225px" class="wp-caption aligncenter">
-  <img src="/uploads/legacy/input-text/padding-5px.jpg" alt="" width="215" height="94" /><p class="wp-caption-text">
-    IE7에서 padding 5px 지정
-  </p>
-</div>
+위에 딱 붙어서 보기가 흉하다. 위아래 `padding`을 줄 수도 있지만, 그러면 높이 제어가 힘들다. 대신 `line-height`를 원하는 높이만큼 주면 해결된다. 만약 높이를 25픽셀로 하려면 아래처럼 한다.
 
-어떤 브라우저든지 `padding:5px`인 게 `height`를 지정하는 것보다 더 낫다.
+    line-height: 25px;
+    
+사실 이 방법은 이 글을 쓴 직후 [@dohoons 님이 알려 준 방법][1]인데, 당시엔 참고사항으로만 적어 놨었다. 하지만 어느 순간 나도 `line-height`를 사용하게 됐다.
 
-submit 버튼과 입력 박스가 서로 줄이 좀 안 맞는 게 있는데, 이건 submit 버튼에 `vertical-align: top` 을 줘서 해결한다.
-
-## 인풋 박스 높이를 지정하면서 보기좋게 만드는 다른 방법
-
-[@dohoons 님이 알려 준 방법][1]이다.
-
-height를 지정하고 line-height를 height와 동일하게 지정해 주면 된다고 한다.
-
- [1]: https://twitter.com/dohoons/status/66049468788768768
+[1]: https://twitter.com/dohoons/status/66049468788768768

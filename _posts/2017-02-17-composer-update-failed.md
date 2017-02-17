@@ -1,5 +1,5 @@
 ---
-title: [composer] Your requirements could not be resolved to an installable set of packages.
+title: '[composer] Your requirements could not be resolved to an installable set of packages.'
 layout: post
 tags:
   - composer

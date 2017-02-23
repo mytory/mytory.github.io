@@ -19,7 +19,7 @@ CSS Wizardry의 해리 로버츠가 최근 [Code Smells in CSS Revisited][origin
 
 우선 코드 냄새가 무엇을 말하는지부터 살피고 가자. 아래는 위키피디아에 정의된 내용인데 강조는 해리 로버츠가 한 것이다.
 
-  >  코드 냄새는, 악취라고 부르기도 하는데, 컴퓨터 프로그래밍 코드에서 **더 심층에서(deeper) 문제를 일으킬 수 있는** 프로그램 소스 코드를 가리키는 용어다. 마틴 파울러에 따르면 '코드 냄새는 표면에 드러난 표시고, 보통 시스템의 더 깊은 곳과 관련돼 있다'.  냄새를 찾는 또 다른 방법은 원칙과 품지에 관심을 기울이는 것이다. '냄새는 코드에서 **핵심 설계 원칙을 깨뜨리고** 설계 품질에 부정적인 영향을 미치는 특정 구조다'. 흔히 코드 냄새가 버그인 것은 아니다. 코드 냄새는 **기술적으로 잘못된 것은 아니며** 현재는 프로그램의 기능을 중단시키는 것도 아니다. 대신에, **코드 냄새는 개발을 늦출 수 있는 설계의 취약함을 나타내거나** 미래에 버그나 실패의 위험이 높아진다는 것을 의미한다.  코드 악취는 기술 부채가 늘어날 징후일 수 있다. 로버트 C. 마틴은 코드 냄새의 목록을 소프트웨어 장인정신을 위한 '가치 체계'라고 부른다.
+  >  코드 냄새는, 악취라고 부르기도 하는데, 컴퓨터 프로그래밍 코드에서 **더 심층에서(deeper) 문제를 일으킬 수 있는** 프로그램 소스 코드를 가리키는 용어다. 마틴 파울러에 따르면 '코드 냄새는 표면에 드러난 표시고, 보통 시스템의 더 깊은 곳과 관련돼 있다'.  냄새를 찾는 또 다른 방법은 원칙과 품질에 관심을 기울이는 것이다. '냄새는 코드에서 **핵심 설계 원칙을 깨뜨리고** 설계 품질에 부정적인 영향을 미치는 특정 구조다'. 흔히 코드 냄새가 버그인 것은 아니다. 코드 냄새는 **기술적으로 잘못된 것은 아니며** 현재는 프로그램의 기능을 중단시키는 것도 아니다. 대신에, **코드 냄새는 개발을 늦출 수 있는 설계의 취약함을 나타내거나** 미래에 버그나 실패의 위험이 높아진다는 것을 의미한다.  코드 악취는 기술 부채가 늘어날 징후일 수 있다. 로버트 C. 마틴은 코드 냄새의 목록을 소프트웨어 장인정신을 위한 '가치 체계'라고 부른다.
 
 해리 로버츠는 따라서 자신이 드는 '코드 냄새'가 언제나 틀린 것은 아니며, 단지 좋은 리트머스 시험지로 여기라고 한다.
 
@@ -30,7 +30,7 @@ CSS Wizardry의 해리 로버츠가 최근 [Code Smells in CSS Revisited][origin
 지난 4년 동안 해리 로버츠는 `@extend`의 위험성을 많이 경고해 왔다며 사용하지 말 것을 권하고 있다. 내가 몇몇 글을 번역하기도 했는데, 이유를 요약하면 아래와 같다.
 
 - mixin보다 성능이 떨어진다. CSS 성능이란 건 대체로 용량을 말하는데, 용량이 작아야 빨리 다운로드할 수 있기 때문이다. gzip 압축시 mixin은 완전한 반복이므로 용량이 확 줄어드는 반면, extend는 완전한 반복이 아니므로 용량이 커지는 경향이 있다.
-- 탐욕스럽다. `@extend`는 모든 자식 요소들에 적용돼 엄청나게 긴 선택자를 만들어내기도 한다. [예시][example]
+- 탐욕스럽다. `@extend`는 모든 자식 요소들에 적용돼 엄청나게 긴 선택자를 만들어내기도 한다. ([예시][example])
 - 코드를 여기저기 흩어 놓는다.
 - 실마리를 감춘다. HTML 쪽에서 클래스의 내용을 인지하기 어렵다. 여러 개의 클래스를 사용하는 기법이 낫다.
 
@@ -39,10 +39,13 @@ CSS Wizardry의 해리 로버츠가 최근 [Code Smells in CSS Revisited][origin
 다음을 참고하자.
 
 - [Mixins Better for Performance](https://csswizardry.com/2016/02/mixins-better-for-performance/)
-- [When to Use @extend; When to Use a Mixin](https://csswizardry.com/2014/11/when-to-use-extend-when-to-use-a-mixin/)(번역: [Sass에서 웬만하면 extend 말고 믹스인을 사용하자](http://mytory.net/2016/12/23/when-to-use-extend-when-to-use-a-mixin.html)
+- [When to Use @extend; When to Use a Mixin](https://csswizardry.com/2014/11/when-to-use-extend-when-to-use-a-mixin/)
+    - 번역: [Sass에서 웬만하면 extend 말고 믹스인을 사용하자][mixin]
 - [Extending Silent Classes in Sass](https://csswizardry.com/2014/01/extending-silent-classes-in-sass/)
+
+[mixin]: http://mytory.net/2016/12/23/when-to-use-extend-when-to-use-a-mixin.html
   
-내가 번역한 글이 하나 더 있다. 이것도 참고.
+내가 번역한 글이 하나 더 있다. 이것도 참고하라.
 
 - [OOCSS 객체 수정시 extend 말고 class 이어 적기를 사용하자](http://mytory.net/2016/12/29/methods-for-modifying-objects-in-OOCSS.html)
 
@@ -73,8 +76,27 @@ CSS Wizardry의 해리 로버츠가 최근 [Code Smells in CSS Revisited][origin
 
 소스맵이 클래스 위치를 알려 준다고 생각할 수도 있고, 클래스명으로 해당 클래스가 있는 파일을 유추할 수 있다고 말할 수도 있을 테지만, 그게 늘 그렇게 되는 게 아니다. 해리 로버츠의 [스크린캐스트](https://www.youtube.com/watch?v=MGzoRM3Al40)를 참고하라고 한다.
 
+요새는 BEM 네이밍을 `&`로 연결하는 경우도 있는데, 내 생각엔 그것도 그냥 다 치는 편이 나은 것 같다.
 
-## `background` 단축어
+    .person {
+      [style]
+      &__hand {
+        [style]
+      }
+    }
+
+위처럼 쓰지 말고, 아래처럼 쓰자.
+
+    .person {
+      [style]
+    }
+
+    .person__hand {
+      [style]
+    }
+
+
+## `background` 단축어(shorthand)
 
 css의 `background` 속성은 사실 아래처럼 많은 의미를 담고 있다.
 

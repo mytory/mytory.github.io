@@ -1,11 +1,17 @@
 ---
-title:  '[번역] CSS 코드 이상 감지하기(Code smells in CSS)'
+title:  '[번역] CSS 코드 냄새'
 author:  안형우
 layout:  post
 permalink:  /archives/8982
 tags: 
   - CSS
 ---
+
+## 2017-02-23
+
+최근 해리 로버츠가 코드 냄새의 사례로 몇 가지를 더 추가한 글을 발표했다: [추가적인 CSS 코드 냄새][revisited]
+
+[revisited]: /2017/02/23/code-smells-in-css-revisited.html
 
 ## 2017-01-02 
 
@@ -23,9 +29,7 @@ tags:
 
 ----
 
-원문은 [CSS의 코드 냄새(Code smells in CSS)][1]다.
-
-Code smell은 리팩토링에서 사용하는 단어다. 코드에 이상한 부분이 생기면 냄새가 난다고 표현하는 것이다. 한국에서 ‘코드 냄새’는 널리 사용하는 단어가 아니다. 그래서 제목에선 그냥 ‘코드 이상 감지하기’라고 했다. 본문에선 섞어서 사용할 거다. 그럼 번역 시작.
+원문은 [Code smells in CSS][1]다. Code smell은 리팩토링에서 사용하는 단어다. 코드에 이상한 부분이 생기면 냄새가 난다고 표현하는 것이다.
 
 ----
 

@@ -1,5 +1,5 @@
 ---
-title: '추가적인 CSS 코드 냄새'
+title: '[요약] 추가적인 CSS 코드 냄새'
 layout: post
 tags:
 - css

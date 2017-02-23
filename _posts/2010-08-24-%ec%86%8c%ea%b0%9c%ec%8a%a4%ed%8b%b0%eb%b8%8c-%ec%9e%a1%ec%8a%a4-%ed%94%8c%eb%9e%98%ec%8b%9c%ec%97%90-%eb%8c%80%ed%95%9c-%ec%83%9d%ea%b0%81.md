@@ -3,20 +3,17 @@ title: '[소개]스티브 잡스, &#8220;플래시에 대한 생각&#8221;'
 author: 안형우
 layout: post
 permalink: /archives/753
-aktt_notify_twitter:
-  - yes
-daumview_id:
-  - 36816174
-categories:
-  - 기타
 tags:
-  - 생각해 보기
+  - etc
 ---
-애플 포럼에서 재밌는 글을 발견했습니다. 구글에서 &#8220;스티브 잡스 플래시&#8221;로 검색하니까 제일 위에 뜨더군요.
 
-여기 요약만 하죠. 원본은 링크합니다 : 이건 번역 원문 <a href="http://www.appleforum.com/mac-column/59055-%EC%8A%A4%ED%8B%B0%EB%B8%8C-%EC%9E%A1%EC%8A%A4-%EA%B8%B0%EA%B3%A0-thoughts-flash.html" target="_blank">스티브 잡스, &#8220;플래시에 대한 생각&#8221;</a>&nbsp; / 영어 원문은 여기 <a href="http://www.apple.com/hotnews/thoughts-on-flash/" target="_blank">Thoughts on Flash</a>)
+## 2017-02-23
 
-날짜를 보니 2010년 4월이네요. 애플 홈페이지에 떠 있습니다.
+2010년 4월에 스티브 잡스는 [플래시에 대한 입장][번역링크]([원문][original])이라는 글을 발표했습니다. 이제 7년이 됐네요. 당시 4개월 만에 안드로이드용 플래시가 나왔고, [별다른 인상을 주지 못했죠.][flash-on-android] 당시 애플의 선택은 옳았습니다. 
+
+[flash-on-android]: /archives/754
+
+---
 
 아래는 요약입니다.
 
@@ -39,14 +36,13 @@ tags:
 
 잡스의 말은 설득력있습니다.
 
-일단 플래시에서 게임이 돌아가고, 게임이 돌아가므로 앱스토어의 고객을 빼앗기게 된다 하는 가설이 있었습니다. 개인적으로 아이폰에 플래시를 허용하지 않는 이유로 가장 설득력있다고 생각했던 가설입니다.
-
-하지만 아이폰이 웹앱(웹에서 어플리케이션처럼 그냥 돌아가는 것. 앱스토어를 거치지 않고 배포가 가능하다)을 허용하는 것을 보고 위 가설이 틀릴 수 있겠다는 생각을 했습니다.
-
-어쨌든, 저는 플래시보다 HTML5와 CSS3, 그리고 자바스크립트를 공부해야겠습니다. 그게 미래를 열 테니까요.
+저는 플래시보다 HTML5와 CSS3, 그리고 자바스크립트를 공부해야겠습니다. 그게 미래를 열 테니까요.
 
 자, 여기까지 읽고 다시 원본을 읽고 싶어 진 분들이 있다면 아래 링크에서 보세요.
 
-<p style="text-align: center;">
-  <a href="http://www.appleforum.com/mac-column/59055-%EC%8A%A4%ED%8B%B0%EB%B8%8C-%EC%9E%A1%EC%8A%A4-%EA%B8%B0%EA%B3%A0-thoughts-flash.html" target="_blank">스티브 잡스, &#8220;플래시에 대한 생각&#8221;</a>
-</p>
+[플래시에 대한 입장][번역링크]  
+
+
+
+[번역링크]: https://snupiie.wordpress.com/2010/06/02/%EB%B2%88%EC%97%AD-%EC%A0%84%EB%AC%B8-%ED%94%8C%EB%9E%98%EC%8B%9C%EC%97%90-%EB%8C%80%ED%95%9C-%EC%9E%85%EC%9E%A5-%EC%8A%A4%ED%8B%B0%EB%B8%8C-%EC%9E%A1%EC%8A%A4/
+[origianal]: http://www.apple.com/hotnews/thoughts-on-flash/

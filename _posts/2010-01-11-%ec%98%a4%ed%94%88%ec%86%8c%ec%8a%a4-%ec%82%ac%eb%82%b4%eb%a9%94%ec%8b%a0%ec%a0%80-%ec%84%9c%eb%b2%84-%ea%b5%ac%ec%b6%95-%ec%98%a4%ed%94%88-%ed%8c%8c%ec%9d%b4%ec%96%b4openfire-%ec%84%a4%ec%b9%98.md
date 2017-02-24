@@ -151,5 +151,5 @@ DBname 뒷부분을 긁어서 자신의 코드에 적용하면 된다.
 
 일단 설치하고 나면 pidgin에서 사용하면 된다.(정확히 말하면 XMPP(혹은 jabber)를 지원하는 모든 메신저로 사용 가능하다.) 프로토콜을 XMPP로 선택하고 사용자명에 오픈파이어 가입시 적은 username, 도메인에 서버 설치된 ip주소나 도메인 주소를 적어 주면 된다.(포트는 적어줄 필요 없다.) 테스트해보고 싶으면 admin 아이디로 해 보라. 끝.
 
- [1]: http://mytory.net/archives/2328 "사내 메신저 서버 오픈파이어의 관리자 비번을 까먹었을 때"
+ [1]: https://mytory.net/archives/2328 "사내 메신저 서버 오픈파이어의 관리자 비번을 까먹었을 때"
  [2]: http://www.igniterealtime.org/projects/openfire/index.jsp

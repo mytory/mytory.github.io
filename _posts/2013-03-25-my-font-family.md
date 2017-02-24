@@ -84,6 +84,6 @@ body{
 
 `Light`도 명시를 하는 것보다 `font-weight`를 활용하는 게 나을 것 같은데, 테스트해 볼 여유는 없으니 대충 의견만 내고 나머지는 패스한다.
 
-[1]: http://mytory.net/2016/06/15/webfont-best-practice.html
+[1]: https://mytory.net/2016/06/15/webfont-best-practice.html
 
 [^fn1]: 물론 은글꼴은 좋은 글꼴이다. 백묵글꼴과 함께 오랫동안 리눅스에서 사용할 수 있는 거의 유일한 한글 글꼴이었던 것으로 안다. 은 바탕은 옛 한글을 제대로 표시하는 몇 안 되는 글꼴 중 하나기도 하다. 여기선 내가 원하는 글꼴을 덮어쓴 것이 주요 문제라는 뜻으로 언급했다. 은글꼴에 대한 자세한 내용은 [위키백과의 은글꼴 항목](https://ko.wikipedia.org/wiki/%EC%9D%80%EA%B8%80%EA%BC%B4)을 참조하면 된다.

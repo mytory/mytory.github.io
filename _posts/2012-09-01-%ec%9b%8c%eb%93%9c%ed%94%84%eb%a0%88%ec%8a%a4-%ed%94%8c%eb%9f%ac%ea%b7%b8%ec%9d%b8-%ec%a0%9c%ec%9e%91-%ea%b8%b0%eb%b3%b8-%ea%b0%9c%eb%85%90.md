@@ -65,7 +65,7 @@ add_filter(&#039;login_message&#039;, &#039;modify_login_message&#039;);</pre>
  Description: 로그인 메시지를 변경하는 예제 플러그인다.
  Version: 1.0.0
  Author: mytory
- Author URI: http://mytory.net
+ Author URI: https://mytory.net
  License: GPL2
  */</pre>
 
@@ -96,4 +96,4 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
 
  [1]: http://codex.wordpress.org/Plugin_API/Filter_Reference
  [2]: http://codex.wordpress.org/Plugin_API/Action_Reference
- [3]: http://mytory.net/uploads/legacy/modify-login-message.zip
+ [3]: https://mytory.net/uploads/legacy/modify-login-message.zip

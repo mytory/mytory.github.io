@@ -23,6 +23,6 @@ Zend PDT로 설치하니까 예전에 사용하던 workspace에서는 PHP 함수
  [1]: http://www.zend.com/community/pdt/downloads
  [2]: https://github.com/emmetio/emmet-eclipse
  [3]: http://emmet.io/
- [4]: http://mytory.net/archives/2521 "[Tip/소개] Emmet(예전 젠 코딩 Zen Coding) 사용법은 정말 쉽다!"
+ [4]: https://mytory.net/archives/2521 "[Tip/소개] Emmet(예전 젠 코딩 Zen Coding) 사용법은 정말 쉽다!"
  [5]: http://download.eclipse.org/releases/indigo
  [6]: http://eclipsecolorthemes.org/?view=theme&id=66

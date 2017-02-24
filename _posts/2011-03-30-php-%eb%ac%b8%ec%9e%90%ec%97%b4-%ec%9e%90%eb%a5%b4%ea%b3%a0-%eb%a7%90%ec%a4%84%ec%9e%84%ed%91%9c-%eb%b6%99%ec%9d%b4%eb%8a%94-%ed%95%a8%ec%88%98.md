@@ -99,4 +99,4 @@ after mb_strcut 9: abc와!!!
 
 `substr`로 4바이트나 5바이트를 잘랐을 때 한글이 깨지는 것을 알 수 있다. 특수문자와 영문은 1바이트, 한글은 3바이트 처리된다는 것도 알 수 있다.
 
- [1]: http://mytory.net/archives/247 "< 따위 글자를 원래대로 돌려주는 php함수 – htmlspecialchars_decode.php 구현함수"
+ [1]: https://mytory.net/archives/247 "< 따위 글자를 원래대로 돌려주는 php함수 – htmlspecialchars_decode.php 구현함수"

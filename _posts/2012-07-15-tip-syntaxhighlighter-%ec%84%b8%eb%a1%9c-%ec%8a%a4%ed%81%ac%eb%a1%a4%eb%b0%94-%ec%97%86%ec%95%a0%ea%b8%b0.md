@@ -16,7 +16,7 @@ tags:
 
 그런데 늘 세로 스크롤바가 거슬렸다.
 
-<img class="aligncenter" src="http://mytory.net/uploads/legacy/code-syntax-highlight-vertical-scrollbar.png" alt="" width="778" height="191" />
+<img class="aligncenter" src="https://mytory.net/uploads/legacy/code-syntax-highlight-vertical-scrollbar.png" alt="" width="778" height="191" />
 
 그래서 어느 날 세로 스크롤바를 없애기로 마음먹었다. 생각보다 간단했다. 스타일(`style.css`)에 아래 코드를 추가했더니 말끔히 해결.
 

@@ -147,7 +147,7 @@ J2EE doc를 보면 암호화 설명도 막 있고 그런데 다른 API에서 사
 
  [1]: http://biz.epost.go.kr/customCenter/custom/custom_10.jsp?subGubun=sub_3&subGubun_1=cum_18&gubun=m07
  [2]: https://www.data.go.kr/
- [3]: http://mytory.net/archives/1284
+ [3]: https://mytory.net/archives/1284
  [4]: /uploads/legacy/postcode/postcode1.png
  [5]: /uploads/legacy/postcode/postcode2.png
  [6]: /uploads/legacy/postcode/postcode3.png

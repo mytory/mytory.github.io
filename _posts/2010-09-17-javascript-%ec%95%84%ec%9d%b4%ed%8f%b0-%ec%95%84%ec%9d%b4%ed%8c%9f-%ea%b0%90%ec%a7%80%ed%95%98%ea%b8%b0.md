@@ -25,4 +25,4 @@ tags:
 
 위에 보면 알겠지만 navigator.userAgent 는 브라우저 쪽에서 서버쪽에 자신이 누구인지 알려 주는 문자열이다. 여기에 iPhone이나 iPod 이라는 문자열이 포함돼 있으면 아이폰이나 아이팟이다.
 
-<a href="http://mytory.net/archives/769" target="_blank">PHP쪽도 마찬가지 문자열로 이를 감지</a>할 수 있다.
+<a href="https://mytory.net/archives/769" target="_blank">PHP쪽도 마찬가지 문자열로 이를 감지</a>할 수 있다.

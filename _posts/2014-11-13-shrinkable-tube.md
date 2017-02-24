@@ -19,7 +19,7 @@ category: "etc"
 
 열 수축 튜브는 말 그대로 열을 가하면 수축하는 튜브다. 그래서 이렇게, 아래 사진처럼, 라이트닝 케이블을 끼운 다음...
 
-![](http://mytory.net/uploads/legacy/shirinkable-tube-1.jpg)
+![](https://mytory.net/uploads/legacy/shirinkable-tube-1.jpg)
 
 아래 동영상처럼 헤어 드라이기로 졸라 가열하면 된다. 그러면 튜브가 수축하면서 라이트닝 케이블의 벗겨진 피복을 착 감싸 안는다.
 
@@ -27,5 +27,5 @@ category: "etc"
 
 그래서 결과물은 아래처럼 아름답게 수리된 라이트닝 케이블.
 
-![](http://mytory.net/uploads/legacy/shirinkable-tube-2.jpg)
+![](https://mytory.net/uploads/legacy/shirinkable-tube-2.jpg)
 

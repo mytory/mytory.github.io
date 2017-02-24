@@ -16,7 +16,7 @@ tags:
 
 키패드를 눌렀을 때 모양은 만들지 않았는데, 손가락에 가려서 어차피 잘 보이지 않기 때문이다.
 
-<img class="aligncenter" src="http://mytory.net/uploads/legacy/dialerkeypad%402x.png" alt="" width="640" height="546" />
+<img class="aligncenter" src="https://mytory.net/uploads/legacy/dialerkeypad%402x.png" alt="" width="640" height="546" />
 
 아이폰에서 테마를 어떻게 설정하고 어떻게 넣고 하는 것은 설명하지 않겠다. 검색해 보면 많은 자료가 나온다.
 

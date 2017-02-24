@@ -150,7 +150,7 @@ style.css 의 26번 줄에 있는 글씨크기를 100%에서 103%로 키웠습�
 </p>
 
 <p class="brush: php; gutter: true; first-line: 49">
-  일단 fp-manager.php의 192번째 줄을 주석처리하고, 한글을 처리할 수 있는 함수로 변경했습니다. (<a title="[PHP] 문자열 자르고 말줄임표 붙이는 함수" href="http://mytory.net/archives/1036">mb_strcut</a>을 사용했습니다.)
+  일단 fp-manager.php의 192번째 줄을 주석처리하고, 한글을 처리할 수 있는 함수로 변경했습니다. (<a title="[PHP] 문자열 자르고 말줄임표 붙이는 함수" href="https://mytory.net/archives/1036">mb_strcut</a>을 사용했습니다.)
 </p>
 
 <pre class="brush: php; first-line: 192">//$final = FPManager::fix_html(substr($content, 0, $truncate), $ending);
@@ -168,6 +168,6 @@ $final = FPManager::fix_html(mb_strcut($content, 0, $truncate, &#039;utf-8&#039;
 
 아름다운 유동형 1단 테마! ^^ 기본 테마에서 찾다니! 기분이 좋습니다. 이상입니다.
 
- [1]: http://mytory.net/archives/10961
+ [1]: https://mytory.net/archives/10961
  [2]: http://wordpress.org/extend/themes/twentyeleven
  [3]: http://hyeonseok.com/soojung/webstandards/2011/02/05/638.html

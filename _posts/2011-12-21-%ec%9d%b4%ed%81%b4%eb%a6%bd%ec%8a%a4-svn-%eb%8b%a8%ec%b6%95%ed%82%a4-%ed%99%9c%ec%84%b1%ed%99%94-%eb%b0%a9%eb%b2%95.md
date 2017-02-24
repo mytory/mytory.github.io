@@ -20,10 +20,10 @@ tags:
 
 SVN에 체크한다.
 
-<img class="aligncenter" src="http://mytory.net/uploads/legacy/eclipse-subversion-shortcut-enable-1.png" alt="" width="781" height="574" />
+<img class="aligncenter" src="https://mytory.net/uploads/legacy/eclipse-subversion-shortcut-enable-1.png" alt="" width="781" height="574" />
 
 이렇게 체크하면 team 항목에 단축키가 활성화된다.
 
-<img class="aligncenter" src="http://mytory.net/uploads/legacy/eclipse-subversion-shortcut-enable-2.png" alt="" width="306" height="639" />
+<img class="aligncenter" src="https://mytory.net/uploads/legacy/eclipse-subversion-shortcut-enable-2.png" alt="" width="306" height="639" />
 
 커밋은 Ctrl+Alt+C / 업데이트는 Ctrl+Alt+U 다.

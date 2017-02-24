@@ -42,6 +42,6 @@ tags:
   </p>
 </div>
 
- [1]: http://mytory.net/archives/1048 "[minify] js, css 압축 – 웹사이트 속도 증가, 트래픽 절약"
- [2]: http://mytory.net/archives/1784 "드롭박스 – 특별한 웹하드"
- [3]: http://mytory.net/archives/2002 "[.htaccess] 누가 내 블로그 이미지를 긁어가서 트래픽 초과되는 거 방지하기 (설치형 블로그)"
+ [1]: https://mytory.net/archives/1048 "[minify] js, css 압축 – 웹사이트 속도 증가, 트래픽 절약"
+ [2]: https://mytory.net/archives/1784 "드롭박스 – 특별한 웹하드"
+ [3]: https://mytory.net/archives/2002 "[.htaccess] 누가 내 블로그 이미지를 긁어가서 트래픽 초과되는 거 방지하기 (설치형 블로그)"

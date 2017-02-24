@@ -95,15 +95,15 @@ tags:
 
 케이스는 만 원인데 한 시간 반 여가 시간을 들여서 만 원 절약했다고 생각하니 뭔가 손해본 느낌도 나고&#8230; 뭐 별 상관 없다. 끝!
 
- [1]: http://mytory.net/archives/12529
+ [1]: https://mytory.net/archives/12529
  [2]: http://www.raspberrypi.org/archives/1310
  [3]: https://www.google.co.kr/search?q=raspberrypi+paper+case
- [4]: http://mytory.net/uploads/legacy/raspberry-pi-case/rasp-6.jpg
- [5]: http://mytory.net/uploads/legacy/raspberry-pi-case/rasp-5.jpg
- [6]: http://mytory.net/uploads/legacy/raspberry-pi-case/rasp-1.jpg
- [7]: http://mytory.net/uploads/legacy/raspberry-pi-case/rasp-9.jpg
- [8]: http://mytory.net/uploads/legacy/raspberry-pi-case/usb-power.png
- [9]: http://mytory.net/uploads/legacy/raspberry-pi-case/rasp-7.jpg
- [10]: http://mytory.net/uploads/legacy/raspberry-pi-case/rasp-3.jpg
- [11]: http://mytory.net/uploads/legacy/raspberry-pi-case/rasp-4.jpg
- [12]: http://mytory.net/uploads/legacy/raspberry-pi-case/rasp-8.jpg
+ [4]: https://mytory.net/uploads/legacy/raspberry-pi-case/rasp-6.jpg
+ [5]: https://mytory.net/uploads/legacy/raspberry-pi-case/rasp-5.jpg
+ [6]: https://mytory.net/uploads/legacy/raspberry-pi-case/rasp-1.jpg
+ [7]: https://mytory.net/uploads/legacy/raspberry-pi-case/rasp-9.jpg
+ [8]: https://mytory.net/uploads/legacy/raspberry-pi-case/usb-power.png
+ [9]: https://mytory.net/uploads/legacy/raspberry-pi-case/rasp-7.jpg
+ [10]: https://mytory.net/uploads/legacy/raspberry-pi-case/rasp-3.jpg
+ [11]: https://mytory.net/uploads/legacy/raspberry-pi-case/rasp-4.jpg
+ [12]: https://mytory.net/uploads/legacy/raspberry-pi-case/rasp-8.jpg

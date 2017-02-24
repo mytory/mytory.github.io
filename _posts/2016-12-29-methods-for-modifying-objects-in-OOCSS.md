@@ -13,8 +13,8 @@ tags:
 3. 이 글은 `@extend`를 사용하면 유지보수하기가 오히려 힘들어지고, 소스가 지저분해진다는 점을 좀더 구체적으로 보여 준다.
 
 [원본]: https://oliverjash.me/2012/09/07/methods-for-modifying-objects-in-oocss
-[갤러거]: http://mytory.net/2016/12/02/about-html-semantics-front-end-architecture.html
-[로버츠]: http://mytory.net/2016/12/23/when-to-use-extend-when-to-use-a-mixin.html
+[갤러거]: https://mytory.net/2016/12/02/about-html-semantics-front-end-architecture.html
+[로버츠]: https://mytory.net/2016/12/23/when-to-use-extend-when-to-use-a-mixin.html
 
 각주는 모두 역자가 붙인 것이다. \[ \] 안의 말은 역자가 이해를 돕기 위해 추가한 말이다.
 

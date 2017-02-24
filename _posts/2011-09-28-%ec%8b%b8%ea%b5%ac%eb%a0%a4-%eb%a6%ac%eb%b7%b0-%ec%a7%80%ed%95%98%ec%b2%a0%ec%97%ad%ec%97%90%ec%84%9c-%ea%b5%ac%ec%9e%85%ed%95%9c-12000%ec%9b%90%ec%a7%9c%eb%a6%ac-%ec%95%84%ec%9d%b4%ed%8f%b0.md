@@ -71,7 +71,7 @@ tags:
 한 달 전에 구입한 [싸구려 아이폰 핸즈프리][2]는 비추다.
 
 <div style="width: 730px" class="wp-caption aligncenter">
-  <img src="http://mytory.net/uploads/legacy/14000-earphone.JPG" alt="" width="720" height="538" /><p class="wp-caption-text">
+  <img src="https://mytory.net/uploads/legacy/14000-earphone.JPG" alt="" width="720" height="538" /><p class="wp-caption-text">
     △사용한 지 한 달이 됐다. 겉은 멀쩡하지만 속이 망가졌다.
   </p>
 </div>
@@ -84,5 +84,5 @@ tags:
 
 리모컨은 잘 작동한다. 볼륨 조절도 잘 되고, 버튼도 잘 눌린다. 하지만 통화기능이 기본 이하면 아무 소용 없다. 그래서 비추.
 
- [1]: http://mytory.net/archives/1801 "[리뷰] 아이폰/아이패드 저가형 싼 블루투스 키보드 – 인파로 IN-BK01, 아이노트 FS-94KBT 리뷰"
+ [1]: https://mytory.net/archives/1801 "[리뷰] 아이폰/아이패드 저가형 싼 블루투스 키보드 – 인파로 IN-BK01, 아이노트 FS-94KBT 리뷰"
  [2]: http://itempage.auction.co.kr/detailview.aspx?ItemNo=A544387452

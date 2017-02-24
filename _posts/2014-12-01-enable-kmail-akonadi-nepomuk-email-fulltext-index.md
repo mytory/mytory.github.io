@@ -14,7 +14,7 @@ tags:
 
 그런데 관련 검색을 하다 보니 Nepomuk이란 놈이 등장하는 거다. 찾아 보니 Networked Environment for Personal, Ontology-based Management of Unified Knowledge(개인을 위한 연결된(?) 환경, [온톨로지](http://ko.wikipedia.org/wiki/%EC%98%A8%ED%86%A8%EB%A1%9C%EC%A7%80) 기반의 통합 지식 관리)라는 제목의 약자인데... 아놔... 여튼간에, 이게 컴퓨터 안에 있는 정보들을 통합적으로 검색하는 프로그램인가 보다. KDE에 기본으로 딸려 있는 놈이라고 이해되고. 발음은 네포묵 정도로 하면 되나? 여튼 이게 이메일을 검색할 수 있게 활성화하면 된다는 것 같았다. 그래서 그런 프로그램이 있는지 보니까 있다. `Alt+F1`을 눌러서 nepomuk으로 찾아 보니 'Desktop Search'라는 놈이 나온다. 그걸 실행했더니 아래처럼 email 색인이 나온다.
 
-![](http://mytory.net/uploads/legacy/kmail-enable-email-indexing.png)
+![](https://mytory.net/uploads/legacy/kmail-enable-email-indexing.png)
 
 이렇게 해서 이메일 색인 시작 성공.
 

@@ -27,7 +27,7 @@ tags:
 IDE((Integrated Development Environment:통합 개발 환경)은 지난 몇 년간 괄목할 만한 발전을 했다. IDE는 예전보다 주석을 더 쓸모있게 달 수 있도록 해 준다. 다음과 같은 표준 주석은 IDE와 다른 툴이 이걸 쓸모있게 사용할 수 있도록 해 준다.
 
 <p style="text-align: center;">
-  <img class="aligncenter" src="http://mytory.net/uploads/legacy/readable-code/readable_code_1.png" alt="" />
+  <img class="aligncenter" src="https://mytory.net/uploads/legacy/readable-code/readable_code_1.png" alt="" />
 </p>
 
 내가 추가한 함수 정의 주석은 내가 함수를 어디서 사용하든간에 보인다. 심지어 다른 파일에서도 보인다.
@@ -35,7 +35,7 @@ IDE((Integrated Development Environment:통합 개발 환경)은 지난 몇 년�
 이건 또다른 예다. 내가 써드 파티 라이브러리에서 함수를 호출하는 경우다.
 
 <p style="text-align: center;">
-  <img class="aligncenter" src="http://mytory.net/uploads/legacy/readable-code/readable_code_2.png" alt="" width="560" height="638" />
+  <img class="aligncenter" src="https://mytory.net/uploads/legacy/readable-code/readable_code_2.png" alt="" width="560" height="638" />
 </p>
 
 이 부분적인 예 들은 [PHPDoc][2]과 [Aptana][3]를 기반으로 했다.
@@ -258,7 +258,7 @@ $this-&gt;load-&gt;view(&#039;includes/footer&#039;);</pre>
 우리 눈은 좁고 위아래로 긴 열을 읽는 데 더 최적화돼 있다. 바로 이 때문에 신문이 이렇게 생긴 것이다.
 
 <p style="text-align: center;">
-  <img class="aligncenter" src="http://mytory.net/uploads/legacy/readable-code/newspaper.jpg" alt="" />
+  <img class="aligncenter" src="https://mytory.net/uploads/legacy/readable-code/newspaper.jpg" alt="" />
 </p>
 
 수평으로 긴 줄을 작성하게 되는 걸 피하는 방법을 보여 주는 좋은 예제가 있다.
@@ -294,7 +294,7 @@ $query = "SELECT id, username, first_name, last_name, status
 최선에 가까운 방법은, [프레임워크를 사용][10]하거나, 그 구조를 모방하는 것이다. 여기 코드 이그니터의 구조가 있다.
 
 <p style="text-align: center;">
-  <img class="aligncenter" src="http://mytory.net/uploads/legacy/readable-code/readable_code_3.png" alt="" />
+  <img class="aligncenter" src="https://mytory.net/uploads/legacy/readable-code/readable_code_3.png" alt="" />
 </p>
 
 ## 10. 임시 변수의 이름을 일관된 규칙에 따라 정하라(Consistent Temporary Names)
@@ -459,7 +459,7 @@ LIMIT 0,20</pre>
 오픈소스 프로젝트는 많은 개발자들의 협업으로 이뤄진다. 이런 프로젝트들은 코드 가독성을 높게 유지해서 가능한 협업을 효과적으로 만들어야 한다. 따라서, 이 개발자들이 어떤 식으로 코드를 짜는지 보기 위해서 소스 코드를 살펴 보는 것은 좋은 방법이다.
 
 <p style="text-align: center;">
-  <img class="aligncenter" src="http://mytory.net/uploads/legacy/readable-code/open_source.png" alt="" />
+  <img class="aligncenter" src="https://mytory.net/uploads/legacy/readable-code/open_source.png" alt="" />
 </p>
 
 ## 16. 코드를 리팩토링하라

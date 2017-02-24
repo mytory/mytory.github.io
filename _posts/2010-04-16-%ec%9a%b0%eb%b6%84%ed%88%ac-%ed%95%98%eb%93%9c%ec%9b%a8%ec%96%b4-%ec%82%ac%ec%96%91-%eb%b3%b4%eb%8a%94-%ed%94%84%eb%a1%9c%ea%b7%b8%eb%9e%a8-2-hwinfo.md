@@ -13,7 +13,7 @@ tags:
   - Ubuntu
   - Ubuntu Family
 ---
-아까 <a title="[우분투] 하드웨어 사양 보는 프로그램 sysinfo" href="http://mytory.net/archives/513" target="_blank">sysinfo를 소개</a>했는데, 더 자세하게 볼 수 있는 방법도 있다. 단, GUI가 아니라 터미널로 정보를 출력해 준다.
+아까 <a title="[우분투] 하드웨어 사양 보는 프로그램 sysinfo" href="https://mytory.net/archives/513" target="_blank">sysinfo를 소개</a>했는데, 더 자세하게 볼 수 있는 방법도 있다. 단, GUI가 아니라 터미널로 정보를 출력해 준다.
 
 <pre class="brush:plain">sudo apt-get install hwinfo</pre>
 

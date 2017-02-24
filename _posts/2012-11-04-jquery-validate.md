@@ -55,6 +55,6 @@ tags:
 [▶데모 보기][3]
 
  [1]: http://parsleyjs.org/
- [2]: http://mytory.net/archives/195 "jQuery Form Validation Plugin 폼 검증 플러그인 간단 사용법"
- [3]: http://mytory.net/uploads/code/jquery-validate-demo.html
+ [2]: https://mytory.net/archives/195 "jQuery Form Validation Plugin 폼 검증 플러그인 간단 사용법"
+ [3]: https://mytory.net/uploads/code/jquery-validate-demo.html
  [4]: /uploads/legacy/jquery-validate-js-error-msg-position.png

@@ -25,4 +25,4 @@ PHP는 간단하게 할 수 있는데 파일의 거의 앞쪽(아마도 첫 문�
 [JS와 CSS를 압축하는 방법은 다른 글을 참고][2]하면 된다.
 
  [1]: http://www.whatsmyip.org/http_compression/
- [2]: http://mytory.net/archives/1048 "[minify] js, css 압축 – 웹사이트 속도 증가, 트래픽 감소"
+ [2]: https://mytory.net/archives/1048 "[minify] js, css 압축 – 웹사이트 속도 증가, 트래픽 감소"

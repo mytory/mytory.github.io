@@ -9,7 +9,7 @@ CSS Wizardry의 해리 로버츠가 최근 [Code Smells in CSS Revisited][origin
 
 [original]: https://csswizardry.com/2017/02/code-smells-in-css-revisited/
 
-[2012]: http://mytory.net/archives/8982
+[2012]: https://mytory.net/archives/8982
 
 여기서는 해당 글을 요약 소개한다. 
 
@@ -43,11 +43,11 @@ CSS Wizardry의 해리 로버츠가 최근 [Code Smells in CSS Revisited][origin
     - 번역: [Sass에서 웬만하면 extend 말고 믹스인을 사용하자][mixin]
 - [Extending Silent Classes in Sass](https://csswizardry.com/2014/01/extending-silent-classes-in-sass/)
 
-[mixin]: http://mytory.net/2016/12/23/when-to-use-extend-when-to-use-a-mixin.html
+[mixin]: https://mytory.net/2016/12/23/when-to-use-extend-when-to-use-a-mixin.html
   
 내가 번역한 글이 하나 더 있다. 이것도 참고하라.
 
-- [OOCSS 객체 수정시 extend 말고 class 이어 적기를 사용하자](http://mytory.net/2016/12/29/methods-for-modifying-objects-in-OOCSS.html)
+- [OOCSS 객체 수정시 extend 말고 class 이어 적기를 사용하자](https://mytory.net/2016/12/29/methods-for-modifying-objects-in-OOCSS.html)
 
 ## 클래스 문자열 이어붙이기
 

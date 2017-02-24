@@ -46,4 +46,4 @@ tags:
 이상이다. 에잇! 첨부터 colorbox를 알았다면 그걸 썼을 텐데 하는 생각이 든다.
 
  [1]: http://fancyapps.com/fancybox/
- [2]: http://mytory.net/archives/599 "최고의 jQuery 갤러리 플러그인, fancyBox2 – 새로운 기능은?"
+ [2]: https://mytory.net/archives/599 "최고의 jQuery 갤러리 플러그인, fancyBox2 – 새로운 기능은?"

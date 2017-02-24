@@ -20,7 +20,7 @@ tags:
 
 그러면 아래 같은 그림이 나오는데 여기서 자동연결을 켜 준다.
 
-<img class="aligncenter" src="http://mytory.net/uploads/legacy/olleh-WiFi-auto-connect.PNG" alt="" width="341" height="512" />
+<img class="aligncenter" src="https://mytory.net/uploads/legacy/olleh-WiFi-auto-connect.PNG" alt="" width="341" height="512" />
 
 그러면 앞으로 자동연결이 된다.
 

@@ -103,4 +103,4 @@ js 코드는 아래와 같다.
 
 자, 그러면 만든 것을 [데모 페이지][1]에서 감상하면 되겠다.
 
- [1]: http://mytory.net/uploads/code/js-open-target/js-open-target.html
+ [1]: https://mytory.net/uploads/code/js-open-target/js-open-target.html

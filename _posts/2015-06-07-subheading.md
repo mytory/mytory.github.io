@@ -77,4 +77,4 @@ tag:
 
 [^1]: 본제목과는 다른 제목으로 해당 기록을 표현하는 또 다른 제목을 의미한다. 본제목과 다른 언어로 표현된 제목도 대등 제목에 해당한다. ([출처: \[네이버 지식백과\] 대등 제목 \[alternative title\] (기록학용어사전, 2008.3.10, 역사비평사)](http://terms.naver.com/entry.nhn?docId=440923&cid=50296&categoryId=50296))
 [^2]: 아래와 같이 제목 밑에 붙는 슬로건 같은 것 - 안형우  
-      ![태그라인 예제](http://mytory.net/uploads/legacy/tagline-example.png)
+      ![태그라인 예제](https://mytory.net/uploads/legacy/tagline-example.png)

@@ -32,7 +32,7 @@ tags:
 
 ## [try ruby][1](영어)
 
-<img class="aligncenter" src="http://mytory.net/uploads/legacy/ruby-try.png" alt="" width="640" height="413" />
+<img class="aligncenter" src="https://mytory.net/uploads/legacy/ruby-try.png" alt="" width="640" height="413" />
 
 웹브라우저에 구현돼 있는 루비 콘솔에 명령어를 시키는대로 입력하면서 튜토리얼을 밟아 나간다.
 
@@ -53,7 +53,7 @@ try ruby 보다 반응이 빨라서 좋았다.
 설치하면 어래처럼 프로그램들을 볼 수 있다.
 
 <p style="text-align: center;">
-  <img class="aligncenter" src="http://mytory.net/uploads/legacy/ruby-fxri.jpg" alt="" />
+  <img class="aligncenter" src="https://mytory.net/uploads/legacy/ruby-fxri.jpg" alt="" />
 </p>
 
 fxri 를 갖고 시키는 걸 따라하다가 파일을 직접 작성하라고 할 때는 SciTE를 열어서 test.rb 따위로 저장을 하고 시작한다. 그러면 루비 문법에 맞게 색깔 강조가 된다. (물론 자신이 즐겨 쓰는 텍스트 에디터를 쓰면 된다. 나는 에디터 플러스가 좋은데 루비 플러그인이 설치돼 있지 않아서 안 썼다.) 코드 들여쓰기는 사용자 입맛에 맞게 하면 되는 듯하다.

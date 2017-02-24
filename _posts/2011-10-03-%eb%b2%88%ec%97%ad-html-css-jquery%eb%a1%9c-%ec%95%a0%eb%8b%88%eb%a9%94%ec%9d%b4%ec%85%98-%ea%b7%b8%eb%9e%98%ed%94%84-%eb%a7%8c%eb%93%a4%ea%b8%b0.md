@@ -292,7 +292,7 @@ $.each(columnGroups, function(i) {
 제목열[headings]을 제외하고 우리 테이블은 5행 3열이다. 이것은, 그래프에서 연도별로 각각 3개의 막대가 있다는 것을 의미한다. 아래 이미지는 우리 그래프가 어떤 식으로 만들어질 지를 보여 준다.
 
 <p style="text-align: center;">
-  <img class="aligncenter" src="http://mytory.net/uploads/legacy/create-an-animated-bar/graph-tut-image-construction.png" alt="" /><br /> 분석해 보자.
+  <img class="aligncenter" src="https://mytory.net/uploads/legacy/create-an-animated-bar/graph-tut-image-construction.png" alt="" /><br /> 분석해 보자.
 </p>
 
 *   각 열의 [연도별] 수치를 담을 `div`를 만든다.

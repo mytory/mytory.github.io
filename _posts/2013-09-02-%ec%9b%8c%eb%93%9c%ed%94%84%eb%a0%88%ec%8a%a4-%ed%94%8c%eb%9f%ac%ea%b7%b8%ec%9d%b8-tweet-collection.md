@@ -53,8 +53,8 @@ tags:
 
  [1]: http://wordpress.org/plugins/tweet-collection/
  [2]: https://github.com/mytory/tweet-collection
- [3]: http://mytory.net/uploads/legacy/tweet-collection/screenshot-1.png
- [4]: http://mytory.net/uploads/legacy/tweet-collection/screenshot-2.png
- [5]: http://mytory.net/uploads/legacy/tweet-collection/screenshot-3.png
- [6]: http://mytory.net/uploads/legacy/tweet-collection/screenshot-4.png
- [7]: http://mytory.net/uploads/legacy/tweet-collection/screenshot-5.png
+ [3]: https://mytory.net/uploads/legacy/tweet-collection/screenshot-1.png
+ [4]: https://mytory.net/uploads/legacy/tweet-collection/screenshot-2.png
+ [5]: https://mytory.net/uploads/legacy/tweet-collection/screenshot-3.png
+ [6]: https://mytory.net/uploads/legacy/tweet-collection/screenshot-4.png
+ [7]: https://mytory.net/uploads/legacy/tweet-collection/screenshot-5.png

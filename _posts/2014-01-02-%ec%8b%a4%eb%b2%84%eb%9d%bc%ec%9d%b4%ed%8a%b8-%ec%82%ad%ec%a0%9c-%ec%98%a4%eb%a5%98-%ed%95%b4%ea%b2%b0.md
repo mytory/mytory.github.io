@@ -30,5 +30,5 @@ tags:
 나도 이렇게 하니까 더이상 보기 싫은 업데이트 실패 메시지 안 뜬다.
 
  [1]: http://support.microsoft.com/kb/2608523/ko
- [2]: http://mytory.net/uploads/legacy/CleanSilverlight.7z
+ [2]: https://mytory.net/uploads/legacy/CleanSilverlight.7z
  [3]: http://www.microsoft.com/getsilverlight/get-started/install/default.aspx

@@ -75,6 +75,6 @@ jQuery에서 이벤트를 붙일 때는 접두어 on을 빼고 사용한다.
 
 이제 반투명 검은 막과 함께 레이어 팝업을 띄우는 걸 능숙하게 할 수 있다. 물론, 내가 저장해 둔 코드를 긁어야겠지만 말이다.
 
- [1]: http://mytory.net/archives/599 "꽤 괜찮아 보이는 jQuery 이미지 확대 라이브러리 – 뭐, 갤러리도 되고, 대화박스도 되고 등등"
- [2]: http://mytory.net/archives/783 "[jQuery]레이어 팝업(modal window) 띄울 때 전체를 덮는 반투명 검은 막(black mask) 만들기"
- [3]: http://mytory.net/archives/812 "[jQuery] 레이어 팝업 박스를 화면 정 가운데 위치시키기(ie든 파폭이든 크롬이든 다 되는 거)"
+ [1]: https://mytory.net/archives/599 "꽤 괜찮아 보이는 jQuery 이미지 확대 라이브러리 – 뭐, 갤러리도 되고, 대화박스도 되고 등등"
+ [2]: https://mytory.net/archives/783 "[jQuery]레이어 팝업(modal window) 띄울 때 전체를 덮는 반투명 검은 막(black mask) 만들기"
+ [3]: https://mytory.net/archives/812 "[jQuery] 레이어 팝업 박스를 화면 정 가운데 위치시키기(ie든 파폭이든 크롬이든 다 되는 거)"

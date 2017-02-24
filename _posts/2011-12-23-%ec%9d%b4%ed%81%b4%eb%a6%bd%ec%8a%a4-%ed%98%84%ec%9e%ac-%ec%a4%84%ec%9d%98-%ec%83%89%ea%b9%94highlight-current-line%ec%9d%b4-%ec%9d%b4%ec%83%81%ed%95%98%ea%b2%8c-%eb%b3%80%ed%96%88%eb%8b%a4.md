@@ -18,6 +18,6 @@ tags:
 
 **Window > Preferences > General > Editors > Text Editors** 에 가면 찾을 수 있다.
 
-<img class="aligncenter" src="http://mytory.net/uploads/legacy/eclipse-current-line-highlight.png" alt="" width="635" height="734" />
+<img class="aligncenter" src="https://mytory.net/uploads/legacy/eclipse-current-line-highlight.png" alt="" width="635" height="734" />
 
 위 그림에서 아래쪽에 보면 **Current line highlight** 가 파랗게 선택돼 있다. 오른쪽의 **Color 부분**에서 원하는 색을 골라 주면 된다.

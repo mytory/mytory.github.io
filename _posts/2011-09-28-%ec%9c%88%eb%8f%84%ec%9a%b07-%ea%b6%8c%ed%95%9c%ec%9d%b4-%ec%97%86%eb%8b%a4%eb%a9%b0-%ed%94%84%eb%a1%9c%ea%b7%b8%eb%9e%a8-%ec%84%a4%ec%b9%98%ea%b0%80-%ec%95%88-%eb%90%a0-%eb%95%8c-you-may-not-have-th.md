@@ -33,7 +33,7 @@ tags:
 여튼 성가신 문제가 해결됐다.
 
 <div style="width: 770px" class="wp-caption aligncenter">
-  <img src="http://mytory.net/uploads/legacy/window-user-account-control.jpg" alt="" width="760" height="560" /><p class="wp-caption-text">
+  <img src="https://mytory.net/uploads/legacy/window-user-account-control.jpg" alt="" width="760" height="560" /><p class="wp-caption-text">
     왼쪽 눈금에 있는 놈을 드래그해서 설정값을 변경하고 확인을 누르면 된다.
   </p>
 </div>

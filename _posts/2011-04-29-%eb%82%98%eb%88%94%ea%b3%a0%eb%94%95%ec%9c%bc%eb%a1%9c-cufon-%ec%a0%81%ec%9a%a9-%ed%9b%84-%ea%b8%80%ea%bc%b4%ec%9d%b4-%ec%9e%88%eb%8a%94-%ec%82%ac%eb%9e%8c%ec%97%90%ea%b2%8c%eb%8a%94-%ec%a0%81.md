@@ -51,8 +51,8 @@ Cufon의 트래픽을 절약하기 위해서 [js와 css를 압축해 내보내�
 
 만약 [PHP4를 사용하는 사람이라면 내가 설명한 편법을 사용][5]하는 것도 괜찮은 해법이 된다.
 
- [1]: http://mytory.net/archives/118 "폰트가 설치돼 있는지 확인해 주는 javascript"
+ [1]: https://mytory.net/archives/118 "폰트가 설치돼 있는지 확인해 주는 javascript"
  [2]: https://github.com/sorccu/cufon/wiki/
- [3]: http://mytory.net/archives/829 "[번역] 아름답게 jQuery 엘리먼트 생성하기 Beautiful Element Creation with jQuery"
- [4]: http://mytory.net/archives/1048 "[minify] js, css 압축 – 웹사이트 속도 증가, 트래픽 절약"
- [5]: http://mytory.net/archives/1161 "거대한 용량의 Cufon 글꼴 js 파일로 걱정인데 php 버전이 낮아 minify를 사용하지 못하는 사람을 위한 편법"
+ [3]: https://mytory.net/archives/829 "[번역] 아름답게 jQuery 엘리먼트 생성하기 Beautiful Element Creation with jQuery"
+ [4]: https://mytory.net/archives/1048 "[minify] js, css 압축 – 웹사이트 속도 증가, 트래픽 절약"
+ [5]: https://mytory.net/archives/1161 "거대한 용량의 Cufon 글꼴 js 파일로 걱정인데 php 버전이 낮아 minify를 사용하지 못하는 사람을 위한 편법"

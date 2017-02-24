@@ -59,7 +59,7 @@ tags:
 삼각대를 구매하고, 2011-10-21에 실제 촬영에 사용했다. 경사진 곳에 카메라를 올려놨기 때문에, 삼각대 다리를 조절하고 다리에 테이프를 붙여 고정했다.
 
 <p style="text-align: center;">
-  <img class="aligncenter" src="http://mytory.net/uploads/legacy/iphone-tripod-using-example.jpg" alt="" width="574" height="768" />
+  <img class="aligncenter" src="https://mytory.net/uploads/legacy/iphone-tripod-using-example.jpg" alt="" width="574" height="768" />
 </p>
 
 이렇게 촬영해서 올린 게 바로 아래 동영상이다. HD영상으로는 올라가질 않아서 결국 가로세로 절반인 640*320 사이즈로 올릴 수밖에 없었다. 그래서 화질을 제대로 확인할 수는 없다.
@@ -78,7 +78,7 @@ tags:
 
 물론 나는 품질을 보장할 수 없다. ㅋ
 
- [1]: http://mytory.net/archives/1544 "[링크] 아이폰4를 위한 삼각대 마운트 Glif 소개"
+ [1]: https://mytory.net/archives/1544 "[링크] 아이폰4를 위한 삼각대 마운트 Glif 소개"
  [2]: http://www.left21.com/article/10352#youtube
  [3]: http://itempage3.auction.co.kr/DetailView.aspx?ItemNo=A563500286&frm3=V2
  [4]: http://search.auction.co.kr/search/search.aspx?keyword=%B8%B6%C0%CC%B8%AE%BA%F9%B8%F4+%BB%EF%B0%A2%B4%EB&itemno=&nickname=&arraycategory=&frm=&dom=auction&isSuggestion=No&retry=&x=0&y=0&Fwk=%B8%B6%C0%CC%B8%AE%BA%F9%B8%F4+%BB%EF%B0%A2%B4%EB&acode=SRP_SU_0100&encKeyword=%25EB%25A7%2588%25EC%259D%25B4%25EB%25A6%25AC%25EB%25B9%2599%25EB%25AA%25B0%2520%25EC%2582%25BC%25EA%25B0%2581%25EB%258C%2580

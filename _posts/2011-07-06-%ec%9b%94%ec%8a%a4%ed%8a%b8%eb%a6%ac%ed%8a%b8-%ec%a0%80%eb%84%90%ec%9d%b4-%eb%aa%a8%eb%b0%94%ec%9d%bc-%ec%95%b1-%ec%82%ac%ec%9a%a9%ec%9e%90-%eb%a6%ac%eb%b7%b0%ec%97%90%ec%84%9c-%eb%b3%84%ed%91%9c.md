@@ -25,7 +25,7 @@ tags:
 핵심은 사용자를 혼란스럽게 하는 첫 화면이었다.
 
 <p style="text-align: center;">
-  <img class="aligncenter" src="http://mytory.net/uploads/legacy/mobile-startup-screen/wsj-startup-screen.png" alt="" width="320" height="480" />
+  <img class="aligncenter" src="https://mytory.net/uploads/legacy/mobile-startup-screen/wsj-startup-screen.png" alt="" width="320" height="480" />
 </p>
 
 현재 월스트리트 저널 아이폰 앱의 첫 화면인데, &#8220;2주 간 무료입니다. 서둘러 구독하세요!&#8221; 하는 메세지가 화면의 2/3를 차지하고 있다.
@@ -63,7 +63,7 @@ tags:
 그러면서 대안 디자인을 내놓는데 이것도 대박이다.
 
 <p style="text-align: center;">
-  <img class="aligncenter" src="http://mytory.net/uploads/legacy/mobile-startup-screen/wsj-redesign-mobile-app.png" alt="" width="320" height="479" />
+  <img class="aligncenter" src="https://mytory.net/uploads/legacy/mobile-startup-screen/wsj-redesign-mobile-app.png" alt="" width="320" height="479" />
 </p>
 
 이 디자인에 대해 이렇게 설명한다.
@@ -99,7 +99,7 @@ tags:
 닐슨은 이런 디자인도 생각해 봤는데 폐기했다.
 
 <p style="text-align: center;">
-  <img class="aligncenter" src="http://mytory.net/uploads/legacy/mobile-startup-screen/wsj-redesign-alternate-workflow.png" alt="" width="320" height="479" />
+  <img class="aligncenter" src="https://mytory.net/uploads/legacy/mobile-startup-screen/wsj-redesign-alternate-workflow.png" alt="" width="320" height="479" />
 </p>
 
 기존 온라인 유료 사용자에게는 매우 편한 디자인이지만, 이 디자인의 약점은 새 구독자다.

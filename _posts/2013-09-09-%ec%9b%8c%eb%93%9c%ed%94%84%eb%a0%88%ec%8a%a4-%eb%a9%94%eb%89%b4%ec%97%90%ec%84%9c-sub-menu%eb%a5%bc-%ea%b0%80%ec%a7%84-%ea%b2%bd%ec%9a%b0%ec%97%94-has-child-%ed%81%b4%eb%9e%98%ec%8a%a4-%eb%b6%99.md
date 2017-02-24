@@ -122,7 +122,7 @@ tags:
 나머지 응용은 각자 알아서. depth에 따라 `li`에 숫자를 붙이는 것도 만들고 싶지만, 시간 관계상 끝이다.
 
  [1]: https://github.com/mytory/wp-mytory-basic-theme
- [2]: http://mytory.net/archives/8949
+ [2]: https://mytory.net/archives/8949
  [3]: http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/
  [4]: http://inuitcss.com
  [5]: https://github.com/mytory/wp-mytory-basic-theme/blob/bc593d2dfbcfbfabf0d8e480e499ef0a36d5cc9a/header.php

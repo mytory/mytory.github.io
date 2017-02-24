@@ -18,7 +18,7 @@ tags:
  /folder/
  does not allow request data with POST requests, or the amount of data provided in the request exceeds the capacity limit.</pre>
 
-<img class="aligncenter" src="http://mytory.net/uploads/legacy/Request-Entity-Too-Large.png" alt="" width="515" height="230" />
+<img class="aligncenter" src="https://mytory.net/uploads/legacy/Request-Entity-Too-Large.png" alt="" width="515" height="230" />
 
 용량이 별로 크지도 않은 파일을 업로드시켰는데 위와 같은 에러 메세지가 떴다. 분명히 php.ini 에서 post\_max\_size랑 upload\_max\_filesize 의 용량을 늘렸는데도 그랬다.
 

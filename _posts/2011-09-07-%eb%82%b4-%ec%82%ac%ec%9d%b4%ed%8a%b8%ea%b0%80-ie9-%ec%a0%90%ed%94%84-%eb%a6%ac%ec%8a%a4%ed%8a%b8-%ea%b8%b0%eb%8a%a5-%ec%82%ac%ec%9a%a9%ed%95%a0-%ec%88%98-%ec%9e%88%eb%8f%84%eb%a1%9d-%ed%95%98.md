@@ -23,7 +23,7 @@ tags:
 
 그리고 특정 코드를 넣어 두면 점프 리스트가 생성된다. 맨 마지막에 잠깐 뜨는 게 바로 그거다.
 
-<img class="aligncenter" src="http://mytory.net/uploads/legacy/result-of-IE9-jump-list.jpg" alt="" width="288" height="343" />
+<img class="aligncenter" src="https://mytory.net/uploads/legacy/result-of-IE9-jump-list.jpg" alt="" width="288" height="343" />
 
 위에 보이듯 일단 레프트21이 상태 표시줄에 아이콘으로 등록됐으며, 최신 온라인 기사, 독자 토론 광장, 독자 편지 쓰기, 갤러리, 지난 호 보기 바로 가기가 제공된다. 레프트21에서 가장 많은 독자들이 관심을 갖는 게 최신 온라인 기사인 만큼 제일 위에 배치했다.
 
@@ -50,7 +50,7 @@ tags:
 나머지는 MS의 설명을 차분히 따라해 보기 바란다. 소스 코드와 예제 사이트를 모두 잘 정리해 놨으니 도움이 될 거다.
 
 <div style="width: 730px" class="wp-caption aligncenter">
-  <a href="http://buildmypinnedsite.com/ko-KR?WT.mc_id=eml-f-kr-dca-F2-msft_IE"><img src="http://mytory.net/uploads/legacy/ie9-pin.jpg" alt="" width="720" height="521" /></a><p class="wp-caption-text">
+  <a href="http://buildmypinnedsite.com/ko-KR?WT.mc_id=eml-f-kr-dca-F2-msft_IE"><img src="https://mytory.net/uploads/legacy/ie9-pin.jpg" alt="" width="720" height="521" /></a><p class="wp-caption-text">
     △클릭하면 위 사이트로 이동한다
   </p>
 </div>

@@ -90,4 +90,4 @@ Deny from all</pre>
  [5]: http://www.editplus.com
  [6]: https://picasaweb.google.com/home?hl=ko
  [7]: http://picasa.google.com/
- [8]: http://mytory.net/archives/596 "[링크]Apache 웹서버에서 이미지(사진) 무단링크 방지 방법"
+ [8]: https://mytory.net/archives/596 "[링크]Apache 웹서버에서 이미지(사진) 무단링크 방지 방법"

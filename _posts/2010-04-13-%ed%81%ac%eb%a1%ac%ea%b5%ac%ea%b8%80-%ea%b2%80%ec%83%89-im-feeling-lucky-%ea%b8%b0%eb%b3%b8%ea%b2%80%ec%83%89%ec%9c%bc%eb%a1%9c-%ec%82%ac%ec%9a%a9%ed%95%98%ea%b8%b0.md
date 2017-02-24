@@ -14,7 +14,7 @@ tags:
 ---
 I\`m Feeling Lucky는, 키워드를 입력하면 즉각 해당 홈페이지로 보내 주는 서비스다.
 
-<img class="aligncenter" src="http://mytory.net/uploads/legacy/google.png" alt="" width="625" height="255" />
+<img class="aligncenter" src="https://mytory.net/uploads/legacy/google.png" alt="" width="625" height="255" />
 
 위에 버튼이 보일 것이다.
 
@@ -31,13 +31,13 @@ I\`m Feeling Lucky는, 키워드를 입력하면 즉각 해당 홈페이지로 �
 그리고 &#8220;검색&#8221; 항목의 &#8220;검색엔진 관리&#8230;&#8221;를 누른다. 찾기 복잡하면 우측 상단에 있는 검색창에 &#8220;검색엔진 관리&#8221;라고 쓴다. 그러면 &#8220;검색&#8221; 항목이 표시된다.
 
 <p style="text-align: center;">
-  <img class="aligncenter" src="http://mytory.net/uploads/legacy/chrome-im-feeling-lucky-default-search-engine-1.png" alt="" />
+  <img class="aligncenter" src="https://mytory.net/uploads/legacy/chrome-im-feeling-lucky-default-search-engine-1.png" alt="" />
 </p>
 
 &#8220;검색엔진 관리&#8230;&#8221;를 눌렀을 때 뜨는 창에서 맨 아래로 내려가서 빈 칸에 새 검색엔진을 추가한다.
 
 <p style="text-align: center;">
-  <img class="aligncenter" src="http://mytory.net/uploads/legacy/chrome-im-feeling-lucky-default-search-engine-2.png" alt="" width="870" height="655" />
+  <img class="aligncenter" src="https://mytory.net/uploads/legacy/chrome-im-feeling-lucky-default-search-engine-2.png" alt="" width="870" height="655" />
 </p>
 
 위 이미지에서 보이듯이 첫 칸엔 &#8216;Feeling Lucky&#8217; 같은 자신이 알아볼 수 있는 이름을 넣는다. 키워드는 짧고 기억하기 쉬운 것으로 넣는다. URL은 아래 문자열을 복사해 넣는다.
@@ -49,12 +49,12 @@ I\`m Feeling Lucky는, 키워드를 입력하면 즉각 해당 홈페이지로 �
 이제 알파벳순으로 방금 입력한 놈을 찾아서 기본 검색엔진으로 만들면 완료다. 기본 검색엔진으로 만드는 방법은, 방금 만든 놈을 찾아가서 마우스를 올리면 &#8216;기본으로 설정&#8217;이라는 버튼이 뜬다. 그걸 누르면 된다.
 
 <p style="text-align: center;">
-  <img class="aligncenter" src="http://mytory.net/uploads/legacy/chrome-im-feeling-lucky-default-search-engine-3.png" alt="" />
+  <img class="aligncenter" src="https://mytory.net/uploads/legacy/chrome-im-feeling-lucky-default-search-engine-3.png" alt="" />
 </p>
 
 그러면 이렇게 기본 검색엔진이 된다.
 
-<img class="aligncenter" src="http://mytory.net/uploads/legacy/chrome-im-feeling-lucky-default-search-engine-4.png" alt="" width="884" height="661" />
+<img class="aligncenter" src="https://mytory.net/uploads/legacy/chrome-im-feeling-lucky-default-search-engine-4.png" alt="" width="884" height="661" />
 
 ## 구글 크롬 검색엔진 설정의 키워드 사용법
 

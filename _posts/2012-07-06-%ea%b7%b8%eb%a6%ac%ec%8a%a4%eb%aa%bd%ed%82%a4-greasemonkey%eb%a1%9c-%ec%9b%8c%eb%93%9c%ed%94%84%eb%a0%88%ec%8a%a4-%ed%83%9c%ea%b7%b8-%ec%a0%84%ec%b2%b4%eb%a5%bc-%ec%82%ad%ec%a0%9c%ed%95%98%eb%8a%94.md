@@ -26,7 +26,7 @@ tags:
 // @version    0.1
 // @description  enter something useful
 // @require    http://code.jquery.com/jquery-latest.js
-// @match      http://mytory.net/wp-admin/edit-tags.php?taxonomy=post_tag*
+// @match      https://mytory.net/wp-admin/edit-tags.php?taxonomy=post_tag*
 // @copyright  2012+, You
 // ==/UserScript==
 

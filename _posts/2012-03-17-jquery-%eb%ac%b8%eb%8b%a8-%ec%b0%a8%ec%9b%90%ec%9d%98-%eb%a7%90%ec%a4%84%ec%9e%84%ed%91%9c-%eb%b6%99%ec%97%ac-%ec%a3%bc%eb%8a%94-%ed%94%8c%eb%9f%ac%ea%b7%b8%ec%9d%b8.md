@@ -55,5 +55,5 @@ tags:
 
 (이벤트 트리거란? `$('.className').bind('click', functionName);` 식의 코드에서 &#8216;`click`&#8216;이 이벤트 트리거다. 실제 마우스 클릭을 하면 `click` 이벤트가 `trigger` 된다. 실제 클릭을 하지 않고도, `$('.className').trigger('click')` 하면 이벤트가 발생된다.)
 
- [1]: http://mytory.net/uploads/code/dotdotdot-1.4.0/index.html
+ [1]: https://mytory.net/uploads/code/dotdotdot-1.4.0/index.html
  [2]: http://dotdotdot.frebsite.nl/

@@ -38,5 +38,5 @@ SITE SETTINGS COULD NOT BE LOADED 라는 메세지와 함께 디버깅 메세지
 
 phpmyadmin을 설치했는데 안 들어가지고 phpmyadmin이라는 제목의 글을 편집하는 페이지로 넘어가는 문제 해결 : [우분투 패키지로 phpmyadmin 설치했는데 안 들어가질 때][2]를 참고하라
 
- [1]: http://mytory.net/archives/1763 "dekiwiki, Sharing violation on path /var/www/dekiwiki/bin/cache/luceneindex/default-queue/data_1.bin"
- [2]: http://mytory.net/archives/1711 "우분투 패키지로 phpmyadmin 설치했는데 안 들어가질 때"
+ [1]: https://mytory.net/archives/1763 "dekiwiki, Sharing violation on path /var/www/dekiwiki/bin/cache/luceneindex/default-queue/data_1.bin"
+ [2]: https://mytory.net/archives/1711 "우분투 패키지로 phpmyadmin 설치했는데 안 들어가질 때"

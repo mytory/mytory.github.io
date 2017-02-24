@@ -36,7 +36,7 @@ SVG를 웹문서에 넣는 방법은 다양하다. 앞선 글에서 밝혔듯이
 인라인 태그로 넣는다는 것은 HTML 문서에 SVG도 그냥 태그로 포함시킨다는 말이다. `div`나 `ul`을 사용하듯, `svg` 태그를 사용한다는 말이다. 처음엔 내 블로그의 소스를 아래처럼 해 놨었다. 이런 방식을 인라인 방식이라고 부르는 것이다.
 
     <li>
-      <a href="http://mytory.net/feed/rss" title="RSS">
+      <a href="https://mytory.net/feed/rss" title="RSS">
         <svg data-png-path="/images/icon-rss.png" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
           width="24px" height="24px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve">
           <circle fill="#34495E" cx="12" cy="12" r="12"/>
@@ -276,6 +276,6 @@ SVG 파일을 텍스트 편집기에서 연 뒤 xml 선언을 하는 부분은 �
   </tr>
 </table>
 
- [3]: http://mytory.net/archives/2314
- [4]: http://mytory.net/wp-content/uploads/svg-ex/
+ [3]: https://mytory.net/archives/2314
+ [4]: https://mytory.net/wp-content/uploads/svg-ex/
  [5]: http://tutorials.jenkov.com/svg/a-element.html

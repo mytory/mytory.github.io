@@ -27,9 +27,9 @@ tags:
 아래는 스크린샷.
 
 <p style="text-align: center;">
-  <img class="aligncenter" src="http://mytory.net/uploads/legacy/eclipse-line-break-1.png" alt="" width="512" height="499" />
+  <img class="aligncenter" src="https://mytory.net/uploads/legacy/eclipse-line-break-1.png" alt="" width="512" height="499" />
 </p>
 
 <p style="text-align: center;">
-  <img class="aligncenter" src="http://mytory.net/uploads/legacy/eclipse-line-break-2.png" alt="" width="640" height="455" />
+  <img class="aligncenter" src="https://mytory.net/uploads/legacy/eclipse-line-break-2.png" alt="" width="640" height="455" />
 </p>

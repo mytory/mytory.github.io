@@ -33,7 +33,7 @@ tags:
 ## 인파로 IN-BK01 아이폰/아이패드용 블루투스 키보드를 비추하는 이유
 
 <div style="width: 650px" class="wp-caption aligncenter">
-  <img src="http://mytory.net/uploads/legacy/bluetooth-keyboard/inparo-IN-BK01.JPG" alt="" width="640" height="478" /><p class="wp-caption-text">
+  <img src="https://mytory.net/uploads/legacy/bluetooth-keyboard/inparo-IN-BK01.JPG" alt="" width="640" height="478" /><p class="wp-caption-text">
     인파로 IN-BK01 키보드. 절대 비추.
   </p>
 </div>
@@ -43,7 +43,7 @@ tags:
 그런데 타자가 잘 안 쳐졌다. 대략 6~10글자마다 한 타씩 키보드 인식을 하지 못했다.
 
 <div style="width: 330px" class="wp-caption aligncenter">
-  <img src="http://mytory.net/uploads/legacy/bluetooth-keyboard/inparo-result.PNG" alt="" width="320" height="480" /><p class="wp-caption-text">
+  <img src="https://mytory.net/uploads/legacy/bluetooth-keyboard/inparo-result.PNG" alt="" width="320" height="480" /><p class="wp-caption-text">
     inparo IN-BK01 블루투스 키보드로 타자를 친 결과. 제대로 안 쳐진다.
   </p>
 </div>
@@ -53,7 +53,7 @@ tags:
 아래처럼 아주 깔끔하게 잘 쳐졌다.
 
 <div style="width: 330px" class="wp-caption aligncenter">
-  <img src="http://mytory.net/uploads/legacy/bluetooth-keyboard/apple-keyboard-result.PNG" alt="" width="320" height="480" /><p class="wp-caption-text">
+  <img src="https://mytory.net/uploads/legacy/bluetooth-keyboard/apple-keyboard-result.PNG" alt="" width="320" height="480" /><p class="wp-caption-text">
     애플 정품 키보드는 보다시피 졸라 깔끔하게 쳐진다.
   </p>
 </div>
@@ -93,7 +93,7 @@ tags:
 ## 아이노트 FS-94KBT 아이폰/아이패드 블루투스 키보드 <del>추천 이유</del> 그럭저럭 쓸 만한 이유
 
 <div style="width: 650px" class="wp-caption aligncenter">
-  <img src="http://mytory.net/uploads/legacy/bluetooth-keyboard/inote-FS-94KBT.JPG" alt="" width="640" height="478" /><p class="wp-caption-text">
+  <img src="https://mytory.net/uploads/legacy/bluetooth-keyboard/inote-FS-94KBT.JPG" alt="" width="640" height="478" /><p class="wp-caption-text">
     아이노트 FS-94KBT 키보드. 싸고 못 쓸만하지는 않다. 근데 매일 가방에 넣고 들고다녔더니 7개월만에 망가졌다.
   </p>
 </div>
@@ -123,7 +123,7 @@ tags:
 내가 산 키보드 같은 경우는 ㅂ 버튼이 잘 안 눌렸다. 이건 제품마다 다를 것이라고 생각한다. ㅂ은 새끼손가락으로 눌러야 한다. 그래서 장시간 치면 손이 아팠고, ㅂ이 잘 안 눌리는 것 자체도 신경이 많이 쓰였다. 오늘 아이디어가 떠올랐다. ㅂ 버튼과 ㅇ 버튼을 바꿔치기 했다. ㅇ은 상대적으로 강한 중지가 누르기 때문에 괜찮을 거라고 생각했기 때문이다. 그리고 바꿔치기 한 결과 ㅂ도 ㅇ도 잘 눌리게 됐다. 싸구려를 사용할 때는 이런 지혜(!)가 필요하다.
 
 <div style="width: 650px" class="wp-caption aligncenter">
-  <img class="  " src="http://mytory.net/uploads/legacy/bluetooth-keyboard/inote-change-key-location.jpg" alt="" width="640" height="478" /><p class="wp-caption-text">
+  <img class="  " src="https://mytory.net/uploads/legacy/bluetooth-keyboard/inote-change-key-location.jpg" alt="" width="640" height="478" /><p class="wp-caption-text">
     이렇게 키를 서로 바꿨다.
   </p>
 </div>
@@ -158,9 +158,9 @@ tags:
 
  [1]: http://search.auction.co.kr/search/search.aspx?keyword=%BE%C6%C0%CC%B3%EB%C6%AE+FS-94KBT&itemno=&nickname=&arraycategory=&frm=&dom=auction&isSuggestion=No&retry=&Fwk=%BE%C6%C0%CC%B3%EB%C6%AE+FS-94KBT&acode=SRP_SU_0100&encKeyword=%25EC%2595%2584%25EC%259D%25B4%25EB%2585%25B8%25ED%258A%25B8%2520FS-94KBT
  [2]: http://fusionfnc.co.kr/
- [3]: http://mytory.net/archives/3094 "[저가형 리뷰] 추천하는 싼 아이폰/아이패드 블루투스 키보드 – 아이매직 YH001 (갤럭시 가능)"
- [4]: http://mytory.net/archives/2499 "아이폰에서 블루투스 키보드 활용법"
+ [3]: https://mytory.net/archives/3094 "[저가형 리뷰] 추천하는 싼 아이폰/아이패드 블루투스 키보드 – 아이매직 YH001 (갤럭시 가능)"
+ [4]: https://mytory.net/archives/2499 "아이폰에서 블루투스 키보드 활용법"
  [5]: http://chulin28ho.egloos.com/5464583
  [6]: http://stores.auction.co.kr/Front/Store.aspx?StoreNo=1000059452
  [7]: http://local.daum.net/map/index.jsp?map_type=TYPE_SKYVIEW&map_hybrid=true&q=%EC%84%9C%EC%9A%B8%20%EC%9A%A9%EC%82%B0%EA%B5%AC%20%ED%95%9C%EA%B0%95%EB%A1%9C2%EA%B0%80%20%EC%84%A0%EC%9D%B8%ED%94%84%EB%9D%BC%EC%9E%90%2021%EB%8F%99&urlX=492445&urlY=1120503&urlLevel=3
- [8]: http://mytory.net/archives/62 "TGIC MXBOOK 노트북은 A/S 불능, 용산가서 고쳐야 – TGIC MXBOOK PS1530V/1510V"
+ [8]: https://mytory.net/archives/62 "TGIC MXBOOK 노트북은 A/S 불능, 용산가서 고쳐야 – TGIC MXBOOK PS1530V/1510V"

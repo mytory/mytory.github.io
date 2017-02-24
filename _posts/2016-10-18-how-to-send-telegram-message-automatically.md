@@ -65,7 +65,7 @@ URL을 잘 보면 알겠지만, `sendMessgae`는 명령어다. [명령어 목록
 
     // 재료 준비
     $post_title = "3년 10개월째 사용하는 아이폰 5에서 iOS 10을 돌리는 건 나쁘지 않은 듯";
-    $post_url = "http://mytory.net/2016/10/01/latest-iOS-is-good-on-iphone5.html";
+    $post_url = "https://mytory.net/2016/10/01/latest-iOS-is-good-on-iphone5.html";
     $api_code = '281680794:AAEQdVBa1aEEPIn9-DQ4LDlIVUSsmtUdiHc';
     
     // 보낼 텍스트를 구성. 줄바꿈은 "\n"으로.

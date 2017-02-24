@@ -29,7 +29,7 @@ tags:
 뭐, 별로 길지 않은 원칙이다. 내가 만든 예제는 다음 페이지에서 볼 수 있다.
 
 <p style="text-align: center;">
-  <a href="http://mytory.net/uploads/code/google-language-api.html">구글 언어 API를 이용해 문서 일부분만 번역하기 예제</a>
+  <a href="https://mytory.net/uploads/code/google-language-api.html">구글 언어 API를 이용해 문서 일부분만 번역하기 예제</a>
 </p>
 
 불완전한 예제지만 도움이 될 거라 생각한다.

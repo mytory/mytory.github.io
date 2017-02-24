@@ -42,5 +42,5 @@ add_action(&#039;plugins_loaded&#039;, &#039;tweet_collection_init&#039;);</pre>
 
 이렇게 하니까 언어 파일이 적용되기 시작했다.
 
- [1]: http://mytory.net/archives/4912 "[워드프레스] 테마에서 Poedit로 번역할 문장 뽑아오는 방법"
+ [1]: https://mytory.net/archives/4912 "[워드프레스] 테마에서 Poedit로 번역할 문장 뽑아오는 방법"
  [2]: http://codex.wordpress.org/Function_Reference/load_plugin_textdomain

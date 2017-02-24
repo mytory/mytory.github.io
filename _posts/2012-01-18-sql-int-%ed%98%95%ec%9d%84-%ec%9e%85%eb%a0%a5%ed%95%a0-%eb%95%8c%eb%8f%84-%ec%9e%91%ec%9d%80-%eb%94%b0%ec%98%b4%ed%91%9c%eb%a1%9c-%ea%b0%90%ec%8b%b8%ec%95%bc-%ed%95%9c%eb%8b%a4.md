@@ -27,4 +27,4 @@ tags:
 참고로 [PHP의 SQL Injection 방어 함수][2]도 있다. 참고해 보면 도움이 될 거다.
 
  [1]: http://msdn.microsoft.com/ko-kr/library/ms161953.aspx
- [2]: http://mytory.net/archives/961 "[PHP] sql injection 방어 함수, mysql_real_escape_string"
+ [2]: https://mytory.net/archives/961 "[PHP] sql injection 방어 함수, mysql_real_escape_string"

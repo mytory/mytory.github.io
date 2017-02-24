@@ -18,7 +18,7 @@ tags:
 
 CSS의 fixed 프로퍼티 때문에 발생하는 문제인데, 확대했을 때의 top, left 픽셀이 비율에 맞게 함께 조정되면서 생기는 문제인 것 같다. (무슨 말인지 모르겠으면 문제 진단은 패스하고.)
 
-<img class="aligncenter" src="http://mytory.net/uploads/legacy/fancybox2-problem/problem.png" alt="" width="640" height="480" />
+<img class="aligncenter" src="https://mytory.net/uploads/legacy/fancybox2-problem/problem.png" alt="" width="640" height="480" />
 
 해결책은 의외로 간단하다. 스타일에 다음을 추가해 준다.
 
@@ -28,11 +28,11 @@ CSS의 fixed 프로퍼티 때문에 발생하는 문제인데, 확대했을 때�
 
 그러면 아래처럼 깔끔하게 볼 수 있다.
 
-<img class="aligncenter" src="http://mytory.net/uploads/legacy/fancybox2-problem/resolved.png" alt="" width="320" height="480" />
+<img class="aligncenter" src="https://mytory.net/uploads/legacy/fancybox2-problem/resolved.png" alt="" width="320" height="480" />
 
 실제 적용된 걸 보고 싶다면 : [레프트21 갤러리 &#8220;파업 결의하는 금속 노동자&#8221; 바로 가기][4]
 
  [1]: http://fancybox.net
  [2]: http://fancyapps.com/fancybox/
- [3]: http://mytory.net/archives/599 "최고의 jQuery 갤러리 플러그인, fancyBox2 – 새로운 기능은?"
+ [3]: https://mytory.net/archives/599 "최고의 jQuery 갤러리 플러그인, fancyBox2 – 새로운 기능은?"
  [4]: http://photo.left21.com:8080/photo_issue.php?title_no=636

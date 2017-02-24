@@ -48,4 +48,4 @@ tags:
 
 <pre class="brush: bash; gutter: true; first-line: 1">sudo apachectl restart</pre>
 
- [1]: http://mytory.net/archives/3135 "맥북 아파치 가상호스트 활성화를 위해선 ‘웹 공유’를 켜야 한다"
+ [1]: https://mytory.net/archives/3135 "맥북 아파치 가상호스트 활성화를 위해선 ‘웹 공유’를 켜야 한다"

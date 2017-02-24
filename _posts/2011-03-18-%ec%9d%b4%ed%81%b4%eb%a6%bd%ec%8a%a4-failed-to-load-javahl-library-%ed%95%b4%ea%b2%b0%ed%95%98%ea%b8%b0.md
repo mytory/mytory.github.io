@@ -24,7 +24,7 @@ subclipse를 설치하고 svn 관련 업무를 시작하려고만 하면 이런 
 왜 이런 것이 뜨는 걸까? 영어라 계속 무시했지만, 오늘은 해결해 보려고 했다. 그리고 바로 에러 메세지 창에서 해결책을 발견했다. 오호라! 나는 눈 뜬 장님이었던 것인가! (아래 그림과 같은 에러 메세지를 말한다.)
 
 <p style="text-align: center;">
-  <img class="   aligncenter" src="http://mytory.net/uploads/legacy/subversion-native-library-not-available.png" alt="" width="660" height="446" />
+  <img class="   aligncenter" src="https://mytory.net/uploads/legacy/subversion-native-library-not-available.png" alt="" width="660" height="446" />
 </p>
 
 <http://subclipse.tigris.org/wiki/JavaHL>

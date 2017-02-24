@@ -36,7 +36,7 @@ cleanup C:/workspace/myProject
     svn: Checksum mismatch while updating &#039;C:\workspace\myProject\css\.svn\text-base\index.css.svn-base&#039;; expected: &#039;1bdfe3f4fe587005aa0562c465ad54ad&#039;, actual: &#039;null&#039;
 </pre>
 
-그러자 이번엔 뭥미? ‘index.css.svn-base 를 업데이트하는데 <a href="/archives/96" target="_blank" title="[http://mytory.net/72]로 이동합니다.">Checksum</a>이 안 맞는다’고 한다.&nbsp;
+그러자 이번엔 뭥미? ‘index.css.svn-base 를 업데이트하는데 <a href="/archives/96" target="_blank" title="[https://mytory.net/72]로 이동합니다.">Checksum</a>이 안 맞는다’고 한다.&nbsp;
 
 자기는 어쩌고 저쩌고를 기대했는데 나의 작업본은 null이란다.
 

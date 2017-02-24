@@ -32,7 +32,7 @@ tags:
 
 아래 그림을 보면, 구글 아날리틱스로 여러 사이트의 통계를 내 본 사람은 이해하기 쉬울 것이다.
 
-<img class="aligncenter" alt="" src="http://mytory.net/uploads/legacy/google-analytics-duplicate-profile.png" width="403" height="166" />
+<img class="aligncenter" alt="" src="https://mytory.net/uploads/legacy/google-analytics-duplicate-profile.png" width="403" height="166" />
 
 위 그림에서 mini2011 이라는 하위 도메인을 위해 새 프로필을 만들었었었다. 아래쪽에는 http://marxism.or.kr 이라는 도메인의 프로필이 보인다. 이렇게 처리하면 두 개를 별개의 도메인으로 인식하고 서로 다른 추적 코드를 제공해 준다. http://www.marxism.or.kr/mini2011 과 http://marxism.or.kr 을 별개의 도메인으로 간주하고 따로 추적하는 것이다. 두 자료를 섞어서 뭔가 분석하는 게 어려워 진다.
 
@@ -40,7 +40,7 @@ tags:
 
 다만, &#8216;맑시즘 2011&#8217;에는 [필터][2]를 달아 두었다. 아래처럼 말이다. 아래 화면은 우측 상단의 &#8216;관리&#8217;를 누르면 나온다.
 
-<img class="aligncenter" alt="" src="http://mytory.net/uploads/legacy/google-analytics-duplicate-profile-filter.png" width="579" height="406" />
+<img class="aligncenter" alt="" src="https://mytory.net/uploads/legacy/google-analytics-duplicate-profile-filter.png" width="579" height="406" />
 
 필터 이름은 아무거나 넣는다.
 

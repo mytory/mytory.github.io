@@ -44,4 +44,4 @@ openfire.xml을 편집하는 방법이다. 비번을 알고 있는 계정이 있
 
 들어간 뒤 admin의 비밀번호를 변경하고, 관리자 계정으로 만든 뒤 나온다.
 
- [1]: http://mytory.net/archives/212 "오픈소스 (사내)메신저 서버 구축, 오픈 파이어(openfire) 설치방법과 세팅(리눅스 기준)"
+ [1]: https://mytory.net/archives/212 "오픈소스 (사내)메신저 서버 구축, 오픈 파이어(openfire) 설치방법과 세팅(리눅스 기준)"

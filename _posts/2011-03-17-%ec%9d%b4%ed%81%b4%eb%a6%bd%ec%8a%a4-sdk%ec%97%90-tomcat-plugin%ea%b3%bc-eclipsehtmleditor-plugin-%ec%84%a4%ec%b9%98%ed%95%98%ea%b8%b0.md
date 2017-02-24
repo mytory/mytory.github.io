@@ -39,7 +39,7 @@ tags:
 위 페이지에는 여러 프로그램들이 있는데 그 중에 EclipseHTMLEditor 항목을 잘 찾아서 해야 한다. 아래 그림 참고.
 
 <p style="text-align: center;">
-  <img class=" aligncenter" src="http://mytory.net/uploads/legacy/eclipse-html-editor-plugin/eclipse-html-editor-location.png" alt="" width="620" height="663" />
+  <img class=" aligncenter" src="https://mytory.net/uploads/legacy/eclipse-html-editor-plugin/eclipse-html-editor-location.png" alt="" width="620" height="663" />
 </p>
 
 역시 위와 같은 기준으로 dropins 나 plugins 폴더에 넣어 주면 된다.
@@ -49,11 +49,11 @@ tags:
 아래처럼 /usr/share/eclipse 폴더에 dropins 폴더를 만들고 거기 넣으면 된다.
 
 <p style="text-align: center;">
-  <img class="  aligncenter" src="http://mytory.net/uploads/legacy/eclipse-html-editor-plugin/eclipse-folder.png" alt="" width="800" height="550" />
+  <img class="  aligncenter" src="https://mytory.net/uploads/legacy/eclipse-html-editor-plugin/eclipse-folder.png" alt="" width="800" height="550" />
 </p>
 
 모든 게 완료되면 dropins 폴더는 아래처럼 생겨먹게 될 것이다.
 
 <p style="text-align: center;">
-  <img class=" aligncenter" src="http://mytory.net/uploads/legacy/eclipse-html-editor-plugin/dropins-folder.png" alt="" width="573" height="288" />
+  <img class=" aligncenter" src="https://mytory.net/uploads/legacy/eclipse-html-editor-plugin/dropins-folder.png" alt="" width="573" height="288" />
 </p>

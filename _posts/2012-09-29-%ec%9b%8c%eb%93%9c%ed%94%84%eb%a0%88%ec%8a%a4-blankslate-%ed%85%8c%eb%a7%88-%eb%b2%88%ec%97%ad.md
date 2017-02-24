@@ -25,7 +25,7 @@ tags:
 한국어 웹사이트를 만들 때는 당연히 언어 파일이 필요할 거다. language 라는 폴더를 만들고 그 안에 한국어 언어 파일을 위치시키면 알아서 인지한다. 물론 wp-config.php 에 언어가 ko_KR로 설정돼 있어야 한다.
 
 <p style="text-align: center;">
-  <a href="http://mytory.net/uploads/legacy/blankslate-language/blankslate-language.zip">언어 파일 다운로드하기</a>
+  <a href="https://mytory.net/uploads/legacy/blankslate-language/blankslate-language.zip">언어 파일 다운로드하기</a>
 </p>
 
  [1]: http://wordpress.org/extend/themes/blankslate

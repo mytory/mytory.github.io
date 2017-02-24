@@ -258,8 +258,8 @@ valley처럼, 페이지에서 들어가 있는 부분이다. `<code>` 예제 같
   </ol>
 </div>
 
- [1]: http://mytory.net/archives/8949 "[번역] 객체 지향 CSS(OOCSS) 소개"
- [2]: http://mytory.net/archives/8949#comment-4354
+ [1]: https://mytory.net/archives/8949 "[번역] 객체 지향 CSS(OOCSS) 소개"
+ [2]: https://mytory.net/archives/8949#comment-4354
  [3]: http://sass-lang.com/
  [4]: http://oocss.org/
  [5]: http://www.xanthir.com/blog/b49w0

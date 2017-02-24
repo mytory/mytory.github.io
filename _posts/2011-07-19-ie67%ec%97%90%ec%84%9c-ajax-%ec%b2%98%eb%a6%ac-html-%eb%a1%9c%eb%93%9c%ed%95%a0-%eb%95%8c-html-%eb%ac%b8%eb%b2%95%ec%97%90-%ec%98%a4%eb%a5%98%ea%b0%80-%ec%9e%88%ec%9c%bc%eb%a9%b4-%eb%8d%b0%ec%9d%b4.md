@@ -63,7 +63,7 @@ PHP의 echo 함수로 HTML을 뿌리다 보니 발생한 실수기는 했지만,
 
 ## 팁 하나
 
-<img class="aligncenter" src="http://mytory.net/uploads/legacy/IE-debugging-tool.png" alt="" width="600" height="165" />
+<img class="aligncenter" src="https://mytory.net/uploads/legacy/IE-debugging-tool.png" alt="" width="600" height="165" />
 
 위 그림은 F12 버튼을 누르면 나오는 IE 디버깅 툴이다. IE8부터 지원된다.
 

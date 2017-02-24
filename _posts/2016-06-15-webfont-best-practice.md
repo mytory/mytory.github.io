@@ -335,7 +335,7 @@ IE8을 감지하기 위해선 IE의 조건 태그를 사용하자. 문서의 맨
 [1]: https://www.smashingmagazine.com/2014/09/improving-smashing-magazine-performance-case-study/#webfonts
 [2]: https://github.com/ahume/webfontjson
 [3]: http://ianfeather.co.uk/web-fonts-and-the-critical-path/
-[4]: http://mytory.net/2016/06/09/throttling-test.html
+[4]: https://mytory.net/2016/06/09/throttling-test.html
 [5]: http://alistapart.com/article/application-cache-is-a-douchebag
 [6]: https://gist.github.com/hdragomir/8f00ce2581795fd7b1b7
 [7]: http://caniuse.com/#search=woff2

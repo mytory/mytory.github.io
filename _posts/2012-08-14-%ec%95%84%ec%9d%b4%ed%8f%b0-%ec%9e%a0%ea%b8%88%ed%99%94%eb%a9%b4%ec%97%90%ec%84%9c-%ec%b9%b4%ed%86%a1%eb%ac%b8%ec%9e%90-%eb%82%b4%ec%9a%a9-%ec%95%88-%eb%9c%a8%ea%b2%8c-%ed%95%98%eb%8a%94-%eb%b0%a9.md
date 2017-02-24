@@ -25,9 +25,9 @@ UI 측면에서도 개별 앱이 미리보기를 할지 말지 같은 걸 일일
 여튼간에 핵심은 둘 중 하나를 선택하는 문제라는 것이다. 여튼 앞으로는 헤멜 일 없을 것 같다. 아래는 스크린샷.
 
 <p style="text-align: center;">
-  <img class="aligncenter" src="http://mytory.net/uploads/legacy/iphone-alert-message-preview-1.png" alt="" width="384" height="576" />
+  <img class="aligncenter" src="https://mytory.net/uploads/legacy/iphone-alert-message-preview-1.png" alt="" width="384" height="576" />
 </p>
 
 <p style="text-align: center;">
-  <img class="aligncenter" src="http://mytory.net/uploads/legacy/iphone-alert-message-preview-2.png" alt="" width="384" height="576" />
+  <img class="aligncenter" src="https://mytory.net/uploads/legacy/iphone-alert-message-preview-2.png" alt="" width="384" height="576" />
 </p>

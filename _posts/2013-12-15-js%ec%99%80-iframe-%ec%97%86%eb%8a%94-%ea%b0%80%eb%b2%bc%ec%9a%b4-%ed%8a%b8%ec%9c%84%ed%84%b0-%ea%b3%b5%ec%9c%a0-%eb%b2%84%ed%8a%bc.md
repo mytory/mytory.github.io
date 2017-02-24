@@ -64,7 +64,7 @@ PHP를 사용한다면 [`http_build_query()` 함수][5]를 이용하자. `urlenc
     $tweet_share_url_query_string = http_build_query(
         array(
             'text' => '웹으로 말하기,
-            'url' => 'http://mytory.net',
+            'url' => 'https://mytory.net',
             'via' => 'mytory',
             'related' => 'mytory',
         );

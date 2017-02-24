@@ -86,5 +86,5 @@ alert(replaceText);</pre>
 
 [iceScrum 한국어 언어파일 1 (번역중)][1] | [iceScrum 한국어 언어파일 2 (번역중)][2]
 
- [1]: http://mytory.net/uploads/share/icescrum-messages-ko.html
- [2]: http://mytory.net/uploads/share/icescrum-report-ko.html
+ [1]: https://mytory.net/uploads/share/icescrum-messages-ko.html
+ [2]: https://mytory.net/uploads/share/icescrum-report-ko.html

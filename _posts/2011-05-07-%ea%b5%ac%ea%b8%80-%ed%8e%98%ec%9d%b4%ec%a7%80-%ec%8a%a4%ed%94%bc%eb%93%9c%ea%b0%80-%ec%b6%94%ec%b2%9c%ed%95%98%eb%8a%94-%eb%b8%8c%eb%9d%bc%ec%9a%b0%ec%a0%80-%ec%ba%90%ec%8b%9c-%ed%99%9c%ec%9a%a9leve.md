@@ -74,7 +74,7 @@ HTTP/1.1은 다음과 같은 캐시 응답 헤더를 제공한다.
 `calendar/static/<strong>fingerprint_key</strong>doozercompiled.css`, 지문이 있는 곳은 128비트 16진수다. 화면을 캡쳐하던 당시(페이지 스피드의 Show Resources 패널을 캡춰한 것이다), 지문은 `82b6bc440914c01297b99b4bca641a5d` 로 설정됐다.(역자 주: 그래서 파일명이 `82b6bc440914c01297b99b4bca641a5ddoozercompiled.css` 다.)
 
 <p style="text-align: center;">
-  <img class="aligncenter" src="http://mytory.net/uploads/legacy/google-pagespeed-caching-header1.png" alt="" />
+  <img class="aligncenter" src="https://mytory.net/uploads/legacy/google-pagespeed-caching-header1.png" alt="" />
 </p>
 
 지문 기법은 서버가 브라우저의 요청 날짜부터 확실히 1년 후를 `Expires` 헤더로 보낼 수 있게 해 준다; 마지막 변경일을 가리키는 `Last-Modified` 헤더는 확실히 마지막 변경일을 가리키며, `Cache-Control: max-age` 헤더는 3153600이다. 만료일이나 최대 수명 안에 자원이 변경됐을 때, 자원을 다운로드할 수 있게 하기 위해서, 파일 내용이 변경되면 지문(URL)도 변경된다.
@@ -84,7 +84,7 @@ HTTP/1.1은 다음과 같은 캐시 응답 헤더를 제공한다.
 *   HTTP 캐시에 대한 좀더 깊이 있는 설명은 [HTTP/1.1 RFC][5]의 섹션 [13.2][6], [14.21][7], 그리고 [14.9.3][8] 를 보면 된다.
 *   아파치에서 캐시를 켜기 위한 자세한 설명은 [Apache Caching Guide][9] 에 있다.
 
- [1]: http://mytory.net/archives/1183 "Google에서 제공하는 웹사이트 페이지 속도 측정, 관리 기능"
+ [1]: https://mytory.net/archives/1183 "Google에서 제공하는 웹사이트 페이지 속도 측정, 관리 기능"
  [2]: http://code.google.com/intl/ko-KR/speed/page-speed/docs/caching.html#LeverageBrowserCaching
  [3]: http://ko.wikipedia.org/wiki/RFC
  [4]: http://icecreamie.tistory.com/entry/HTTP-11-%EC%BA%90%EC%8B%9C-%EA%B4%80%EB%A0%A8-%ED%97%A4%EB%8D%94

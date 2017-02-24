@@ -23,7 +23,7 @@ tags:
 
 아래 코드를 보자.
 
-<pre>&lt;a href="kakaolink://sendurl?msg=this-is-message&url=http://mytory.net&appid=mytory&appver=0.1"&gt;카카오톡으로 보내기&lt;/a&gt;</pre>
+<pre>&lt;a href="kakaolink://sendurl?msg=this-is-message&url=https://mytory.net&appid=mytory&appver=0.1"&gt;카카오톡으로 보내기&lt;/a&gt;</pre>
 
 이런 코드를 웹페이지에 넣는다고 하자.
 
@@ -46,5 +46,5 @@ tags:
 
 관리하는 사이트에 적용해 볼까 생각하고 있다. ㅋㅋㅋ
 
- [1]: kakaolink://sendurl?msg=%EB%85%B9%ED%92%8D%EC%9D%98%20%EB%B8%94%EB%A1%9C%EA%B7%B8%20'%EC%9B%B9%EC%9C%BC%EB%A1%9C%20%EB%A7%90%ED%95%98%EA%B8%B0'%EC%9E%85%EB%8B%88%EB%8B%A4.&url=http://mytory.net&appid=mytory&appver=0.1
+ [1]: kakaolink://sendurl?msg=%EB%85%B9%ED%92%8D%EC%9D%98%20%EB%B8%94%EB%A1%9C%EA%B7%B8%20'%EC%9B%B9%EC%9C%BC%EB%A1%9C%20%EB%A7%90%ED%95%98%EA%B8%B0'%EC%9E%85%EB%8B%88%EB%8B%A4.&url=https://mytory.net&appid=mytory&appver=0.1
  [2]: http://www.kakao.com/link/api?tab=mobileweb

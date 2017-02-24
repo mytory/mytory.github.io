@@ -51,5 +51,5 @@ tags:
 
 단, 하나의 단점이 있는데, index.html 에서도 .html이 지워져서 index로 잡히게 된다는 거다. ㅡㅡ;; 이건 그냥 해결 안 할 생각이다;;
 
- [1]: http://mytory.net/archives/2184 "[링크] 표준 페이지 설정, link rel=canonical"
+ [1]: https://mytory.net/archives/2184 "[링크] 표준 페이지 설정, link rel=canonical"
  [2]: http://www.google.co.kr/search?sourceid=chrome&ie=UTF-8&q=javascript+requestURI#pq=javascript+requesturi&hl=ko&cp=39&gs_id=ar&xhr=t&q=google+analytics+custom+filter+request+URI&pf=p&sclient=psy-ab&newwindow=1&source=hp&pbx=1&oq=google+analytics+custom+filter+request+URI&aq=f&aqi=&aql=&gs_sm=&gs_upl=&bav=on.2,or.r_gc.r_pw.r_cp.,cf.osb&fp=b2526321b7f52283&biw=1280&bih=675

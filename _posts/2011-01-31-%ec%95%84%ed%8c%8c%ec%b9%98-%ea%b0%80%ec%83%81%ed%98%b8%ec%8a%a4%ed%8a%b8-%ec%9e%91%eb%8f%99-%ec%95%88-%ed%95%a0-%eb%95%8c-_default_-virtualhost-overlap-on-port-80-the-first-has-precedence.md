@@ -14,7 +14,7 @@ tags:
 ---
 영어로 돼 있지만 여기가 잘 설명돼 있다 :&nbsp;<a href="http://www.cyberciti.biz/faq/warn-_default_-virtualhost-overlap-port80-first-hasprecedence/" target="_blank" title="[http://www.cyberciti.biz/faq/warn-_default_-virtualhost-overlap-port80-first-hasprecedence/]로 이동합니다.">Apache: [warn] _default_ VirtualHost overlap on port 80, the first has precedence Error and Solution</a>
 
-요지는, <a href="http://mytory.net/archives/13" target="_blank">가상 호스트를 매길 때</a> 가상호스트 설정을 적어 준 부분에 NameVirtualHost 라고 적어 줘야 한다는 건데, 이 때 제대로 적어 줘야 한다는 거다. 예를 보자.(출처는 <a href="http://www.cyberciti.biz/faq/warn-_default_-virtualhost-overlap-port80-first-hasprecedence/" target="_blank" title="[http://www.cyberciti.biz/faq/warn-_default_-virtualhost-overlap-port80-first-hasprecedence/]로 이동합니다.">위 링크</a>)
+요지는, <a href="https://mytory.net/archives/13" target="_blank">가상 호스트를 매길 때</a> 가상호스트 설정을 적어 준 부분에 NameVirtualHost 라고 적어 줘야 한다는 건데, 이 때 제대로 적어 줘야 한다는 거다. 예를 보자.(출처는 <a href="http://www.cyberciti.biz/faq/warn-_default_-virtualhost-overlap-port80-first-hasprecedence/" target="_blank" title="[http://www.cyberciti.biz/faq/warn-_default_-virtualhost-overlap-port80-first-hasprecedence/]로 이동합니다.">위 링크</a>)
 
 <pre class="brush:plain"># My Virtual Hosts Config File for Two Domains
 NameVirtualHost *:80

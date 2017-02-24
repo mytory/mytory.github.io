@@ -43,7 +43,7 @@ tags:
 그러면 아래 같은 창이 뜬다.
 
 <p style="text-align: center;">
-  <img class="aligncenter" src="http://mytory.net/uploads/legacy/virtualbox/group-member.png" alt="" width="420" height="300" />
+  <img class="aligncenter" src="https://mytory.net/uploads/legacy/virtualbox/group-member.png" alt="" width="420" height="300" />
 </p>
 
 여기서 자신의 이름에 체크를 해 주자. 나는 사용자 이름이 mytory 니까 당연히 mytory에 체크했다.
@@ -73,7 +73,7 @@ USB 2.0 은 속도가 더 빠른 놈일 텐데… 나는 사용하기로 결심�
 그래서 [버추얼박스 다운로드 페이지][2]에 가 봤다. 다운로드 링크가 있었다. 단번에 찾기가 힘드니까 아래 이미지를 참고하라. 이 이미지는 2011년 8월 12일에 캡쳐한 거다.
 
 <p style="text-align: center;">
-  <img class="aligncenter" src="http://mytory.net/uploads/legacy/virtualbox/extention-pack.png" alt="" width="467" height="211" />
+  <img class="aligncenter" src="https://mytory.net/uploads/legacy/virtualbox/extention-pack.png" alt="" width="467" height="211" />
 </p>
 
 다운로드 페이지에서 Ctrl+F 를 누르고 extension 을 검색해 보라. 그러면 찾을 수 있을 거다.

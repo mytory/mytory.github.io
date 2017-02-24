@@ -17,7 +17,7 @@ tags:
 
 피드버너를 사용하는 사람들 중, 추적을 사용하는 사람들은 아마 URL 뒤에 붙은 긴 변수들을 본 적 있을 거다.
 
-<pre>http://mytory.net/archives/2314?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+mytory_tc+%28%EC%9B%B9%EC%9C%BC%EB%A1%9C+%EB%A7%90%ED%95%98%EA%B8%B0%29</pre>
+<pre>https://mytory.net/archives/2314?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+mytory_tc+%28%EC%9B%B9%EC%9C%BC%EB%A1%9C+%EB%A7%90%ED%95%98%EA%B8%B0%29</pre>
 
 위 URL은 내 RSS를 구독하는 사람들이 클릭해서 들어왔을 때의 URL이다. 추가로 붙는 변수는 아래와 같이 구성돼 있다.
 
@@ -33,7 +33,7 @@ utm\_campaign의 값은 &#8220;Feed: mytory\_tc (웹으로 말하기)&#8221;를 
 
 위 URL에 따라 Google Analytics는 이렇게 통계를 잡아 준다.
 
-<img class="aligncenter" src="http://mytory.net/uploads/legacy/google-analytics-url-builder-1.jpg" alt="" width="645" height="82" />
+<img class="aligncenter" src="https://mytory.net/uploads/legacy/google-analytics-url-builder-1.jpg" alt="" width="645" height="82" />
 
 구글 아날리틱스의 최신 버전에서 **트래픽 소스 > 소스 > 캠페인** 항목을 보면 볼 수 있다.
 
@@ -43,7 +43,7 @@ utm\_campaign의 값은 &#8220;Feed: mytory\_tc (웹으로 말하기)&#8221;를 
 
 수동으로 세팅을 해 주는 툴도 있었다. [Tool: URL Builder][1]가 그것이다.
 
-<img class="aligncenter" src="http://mytory.net/uploads/legacy/google-analytics-url-builder-2.jpg" alt="" width="676" height="673" />
+<img class="aligncenter" src="https://mytory.net/uploads/legacy/google-analytics-url-builder-2.jpg" alt="" width="676" height="673" />
 
 위 주소로 가면 이런 화면이 나온다.
 

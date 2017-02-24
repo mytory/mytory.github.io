@@ -23,7 +23,7 @@ tags:
 
 또한, 이 글을 이해하기 전에 phpThumb.php의 사용법을 먼저 익히는 것이 좋을 것이다. 그러려면 <a href="/?tag=phpthumb" target="_blank">내가 번역한 글들</a>을 보면 좋다. 물론, <a href="http://phpthumb.sourceforge.net/demo/demo/phpThumb.demo.demo.php" target="_blank">phpThumb 사이트의 데모</a>를 꼭 봐야 한다.
 
-<a title="[번역:phpThumb] phpThumb FAQ(1)" href="http://mytory.net/archives/474" target="_blank">내가 번역한 faq(1)</a>의 뒤에서 두 번째 질문, &#8220;Q: 생성한 썸네일을 파일로 저장할 수 있나요?&#8221; 항목을 보면, 객체-오브젝트를 사용하라는 말이 나온다. 즉, phpThumb.class.php를 사용하라는 말이다.
+<a title="[번역:phpThumb] phpThumb FAQ(1)" href="https://mytory.net/archives/474" target="_blank">내가 번역한 faq(1)</a>의 뒤에서 두 번째 질문, &#8220;Q: 생성한 썸네일을 파일로 저장할 수 있나요?&#8221; 항목을 보면, 객체-오브젝트를 사용하라는 말이 나온다. 즉, phpThumb.class.php를 사용하라는 말이다.
 
 php에서 객체를 사용하는 방법은 낯선 사람들이 좀 있을지 모르겠다. 나도 책보고 공부한 다음 혼자서 객체 활용해 게시판 짜보고 대충 이해갔다.
 

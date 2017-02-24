@@ -38,5 +38,5 @@ tags:
 [2013년 5월 30일자 우편번호 mysql export 파일 다운로드][1]
 
  [1]: /uploads/legacy/zipcode.sql.gz
- [2]: http://mytory.net/archives/1284 "우체국의 우편번호 API를 이용해 우편번호 검색 서비스를 만들어 보자 (1) 서버단"
+ [2]: https://mytory.net/archives/1284 "우체국의 우편번호 API를 이용해 우편번호 검색 서비스를 만들어 보자 (1) 서버단"
  [3]: https://docs.google.com/leaf?id=0B1y-xjZYE3AqMzFhNzEzYWUtMWY1OC00MGIyLWI5NGYtZmQ1YzY5YWZmZDVi&hl=ko

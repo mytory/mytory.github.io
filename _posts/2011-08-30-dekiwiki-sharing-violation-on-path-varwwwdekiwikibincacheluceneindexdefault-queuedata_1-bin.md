@@ -40,5 +40,5 @@ rm -rf /var/www/dekiwiki/bin/cache/luceneindex
 이상.
 
  [1]: http://www.mindtouch.com/
- [2]: http://mytory.net/archives/233 "dekiwiki 오류와 해결책 계속 쓰는 페이지"
+ [2]: https://mytory.net/archives/233 "dekiwiki 오류와 해결책 계속 쓰는 페이지"
  [3]: http://forums.developer.mindtouch.com/showthread.php?8065-Search-index-empty-error-after-upgrading-to-Olympic&p=41121#post41121

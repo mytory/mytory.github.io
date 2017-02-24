@@ -74,4 +74,4 @@ tags:
  [3]: https://developers.google.com/analytics/devguides/collection/gajs/methods/gaJSApiBasicConfiguration?hl=ko-KR#_gat.GA_Tracker_._setVar
  [4]: https://github.com/carhartl/jquery-cookie/blob/master/README.md
  [5]: http://www.w3schools.com/js/js_cookies.asp
- [6]: http://mytory.net/archives/2476 "[Google Analytics] _setCustomVar()"
+ [6]: https://mytory.net/archives/2476 "[Google Analytics] _setCustomVar()"

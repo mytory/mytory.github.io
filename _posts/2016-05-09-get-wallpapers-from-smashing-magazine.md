@@ -26,7 +26,7 @@ tags:
 /**
 * Author: An, Hyeong-woo
 * Email: mytory@gmail.com
-* Blog: http://mytory.net
+* Blog: https://mytory.net
 * Description: See detail on help message. You can see by running this script without args.
 * Dependencies: Tidy extension.
 */

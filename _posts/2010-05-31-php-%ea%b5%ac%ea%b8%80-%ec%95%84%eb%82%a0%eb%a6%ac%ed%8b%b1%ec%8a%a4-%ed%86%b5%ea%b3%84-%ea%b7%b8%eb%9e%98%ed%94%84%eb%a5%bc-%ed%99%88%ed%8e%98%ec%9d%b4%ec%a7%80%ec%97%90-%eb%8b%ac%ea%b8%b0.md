@@ -80,4 +80,4 @@ $password = &#039;password&#039;;</pre>
   </div>
 </div>
 
- [1]: http://mytory.net/archives/1469 "[번역] 구글 아날리틱스 PHP Class"
+ [1]: https://mytory.net/archives/1469 "[번역] 구글 아날리틱스 PHP Class"

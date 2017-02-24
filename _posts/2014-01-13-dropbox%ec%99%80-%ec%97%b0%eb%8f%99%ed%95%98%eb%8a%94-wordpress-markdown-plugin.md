@@ -69,7 +69,7 @@ tags:
 *   실수로 웹사이트가 날아가도 자기 컴에 md 파일이 다 남아 있기 때문에 핵심 콘텐츠인 글은 다 살아있게 된다.
 
  [1]: http://wordpress.org/support/view/plugin-reviews/mytory-markdown
- [2]: http://mytory.net/paypal-donation
+ [2]: https://mytory.net/paypal-donation
  [3]: http://jekyllrb.com/
  [4]: http://wordpress.org/plugins/mytory-markdown/
  [5]: https://www.dropbox.com/enable_public_folder

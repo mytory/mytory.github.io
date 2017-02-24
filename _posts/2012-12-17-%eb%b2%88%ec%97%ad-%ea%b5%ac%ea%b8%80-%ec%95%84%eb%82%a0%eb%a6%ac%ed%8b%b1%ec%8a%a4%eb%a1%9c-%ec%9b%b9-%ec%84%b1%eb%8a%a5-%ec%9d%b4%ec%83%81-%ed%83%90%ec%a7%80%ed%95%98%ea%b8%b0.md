@@ -58,7 +58,7 @@ tags:
 
 사이트 전체에 대해 특정 수치에 대한 알림을 설정하는 것은 좋은 시작이다. 그러나, 구글 아날리틱스에서 [고급 세그먼트][8]를 사용해 본 적이 없다면, 수박 겉핥기만 한 것이다. 아시아 모바일 방문자 혹은 특히 도쿄의 페이지 로딩 시간이나 DNS 시간을 모니터링할 필요가 있다면? 문제 없다. 새로운 고급 세그먼트를 만들기만 하면 된다.
 
-<img class="center" style="max-width: 684px; width: 100%;" alt="" src="http://mytory.net/uploads/legacy/GA-detect-anomaly/wmobile-asia-segment.png.pagespeed.ic.png" width="684" height="460" />
+<img class="center" style="max-width: 684px; width: 100%;" alt="" src="https://mytory.net/uploads/legacy/GA-detect-anomaly/wmobile-asia-segment.png.pagespeed.ic.png" width="684" height="460" />
 
 고급 세그먼트는, 한 번 만들기만 하면, 구글 아날리틱스의 어떤 보고서에든 적용할 수 있다. 지능형 알림에서도 사용하도록 설정할 수 있다! 특정 시장, 특정 사용자 유형, 특정 트래픽 같은 걸 관찰해야 한다고 해 보자. 맞춤 세그먼트를 만들면 알림을 그렇게 맞출 수 있다.
 

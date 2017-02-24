@@ -29,17 +29,17 @@ tags:
 
 흠, 그래서 한 번 돌핀의 '서비스' 목록에 가 봤다. 와우 각종 서비스를 다운받을 수 있게 시스템에 마련돼 있었다. 아래 이미지에 보면 'Download New Services...'가 있다. 그걸 클릭하면 서비스들을 검색할 수 있다.
 
-![](http://mytory.net/uploads/legacy/dolphin-dropbox-1.png)
+![](https://mytory.net/uploads/legacy/dolphin-dropbox-1.png)
 
 Dropbox로 검색했더니 세 개가 나온다. 내가 세 개 다 설치해 봤는데, hash87이 만든 Dropbox ServiceMenu가 가장 낫다. kde-services는 rpm 설치 파일을 다운받는 링크로 안내하는데, 일단 오픈수세에 설치가 안 된다;; 그리고 온갖 기능들 중 하나로 dropbox 통합이 들어가 있는 거라 왠지 싫다. dropbox-servicemenu-kde는 공개 링크를 생성하지 못하는 위치에 있는 파일로 공개 링크를 얻으려고 할 때 에러 메시지가 나오지 않는다. 그러니 hash87이 만든 Dropbox ServiceMenu를 설치하자.
 
-![](http://mytory.net/uploads/legacy/dolphin-dropbox-2.png)
+![](https://mytory.net/uploads/legacy/dolphin-dropbox-2.png)
 
 설치만 하면 그냥 완료된다. 그리고 서비스 항목에 보면 Dropbox 관련 항목들이 생긴 것을 알 수 있다.
 
 자, 이제 Dropbox의 Public 폴더로 가서 마우스 우클릭을 해 보자. 그러면 아래 이미지처럼 Dropbox 관련 항목들이 나온다. 
 
-![](http://mytory.net/uploads/legacy/dolphin-dropbox-3.png)
+![](https://mytory.net/uploads/legacy/dolphin-dropbox-3.png)
 
 각 항목은 이런 건데...
 

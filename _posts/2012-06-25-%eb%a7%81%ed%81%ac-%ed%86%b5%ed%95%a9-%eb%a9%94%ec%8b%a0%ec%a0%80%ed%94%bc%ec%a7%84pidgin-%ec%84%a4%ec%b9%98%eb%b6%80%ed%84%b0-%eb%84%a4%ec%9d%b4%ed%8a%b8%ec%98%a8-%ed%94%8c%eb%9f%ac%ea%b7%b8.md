@@ -20,5 +20,5 @@ tags:
 
 [▶피진(pidgin) 설치부터 네이트온 플러그인 설치, 알림창(팝업창) 설치까지 강좌!][2]
 
- [1]: http://mytory.net/archives/212 "오픈소스 (사내)메신저 서버 구축, 오픈 파이어(openfire) 설치방법과 세팅(리눅스 기준)"
+ [1]: https://mytory.net/archives/212 "오픈소스 (사내)메신저 서버 구축, 오픈 파이어(openfire) 설치방법과 세팅(리눅스 기준)"
  [2]: http://lithiumion.egloos.com/4682184

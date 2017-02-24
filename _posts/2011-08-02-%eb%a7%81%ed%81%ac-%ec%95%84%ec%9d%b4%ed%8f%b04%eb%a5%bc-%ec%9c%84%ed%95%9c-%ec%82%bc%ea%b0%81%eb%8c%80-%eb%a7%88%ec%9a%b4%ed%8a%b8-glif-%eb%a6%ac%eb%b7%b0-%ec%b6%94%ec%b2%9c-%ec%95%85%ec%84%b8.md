@@ -26,7 +26,7 @@ tags:
 
 이런 식으로 사용할 수도 있다.
 
-<img class="aligncenter" alt="" src="http://mytory.net/uploads/legacy/iphone-glif.jpg" />
+<img class="aligncenter" alt="" src="https://mytory.net/uploads/legacy/iphone-glif.jpg" />
 
 가격은 20불, 한국 배송비는 9$정도다. 나도 기회 되면 살까 고민도 좀 된다.
 
@@ -49,7 +49,7 @@ tags:
 이 글리프를 사용해서 실제로 촬영을 했다.
 
 <p style="text-align: center;">
-  <img class="aligncenter" alt="" src="http://mytory.net/uploads/legacy/iphone-tripod-using-example.jpg" />
+  <img class="aligncenter" alt="" src="https://mytory.net/uploads/legacy/iphone-tripod-using-example.jpg" />
 </p>
 
 그리고 아래 링크로 가면 실제 촬영해서 유튜브에 올린 영상을 볼 수 있다. 사이즈는 가로세로 절반으로 줄여서 올렸다. 촬영 과정에서 어떤 악세사리도 사용하지 않았다.

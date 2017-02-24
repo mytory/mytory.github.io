@@ -86,4 +86,4 @@ CSS에서 `.icon-font`에 웹폰트 글꼴을 매기면, t는 t가 아닌 트위
 SVG가 뭐고, 왜 사용하는지를 알아 봤다. 다음 글은 일러스트레이터를 이용해서 SVG를 만드는 방법을 간단하게 알아 본다.
 
  [3]: http://icomoon.io/
- [4]: http://mytory.net/archives/1262
+ [4]: https://mytory.net/archives/1262

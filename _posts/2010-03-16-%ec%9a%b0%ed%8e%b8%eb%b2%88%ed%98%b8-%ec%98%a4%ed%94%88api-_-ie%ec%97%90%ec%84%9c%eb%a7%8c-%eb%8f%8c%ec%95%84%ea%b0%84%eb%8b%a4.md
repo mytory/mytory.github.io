@@ -40,7 +40,7 @@ tags:
 
 [▶우편번호 mysql DB 파일이 필요한 사람은 여기를 참고하면 된다.][4]
 
- [1]: http://mytory.net/archives/12185 "공공데이터포털 우편번호 신청 절차와 API 정리"
- [2]: http://mytory.net/archives/1284 "우체국의 우편번호 API를 이용해 우편번호 검색 서비스를 만들어 보자 (1) 서버단"
- [3]: http://mytory.net/archives/1284 "우체국의 우편번호 API를 이용해 우편번호 검색 서비스를 만들어 보자 – 서버단"
- [4]: http://mytory.net/archives/579
+ [1]: https://mytory.net/archives/12185 "공공데이터포털 우편번호 신청 절차와 API 정리"
+ [2]: https://mytory.net/archives/1284 "우체국의 우편번호 API를 이용해 우편번호 검색 서비스를 만들어 보자 (1) 서버단"
+ [3]: https://mytory.net/archives/1284 "우체국의 우편번호 API를 이용해 우편번호 검색 서비스를 만들어 보자 – 서버단"
+ [4]: https://mytory.net/archives/579

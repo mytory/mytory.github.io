@@ -41,10 +41,18 @@ tags:
 
 경량화하니 나눔고딕 레귤러 버전을 기준으로 ttf는 759kb, woff는 237kb, eot는 165kb, woff2는 136kb가 나왔다.[^fn3] 일단, 나도 스매싱 매거진 팀처럼 woff2까지 사용하진 않기로 한다
 
-사용해 보고 싶은 사람은 아래 두 링크를 참고하라.
+woff2를 사용해 보고 싶다면 woff 지원 브라우저 테스트 js 라이브러리가 필요할 지도 모르겠다: [woff2-feature-test](https://github.com/filamentgroup/woff2-feature-test)
 
-- [google/woff2](https://github.com/google/woff2)는 커맨드라인에서 ttf 파일을 woff2로 변환하는 프로그램이다.
-- [woff2-feature-test](https://github.com/filamentgroup/woff2-feature-test)는 브라우저의 woff2 지원 여부를 테스트하는 js 프로젝트다.
+### 폰트 파일을 만드는 방법
+
+윈도우 사용자고 커맨드라인에 익숙지 않다면 검색해서 GUI 변환 툴을 찾아 보는 편이 나을 것이다. 온라인에서 변환해 주는 것들도 꽤 있는데 용량 제한이 있어서 잘 될지 모르겠다.
+
+아래 프로그램들은 커맨드라인에서 사용하는 툴들이다. eotfast는 윈도우 커맨드라인에서 사용할 수 있고, 나머지는 리눅스나 맥에서 컴파일한 뒤 사용해야 한다. 
+
+- [woff font](https://people-mozilla.org/~jkew/woff/): ttf를 woff로 변환해 주는 bash 프로그램. `make` 명령어로 설치 후 나온 `sfnt2woff`와 `woff2sfnt`를 사용하면 된다.
+- [google/woff2](https://github.com/google/woff2): ttf 파일을 woff2로 변환해 주는 bash 프로그램. 빌드와 실행은 github 페이지에 잘 설명돼 있다. `make clean all` 명령으로 빌드한다. 빌드 후 `woff2_compress`, `woff2_decompress` 두 파일을 사용하면 된다. 
+- [eotfast](http://eotfast.com/): ttf를 eot로 변환해 주는 윈도우 커맨드라인 프로그램. CMD를 띄워서 `EOTFAST-1 font-name.ttf` 형식으로 사용하면 된다. 
+- [wget/ttf2eot](https://github.com/wget/ttf2eot): 이 프로젝트는 사용해 봤는데, 내 환경(오픈수세 13.2)에서는 제대로 된 eot를 만들어 주는 것 같지 않았다. `make`로 빌드할 때 워닝이 몇 개 떴지만 파일이 무사히 만들어졌는데, ttf를 eot로 변환하니 용량이 전혀 줄지 않았다. 반면 eotfast를 이용해 만들었을 때는 용량이 대폭 줄었다. 그래서 eotfast를 사용했다. 
 
 
 ## 로직

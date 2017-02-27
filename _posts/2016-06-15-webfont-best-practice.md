@@ -39,7 +39,12 @@ tags:
 
 웹폰트를 위해서 나눔고딕의 경량화 버전을 만들었다. 경량화란 자주 사용하는 한글 2,350자와 숫자, 영문, 특수문자를 뽑아서 웹폰트를 만드는 것을 말한다. 물론 이 2,350자 안에는 '똠'이나 '뷁', '햏' 같은 글자가 들어가 있지 않아서 해당 글자는 기본 폰트로 나오게 될 것이다.[^fn4]
 
-경량화하니 나눔고딕 레귤러 버전을 기준으로 ttf는 759kb, woff는 237kb, eot는 165kb, woff2는 136kb가 나왔다.[^fn3] 일단, 나도 스매싱 매거진 팀처럼 woff2까지 사용하진 않기로 한다(사용해 보고 싶은 사람은 [woff2-feature-test](https://github.com/filamentgroup/woff2-feature-test)란 프로젝트가 있던데 한 번 살펴 보라).
+경량화하니 나눔고딕 레귤러 버전을 기준으로 ttf는 759kb, woff는 237kb, eot는 165kb, woff2는 136kb가 나왔다.[^fn3] 일단, 나도 스매싱 매거진 팀처럼 woff2까지 사용하진 않기로 한다
+
+사용해 보고 싶은 사람은 아래 두 링크를 참고하라.
+
+- [google/woff2](https://github.com/google/woff2)는 커맨드라인에서 ttf 파일을 woff2로 변환하는 프로그램이다.
+- [woff2-feature-test](https://github.com/filamentgroup/woff2-feature-test)는 브라우저의 woff2 지원 여부를 테스트하는 js 프로젝트다.
 
 
 ## 로직

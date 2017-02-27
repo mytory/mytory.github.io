@@ -106,7 +106,7 @@ a
 /**
  * Blockquotes
 blockquote
-  font-size: 0.9em
+  font-size: round($base-font-size * 0.9)
   font-family: $base-font-family
   color: $grey-color-dark
   padding-left: $spacing-unit / 2
@@ -115,8 +115,8 @@ blockquote
 /**
  * Code formatting
 code
-  font-size: 0.9em
-  padding: 0.2em 0px
+  font-size: round($base-font-size * 0.9)
+  padding: round($base-font-size * 0.2) 0px
   margin: 0px
   font-size: 85%
   background-color: $grey-color-light
@@ -124,8 +124,8 @@ code
   font-family: $monospace-font-family
 
 .post-content pre
-  font-size: 0.9em
-  padding: 1em
+  font-size: round($base-font-size * 0.9)
+  padding: $base-font-size
   border-radius: 4px
   color: #FFF
   background-color: $brand-color2
@@ -137,7 +137,7 @@ code
     background-color: transparent
     border: 0
     padding: 0
-    font-size: 1em
+    font-size: $base-font-size
 
 /**
  * Wrapper

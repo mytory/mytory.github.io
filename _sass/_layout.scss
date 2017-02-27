@@ -40,7 +40,7 @@
     .page-link {
         color: white;
         line-height: $base-line-height;
-        padding: 0.5em 1em;
+        padding: round($base-font-size * 0.5) $base-font-size;
         display: inline-block;
         &:hover {
             background-color: $brand-color2;
@@ -96,7 +96,7 @@
 }
 
 .footer-addr {
-    margin-right: 0.5em;
+    margin-right: round($base-font-size * 0.5);
 }
 
 .footer-heading {
@@ -247,17 +247,17 @@ a.post-link {
 
     table {
         border-collapse: collapse;
-        margin-bottom: 1em;
+        margin-bottom: $base-font-size;
     }
 
     td, th {
         border: 1px solid #ddd;
-        padding: .5em;
+        padding: round($base-font-size * 0.5);
     }
 }
 
 .google-information {
-    margin-bottom: 1em;
+    margin-bottom: $base-font-size;
     text-align: center;
     width: 100%;
     overflow: hidden;
@@ -287,10 +287,10 @@ a.post-link {
 
 .footnotes {
     background: #eee;
-    padding: 1em;
+    padding: $base-font-size;
     border-radius: 5px;
     border-top: 5px dashed #ccc;
-    margin-bottom: 1em;
+    margin-bottom: $base-font-size;
     li:last-child p {
         margin-bottom: 0;
     }
@@ -298,12 +298,12 @@ a.post-link {
 
 .wp-caption {
   border: 1px solid #ddd;
-  margin-bottom: 1em;
+  margin-bottom: $base-font-size;
 }
 
 .wp-caption-text {
-  font-size: 0.9em;
-  padding: 1em;
+  font-size: round($base-font-size * 0.9);
+  padding: $base-font-size;
   margin-bottom: 0;
 }
 

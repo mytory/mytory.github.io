@@ -316,5 +316,11 @@ a.post-link {
 
 .skip {
   position: absolute;
-  font-size: 0;
+  text-indent: -9999px;
+}
+
+.skip:focus {
+  text-indent: 0;
+  padding: $spacing-unit;
+  background-color: $background-color;
 }

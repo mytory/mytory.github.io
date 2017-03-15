@@ -2,6 +2,8 @@
 title: '요금할인 약정 인터넷으로 가입하기(KT)'
 author: 안형우
 layout: post
+image: /uploads/2017-02/rate-discount-contract-penalty.jpg
+description: 요금할인 약정을 전화 말고 인터넷으로 가입하는 방법이 있다. 그런데 KT 웹사이트에서 이걸 찾기가 쉽지 않다. 찾는 방법을 설명한다. 
 tags: 
   - etc
 ---
@@ -26,7 +28,7 @@ tags:
 
 [2]: https://my2.olleh.com/mobile/mobileContractApplicationInfo.do
 
-가입 링크가 깨져 있더라도 좌절하지 말자. 올레 웹사이트에서 ['요금할이니 약정가입'으로 검색][3]하면 나온다.
+가입 링크가 깨져 있더라도 좌절하지 말자. 올레 웹사이트에서 ['요금할인 약정가입'으로 검색][3]하면 나온다.
 
 [3]: http://search.olleh.com/?c=OLE000000&q=%EC%9A%94%EA%B8%88%ED%95%A0%EC%9D%B8%20%EC%95%BD%EC%A0%95%EA%B0%80%EC%9E%85
 

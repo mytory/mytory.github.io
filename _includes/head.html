@@ -35,7 +35,7 @@
     {% if page.description %}
         <meta property="og:description" content="{{ page.description }}">
     {% else %}
-        <meta property="og:description" content="{{ content | strip_html | truncate: 20 }}">
+        <meta property="og:description" content="{{ content | strip_html | truncate: 200 | strip_newlines }}">
     {% endif %}
     {% if page.image %}
         <meta property="og:image" content="{{ page.image | prepend: site.url }}">

@@ -1,7 +1,7 @@
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width initial-scale=1" />
-    <meta name="google-site-verification" content="2goMChSFX5a0ko4Uj5CRLxm0y1C4IWjNF7MGwnLGx3k" />
+    <meta name="viewport" content="width=device-width initial-scale=1">
+    <meta name="google-site-verification" content="2goMChSFX5a0ko4Uj5CRLxm0y1C4IWjNF7MGwnLGx3k">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <title>{% if page.title %}{{ page.title }} | {{site.title}} {% else %}{{ site.title }}{% endif %}</title>
@@ -12,12 +12,12 @@
     <link rel="alternate" hreflang="ko" type="application/rss+xml" title="웹으로 말하기" href="http://feeds.feedburner.com/mytory_tc">
 
 	<!-- Applie Touch Icon -->
-    <link rel="apple-touch-icon-precomposed" href="{{ site.url }}/assets/mytory-favicon-114.png" />
+    <link rel="apple-touch-icon-precomposed" href="{{ site.url }}/assets/mytory-favicon-114.png">
 
     <!-- Standard Favicon -->
-	<link rel="shortcut icon" type="image/x-icon" href="{{ site.url }}/assets/mytory-favicon.ico" />
-	<link rel="icon" type="image/png" href="{{ site.url }}/assets/mytory-favicon-114.png" />
-	<link rel="icon" type="image/svg+xml" href="{{ site.url }}/assets/mytory-favicon.svg"/>
+	<link rel="shortcut icon" type="image/x-icon" href="{{ site.url }}/assets/mytory-favicon.ico">
+	<link rel="icon" type="image/png" href="{{ site.url }}/assets/mytory-favicon-114.png">
+	<link rel="icon" type="image/svg+xml" href="{{ site.url }}/assets/mytory-favicon.svg">
 
     <!--[if lt IE 9]>
         <link rel="stylesheet" href="{{ "/css/ie.css" | prepend: site.baseurl }}">
@@ -25,4 +25,18 @@
     <![endif]--> 
 
     <script src="/js/webfont.js"></script>
+
+{% if page.layout == 'post' %}
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@mytory">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ page.url | prepend: site.url }}">
+    <meta property="og:title" content="{{ page.title }}">
+    <meta property="og:description" content="{{ content | truncate: 20 }}">
+    {% if page.image %}
+        <meta property="og:image" content="{{ page.image | prepend: site.url }}">
+    {% else %}
+        <meta property="og:image" content="{{ '/assets/mytory-favicon-813.png' | prepend: site.url }}">
+    {% endif %}
+{% endif %}
 </head>

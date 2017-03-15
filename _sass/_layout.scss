@@ -313,3 +313,14 @@ a.post-link {
   margin-left: auto;
   max-width: 100%;
 }
+
+.skip {
+  position: absolute;
+  text-indent: -9999px;
+}
+
+.skip:focus {
+  text-indent: 0;
+  padding: $spacing-unit;
+  background-color: $background-color;
+}

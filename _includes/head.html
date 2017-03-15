@@ -27,7 +27,6 @@
     <script src="/js/webfont.js"></script>
 
 {% if page.layout == 'post' %}
-    <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@mytory">
     <meta property="og:type" content="website">
     <meta property="og:url" content="{{ page.url | prepend: site.url }}">
@@ -38,8 +37,10 @@
         <meta property="og:description" content="{{ page.content | strip_html | truncate: 200 | strip_newlines }}">
     {% endif %}
     {% if page.image %}
+        <meta name="twitter:card" content="summary_large_image">
         <meta property="og:image" content="{{ page.image | prepend: site.url }}">
     {% else %}
+        <meta name="twitter:card" content="summary">
         <meta property="og:image" content="{{ '/assets/mytory-favicon-813.png' | prepend: site.url }}">
     {% endif %}
 {% endif %}

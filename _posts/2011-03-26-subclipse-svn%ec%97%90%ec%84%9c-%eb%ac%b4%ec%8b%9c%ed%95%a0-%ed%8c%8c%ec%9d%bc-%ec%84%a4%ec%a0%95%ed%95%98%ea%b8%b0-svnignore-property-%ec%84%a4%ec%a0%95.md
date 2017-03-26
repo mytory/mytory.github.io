@@ -3,10 +3,6 @@ title: '[subclipse] svn에서 무시할 파일 설정하기 svn:ignore property 
 author: 안형우
 layout: post
 permalink: /archives/1015
-aktt_notify_twitter:
-  - yes
-daumview_id:
-  - 36760777
 categories:
   - 개발 툴
 tags:
@@ -28,7 +24,20 @@ tags:
 
 해당 폴더에서 원하는 파일을 지정해 주면 그만이다. 아래와 같은 커맨드 명령 라인으로 처리 가능하다.
 
-<pre>svn propset svn:ignore target_folder_or_file</pre>
+    # 문법: svn propedit svn:ignore {path}
+    svn propedit svn:ignore .
+
+`{path}`에는 원하는 경로를 써 주면 된다. 위 명령은 현재 폴더의 무시할 파일을 설정하는 명령이다.
+
+에디터가 뜨면 무시할 파일이나 폴더를 한 줄에 하나씩 써 주자. 
+
+무시할 파일을 하위 디렉토리에도 똑같이 적용하게 하고 싶다면 `svn:global-ignores` 속성을 지정하면 된다.
+
+    # 문법: svn propedit svn:global-ignores {path}
+    svn propedit svn:global-ignores .
+
+역시 에디터에 한 줄에 하나씩 써 주면 된다. 
+
 
 ## 서브클립스에서 사용하는 방법은?
 
@@ -40,27 +49,23 @@ tags:
 
 자, 일단 아래와 같은 폴더들이 있다고 하자. 이클립스를 사용하는 분들은 금세 알 수 있을 거다.
 
-<div style="width: 510px" class="wp-caption aligncenter">
-  <img class="  " title=" " src="/uploads/legacy/svn-ignore-folders.png" alt="" width="500" height="128" /><p class="wp-caption-text">
-    위 폴더들 중 photo_thumbnail_cache 는 굳이 svn에 통합할 필요가 없는 놈이다.
-  </p>
-</div>
+![photo gallery, photo thumbnail cache, phpThumb라는 폴더가 표시돼 있다](/uploads/legacy/svn-ignore-folders.png)
+
+위 폴더들 중 photo_thumbnail_cache 는 굳이 svn에 통합할 필요가 없는 놈이다.
 
 자자, 저 폴더의 모든 파일을 svn이 무시하도록 해 보자. 마우스 오른쪽 버튼을 누르고, **Team > Set Property** 를 선택한다.
 
-<p style="text-align: center;">
-  <img class="aligncenter" src="/uploads/legacy/svn-ignore-set-property.png" alt="" />
-</p>
+![](/uploads/legacy/svn-ignore-set-property.png)
 
 그러면 아래와 같은 화면이 뜨는데 property name 에는 svn:ignore 라고 써 주고,
 
-<img class="aligncenter" src="/uploads/legacy/svn-ignore-setting.png" alt="" width="613" height="512" />Enter text property 항목에는 무시하길 원하는 파일을 써 주면 된다.
+![](/uploads/legacy/svn-ignore-setting.png)
+
+Enter text property 항목에는 무시하길 원하는 파일을 써 주면 된다.
 
 여러 개를 지정할 때는 아래처럼 줄을 바꿔서 써 주면 된다.
 
-<p style="text-align: center;">
-  <img class="aligncenter" src="/uploads/legacy/svn-ignore-multiple.png" alt="" width="613" height="512" />
-</p>
+![](/uploads/legacy/svn-ignore-multiple.png)
 
 일단, 나는 이 폴더의 모든 하위 폴더와 파일을 무시하게 할 것이므로 *를 썼다.
 
@@ -72,10 +77,8 @@ tags:
 
 [덧] 파일에는 svn:ignore 프로퍼티를 설정할 수 없는 듯하다. 그리고 subclipse를 통해 svn에 통합되지 않은 놈의 경우에는 **Team > Add to svn:ignore** 메뉴를 이용해 쉽게 무시하게 만들 수 있다. 문제는 이미 통합된 놈은 Add to svn:ignore 메뉴가 회색으로 비활성화돼 나온다는 점이다.
 
-<div style="width: 522px" class="wp-caption aligncenter">
-  <img class=" " src="/uploads/legacy/svn-ignore-add.jpg" alt="" width="512" height="474" /><p class="wp-caption-text">
-    test 파일 왼쪽의 ?는 아직 이놈이 svn에 통합되지 않은 놈이라는 점을 말해 준다. 이런 경우 Add to svn:ignore 메뉴가 활성화돼 있다.
-  </p>
-</div>
+![](/uploads/legacy/svn-ignore-add.jpg)
 
- [1]: http://www.aladin.co.kr/shop/wproduct.aspx?ISBN=8956742995 "알리딘 책 소개 - 서브버전을 이용한 실용적인 버전관리"
+test 파일 왼쪽의 ?는 아직 이놈이 svn에 통합되지 않은 놈이라는 점을 말해 준다. 이런 경우 Add to svn:ignore 메뉴가 활성화돼 있다.
+
+ [1]: http://www.aladin.co.kr/shop/wproduct.aspx?ISBN=8956742995 "알라딘 책 소개 - 서브버전을 이용한 실용적인 버전관리"

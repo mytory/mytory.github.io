@@ -3,7 +3,9 @@ layout: default
 ---
 <article class="post  h-entry" itemscope itemtype="http://schema.org/BlogPosting">
   {% if page.image %}
-    <link itemprop="thumbnailUrl" href="{{ page.image | prepend: site.url }}"/>
+    <link itemprop="image" href="{{ page.image | prepend: site.url }}"/>
+  {% else %}
+    <link itemprop="image" href="{{ '/assets/mytory-favicon-813.png' | prepend: site.url }}"/>
   {% endif %}
 
   <header class="post-header">
@@ -17,14 +19,25 @@ layout: default
       <time itemprop="datePublished" datetime="{{ page.date | date: "%Y-%m-%d" }}">
         {{ page.date | date: "%Y-%m-%d" }}
       </time>
+      {% if page.date_modified %}
+        <time itemprop="dateModified" datetime="{{ page.date_modified | date: "%Y-%m-%dT%H:%M:%S+09" }}">
+        •{{ page.date_modified | date: "%Y-%m-%d" }} 수정
+        </time>
+      {% endif %}
       {% if page.author %}
         {% assign author = page.author %}
       {% else %}
         {% assign author = site.author %}
       {% endif %}
       •
-      <address class="u-inline" itemprop="creator" itemscope itemtype="http://schema.org/Person">
-        <span itemprop="name">{{ author }}</span>
+      <address class="u-inline">
+        <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <span itemprop="name">{{ author }}</span>
+        </span>
+        <span itemprop="publisher" itemscope itemtype="http://schema.org/Organization" hidden>
+          •<span itemprop="name">{{ site.title }}</span>
+          <link itemprop="logo" href="{{ site.url }}/assets/mytory-favicon.svg"> 
+        </span>
       </address>
       •
       <span itemprop="keywords">

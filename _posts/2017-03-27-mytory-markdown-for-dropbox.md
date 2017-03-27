@@ -5,6 +5,7 @@ tags:
 - wordpress
 image: /uploads/2017-03/mytory-markdown-for-dropbox.jpg
 description: 드롭박스 API를 이용해 드롭박스에 있는 마크다운 파일을 불러와서 워드프레스 내용을 채우는 플러그인을 만들었다. 기존 퍼블릭 링크 사용자들에게는 이전 기능을 제공한다.
+date_modified: 2017-03-27 15:51:36
 ---
 
 ## 기존 Mytory Markdown 플러그인에 문제가 생겼다

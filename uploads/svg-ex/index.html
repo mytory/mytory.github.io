@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="ko-KR">
+<head>
+    <meta charset="UTF-8">
+    <title>SVG file and include tag example</title>
+    <style>
+        h2 {
+            margin-top: 2em;
+            margin-bottom: 0.5em;
+            border-top: 3px solid #999;
+            border-bottom: 3px solid #999;
+            padding: 0.5em;
+            background-color: #eee;
+        }
+        h2:first-child{
+            margin-top: 0;
+        }
+        svg, img, object, iframe, embed {
+            width: 100px;
+            border: 1px solid red;
+        }
+        .height-specified svg,
+        .height-specified img,
+        .height-specified object,
+        .height-specified embed,
+        .height-specified iframe
+        {
+            height: 100px;
+        }
+
+        .height-auto svg,
+        .height-auto img,
+        .height-auto object,
+        .height-auto embed,
+        .height-auto iframe
+        {
+            height: auto;
+        }
+        .ex {
+            display: inline-block;
+            width: 110px;
+        }
+
+        /* for inline svg */
+        .circle-obj {
+            stroke: #34495E;
+            transition: fill 0.3s;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+<h1>SVG 확대/축소와 삽입 태그 테스트</h1>
+
+<!--[if lt IE 9]>
+<p><strong>IE9 이상부터 예제를 볼 수 있습니다.</strong></p>
+<![endif]-->
+
+<h2>설명</h2>
+<p>SVG 파일 안에 포함된 CSS는 원의 외곽선 컬러를 검정색에서 젖은 아스팔트색으로 바꾼다. SVG 안에 있는 스크립트는 원의 색깔을 금색에서 에메랄드 색으로 바꾼다. 스크립트가 작동한 이후에도 마우스를 원 위에 올리면 색이 변한다. CSS3 <code>transition</code> 속성으로 색이 변할 때는 0.3초 동안 은은하게 변하도록 했다.</p>
+<p><code>img</code> 태그로 포함한 svg 원의 색은 변하지 않는다. 따라서 우리는 <code>img</code> 태그에 포함된 SVG에서 스크립트가 작동하지 않는다는 것을 알 수 있다.</p>
+<p>아래 예제에는 높이를 지정한 것과 지정하지 않은 것이 있다. <code>height</code>를 <code>auto</code>로 했을 때, 무슨 일이 벌어지는 지 알 수 있을 것이다.</p>
+<p>SVG에는 <code>viewBox</code>속성이 필요하다. <code>viewBox</code> 속성을 생략하면 어떤 일이 벌어지는 지 보자.</p>
+<p>모든 경우에 CSS는 적용되고, <code>img</code> 태그를 제외하고는 script도 적용된다.</p>
+<p>모든 SVG 이미지는 <code>a</code> 태그로 둘러싸여 있다. 하지만 <code>a</code> 태그는 오직 인라인 SVG와 <code>img</code> 태그에서만 작동한다.</p>
+<p>이제 아래 예제를 보자.</p>
+<h2>Code</h2>
+<pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+&lt;!DOCTYPE svg PUBLIC &quot;-//W3C//DTD SVG 1.1//EN&quot; &quot;http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd&quot;&gt;
+&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot; 
+        version=&quot;1.1&quot; width=&quot;84px&quot; height=&quot;84px&quot; viewBox=&quot;0 0 84 84&quot;&gt;
+    &lt;style type=&quot;text/css&quot;&gt;
+        .circle-obj {
+            stroke: #34495E;
+            transition: fill 0.3s;
+            cursor: pointer;
+        }
+    &lt;/style&gt;
+    &lt;desc&gt;This is svg circle. You can see circle when use svg support browser.&lt;/desc&gt;
+    &lt;circle class=&quot;circle-obj&quot; cx=&quot;42&quot; cy=&quot;42&quot; r=&quot;40&quot; stroke=&quot;#000&quot; stroke-width=&quot;4&quot; fill=&quot;gold&quot;/&gt;
+    &lt;script type=&quot;text/ecmascript&quot;&gt;&lt;![CDATA[
+        (function () {
+            function changeFill(dom) {
+                if (dom.getAttribute('fill') === 'gold') {
+                    dom.setAttribute('fill', '#2ECC71');
+                } else {
+                    dom.setAttribute('fill', 'gold');
+                }
+            }
+
+            Array.prototype.forEach.call(document.getElementsByClassName('circle-obj'), function (el, i) {
+                el.addEventListener('mouseover', function () {
+                    changeFill(el);
+                });
+            });
+        })();
+    ]]&gt;&lt;/script&gt;
+&lt;/svg&gt;</pre>
+<div class="height-specified">
+    <h2><code>width 100px, height 100px, with viewBox</code></h2>
+    <div class="ex">
+        <h3>inline</h3>
+        <a href="#" onclick="alert('click!'); return false;"><?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+        version="1.1" width="84px" height="84px" viewBox="0 0 84 84">
+    
+    <desc>This is svg circle. You can see circle when use svg support browser.</desc>
+    <circle class="circle-obj" cx="42" cy="42" r="40" stroke="#000" stroke-width="4" fill="gold"/>
+    
+</svg></a>
+    </div>
+    
+    <div class="ex">
+        <h3>img</h3>
+        <p><a href="#" onclick="alert('click!'); return false;"><img src="has-viewbox.svg" alt=""></a></p>
+    </div>
+    <div class="ex">
+        <h3>object</h3>
+        <p><a href="#" onclick="alert('click!'); return false;"><object data="has-viewbox.svg" type="image/svg+xml"></object></a></p>
+    </div>
+    <div class="ex">
+        <h3>iframe</h3>
+        <p><a href="#" onclick="alert('click!'); return false;"><iframe src="has-viewbox.svg"></iframe></a></p>
+    </div>
+    <div class="ex">
+        <h3>embed</h3>
+        <p><a href="#" onclick="alert('click!'); return false;"><embed src="has-viewbox.svg" type="image/svg+xml"></a></p>
+    </div>
+</div>
+
+<div class="height-specified">
+    <h2><code>width 100px, height 100px, without viewBox</code></h2>
+    <div class="ex">
+        <h3>inline</h3>
+        <a href="#" onclick="alert('click!'); return false;"><?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+        version="1.1" width="84px" height="84px" >
+    
+    <desc>This is svg circle. You can see circle when use svg support browser.</desc>
+    <circle class="circle-obj" cx="42" cy="42" r="40" stroke="#000" stroke-width="4" fill="gold"/>
+    
+</svg></a>
+    </div>
+    <div class="ex">
+        <h3>img</h3>
+        <p><a href="#" onclick="alert('click!'); return false;"><img src="has-not-viewbox.svg" alt=""></a></p>
+    </div>
+    <div class="ex">
+        <h3>object</h3>
+        <p><a href="#" onclick="alert('click!'); return false;"><object data="has-not-viewbox.svg" type="image/svg+xml"></object></a></p>
+    </div>
+    <div class="ex">
+        <h3>iframe</h3>
+        <p><a href="#" onclick="alert('click!'); return false;"><iframe src="has-not-viewbox.svg"></iframe></a></p>
+    </div>
+    <div class="ex">
+        <h3>embed</h3>
+        <p><a href="#" onclick="alert('click!'); return false;"><embed src="has-not-viewbox.svg" type="image/svg+xml"></a></p>
+    </div>
+</div>
+
+
+<div class="height-auto">
+    <h2><code>width 100px, height auto, with viewBox</code></h2>
+    <div class="ex">
+        <h3>inline</h3>
+        <a href="#" onclick="alert('click!'); return false;"><?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+        version="1.1" width="84px" height="84px" viewBox="0 0 84 84">
+    
+    <desc>This is svg circle. You can see circle when use svg support browser.</desc>
+    <circle class="circle-obj" cx="42" cy="42" r="40" stroke="#000" stroke-width="4" fill="gold"/>
+    
+</svg></a>
+    </div>
+    
+    <div class="ex">
+        <h3>img</h3>
+        <p><a href="#" onclick="alert('click!'); return false;"><img class="not-specified" src="has-viewbox.svg" alt=""></a></p>
+    </div>
+    <div class="ex">
+        <h3>object</h3>
+        <p><a href="#" onclick="alert('click!'); return false;"><object class="not-specified" data="has-viewbox.svg" type="image/svg+xml"></object></a></p>
+    </div>
+    <div class="ex">
+        <h3>iframe</h3>
+        <p><a href="#" onclick="alert('click!'); return false;"><iframe class="not-specified" src="has-viewbox.svg"></iframe></a></p>
+    </div>
+    <div class="ex">
+        <h3>embed</h3>
+        <p><a href="#" onclick="alert('click!'); return false;"><embed class="not-specified" src="has-viewbox.svg" type="image/svg+xml"></a></p>
+    </div>
+</div>
+
+<div class="height-auto">
+    <h2><code>width 100px, height auto, without viewBox</code></h2>
+    <div class="ex">
+        <h3>inline</h3>
+        <?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+        version="1.1" width="84px" height="84px" >
+    
+    <desc>This is svg circle. You can see circle when use svg support browser.</desc>
+    <circle class="circle-obj" cx="42" cy="42" r="40" stroke="#000" stroke-width="4" fill="gold"/>
+    
+</svg>    </div>
+    <div class="ex">
+        <h3>img</h3>
+        <p><img class="not-specified" src="has-not-viewbox.svg" alt=""></p>
+    </div>
+    <div class="ex">
+        <h3>object</h3>
+        <p><object class="not-specified" data="has-not-viewbox.svg" type="image/svg+xml"></object></p>
+    </div>
+    <div class="ex">
+        <h3>iframe</h3>
+        <p><iframe class="not-specified" src="has-not-viewbox.svg"></iframe></p>
+    </div>
+    <div class="ex">
+        <h3>embed</h3>
+        <p><embed class="not-specified" src="has-not-viewbox.svg" type="image/svg+xml"></p>
+    </div>
+</div>
+
+<script type="text/javascript">
+(function () {
+    function changeFill(dom) {
+        if (dom.getAttribute('fill') === 'gold') {
+            dom.setAttribute('fill', '#2ECC71');
+        } else {
+            dom.setAttribute('fill', 'gold');
+        }
+    }
+
+    Array.prototype.forEach.call(document.getElementsByClassName('circle-obj'), function (el, i) {
+        el.addEventListener('mouseover', function () {
+            changeFill(el);
+        });
+    });
+})();
+</script>
+<script>
+  // ga
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-10285539-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

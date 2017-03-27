@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+        version="1.1" width="84px" height="84px" >
+    <style type="text/css">
+        .circle-obj {
+            stroke: #34495E;
+            transition: fill 0.3s;
+            cursor: pointer;
+        }
+    </style>
+    <desc>This is svg circle. You can see circle when use svg support browser.</desc>
+    <circle class="circle-obj" cx="42" cy="42" r="40" stroke="#000" stroke-width="4" fill="gold"/>
+    <script type="text/ecmascript"><![CDATA[
+        (function () {
+            function changeFill(dom) {
+                if (dom.getAttribute('fill') === 'gold') {
+                    dom.setAttribute('fill', '#2ECC71');
+                } else {
+                    dom.setAttribute('fill', 'gold');
+                }
+            }
+
+            Array.prototype.forEach.call(document.getElementsByClassName('circle-obj'), function (el, i) {
+                el.addEventListener('mouseover', function () {
+                    changeFill(el);
+                });
+            });
+        })();
+    ]]></script>
+</svg>

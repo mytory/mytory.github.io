@@ -3,15 +3,18 @@ title: 블로그 이미지를 dropbox public 폴더에 넣으면 트래픽을 �
 author: 안형우
 layout: post
 permalink: /archives/2314
-aktt_notify_twitter:
-  - yes
-daumview_id:
-  - 36621764
 categories:
   - 기타
 tags:
   - TIP
 ---
+
+## 2017-03-27
+
+드롭박스는 2017년 3월 15일부로 Public link 기능을 중지했다.
+
+----
+
 난 설치형 블로그를 사용하고 있고, 일일 트래픽은 500Mb다. [텍스트 공백 제거와 gzip 압축][1]을 사용하지 않으면 5~6시면 트래픽이 초과된다.
 
 트래픽을 절약하는 또 하나 좋은 방법은 [드롭박스][2]의 Public 폴더를 이용하는 것이다. (드롭박스는 2Gb는 무료고 그 이상을 사용할 경우엔 50Gb의 경우 한 달에 9.99$, 1년에 99.9$를 내야 한다.)

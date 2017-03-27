@@ -324,3 +324,12 @@ a.post-link {
   padding: $spacing-unit;
   background-color: $background-color;
 }
+
+.u-inline {
+  display: inline;
+}
+
+.lede {
+  font-size: floor($base-font-size * 1.2);
+  font-family: $sans-serif-font-family;
+}

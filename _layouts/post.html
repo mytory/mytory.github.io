@@ -2,11 +2,20 @@
 layout: default
 ---
 <article class="post  h-entry" itemscope itemtype="http://schema.org/BlogPosting">
-  {% if page.image %}
-    <link itemprop="image" href="{{ page.image | prepend: site.url }}"/>
-  {% else %}
-    <link itemprop="image" href="{{ '/assets/mytory-favicon-813.png' | prepend: site.url }}"/>
-  {% endif %}
+  <div itemprop="image" itemscope itemtype="http://schema.org/ImageObject" hidden>
+    {% if page.image %}
+      <img itemprop="contentUrl" src="{{ page.image | prepend: site.url }}">
+      <link itemprop="url" href="{{ page.image | prepend: site.url }}">
+      <meta itemprop="width" content="auto">
+      <meta itemprop="height" content="auto">
+    {% else %}
+      <img itemprop="contentUrl" src="{{ site.url }}/assets/mytory-favicon-114.png">
+      <link itemprop="url" href="{{ site.url }}/assets/mytory-favicon-114.png">
+      <meta itemprop="width" content="114">
+      <meta itemprop="height" content="114">
+    {% endif %}
+  </div>
+  
 
   <header class="post-header">
     <h1 class="post-title" itemprop="headline">{{ page.title }}</h1>
@@ -20,8 +29,9 @@ layout: default
         {{ page.date | date: "%Y-%m-%d" }}
       </time>
       {% if page.date_modified %}
+        •
         <time itemprop="dateModified" datetime="{{ page.date_modified | date: "%Y-%m-%dT%H:%M:%S+09" }}">
-        •{{ page.date_modified | date: "%Y-%m-%d" }} 수정
+          {{ page.date_modified | date: "%Y-%m-%d" }}
         </time>
       {% endif %}
       {% if page.author %}
@@ -36,13 +46,19 @@ layout: default
         </span>
         <span itemprop="publisher" itemscope itemtype="http://schema.org/Organization" hidden>
           •<span itemprop="name">{{ site.title }}</span>
-          <link itemprop="logo" href="{{ site.url }}/assets/mytory-favicon.svg"> 
+          <div itemprop="logo" itemscope itemtype="http://schema.org/ImageObject" hidden>
+            <meta itemprop="contentUrl" content="{{ site.url }}/assets/mytory-favicon-114.png">
+            <meta itemprop="url" content="{{ site.url }}/assets/mytory-favicon-114.png">
+          </div>
         </span>
       </address>
       •
       <span itemprop="keywords">
         {{ page.tags | join ", " }}
       </span>
+      {% if page.main_entity_of_page %}
+        <link itemprop="mainEntityOfPage" href="{{ page.main_entity_of_page }}">
+      {% endif %}
     </aside>
   </header>
 

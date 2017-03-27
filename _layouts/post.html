@@ -60,7 +60,7 @@ layout: default
       </address>
       •
       <span itemprop="keywords">
-        {{ page.tags | join ", " }}
+        {{ page.tags | join: ", " }}
       </span>
       {% if page.main_entity_of_page %}
         <link itemprop="mainEntityOfPage" href="{{ page.main_entity_of_page }}">

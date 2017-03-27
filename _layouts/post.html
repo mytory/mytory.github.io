@@ -44,6 +44,12 @@ layout: default
         <span itemprop="author" itemscope itemtype="http://schema.org/Person">
           <span itemprop="name">{{ author }}</span>
         </span>
+        {% if page.traslator %}
+          •
+          <span itemprop="translator" itemscope itemtype="http://schema.org/Person">
+            번역 <span itemprop="name">{{ page.translator }}</span>
+          </span>
+        {% endif %}
         <span itemprop="publisher" itemscope itemtype="http://schema.org/Organization" hidden>
           •<span itemprop="name">{{ site.title }}</span>
           <div itemprop="logo" itemscope itemtype="http://schema.org/ImageObject" hidden>

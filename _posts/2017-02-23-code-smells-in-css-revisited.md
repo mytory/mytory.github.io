@@ -3,6 +3,10 @@ title: '[요약] 추가적인 CSS 코드 냄새'
 layout: post
 tags:
 - css
+translator: 안형우
+author: 해리 로버츠
+description: 코드 냄새란 리팩토링에서 사용되는 용어로 버그는 아니지만 장기적으로 문제를 일으킬 수 있는 코드를 말한다. 해리 로버츠는 CSS에서 코드 냄새에 대해 글을 쓴 바 있는데, 이번에는 최신 상황을 반영해 목록을 몇 가지 추가했다.
+main_entity_of_page: https://csswizardry.com/2017/02/code-smells-in-css-revisited/
 ---
 
 CSS Wizardry의 해리 로버츠가 최근 [Code Smells in CSS Revisited][original]를 작성했다. 해리 로버츠는 2012년에 이미 한 번 [CSS의 코드 냄새][2012]에 대해 글을 쓴 바 있는데, 최신 상황에 맞추어 몇 가지를 추가한 것이다.

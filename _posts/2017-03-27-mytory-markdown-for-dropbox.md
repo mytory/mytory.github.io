@@ -1,11 +1,16 @@
 ---
-title: '[Mytory Markdown for Dropbox] 드롭박스에 있는 마크다운 파일을 이용해 워드프레스에 글을 쓰는 플러그인'
+title: '[Mytory Markdown for Dropbox] 드롭박스 API로 마크다운 파일을 연결해 워드프레스에 글을 올리는 플러그인'
 layout: post
 tags:
 - wordpress
 image: /uploads/2017-03/mytory-markdown-for-dropbox.jpg
 description: 드롭박스 API를 이용해 드롭박스에 있는 마크다운 파일을 불러와서 워드프레스 내용을 채우는 플러그인을 만들었다. 기존 퍼블릭 링크 사용자들에게는 이전 기능을 제공한다.
 ---
+
+드롭박스 API를 이용해 드롭박스에 있는 마크다운 파일을 불러와서 워드프레스 내용을 채우는 플러그인을 만들었다. 기존 퍼블릭 링크 사용자들에게는 이전 기능을 제공한다.
+
+
+## 기존 Mytory Markdown 플러그인에 문제가 생겼다
 
 2013년 10월 23일에 Mytory Markdown 플러그인의 첫 커밋을 했다. 만들고 나서 워드프레스 플러그인 등록을 한 것이니, 아마 그 전에 며칠 동안 개발을 했을 것이다.
 
@@ -62,9 +67,9 @@ OAuth 사용자 인증 방식에 두 가지 종류가 있다는 것을 알았다
 - token flow(혹은 implicit grant flow): 사용자가 관여하는 부분이 없다. 그냥 드롭박스 페이지에 가서 예스를 누르고 원래 웹사이트로 돌아오면 끝이다. 나머지는 서버가 처리한다. 
 
 
-### http로 OAuth 요청을 보낼 때
+### http로 드롭박스에 요청을 보낼 때
 
-http로 OAuth 요청을 보낼 때 Content-Type이 `application/json`일 때 데이터를 대체 어떻게 보내라는 건지 헷갈렸다. 웬걸, 그냥 json문자열을 post 방식을 이용해서 통으로 문자열처럼 보내는 거였다. 키-값 쌍도 아니고 말이다. 이걸 몰라서 3~4시간을 삽질했다.
+http로 드롭박스에 요청을 보낼 때 Content-Type이 `application/json`인 경우 데이터를 대체 어떻게 보내라는 건지 헷갈렸다. 웬걸, 그냥 json문자열을 post 방식을 이용해서 통으로 문자열로 보내는 거였다. 키-값 쌍이 *아니고* 말이다. 이걸 몰라서 3~4시간을 삽질했다.
 
 
 ## 후기

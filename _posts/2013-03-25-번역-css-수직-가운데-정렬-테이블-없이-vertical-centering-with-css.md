@@ -1,11 +1,17 @@
 ---
 title: '[번역] CSS 수직 가운데 정렬 (테이블 없이!) Vertical Centering with CSS'
-author: 안형우
+author: '더글라스 헤리엇(Douglas Heriot)'
+author_email: douglas@douglasheriot.com
+date_modified: 2017-01-05
+translator: 안형우
 layout: post
 permalink: /archives/9727
 tags:
   - CSS
+description: 더글라스 헤리엇이 모든 브라우저에서 작동하는 CSS 수직 가운데 정렬 기법에 대해 설명한다. 2017년인 현재는 flexbox를 이용할 수도 있지만, 여기서 설명하는 기법들은 여전히 유효하다. IE 구버전에 관한 부분만 제거하고 읽으면 된다.
+image: /uploads/legacy/css-absolute-center/tutorial/demo-thumb.jpg
 ---
+
 뭔가 폼을 짤 일이 있었다. 수직 가운데 정렬을 해야 하는 상황이었다. CSS로 구현하긴 좀 까다로워서 그냥 js로 `margin`을 계산하게 해 버렸다. 찾고 보니 js로 구현하는 것보다 CSS로 구현하는 것이 훨씬 편할 뻔 했다는 생각이 든다.
 
 하지만 궁금했다. CSS 기법은 없는지. 찾아 봤고, 찾았다. 원문은 CSS로 수직 가운데 정렬 하기(Vertical Centering with CSS)다.[^improvement][^original] 원문은 2009년 2월 말에 씌어졌고, 이 때는 아직 IE8 베타 버전만 나와있던 때다. IE8 정식 버전은 2009년 3월 19일에 출시됐다.

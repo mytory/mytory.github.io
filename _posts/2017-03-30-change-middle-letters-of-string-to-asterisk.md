@@ -1,5 +1,5 @@
 ---
-title: [PHP] 문자열 가운데 별표치는 함수
+title: '[PHP] 문자열 가운데 별표치는 함수'
 layout: post
 author: 안형우
 tags: 

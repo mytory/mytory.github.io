@@ -3,17 +3,12 @@ title: '[jQuery]레이어 팝업(modal window) 띄울 때 전체를 덮는 반�
 author: 안형우
 layout: post
 permalink: /archives/783
-aktt_notify_twitter:
-  - yes
-daumview_id:
-  - 36793579
-mytory_md_path:
-  -
 categories:
   - 웹 퍼블리싱
 tags:
   - javascript
   - jQuery
+date_modified: 2013-05-31
 ---
 **들어가기 전에 : 이 글과 함께 [레이어 팝업을 화면 정 가운데 위치시키는 방법][1], [이미지가 늦게 로딩되어 정 가운데 위치 계산이 틀리는 것을 방지하는 방법][2]을 보면 좋다.**
 

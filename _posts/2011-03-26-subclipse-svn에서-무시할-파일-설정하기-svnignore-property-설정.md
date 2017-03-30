@@ -7,6 +7,7 @@ categories:
   - 개발 툴
 tags:
   - SVN
+date_modified: 2017-03-26 21:09:20
 ---
 개발을 하다 보면 굳이 svn에 들어갈 필요가 없는 것들이 있다.
 

@@ -28,18 +28,18 @@ description: 아파치에서 웹 서버의 폴더에 접근할 수 없어서 뜨
     <Directory />
         Options FollowSymLinks
         AllowOverride None
-        Require all denied
+        <mark>Require all denied</mark>
     </Directory>
 
     <Directory /usr/share>
         AllowOverride None
-        Require all granted
+        <mark>Require all granted</mark>
     </Directory>
 
     <Directory /var/www/>
         Options Indexes FollowSymLinks
         AllowOverride None
-        Require all granted
+        <mark>Require all granted</mark>
     </Directory>
 
 우선 `/` 폴더에는 `Require all denied`라고 설정해 둔 것을 볼 수 있다. 전부 막는다는 뜻이다. 

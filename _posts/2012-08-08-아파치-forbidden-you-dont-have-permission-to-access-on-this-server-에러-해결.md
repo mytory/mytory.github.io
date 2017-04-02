@@ -17,7 +17,7 @@ description: 아파치에서 웹 서버의 폴더에 접근할 수 없어서 뜨
     Forbidden
       You don't have permission to access / on this server.
 
-에러 로그(보통 `/var/log/apache2/error.log`)를 보면 아래처럼 생겨먹었다.
+에러 로그(`/var/log/apache2/error.log` 혹은 `/var/log/httpd/error_log` 식의 경로를 찾으면 된다)를 보면 아래처럼 생겨먹었다.
 
     client denied by server configuration : 폴더 경로
 

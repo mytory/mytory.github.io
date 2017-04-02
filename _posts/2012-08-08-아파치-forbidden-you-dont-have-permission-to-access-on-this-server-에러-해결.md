@@ -63,15 +63,19 @@ description: 아파치에서 웹 서버의 폴더에 접근할 수 없어서 뜨
 
 아파치 2.2에는 `Require` 지시가 아니라 `Allow` 지시와 `Deny` 지시가 적혀 있을 것이다. 아래처럼 말이다.
 
-    <Directory />
-        Order Deny,Allow
-        Deny from All
-    </Directory>
-    
-    <Directory />
-        Order allow,deny
-        Allow from all
-    </Directory>
+~~~
+<Directory />
+    # 모두 접근 금지
+    Order Deny,Allow
+    Deny from All
+</Directory>
+
+<Directory /var/www>
+    # 모두 접근 허용
+    Order allow,deny
+    Allow from all
+</Directory>
+~~~
 
 2.4는 `Require all granted`에 해당하는 것은 `Allow from All`, `Order allow,deny`고, `Require all denied`에 해당하는 것은 `Deny from All`, `Order Deny,Allow`라고 이해하면 맞다([Upgrading to 2.4 from 2.2 참고]). 키 말고 값으로 들어가는`from all`과 `deny,allow` 같은 것들은 대소문자 구분을 안 하는 듯하다.
 

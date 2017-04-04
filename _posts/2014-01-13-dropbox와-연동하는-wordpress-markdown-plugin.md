@@ -1,28 +1,35 @@
 ---
-title: 'Dropbox, GitHub와 연동하는 WordPress Markdown Plugin &#8211; Mytory Markdown'
+title: 'Github 같은 URL을 연결해 사용하는 WordPress Markdown Plugin – Mytory Markdown'
 author: 안형우
 layout: post
 permalink: /archives/12276
-mytory_md_path:
-  - https://dl.dropboxusercontent.com/u/15546257/mytory-md-content/page-mytory-markdown.md
 categories:
   - WordPress
 tags:
   - My WordPress Plugin
+description: md 파일의 URL을 넣고 버튼을 누르면 에디터에 html을 넣어 주는 플러그인이다. 자매품 Mytory Markdown for Dropbox도 있다.
+date_modified: 2017-04-04 13:45
+image: /uploads/2017/mytory-markdown.jpg
+
 ---
-그냥 시작부터 문의 안내와 기타부터 ㅋ
 
-## 기타, 제안과 문의
+## 제안과 버그 신고
 
-*   제안과 문의는 아래 댓글을 남겨 주시거나, `mail@mytory.net`으로 보내 주세요.
-*   [워드프레스 플러그인 사이트에서 추천해 주세요.][1] 굳이 영어로 리뷰를 쓰지 않고 한글로 쓰셔도 아무 상관 없어요.
-*   [후원도 환영합니다. 근데 PayPal만 됨;;][2]
+*   [제안과 버그 신고](https://github.com/mytory/mytory-markdown/issues)
+*   [워드프레스 플러그인 사이트에서 추천해 주세요.][1] 한글로 써도 됩니다.
+*   [후원도 환영합니다.][2]
+
+## Mytory Markdown for Dropbox
+
+원래 이 플러그인은 Dropbox의 Public Link를 이용한 것이었다. Dropbox가 Public Link 기능을 중지하는 바람에 Dropbox로 이 플러그인을 사용할 수는 없게 됐고 일반적인 URL을 사용하는 것으로 변경했다. 
+
+대신 Dropbox로 이용할 수 있도록 [Mytory Markdown for Dropbox]라는 플러그인을 새로 만들었다.
 
 ## 소개 영상
 
 <div class="video-container">
   <div class="video-container__inner">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/mCgzB1aCQgM" frameborder="0" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/wKcrIvlGVfo" frameborder="0" allowfullscreen></iframe>
   </div>
 </div>
 
@@ -36,18 +43,16 @@ tags:
 
 그래서 만든 [Mytory Markdown][4]의 기능은 다음과 같다. 설치하려면 플러그인 설치하는 데서 Mytory Markdown으로 검색하면 된다.
 
-* 드롭박스 Public 폴더에 있는 마크다운 파일과 포스트 내용을 동기화한다.
-* GitHub에 있는 마크다운 파일과 포스트 내용을 동기화한다.
+* md 파일의 URL을 받아서 포스트 내용을 동기화한다.
+* 즉, GitHub raw content url 같은 것을 이용할 수 있다.
 
-이게 끝이다. 딴 거 없다. 마크다운 파일로 글 다 쓴 다음 드롭박스의 &#8216;공개 링크&#8217;나 GitHub 'Raw' 버튼의 URL을 복사해서 &#8216;Markdown File Path&#8217;에 붙여 넣고 &#8216;Update Editor Content&#8217; 누른 다음 저장하면 된다. 사실 &#8216;Update Editor Content&#8217; 버튼도 안 눌러도 된다. 어차피 글 보기할 때마다 파일 검사해서 내용 갱신하니까.
+이게 끝이다. 딴 거 없다. 마크다운 파일로 글 다 쓴 다음 해당 파일의 URL이나 GitHub ‘Raw’ 버튼의 URL을 복사해서 ‘Markdown File Path’에 붙여 넣고 ‘Update Editor Content’ 누른 다음 저장하면 된다. 사실 ‘Update Editor Content’ 버튼도 안 눌러도 된다. 어차피 글 보기할 때마다 파일 검사해서 내용을 갱신한다.
 
 ## 사용법
 
-*   자기 컴퓨터의 드롭박스 Public Folder에서 파일을 편집하고 &#8216;공개 링크&#8217;를 복사한다. 
-*   2012년 12월 이후 가입자들은 Public 폴더가 없을 거다. 무료 사용자라면 Public 폴더를 사용할 길이 없다. GitHub를 사용해야 한다. Pro나 Bussiness 사용자라면 여기서 활성화할 수 있다 : [Enable public folder][5]
-*   플러그인을 활성화한 뒤 글쓰기 화면에 들어가면 Markdown File Path라는 항목이 보일 거다. 거기에 공개 링크 혹은 Raw URL을 집어넣는다(사실 드롭박스나 GitHub가 아니라도 마크다운 파일로 연결되는 URL이면 웬만하면 다 될 거다).
-*   붙여 넣은 뒤 &#8216;Update Editor Content&#8217; 버튼을 누르면 마크다운 파일의 내용이 HTML로 변환돼서 워드프레스 에디터에 들어간다. `h1` 요소가 있다면 첫 번째 `h1` 요소를 제목에 집어넣는다.
-*   이후엔 마크다운 파일만 수정하면 컨텐츠도 자동으로 업데이트된다.
+- 플러그인을 활성화한 뒤 글쓰기 화면에 들어가면 Markdown File Path라는 항목이 보일 거다. 거기에 md 파일의 URL을  집어넣는다. GitHub를 이용하려면 Raw URL을 넣으면 된다. 
+- 붙여 넣은 뒤 ‘Update Editor Content’ 버튼을 누르면 마크다운 파일의 내용이 HTML로 변환돼서 워드프레스 에디터에 들어간다. `h1` 요소가 있다면 첫 번째 `h1` 요소를 제목에 집어넣는다.
+- 이후엔 마크다운 파일만 수정하면 컨텐츠도 자동으로 업데이트된다.
 
 ## 설정
 
@@ -58,8 +63,6 @@ tags:
 
 ## 장점
 
-장점은 [&#8216;Mytory Markdown 플러그인과 드롭박스 퍼블릭 링크를 이용해서 워드프레스에 포스팅하기&#8217;][6]에 잘 소개돼 있다.
-
 *   자기가 좋아하는 에디터로 글을 작성할 수 있다.
 *   컴퓨터 파일을 수정하면 글이 자동으로 동기화되므로 관리자 페이지로 가는 불편 없이 편안하게 글을 수정할 수 있다.
 *   마크다운을 HTML로 변환해서 에디터에 넣어 주는 기능만 하는 것이기 때문에 여타 다른 플러그인들과 충돌할 일이 없다. 대표적인 게 short tag인데, 전혀 충돌하지 않는다.
@@ -68,9 +71,14 @@ tags:
 *   워드프레스 에디터 내용만 바꾸는 것이기 때문에 워드프레스 리비전 기능(글 history 기능)이 그대로 살아 있게 된다. 
 *   실수로 웹사이트가 날아가도 자기 컴에 md 파일이 다 남아 있기 때문에 핵심 콘텐츠인 글은 다 살아있게 된다.
 
+## 사실 지금 난 jekyll을 사용하긴 하는데
+
+난 블로그 트래픽 문제로 [jekyll을 사용하는 GitHub Page로 블로그를 옮겼다.](https://mytory.net/기타/2014/11/04/move-to-jekyll.html) 하지만 이 플러그인도 100명 정도는 사용하고 있어서 계속 개발중이다. [Mytory Markdown for Dropbox]로 그래서 만들었고 말이다.
+
  [1]: http://wordpress.org/support/view/plugin-reviews/mytory-markdown
- [2]: https://mytory.net/paypal-donation
+ [2]: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=QUWVEWJ3N7M4W&lc=GA&item_name=Mytory%20Markdown&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donate_SM%2egif%3aNonHosted
  [3]: http://jekyllrb.com/
  [4]: http://wordpress.org/plugins/mytory-markdown/
  [5]: https://www.dropbox.com/enable_public_folder
  [6]: http://blog.kalkin7.com/2014/01/04/mytory-markdown-plugin-using-dropbox-public-link/
+ [Mytory Markdown for Dropbox]: https://mytory.net/2017/03/27/mytory-markdown-for-dropbox.html

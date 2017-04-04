@@ -1,6 +1,7 @@
 ---
 title: '[번역] Sass에서 웬만하면 extend 말고 믹스인을 사용하자'
-author: 안형우
+author: 해리 로버츠
+translator: 안형우
 layout: post
 tags:
   - css

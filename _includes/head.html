@@ -7,6 +7,8 @@
     <title>{% if page.title %}{{ page.title }} | {{site.title}} {% else %}{{ site.title }}{% endif %}</title>
     {% if page.description %}
         <meta name="description" content="{{ page.description }}">
+    {% elsif page.layout == 'default' %}
+        <meta name="description" content="CSS, js, HTML, PHP, JAVA... Full Stack Web Development">
     {% else %}
         <meta name="description" content="{{ page.content | strip_html | truncate: 200 | strip_newlines }}">
     {% endif %}

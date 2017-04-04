@@ -59,7 +59,7 @@ image: /uploads/2017/mytory-markdown.jpg
 설정도 있다. **설정 > Mytory Markdown**에 가면 설정할 수 있다.
 
 * Auto update only when writer (or admin) visits: 이걸 y로 설정하면 글쓴이나 관리자로 로그인해서 해당 포스트(혹은 페이지)에 방문했을 때만 자동 업데이트를 한다. 난 지금 이 모드로 쓰고 있다. 그러면 글을 수정한 다음 수정한 페이지를 한 번 로그인한 채로 방문해 줘야 글이 갱신된다. 난 글 수정한 다음 블로그에 가서 꼭 확인을 하니까 크게 불편함이 없다.
-* Auto update per x visits: x회 방문마다 자동갱신을 한다. 기본값은 1이다. 즉, 기본적으로는 매 방문마다 Dropbox에 접속해서 내용이 달라지지 않았는지 검사한다. 이걸 10으로 설정한다면 해당 글을 10회 방문할 때마다 1번씩 Dropbox에 접속해서 내용이 달라졌는지 확인하게 된다. 만약 관리자로 들어올 때만 자동갱신하는 위 옵션을 y로 했다면 이 숫자는 무의미하다.
+* Auto update per x visits: x회 방문마다 자동갱신을 한다. 기본값은 1이다. 즉, 기본적으로는 매 방문마다 URL에 접속해서 내용이 달라지지 않았는지 검사한다. 이걸 10으로 설정한다면 해당 글을 10회 방문할 때마다 1번씩 URL에 접속해서 내용이 달라졌는지 확인하게 된다. 만약 관리자로 들어올 때만 자동갱신하는 위 옵션을 y로 했다면 이 숫자는 무의미하다.
 * Markdown Engine: 마크다운 엔진은 세 가지를 지원한다. Parsedown, Parsedown Extra, MarkdownExtra Classic. 워드프레스 최소 PHP 버전이 5.2라 거기 호환되는 마크다운 엔진을 넣어야 했고, 그래서 애초에 MarkdownExtra Classic를 넣었다. 이후 PHP 버전을 검사해서 상위 버전이면 Parsedown을 사용할 수 있게 했고, 그래서 엔진을 고를 수 있게 만들었다. 엔진에 따라 파싱하는 게 약간 다르므로 엔진의 특성에 맞게 작성하라. 당연한 말이지만 Parsedown이나 Parsedown Extra를 사용하길 권한다.
 
 ## 장점
@@ -80,6 +80,5 @@ image: /uploads/2017/mytory-markdown.jpg
  [2]: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=QUWVEWJ3N7M4W&lc=GA&item_name=Mytory%20Markdown&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donate_SM%2egif%3aNonHosted
  [3]: http://jekyllrb.com/
  [4]: http://wordpress.org/plugins/mytory-markdown/
- [5]: https://www.dropbox.com/enable_public_folder
  [6]: http://blog.kalkin7.com/2014/01/04/mytory-markdown-plugin-using-dropbox-public-link/
  [Mytory Markdown for Dropbox]: https://mytory.net/2017/03/27/mytory-markdown-for-dropbox.html

@@ -1,6 +1,7 @@
 ---
 title: "[번역] OOCSS 객체 수정시 extend 말고 class 이어 적기를 사용하자"
-author: 안형우
+author: 올리버 조셉 애쉬
+translator: 안형우
 tags:
   - OOCSS
   - css

@@ -3,6 +3,9 @@ title: '[번역] HTML 시맨틱과 프론트엔드 아키텍처에 대해'
 layout: post
 tags:
   - CSS
+author: 니콜라스 갤러거
+translator: 안형우
+description: CSS 시맨틱과 HTML 시맨틱은 서로 다르다고 규정한 고전적인 글이다. 스펙에 맞지 않는 OOCSS의 클래스 명명법을 정당화해 주는 이론적 기반이 된다.
 ---
 
 역자: 이 글은 니콜라스 갤러거가 2012년에 쓴 글 [About HTML semantics and front-end architecture][3]를 번역[^translate]한 것이다. 'HTML의 시맨틱과 CSS의 시맨틱은 다르다', 'CSS 클래스명을 내용과 연관짓지 않는 것이 의미론적 CSS다' 하는 주장을 담고 있다. 흔히 권장되는 CSS 클래스 작명법과 다른 이 주장은, 오늘날 유지보수하기 쉬운 CSS를 작성하려는 많은 사람들이 받아들이는 주장이다. 

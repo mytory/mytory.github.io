@@ -15,7 +15,7 @@ image: /uploads/2017/hwp-in-cli.jpg
 - 와인으로 한글 구버전을 설치한다. 매우 복잡하다. 
 - 한컴에서 내놓은 리눅스용 한글을 설치한다. 매우 복잡하다.
 
-커맨드라인이 조금 익숙한 사람이라면 다른 방법도 사용할 수 있다. 바로 [pyhwp]라는 프로그램이다. 
+커맨드라인이 조금 익숙한 사람이라면 좀 더 간편한 방법을 사용할 수 있다. 바로 [pyhwp]라는 프로그램이다. 
 
 [pyhwp]: https://pythonhosted.org/pyhwp/ko/ 
 
@@ -29,7 +29,11 @@ image: /uploads/2017/hwp-in-cli.jpg
 
     sudo pip install setuptools pycrypto pyhwp
 
-그러면 이제부터 `hwp5odf`, `hwp5html`, `hwp5txt` 명령을 사용할 수 있게 된다.
+pyhwp를 사용하기 위해 setuptools가 있어야 한다. pycrypto는 필수는 아니고 선택사항이다.
+
+설치가 완료됐으면 `hwp5odf`, `hwp5html`, `hwp5txt` 명령을 사용할 수 있게 된다.
+
+사실 bash 스크립트를 만들지 않고 `hwp5odf file.hwp` 형식으로 hwp를 odt로 변환한 뒤 그냥 libreoffice에서 여는 식으로 사용해도 된다. 여기부터 설명하는 bash 파일은 libreoffice로 여는 걸 좀더 쉽게 해 주는 것에 불과하다.
 
 ## hwp 명령을 만들어 보자
 

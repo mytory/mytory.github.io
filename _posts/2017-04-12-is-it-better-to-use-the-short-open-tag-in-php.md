@@ -83,6 +83,7 @@ image: /uploads/2017/short-open-tag.png
 > 기본값: On  
 > 개발값: Off  
 > 제품값: Off   
+>
 > <http://php.net/short-open-tag>
 
 즉, 하위호환성 지원 때문에 남겨 놨다는 이야기는 있어도 사용 중단 예정이란 이야기는 없다.

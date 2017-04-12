@@ -5,7 +5,7 @@ author: 안형우
 tags: 
   - tool
   - phpstorm 
-description: 'PhpStorm에서 <?를 입력하고 탭을 누르면 <?php  ?>가 생기고 그 가운데 커서가 위치하게 만들어 보자'
+description: 'PhpStorm에서 &lt;?를 입력하고 탭을 누르면 &lt;?php  ?>가 생기고 그 가운데 커서가 위치하게 만들어 보자'
 image: /uploads/2017/php-open-tag-live-template.jpg 
 ---
 

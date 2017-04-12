@@ -6,11 +6,11 @@
 
     <title>{% if page.title %}{{ page.title }} | {{site.title}} {% else %}{{ site.title }}{% endif %}</title>
     {% if page.description %}
-        <meta name="description" content="{{ page.description }}">
+        <meta name="description" content="{{ page.description | escape }}">
     {% elsif page.layout == 'default' %}
         <meta name="description" content="CSS, js, HTML, PHP, JAVA... Full Stack Web Development">
     {% else %}
-        <meta name="description" content="{{ page.content | strip_html | truncate: 200 | strip_newlines }}">
+        <meta name="description" content="{{ page.content | escape | strip_html | truncate: 200 | strip_newlines }}">
     {% endif %}
 
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
@@ -36,11 +36,11 @@
     <meta name="twitter:site" content="@mytory">
     <meta property="og:type" content="website">
     <meta property="og:url" content="{{ page.url | prepend: site.url }}">
-    <meta property="og:title" content="{{ page.title }}">
+    <meta property="og:title" content="{{ page.title | escape }}">
     {% if page.description %}
-        <meta property="og:description" content="{{ page.description }}">
+        <meta property="og:description" content="{{ page.description | escape }}">
     {% else %}
-        <meta property="og:description" content="{{ page.content | strip_html | truncate: 200 | strip_newlines }}">
+        <meta property="og:description" content="{{ page.content | escape | strip_html | truncate: 200 | strip_newlines }}">
     {% endif %}
     {% if page.image %}
         <meta name="twitter:card" content="summary_large_image">

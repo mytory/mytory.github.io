@@ -41,6 +41,8 @@ image: /uploads/2017/short-open-tag.png
 
 몇 년 전에 어디선가 "PHP에서 짧은 태그를 곧 제거하게 될 테니 사용해선 안 된다" 하는 이야기를 봤는데, 공식 자료에서 확인할 수 없었다. 
 
+
+
 ### php.net의 설명
 
 [php.net의 `short_open_tag` 설명 부분](http://php.net/manual/en/ini.core.php#ini.short-open-tag)에는 담백한 설명만 나온다. 아래는 번역이다.
@@ -80,7 +82,7 @@ image: /uploads/2017/short-open-tag.png
 >
 > 기본값: On  
 > 개발값: Off  
-> 제품값: Off  
+> 제품값: Off   
 > <http://php.net/short-open-tag>
 
 즉, 하위호환성 지원 때문에 남겨 놨다는 이야기는 있어도 사용 중단 예정이란 이야기는 없다.

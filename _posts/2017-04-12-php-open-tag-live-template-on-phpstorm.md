@@ -1,5 +1,5 @@
 ---
-title: 'PhpStorm에서 <?php 여는 태그 자동완성 만들기'
+title: 'PhpStorm에서 &lt;?php 여는 태그 자동완성 만들기'
 layout: post
 author: 안형우
 tags: 

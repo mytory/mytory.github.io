@@ -1,5 +1,5 @@
 ---
-title: 'PHP 짧은 태그(<? ?>)가 좋을까 긴 태그(<?php ?>)가 좋을까?'
+title: 'PHP 짧은 태그(&lt;? ?>)가 좋을까 긴 태그(&lt;?php ?>)가 좋을까?'
 layout: post
 author: 안형우
 tags: 

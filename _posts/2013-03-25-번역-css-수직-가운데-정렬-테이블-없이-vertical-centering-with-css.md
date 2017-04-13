@@ -12,9 +12,7 @@ description: 더글라스 헤리엇이 모든 브라우저에서 작동하는 CS
 image: /uploads/legacy/css-absolute-center/tutorial/demo-thumb.jpg
 ---
 
-뭔가 폼을 짤 일이 있었다. 수직 가운데 정렬을 해야 하는 상황이었다. CSS로 구현하긴 좀 까다로워서 그냥 js로 `margin`을 계산하게 해 버렸다. 찾고 보니 js로 구현하는 것보다 CSS로 구현하는 것이 훨씬 편할 뻔 했다는 생각이 든다.
-
-하지만 궁금했다. CSS 기법은 없는지. 찾아 봤고, 찾았다. 원문은 CSS로 수직 가운데 정렬 하기(Vertical Centering with CSS)다.[^improvement][^original] 원문은 2009년 2월 말에 씌어졌고, 이 때는 아직 IE8 베타 버전만 나와있던 때다. IE8 정식 버전은 2009년 3월 19일에 출시됐다.
+원문은 CSS로 수직 가운데 정렬 하기(Vertical Centering with CSS)다.[^improvement][^original] 2009년 2월 말에 씌어졌고, 이 때는 아직 IE8 베타 버전만 나와있던 때다. IE8 정식 버전은 2009년 3월 19일에 출시됐다.
 
 (참고로 [수직 가운데 정렬을 해 주는 jQuery 플러그인][1]도 있다. CSS 기법으로 처리 못하는 경우에는 사용할 수도 있을 것이다.)
 
@@ -29,7 +27,7 @@ image: /uploads/legacy/css-absolute-center/tutorial/demo-thumb.jpg
 
 `display: flex`를 대부분의 브라우저에서 사용할 수 있게 된 것도 희소식이다. 수직 가운데 정렬이 훨씬 편해졌다. 다만 IE9이 이걸 지원하지 않는다는 점이 문제다.
 
-이 글은 2009년에 나온 글이라 플렉스박스에 대한 설명이 없다. `display: flex`를 이용한 기법을 간단하게 살펴 보고 싶다면 [Vertical Centering in CSS][14]를 참고하라.
+이 글은 2009년에 나온 글이라 플렉스박스에 대한 설명은 없다. `display: flex`를 이용한 기법을 간단하게 살펴 보고 싶다면 [Vertical Centering in CSS][14]를 참고하라.
 
 ----
 

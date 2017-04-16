@@ -45,5 +45,5 @@ $('#myTable').find('tr');
 
 `jQuery.brower` 속성은 1.9부터 사라졌다. 그런데 이 플러그인은 `jQuery.browser` 속성을 두 군데서 사용한다. (코드에선 `$.browser`로 사용.)
 
-여튼 그래서 플러그인이 작동하지 않는 경우가 생긴다. 따라서 jQuery.browser 속성을 살려 주는 `[jquery-browser-plugin](https://github.com/gabceb/jquery-browser-plugin)`을 사용하거나, 아니면 해당 부분을 주석처리해야 한다.
+여튼 그래서 플러그인이 작동하지 않는 경우가 생긴다. 따라서 jQuery.browser 속성을 살려 주는 [jquery-browser-plugin](https://github.com/gabceb/jquery-browser-plugin)을 사용하거나, 아니면 해당 부분을 주석처리해야 한다.
 

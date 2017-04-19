@@ -91,6 +91,6 @@ image: /uploads/2017/short-open-tag.png
 
 ## 사실상의 기본값은 Off다
 
-한 가지 첨언하자면, 기본값이 On이긴 하지만, PHP의 소스코드에서 찾을 수 있는 `php.ini-production`, `php.ini-development`에서 모두 값이 Off로 설정돼 있다. 그래서 사실상의 기본값은 Off나 다름 없다.
+한 가지 첨언하자면, 설정을 하지 않았을 때의 기본값이 On이긴 하지만, PHP의 소스코드에서 찾을 수 있는 `php.ini-production`, `php.ini-development`에서 모두 값이 Off로 설정돼 있다. 그래서 사실상의 기본값은 Off나 다름 없다.
 
 

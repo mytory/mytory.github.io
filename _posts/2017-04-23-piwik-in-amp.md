@@ -19,7 +19,7 @@ AMP에 google analytics 추적 코드를 넣는 방법은 여러 군데 잘 나�
 
 그 외 `TITLE`, `DOCUMENT_REFERRER`, `CANONICAL_URL`, `RANDOM`이라고 넣은 값은 그대로 두면 된다. AMP가 알아서 처리한다고 한다. 그래서 실제 예시는 아래처럼 될 것이다.
 
-    <amp-pixel src="https://piwik.mytory.net/piwik.php?idsite=1&amp;rec=1&amp;action_name=TITLE&amp;urlref=DOCUMENT_REFERRER&amp;url=CANONICAL_URL&amp;rand=RANDOM&amp;_rcn=amp"></amp-pixel>
+    <amp-pixel src="https://piwik.wspaper.org/piwik.php?idsite=1&amp;rec=1&amp;action_name=TITLE&amp;urlref=DOCUMENT_REFERRER&amp;url=CANONICAL_URL&amp;rand=RANDOM&amp;_rcn=amp"></amp-pixel>
 
 ## 인자값 설명
 
@@ -34,3 +34,22 @@ AMP에 google analytics 추적 코드를 넣는 방법은 여러 군데 잘 나�
 - `_rcn`(선택): 캠페인 이름. AMP에서 온 트래픽이라는 것을 구분하기 위해 넣었다.
 
 이 정도면 설명은 됐을 듯하다.	
+
+## PHP라면?
+
+PHP라면 배열을 query string으로 변환해 주는 `http_build_query()` 함수를 사용하면 편하다. 아래는 예시다.
+
+    <?php
+    $params = array(
+        'idsite' => 1,
+        'rec' => 1,
+        'action_name' => 'TITLE',
+        'urlref' => 'DOCUMENT_REFERRER',
+        'url' => 'CANONICAL_URL',
+        'rand' => 'RANDOM',
+        '_rcn' => 'amp', // The Campaign name. https://developer.piwik.org/api-reference/tracking-api
+    );
+    $http_query = http_build_query($params);
+    ?>
+    <amp-pixel src="https://piwik.wspaper.org/piwik.php?<?= $http_query ?>"></amp-pixel>
+

@@ -53,3 +53,6 @@ PHP라면 배열을 query string으로 변환해 주는 `http_build_query()` 함
     ?>
     <amp-pixel src="https://piwik.wspaper.org/piwik.php?<?= $http_query ?>"></amp-pixel>
 
+## 참고
+
+<https://gist.github.com/tiefenb/50041bb1f99762587e0b>를 참고했다.

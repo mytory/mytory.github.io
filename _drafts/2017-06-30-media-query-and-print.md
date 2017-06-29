@@ -1,4 +1,4 @@
-미디어쿼리에서 설정한 폰트 사이즈가 인쇄에 영향을 준 사건.
+## 미디어쿼리에서 설정한 폰트 사이즈가 인쇄에 영향을 준 사건.
 
 아마 매커니즘은 다음과 같다.
 
@@ -24,3 +24,9 @@
 인쇄시 마지막 부분이 잘리는 문제 때문에 한참 헤맸는데, 결국 이것 때문이라는 것을 찾고 아래처럼 고쳤다.
 
     @media screen and (max-width: 600px) 
+
+## firefox는 display: flex가 영향을 준다
+
+display: flex를 준 요소가 뒤 페이지로 이동하고, overflow: hidden인 것처럼 작동한다. 이미지 참고.
+
+![](/uploads/2017/printing-display-flex-in-firefox.jpg)

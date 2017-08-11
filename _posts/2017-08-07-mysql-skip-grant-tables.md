@@ -15,6 +15,6 @@ image: /uploads/2017/skip-grant-tables.jpg
     # ...
     skip-grant-tables
 
-우분투의 경우 위 문구가 있는 파일 경로는 `/etc/mysql/mysql.conf.d/mysqld.cnf`다. 위 파일에 있지 않은 경우 mysql 설정이 있는 폴더에서 아래 스크립트를 실행해 찾아 보면 된다.
+우분투의 경우 `[mysqld]`섹션이 있는 파일 경로는 `/etc/mysql/mysql.conf.d/mysqld.cnf`다. 위 파일에 있지 않은 경우 mysql 설정이 있는 폴더에서 아래 명령을 실행해 찾아 보면 된다.
 
     grep \\[mysqld\\] -r .

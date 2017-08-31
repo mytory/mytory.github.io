@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Popup Test</title>
+</head>
+<body>
+	<h2>팝업</h2>
+	<div>
+		left: <input type="number" name="left" id="left" value="400" step="10">
+	</div>
+	<div>
+		top: <input type="number" name="top" id="top" value="400" step="10">
+	</div>
+	<div><button id="open-popup">팝업 띄우기</button></div>
+
+    <h2>현위치</h2>
+	<button id="get-screen-xy">현위치 보기</button>
+	<div id="log"></div>
+
+<script>
+(function () {
+    window.popups = [];
+
+	function popup() {
+		var left = document.getElementById('left').value;
+		var top = document.getElementById('top').value;
+		window.popups.push(window.open('popup.html', new Date().toString(), 'menubar=no,location=no,resizable=no,scrollbars=no,status=no,width=400,height=400,left=' + left + ',top=' + top + ',screenX=' + left + ',screenY=' + top));
+	}
+
+	function getScreenXY() {
+		var log = '';
+		window.popups.forEach(function (item) {
+			log += '<p>' + item.screenX + ', ' + item.screenY + '</p>';
+		});
+		document.getElementById('log').innerHTML = log;
+	}
+
+	document.getElementById('open-popup').addEventListener('click', popup);
+	document.getElementById('get-screen-xy').addEventListener('click', getScreenXY);
+} ());
+</script>
+</body>
+</html>

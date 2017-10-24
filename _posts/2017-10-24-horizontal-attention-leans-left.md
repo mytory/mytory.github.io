@@ -30,8 +30,10 @@ image: /uploads/horizontal-attention-leans-left-1.jpg
 
 ![](/uploads/2017/horizontal-attention-leans-left-2.jpg)
 
+## 결론
+
 - 중요한 내용은 좌측에 둬라. 맨 좌측은 피하고. 
-- 우측 공간은 바로바로 나타났다 사라졌다 하는(Just in time) 내용을 두자. 
+- 우측 공간은 바로바로 나타났다 사라졌다 하는(Just in time) 내용을 두는 곳으로 활용하자.
 - 덜 중요한 내용은 우측에 두자. 모든 것이 중요할 순 없가. 덜 중요한 내용을 둘 자리도 필요하다. 
 - 우측에 중요 내용을 둘 수밖에 없다면 눈에 잘 띄게 디자인해야 한다. 
 

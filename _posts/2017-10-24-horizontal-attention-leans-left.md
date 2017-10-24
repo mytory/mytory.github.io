@@ -2,6 +2,7 @@
 title: '[웹 사용성] 사람들은 왼쪽에 훨씬 관심을 둔다'
 layout: post
 translator: 안형우
+author: 제이콥 닐슨
 tags: 
   - web usability
 description: '화면을 좌우로 갈랐을 때 사람들은 시선 80%를 좌측에 뒀다. 따라서 중요한 내용이라면 화면의 좌측에 두자.'

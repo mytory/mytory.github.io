@@ -4,7 +4,7 @@ layout: post
 translator: 안형우
 tags: 
   - web usability
-description: '중요한 내용이라면 화면의 좌측에 두자. 단, 가장 왼쪽은 내비게이션 영역으로 하자.'
+description: '화면을 좌우로 갈랐을 때 사람들은 시선 80%를 좌측에 뒀다. 따라서 중요한 내용이라면 화면의 좌측에 두자.'
 image: /uploads/horizontal-attention-leans-left-1.jpg
 
 ---

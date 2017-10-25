@@ -8,7 +8,7 @@ image: /uploads/horizontal-attention-leans-left-1.jpg
 
 ---
 
-사용성 연구 기업인 닐슨 앤 노먼 그룹의 테레스 페센든(Therese Fessenden)이 작성한 “수평 관심은 왼쪽으로 기운다([Horizontal Attention Leans Left])”(https://www.nngroup.com/articles/horizontal-attention-leans-left/)를 요약한 것이다. 
+사용성 연구 기업인 닐슨 앤 노먼 그룹의 테레스 페센든(Therese Fessenden)이 작성한 “수평 관심은 왼쪽으로 기운다([Horizontal Attention Leans Left](https://www.nngroup.com/articles/horizontal-attention-leans-left/))”를 요약한 것이다. 
 
 -----
 

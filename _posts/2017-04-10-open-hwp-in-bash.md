@@ -1,5 +1,5 @@
 ---
-title: '리눅스 커맨드라인에서 한글 파일 열기'
+title: '리눅스 커맨드라인에서 한글(hwp) 파일 열기'
 layout: post
 author: 안형우
 tags: 
@@ -46,9 +46,9 @@ pyhwp를 사용하기 위해 setuptools가 있어야 한다. pycrypto는 필수�
         exit 1 
     fi
     hwp5odt "$1"
-    libreoffice $(basename -s '.hwp' "$1").odt &
+    libreoffice "$(basename -s '.hwp' "$1").odt" &
 
-자, 저장을 한 뒤, 이 파일에 실행 권한을 준 뒤 /usr/local/bin 폴더로 옮긴다. 아래 명령어를 사용해도 되고, 그냥 파일 탐색기에서 해도 된다.
+자, 저장을 한 뒤, 이 파일에 실행 권한을 준 뒤 `/usr/local/bin` 폴더로 옮긴다. 아래 명령어를 사용해도 되고, 그냥 파일 탐색기에서 해도 된다.
 
     chmod a+x hwp
     sudo mv hwp /usr/local/bin/ 

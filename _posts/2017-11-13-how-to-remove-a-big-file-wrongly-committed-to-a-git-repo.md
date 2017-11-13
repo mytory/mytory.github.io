@@ -3,7 +3,7 @@ title: 'Git에 실수로 큰 파일을 커밋했을 때 제거하는 방법'
 layout: post
 author: 안형우
 tags: 
-  - security
+  - git
 description: filter-branch 명령어를 이용한다
 image: /uploads/2017/KRACK-vulnerability-and-dealing-with.jpg
 ---

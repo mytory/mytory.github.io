@@ -5,7 +5,6 @@ author: 안형우
 tags: 
   - git
 description: filter-branch 명령어를 이용한다
-image: /uploads/2017/KRACK-vulnerability-and-dealing-with.jpg
 ---
 
 자세한 설명은 [How to remove a big file wrongly committed to a Git repo][1]를 참고하자. 아래 명령어를 이용한다.

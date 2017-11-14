@@ -109,7 +109,7 @@ F 패턴으로만 훑어 본다는 오해가 있는데 아니다. 겹 케이크(
 
 더 탐구하고 싶다면 다음 링크를 참고하자.
 
-- 2006년 연구: [F-Shaped Pattern For Reading Web Content][2]
+- 2006년 연구: [F-Shaped Pattern For Reading Web Content][3]
 - 보고서 [사람들은 웹을 어떻게 읽는가: 눈동자 추적을 바탕으로][report](유료)
 - [눈길을 끄는 디지털 원고 작성법][writing](교육과정)
 

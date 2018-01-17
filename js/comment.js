@@ -28,7 +28,7 @@ function loadComments(data) {
 var issueId = $('[data-comment-issue-id]').data('comment-issue-id');
 
 if (issueId) {
-    $.ajax("https://api.github.com/repos/mytory/marx/issues/" + issueId + "/comments", {
+    $.ajax("https://api.github.com/repos/mytory/mytory.github.io/issues/" + issueId + "/comments", {
         headers: {Accept: "application/vnd.github.v3.html+json"},
         dataType: "json",
         success: function (msg) {

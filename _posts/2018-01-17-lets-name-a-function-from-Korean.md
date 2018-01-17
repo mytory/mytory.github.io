@@ -34,7 +34,7 @@ Get original file path from web file path.
 
 Use the file path for the Web to get the original file path.
 
-구글 번역기에서 취할 것은 단어들이다. 문장을 그대로 사용하면 된다. 이 경우엔 내 영작이 더 나은 것 같다;;
+구글 번역기에서 취할 것은 주로 단어들이다. 문장을 그대로 사용할 수 있는 경우는 거의 없다. 이 경우엔 내 영작이 더 나은 것 같다;;
 
 그러면 함수명을 그냥 이렇게 지을 수 있을 것이다. `get_original_file_path_from_web_file_path($web_file_path)`.
 

@@ -11,13 +11,18 @@
 
     <div id="page-content"></div>
     
-    <div class="page-content">
+    <div class="page-content" data-comment-issue-id="{{ page.comment_issue_id }}">
       <div class="wrapper">
         {{ content }}
       </div>
     </div>
 
     {% include footer.html %}
+    
+    {% if page.comment_issue_id %}
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+      <script src="/js/comment.js"></script>
+    {% endif %}
 
   </body>
 

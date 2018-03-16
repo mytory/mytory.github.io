@@ -5,7 +5,7 @@ tags:
   - quotation
 ---
 
-아래는 인사이트 출판사의 [《코딩 인터뷰 완전 분석》](http://book.daum.net/detail/book.do?bookid=KOR9788966260485) 내용 중 일부를 옮긴 것이다. 두고 두고 보려고 받아 적었다.
+아래는 인사이트 출판사의 [《코딩 인터뷰 완전 분석》](http://www.aladin.co.kr/shop/wproduct.aspx?ItemId=115116545) 내용 중 일부를 옮긴 것이다. 두고 두고 보려고 받아 적었다.
 
 ---
 

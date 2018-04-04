@@ -13,9 +13,9 @@ foreach($tokens as $token) {
  if(is_array($token)) {
   list($index, $code, $line) = $token;
   switch($index) {
-   case T_OPEN_TAG_WITH_ECHO:
-    // $output .= '<?php echo ';
-    break;
+   // case T_OPEN_TAG_WITH_ECHO:
+   //  $output .= '<?php echo ';
+   //  break;
    case T_OPEN_TAG:
     $output .= '<?php ';
     break;
@@ -29,6 +29,7 @@ foreach($tokens as $token) {
   $output .= $token;
  }
 }
+$output = str_replace('<?php  ', '<?php ', $output);
 file_put_contents($file, $output);
 ~~~
 

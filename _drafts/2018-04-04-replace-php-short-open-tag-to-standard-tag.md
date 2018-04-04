@@ -1,5 +1,6 @@
 ~~~ php
 <?
+// replace_short_open_tag.php
 $file = $argv[1];
 
 echo "{$file}\n";

@@ -8,9 +8,10 @@ host ip를 알려면 container에서 다음 명령을 실행한다.
     route | awk '/^default/ { print $2 }'
 
 
+
 ## network 구성
 
-고정 network를 구성하려면 아래 명령어로 만든다. 근데 사실 기본 네트워크를 사용하면 된다. (`172.17.0.*`)
+고정 network를 구성하려면 아래 명령어로 만든다. 근데 사실 기본 네트워크를 사용하면 된다. (`172.17.0.*`) expose를 하면 된다.
 
     docker network create -d bridge --subnet 192.168.0.0/24 --gateway 192.168.0.1 dockernet
 

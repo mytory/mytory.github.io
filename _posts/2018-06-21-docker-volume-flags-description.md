@@ -1,5 +1,5 @@
 ---
-title: 'Docker 각 볼륨 플래그(delegated, chaced, consistent)의 의미'
+title: 'Docker 각 볼륨 플래그(delegated, cached, consistent)의 의미'
 author: Docker
 translator: 안형우
 layout: post

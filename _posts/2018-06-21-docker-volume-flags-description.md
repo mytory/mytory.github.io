@@ -15,7 +15,7 @@ description: "컨테이너쪽 변경이 바로바로 반영돼야 하면 delegat
 - `consistent`: 컨테이너와 호스트가 완전히 동기화된다.
 - `default`: `consistent`와 같다. 플래그를 주지 않으면 `default`다. `consistent`와 결정적 차이가 있다. `consistent`를 주면 마운트 볼륨이 겹칠 경우 `deleagted`와 `cached`를 덮어쓰는 반면, `default`인 경우 덮어 쓰지 않는다.
 
-음... 난 컨테이너 안에서 gradle 빌드를 돌리고, 웹서버도 컨테이너 안에서 돌리니 컨테이너쪽 변경사항이 최신이어야 한다. 그래서 난 `delegated`를 사용하면 된다. 각자 상황에 맞게 잘 골라 보자.
+음... 난 컨테이너 안에서 gradle 빌드를 돌리고, 웹서버도 컨테이너 안에서 돌리니 컨테이너쪽 변경사항이 최신이어야 한다. 호스트의 코드 변경사항은 곧장 컨테이너에 반영돼야 한다. 그래서 난 `delegated`를 사용하면 된다. 각자 상황에 맞게 잘 골라 보자.
 
 사용 방법은 `-v host-folder:container-folder:flag`다. 예를 들면, `-v /Users/mytory/workspace:/var/www:cached` 형식으로 사용하면 된다.
 

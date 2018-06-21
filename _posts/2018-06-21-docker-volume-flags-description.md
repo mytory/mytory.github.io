@@ -4,7 +4,7 @@ translator: 안형우
 layout: post
 tags:
   - docker
-description: 맥 사용자를 위한 볼륨 플래그 설명 - 코딩할 땐 cached, 단순 빌드나 임시 파일 폴더 마운트엔 delegated를 써라.
+description: "맥 사용자를 위한 볼륨 플래그 설명 - cached: 호스트 변경사항이 컨테이너에 바로 반영 안 될 수도 있다. delegated: 컨테이너 변경사항이 호스트에 바로 반영 안 될 수도 있다."
 ---
 
 ## 요약

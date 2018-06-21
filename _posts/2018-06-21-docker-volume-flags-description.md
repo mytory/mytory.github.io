@@ -5,7 +5,7 @@ translator: 안형우
 layout: post
 tags:
   - docker
-description: "맥 사용자를 위한 볼륨 플래그 설명 - cached: 호스트 변경사항이 컨테이너에 바로 반영 안 될 수도 있다. delegated: 컨테이너 변경사항이 호스트에 바로 반영 안 될 수도 있다."
+description: "컨테이너쪽 변경이 바로바로 반영돼야 하면 delegated 사용, 호스트 변경사항이 그래야 하면 cached 사용."
 ---
 
 ## 요약
@@ -14,6 +14,8 @@ description: "맥 사용자를 위한 볼륨 플래그 설명 - cached: 호스�
 - `cached`: 호스트쪽 파일시스템의 내용이 최신이다. 호스트쪽 변경사항이 컨테이너에 반영되는 데 시간이 걸릴 수 있다.
 - `consistent`: 컨테이너와 호스트가 완전히 동기화된다.
 - `default`: `consistent`와 같다. 플래그를 주지 않으면 `default`다. `consistent`와 결정적 차이가 있다. `consistent`를 주면 마운트 볼륨이 겹칠 경우 `deleagted`와 `cached`를 덮어쓰는 반면, `default`인 경우 덮어 쓰지 않는다.
+
+음... 난 컨테이너 안에서 gradle 빌드를 돌리고, 웹서버도 컨테이너 안에서 돌리니 컨테이너쪽 변경사항이 최신이어야 한다. 그래서 난 `delegated`를 사용하면 된다. 각자 상황에 맞게 잘 골라 보자.
 
 사용 방법은 `-v host-folder:container-folder:flag`다. 예를 들면, `-v /Users/mytory/workspace:/var/www:cached` 형식으로 사용하면 된다.
 

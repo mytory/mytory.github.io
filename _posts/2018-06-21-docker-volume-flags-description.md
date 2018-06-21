@@ -62,11 +62,7 @@ description: "맥 사용자를 위한 볼륨 플래그 설명 - cached: 호스�
 
 `cached`로 마운트한 디렉토리는 호스트쪽 파일시스템의 내용이 믿을만 하다. 컨테이너가 수행한 기록은 호스트에 즉시 반영되지만, 호스트 쪽에서 수행한 기록은 컨테이너 쪽에 보이기까지 딜레이가 있을 수 있다.
 
----
-
-팁: `cached`에 대해 더 알아 보려면, [Docker for Mac 캐싱 사용자 설명서](https://blog.docker.com/2017/05/user-guided-caching-in-docker-for-mac/)를 보시오.
-
----
+(팁: `cached`에 대해 더 알아 보려면, [Docker for Mac 캐싱 사용자 설명서](https://blog.docker.com/2017/05/user-guided-caching-in-docker-for-mac/)를 보시오.)
 
 1. 구현은 `delegated` 의미 설명 1-5항을 *반드시* 준수해야 한다.
 

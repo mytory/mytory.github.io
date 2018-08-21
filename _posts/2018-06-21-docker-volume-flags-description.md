@@ -5,7 +5,7 @@ translator: 안형우
 layout: post
 tags:
   - docker
-description: "컨테이너쪽 변경이 바로바로 반영돼야 하면 delegated 사용, 호스트 변경사항이 그래야 하면 cached 사용."
+description: "컨테이너쪽으로 변경이 바로바로 반영돼야 하면 delegated 사용, 호스트로 변경사항이 바로바로 반영돼야 하면 cached 사용. 보통은 호스트에서 코드를 수정하고, 컨테이너에서 서버를 돌릴 테니 delegated로 하면 된다."
 ---
 
 ## 요약

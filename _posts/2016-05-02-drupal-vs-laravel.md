@@ -1,5 +1,5 @@
 ---
-title: '드루팔이냐 라라벨이냐'
+title: '워드프레스냐 드루팔이냐 라라벨이냐'
 layout: post
 tags:
   - PHP

@@ -14,40 +14,40 @@ tags:
 
 [video]: https://laracasts.com/series/visual-studio-code-for-php-developers/
 
-단축키는 맥 기준이다. 윈도우/리눅스에서는 Cmd는 Ctrl로, Opt는 Alt로 하면 얼추 맞을 거다.
+단축키는 맥 기준이다. 윈도우/리눅스에서는 <kbd>Cmd</kbd>는 <kbd>Ctrl</kbd>로, <kbd>Opt</kbd>는 <kbd>Alt</kbd>로 하면 얼추 맞을 거다.
 
 
 ## 단축키
 
 강의에서 나온 단축키들도 많지만, 아래는 내가 생각하기에 기본적으로 알아야 하는 단축키도 넣었다.
 
-- Cmd+Shift+P: 커맨드 입력창 열기
-- Cmd+P: 파일 찾기. Cmd+P를 누른 후 P를 연타치면 선택 영역이 이동하고, Cmd 버튼을 떼면 해당 파일이 열린다. 화살표 키에 손을 가져가지 않고 좀더 쉽게 파일을 여는 방법이다.
-- Cmd+Shift+O: 현재 파일에서 함수명, 변수명, 클래스명 등 기호(Symbol) 찾기.
-- Cmd+T: 전체 프로젝트에서 기호(Symbol) 찾기.
-- Cmd+Shift+K: 줄 삭제
-- Opt+Shift+↑ 또는 ↓: 현재 줄을 위, 아래로 복사
-- Opt+↑ 또는 ↓: 현재 줄을 위, 아래로 이동
-- Cmd+D: 현재 단어를 찾아서 추가로 선택(다중 커서 기능)
-- Cmd+Opt+↑ 또는 ↓: 다중 커서를 위, 아래로 하나씩 생성
-- Cmd+Shift+L: 현재 단어 전체를 다중 커서로 선택.
-- Cmd+1: 편집기에 포커스. (정확히는 첫 번째 편집기 그룹에 포커스)
-- Cmd+K, Cmd+S: 키보드 단축키 설정
-- Ctrl+Cmd+Shift+← 또는 →: 선택 범위를 논리적으로 줄이거나 늘린다.
+- <kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd>: 커맨드 입력창 열기
+- <kbd>Cmd</kbd>+<kbd>P</kbd>: 파일 찾기. <kbd>Cmd</kbd>+<kbd>P</kbd>를 누른 후 <kbd>P</kbd>를 연타치면 선택 영역이 이동하고, <kbd>Cmd</kbd> 버튼을 떼면 해당 파일이 열린다. 화살표 키에 손을 가져가지 않고 좀더 쉽게 파일을 여는 방법이다.
+- <kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>O</kbd>: 현재 파일에서 함수명, 변수명, 클래스명 등 기호(Symbol) 찾기.
+- <kbd>Cmd</kbd>+<kbd>T</kbd>: 전체 프로젝트에서 기호(Symbol) 찾기.
+- <kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>K</kbd>: 줄 삭제
+- <kbd>Opt</kbd>+<kbd>Shift</kbd>+<kbd>↑</kbd> 또는 <kbd>↓</kbd>: 현재 줄을 위, 아래로 복사
+- <kbd>Opt</kbd>+<kbd>↑</kbd> 또는 <kbd>↓</kbd>: 현재 줄을 위, 아래로 이동
+- <kbd>Cmd</kbd>+D: 현재 단어를 찾아서 추가로 선택(다중 커서 기능)
+- <kbd>Cmd</kbd>+<kbd>Opt</kbd>+<kbd>↑</kbd> 또는 <kbd>↓</kbd>: 다중 커서를 위, 아래로 하나씩 생성
+- <kbd>Cmd</kbd>+<kbd>Shift</kbd>+L: 현재 단어 전체를 다중 커서로 선택.
+- <kbd>Cmd</kbd>+1: 편집기에 포커스. (정확히는 첫 번째 편집기 그룹에 포커스)
+- <kbd>Cmd</kbd>+<kbd>K</kbd>, <kbd>Cmd</kbd>+<kbd>S</kbd>: 키보드 단축키 설정
+- <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>←</kbd> 또는 <kbd>→</kbd>: 선택 범위를 논리적으로 줄이거나 늘린다.
 - F2: 기호 이름 변경
-- Cmd+Shift+E: 좌측 사이드바에 탐색기를 열고 포커스
-- Cmd+Shift+X: 좌측 사이드바에 확장 프로그램 설치 탐색기를 열고 포커스
-- Ctrl+`: 내장 터미널을 연다.
-- F12: 정의로 이동
-- Opt+F12: 정의를 살짝 들여다 보기(peek).
-- Shift+F12: 모든 참조 찾기(해당 함수나 변수가 정의되거나 사용된 모든 곳을 찾아 띄워 준다.)
-- Shift+F10: 컨텍스트 메뉴(강의에선 Opt+Enter로 변경하라고 권함.)
+- <kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>E</kbd>: 좌측 사이드바에 탐색기를 열고 포커스
+- <kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>X</kbd>: 좌측 사이드바에 확장 프로그램 설치 탐색기를 열고 포커스
+- <kbd>Ctrl</kbd>+<kbd>`</kbd>: 내장 터미널을 연다.
+- <kbd>F12</kbd>: 정의로 이동
+- <kbd>Opt</kbd>+<kbd>F12</kbd>: 정의를 살짝 들여다 보기(peek).
+- <kbd>Shift</kbd>+<kbd>F12</kbd>: 모든 참조 찾기(해당 함수나 변수가 정의되거나 사용된 모든 곳을 찾아 띄워 준다.)
+- <kbd>Shift</kbd>+<kbd>F10</kbd>: 컨텍스트 메뉴(강의에선 <kbd>Opt</kbd>+<kbd>Enter</kbd>로 변경하라고 권함.)
 
 
 ## Git
 
 - Git는 내장돼 있고, 변경사항이 있는 경우 줄번호 옆에 파란 표시가 되는데, 이걸 클릭하면 뭐가 변경된 것인지 알려 준다.
-- Shift+Ctrl+G: 사이드바에 Git 패널을 연다. 변경된 파일을 클릭하면 변경사항을 보여 주고, 파일을 add하거나 revert할 수 있는 등 여러 작업을 할 수 있다.
+- <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>G</kbd>: 사이드바에 Git 패널을 연다. 변경된 파일을 클릭하면 변경사항을 보여 주고, 파일을 add하거나 revert할 수 있는 등 여러 작업을 할 수 있다.
 - 커맨드 입력창에 Git를 입력하면 여러 명령이 뜬다.
 
 
@@ -65,11 +65,11 @@ tags:
 
 ## 추천 확장
 
-- advanced-new-file(by patbenatar): 커맨드 입력창(Shift+Cmd+P)에서 간편하게 새 파일을 만들 수 있게 해 준다. 당연히 새 파일 단축키도 제공한다. 커맨드를 실행하면, 새 파일을 만들 폴더를 고르고, 파일명을 입력한다.
+- advanced-new-file(by patbenatar): 커맨드 입력창(<kbd>Shift</kbd>+<kbd>Cmd</kbd>+<kbd>P</kbd>)에서 간편하게 새 파일을 만들 수 있게 해 준다. 당연히 새 파일 단축키도 제공한다. 커맨드를 실행하면, 새 파일을 만들 폴더를 고르고, 파일명을 입력한다.
 
 - File Utils(by Steffen Leistner): 커맨드 입력창에서 파일 생성, 복제, 이동, 이름 변경, 삭제를 할 수 있게 해 준다. 새 파일 생성은 advanced-new-file와 겹친다. 편한 걸 골라 쓰면 될 듯.
 
-- PHP Intelephense(by Ben Mewburn): 클래스, 변수나 함수 등 PHP의 Symbol을 스캔해서 찾을 수 있게 해 준다. 현재 파일에서 찾을 때는 Cmd+Shift+O, 전체 프로젝트에서 찾을 때는 Cmd+T. `use`로 클래스를 임포트할 때도 자동완성을 제공한다.
+- PHP Intelephense(by Ben Mewburn): 클래스, 변수나 함수 등 PHP의 Symbol을 스캔해서 찾을 수 있게 해 준다. 현재 파일에서 찾을 때는 <kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>O</kbd>, 전체 프로젝트에서 찾을 때는 <kbd>Cmd</kbd>+<kbd>T</kbd>. `use`로 클래스를 임포트할 때도 자동완성을 제공한다.
 
 - snippet-creator(by nikitaKunevich): 코드조각(Snippet) 만드는 걸 쉽게 도와 주는 프로그램. 이미 있는 코드를 선택한 뒤 커맨드 입력창에서 Create Snippet을 선택하면 Snippet을 만들 수 있다. 커맨드 팔레트에서 Configure User Snippets를 고르고 php를 선택하면 생성한 php용 코드조각을 볼 수 있다. 자동완성을 쉽게 하려고 `"editor.tabCompletion": true` 설정을 이용. 상세한 코드조각 작성법은 [VSCode 사용자 설명서](https://code.visualstudio.com/docs/editor/userdefinedsnippets)에 나와 있다. 
 
@@ -96,7 +96,7 @@ xdebug와 연동해서 중단점(Break Point)를 찍고 그 시점의 변수값 
 
 사용하는 VSCode 플러그인은 PHP Debug(by Felix Becker)다. 
 
-디버그 패널을 여는 단축키는 Cmd+Shift+D다. 환경변수에 `export XDEBUG_CONFIG="idekey=VSCODE"`를 넣어 줘야 하고(윈도우는 어떻게 넣는지 설명 안 돼 있으니 찾아 보길), 터미널에서 phpunit을 실행하면 중단점을 설정한 곳에서 멈춘다. 중단점은 줄번호 왼쪽을 클릭해서 만든다.
+디버그 패널을 여는 단축키는 <kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>D</kbd>다. 환경변수에 `export XDEBUG_CONFIG="idekey=VSCODE"`를 넣어 줘야 하고(윈도우는 어떻게 넣는지 설명 안 돼 있으니 찾아 보길), 터미널에서 phpunit을 실행하면 중단점을 설정한 곳에서 멈춘다. 중단점은 줄번호 왼쪽을 클릭해서 만든다.
 
 
 

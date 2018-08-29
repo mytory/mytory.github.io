@@ -34,7 +34,7 @@ tags:
 - <kbd>Cmd</kbd>+<kbd>1</kbd>: 편집기에 포커스. (정확히는 첫 번째 편집기 그룹에 포커스)
 - <kbd>Cmd</kbd>+<kbd>K</kbd>, <kbd>Cmd</kbd>+<kbd>S</kbd>: 키보드 단축키 설정
 - <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>←</kbd> 또는 <kbd>→</kbd>: 선택 범위를 논리적으로 줄이거나 늘린다.
-- F2: 기호 이름 변경
+- <kbd>F2</kbd>: 기호 이름 변경
 - <kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>E</kbd>: 좌측 사이드바에 탐색기를 열고 포커스
 - <kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>X</kbd>: 좌측 사이드바에 확장 프로그램 설치 탐색기를 열고 포커스
 - <kbd>Ctrl</kbd>+<kbd>`</kbd>: 내장 터미널을 연다.

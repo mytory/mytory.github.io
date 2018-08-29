@@ -12,31 +12,35 @@ tags:
 
 ## 로그 레벨을 기록해야 하는 곳
 
-라라벨 5.6부터 `config/logging.php` 파일이 등장했다. 이 파일에 로그 설정이 기록된다. 
+라라벨 5.6부터 [`config/logging.php` 파일](https://github.com/laravel/laravel/blob/v5.6.0/config/logging.php)이 등장했다. 이 파일에 로그 설정이 기록된다. 
 
 파일을 보면 기본적으로 `stack` 타입 로그를 사용하겠다고 하는데, 여러 로그 드라이버를 동시에 쓰겠다는 뜻이다.
+
+~~~ php
+'default' => env('LOG_CHANNEL', 'stack'),
+~~~
 
 `$chnnels` 배열을 보면 각 로그 드라이버의 설정값이 기록돼 있다. `stack` 채널만 항목이 조금 다른데, `stack` 밑에 `channels`라는 항목이 있고, 거기에 `single`, `daily`, `syslog` 따위의 로깅 드라이버 이름을 배열로 넘겨 주게 돼 있다. 즉, 여러 개의 로그 드라이버를 사용할 수 있도록 해 주는 기능이다. (아래 코드 참조.)
 
 ~~~ php
-    'channels' => [
-        'stack' => [
-            'driver' => 'stack',
-            <mark>'channels' => ['single'],</mark>
-        ],
-        'single' => [
-            'driver' => 'single',
-            'path' => storage_path('logs/laravel.log'),
-            'level' => 'debug',
-        ],
-        'daily' => [
-            'driver' => 'daily',
-            'path' => storage_path('logs/laravel.log'),
-            'level' => 'debug',
-            'days' => 7,
-        ],
-        // 후략
+'channels' => [
+    'stack' => [
+        'driver' => 'stack',
+        <mark>'channels' => ['single'],</mark>
     ],
+    'single' => [
+        'driver' => 'single',
+        'path' => storage_path('logs/laravel.log'),
+        'level' => 'debug',
+    ],
+    'daily' => [
+        'driver' => 'daily',
+        'path' => storage_path('logs/laravel.log'),
+        'level' => 'debug',
+        'days' => 7,
+    ],
+    // 후략
+],
 ~~~
 
 로그 레벨은 `stack`은 관리하지 않는다. 그 외의 `single`, `daily` 같은 설정에 `level` 항목이 있다. `single` 항목을 보자. `level`이 `debug`로 돼 있다. `Log::debug($message)`까지 모두 기록한다는 뜻이다. 

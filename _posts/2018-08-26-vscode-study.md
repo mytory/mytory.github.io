@@ -31,7 +31,7 @@ tags:
 - <kbd>Cmd</kbd>+<kbd>D</kbd>: 현재 단어를 찾아서 추가로 선택(다중 커서 기능)
 - <kbd>Cmd</kbd>+<kbd>Opt</kbd>+<kbd>↑</kbd> 또는 <kbd>↓</kbd>: 다중 커서를 위, 아래로 하나씩 생성
 - <kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>L</kbd>: 현재 단어 전체를 다중 커서로 선택.
-- <kbd>Cmd</kbd>+<kbd>1<kbd>: 편집기에 포커스. (정확히는 첫 번째 편집기 그룹에 포커스)
+- <kbd>Cmd</kbd>+<kbd>1</kbd>: 편집기에 포커스. (정확히는 첫 번째 편집기 그룹에 포커스)
 - <kbd>Cmd</kbd>+<kbd>K</kbd>, <kbd>Cmd</kbd>+<kbd>S</kbd>: 키보드 단축키 설정
 - <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>←</kbd> 또는 <kbd>→</kbd>: 선택 범위를 논리적으로 줄이거나 늘린다.
 - F2: 기호 이름 변경

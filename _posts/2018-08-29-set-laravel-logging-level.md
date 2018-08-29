@@ -8,7 +8,13 @@ tags:
 
 라라벨의 로그 파일 기본 경로는 `storage/logs/laravel.log`다. 별다른 설정을 하지 않으면 여기에 단일 파일로 저장된다.
 
-개발시엔 `debug` 레벨로 메시지를 보고 싶지만, 제품으로 내보냈을 때는 `warning` 레벨 정도로 로그를 기록하는 편이 좋을 것이다.
+개발시엔 `debug` 레벨로 메시지를 보고 싶지만, 제품으로 내보냈을 때는 `warning` 레벨 정도로 로그를 기록하는 편이 좋을 것이다. `var_dump()` 안 쓰고 `Log::debug()` 쓰는 큰 이유중 하나 아닌가.
+
+PHP 표준 권고안[^psr]에는 [8단계의 로그 기록 레벨][logging-levels]이 있다. 로그 기록 레벨을 `error`
+
+[^psr]: PHP Standards Recommendations. PHP 프레임워크 개발자들이 모여 만든 PHP-FIG란 그룹에서 상호 호환되는 프로그램들을 만들 수 있게 표준을 합의하고 발표하는 권고안. PHP-FIG는 PHP 프레임워크 상호 운용성 그룹(PHP Framework Interop Group)의 약자.
+
+[logging-levels]: https://www.php-fig.org/psr/psr-3/#5-psrlogloglevel 
 
 ## 로그 레벨을 기록해야 하는 곳
 
@@ -26,7 +32,7 @@ tags:
 'channels' => [
     'stack' => [
         'driver' => 'stack',
-        <mark>'channels' => ['single'],</mark>
+        'channels' => ['single'], // ← 여러 개의 드라이버를 배열로 받는다.
     ],
     'single' => [
         'driver' => 'single',
@@ -43,13 +49,13 @@ tags:
 ],
 ~~~
 
-로그 레벨은 `stack`은 관리하지 않는다. 그 외의 `single`, `daily` 같은 설정에 `level` 항목이 있다. `single` 항목을 보자. `level`이 `debug`로 돼 있다. `Log::debug($message)`까지 모두 기록한다는 뜻이다. 
+`stack` 드라이버에는 로그 레벨 옵션(`level`)이 없다. 그 외의 `single`, `daily` 같은 설정에 `level` 설정이 있다. `single` 항목을 보면 `level`이 `debug`로 돼 있다. `Log::debug($message)`까지 모두 기록한다는 뜻이다. 
 
 ~~~ php
 'single' => [
     'driver' => 'single',
     'path' => storage_path('logs/laravel.log'),
-    <mark>'level' => 'debug',</mark>
+    'level' => 'debug', // ← 기록 레벨값이 debug로 돼 있다.
 ]
 ~~~
 
@@ -80,7 +86,7 @@ LOG_LEVEL=warning
 
 ## 8단계 로그 레벨
 
-PHP에서 사용하는 로그 레벨은 총 8단계다. [PSR-3에 정의돼 있다.](https://www.php-fig.org/psr/psr-3/#5-psrlogloglevel)
+PHP에서 사용하는 로그 레벨은 총 8단계다. [PSR-3에 정의돼 있다.][logging-levels]
 
 ~~~ php
 namespace Psr\Log;

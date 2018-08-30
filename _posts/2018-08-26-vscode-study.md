@@ -17,31 +17,6 @@ tags:
 단축키는 맥 기준이다. 윈도우/리눅스에서는 <kbd>Cmd</kbd>는 <kbd>Ctrl</kbd>로, <kbd>Opt</kbd>는 <kbd>Alt</kbd>로 하면 얼추 맞을 거다.
 
 
-## 단축키
-
-강의에서 나온 단축키들도 많지만, 아래는 내가 생각하기에 기본적으로 알아야 하는 단축키도 넣었다.
-
-- <kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd>: 커맨드 입력창 열기
-- <kbd>Cmd</kbd>+<kbd>P</kbd>: 파일 찾기. <kbd>Cmd</kbd>+<kbd>P</kbd>를 누른 후 <kbd>P</kbd>를 연타치면 선택 영역이 이동하고, <kbd>Cmd</kbd> 버튼을 떼면 해당 파일이 열린다. 화살표 키에 손을 가져가지 않고 좀더 쉽게 파일을 여는 방법이다.
-- <kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>O</kbd>: 현재 파일에서 함수명, 변수명, 클래스명 등 기호(Symbol) 찾기.
-- <kbd>Cmd</kbd>+<kbd>T</kbd>: 전체 프로젝트에서 기호(Symbol) 찾기.
-- <kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>K</kbd>: 줄 삭제
-- <kbd>Opt</kbd>+<kbd>Shift</kbd>+<kbd>↑</kbd> 또는 <kbd>↓</kbd>: 현재 줄을 위, 아래로 복사
-- <kbd>Opt</kbd>+<kbd>↑</kbd> 또는 <kbd>↓</kbd>: 현재 줄을 위, 아래로 이동
-- <kbd>Cmd</kbd>+<kbd>D</kbd>: 현재 단어를 찾아서 추가로 선택(다중 커서 기능)
-- <kbd>Cmd</kbd>+<kbd>Opt</kbd>+<kbd>↑</kbd> 또는 <kbd>↓</kbd>: 다중 커서를 위, 아래로 하나씩 생성
-- <kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>L</kbd>: 현재 단어 전체를 다중 커서로 선택.
-- <kbd>Cmd</kbd>+<kbd>1</kbd>: 편집기에 포커스. (정확히는 첫 번째 편집기 그룹에 포커스)
-- <kbd>Cmd</kbd>+<kbd>K</kbd>, <kbd>Cmd</kbd>+<kbd>S</kbd>: 키보드 단축키 설정
-- <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>←</kbd> 또는 <kbd>→</kbd>: 선택 범위를 논리적으로 줄이거나 늘린다.
-- <kbd>F2</kbd>: 기호 이름 변경
-- <kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>E</kbd>: 좌측 사이드바에 탐색기를 열고 포커스
-- <kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>X</kbd>: 좌측 사이드바에 확장 프로그램 설치 탐색기를 열고 포커스
-- <kbd>Ctrl</kbd>+<kbd>`</kbd>: 내장 터미널을 연다.
-- <kbd>F12</kbd>: 정의로 이동
-- <kbd>Opt</kbd>+<kbd>F12</kbd>: 정의를 살짝 들여다 보기(peek).
-- <kbd>Shift</kbd>+<kbd>F12</kbd>: 모든 참조 찾기(해당 함수나 변수가 정의되거나 사용된 모든 곳을 찾아 띄워 준다.)
-- <kbd>Shift</kbd>+<kbd>F10</kbd>: 컨텍스트 메뉴(강의에선 <kbd>Opt</kbd>+<kbd>Enter</kbd>로 변경하라고 권함.)
 
 
 ## Git
@@ -97,6 +72,34 @@ xdebug와 연동해서 중단점(Break Point)를 찍고 그 시점의 변수값 
 사용하는 VSCode 플러그인은 PHP Debug(by Felix Becker)다. 
 
 디버그 패널을 여는 단축키는 <kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>D</kbd>다. 환경변수에 `export XDEBUG_CONFIG="idekey=VSCODE"`를 넣어 줘야 하고(윈도우는 어떻게 넣는지 설명 안 돼 있으니 찾아 보길), 터미널에서 phpunit을 실행하면 중단점을 설정한 곳에서 멈춘다. 중단점은 줄번호 왼쪽을 클릭해서 만든다.
+
+
+
+## 단축키
+
+강의에서 나온 단축키들도 많지만, 아래는 내가 생각하기에 기본적으로 알아야 하는 단축키도 넣었다.
+
+- <kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd>: 커맨드 입력창 열기
+- <kbd>Cmd</kbd>+<kbd>P</kbd>: 파일 찾기. <kbd>Cmd</kbd>+<kbd>P</kbd>를 누른 후 <kbd>P</kbd>를 연타치면 선택 영역이 이동하고, <kbd>Cmd</kbd> 버튼을 떼면 해당 파일이 열린다. 화살표 키에 손을 가져가지 않고 좀더 쉽게 파일을 여는 방법이다.
+- <kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>O</kbd>: 현재 파일에서 함수명, 변수명, 클래스명 등 기호(Symbol) 찾기.
+- <kbd>Cmd</kbd>+<kbd>T</kbd>: 전체 프로젝트에서 기호(Symbol) 찾기.
+- <kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>K</kbd>: 줄 삭제
+- <kbd>Opt</kbd>+<kbd>Shift</kbd>+<kbd>↑</kbd> 또는 <kbd>↓</kbd>: 현재 줄을 위, 아래로 복사
+- <kbd>Opt</kbd>+<kbd>↑</kbd> 또는 <kbd>↓</kbd>: 현재 줄을 위, 아래로 이동
+- <kbd>Cmd</kbd>+<kbd>D</kbd>: 현재 단어를 찾아서 추가로 선택(다중 커서 기능)
+- <kbd>Cmd</kbd>+<kbd>Opt</kbd>+<kbd>↑</kbd> 또는 <kbd>↓</kbd>: 다중 커서를 위, 아래로 하나씩 생성
+- <kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>L</kbd>: 현재 단어 전체를 다중 커서로 선택.
+- <kbd>Cmd</kbd>+<kbd>1</kbd>: 편집기에 포커스. (정확히는 첫 번째 편집기 그룹에 포커스)
+- <kbd>Cmd</kbd>+<kbd>K</kbd>, <kbd>Cmd</kbd>+<kbd>S</kbd>: 키보드 단축키 설정
+- <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>←</kbd> 또는 <kbd>→</kbd>: 선택 범위를 논리적으로 줄이거나 늘린다.
+- <kbd>F2</kbd>: 기호 이름 변경
+- <kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>E</kbd>: 좌측 사이드바에 탐색기를 열고 포커스
+- <kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>X</kbd>: 좌측 사이드바에 확장 프로그램 설치 탐색기를 열고 포커스
+- <kbd>Ctrl</kbd>+<kbd>`</kbd>: 내장 터미널을 연다.
+- <kbd>F12</kbd>: 정의로 이동
+- <kbd>Opt</kbd>+<kbd>F12</kbd>: 정의를 살짝 들여다 보기(peek).
+- <kbd>Shift</kbd>+<kbd>F12</kbd>: 모든 참조 찾기(해당 함수나 변수가 정의되거나 사용된 모든 곳을 찾아 띄워 준다.)
+- <kbd>Shift</kbd>+<kbd>F10</kbd>: 컨텍스트 메뉴(강의에선 <kbd>Opt</kbd>+<kbd>Enter</kbd>로 변경하라고 권함.)
 
 
 

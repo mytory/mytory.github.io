@@ -5,7 +5,7 @@ tags:
   - PHP
   - Laravel
 description: config/logging.php 파일의 $channels 배열에 각 로깅 드라이버의 설정이 있다. level 항목에 적으면 된다. 가능한 값은 PSR-3의 로깅 레벨이다.
-image: /upload/2018/laravel-logging.png
+image: /uploads/2018/laravel-logging.png
 ---
 
 개발시엔 `debug` 레벨로 메시지를 봐야겠지만, 제품으로 내보냈을 때는 `warning` 레벨 정도로 로그를 기록하는 편이 좋을 것이다. `var_dump()` 안 쓰고 `Log::debug()` 쓰는 큰 이유중 하나 아닌가.

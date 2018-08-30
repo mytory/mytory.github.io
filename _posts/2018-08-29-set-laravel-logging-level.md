@@ -7,9 +7,9 @@ tags:
 description: config/logging.php 파일의 $channels 배열에 각 로깅 드라이버의 설정이 있다. level 항목에 적으면 된다. 가능한 값은 PSR-3의 로깅 레벨이다.
 ---
 
-라라벨은 PSR-3[^psr] 표준을 따르는 Monolog 패키지를 이용해 로그를 기록한다. 개발시엔 `debug` 레벨로 메시지를 봐야겠지만, 제품으로 내보냈을 때는 `warning` 레벨 정도로 로그를 기록하는 편이 좋을 것이다. `var_dump()` 안 쓰고 `Log::debug()` 쓰는 큰 이유중 하나 아닌가.
+개발시엔 `debug` 레벨로 메시지를 봐야겠지만, 제품으로 내보냈을 때는 `warning` 레벨 정도로 로그를 기록하는 편이 좋을 것이다. `var_dump()` 안 쓰고 `Log::debug()` 쓰는 큰 이유중 하나 아닌가.
 
-PSR-3에는 [8단계의 로그 기록 레벨][logging-levels]이 있다. 아래는 가장 높은 단계인 `emergency`부터 가장 낮은 단계인 `debug`까지 나열한 것이다.
+라라벨은 PSR-3[^psr] 표준을 따르는 Monolog 패키지를 이용해 로그를 기록한다. PSR-3에는 [8단계의 로그 기록 레벨][logging-levels]이 있다. 아래는 가장 높은 단계인 `emergency`부터 가장 낮은 단계인 `debug`까지 나열한 것이다.
 
 - emergency
 - alert
@@ -20,7 +20,7 @@ PSR-3에는 [8단계의 로그 기록 레벨][logging-levels]이 있다. 아래�
 - info
 - debug
 
-로그 기록 레벨을 `emergency`로 하면 `Log::debug()`로 기록한 로그는 기록되지 않는다. 제품 환경에서는 보통 `warning`이나 `error` 정도로 맞춰 놓고 로그를 기록할 것이다.  
+로그 기록 레벨을 `emergency`로 하면 `Log::debug()`로 기록한 로그는 기록되지 않는다. `Log::emergency()`로 기록한 로그는 기록될 것이다. 제품 환경에서는 보통 `warning`이나 `error` 정도로 맞춰 놓고 로그를 기록한다.
 
 [^psr]: PHP 표준 권고안(PHP Standards Recommendations의 약자). 나온 순서대로 뒤에 번호를 붙인다. PSR-3은 세 번째로 나온 표준 권고안. PHP 프레임워크 개발자들이 모여 만든 PHP-FIG란 그룹에서 상호 호환되는 프로그램들을 만들 수 있게 표준을 합의하고 발표하는 권고안. PHP-FIG는 PHP 프레임워크 상호 운용성 그룹(PHP Framework Interop Group)의 약자.
 

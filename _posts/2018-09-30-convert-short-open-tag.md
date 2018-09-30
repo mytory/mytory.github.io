@@ -3,7 +3,7 @@ title: "PHP short open tag를 long open tag로 변환해 주는 스크립트"
 layout: post
 tags:
   - PHP
-description: 아래 코드를 긁어서 convert_short_open_tag.php 파일로 만든 뒤 php convert_short_open_tag.php filepath.php 형식으로 사용하면 된다.
+description: 아래 코드를 긁어서 short-open-tag-converter.php 파일로 만든 뒤 php short-open-tag-converter.php filepath.php 형식으로 사용하면 된다.
 image: /uploads/2018/short-open-tag.png
 ---
 

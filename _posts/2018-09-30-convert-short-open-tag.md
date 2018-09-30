@@ -21,6 +21,68 @@ php convert-short-open-tag.php target_file_path.php
 
 위 스크립트는 기본적으로 `<?=`를 `<?php echo `로 변경하지는 않는다. 만약 해당 기능이 필요하다면 해당 부분(45~50번 줄)의 주석을 풀고 사용하면 된다. 
 
-<script src="https://gist.github.com/mytory/5380b6a970ed4c14e16dd1be498e0919.js"></script>
+~~~ php
+<?php
+// This script convert short open tag to long open tag.
+// Inspired from https://stackoverflow.com/a/3621669
+//
+// Source: https://gist.github.com/mytory/5380b6a970ed4c14e16dd1be498e0919
+// Usage: php convert-short-open-tag.php target_file_path.php
+// Notice: This script change original file.
+//
+// If you want to change '<?=' to '<?php echo ' uncomment line 45~50.
+
+if (ini_get('short_open_tag') !== '1') {
+    fwrite(STDERR, 'ERROR! Change short_open_tag to On in ' . php_ini_loaded_file() . PHP_EOL);
+    exit(1);
+}
+
+if ($argc === 1) {
+    fwrite(STDERR, "ERROR! A file path must be entered." . PHP_EOL);
+    fwrite(STDERR, "ex) php {$argv[0]} file_path.php" . PHP_EOL);
+    exit(1);
+}
+
+$filepath = realpath($argv[1]);
+
+$contents = file_get_contents($filepath) or die;
+$tokens = token_get_all($contents);
+$tokens[] = array(0x7E0F7E0F,"",-1);
+
+$fixed_contents = '';
+
+foreach ($tokens as $index => $token) {
+    if (is_array($token)) {
+        list($toktype, $source_code) = $token;
+        
+        if ($toktype == T_OPEN_TAG) {
+            if (($source_code == "<?") && ($tokens[$index+1][0] != T_STRING)) {
+                $source_code = "<?php";
+                if ($tokens[$index+1][0] != T_WHITESPACE) {
+                    $source_code .= " ";
+                }
+            }
+        }
+
+        // <?= to <?php echo
+        
+        // if ($toktype == T_OPEN_TAG_WITH_ECHO) {
+        //     $source_code = "<?php echo";
+        //     if ($tokens[$index+1][0] != T_WHITESPACE) {
+        //         $source_code .= " ";
+        //     }
+        // }
+
+        $fixed_contents .= $source_code;
+    } else {
+        $fixed_contents .= $token;
+    }
+}
+
+file_put_contents($filepath, $fixed_contents);
+~~~
+
+[gist에서 보기][2]
 
 [1]: https://mytory.net/2017/04/12/is-it-better-to-use-the-short-open-tag-in-php.html
+[2]: https://gist.github.com/mytory/5380b6a970ed4c14e16dd1be498e0919

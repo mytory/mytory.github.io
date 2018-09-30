@@ -11,10 +11,12 @@ PHP 코드를 작성할 때 모든 서버에서 잘 돌아갈 수 있도록 `<?`
 
 레거시 코드가 모든 여는 태그를 짧은 태그(`<?`)로 작성했다면 변경이 골치아프다. 찾기 바꾸기로 바꾸는 것은 만만찮고, 오류가 발생할 확률도 크다. 그러나 PHP 언어 자체의 파싱 기능을 이용한다면 100% 신뢰성을 확보하면서 코드를 수정할 수 있다. 아래 스크립트가 바로 그런 스크립트다.
 
-코드를 복사해서 `convert-short-open-tag.php`로 저장한 다음에 아래처럼 사용하면 된다. 그러면 해당 파일을 수정한다.
+1. 코드를 복사해서 `short-open-tag-converter.php`로 저장한다. 
+2. `php.ini`에서 `short_open_tag`를 `On`으로 수정한다. (그렇게 하지 않으면 PHP가 short open tag를 인식하지 못하므로 수정할 수도 없다.)
+3. 아래처럼 사용한다. 그러면 해당 파일의 `<?`를 모두 `<?php`로 수정한다.
 
 ~~~ bash
-php convert-short-open-tag.php target_file_path.php
+php short-open-tag-converter.php target_file_path.php
 ~~~
 
 해당 파일을 바로 수정하기 때문에 주의해서 사용하라.
@@ -27,7 +29,7 @@ php convert-short-open-tag.php target_file_path.php
 // Inspired from https://stackoverflow.com/a/3621669
 //
 // Source: https://gist.github.com/mytory/5380b6a970ed4c14e16dd1be498e0919
-// Usage: php convert-short-open-tag.php target_file_path.php
+// Usage: php short-open-tag-converter.php target_file_path.php
 // Notice: This script change original file.
 //
 // If you want to change '<?=' to '<?php echo ' uncomment line 45~50.
@@ -83,6 +85,14 @@ file_put_contents($filepath, $fixed_contents);
 ~~~
 
 [gist에서 보기][2]
+
+## bash 응용
+
+bash에서는 아래처럼 사용하면 현재 폴더의 서브 폴더에 있는 모든 php 파일을 바꿀 수 있다.
+
+~~~ bash
+for f in $(find . -name \*.php); do php short-open-tag-converter.php "$f"; done
+~~~
 
 [1]: https://mytory.net/2017/04/12/is-it-better-to-use-the-short-open-tag-in-php.html
 [2]: https://gist.github.com/mytory/5380b6a970ed4c14e16dd1be498e0919

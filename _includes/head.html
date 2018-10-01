@@ -13,6 +13,7 @@
         <meta name="description" content="{{ page.content | escape | strip_html | truncate: 200 | strip_newlines }}">
     {% endif %}
 
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <link rel="alternate" hreflang="ko" type="application/rss+xml" title="웹으로 말하기" href="http://feeds.feedburner.com/mytory_tc">

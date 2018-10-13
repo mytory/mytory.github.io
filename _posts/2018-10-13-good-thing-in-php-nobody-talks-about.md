@@ -1,5 +1,5 @@
 ---
-title: [번역] 아무도 말하지 않는 PHP의 좋은 점
+title: "[번역] 아무도 말하지 않는 PHP의 좋은 점"
 layout: post
 tags: 
   - PHP

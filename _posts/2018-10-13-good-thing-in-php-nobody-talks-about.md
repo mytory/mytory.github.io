@@ -5,7 +5,7 @@ tags:
   - PHP
 tanslator: 안형우
 author: Anton Sidashin
-image: /uploads/2018/php-logo.svg
+image: /uploads/2018/php-logo.png
 ---
 
 원문은 [Good thing in PHP nobody talks about](http://pixeljets.com/blog/good-thing-in-php-nobody-talks-about/)이다. [ ] 안의 말은 이해에 도움이 되라고 내가 넣은 것이다.

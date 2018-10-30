@@ -11,6 +11,7 @@ tags:
 
 - `lscpu` : cpu 정보를 본다.
 - `lshw` : 각종 하드웨어 정보를 본다. opensuse 저장소엔 없더라.
+- `sudo dmidecode --type 17`: 메모리 정보를 상세히 본다.
 - `hwinfo --short` : cpu 포함 각종 하드웨어 정보를 본다. 대충 거의 다 나오는 거 같다. 보는데 몇 초 걸리니까 명령 내리고 좀 기다려야 한다.
 - `lspci` : PCI 기기 목록을 본다고.  VGA, DRAM, Ethernet, USB Controller, Firewire 뭐 그런 거 나오는 거 같다.
 - `lsscsi` : scsi 기기 목록을 본다. 하드디스크랑 DVD랑 뭐 그런 거.

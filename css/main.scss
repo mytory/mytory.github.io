@@ -7,10 +7,10 @@
 
 // Our variables
 $base-font-family: 'NotoSerifWeb', 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif;
-$sans-serif-font-family: 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif;
+$sans-serif-font-family: 'Noto Sans KR', 'Noto Sans CJK KR', 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif;
 $monospace-font-family: 'Roboto Mono', "D2Coding", "NanumGothicCoding", Consolas, "Liberation Mono", Menlo, Courier, monospace;
 $base-font-size:   18px;
-$small-font-size:  round($base-font-size * 0.875);
+$small-font-size:  0.875rem;
 $base-line-height: 1.8;
 
 $spacing-unit:     $base-font-size * 2;

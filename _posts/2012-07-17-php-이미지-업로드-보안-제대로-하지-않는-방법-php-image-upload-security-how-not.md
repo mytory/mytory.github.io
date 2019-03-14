@@ -151,7 +151,7 @@ ForceType application/octet-stream
 
 더 나은 해법은 파일을 웹 디렉토리 바깥에 둬서 파일이 전혀 해석되지 않게 하는 것이다. 그러면 파일을 요청 받아서, 연관된 파일을 파일시스템에서 찾고, 올바른 헤더와 함께 출력해 줄 수 있는 스크립트를 짜야 한다. 물론 사용자 입력을 기반으로 파일을 내보내는 것은 그것 자체의 보안 취약점이 존재하지만, 그것은 또 다른 이야기다.
 
-마지막으로 중요한 것 하나만 더 말하자면, 항상 업로드된 파일의 이름을 변경해야 한다는 것이다. 파일명으로 무작위로 하면 공격자가 우리를 농락하기 훨씬 더 힘들어지고, `.htaccess`나 `.user.ini` 파일을 덮어쓸 필요가 없어진다. `.htaccess`나 `.user.ini` 파일을 덮어쓰는 건 별로 좋은 일이 아니다.
+마지막으로 중요한 것 하나만 더 말하자면, 항상 업로드된 파일의 이름을 변경해야 한다는 것이다. 파일명을 무작위로 하면 공격자가 우리를 농락하기 훨씬 더 힘들어지고, `.htaccess`나 `.user.ini` 파일을 덮어쓸 필요가 없어진다. `.htaccess`나 `.user.ini` 파일을 덮어쓰는 건 별로 좋은 일이 아니다.
 
 웹에는 보안에 관해 많은 자료들이 있다. 만약 자료를 더 보고 싶다면 [<abbr title="The Open Web Application Security Project">OWASP</abbr>](https://www.owasp.org/index.php/Main_Page)를 살펴 봐라. [OWASP Cheat Sheet 페이지](https://www.owasp.org/index.php/Cheat_Sheets)를 곧장 살펴 보는 것도 좋다.
 

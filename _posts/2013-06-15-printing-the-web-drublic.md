@@ -15,7 +15,7 @@ tags:
 
 [역자 주] page란 단어를 번역하는 데 애먹었다. 애초에 &#8216;페이지&#8217;라고 번역하기로 통일했으면 별 상관 없었을 텐데, 종이에 인쇄된 것을 뜻하는 page는 쪽으로 번역하기로 하는 바람에 발생한 일이다. 문제라고까지 할 지는 모르겠고. 웹 페이지를 의미하는 page는 그래서 굳이 앞에다 &#8216;웹&#8217;이란 단어를 붙여서 &#8216;웹 페이지&#8217;라고 썼다. 마지막으로 &#8216;인쇄 영역&#8217;이라고 번역하는 게 자연스러울 때가 있어서 그냥 &#8216;인쇄 영역&#8217;이라고 번역한 경우도 있다.
 
-다음으로 고민이 들었던 건 &#8216;[CSS Paged Media Specification][1]&#8216;이라는 단어였다. 이건 공식적으로 번역어가 있을 지도 모르겠는데 여기서는 &#8216;페이지가 있는 매체 CSS 스펙&#8217;이라고 번역했다. &#8216;Paged Media Specification&#8217;은 역시 &#8216;페이지가 있는 매체 스펙&#8217;이라고 번역했다.
+다음으로 고민이 들었던 건 ‘[CSS Paged Media Specification][1]’이라는 단어였다. 이건 공식적으로 번역어가 있을 지도 모르겠는데 여기서는 &#8216;페이지가 있는 매체 CSS 스펙&#8217;이라고 번역했다. &#8216;Paged Media Specification&#8217;은 역시 &#8216;페이지가 있는 매체 스펙&#8217;이라고 번역했다.
 
 ![Printable Websites - some books][2]
 
@@ -283,7 +283,7 @@ at-규칙인 `@page`를 인터넷 익스플로러 7을 제외한 모든 주요 
  [6]: http://drublic.de/blog/pseudo-classes-in-print-styles-for-references-in-links/
  [7]: http://drublic.de/blog/printing-the-web/#comment-1188
  [8]: http://blog.adrianroselli.com/2013/03/calling-qr-in-print-css-only-when-needed.html
- [9]: http://coding.smashingmagazine.com/2013/03/08/tips-tricks-print-style-sheets/
+ [9]: https://www.smashingmagazine.com/2013/03/tips-and-tricks-for-print-style-sheets/
  [10]: http://dabblet.com/gist/5232020
  [11]: http://www.w3.org/TR/2013/WD-css3-page-20130314/#using-named-pages
  [12]: https://developer.mozilla.org/en-US/docs/CSS/@page

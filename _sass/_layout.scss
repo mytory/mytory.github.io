@@ -220,6 +220,10 @@ a.post-link {
 .post-content {
     margin-bottom: $spacing-unit * 2;
 
+    h1, h2, h3, h4, h5, h6, strong, b {
+        font-family: $sans-serif-font-family;
+    }
+
     h2 {
         margin-top: $spacing-unit;
         font-size: 28px;

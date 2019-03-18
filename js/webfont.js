@@ -6,9 +6,9 @@
     // 한 번 캐시하면 css 파일은 클라이언트 측에 저장한다.
     // 아래 woffPath 가 바뀌면 그 때 다시 받는다.
     // woff base64를 내장한 css
-    var woffPath = '/fonts/IropkeBatangMSubset.woff.css?2017-02-27';
+    var woffPath = '/fonts/NotoSerifCJKkr-Normal.subset.woff.css?2017-02-27';
     // woff2 base64를 내장한 css
-    var woff2Path = '/fonts/IropkeBatangMSubset.woff2.css?2017-02-27';
+    var woff2Path = '/fonts/NotoSerifCJKkr-Normal.subset.woff2.css?2017-02-27';
 
     // 간단한 이벤트 핸들러 함수
     function on(el, ev, callback) {

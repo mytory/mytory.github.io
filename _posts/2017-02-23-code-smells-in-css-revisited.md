@@ -56,7 +56,7 @@ CSS Wizardry의 해리 로버츠가 최근 [Code Smells in CSS Revisited][origin
 
 이게 또 최근에 짜증나게 하는 코드라고 하는데, `&`를 사용해서 클래스명을 이어 붙이는 것이다.
 
-<pre>
+~~~
 . foo {
   color: red;
 
@@ -65,7 +65,7 @@ CSS Wizardry의 해리 로버츠가 최근 [Code Smells in CSS Revisited][origin
   }
 
 }
-</pre>
+~~~
 
 이러면 아래쪽의 `&-bar`가 `.foo-bar`가 된다. 간편하고 DRY(Do Not Repeat Yourself) 원칙에도 맞는 것처럼 보인다.
 
@@ -103,25 +103,25 @@ BEM 네이밍을 `&`로 연결하는 경우에서 같은 사례를 봤는데, �
 
 css의 `background` 속성은 사실 아래처럼 많은 의미를 담고 있다.
 
-<pre>
+~~~
 background: [background-color || background-image || background-repeat || background-attachment || background-position] | inherit]
-</pre>
+~~~
 
 그러니까 아래처럼 쓰면 다른 모든 값을 초기화하는 효과를 낸다.
 
-<pre>
+~~~
 .btn {
   background: #f43059;
 }
-</pre>
+~~~
 
 위 코드는 배경 이미지, 배경 첨부, 배경 위치, 배경 반복 여부를 초기화한다. 아마 개발자가 실제로 의미한 바는 아래와 같을 것이다.
 
-<pre>
+~~~
 .btn {
   background-color: #f43059;
 }
-</pre>
+~~~
 
 그러니까 `background` 단축 속성은 사용하지 말자.
 
@@ -134,14 +134,14 @@ background: [background-color || background-image || background-repeat || backgr
 
 핵심 선택자(key selector)란 스타일을 지정하려고 목표하는 최종 선택자를 말한다. 아래 코드를 보자.
 
-<pre>
+~~~
 .foo {}
 
 nav li .bar {}
 
 .promo a,
 .promo .btn {}
-</pre>
+~~~
 
 여기서 핵심 선택자는 아래와 같다.
 
@@ -185,10 +185,10 @@ CSS 코드가 별로인 건 차치하고, 이러면 두 가지 문제가 생긴�
 
 비슷하지만 좀 다른 사례인데, 아래 코드를 보자.
 
-<pre>
+~~~
 .btn {}
 .modal .btn {}
-</pre>
+~~~
 
 자, `.modal .btn`은 어느 파일에 둬야 할까? `_components.btn.scss`일까 `_components.modal.scss`일까?
 

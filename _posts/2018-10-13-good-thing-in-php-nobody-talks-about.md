@@ -3,15 +3,15 @@ title: "[번역] 아무도 말하지 않는 PHP의 좋은 점"
 layout: post
 tags: 
   - PHP
-tanslator: 안형우
+translator: 안형우
 author: Anton Sidashin
 image: /uploads/2018/php-logo.png
 comment_issue_id: 3
 ---
 
-원문은 [Good thing in PHP nobody talks about](http://pixeljets.com/blog/good-thing-in-php-nobody-talks-about/)이다. 번역에 대해 저자 허락을 구했다. 
+원문은 [Good thing in PHP nobody talks about](http://pixeljets.com/blog/good-thing-in-php-nobody-talks-about/)이다. 번역에 대해 저자 허락을 구했다. ([gnoownow10님](http://gnoownow10.cafe24.com/)이 번역을 감수해 줬다.)
 
-[ ] 안의 말은 이해에 도움이 되라고 내가 넣은 것이다. ([gnoownow10님](http://gnoownow10.cafe24.com/)이 감수해 줬다.)
+[ ] 안의 말은 이해에 도움이 되라고 내가 넣은 것이다. 
 
 ----
 

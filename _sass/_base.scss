@@ -157,7 +157,7 @@ code {
   font-size: round($base-font-size * 0.9);
   padding: $base-font-size;
   border-radius: 4px;
-  background-color: #2c3e50;
+  background-color: $brand-color2;
   color: #FFF;
   word-wrap: normal;
   overflow: auto;
@@ -166,12 +166,14 @@ code {
 
   > code {
     display: block;
+    padding: 0;
     font-size: round($base-font-size * 0.9);
-    background-color: #2c3e50;
+    background-color: $brand-color2;
     border: 0;
+  }
 
-    // background-color: $brand-color2
- 
+  .hljs-comment {
+    color: #abb2bf;
   }
 }
 

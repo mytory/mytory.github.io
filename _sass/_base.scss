@@ -155,8 +155,9 @@ code {
 
 .post-content pre {
   font-size: round($base-font-size * 0.9);
+  padding: $base-font-size;
   border-radius: 4px;
-  background-color: #282c34;
+  background-color: #2c3e50;
   color: #FFF;
   word-wrap: normal;
   overflow: auto;
@@ -165,9 +166,8 @@ code {
 
   > code {
     display: block;
-    padding: $base-font-size;
     font-size: round($base-font-size * 0.9);
-    background-color: #282c34;
+    background-color: #2c3e50;
     border: 0;
 
     // background-color: $brand-color2

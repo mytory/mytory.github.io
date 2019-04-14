@@ -1,6 +1,6 @@
 ---
-Title: SpringBoot 다국어 지원 설정 가이드
-Tags:
+title: SpringBoot 다국어 지원 설정 가이드
+tags:
   - java
   - spring
 ---

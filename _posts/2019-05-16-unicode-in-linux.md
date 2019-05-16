@@ -44,3 +44,4 @@ tags:
 - 2615: ☕ (커피)
 - 2611: ☑ (checked)
 - 25aa: ▪ (black\_small\_square)
+- 1f4f0: 📰 (newspaper)

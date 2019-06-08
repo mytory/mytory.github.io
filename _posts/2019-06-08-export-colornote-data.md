@@ -42,7 +42,7 @@ adb backup -noapk com.socialnmobile.dictapps.notepad.color.note
 java -jar abe-all.jar unpack backup.ab backup.tar [password]
 ~~~
 
-만약 암호화된 ab 파일이라면 `[password]` 부분에 암호를 입력하면 된다. 암호를 `my-password`라고 설정한 경우라면 아래처럼 입력하면 된다.
+만약 암호화된 ab 파일이라면 `[password]` 부분에 암호를 입력하면 된다. 암호를 `my-password`라고 설정한 경우라면 아래처럼 입력하면 된다. 암호가 없으면 그냥 입력을 안 하는 되는 것 같다.
 
 ~~~ bash
 java -jar abe-all.jar unpack backup.ab backup.tar my-password

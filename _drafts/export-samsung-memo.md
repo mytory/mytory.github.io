@@ -1,7 +1,7 @@
 
 db를 얻은 다음...
 
-SELECT datetime(createdAt/1000,'unixepoch') as created, datetime(lastModifiedAt/1000,'unixepoch') as modified, title, content FROM memo ORDER BY created
+SELECT datetime(createdAt/1000,'unixepoch') as created, datetime(lastModifiedAt/1000,'unixepoch') as modified, title, strippedContent FROM memo ORDER BY created
 
 
 csv 추출한 뒤 
@@ -30,12 +30,13 @@ foreach ($rows as $row) {
         $filename = $date;
     }
 
-    while (is_file("memos/{$filename}.txt")) {
-        $filename = "{$filename}-";
+    $filemode = "x+";
+    if (is_file("memos/{$filename}.txt")) {
+        // 삼성 메모는 메모가 길면 나누어 저장한다.
+        $filemode = "a";
     }
-
-    $content = strip_tags(str_replace(["</p>", '&nbsp;'], ["</p>\n", ' '], $row['content']));
-
-    file_put_contents("./memos/{$filename}.txt", $content);
+    $handle = fopen("memos/{$filename}.txt", $filemode);
+    fwrite($handle, $row['strippedContent']);
+    fclose($handle);
 }
 ~~~

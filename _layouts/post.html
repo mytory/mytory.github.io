@@ -26,12 +26,12 @@ layout: default
 
     <asdie class="post-meta">
       <time itemprop="datePublished" datetime="{{ page.date | date: "%Y-%m-%d" }}">
-        {{ page.date | date: "%Y-%m-%d" }}
+        작성 {{ page.date | date: "%Y-%m-%d" }}
       </time>
       {% if page.date_modified %}
         •
         <time itemprop="dateModified" datetime="{{ page.date_modified | date: "%Y-%m-%dT%H:%M:%S+09" }}">
-          {{ page.date_modified | date: "%Y-%m-%d" }}
+          갱신 {{ page.date_modified | date: "%Y-%m-%d" }}
         </time>
       {% endif %}
       {% if page.author %}

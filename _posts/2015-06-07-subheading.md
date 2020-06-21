@@ -18,7 +18,7 @@ tag:
 
 명세를 확인하는 게 올바른 사용법을 아는 지름길이다. [클리어보스](http://www.clearboth.org/)에서 여러 번 들었던 말인데 최근 새삼 느꼈다.
 
-자세한 내용은 [4.12.1 Subheadings, subtitles, alternative titles and taglines](http://www.w3.org/TR/html5/common-idioms.html#sub-head) 항목에서 찾아 볼 수 있다. HTML에는 부제를 표현하는 태그가 없으며, 아래와 같은 방법을 제안한다 하고 설명이 돼 있다. 명세가 제안하는 방법은 세 가지다. 
+자세한 내용은 [4.12.1 Subheadings, subtitles, alternative titles and taglines](https://www.w3.org/TR/html52/common-idioms-without-dedicated-elements.html#common-idioms-without-dedicated-elements) 항목에서 찾아 볼 수 있다. HTML에는 부제를 표현하는 태그가 없으며, 아래와 같은 방법을 제안한다 하고 설명이 돼 있다. 명세가 제안하는 방법은 세 가지다. 
 
 
 ## 기호를 사용해서 구분하는 방법

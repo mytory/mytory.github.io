@@ -2,8 +2,8 @@
 title: 'Outline VPN 서버 certSha256 fingerprint 구하기'
 layout: post
 tags: 
-	- etc
-	- vpn
+  - etc
+  - vpn
 ---
 
 [아웃라인VPN](https://getoutline.org/)은 꽤 설치도 편하고 인터페이스도 괜찮다. 스스로 설치해 사용하기 좋은 VPN 서버다.

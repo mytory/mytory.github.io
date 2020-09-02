@@ -1,5 +1,5 @@
 ---
-title: Outline VPN 서버 certSha256 fingerprint 구하기
+title: 'Outline VPN 서버 certSha256 fingerprint 구하기'
 layout: post
 tags: 
 	- etc

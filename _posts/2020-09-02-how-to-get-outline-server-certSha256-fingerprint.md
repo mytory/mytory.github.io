@@ -40,7 +40,7 @@ rm shadowbox-selfsigned.crt
 
 ## 찾은 방법
 
-[아웃라인 서버 코드](https://github.com/Jigsaw-Code/outline-server)를 클론받은 다음 다음 명령어를 연달아 치고 문자열을 해석하면서 fingerprint를 만드는 명령을 찾았다. 이후 docker 안의 outline 폴더를 찾아서 `crt` 확장자의 파일을 찾아서 넣어 보는 과정을 거쳤다.
+[아웃라인 서버 코드](https://github.com/Jigsaw-Code/outline-server)를 클론받은 다음 다음 명령어를 연달아 치고 코드를 해석하면서 fingerprint를 만드는 명령을 찾았다. 이후 docker 안의 outline 폴더를 찾아서 `crt` 확장자의 파일을 찾아서 넣어 보는 과정을 거쳤다.
 
 ~~~ bash
 ack certSha256

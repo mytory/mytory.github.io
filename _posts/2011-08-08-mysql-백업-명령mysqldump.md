@@ -1,5 +1,5 @@
 ---
-title: MySql 백업 명령(mysqldump)
+title: MySQL 백업 명령(mysqldump)
 author: 안형우
 layout: post
 permalink: /archives/1641
@@ -17,6 +17,8 @@ tags:
 
 리눅스라면 프롬프트가 `$`이나 `#`으로 끝나는 터미널일 것이고 윈도우라면 `C:\>`가 표시되는 터미널일 것이다.
 
+아래처럼 명령어를 쓰면 된다.
+
 ~~~ bash
 mysqldump -umytory -pmypass mydb > mydb.sql
 ~~~
@@ -27,13 +29,13 @@ mysqldump -umytory -pmypass mydb > mydb.sql
 mysqldump -umytory -p mydb > mydb.sql
 ~~~
 
-이렇게 써 주면 된다.
+사실 매뉴얼에서 본 내용은 아래와 같다.
 
 ~~~ bash
 mysqldump -u[id] -p[password] dbname > dbname.sql
 ~~~
 
-매뉴얼에는 이렇게 써 있는데 -p[mypass] 라고 아무리 쳐도 나오는 건 아래 메세지뿐.
+매뉴얼에는 이렇게 써 있는데 `-p[mypass]` 라고 아무리 쳐도 나오는 건 아래 메세지뿐이었다.
 
     mysqldump: Got error: 1045: Access denied for user 'root'@'localhost' (using password: YES) when trying to connect
 
@@ -43,7 +45,7 @@ mysqldump -u[id] -p[password] dbname > dbname.sql
 > `--password=lose`  
 > If you use `-p`, then there can be no space between the `-p` and the password, i.e. `'-plose'`.
 
-이렇게 친절하게 설명할 것이지!
+이렇게 친절하게 설명할 것이지! 문서의 문법을 모르는 초보의 비애였다…
 
 ## `-p` 뒤에 패스워드를 입력하지 않아도 된다
 

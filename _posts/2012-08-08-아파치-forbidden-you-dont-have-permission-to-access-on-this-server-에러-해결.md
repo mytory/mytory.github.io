@@ -7,7 +7,7 @@ categories:
   - 서버단
 tags:
   - apache
-date_modified: 2017-04-02 17:25
+date_modified: 2020-09-04 23:10
 image: /uploads/2017/apache-directory.jpg
 description: 아파치에서 웹 서버의 폴더에 접근할 수 없어서 뜨는 에러다. 우선 아파치 환경 설정에서 해당 폴더 접근을 허용하고, 아파치 사용자에게 폴더의 실행 권한과 파일의 읽기 권한을 줘야 한다.
 ---
@@ -20,6 +20,8 @@ description: 아파치에서 웹 서버의 폴더에 접근할 수 없어서 뜨
 에러 로그(`/var/log/apache2/error.log` 혹은 `/var/log/httpd/error_log` 식의 경로를 찾으면 된다)를 보면 아래처럼 생겨먹었다.
 
     client denied by server configuration : 폴더 경로
+
+**우선 폴더 경로가 제대로 잡혔는지부터 확인해 보자. 그리고 폴더 경로가 제대로인데 문제가 발생하는 것이라면 아래 해결책을 적용한다.**
 
 ## 디렉토리 설정(아파치 2.4)
 

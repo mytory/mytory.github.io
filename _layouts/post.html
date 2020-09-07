@@ -4,24 +4,24 @@ layout: default
 <article class="post  h-entry" itemscope itemtype="http://schema.org/BlogPosting">
   <div itemprop="image" itemscope itemtype="http://schema.org/ImageObject" hidden>
     {% if page.image %}
-      <img itemprop="contentUrl" src="{{ page.image | prepend: site.url }}">
-      <link itemprop="url" href="{{ page.image | prepend: site.url }}">
-      <meta itemprop="width" content="auto">
-      <meta itemprop="height" content="auto">
+    <img itemprop="contentUrl" src="{{ page.image | prepend: site.url }}">
+    <link itemprop="url" href="{{ page.image | prepend: site.url }}">
+    <meta itemprop="width" content="auto">
+    <meta itemprop="height" content="auto">
     {% else %}
-      <img itemprop="contentUrl" src="{{ site.url }}/assets/mytory-favicon-114.png">
-      <link itemprop="url" href="{{ site.url }}/assets/mytory-favicon-114.png">
-      <meta itemprop="width" content="114">
-      <meta itemprop="height" content="114">
+    <img itemprop="contentUrl" src="{{ site.url }}/assets/mytory-favicon-114.png">
+    <link itemprop="url" href="{{ site.url }}/assets/mytory-favicon-114.png">
+    <meta itemprop="width" content="114">
+    <meta itemprop="height" content="114">
     {% endif %}
   </div>
-  
+
 
   <header class="post-header">
     <h1 class="post-title" itemprop="headline">{{ page.title }}</h1>
 
     {% if page.description %}
-      <p class="lede">{{ page.description }}</p>
+    <p class="lede">{{ page.description }}</p>
     {% endif %}
 
     <asdie class="post-meta">
@@ -29,15 +29,15 @@ layout: default
         작성 {{ page.date | date: "%Y-%m-%d" }}
       </time>
       {% if page.date_modified %}
-        •
-        <time itemprop="dateModified" datetime="{{ page.date_modified | date: "%Y-%m-%dT%H:%M:%S+09" }}">
-          갱신 {{ page.date_modified | date: "%Y-%m-%d" }}
-        </time>
+      •
+      <time itemprop="dateModified" datetime="{{ page.date_modified | date: "%Y-%m-%dT%H:%M:%S+09" }}">
+        갱신 {{ page.date_modified | date: "%Y-%m-%d" }}
+      </time>
       {% endif %}
       {% if page.author %}
-        {% assign author = page.author %}
+      {% assign author = page.author %}
       {% else %}
-        {% assign author = site.author %}
+      {% assign author = site.author %}
       {% endif %}
       •
       <address class="u-inline">
@@ -45,10 +45,10 @@ layout: default
           <span itemprop="name">{{ author }}</span>
         </span>
         {% if page.translator %}
-          •
-          <span itemprop="translator" itemscope itemtype="http://schema.org/Person">
-            번역 <span itemprop="name">{{ page.translator }}</span>
-          </span>
+        •
+        <span itemprop="translator" itemscope itemtype="http://schema.org/Person">
+          번역 <span itemprop="name">{{ page.translator }}</span>
+        </span>
         {% endif %}
         <span itemprop="publisher" itemscope itemtype="http://schema.org/Organization" hidden>
           •<span itemprop="name">{{ site.title }}</span>
@@ -63,9 +63,9 @@ layout: default
         {{ page.tags | join: ", " }}
       </span>
       {% if page.main_entity_of_page %}
-        <link itemprop="mainEntityOfPage" href="{{ page.main_entity_of_page }}">
+      <link itemprop="mainEntityOfPage" href="{{ page.main_entity_of_page }}">
       {% endif %}
-    </aside>
+      </aside>
   </header>
 
   <aside class="google-information">
@@ -79,8 +79,58 @@ layout: default
   </div>
 
   <footer>
+    <style>
+      .bmc-button img {
+        height: 34px !important;
+        width: 35px !important;
+        margin-bottom: 1px !important;
+        box-shadow: none !important;
+        border: none !important;
+        vertical-align: middle !important;
+      }
+
+      .bmc-button {
+        padding: 7px 15px 7px 10px !important;
+        line-height: 35px !important;
+        height: 51px !important;
+        text-decoration: none !important;
+        display: inline-flex !important;
+        color: #ffffff !important;
+        background-color: #79D6B5 !important;
+        border-radius: 8px !important;
+        border: 1px solid transparent !important;
+        font-size: 18px !important;
+        letter-spacing: -0.08px !important;
+        box-shadow: 0px 1px 2px rgba(190, 190, 190, 0.5) !important;
+        -webkit-box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;
+        margin: 0 auto !important;
+        font-family: 'Lato', sans-serif !important;
+        -webkit-box-sizing: border-box !important;
+        box-sizing: border-box !important;
+      }
+
+      .bmc-button:hover,
+      .bmc-button:active,
+      .bmc-button:focus {
+        -webkit-box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;
+        text-decoration: none !important;
+        box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;
+        opacity: 0.85 !important;
+        color: #ffffff !important;
+      }
+    </style>
+    <link href="https://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext" rel="stylesheet">
+    <div>
+      <a class="bmc-button" target="_blank" href="https://www.buymeacoffee.com/mytory">
+        <img
+          src="https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg" alt="Buy me a coffee">
+        <span
+          style="margin-left:5px;font-size:18px !important;">Buy me a coffee</span>
+      </a>
+    </div> 
     <div class="u-margin-bottom">
-      <a href="https://www.inflearn.com/course/%EC%9B%8C%EB%93%9C%ED%94%84%EB%A0%88%EC%8A%A4-%EC%87%BC%ED%95%91%EB%AA%B0-%ED%8C%8C%ED%8A%B81">
+      <a
+        href="https://www.inflearn.com/course/%EC%9B%8C%EB%93%9C%ED%94%84%EB%A0%88%EC%8A%A4-%EC%87%BC%ED%95%91%EB%AA%B0-%ED%8C%8C%ED%8A%B81">
         💻 [추천합니다] 필자가 촬영한 동영상 강의: <span class="u-nowrap">워드프레스로 개발하기 Part 1</span>
       </a>
     </div>

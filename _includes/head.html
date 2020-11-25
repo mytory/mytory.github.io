@@ -10,7 +10,7 @@
     {% elsif page.layout == 'default' %}
         <meta name="description" content="CSS, js, HTML, PHP, JAVA... Full Stack Web Development">
     {% else %}
-        <meta name="description" content="{{ page.content | escape | strip_html | truncate: 200 | strip_newlines }}">
+        <meta name="description" content="{{ page.content | strip_html | truncate: 200 | escape | strip_newlines }}">
     {% endif %}
 
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">

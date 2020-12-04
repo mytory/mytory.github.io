@@ -31,4 +31,4 @@ tags:
 
 로컬 개발용 도메인을 `video.localhost`으로 사용하는 이유가 궁금하다면 다음 글을 보자.
 
-👉 [개발용 로컬 도메인을 저는 localhost로 사용합니다](https://mytory.net/2020/12/04/which-domain-for-local-development.html)
+👉 [개발용 로컬 도메인을 저는 localhost로 사용합니다](https://mytory.net/2020/12/05/which-domain-for-local-development.html)

@@ -2,7 +2,7 @@
 title: '개발용 로컬 도메인을 저는 localhost로 사용합니다'
 layout: post
 tags: 
-	- Web Development
+    - Web Development
 ---
 
 나는 로컬 개발시 도메인을 `localhost`의 서브도메인으로 만들어 사용한다. `wspaper.localhost` 같은 식으로 말이다. 

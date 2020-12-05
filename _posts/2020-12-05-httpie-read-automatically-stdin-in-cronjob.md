@@ -2,9 +2,9 @@
 title: 'Cron에서 HTTpie stdin 오류 - http: error: Request body (from stdin or a file) and request data (key=value) cannot be mixed.'
 layout: post
 tags: 
-	- cron
-	- linux
-	- httpie
+    - cron
+    - linux
+    - httpie
 description: 터미널 없이 HTTPie를 실행하는 경우 자동으로 표준 입력을 읽기 때문에 발생하는 에러. --ignore-stdin 플래그를 주면 해결된다.
 ---
 

@@ -12,11 +12,9 @@ description: 터미널 없이 HTTPie를 실행하는 경우 자동으로 표준 
 
 [^fn1]: 커맨드라인에서 http 호출을 할 수 있는 편리한 프로그램이다.
 
-```
-http: error: Request body (from stdin or a file) and request data (key=value) cannot be mixed. Pass --ignore-stdin to let key/value take priority. See https://httpie.org/doc#scripting for details.
-
-http: 에러: 요청 body(표준 입력 혹은 파일에서 온)와 요청 데이터(키=값)는 동시에 사용할 수 없습니다. 키/값 쌍을 우선해서 받게 하려면 --ignore-stdin을 넘겨 주세요. 자세한 내용은 https://httpie.org/doc#scripting 문서를 참고하세요.
-```
+> http: error: Request body (from stdin or a file) and request data (key=value) cannot be mixed. Pass `--ignore-stdin` to let key/value take priority. See <https://httpie.org/doc#scripting> for details.
+> 
+> http: 에러: 요청 body(표준 입력 혹은 파일에서 온)와 요청 데이터(키=값)는 동시에 사용할 수 없습니다. 키/값 쌍을 우선해서 받게 하려면 `--ignore-stdin`을 넘겨 주세요. 자세한 내용은 <https://httpie.org/doc#scripting> 문서를 참고하세요.
 
 **해결책:** 일단 에러 메시지가 안내하는 대로 명령에 `--ignore-stdin` 플래그를 주면 문제가 해결된다.
 

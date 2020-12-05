@@ -31,7 +31,8 @@ echo 'Hello World!' | cat
 내가 스크립트 명령어에 `키=값`으로 데이터를 넘기기는 했지만, 표준 입력을 넘기지는 않았다. 명령어는 아래와 같은 형식이었다.
 
 ``` bash
-http post https://test.com a=b
+#!/bin/bash
+http post test.com a=b
 ```
 
 그런데 내가 표준 입력을 http로 넘겨 줬다니 완전히 혼란스러웠다. 

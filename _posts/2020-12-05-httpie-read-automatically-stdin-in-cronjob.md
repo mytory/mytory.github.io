@@ -8,7 +8,7 @@ tags:
 description: 터미널 없이 HTTPie를 실행하는 경우 자동으로 표준 입력을 읽기 때문에 발생하는 에러. --ignore-stdin 플래그를 주면 해결된다.
 ---
 
-[HTTPie][httpie][^fn1] 실행이 포함돼 있는 bash 스크립트를 cron에서 돌리는데, 커맨드라인에서 실행하면 잘 되는데 cron에서는 실행이 안 되고 에러가 났다. 에러 메시지는 아래와 같았다.
+[HTTPie][httpie][^fn1] 실행이 포함돼 있는 bash 스크립트를 cron에서 돌리려고 했다. 스크립트를 커맨드라인에서 실행하면 잘 되는데 cron에서는 제대로 실행이 안 되고 에러가 났다. 에러 메시지는 아래와 같았다.
 
 [^fn1]: 커맨드라인에서 http 호출을 할 수 있는 편리한 프로그램이다.
 
@@ -18,7 +18,7 @@ http: error: Request body (from stdin or a file) and request data (key=value) ca
 http: 에러: 요청 body(표준 입력 혹은 파일에서 온)와 요청 데이터(키=값)는 동시에 사용할 수 없습니다. 키/값 쌍을 우선해서 받게 하려면 --ignore-stdin을 넘겨 주세요. 자세한 내용은 https://httpie.org/doc#scripting 문서를 참고하세요.
 ```
 
-일단 에러 메시지가 안내하는 대로 명령에 `--ignore-stdin` 플래그를 주면 문제가 해결된다.
+**해결책:** 일단 에러 메시지가 안내하는 대로 명령에 `--ignore-stdin` 플래그를 주면 문제가 해결된다.
 
 ## stdin
 

@@ -1,5 +1,5 @@
 ---
-title: '개발용 로컬 도메인을 저는 localhost로 사용합니다'
+title: '개발용 로컬 도메인을 저는 localhost의 서브 도메인으로 사용합니다'
 layout: post
 tags: 
     - Web Development

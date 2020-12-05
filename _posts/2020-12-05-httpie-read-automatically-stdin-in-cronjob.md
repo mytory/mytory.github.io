@@ -5,7 +5,7 @@ tags:
 	- cron
 	- linux
 	- httpie
-description: 터미널 없이 HTTPie를 실행하는 경우 자동으로 표준 입력을 읽도록 동작해 발생하는 에러. --ignore-stdin 플래그를 주면 해결된다.
+description: 터미널 없이 HTTPie를 실행하는 경우 자동으로 표준 입력을 읽기 때문에 발생하는 에러. --ignore-stdin 플래그를 주면 해결된다.
 ---
 
 HTTPie[httpie][^fn1] 실행이 포함돼 있는 bash 스크립트를 cron에서 돌리는데, 커맨드라인에서 실행하면 잘 되는데 cron에서는 실행이 안 되고 에러가 났다. 에러 메시지는 아래와 같았다.

@@ -1,5 +1,5 @@
 ---
-title: 'Cron에서 HTTpie stdin 오류 - http: error: Request body (from stdin or a file) and request data (key=value) cannot be mixed.'
+title: 'Cron에서 HTTPie stdin 오류 - http: error: Request body (from stdin or a file) and request data (key=value) cannot be mixed.'
 layout: post
 tags: 
     - cron

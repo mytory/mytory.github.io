@@ -12,6 +12,9 @@
     {% else %}
         <meta name="description" content="{{ page.content | strip_html | truncate: 200 | escape | strip_newlines }}">
     {% endif %}
+    {% if page.tags %}
+        <meta name="keywords" content="{{ page.tags | join: ", " }}">
+    {% endif %}
 
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">

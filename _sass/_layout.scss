@@ -188,10 +188,10 @@
     color: $grey-color;
 }
 
-a.post-link {
-    display: block;
+.post-link {
     font-size: 24px;
     color: $brand-color2;
+    word-break: keep-all;
     &:visited {
         color: lighten($brand-color2, 20%);
     }

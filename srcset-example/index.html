@@ -1,119 +1,202 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>반응형 이미지 실전 연습</title>
-	<style>
-		body {
-			margin: 0;
-		}
-	</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>반응형 이미지 실전 연습</title>
+    <style>
+        body {
+            margin: 0;
+        }
+    </style>
 </head>
 <body>
-	<h1>반응형 이미지 실전 연습</h1>
-	<h2>뷰포트에 따른 반응형 이미지</h2>
-	<img srcset="./images/100x200.png 100w,
-		./images/200x200.png 200w,
-		./images/300x200.png 300w,
-		./images/400x200.png 400w,
-		./images/500x200.png 500w,
-		./images/600x200.png 600w,
-		./images/700x200.png 700w,
-		./images/800x200.png 800w,
-		./images/900x200.png 900w,
-		./images/1000x200.png 1000w,
-		./images/1100x200.png 1100w,
-		./images/1200x200.png 1200w,
-		./images/1300x200.png 1300w,
-		./images/1400x200.png 1400w,
-		./images/1500x200.png 1500w,
-		./images/1600x200.png 1600w,
-		./images/1700x200.png 1700w,
-		./images/1800x200.png 1800w,
-		./images/1900x200.png 1900w,
-		./images/2000x200.png 2000w,
-		./images/2100x200.png 2100w,
-		./images/2200x200.png 2200w,
-		./images/2300x200.png 2300w,
-		./images/2400x200.png 2400w,
-		./images/2500x200.png 2500w,
-		./images/2600x200.png 2600w,
-		./images/2700x200.png 2700w,
-		./images/2800x200.png 2800w,
-		./images/2900x200.png 2900w,
-		./images/3000x200.png 3000w,
-		./images/3100x200.png 3100w,
-		./images/3200x200.png 3200w,
-		./images/3300x200.png 3300w,
-		./images/3400x200.png 3400w,
-		./images/3500x200.png 3500w,
-		./images/3600x200.png 3600w,
-		./images/3700x200.png 3700w,
-		./images/3800x200.png 3800w,
-		./images/3900x200.png 3900w,
-		./images/4000x200.png 4000w,
-		./images/4100x200.png 4100w,
-		./images/4200x200.png 4200w,
-		./images/4300x200.png 4300w,
-		./images/4400x200.png 4400w,
-		./images/4500x200.png 4500w,
-		./images/4600x200.png 4600w,
-		./images/4700x200.png 4700w,
-		./images/4800x200.png 4800w,
-		./images/4900x200.png 4900w,
-		./images/5000x200.png 5000w"
+    <h1>반응형 이미지 실전 연습</h1>
+    <p>
+    	<b><a href="https://mytory.net">👉 블로그로 돌아가기</a></b>
+    </p>
+    <h2>뷰포트에 따른 반응형 이미지</h2>
+    <img srcset="./images/100x200.png 100w,
+        ./images/200x200.png 200w,
+        ./images/300x200.png 300w,
+        ./images/400x200.png 400w,
+        ./images/500x200.png 500w,
+        ./images/600x200.png 600w,
+        ./images/700x200.png 700w,
+        ./images/800x200.png 800w,
+        ./images/900x200.png 900w,
+        ./images/1000x200.png 1000w,
+        ./images/1100x200.png 1100w,
+        ./images/1200x200.png 1200w,
+        ./images/1300x200.png 1300w,
+        ./images/1400x200.png 1400w,
+        ./images/1500x200.png 1500w,
+        ./images/1600x200.png 1600w,
+        ./images/1700x200.png 1700w,
+        ./images/1800x200.png 1800w,
+        ./images/1900x200.png 1900w,
+        ./images/2000x200.png 2000w,
+        ./images/2100x200.png 2100w,
+        ./images/2200x200.png 2200w,
+        ./images/2300x200.png 2300w,
+        ./images/2400x200.png 2400w,
+        ./images/2500x200.png 2500w,
+        ./images/2600x200.png 2600w,
+        ./images/2700x200.png 2700w,
+        ./images/2800x200.png 2800w,
+        ./images/2900x200.png 2900w,
+        ./images/3000x200.png 3000w,
+        ./images/3100x200.png 3100w,
+        ./images/3200x200.png 3200w,
+        ./images/3300x200.png 3300w,
+        ./images/3400x200.png 3400w,
+        ./images/3500x200.png 3500w,
+        ./images/3600x200.png 3600w,
+        ./images/3700x200.png 3700w,
+        ./images/3800x200.png 3800w,
+        ./images/3900x200.png 3900w,
+        ./images/4000x200.png 4000w,
+        ./images/4100x200.png 4100w,
+        ./images/4200x200.png 4200w,
+        ./images/4300x200.png 4300w,
+        ./images/4400x200.png 4400w,
+        ./images/4500x200.png 4500w,
+        ./images/4600x200.png 4600w,
+        ./images/4700x200.png 4700w,
+        ./images/4800x200.png 4800w,
+        ./images/4900x200.png 4900w,
+        ./images/5000x200.png 5000w"
      sizes="100vw"
      src="./images/100x200.png"
      alt="placeholder image">
+<pre><code>&lt;img srcset="./images/100x200.png 100w,
+    ./images/200x200.png 200w,
+    ./images/300x200.png 300w,
+    ./images/400x200.png 400w,
+    ./images/500x200.png 500w,
+    ./images/600x200.png 600w,
+    ./images/700x200.png 700w,
+    ./images/800x200.png 800w,
+    ./images/900x200.png 900w,
+    ./images/1000x200.png 1000w,
+    ./images/1100x200.png 1100w,
+    ./images/1200x200.png 1200w,
+    ./images/1300x200.png 1300w,
+    ./images/1400x200.png 1400w,
+    ./images/1500x200.png 1500w,
+    ./images/1600x200.png 1600w,
+    ./images/1700x200.png 1700w,
+    ./images/1800x200.png 1800w,
+    ./images/1900x200.png 1900w,
+    ./images/2000x200.png 2000w,
+    ./images/2100x200.png 2100w,
+    ./images/2200x200.png 2200w,
+    ./images/2300x200.png 2300w,
+    ./images/2400x200.png 2400w,
+    ./images/2500x200.png 2500w,
+    ./images/2600x200.png 2600w,
+    ./images/2700x200.png 2700w,
+    ./images/2800x200.png 2800w,
+    ./images/2900x200.png 2900w,
+    ./images/3000x200.png 3000w,
+    ./images/3100x200.png 3100w,
+    ./images/3200x200.png 3200w,
+    ./images/3300x200.png 3300w,
+    ./images/3400x200.png 3400w,
+    ./images/3500x200.png 3500w,
+    ./images/3600x200.png 3600w,
+    ./images/3700x200.png 3700w,
+    ./images/3800x200.png 3800w,
+    ./images/3900x200.png 3900w,
+    ./images/4000x200.png 4000w,
+    ./images/4100x200.png 4100w,
+    ./images/4200x200.png 4200w,
+    ./images/4300x200.png 4300w,
+    ./images/4400x200.png 4400w,
+    ./images/4500x200.png 4500w,
+    ./images/4600x200.png 4600w,
+    ./images/4700x200.png 4700w,
+    ./images/4800x200.png 4800w,
+    ./images/4900x200.png 4900w,
+    ./images/5000x200.png 5000w"
+sizes="100vw"
+src="./images/100x200.png"
+alt="placeholder image"&gt;</code></pre>
 
-<h2>너비 100px에 대응하는 반응형 이미지</h2>
+<h2>너비 100px에 대응, Pixel Ratio에 따른 반응형 이미지</h2>
 <img srcset="./images/100x100.png 1x,
-	./images/150x150.png 1.5x,
-	./images/200x200.png 2x,
-	./images/250x250.png 2.5x,
-	./images/300x300.png 3x,
-	./images/350x350.png 3.5x,
-	./images/400x400.png 4x"
+    ./images/150x150.png 1.5x,
+    ./images/200x200.png 2x,
+    ./images/250x250.png 2.5x,
+    ./images/300x300.png 3x,
+    ./images/350x350.png 3.5x,
+    ./images/400x400.png 4x"
 src="./images/100x100.png"
 alt="placeholder image">
 
+<pre><code>&lt;img srcset="./images/100x100.png 1x,
+    ./images/150x150.png 1.5x,
+    ./images/200x200.png 2x,
+    ./images/250x250.png 2.5x,
+    ./images/300x300.png 3x,
+    ./images/350x350.png 3.5x,
+    ./images/400x400.png 4x"
+src="./images/100x100.png"
+alt="placeholder image"&gt;</code></pre>
+
+
 <h2>정리</h2>
 <ul>
-	<li>반응형 이미지는 뷰포트 100%에 해당하는 사이즈로 통일해 뒀다.</li>
-	<li>
-		Device Pixel Ratio:
-		<b class="js-device-pixel-ratio"></b>
-	</li>
-	<li>
-		Window Width:
-		<b class="js-window-width"></b><b>px</b>
-	</li>
-	<li>w값: <b class="js-w-value"></b></li>
-	<li>w값 계산식: <b><code><span class="js-window-width"></span>×<span class="js-device-pixel-ratio"></span>=<span class="js-w-value"></span></code></b></li>
-	<li>가까운 이미지 너비: <b class="js-round-value"></b><b>px</b> 혹은 <b class="js-ceil-value"></b><b>px</b></li>
-	<li>
-		Device Pixel Ratio가 <span class="js-device-pixel-ratio"></span>이기 때문에 <code>sizes</code>에서 구한 px에 <span class="js-device-pixel-ratio"></span>를 곱한 값을 w에서 찾아야 한다.
-	</li>
-	<li>즉, 현재 너비가 <span class="js-window-width"></span>px이고 Device Pixel Ratio가 <span class="js-device-pixel-ratio"></span>이기 때문에 위와 같이 계산해 w값을 구한다.</li>
-	<li>따라서 반응형 이미지는 <span class="js-w-value"></span>px에서 제일 가까운 <span class="js-round-value"></span>px 너비의 이미지나, <span class="js-w-value"></span> 이상이면서 가장 가까운 <span class="js-ceil-value"></span>px 너비의 이미지를 가져오게 된다.</li>
-	<li>이미지는 <a href="https://via.placeholder.com">via.placeholder.com</a>에서 다운받았다.</li>
+    <li>위쪽의 반응형 이미지 사이즈는 뷰포트 100%에 해당하는 사이즈(<code>100vw</code>)로 통일해 뒀다.</li>
+    <li>아래쪽 반응형 이미지의 너비는 100px이다.</li>
+    <li>
+        Window Width:
+        <b class="js-window-width"></b><b>px</b>
+    </li>
+    <li>
+        Device Pixel Ratio:
+        <b class="js-device-pixel-ratio"></b>
+    </li>
+    <li>w값 계산식: <b><code><span class="js-window-width"></span>×<span class="js-device-pixel-ratio"></span>=<span class="js-w-value"></span></code></b></li>
+    <li>w값: <b class="js-w-value"></b></li>
+    <li>가까운 이미지 너비: <b class="js-round-value"></b><b>px</b> 혹은 <b class="js-ceil-value"></b><b>px</b></li>
+    <li>
+        Device Pixel Ratio가 <span class="js-device-pixel-ratio"></span>이기 때문에 <code>sizes</code>에서 구한 px에 <span class="js-device-pixel-ratio"></span>를 곱한 값을 w에서 찾아야 한다.
+    </li>
+    <li>즉, 현재 너비가 <span class="js-window-width"></span>px이고 Device Pixel Ratio가 <span class="js-device-pixel-ratio"></span>이기 때문에 위와 같이 계산해 w값을 구한다.</li>
+    <li>따라서 반응형 이미지는 <span class="js-w-value"></span>px에서 제일 가까운 <span class="js-round-value"></span>px 너비의 이미지나, <span class="js-w-value"></span> 이상이면서 가장 가까운 <span class="js-ceil-value"></span>px 너비의 이미지를 가져오게 된다.</li>
+    <li>이미지는 <a href="https://via.placeholder.com">via.placeholder.com</a>에서 다운받았다.</li>
 </ul>
 
+<p>
+	<b><a href="https://mytory.net">👉 블로그로 돌아가기</a></b>
+</p>
 
 <script>
-	function calc() {
-		document.querySelectorAll('.js-device-pixel-ratio').forEach(el => el.innerText = window.devicePixelRatio);
-		document.querySelectorAll('.js-window-width').forEach(el => el.innerText = window.outerWidth);
-		document.querySelectorAll('.js-w-value').forEach(el => el.innerText = window.devicePixelRatio * window.outerWidth);
-		const roundValue = Math.round(window.devicePixelRatio * window.outerWidth / 100) * 100;
-		const ceilValue = Math.ceil(window.devicePixelRatio * window.outerWidth / 100) * 100;
-		document.querySelectorAll('.js-round-value').forEach(el => el.innerText = roundValue);	
-		document.querySelectorAll('.js-ceil-value').forEach(el => el.innerText = ceilValue);	
-	}
-	window.addEventListener('resize', calc);
-	calc();
+    function calc() {
+        document.querySelectorAll('.js-device-pixel-ratio').forEach(el => el.innerText = window.devicePixelRatio);
+        document.querySelectorAll('.js-window-width').forEach(el => el.innerText = window.outerWidth);
+        document.querySelectorAll('.js-w-value').forEach(el => el.innerText = window.devicePixelRatio * window.outerWidth);
+        const roundValue = Math.round(window.devicePixelRatio * window.outerWidth / 100) * 100;
+        const ceilValue = Math.ceil(window.devicePixelRatio * window.outerWidth / 100) * 100;
+        document.querySelectorAll('.js-round-value').forEach(el => el.innerText = roundValue);    
+        document.querySelectorAll('.js-ceil-value').forEach(el => el.innerText = ceilValue);    
+    }
+    window.addEventListener('resize', calc);
+    calc();
 </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<script>
+  // ga
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
+  ga('create', 'UA-10285539-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 </body>
 </html>

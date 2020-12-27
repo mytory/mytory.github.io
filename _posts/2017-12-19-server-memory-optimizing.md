@@ -70,6 +70,15 @@ php-fpm 설정은 우분투의 경우 `/etc/php/7.0/fpm/pool.d/www.conf`에서 �
 [linux-analysis]: https://b.luavis.kr/server/linux-performance-analysis
 [linux-analysis-en]: https://medium.com/netflix-techblog/linux-performance-analysis-in-60-000-milliseconds-accc10403c55
 
+oom kill 관련해 마지막 메모리 사용량 표를 발견했다면, 해당 수치에 4를 곱해야 KB가 나온다. 예컨대 아래와 같은 표를 발견했다고 하자.
+
+~~~ plain
+[ pid ]   uid  tgid total_vm      rss pgtables_bytes swapents oom_score_adj name
+[32747]    33 32747   185328    37842  1130496        0             0 apache2
+~~~
+
+그러면 아파치 메모리 사용량은 rss 열에 있는 37842 × 4 = 151368(KB), 즉 147MB다.
+
 ## 기타: mysqld 메모리 사용 파악
 
     ps --no-headers -o "rss,cmd" -C mysqld | awk '{ sum+=$1 } END { printf ("%d%s\n", sum/NR/1024,"M") }'

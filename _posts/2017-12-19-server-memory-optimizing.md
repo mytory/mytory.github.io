@@ -5,6 +5,7 @@ tags:
   - 리눅스
   - php
 description: 여유 메모리와, php-fpm 프로세스당 메모리를 파악해서 자식 프로세스 개수를 늘렸다. process manager는 static 방식으로 했다.
+date_modified: 2020-12-28
 ---
 
 서버에 문제가 반복됐고, php-fpm log에서 아래 같은 메시지를 발견했다. `pm.max_children`을 늘려야 했다.
@@ -13,7 +14,6 @@ description: 여유 메모리와, php-fpm 프로세스당 메모리를 파악해
 [19-Dec-2017 11:51:48] WARNING: [pool www] seems busy (you may need to increase pm.start_servers, or pm.min/max_spare_servers), spawning 8 children, there are 0 idle, and 11 total children
 [19-Dec-2017 11:51:49] WARNING: [pool www] server reached pm.max_children setting (12), consider raising it
 ~~~
-
 
 ## php-fpm 평균 메모리 사용량
 
@@ -90,4 +90,54 @@ php-fpm 설정은 우분투의 경우 `/etc/php/7.0/fpm/pool.d/www.conf`에서 �
 
     ps --no-headers -o "rss,cmd" -C apache2 | awk '{ sum+=$1 } END { printf ("%d%s\n", sum/NR/1024,"M") }'
 
+관련해 자세한 튜닝 방법을 알고 싶다면 [Setting MaxClients in Apache/prefork MPM](http://www.inetservicescloud.com/knowledgebase/setting-maxclients-in-apacheprefork-mpm/)을 참고하라.
+
+
+## 메모리 사용량을 파악하는 가장 좋은 방법
+
+(2020-12-28에 추가한 내용이다.)
+
+위에서 소개한 명령어들을 사용할 필요 없이 파이썬의 [`ps_mem` 패키지](https://github.com/pixelb/ps_mem/)를 사용하는 게 가장 속편할 수 있다. 아래처럼 깔끔하게 프로세스별 메모리 사용량을 알려 준다.
+
+~~~ plain
+ Private  +   Shared  =  RAM used       Program
+
+212.0 KiB +   0.5 KiB = 212.5 KiB       uuidd
+232.0 KiB +   0.5 KiB = 232.5 KiB       lvmetad
+240.0 KiB +   1.5 KiB = 241.5 KiB       atd
+292.0 KiB +   1.0 KiB = 293.0 KiB       agetty [updated] (2)
+300.0 KiB +   0.5 KiB = 300.5 KiB       gpg-agent
+340.0 KiB +  33.5 KiB = 373.5 KiB       cron
+532.0 KiB +  50.5 KiB = 582.5 KiB       master
+524.0 KiB + 121.5 KiB = 645.5 KiB       less
+672.0 KiB +  58.5 KiB = 730.5 KiB       qmgr
+636.0 KiB + 101.5 KiB = 737.5 KiB       systemd-timesyncd
+  1.1 MiB + 180.5 KiB =   1.3 MiB       systemd-resolved
+  1.3 MiB +  20.5 KiB =   1.3 MiB       systemd-networkd
+  1.3 MiB +  48.5 KiB =   1.4 MiB       systemd-udevd
+952.0 KiB + 481.0 KiB =   1.4 MiB       su (2)
+  1.5 MiB + 200.5 KiB =   1.7 MiB       dbus-daemon [updated]
+  1.5 MiB + 202.5 KiB =   1.7 MiB       pickup
+  1.5 MiB + 480.5 KiB =   1.9 MiB       systemd-logind
+  1.1 MiB + 863.0 KiB =   2.0 MiB       sudo (2)
+  2.0 MiB +  38.5 KiB =   2.0 MiB       rsyslogd
+  2.0 MiB + 346.5 KiB =   2.4 MiB       (sd-pam)
+  2.2 MiB + 182.5 KiB =   2.4 MiB       htop
+  2.6 MiB +  88.5 KiB =   2.7 MiB       polkitd
+  2.8 MiB +  35.5 KiB =   2.9 MiB       lxcfs
+  3.1 MiB +  36.5 KiB =   3.1 MiB       accounts-daemon
+  3.9 MiB + 881.0 KiB =   4.7 MiB       systemd (2)
+  7.6 MiB +   0.5 KiB =   7.6 MiB       networkd-dispat
+  7.8 MiB +   0.5 KiB =   7.8 MiB       unattended-upgr
+  3.1 MiB +   5.7 MiB =   8.9 MiB       sshd (7)
+ 10.0 MiB +  96.5 KiB =  10.1 MiB       do-agent
+ 10.1 MiB +   2.0 MiB =  12.0 MiB       zsh (5)
+ 16.5 MiB + 194.5 KiB =  16.7 MiB       fail2ban-server
+ 26.7 MiB +   5.9 MiB =  32.6 MiB       systemd-journald
+266.7 MiB + 128.9 MiB = 395.5 MiB       apache2 (15)
+425.4 MiB + 412.5 KiB = 425.9 MiB       mysqld
+---------------------------------
+                        954.2 MiB
+=================================
+~~~
 

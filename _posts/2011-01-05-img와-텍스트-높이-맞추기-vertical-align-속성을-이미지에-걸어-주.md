@@ -19,7 +19,7 @@ modified_date: 2021-01-05 15:13:00
 
 따라서 앞으로는 css 속성인 [`vertical-align`](https://developer.mozilla.org/ko/docs/Web/CSS/vertical-align) 을 사용하자.
 
-**`vertical-align` 은 `img`에 걸어 줘야 한다.** `img`의 부모에 걸어 줘 봤자 무용지물이다. 속성연 여러 가지가 있는데, `top`, `middle`, `bottom`을 써 보면서 적당한 높이를 고르자. `top`을 썼더니 텍스트와 높이가 일치하는 것을 확인했다. 아래는 각각을 적용했을 때 결과다.
+**`vertical-align` 은 `img`에 걸어 줘야 한다.** `img`의 부모에 걸어 줘 봤자 무용지물이다. 속성값은 여러 가지가 있는데, `top`, `middle`, `bottom`을 써 보면서 적당한 높이를 고르자. `top`을 썼더니 텍스트와 높이가 일치하는 것을 확인했다. 아래는 각각을 적용했을 때 결과다.
 
 <img src="/uploads/legacy/old-images/1/cfile29.uf.19502B4F4D4BC96B278622.png" width="253" height="25" />
 

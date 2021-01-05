@@ -56,7 +56,7 @@ CSS Wizardry의 해리 로버츠가 최근 [Code Smells in CSS Revisited][origin
 
 이게 또 최근에 짜증나게 하는 코드라고 하는데, `&`를 사용해서 클래스명을 이어 붙이는 것이다.
 
-~~~
+~~~ css
 . foo {
   color: red;
 
@@ -81,35 +81,38 @@ CSS Wizardry의 해리 로버츠가 최근 [Code Smells in CSS Revisited][origin
 
 BEM 네이밍을 `&`로 연결하는 경우에서 같은 사례를 봤는데, 난 뭔가 그렇게 하는 게 맘에 안 들었다. 비슷한 이유 때문이었던 듯하다. CSS에서든 서버단 언어에서든 이름을 감추면 뭔가 나중에 불편해진다. 
 
-    .person {
-      [style]
-      &__hand {
-        [style]
-      }
-    }
+~~~ css
+.person {
+  [style]
+  &__hand {
+    [style]
+  }
+}
+~~~
 
 위처럼 쓰지 말고, 아래처럼 쓰자.
 
-    .person {
-      [style]
-    }
+~~~ css
+.person {
+  [style]
+}
 
-    .person__hand {
-      [style]
-    }
-
+.person__hand {
+  [style]
+}
+~~~
 
 ## `background` 단축어(shorthand)
 
 css의 `background` 속성은 사실 아래처럼 많은 의미를 담고 있다.
 
-~~~
+~~~ css
 background: [background-color || background-image || background-repeat || background-attachment || background-position] | inherit]
 ~~~
 
 그러니까 아래처럼 쓰면 다른 모든 값을 초기화하는 효과를 낸다.
 
-~~~
+~~~ css
 .btn {
   background: #f43059;
 }
@@ -117,7 +120,7 @@ background: [background-color || background-image || background-repeat || backgr
 
 위 코드는 배경 이미지, 배경 첨부, 배경 위치, 배경 반복 여부를 초기화한다. 아마 개발자가 실제로 의미한 바는 아래와 같을 것이다.
 
-~~~
+~~~ css
 .btn {
   background-color: #f43059;
 }
@@ -134,7 +137,7 @@ background: [background-color || background-image || background-repeat || backgr
 
 핵심 선택자(key selector)란 스타일을 지정하려고 목표하는 최종 선택자를 말한다. 아래 코드를 보자.
 
-~~~
+~~~ css
 .foo {}
 
 nav li .bar {}
@@ -152,18 +155,20 @@ nav li .bar {}
 
 그런데 코드에서 `.btn`으로 검색을 해 보면 아래처럼 여러 곳에 흩어져서 코드가 등장하는 경우가 있다.
 
-    .btn {}
+~~~ css
+.btn {}
 
-    .header .btn,
-    .header .btn:hover {}
+.header .btn,
+.header .btn:hover {}
 
-    .sidebar .btn {}
+.sidebar .btn {}
 
-    .modal .btn {}
+.modal .btn {}
 
-    .page aside .btn {}
+.page aside .btn {}
 
-    nav .btn {}
+nav .btn {}
+~~~
 
 CSS 코드가 별로인 건 차치하고, 이러면 두 가지 문제가 생긴다.
 
@@ -172,20 +177,21 @@ CSS 코드가 별로인 건 차치하고, 이러면 두 가지 문제가 생긴�
 
 이런 경우 의도치 않은 효과가 발생하기 마련이다. BEM을 사용하자. 그러면 아래처럼 정돈된다.
 
-    .btn {}
+~~~ css
+.btn {}
 
-    .btn--large {}
+.btn--large {}
 
-    .btn--primary {}
+.btn--primary {}
 
-    .btn--ghost {}
-
+.btn--ghost {}
+~~~
 
 ## 여러 컴포넌트에 나타나는 클래스
 
 비슷하지만 좀 다른 사례인데, 아래 코드를 보자.
 
-~~~
+~~~ css
 .btn {}
 .modal .btn {}
 ~~~
@@ -204,47 +210,53 @@ CSS 코드가 별로인 건 차치하고, 이러면 두 가지 문제가 생긴�
 
 이어지는 해법인데, BEM mix를 사용할 수 있다고 말한다. 일단 아래 코드처럼 쓰곤 할 텐데, 그렇게 하지 말라는 것이다.
 
-    // _components.buttons.scss
+~~~ css
+// _components.buttons.scss
 
-    .btn {
-        [styles]
-    }
+.btn {
+    [styles]
+}
 
-    .modal .btn {
-        [styles]
-    }
+.modal .btn {
+    [styles]
+}
 
 
-    // _components.modal.scss
+// _components.modal.scss
 
-    .modal {
-        [styles]
-    }
+.modal {
+    [styles]
+}
+~~~
 
 대신에 이렇게 할 수 있다고 한다.
 
-    // _components.buttons.scss
+~~~ css
+// _components.buttons.scss
 
-    .btn {
-      [styles]
-    }
+.btn {
+  [styles]
+}
 
 
-    // _components.modal.scss
+// _components.modal.scss
 
-    .modal {
-      [styles]
-    }
+.modal {
+  [styles]
+}
 
-      .modal__btn {
-        [styles]
-      }
+  .modal__btn {
+    [styles]
+  }
+~~~
 
 `.modal__btn`이라는 클래스를 만들어서, `_components.modal.scss` 파일에 코드를 두는 방법이다. 그러면 아래처럼 사용할 수 있다.
 
-    <div class="modal">
-      <button class="btn  modal__btn">Dismiss</button>
-    </div>
+~~~ html
+<div class="modal">
+  <button class="btn  modal__btn">Dismiss</button>
+</div>
+~~~
 
 `.btn` 클래스가 반복되는 것을 피한 것이다.
 
@@ -252,11 +264,13 @@ CSS 코드가 별로인 건 차치하고, 이러면 두 가지 문제가 생긴�
 
 `@import`는 CSS 안에서 다른 CSS 파일을 포함하는 방법이다. 아래처럼 사용한다.
 
-    /* in style.css */
-    @import url('base.css');
-    @import url('layout.css');
-    @import url('content.css');
-    @import url('print.css') print;
+~~~ css
+/* in style.css */
+@import url('base.css');
+@import url('layout.css');
+@import url('content.css');
+@import url('print.css') print;
+~~~
 
 이 방식은 코드 냄새일 뿐 아니라 나쁜 방법이다. CSS에 막대한 성능 저하를 초래한다는 것이다. 
 

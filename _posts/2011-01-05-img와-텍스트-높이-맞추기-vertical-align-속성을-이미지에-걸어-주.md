@@ -13,7 +13,7 @@ modified_date: 2021-01-05 15:13:00
 
 <img src="/uploads/legacy/old-images/1/cfile25.uf.143F2D4A4D4BC96B3248BE.png" width="253" height="29" />
 
-<p class="text-center">텍스트와 <code>img</code>를 그냥 한 줄에 넣으면 이렇게 높이가 어긋난다.</p>
+☝ 텍스트와 `img`를 그냥 한 줄에 넣으면 이렇게 높이가 어긋난다.
 
 이 때 과거에 사용했던 속성은 `<img align="absmiddle" src="…">`([참고](https://www.w3.org/MarkUp/Test/Img/imgtest.html)) 이었다고 한다. 그러나 `align="absmiddle"` 속성은 비표준이다.
 
@@ -23,14 +23,14 @@ modified_date: 2021-01-05 15:13:00
 
 <img src="/uploads/legacy/old-images/1/cfile29.uf.19502B4F4D4BC96B278622.png" width="253" height="25" />
 
-<p class="text-center"><code>vertical-align: top</code></p>
+☝ `vertical-align: top`
 
 <img src="/uploads/legacy/old-images/1/cfile23.uf.150FAE564D4BC96B2C99EF.png" width="254" height="32" />
 
-<p class="text-center"><code>vertical-align: middle</code></p>
+☝ `vertical-align: middle`
 
 <img src="/uploads/legacy/old-images/1/cfile22.uf.1570C4514D4BC96B1E8768.png" width="249" height="29" />
 
-<p class="text-center"><code>vertical-align: bottom</code></p>
+☝ `vertical-align: bottom`
 
 참고: `vertical-align`은 오로지 `inline`과 `table-cell` 엘리먼트에만 적용된다.

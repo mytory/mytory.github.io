@@ -5,6 +5,7 @@ layout:  post
 permalink:  /archives/8982
 tags: 
   - CSS
+date_modified: 2017-02-23
 ---
 
 원문은 [Code smells in CSS][1]다. Code smell은 리팩토링에서 사용하는 단어다. 코드에 이상한 부분이 생기면 냄새가 난다고 표현하는 것이다.

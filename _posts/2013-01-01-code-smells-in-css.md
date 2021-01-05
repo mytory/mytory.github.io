@@ -34,50 +34,54 @@ tags:
 
 어떤 CSS 선언은 이렇게 생겼다.
 
-    border-bottom: none;
-    padding: 0;
-    float: none;
-    margin-left: 0;
+~~~ css
+border-bottom: none;
+padding: 0;
+float: none;
+margin-left: 0;
+~~~
     
 
 이런 게 **전형적인** 실수다. [이제 와서 - 역자] border를 제거해야 하는 거라면, 그전에 너무 빨리 border를 적용한 것이다.[^early] 말로 설명하기는 좀 힘드니까, 간단한 예제를 또 하나 들어 보겠다.
 
 [^early]: If you are having to remove borders, you probably applied them too early.
 
-<pre>
+~~~ css
 h2 {
     font-size: 2em;
     margin-bottom: 0.5em;
     padding-bottom: 0.5em;
     border-bottom: 1px solid #ccc;
 }
-</pre>
+~~~
     
 여기서 우리는 모든 `h2`에 전부 `font-size`를 먹이고, `margin`에다가 심지어 `padding`까지 조금 줬고, 페이지의 다른 요소들과 구분이 되도록 아래쪽에 밑줄까지 그어 줬다. 그러나, 아마도 밑줄이 **없는** 편이 나은 경우가 생길 거다. `h2`에 `border`와 `padding`이 없었으면 하는 상황도 생길 것이다. 그러면 우리는 결국 이렇게 쓰게 될 거다.
 
-    h2 {
-        font-size: 2em;
-        margin-bottom: 0.5em;
-        padding-bottom: 0.5em;
-        border-bottom: 1px solid #ccc;
-    }
-    .no-border {
-        padding-bottom: 0;
-        border-bottom: none;
-    }
-    
+~~~ css
+h2 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+    padding-bottom: 0.5em;
+    border-bottom: 1px solid #ccc;
+}
+.no-border {
+    padding-bottom: 0;
+    border-bottom: none;
+}
+~~~   
 
 CSS가 열 줄에, 클래스 이름도 이상하다. 이게 더 낫다.
 
-    h2 {
-        font-size: 2em;
-        margin-bottom: 0.5em;
-    }
-    .headline {
-        padding-bottom: 0.5em;
-        border-bottom: 1px solid #ccc;
-    }
-    
+~~~ css
+h2 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+.headline {
+    padding-bottom: 0.5em;
+    border-bottom: 1px solid #ccc;
+}
+~~~    
 
 이렇게 하면 CSS는 여덟 줄이고, 앞선 선언을 취소하는 것도 없다. 클래스 이름도 훌륭하고 시맨틱하다.
 
@@ -95,15 +99,16 @@ CSS가 열 줄에, 클래스 이름도 이상하다. 이게 더 낫다.
 
 매직 넘버는 ‘반드시 그렇게만 작동하는’ 값을 말한다. 다음 예를 보자.
 
-    .site-nav {
-        [styles]
+~~~ css
+.site-nav {
+    [styles]
+}
+    .site-nav > li: hover .dropdown {
+        position: absolute;
+        top: 37px;
+        left: 0;
     }
-        .site-nav > li: hover .dropdown {
-            position: absolute;
-            top: 37px;
-            left: 0;
-        }
-    
+~~~
 
 `top: 37px;` 이게 매직 넘버다. 이걸 이렇게 작성한 이유는, 아마, `.site-nav` 안에 있는 `li`가 높이 37px로 **만들어졌고**, 그러면 `.dropdown`이 그 아래 나타나야 하기 때문일 것이다.
 
@@ -130,9 +135,11 @@ CSS가 열 줄에, 클래스 이름도 이상하다. 이게 더 낫다.
 
 조건부 선택자라는 건 이런 걸 말한다.
 
-    ul.nav {}
-    a.button {}
-    div.header {}
+~~~ css
+ul.nav {}
+a.button {}
+div.header {}
+~~~
     
 
 기본적으로, 선택자 앞에 쓸모없는 HTML 태그가 들어가 있다. 이건 나쁜 징후다. 이유는 다음과 같다.
@@ -145,9 +152,11 @@ CSS가 열 줄에, 클래스 이름도 이상하다. 이게 더 낫다.
 
 이건 모두 나쁜 특성이다. 위 선택자들은 이렇게 쓸 수 있고, 이렇게 써야 한다.
 
-    .nav {}
-    .button {}
-    .header {}
+~~~ css
+.nav {}
+.button {}
+.header {}
+~~~
     
 이제 나는 내가 `ol`에 `.nav`를 적용할 수 있다는 것을 안다. `.button`을 `input`에 적용할 수 있다는 것도 안다. 그리고, 사이트를 HTML5로 옮길 때 헤더의 `div`를 `header` 요소로 곧바로 교체할 수 있다는 것을 안다. 어떤 스타일이 무효화되지 않을까 걱정할 필요 없이 말이다.
 
@@ -155,16 +164,19 @@ CSS가 열 줄에, 클래스 이름도 이상하다. 이게 더 낫다.
 
 더 극단적인 예를 보자. 아마 이럴 거다.
 
-    ul.nav li.active a {}
-    div.header a.logo img {}
-    .content ul.features a.button {}
-    
+~~~ css
+ul.nav li.active a {}
+div.header a.logo img {}
+.content ul.features a.button {}
+~~~
 
 이 모든 선택자는 엄청 줄일 수 있거나, 완전히 다시 쓸 수 있다. 이런 식으로.
 
-    .nav .active a {}
-    .logo > img  {}
-    .features-button {}
+~~~ css
+.nav .active a {}
+.logo > img  {}
+.features-button {}
+~~~
     
 이렇게 쓰면 이런 장점이 있다.
 
@@ -179,44 +191,48 @@ CSS가 열 줄에, 클래스 이름도 이상하다. 이게 더 낫다.
 
 매직 넘버와 마찬가지로 절대값 역시 나쁜 소식이다. 절대값은 이런 것을 말한다.
 
-    h1 {
-        font-size: 24px;
-        line-height: 32px;
-    }
+~~~ css
+h1 {
+    font-size: 24px;
+    line-height: 32px;
+}
+~~~
     
 
 `line-height: 32px;` 이건 쿨하지가 않다. 이래야 한다. `line-height: 1.333`…
 
 줄간격은 유연성이 있도록 늘 상대값으로 설정해야 한다. 나중에 `h1`의 `font-size`를 변경하면, `line-height`도 같이 변하는 게 낫다. `line-height`를 상대값으로 지정하지 않으면 `h1`을 수정할 때마다 이런 식으로 작성을 해야 할 것이다.
 
-    h1 {
-        font-size: 24px;
-        line-height: 32px;
-    }
-    
-    /**
-     * Main site `h1`
-     */
-    .site-title {
-        font-size: 36px;
-        line-height: 48px;
-    }
-    
+~~~ css
+h1 {
+    font-size: 24px;
+    line-height: 32px;
+}
+
+/**
+ * Main site `h1`
+ */
+.site-title {
+    font-size: 36px;
+    line-height: 48px;
+}
+~~~
 
 처음에 줄간격을 고정으로 지정하는 바람에 우리는 계속 고정된 `line-height`를 지정해야 하게 됐다. 상대값으로 지정해서 `line-height`가 비율에 따라 변하게 하면 이렇게 간단하게 할 수 있다.
 
-    h1 {
-        font-size: 24px;
-        line-height: 1.333;
-    }
-    
-    /**
-     * Main site `h1`
-     */
-    .site-title {
-        font-size: 36px;
-    }
-    
+~~~ css
+h1 {
+    font-size: 24px;
+    line-height: 1.333;
+}
+
+/**
+ * Main site `h1`
+ */
+.site-title {
+    font-size: 36px;
+}
+~~~   
 
 큰 차이가 없어 보일 수도 있다. 하지만 커다란 프로젝트에서 모든 텍스트 요소에 적용되면, 이건 큰 문제가 된다.
 
@@ -232,14 +248,15 @@ CSS가 열 줄에, 클래스 이름도 이상하다. 이게 더 낫다.
 
 절대값과 비슷한 건데, 조금 더 특수하다. 폭력적인 CSS는 절대값과 매직 넘버를 사용하고 또 레이아웃을 강제로 지정하는 여러 기술을 사용하는 경우를 말한다. 이런 거다.
 
-    .foo {
-        margin-left: -3px;
-        position: relative;
-        z-index: 99999;
-        height: 59px;
-        float: left;
-    }
-    
+~~~ css
+.foo {
+    margin-left: -3px;
+    position: relative;
+    z-index: 99999;
+    height: 59px;
+    float: left;
+}
+~~~
 
 **끔찍한** CSS다. 모든 선언은 필요 이상으로 엄격하고, 폭력적이고, 어디에 어떻게 렌더링할 것인지 **완전히** 강제함으로써 레이아웃에 영향을 준다.[^terrible]
 
@@ -259,11 +276,12 @@ CSS가 열 줄에, 클래스 이름도 이상하다. 이게 더 낫다.
 
 ‘위험한 선택자’란 너무 광범위하게 적용될 수 있는 것을 말한다. 다음은 정말 명확하고 간단한 위험한 선택자 예시다.
 
-    div {
-       background-color: #ffc;
-       padding: 1em;
-    }
-    
+~~~ css
+div {
+   background-color: #ffc;
+   padding: 1em;
+}
+~~~
 
 이걸 보기만 하면 개발자들은 비명을 지를 거다. 도대체 왜 사이트에 있는 모든 `div`에 융단 폭격을 가하는 거지? 좋은 질문이다. 그렇다면 예컨대, `aside {}` 처럼 선택자를 사용하는 이유는 뭘까? `header {}`는? `ul {}`은? 이런 선택자는 너무 **멀리**까지 영향을 미치고 결국은 우리가 앞선 섹션에서 다룬 취소 CSS를 사용하게 만든다.
 
@@ -271,13 +289,14 @@ CSS가 열 줄에, 클래스 이름도 이상하다. 이게 더 낫다.
 
 많은 이들이 사이트 메인 헤더를 정의하기 위해 `header` 요소를 사용한다. 그건 좋은 일이다. 그런데 이런 식으로 헤더 스타일을 정의한다면,
 
-    header {
-        padding: 1em;
-        background-color: #BADA55;
-        color: #fff;
-        margin-bottom: 20px;
-    }
-    
+~~~ css
+header {
+    padding: 1em;
+    background-color: #BADA55;
+    color: #fff;
+    margin-bottom: 20px;
+}
+~~~
 
 … 그러면 좋지 않다. `header` 요소는 ‘사이트의 메인 헤더’를 의미하지 **않는다**. 그리고 스펙을 보면, `header` 요소는 여러 맥락에서 여러 번 사용될 수 있다. 위 예제는, 예를 들면, `.site-header {}` 같은 식으로 사용돼야 한다.
 
@@ -287,13 +306,14 @@ CSS가 열 줄에, 클래스 이름도 이상하다. 이게 더 낫다.
 
 이런 식으로.
 
-    ul {
-        font-weight: bold;
-    }
-    header .media {
-        float: left;
-    }
-    
+~~~ css
+ul {
+    font-weight: bold;
+}
+header .media {
+    float: left;
+}
+~~~
 
 나는, 위의 예시처럼, 태그 선택자나 아주 일반적화된 클래스를 만다면 패닉에 빠진다. 저런 선택자는 아주 광범위하게 영향을 미치고 금세 문제를 일으킬 것이다. 위에서 지정한 요소를 다른 데서 사용하려고 하는 순간, 저 광범위한 선택자가 여기까지 영향을 미쳐서, 불필요한 스타일을 상속시켰다는 걸 알게 된다.
 
@@ -311,10 +331,11 @@ CSS가 열 줄에, 클래스 이름도 이상하다. 이게 더 낫다.
 
 예컨대, 에러는 **언제나** 빨간 색이라는 것을 알고 있다. 그래서 이런 선언은 아주 괜찮다.
 
-    .error-text {
-        color: #c00!important;
-    }
-    
+~~~ css
+.error-text {
+    color: #c00!important;
+}
+~~~
 
 텍스트가 파란 `div`에서 에러가 나면, 규칙이 깨져서 혼란스러울 수 있다. 우리는 그게 에러라는 걸 알 수 있도록 **언제나** 에러가 빨간색이길 바란다. 그리고 사용자 메시지는 언제나 일관돼야 한다. 그러면 우리는 명확한 의도를 가지고 `!important`를 추가할 수 있다. 에러는 언제나 빨간 색이라는 걸 알고 있기 때문이다.
 

@@ -21,7 +21,7 @@ category: "etc"
 
 ![](https://mytory.net/uploads/legacy/shirinkable-tube-1.jpg)
 
-아래 동영상처럼 헤어 드라이기로 졸라 가열하면 된다. 그러면 튜브가 수축하면서 라이트닝 케이블의 벗겨진 피복을 착 감싸 안는다.
+아래 동영상처럼 헤어 드라이기로 매우 가열하면 된다. 그러면 튜브가 수축하면서 라이트닝 케이블의 벗겨진 피복을 착 감싸 안는다.
 
 <iframe width="300" height="225" src="//www.youtube.com/embed/X1FH8qwMGm8" frameborder="0" allowfullscreen></iframe>
 

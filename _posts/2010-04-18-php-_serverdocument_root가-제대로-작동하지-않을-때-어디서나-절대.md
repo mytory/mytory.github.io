@@ -21,4 +21,4 @@ PHP에서 서버 루트의 절대경로는 `$_SERVER['DOCUMENT_ROOT']`다. 그�
 
 <a href="http://php.net/manual/en/reserved.variables.server.php" target="_blank">PHP의 $_SERVER 변수 매뉴얼</a>이나 내 글 <a href="http://mytory.textcube.com/entry/SERVER-%EB%B3%80%EC%88%98-%EB%AA%A8%EC%9D%8C" target="_blank">$_SERVER[] 변수 구하기</a>를 참고하면 도움이 될 것이다.
 
-단, 이게 어디서나 제대로 작동할 거라고 장담할 수는 없다. 이거 땜에 졸라 고생했다. 쌍.
+단, 이게 어디서나 제대로 작동할 거라고 장담할 수는 없다. 이거 땜에 매우 고생했다. 쌍.

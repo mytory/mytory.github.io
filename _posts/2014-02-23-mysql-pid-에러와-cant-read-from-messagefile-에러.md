@@ -15,7 +15,7 @@ tags:
     The server quit without updating PID file (/var/run/mysqld/mysqld.pid). debian
     
 
-졸라 헤맨 끝에 `/var/log/syslog`를 보니 제대로 된 에러 메시지를 찾을 수 있었다. 아래와 같은 에러 메시지를 뿜고 있었다.
+매우 헤맨 끝에 `/var/log/syslog`를 보니 제대로 된 에러 메시지를 찾을 수 있었다. 아래와 같은 에러 메시지를 뿜고 있었다.
 
     [Warning] An old style --language or -lc-message-dir value with language specific part detected: /usr/share/mysql/
     [Warning] Use --lc-messages-dir without language specific part instead.

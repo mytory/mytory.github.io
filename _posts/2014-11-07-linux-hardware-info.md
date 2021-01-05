@@ -21,7 +21,7 @@ tags:
 - `df -h` : 터미널좀 쓰면 다들 아는 명령어일 거다. 하드 사용량을 본다. `-H` 옵션을 주면 1GB를 1000MB로 계산한다.
 - `pydf` : python으로 짠 `df` 개선 버전이라는데 opensuse 저장소엔 없다.
 - `sudo fdisk -l` : 터미널 배울 때 거의 가장 처음 배우는 명령어니까 뭐 설명이 필요없겠지.
-- `mount | column -t` : 마운트된 파일시스템을 볼 때 쓴다고.  근데 뭐가 졸라 많이 나온다. `column -t` 명령은 그냥 출력 내용을 정리해 주는 역할을 한다.
+- `mount | column -t` : 마운트된 파일시스템을 볼 때 쓴다고.  근데 뭐가 매우 많이 나온다. `column -t` 명령은 그냥 출력 내용을 정리해 주는 역할을 한다.
 - `mount | column -t | grep ext` : 하드디스크 정보만 본다. 마운트 포인트랑 dev 이름이랑 나오니까 쓸 데가 있을 거다.
 - `free -m` : 메모리 정보를 보여 준다. 이건 뭐 `top`으로 봐도 되는 거 아님?
 - `dmidecode -t ...` : `-t` 뒤에 `bios`, `memory`, `processor`, `system`, `baseboard`, `chassis`, `cache`, `connector`, `slot` 같은 것을 붙여서 해당 정보를 본다. `dmidecode -t`라고만 치면 키워드가 잘못됐다고 나오면서 어떤 키워드를 넣을 수 있는지 보여 준다. 대충 때려 넣자.

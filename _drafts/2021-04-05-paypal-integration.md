@@ -5,6 +5,8 @@ tags:
     - paypal checkout
 ---
 
+[페이팔 결제는 한국 내 거래를 허용하지 않는다.][not-in-korea]
+
 페이팔 결제 두 종류. 개인, 법인. 법인이 결제를 받기 위해 웹사이트에 결제 API를 통합하는 과정을 설명한다. 자세한 내용은 [페이팔 체크아웃][doc]에 설명돼 있다.
 
 ## 결제 과정 요약
@@ -47,6 +49,7 @@ javascript SDK로 버튼을 렌더링한다. 버튼 컨테이너를 지정하면
 Vue 예제는 잘 작동하지 않았다. 컴포넌트의 콜백함수에서 에러가 났다.
 
 
+[not-in-korea]: https://www.paypal.com/kr/webapps/mpp/system-enhancement-faq?locale.x=ko_KR
 [doc]: https://developer.paypal.com/docs/checkout/
 [webhook]: https://developer.paypal.com/docs/api-basics/notifications/webhooks/
 [auth-capture]: https://developer.paypal.com/docs/admin/auth-capture/
@@ -180,8 +183,8 @@ http -v --form https://api-m.sandbox.paypal.com/v1/oauth2/token \
 access token을 사용해야 한다.
 
 ```bash
-http -v https://api.sandbox.paypal.com/v2/checkout/orders/5PU07881WC5933543 \
-	'Authorization: Bearer A21AAKuswWQnZnaZJe58X9KfswWt7GiDThgDbPN-CSXibqZrepB29A_r8QMuxElS-MXlcVyOVGxsOLtBp857I1ktzqM_j7ffQ' \
+http -v https://api.sandbox.paypal.com/v2/checkout/orders/9LD9278185915435H \
+	'Authorization: Bearer A21AALVRc36leGhp9DRAWdwVBtA1vqL3n1ZU_8tcpbSKLOpWr_LTmtBSmp_pUCMLBkWebFq4kkiefd81SOUIFvC9HlwDyvwvA' \
 	'Content-Type: application/json'
 
 http -v post https://api.sandbox.paypal.com/v2/payments/captures/54B75737613676525/refund \

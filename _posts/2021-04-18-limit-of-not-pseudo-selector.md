@@ -1,5 +1,5 @@
 ---
-title: 'CSS :not(selector) 가상 선택자의 한계'
+title: 'CSS :not(selector) 가상 선택자의 한계 잘 알고 쓰기'
 layout: post
 tags: 
     - CSS

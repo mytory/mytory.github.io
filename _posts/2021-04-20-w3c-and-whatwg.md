@@ -12,7 +12,7 @@ W3C와 WHATWG[^pronounce]는 다른 조직이다.
 
 W3C는 2021년 4월 20일 현재 437개 회원사를 가진 조직이다. 웹의 창시자인 팀 버너스 리가 1994년에 만들었다. (참고: [한글 위키피디아 W3C](https://ko.wikipedia.org/wiki/W3C) )
 
-WHATWG은 W3C가 의사결정이 느리다는 이유로 애플, 모질라 재단[^firefox], 오페라 소프트웨어[^opera]가 모여서 2004년에 만든 그룹이다. 지금은 구글과 마이크로소프트까지 해서 5개사가 중심적이라고 한다. (참고: [영문 위키피디아 WHATWG](https://en.wikipedia.org/wiki/WHATWG))
+WHATWG은 W3C가 의사결정이 느리다는 이유로 애플, 모질라 재단[^firefox], 오페라 소프트웨어[^opera]가 모여서 2004년에 만든 그룹이다. 지금은 애플, 모질라, 구글과 마이크로소프트 4개사가 핵심그룹([Steering Group][steering])이다. (참고: [영문 위키피디아 WHATWG](https://en.wikipedia.org/wiki/WHATWG))
 
 웹의 역사에서 WHATWG의 주요 역할은 2007년에 HTML5 명세를 W3C에 제안해 이를 기반으로 HTML5가 만들어지게 한 것이다. 
 
@@ -35,6 +35,7 @@ W3C의 마지막 HTML 표준(Recommendation)[^recommendation]은 2017년에 발�
 [^opera]: 오페라 브라우저의 개발사다.
 [^recommendation]: 온전히 번역하면 권고안이겠지만, 이게 웹표준을 말하는 것이므로 이해를 돕기 위해 여기서는 표준이라고 번역했다. MDN HTML 요소 설명 문서의 하단 표에 나와 있는 W3C의 Recommendation이 W3C가 발표했던 표준이다.
 
+[steering]: https://whatwg.org/sg-agreement
 [win]: https://www.zdnet.com/article/browser-vendors-win-war-with-w3c-over-html-and-dom-standards/
 [html52]: https://www.w3.org/TR/html52/introduction.html#introduction-history
 [html53]: https://www.w3.org/TR/html53/

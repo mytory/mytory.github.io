@@ -28,11 +28,12 @@ HTML 5.3은 개발이 중단됐다. 현재 [HTML 5.3 페이지][html53]에 접�
 
 ![](/uploads/2021/html53.png)
 
-W3C의 마지막 HTML 표준(Recommendation)은 2017년에 발표한 HTML 5.2가 됐다.
+W3C의 마지막 HTML 표준(Recommendation)[^recommendation]은 2017년에 발표한 HTML 5.2가 됐다.
 
 [^pronounce]: Web Hypertext Application Technology Working Group. 왓위지, 왓위그, 왓더블유지 등으로 읽는다. [출처: whatwg FAQ](https://whatwg.org/faq)
 [^firefox]: 파이어폭스 브라우저의 개발사다.
 [^opera]: 오페라 브라우저의 개발사다.
+[^recommendation]: 굳이 온전히 번역하면 권고안이겠지만, 이게 웹표준을 말하는 것이므로 표준이라고 번역했다. MDN 표에 나와 있는 W3C의 Recommendation이 W3C가 발표했던 표준이다.
 
 [win]: https://www.zdnet.com/article/browser-vendors-win-war-with-w3c-over-html-and-dom-standards/
 [html52]: https://www.w3.org/TR/html52/introduction.html#introduction-history

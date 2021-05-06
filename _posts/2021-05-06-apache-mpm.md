@@ -3,14 +3,16 @@ title: '아파치 MPM 유형 설명 - prefork, worker, event'
 layout: post
 tags: 
     - apache
-description: prefork가 가장 안정적이고 event가 가장 빠르다. worker는 중간.
+description: event가 가장 빠르다. prefork는 쓰레드를 지원하지 않는 어플리케이션을 사용하는 경우 쓰는데 느리다. worker는 중간.
 ---
 
 아파치 웹서버 최적화를 수행하면서 조금 공부한 것을 공유한다.
 
 일단 아파치가 여러 요청을 동시에 처리해 성능을 향상시키기 위해 사용하는 것은 MultiProcess Module(MPM, 다중 처리 모듈)이다. 
 
-이 모듈은 자식 프로세스와 스레드를 생성해 여러 요청에 대응하는데, 자식 프로세스와 스레드를 어떻게 활용하는가에 따라 몇가지 종류로 나뉜다. 프로세스만 사용하면 메모리 사용은 높아지지만 한 프로세스가 한 커넥션만 처리해 안정적이다. 스레드를 적극 활용하면 메모리 사용은 낮아지고 성능이 높아지지만 한 프로세스가 여러 연결을 처리하게 되므로 한 연결이 오염됐을 때 다른 연결이 함께 오염될 수 있다고 한다(이 이상 구체적으로 파지는 않았다).
+이 모듈은 자식 프로세스와 스레드를 생성해 여러 요청에 대응하는데, 자식 프로세스와 스레드를 어떻게 활용하는가에 따라 몇가지 종류로 나뉜다. 프로세스만 사용하면 메모리 사용은 높아지지만 한 프로세스가 한 커넥션만 처리해 스레드를 사용하지 못하는 어플리케이션을 안전하게 돌릴 수 있다. 스레드를 적극 활용하면 메모리 사용은 낮아지고 성능이 높아지지만 한 프로세스가 여러 연결을 처리하게 되므로 한 연결이 오염됐을 때 다른 연결이 함께 오염될 수 있다고 한다(이 이상 구체적으로 파지는 않았다).
+
+내가 아는 바로는 `mod_php`는 스레드를 안전하게 처리하지 못한다([출처][mod-php-thread]). 스레드를 사용하려면 PHP FPM을 사용해야 한다.
 
 리눅스에서는 세 가지 MPM 모듈을 지원한다.[^fn] 아래는 디지털오션에 있는 [한 튜토리얼의 설명][digitalocean]을 번역한 것이다. 
 
@@ -28,7 +30,7 @@ description: prefork가 가장 안정적이고 event가 가장 빠르다. worker
 
 나 같은 경우는 apache의 `mod_php`를 비활성화하고 `php-fpm`을 사용할 목적으로 작업하던 와중에 `mpm_event` 모듈을 사용하게 됐다. 
 
-그래서 apache `mod_php`를 사용하면서 `mpm_event`를 사용하는 것에 대해서는 아는 바가 없다. (아마 될 것 같긴 하지만 안 해 봐서 확신은 없다.)
+그래서 apache `mod_php`를 사용하면서 `mpm_event`를 사용하는 것에 대해서는 아는 바가 없다. 아마 될 것 같긴 하지만 제품 레벨에서 사용을 권장하지 않는다고 하니 굳이 알아 보지 않았다.
 
 
 ## 우분투 명령어
@@ -48,3 +50,4 @@ sudo a2enmod mpm_prefork
 ```
 
 [digitalocean]: https://www.digitalocean.com/community/tutorials/how-to-configure-apache-http-with-mpm-event-and-php-fpm-on-ubuntu-18-04
+[mod-php-thread]: https://wiki.modernpug.org/questions/25234435/apache-threaded-mpm-+-modphpzts%EB%A5%BC-production-%EB%A0%88%EB%B2%A8%EC%97%90%EC%84%9C-%EC%82%AC%EC%9A%A9%ED%95%98%EC%A7%80-%EB%A7%90%EB%9D%BC%EA%B3%A0-%EA%B6%8C%ED%95%98%EB%8A%94-%EC%9D%B4%EC%9C%A0

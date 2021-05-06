@@ -31,7 +31,7 @@ description: prefork가 가장 안정적이고 event가 가장 빠르다. worker
 그래서 apache `mod_php`를 사용하면서 `mpm_event`를 사용하는 것에 대해서는 아는 바가 없다. (아마 될 것 같긴 하지만 안 해 봐서 확신은 없다.)
 
 
-## 명령어
+## 우분투 명령어
 
 여하간 `mpm_prefork` 모듈을 끄고 `mpm_event` 모듈을 활성화하는 명령은 다음과 같다.
 

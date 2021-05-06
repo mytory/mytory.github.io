@@ -32,6 +32,8 @@ description: event가 가장 빠르다. prefork는 쓰레드를 지원하지 않
 
 그래서 apache `mod_php`를 사용하면서 `mpm_event`를 사용하는 것에 대해서는 아는 바가 없다. 아마 될 것 같긴 하지만 제품 레벨에서 사용을 권장하지 않는다고 하니 굳이 알아 보지 않았다.
 
+우분투에서 `mpm_event`와 PHP FPM을 사용하려면 이 튜토리얼을 참고하라: [How To Configure Apache HTTP with MPM Event and PHP-FPM on Ubuntu 18.04][digitalocean]
+
 
 ## 우분투 명령어
 

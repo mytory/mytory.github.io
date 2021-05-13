@@ -12,10 +12,12 @@ email: "mail@mytory.net"
 twitter_username: "mytory"
 github_username: "mytory"
 
-kramdown:
-  syntax_highlighter_opts:
-    default_lang: plaintext
+markdown: CommonMark
+commonmark:
+  options: ["SMART", "FOOTNOTES"]
+  extensions: ["strikethrough", "autolink", "table"]
 
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-commonmark

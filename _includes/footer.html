@@ -1,8 +1,8 @@
 <footer class="site-footer  no-print">
 
-  <div class="wrapper">
-    <h2 class="footer-heading">&copy; {{ site.title }}</h2>
-    <address>
+    <div class="wrapper">
+        <h2 class="footer-heading">&copy; {{ site.title }}</h2>
+        <address>
       <a class="footer-addr" href="mailto:mail@mytory.net">mail@mytory.net</a>
       <a class="footer-addr" href="/%ec%9d%b4%eb%a9%94%ec%9d%bc%eb%a1%9c-%ea%b5%ac%eb%8f%85%ed%95%98%ea%b8%b0">Newsletter</a>
       <a class="footer-addr" href="http://feeds.feedburner.com/mytory_tc">RSS</a>
@@ -11,42 +11,50 @@
       <a class="footer-addr" href="https://plus.google.com/112373772451309371763?rel=author">Google+</a>
       <a class="footer-addr" href="https://github.com/mytory" rel="me">GitHub</a>
     </address>
-    <div>Powered By <a href="http://jekyllrb.com/">Jekyll</a></div>
-  </div>
+        <div>Powered By <a href="http://jekyllrb.com/">Jekyll</a></div>
+    </div>
 
 </footer>
 
 <script src="/js-lib/barefoot/dist/js/barefoot.min.js"></script>
 
 <script>
-  lf = new BareFoot();
-  lf.init();
+    lf = new BareFoot();
+    lf.init();
 </script>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
-<script>hljs.initHighlightingOnLoad();</script>
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/highlight.min.js" integrity="sha512-s+tOYYcC3Jybgr9mVsdAxsRYlGNq4mlAurOrfNuGMQ/SCofNPu92tjE7YRZCsdEtWL1yGkqk15fU/ark206YTg==" crossorigin="anonymous"></script>
 <script>
-  // google cse
-  (function() {
-    var cx = '015481257105160606330:__la9bjmk_w';
-    var gcse = document.createElement('script');
-    gcse.type = 'text/javascript';
-    gcse.async = true;
-    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(gcse, s);
-  })();
+    hljs.initHighlightingOnLoad();
 </script>
 
 <script>
-  // ga
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    // google cse
+    (function() {
+        var cx = '015481257105160606330:__la9bjmk_w';
+        var gcse = document.createElement('script');
+        gcse.type = 'text/javascript';
+        gcse.async = true;
+        gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(gcse, s);
+    })();
+</script>
 
-  ga('create', 'UA-10285539-1', 'auto');
-  ga('send', 'pageview');
+<script>
+    // ga
+    (function(i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function() {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
+    ga('create', 'UA-10285539-1', 'auto');
+    ga('send', 'pageview');
 </script>

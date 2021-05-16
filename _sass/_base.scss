@@ -205,8 +205,7 @@ code {
     pre {
         padding: $base-font-size;
     }
-    .highlight,
-    >pre {
+    .highlight {
         border-radius: 4px;
         background-color: $brand-color2;
         color: #FFF;

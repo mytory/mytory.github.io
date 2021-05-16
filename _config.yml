@@ -12,6 +12,8 @@ email: "mail@mytory.net"
 twitter_username: "mytory"
 github_username: "mytory"
 
+markdown: kramdown
+
 plugins:
   - jekyll-paginate
   - jekyll-sitemap

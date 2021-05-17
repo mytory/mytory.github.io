@@ -23,7 +23,7 @@ display_items[0][x]=1&display_items[0][y]=0&display_items[0][width]=2&display_it
 
 검색을 해 보니 이것이 php.ini의 [`max_input_vars`](https://www.php.net/manual/en/info.configuration.php#ini.max-input-vars) 옵션값에 영향을 받는 문제라는 사실을 알게 됐다. PHP 공식 문서의 설명을 보자.
 
-> 얼마나 많은 [입력 변수](https://www.php.net/manual/en/language.variables.external.php)가 허용되는지(`$_GET`, `$_POST`, `$_COOKIE` 슈퍼글로벌 변수에 각각 제한이 적용된다). 이 지시자를 사용해서 해시 충돌을 이용한 DOS(denial of service, 서비스 거부) 공격 가능성을 완화시킨다. 이 지시자가 지정한 수를 넘어서는 입력 변수가 있으면 **`E_WARNING`**이 발생하며, 숫자를 초과한 변수는 요청에서 제거된다.
+>  max_input_vars(int): 얼마나 많은 [입력 변수](https://www.php.net/manual/en/language.variables.external.php)가 허용되는지(`$_GET`, `$_POST`, `$_COOKIE` 슈퍼글로벌 변수에 각각 제한이 적용된다). 이 지시자를 사용해서 해시 충돌을 이용한 DOS(denial of service, 서비스 거부) 공격 가능성을 완화시킨다. 이 지시자가 지정한 수를 넘어서는 입력 변수가 있으면 **`E_WARNING`**이 발생하며, 숫자를 초과한 변수는 요청에서 제거된다.
 
 즉, `$_POST` 안의 배열 아이템이 1000개가 넘어가는 순간 이하 내용은 잘렸던 것이다.
 

@@ -12,15 +12,6 @@ description: 더글라스 헤리엇이 모든 브라우저에서 작동하는 CS
 image: /uploads/legacy/css-absolute-center/tutorial/demo-thumb.jpg
 ---
 
-원문은 CSS로 수직 가운데 정렬 하기(Vertical Centering with CSS)다.[^improvement][^original] 2009년 2월 말에 씌어졌고, 이 때는 아직 IE8 베타 버전만 나와있던 때다. IE8 정식 버전은 2009년 3월 19일에 출시됐다.
-
-(참고로 [수직 가운데 정렬을 해 주는 jQuery 플러그인][1]도 있다. CSS 기법으로 처리 못하는 경우에는 사용할 수도 있을 것이다.)
-
-[^improvement]: 내가 번역한 글은 저자가 원문을 약간 개선한 것을 이메일로 보내준 것이다.
-[^original]: 원문이 사라졌다! 원문의 원래 URL은 `http://blog.themeforest.net/tutorials/vertical-centering-with-css/`였다.
-
-----
-
 ## 2017-01-05
 
 이제는 세월이 흘러 IE8 지원도 하지 않는 곳이 많아졌다. IE6까지 지원하느라 고생했던 것을 생각하면 격세지감이다. 하지만 여전히 아래 기법들은 유효하다. (IE5~6을 지원하기 위한 코드 자체를 제외하면.)
@@ -28,6 +19,25 @@ image: /uploads/legacy/css-absolute-center/tutorial/demo-thumb.jpg
 `display: flex`를 대부분의 브라우저에서 사용할 수 있게 된 것도 희소식이다. 수직 가운데 정렬이 훨씬 편해졌다. 다만 IE9이 이걸 지원하지 않는다는 점이 문제다.
 
 이 글은 2009년에 나온 글이라 플렉스박스에 대한 설명은 없다. `display: flex`를 이용한 기법을 간단하게 살펴 보고 싶다면 [Vertical Centering in CSS][14]를 참고하라.
+
+기본적으로 flexbox를 이용한 수직 가운데 정렬은 아래 코드를 이용하면 된다. (2021년 6월 4일에 추가함.)
+
+~~~css
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+~~~
+
+----
+
+원문은 CSS로 수직 가운데 정렬 하기(Vertical Centering with CSS)다.[^improvement][^original] 2009년 2월 말에 씌어졌고, 이 때는 아직 IE8 베타 버전만 나와있던 때다. IE8 정식 버전은 2009년 3월 19일에 출시됐다.
+
+(참고로 [수직 가운데 정렬을 해 주는 jQuery 플러그인][1]도 있다. CSS 기법으로 처리 못하는 경우에는 사용할 수도 있을 것이다.)
+
+[^improvement]: 내가 번역한 글은 저자가 원문을 약간 개선한 것을 이메일로 보내준 것이다.
+[^original]: 원문이 사라졌다! 원문의 원래 URL은 `http://blog.themeforest.net/tutorials/vertical-centering-with-css/`였다.
 
 ----
 

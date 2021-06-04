@@ -34,8 +34,6 @@ image: /uploads/legacy/css-absolute-center/tutorial/demo-thumb.jpg
 
 원문은 CSS로 수직 가운데 정렬 하기(Vertical Centering with CSS)다.[^improvement][^original] 2009년 2월 말에 씌어졌고, 이 때는 아직 IE8 베타 버전만 나와있던 때다. IE8 정식 버전은 2009년 3월 19일에 출시됐다.
 
-(참고로 [수직 가운데 정렬을 해 주는 jQuery 플러그인][1]도 있다. CSS 기법으로 처리 못하는 경우에는 사용할 수도 있을 것이다.)
-
 [^improvement]: 내가 번역한 글은 저자가 원문을 약간 개선한 것을 이메일로 보내준 것이다.
 [^original]: 원문이 사라졌다! 원문의 원래 URL은 `http://blog.themeforest.net/tutorials/vertical-centering-with-css/`였다.
 
@@ -628,7 +626,6 @@ IE6 스타일시트는 IE5의 문제까지 함께 해결한다. 그래서 조건
 * [Vertical Centering in CSS(CSS에서 수직 가운데 정렬하기)][14]
 
 
- [1]: https://github.com/PaulSpr/jQuery-Flex-Vertical-Center
  [3]: /uploads/legacy/css-absolute-center/demo/demo4.html
  [4]: http://phrogz.net/CSS/vertical-align/index.html
  [5]: /uploads/legacy/css-absolute-center/demo/demo5.html

@@ -106,10 +106,12 @@ figure,
 /**
  * Images */
 
-img {
+img,
+video {
     max-width: 100%;
     height: auto;
     vertical-align: middle;
+    margin-bottom: $spacing-unit / 2;
 }
 
 

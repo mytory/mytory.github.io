@@ -19,13 +19,13 @@ VSCode도 기본적으로 PHP를 지원하지만 [PHP Intelephense][1]가 가장
 
 유료 버전을 필수로 꼽은 결정적 이유는 rename 기능 때문이다. 중요한 변경에서 결정적으로 속도가 빨라진다(아래 영상).
 
-<video autoplay muted controls>
+<video muted controls>
     <source src="/uploads/2021/rename.mp4"></source>
 </video>
 
 부차적이지만 유료 버전엔 스마트 셀렉션 기능이 있다. 단어 → 단어를 감싼 괄호 → 괄호 너머 블럭 순서로 선택을 확장해 주는 기능이다(아래 영상). PhpStorm에서 유용하게 쓴 기능이라 없어서 아쉬웠는데 뜻하지 않게 다시 쓸 수 있게 됐다.
 
-<video autoplay muted controls>
+<video muted controls>
     <source src="/uploads/2021/smart-select.mp4"></source>
 </video>
 
@@ -40,7 +40,7 @@ VSCode도 기본적으로 PHP를 지원하지만 [PHP Intelephense][1]가 가장
 
 [Code Spell Checker][2]는 사전에 없는 영어 단어에 밑줄을 그어 주는 플러그인이다. 오타를 잡는 효과적인 수단을 제공해 준다.
 
-<video autoplay muted controls>
+<video muted controls>
     <source src="/uploads/2021/spell-checker.mp4"></source>
 </video>
 

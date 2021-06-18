@@ -10,7 +10,9 @@ VSCode를 많이들 사용하게 되면서 나도 VSCode로 갈아탈만 하지 
 
 개인적으로는 PhpStorm이 가장 좋다고 생각한다. PHP 지원 때문만이 아니다. HTML, CSS, js 지원이 강력하기 때문이다. 
 
-VSCode를 쓰려는 이유는 무료라서다. 나에게도 좋지만 내가 가르칠 사람들에게도 좋을 테니까 말이다.
+VSCode를 쓰려는 이유는 무료라서다. 나에게도 좋지만, 동영상 강의를 촬영할 때 아무래도 유료 프로그램보다는 무료가 나을 것 같아서다.
+
+[3년 전에도 VSCode를 사용하려고 시도][3years-ago]한 적이 있다. 그 때는 다른 강의를 보면서 공부한 것을 정리했다. 이번에는 실제 쓰면서 정리를 할 예정이다.
 
 
 ## 필수: PHP Intelephense 유료 버전(12달러)
@@ -59,6 +61,7 @@ PhpStorm에서 자동 저장에 의존하는 습관을 들이는 바람에 VSCod
 - 좋은 SASS 확장을 찾고 있다.
 
 
+[3years-ago]: https://mytory.net/2018/08/26/vscode-study.html
 [1]: https://marketplace.visualstudio.com/items?itemName=bmewburn.vscode-intelephense-client
 [license]: https://intelephense.com/
 [2]: https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker

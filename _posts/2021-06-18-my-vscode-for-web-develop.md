@@ -66,6 +66,12 @@ PhpStorm에서 자동 저장에 의존하는 습관을 들이는 바람에 VSCod
 ![](/uploads/2021/php-word-separator.webp)
 
 
+## 확장 - 단축키로 파일을 여는 확장 [Open file][open-file]
+
+PhpStorm 등 IDE에서는 심볼(함수, 변수 등) 정의로 점프하는 단축키로 PHP 인클루드 파일이나 SASS 임포트 파일도 열 수 있는데 이상하게 VSCode에서는 심볼 정의로 점프하는 단축키인 F12로 파일을 열 수가 없다.
+
+[Open file][open-file]을 설치하면 <kbd>Alt</kbd>-<kbd>p</kbd>로 파일을 열 수 있다. 확장이 경로를 확실히 찾지 못하면 <kbd>Ctrl</kbd>/<kbd>Cmd</kbd>-<kbd>p</kbd>에 경로의 문자열을 자동으로 넣어 줘서 수동으로 찾는 것을 도와 준다.
+
 
 ## 찾는 확장
 
@@ -76,3 +82,4 @@ PhpStorm에서 자동 저장에 의존하는 습관을 들이는 바람에 VSCod
 [1]: https://marketplace.visualstudio.com/items?itemName=bmewburn.vscode-intelephense-client
 [license]: https://intelephense.com/
 [2]: https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker
+[open-file]: https://marketplace.visualstudio.com/items?itemName=Fr43nk.seito-openfile

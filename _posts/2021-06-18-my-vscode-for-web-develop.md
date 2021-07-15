@@ -34,6 +34,17 @@ VSCode도 기본적으로 PHP를 지원하지만 [PHP Intelephense][1]가 가장
 그리고 유료 라이센스를 구입했다면 라이센스 키를 입력해야 한다. <kbd>Cmd</kbd>/<kbd>Ctrl</kbd>-<kbd>Shift</kbd>-<kbd>p</kbd>를 눌러 명령 패널을 연 뒤 `intelephense enter licence key`라고 검색하면 바로 나온다. 입력해 주면 된다.
 
 
+## 필수: PHP Namespace Resolver
+
+[PHP Namespace Resolver][php-namespace-resolver]는 클래스를 임포트하거나 네임스페이스를 확장해 준다. PHP 개발을 하려면 필수 확장이다. 
+
+임포트하지 않은 클래스를 사용하면 빨간 줄이 그어진다. 이 때 빨간 줄 위에서 <kbd>Cmd</kbd>/<kbd>Ctrl</kbd>-<kbd>.</kbd>(VSCode의 빠른 수정 기본 단축키다)을 눌러서 수정을 시도하면 임포트할 후보들을 보여 준다. 적절한 클래스를 선택해 주면 된다.
+
+아래는 공식 페이지의 영상.
+
+![](/uploads/2021/php-namespace-resolver.gif)
+
+
 ## Code Spell Checker
 
 [Code Spell Checker][2]는 사전에 없는 영어 단어에 밑줄을 그어 주는 플러그인이다. 오타를 잡는 효과적인 수단을 제공해 준다.
@@ -83,3 +94,4 @@ PhpStorm 등 IDE에서는 심볼(함수, 변수 등) 정의로 점프하는 단�
 [license]: https://intelephense.com/
 [2]: https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker
 [open-file]: https://marketplace.visualstudio.com/items?itemName=Fr43nk.seito-openfile
+[php-namespace-resolver]: https://marketplace.visualstudio.com/items?itemName=MehediDracula.php-namespace-resolver

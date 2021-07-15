@@ -17,9 +17,11 @@ VSCode를 쓰려는 이유는 무료라서다. 나에게도 좋지만, 동영상
 
 ## 필수: PHP Intelephense 유료 버전(12달러)
 
-VSCode도 기본적으로 PHP를 지원하지만 [PHP Intelephense][1]가 가장 강력하다. 12달러(약 13500원)를 내면 [유료 라이센스][license]를 살 수 있다. 
+VSCode도 기본적으로 PHP를 지원하지만 [PHP Intelephense][1]가 가장 강력하다. PHP Intellisense라는 확장도 있지만 PHP intelephense에 비해 기능과 속도가 떨어진다. 
 
-유료 버전을 필수로 꼽은 결정적 이유는 rename 기능(<kbd>F2</kbd>) 때문이다. 중요한 변경에서 결정적으로 속도가 빨라진다(아래 영상).
+PHP Intelephense는 무료로 사용할 수 있는데, 유료 라이센스를 구입하면 좀더 강력한 기능들을 개방해 준다. [유료 라이센스][license]는 12달러(약 13500원)다.
+
+유료 버전을 필수로 꼽은 결정적 이유는 rename 기능(<kbd>F2</kbd>) 때문이다. 중요한 변경에서 결정적으로 속도가 빨라진다(아래 영상). VSCode 내장 PHP 지원과 Intellisense, 그리고 Intelephense 무료 버전은에서는 지원이 안 된다.
 
 ![](/uploads/2021/rename.webp)
 
@@ -27,11 +29,12 @@ VSCode도 기본적으로 PHP를 지원하지만 [PHP Intelephense][1]가 가장
 
 ![](/uploads/2021/smart-select.webp)
 
+
 ### 주목 - 설치 후처리
 
-설치 후 설명에 따라 VSCode의 기본 PHP 지원을 꺼야 한다. 확장 설치 패널에서 `@builtin PHP`로 검색한 뒤 **PHP Language Features**를 disable로 만든다. PHP Language Basics는 건드리지 않는다.
+1. 설치 후 VSCode의 기본 PHP 지원을 꺼야 한다. 확장 설치 패널에서 `@builtin PHP`로 검색한 뒤 **PHP Language Features**를 disable로 만든다. PHP Language Basics는 건드리지 않는다.
 
-그리고 유료 라이센스를 구입했다면 라이센스 키를 입력해야 한다. <kbd>Cmd</kbd>/<kbd>Ctrl</kbd>-<kbd>Shift</kbd>-<kbd>p</kbd>를 눌러 명령 패널을 연 뒤 `intelephense enter licence key`라고 검색하면 바로 나온다. 입력해 주면 된다.
+2. 유료 라이센스를 구입했다면 라이센스 키를 입력해야 한다. <kbd>Cmd</kbd>/<kbd>Ctrl</kbd>-<kbd>Shift</kbd>-<kbd>p</kbd>를 눌러 명령 패널을 연 뒤 `intelephense enter licence key`라고 검색하면 바로 나온다. 입력해 주면 된다.
 
 
 ## 필수: 클래스 임포트해 주는 PHP Namespace Resolver

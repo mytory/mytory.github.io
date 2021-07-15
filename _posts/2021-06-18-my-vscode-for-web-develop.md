@@ -34,7 +34,7 @@ VSCode도 기본적으로 PHP를 지원하지만 [PHP Intelephense][1]가 가장
 그리고 유료 라이센스를 구입했다면 라이센스 키를 입력해야 한다. <kbd>Cmd</kbd>/<kbd>Ctrl</kbd>-<kbd>Shift</kbd>-<kbd>p</kbd>를 눌러 명령 패널을 연 뒤 `intelephense enter licence key`라고 검색하면 바로 나온다. 입력해 주면 된다.
 
 
-## 필수: PHP Namespace Resolver
+## 필수: 클래스 임포트해 주는 PHP Namespace Resolver
 
 [PHP Namespace Resolver][php-namespace-resolver]는 클래스를 임포트하거나 네임스페이스를 확장해 준다. PHP 개발을 하려면 필수 확장이다. 
 
@@ -45,13 +45,20 @@ VSCode도 기본적으로 PHP를 지원하지만 [PHP Intelephense][1]가 가장
 ![](/uploads/2021/php-namespace-resolver.gif)
 
 
-## Code Spell Checker
+## 강력 추천: 오타 잡는 Code Spell Checker
 
-[Code Spell Checker][2]는 사전에 없는 영어 단어에 밑줄을 그어 주는 플러그인이다. 오타를 잡는 효과적인 수단을 제공해 준다.
+[Code Spell Checker][2]는 사전에 없는 영어 단어에 밑줄을 그어 주는 플러그인이다. 오타를 잡는 효과적인 수단을 제공해 준다. 
 
 ![](/uploads/2021/spell-checker.webp)
 
 사전에 없지만 내 프로젝트에서는 사용하는 단어는 밑줄에서 <kbd>Cmd</kbd>/<kbd>Ctrl</kbd>-<kbd>.</kbd>을 눌렀을 때 나오는 user dictionary 혹은 workspace dictionary에 추가해 준다. 화면에서 밑줄을 없애는 습관을 들이면 오타를 거의 없앨 수 있다.
+
+
+## 강력 추천: 단축키로 파일을 여는 확장 [Open file][open-file]
+
+PhpStorm 등 IDE에서는 심볼(함수, 변수 등) 정의로 점프하는 단축키로 PHP 인클루드 파일이나 SASS 임포트 파일도 열 수 있는데 이상하게 VSCode에서는 심볼 정의로 점프하는 단축키인 F12로 파일을 열 수가 없다.
+
+[Open file][open-file]을 설치하면 <kbd>Alt</kbd>-<kbd>p</kbd>로 파일을 열 수 있다. 확장이 경로를 확실히 찾지 못하면 <kbd>Ctrl</kbd>/<kbd>Cmd</kbd>-<kbd>p</kbd>에 경로의 문자열을 자동으로 넣어 줘서 수동으로 찾는 것을 도와 준다.
 
 
 ## 설정: Auto Save
@@ -77,11 +84,32 @@ PhpStorm에서 자동 저장에 의존하는 습관을 들이는 바람에 VSCod
 ![](/uploads/2021/php-word-separator.webp)
 
 
-## 확장 - 단축키로 파일을 여는 확장 [Open file][open-file]
+## 설정: Emmet 길들이기
 
-PhpStorm 등 IDE에서는 심볼(함수, 변수 등) 정의로 점프하는 단축키로 PHP 인클루드 파일이나 SASS 임포트 파일도 열 수 있는데 이상하게 VSCode에서는 심볼 정의로 점프하는 단축키인 F12로 파일을 열 수가 없다.
+Emmet은 HTML, CSS 사용시 강력한 자동완성 도구다. `.`을 누르고 탭을 누르면 `<div class=""></div>`를 만들어 주니 정말 대단하다. CSS에서는 `d`만 누르고 탭을 누르면 `display: initial`을 자동완성해 준다.
 
-[Open file][open-file]을 설치하면 <kbd>Alt</kbd>-<kbd>p</kbd>로 파일을 열 수 있다. 확장이 경로를 확실히 찾지 못하면 <kbd>Ctrl</kbd>/<kbd>Cmd</kbd>-<kbd>p</kbd>에 경로의 문자열을 자동으로 넣어 줘서 수동으로 찾는 것을 도와 준다.
+그런데 VSCode 내장 Emmet은 아래와 같은 단점이 있다.
+
+- `.`을 누르면 아무 때나 Emmet 확장 후보를 띄워 주고 고르라고 한다. 엔터를 치면 선택해 버린다. 글쓰다가 `.` 누르고 줄바꿈하면 HTML 코드가 확장돼 있다.
+- 다른 에디터와 달리 탭을 눌렀을 때 Emmet이 작동하지 않는다.
+- 마크다운에서는 확장이 작동하지 않는다. 라라벨이 사용하는 블레이드 템플릿에서도 그렇다.
+
+이런 것을 바로잡는 설정이다.
+
+```json
+"emmet.excludeLanguages": [], 
+"emmet.includeLanguages": {
+    "blade": "html",
+    "markdown": "html"
+},
+"emmet.triggerExpansionOnTab": true,
+"emmet.showExpandedAbbreviation": "never"
+```
+
+- `"emmet.excludeLanguages": [],` - 마크다운을 제외 언어에서 뺀다.
+- `"emmet.includeLanguages": ...` - 블레이드와 마크다운을 포함한다.
+- `"emmet.triggerExpansionOnTab": true,` - 탭을 눌러서 실행한다.
+- `"emmet.showExpandedAbbreviation": "never"` - 뭐만 누르면 확장 후보를 보여 주는 기능을 정지한다.
 
 
 ## 찾는 확장
